@@ -1,0 +1,9 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-atoms-chip {
+  width: fit-content;
+  padding: 0 4px;
+  border: solid $color-border 1px;
+  border-radius: 4px;
+  font-size: $small-size;
+}

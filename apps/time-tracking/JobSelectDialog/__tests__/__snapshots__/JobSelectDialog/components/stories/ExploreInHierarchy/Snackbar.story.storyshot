@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/JobSelectDialog/ExploreInHierarchy/Snackbar bottom 1`] = `
+.c3 {
+  position: relative;
+  display: inline-block;
+  background: transparent;
+  width: 24px;
+  height: 28px;
+}
+
+.c4 {
+  background: transparent !important;
+}
+
+.c5 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 13px;
+  color: #fff;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c0 {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 224px;
+  height: 36px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 17px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 12px 0 0;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size="x-small"
+      >
+        <div
+          className="c4 slds-spinner_container"
+        >
+          <div
+            aria-hidden="false"
+            className="slds-spinner slds-spinner_inverse slds-spinner_x-small"
+            role="status"
+          >
+            <span
+              className="slds-assistive-text"
+            >
+              Loading...
+            </span>
+            <div
+              className="slds-spinner__dot-a"
+            />
+            <div
+              className="slds-spinner__dot-b"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <span
+      className="c5"
+      color="base"
+      size="large"
+    >
+      LOADING...
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots time-tracking/JobSelectDialog/ExploreInHierarchy/Snackbar top 1`] = `
+.c3 {
+  fill: #fff;
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c4 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 13px;
+  color: #fff;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c0 {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 224px;
+  height: 36px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 17px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 12px 0 0;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <test-file-stub
+        aria-hidden={true}
+        className="c3"
+        color="base"
+      />
+    </div>
+    <span
+      className="c4"
+      color="base"
+      size="large"
+    >
+      LOOKING FOR....
+    </span>
+  </div>
+</div>
+`;

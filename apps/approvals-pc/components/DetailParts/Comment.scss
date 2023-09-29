@@ -1,0 +1,31 @@
+.approvals-pc-tracking-detail-parts-comment {
+  display: flex;
+  padding-top: 20px;
+  margin: 0 15px 15px;
+
+  &__icon {
+    height: 50px;
+    flex: 0 0 50px;
+    margin-right: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  &__body {
+    position: relative;
+    width: calc(100% - 80px);
+    flex: 1 1 auto;
+    padding: 0.25em 0.5em;
+    border: 1px solid $color-border-default;
+    background-color: #f2f2f2;
+    border-radius: 0.25em;
+    word-wrap: break-word;
+  }
+
+  &__body::before {
+    position: absolute;
+    top: 20px;
+    left: -9px;
+    content: url('../../../commons/images/partsCommentBubbleGray.png');
+  }
+}

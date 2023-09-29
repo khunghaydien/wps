@@ -1,0 +1,8 @@
+@import 'mobile-global-imports.scss';
+@import './text.scss';
+
+html,
+body {
+  font-family: Salesforce Sans, Arial, sans-serif;
+  font-size: $small-size;
+}

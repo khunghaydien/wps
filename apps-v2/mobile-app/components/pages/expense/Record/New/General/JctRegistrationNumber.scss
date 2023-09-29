@@ -1,0 +1,28 @@
+@import '@commons/styles/variables/colors';
+
+.mobile-app-pages-expense-page-record-new-general-jct-registration-number {
+  width: 100%;
+  margin-bottom: 15px;
+
+  & input {
+    border-radius: 0.25rem 0 0 0.25rem;
+  }
+
+  &__btn-confirm {
+    height: 100%;
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+  }
+
+  &__msg-area {
+    margin-top: 5px;
+    color: $color-bg-primary;
+    font-size: 12px;
+  }
+
+  &__confirmed-icon {
+    position: absolute;
+    top: 65%;
+    right: 2%;
+  }
+}

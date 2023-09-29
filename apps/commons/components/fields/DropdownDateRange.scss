@@ -1,0 +1,30 @@
+@import '../../../commons/styles/variables/colors';
+@import '../../../commons/styles/exp/variables/colors';
+
+.commons-fields-dropdown-date {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  margin-top: 4px;
+  border: 1px solid $ts-input-field-border-gray;
+  background-color: $color-bg-pane-first;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px -2px rgba(9, 30, 66, 0.25);
+  width: fit-content;
+  z-index: 1;
+
+  &__date-buttons {
+    margin: 16px 0;
+    text-align: center;
+
+    button {
+      margin-right: 8px;
+    }
+  }
+
+  &__error {
+    color: $ts-warning;
+    text-align: center;
+  }
+}

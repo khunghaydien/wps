@@ -1,0 +1,122 @@
+.approvals-pc-att-monthly-process-list-pane-detail-record-table {
+  max-width: 1124px;
+  padding: 0 15px;
+  margin: 0 0 16px;
+
+  &__header {
+    font-size: $font-size-large;
+    line-height: 32px;
+  }
+
+  &__footer {
+    line-height: 32px;
+  }
+
+  &__table {
+    background: $color-bg-tbody-row;
+    border-collapse: collapse;
+  }
+
+  &__table > caption {
+    font-size: $font-size-x-large;
+    line-height: 32px;
+  }
+
+  &__table > thead > tr > th,
+  &__table > tbody > tr > td,
+  &__table > tfoot > tr > td {
+    padding: 2px 8px;
+    border: 1px solid $color-border-default;
+
+    @media print {
+      padding: 1px 4px;
+    }
+  }
+
+  &__table > thead > tr > th {
+    background: $color-bg-heading;
+    color: $color-text-modest;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  &__table > tbody {
+    border: 1px solid $color-border-default;
+  }
+
+  &__table > tbody > tr > td {
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+  }
+
+  &__table > tbody > tr > td hr {
+    margin: 0.5rem 0;
+  }
+
+  &__divider {
+    height: 2px;
+  }
+
+  &__col-date {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  &__col-date-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__col-date-icon {
+    align-self: center;
+    padding-right: 10px;
+  }
+
+  &__col-date-icon img {
+    width: 18px;
+    max-width: 18px;
+    height: 18px;
+  }
+
+  &__col-date-date {
+    align-self: center;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  &__col-date-sign {
+    text-align: center;
+  }
+
+  &__col-time {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  &__col-time--modified {
+    text-align: right;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+
+  &__col-duration {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  &__system-remarks {
+    color: $color-text-emphasis;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  &__col-label {
+    background: $color-bg-heading;
+    color: $color-text-modest;
+  }
+
+  &__text-approval-type {
+    color: $color-text-emphasis;
+  }
+}

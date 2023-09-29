@@ -1,0 +1,46 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-ei-lookup {
+  .main-content {
+    height: calc(100vh - 165px);
+    padding: 0 $small-size;
+  }
+
+  .mobile-app-molecules-commons-field-search-field {
+    padding: 48px $small-size 0;
+  }
+
+  &__result {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &__item {
+    width: 100%;
+    min-height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &__option {
+    width: 100%;
+  }
+
+  &__extra-row {
+    @media screen and (max-width: 375px) {
+      font-size: 14px;
+    }
+  }
+
+  &__label {
+    padding: $medium-size $small-size;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &__has-more {
+    color: $color-red-800;
+    text-align: center;
+  }
+}

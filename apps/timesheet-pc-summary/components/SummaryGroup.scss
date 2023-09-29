@@ -1,0 +1,7 @@
+.timesheet-pc-summary-summary-group {
+  border: 1px solid $color-border-default;
+
+  &:not(:last-of-type) {
+    border-bottom: 0;
+  }
+}

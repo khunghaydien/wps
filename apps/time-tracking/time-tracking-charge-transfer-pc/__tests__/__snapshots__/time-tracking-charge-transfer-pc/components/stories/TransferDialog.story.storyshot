@@ -1,0 +1,2704 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/time-tracking-charge-transfer-pc/Transfer Dialog Has destination task 1`] = `
+.c18 {
+  fill: #999;
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c41 {
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c42 {
+  width: 12px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  fill: #666;
+}
+
+.c40 {
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 28px;
+  width: 28px;
+  padding: 0;
+}
+
+.c40:hover {
+  background: #f3f2f2;
+}
+
+.c40:active {
+  background: #e5e5e5;
+}
+
+.c40:disabled,
+.c40:disabled:active,
+.c40:disabled:hover {
+  color: #d9d9d9;
+  background: none;
+}
+
+.c45 {
+  min-height: 32px;
+  border-radius: 4px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 16px;
+  font-size: 13px;
+  line-height: 17px;
+  background: #fff;
+  color: #2782ed;
+  border: 1px solid #d9d9d9;
+}
+
+.c45:hover {
+  background: #f3f2f2;
+}
+
+.c45:active {
+  background: #e5e5e5;
+}
+
+.c45:disabled {
+  background: #fff;
+  color: #d9d9d9;
+}
+
+.c47 {
+  min-height: 32px;
+  border-radius: 4px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 16px;
+  font-size: 13px;
+  line-height: 17px;
+  background: #2782ed;
+  color: #fff;
+  border: none;
+}
+
+.c47:hover {
+  background: #1b59c9;
+}
+
+.c47:active {
+  background: #144399;
+}
+
+.c47:disabled {
+  background: #abbacd;
+}
+
+.c16 {
+  width: 100%;
+  height: 32px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 0 12px;
+  font-size: 13px;
+  line-height: 17px;
+  cursor: pointer;
+}
+
+.c15 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.c17 {
+  position: absolute;
+  right: 12px;
+  top: 5px;
+}
+
+.c1 {
+  background: transparent;
+}
+
+.c2 {
+  background: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c3 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0 0 12px 0;
+}
+
+.c3:hover {
+  cursor: pointer;
+}
+
+.c4 {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #fff;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.c6 {
+  height: 60px;
+  background: #f4f6f9;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 1px solid #d8dde6;
+}
+
+.c7 {
+  color: #53688c;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 0 16px 20px;
+}
+
+.c43 {
+  height: 60px;
+  background: #f4f6f9;
+  border-top: 1px solid #d8dde6;
+  border-radius: 0 0 4px 4px;
+}
+
+.c31 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.c37 {
+  content: ' ';
+  width: 8px;
+  height: 5px;
+  border: 5px solid transparent;
+  border-color: #666 transparent transparent transparent;
+  margin: 5px 0 0 0;
+}
+
+.c32 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  outline: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 32px;
+  color: #333;
+  font-size: 13px;
+  line-height: normal;
+  padding: 0 13px 0 17px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.c32:hover {
+  background: #f3f2f2;
+}
+
+.c32:active,
+.c32:focus {
+  border: 1px solid #2782ed;
+  box-shadow: 0 0 3px #0070d2;
+}
+
+.c32[readonly] {
+  background: #eee;
+}
+
+.c33 {
+  width: 100%;
+}
+
+.c33,
+.c33 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0 4px 0 0;
+}
+
+.c10 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 12px;
+  color: #666;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c27 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 10px;
+  color: #333;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c29 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 13px;
+  color: #333;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c24 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.c25 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 270px;
+  margin: 0 40px 0 0;
+}
+
+.c26 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c28 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c30 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 272px;
+}
+
+.c34 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c35 {
+  line-height: 1;
+}
+
+.c36 {
+  line-height: 1.2;
+}
+
+.c38 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c39 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.c14 {
+  width: 160px;
+}
+
+.c19 {
+  width: 76px;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c9 {
+  height: 26px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f8f8f8;
+  border-bottom: 1px solid #d8dde6;
+  padding: 4px 26px;
+}
+
+.c13 {
+  height: 64px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #d8dde6;
+  padding: 4px 26px;
+}
+
+.c22 {
+  height: 96px;
+  border-bottom: 1px solid #d8dde6;
+}
+
+.c22:last-of-type {
+  border-bottom: none;
+}
+
+.c23 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  height: 48px;
+  border-bottom: 1px solid #d8dde6;
+  padding: 4px 26px;
+}
+
+.c12 {
+  width: 76px;
+}
+
+.c21 {
+  width: 40px;
+}
+
+.c11 {
+  width: 160px;
+}
+
+.c20 {
+  width: 270px;
+}
+
+.c44 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 0 20px;
+  height: 60px;
+  background: #f4f6f9;
+  border-radius: 0 0 4px 4px;
+}
+
+.c46 {
+  padding: 0 16px;
+  margin-left: 16px;
+}
+
+.c0 {
+  min-width: 900px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    data-testid="transfer-dialog"
+  >
+    <div
+      className="c2"
+    >
+      <button
+        className="c3"
+        data-testid="transfer-dialog__close-button"
+        onClick={[Function]}
+      >
+        <test-file-stub
+          className="c4"
+        />
+      </button>
+    </div>
+    <div
+      className="c5"
+    >
+      <div
+        className="c6"
+      >
+        <h2
+          className="c7"
+        >
+          {$Trac_Lbl_TimeTrackingChargeTransfer}
+        </h2>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className="c8"
+        >
+          <div
+            className="c9"
+          >
+            <span
+              className="c10 c11"
+              color="secondary"
+              width="160"
+            >
+              Start Date
+            </span>
+            <div
+              className="c12"
+              width="76"
+            />
+            <span
+              className="c10"
+              color="secondary"
+            >
+              End Date
+            </span>
+          </div>
+          <div
+            className="c13"
+          >
+            <div
+              className="c14"
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <div
+                      className="c15"
+                    >
+                      <input
+                        className="c16"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        value="Tue, 12/01/2020"
+                      />
+                      <div
+                        className="c17"
+                      >
+                        <test-file-stub
+                          aria-hidden={true}
+                          className="c18"
+                          color="disable"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="c19"
+            />
+            <div
+              className="c14"
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <div
+                      className="c15"
+                    >
+                      <input
+                        className="c16"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        value="Thu, 12/31/2020"
+                      />
+                      <div
+                        className="c17"
+                      >
+                        <test-file-stub
+                          aria-hidden={true}
+                          className="c18"
+                          color="disable"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="c9"
+          >
+            <span
+              className="c10 c20"
+              color="secondary"
+              width="270"
+            >
+              Source Job
+            </span>
+            <div
+              className="c21"
+              width="40"
+            />
+            <span
+              className="c10"
+              color="secondary"
+            >
+              Work Category
+            </span>
+          </div>
+          <div
+            className="c22"
+          >
+            <div
+              className="c23"
+            >
+              <div
+                className="c24"
+              >
+                <div
+                  className="c25"
+                >
+                  <span
+                    className="c26"
+                  >
+                    <span
+                      className="c27"
+                      size="small"
+                    >
+                      EPIC-WPB-1000
+                    </span>
+                  </span>
+                  <span
+                    className="c28"
+                  >
+                    <span
+                      className="c29"
+                      size="large"
+                    >
+                      Develop Time Tracking Charge Transfer
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="c30"
+                >
+                  <div
+                    className="c31"
+                  >
+                    <button
+                      aria-expanded={false}
+                      aria-haspopup="listbox"
+                      aria-readonly={true}
+                      className="c32"
+                      onClick={[Function]}
+                      placeholder="Select"
+                      readOnly={true}
+                      value="1"
+                    >
+                      <div
+                        className="c33"
+                      >
+                        <div
+                          className="c34"
+                        >
+                          <span
+                            className="c10 c35"
+                            color="secondary"
+                            size="medium"
+                          >
+                            DEV-003
+                          </span>
+                          <span
+                            className="c29 c36"
+                            color="primary"
+                            size="large"
+                          >
+                            Testing
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        className="c37"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="c9"
+          >
+            <span
+              className="c10 c20"
+              color="secondary"
+              width="270"
+            >
+              Destination Job
+            </span>
+            <div
+              className="c21"
+              width="40"
+            />
+            <span
+              className="c10"
+              color="secondary"
+            >
+              Work Category
+            </span>
+          </div>
+          <div
+            className="c22"
+          >
+            <div
+              className="c23"
+            >
+              <div
+                className="c38"
+              >
+                <div
+                  className="c24"
+                >
+                  <div
+                    className="c25"
+                  >
+                    <span
+                      className="c26"
+                    >
+                      <span
+                        className="c27"
+                        size="small"
+                      >
+                        EPIC-WPB-1000
+                      </span>
+                    </span>
+                    <span
+                      className="c28"
+                    >
+                      <span
+                        className="c29"
+                        size="large"
+                      >
+                        Develop Time Tracking Charge Transfer
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    className="c30"
+                  >
+                    <div
+                      className="c31"
+                    >
+                      <button
+                        aria-expanded={false}
+                        aria-haspopup="listbox"
+                        aria-readonly={false}
+                        className="c32"
+                        onClick={[Function]}
+                        placeholder="Select"
+                        readOnly={false}
+                        value="1"
+                      >
+                        <div
+                          className="c33"
+                        >
+                          <div
+                            className="c34"
+                          >
+                            <span
+                              className="c10 c35"
+                              color="secondary"
+                              size="medium"
+                            >
+                              DEV-003
+                            </span>
+                            <span
+                              className="c29 c36"
+                              color="primary"
+                              size="large"
+                            >
+                              Testing
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          className="c37"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="c39"
+                >
+                  <button
+                    className="c40"
+                    color="#666"
+                    onClick={[Function]}
+                  >
+                    <test-file-stub
+                      aria-hidden={true}
+                      className="c41 c42"
+                      color="#666"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c43"
+      >
+        <div
+          className="c44"
+        >
+          <button
+            className="c45 c46"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+          <button
+            className="c47 c46"
+            color="primary"
+            onClick={[Function]}
+          >
+            Save
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots time-tracking/time-tracking-charge-transfer-pc/Transfer Dialog Long Task 1`] = `
+.c18 {
+  fill: #999;
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c41 {
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c42 {
+  width: 12px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  fill: #666;
+}
+
+.c40 {
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 28px;
+  width: 28px;
+  padding: 0;
+}
+
+.c40:hover {
+  background: #f3f2f2;
+}
+
+.c40:active {
+  background: #e5e5e5;
+}
+
+.c40:disabled,
+.c40:disabled:active,
+.c40:disabled:hover {
+  color: #d9d9d9;
+  background: none;
+}
+
+.c45 {
+  min-height: 32px;
+  border-radius: 4px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 16px;
+  font-size: 13px;
+  line-height: 17px;
+  background: #fff;
+  color: #2782ed;
+  border: 1px solid #d9d9d9;
+}
+
+.c45:hover {
+  background: #f3f2f2;
+}
+
+.c45:active {
+  background: #e5e5e5;
+}
+
+.c45:disabled {
+  background: #fff;
+  color: #d9d9d9;
+}
+
+.c47 {
+  min-height: 32px;
+  border-radius: 4px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 16px;
+  font-size: 13px;
+  line-height: 17px;
+  background: #2782ed;
+  color: #fff;
+  border: none;
+}
+
+.c47:hover {
+  background: #1b59c9;
+}
+
+.c47:active {
+  background: #144399;
+}
+
+.c47:disabled {
+  background: #abbacd;
+}
+
+.c16 {
+  width: 100%;
+  height: 32px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 0 12px;
+  font-size: 13px;
+  line-height: 17px;
+  cursor: pointer;
+}
+
+.c15 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.c17 {
+  position: absolute;
+  right: 12px;
+  top: 5px;
+}
+
+.c1 {
+  background: transparent;
+}
+
+.c2 {
+  background: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c3 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0 0 12px 0;
+}
+
+.c3:hover {
+  cursor: pointer;
+}
+
+.c4 {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #fff;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.c6 {
+  height: 60px;
+  background: #f4f6f9;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 1px solid #d8dde6;
+}
+
+.c7 {
+  color: #53688c;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 0 16px 20px;
+}
+
+.c43 {
+  height: 60px;
+  background: #f4f6f9;
+  border-top: 1px solid #d8dde6;
+  border-radius: 0 0 4px 4px;
+}
+
+.c31 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.c37 {
+  content: ' ';
+  width: 8px;
+  height: 5px;
+  border: 5px solid transparent;
+  border-color: #666 transparent transparent transparent;
+  margin: 5px 0 0 0;
+}
+
+.c32 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  outline: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 32px;
+  color: #333;
+  font-size: 13px;
+  line-height: normal;
+  padding: 0 13px 0 17px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.c32:hover {
+  background: #f3f2f2;
+}
+
+.c32:active,
+.c32:focus {
+  border: 1px solid #2782ed;
+  box-shadow: 0 0 3px #0070d2;
+}
+
+.c32[readonly] {
+  background: #eee;
+}
+
+.c33 {
+  width: 100%;
+}
+
+.c33,
+.c33 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0 4px 0 0;
+}
+
+.c10 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 12px;
+  color: #666;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c27 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 10px;
+  color: #333;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c29 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 13px;
+  color: #333;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c24 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.c25 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 270px;
+  margin: 0 40px 0 0;
+}
+
+.c26 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c28 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c30 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 272px;
+}
+
+.c34 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c35 {
+  line-height: 1;
+}
+
+.c36 {
+  line-height: 1.2;
+}
+
+.c38 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c39 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.c14 {
+  width: 160px;
+}
+
+.c19 {
+  width: 76px;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c9 {
+  height: 26px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f8f8f8;
+  border-bottom: 1px solid #d8dde6;
+  padding: 4px 26px;
+}
+
+.c13 {
+  height: 64px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #d8dde6;
+  padding: 4px 26px;
+}
+
+.c22 {
+  height: 96px;
+  border-bottom: 1px solid #d8dde6;
+}
+
+.c22:last-of-type {
+  border-bottom: none;
+}
+
+.c23 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  height: 48px;
+  border-bottom: 1px solid #d8dde6;
+  padding: 4px 26px;
+}
+
+.c12 {
+  width: 76px;
+}
+
+.c21 {
+  width: 40px;
+}
+
+.c11 {
+  width: 160px;
+}
+
+.c20 {
+  width: 270px;
+}
+
+.c44 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 0 20px;
+  height: 60px;
+  background: #f4f6f9;
+  border-radius: 0 0 4px 4px;
+}
+
+.c46 {
+  padding: 0 16px;
+  margin-left: 16px;
+}
+
+.c0 {
+  min-width: 900px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    data-testid="transfer-dialog"
+  >
+    <div
+      className="c2"
+    >
+      <button
+        className="c3"
+        data-testid="transfer-dialog__close-button"
+        onClick={[Function]}
+      >
+        <test-file-stub
+          className="c4"
+        />
+      </button>
+    </div>
+    <div
+      className="c5"
+    >
+      <div
+        className="c6"
+      >
+        <h2
+          className="c7"
+        >
+          {$Trac_Lbl_TimeTrackingChargeTransfer}
+        </h2>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className="c8"
+        >
+          <div
+            className="c9"
+          >
+            <span
+              className="c10 c11"
+              color="secondary"
+              width="160"
+            >
+              Start Date
+            </span>
+            <div
+              className="c12"
+              width="76"
+            />
+            <span
+              className="c10"
+              color="secondary"
+            >
+              End Date
+            </span>
+          </div>
+          <div
+            className="c13"
+          >
+            <div
+              className="c14"
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <div
+                      className="c15"
+                    >
+                      <input
+                        className="c16"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        value="Tue, 12/01/2020"
+                      />
+                      <div
+                        className="c17"
+                      >
+                        <test-file-stub
+                          aria-hidden={true}
+                          className="c18"
+                          color="disable"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="c19"
+            />
+            <div
+              className="c14"
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <div
+                      className="c15"
+                    >
+                      <input
+                        className="c16"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        value="Thu, 12/31/2020"
+                      />
+                      <div
+                        className="c17"
+                      >
+                        <test-file-stub
+                          aria-hidden={true}
+                          className="c18"
+                          color="disable"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="c9"
+          >
+            <span
+              className="c10 c20"
+              color="secondary"
+              width="270"
+            >
+              Source Job
+            </span>
+            <div
+              className="c21"
+              width="40"
+            />
+            <span
+              className="c10"
+              color="secondary"
+            >
+              Work Category
+            </span>
+          </div>
+          <div
+            className="c22"
+          >
+            <div
+              className="c23"
+            >
+              <div
+                className="c24"
+              >
+                <div
+                  className="c25"
+                >
+                  <span
+                    className="c26"
+                  >
+                    <span
+                      className="c27"
+                      size="small"
+                    >
+                      EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000 
+                    </span>
+                  </span>
+                  <span
+                    className="c28"
+                  >
+                    <span
+                      className="c29"
+                      size="large"
+                    >
+                      Develop Time Tracking Charge Transfer Long Develop Time Tracking Charge Transfer Long Develop Time Tracking Charge Transfer Long
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="c30"
+                >
+                  <div
+                    className="c31"
+                  >
+                    <button
+                      aria-expanded={false}
+                      aria-haspopup="listbox"
+                      aria-readonly={true}
+                      className="c32"
+                      onClick={[Function]}
+                      placeholder="Select"
+                      readOnly={true}
+                      value="1"
+                    >
+                      <div
+                        className="c33"
+                      >
+                        <div
+                          className="c34"
+                        >
+                          <span
+                            className="c10 c35"
+                            color="secondary"
+                            size="medium"
+                          >
+                            DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003
+                          </span>
+                          <span
+                            className="c29 c36"
+                            color="primary"
+                            size="large"
+                          >
+                            Testing TestingTestingTestingTestingTestingTestingTestingTestingTestingTestingTestingTestingTestingTesting
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        className="c37"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="c9"
+          >
+            <span
+              className="c10 c20"
+              color="secondary"
+              width="270"
+            >
+              Destination Job
+            </span>
+            <div
+              className="c21"
+              width="40"
+            />
+            <span
+              className="c10"
+              color="secondary"
+            >
+              Work Category
+            </span>
+          </div>
+          <div
+            className="c22"
+          >
+            <div
+              className="c23"
+            >
+              <div
+                className="c38"
+              >
+                <div
+                  className="c24"
+                >
+                  <div
+                    className="c25"
+                  >
+                    <span
+                      className="c26"
+                    >
+                      <span
+                        className="c27"
+                        size="small"
+                      >
+                        EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000
+                      </span>
+                    </span>
+                    <span
+                      className="c28"
+                    >
+                      <span
+                        className="c29"
+                        size="large"
+                      >
+                        Develop Time Tracking Charge Transfer Long Develop Time Tracking Charge Transfer Long Develop Time Tracking Charge Transfer Long
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    className="c30"
+                  >
+                    <div
+                      className="c31"
+                    >
+                      <button
+                        aria-expanded={false}
+                        aria-haspopup="listbox"
+                        aria-readonly={false}
+                        className="c32"
+                        onClick={[Function]}
+                        placeholder="Select"
+                        readOnly={false}
+                        value="1"
+                      >
+                        <div
+                          className="c33"
+                        >
+                          <div
+                            className="c34"
+                          >
+                            <span
+                              className="c10 c35"
+                              color="secondary"
+                              size="medium"
+                            >
+                              DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003
+                            </span>
+                            <span
+                              className="c29 c36"
+                              color="primary"
+                              size="large"
+                            >
+                              Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          className="c37"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="c39"
+                >
+                  <button
+                    className="c40"
+                    color="#666"
+                    onClick={[Function]}
+                  >
+                    <test-file-stub
+                      aria-hidden={true}
+                      className="c41 c42"
+                      color="#666"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c43"
+      >
+        <div
+          className="c44"
+        >
+          <button
+            className="c45 c46"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+          <button
+            className="c47 c46"
+            color="primary"
+            onClick={[Function]}
+          >
+            Save
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots time-tracking/time-tracking-charge-transfer-pc/Transfer Dialog No destination task 1`] = `
+.c18 {
+  fill: #999;
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c40 {
+  fill: #333;
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c45 {
+  min-height: 32px;
+  border-radius: 4px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 16px;
+  font-size: 13px;
+  line-height: 17px;
+  background: #fff;
+  color: #2782ed;
+  border: 1px solid #d9d9d9;
+}
+
+.c45:hover {
+  background: #f3f2f2;
+}
+
+.c45:active {
+  background: #e5e5e5;
+}
+
+.c45:disabled {
+  background: #fff;
+  color: #d9d9d9;
+}
+
+.c47 {
+  min-height: 32px;
+  border-radius: 4px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 16px;
+  font-size: 13px;
+  line-height: 17px;
+  background: #2782ed;
+  color: #fff;
+  border: none;
+}
+
+.c47:hover {
+  background: #1b59c9;
+}
+
+.c47:active {
+  background: #144399;
+}
+
+.c47:disabled {
+  background: #abbacd;
+}
+
+.c16 {
+  width: 100%;
+  height: 32px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 0 12px;
+  font-size: 13px;
+  line-height: 17px;
+  cursor: pointer;
+}
+
+.c15 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.c17 {
+  position: absolute;
+  right: 12px;
+  top: 5px;
+}
+
+.c1 {
+  background: transparent;
+}
+
+.c2 {
+  background: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c3 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0 0 12px 0;
+}
+
+.c3:hover {
+  cursor: pointer;
+}
+
+.c4 {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #fff;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.c6 {
+  height: 60px;
+  background: #f4f6f9;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 1px solid #d8dde6;
+}
+
+.c7 {
+  color: #53688c;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 0 16px 20px;
+}
+
+.c43 {
+  height: 60px;
+  background: #f4f6f9;
+  border-top: 1px solid #d8dde6;
+  border-radius: 0 0 4px 4px;
+}
+
+.c31 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.c37 {
+  content: ' ';
+  width: 8px;
+  height: 5px;
+  border: 5px solid transparent;
+  border-color: #666 transparent transparent transparent;
+  margin: 5px 0 0 0;
+}
+
+.c32 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  outline: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 32px;
+  color: #333;
+  font-size: 13px;
+  line-height: normal;
+  padding: 0 13px 0 17px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.c32:hover {
+  background: #f3f2f2;
+}
+
+.c32:active,
+.c32:focus {
+  border: 1px solid #2782ed;
+  box-shadow: 0 0 3px #0070d2;
+}
+
+.c32[readonly] {
+  background: #eee;
+}
+
+.c33 {
+  width: 100%;
+}
+
+.c33,
+.c33 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0 4px 0 0;
+}
+
+.c39 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0;
+  color: #2782ed;
+}
+
+.c39:disabled,
+.c39 [disabled='true'] {
+  color: #999;
+}
+
+.c39:hover {
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.c39:disabled:hover,
+.c39 [disabled='true']:hover {
+  cursor: default;
+}
+
+.c42 {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.c41 {
+  fill: currentColor;
+  height: 12px;
+  width: 12px;
+}
+
+.c41[iconPosition='left'] {
+  margin: 0 8px 0 0;
+}
+
+.c41[iconPosition='right'] {
+  margin: 0 0 0 8px;
+}
+
+.c10 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 12px;
+  color: #666;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c27 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 10px;
+  color: #333;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c29 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 13px;
+  color: #333;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c24 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.c25 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 270px;
+  margin: 0 40px 0 0;
+}
+
+.c26 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c28 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c30 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 272px;
+}
+
+.c34 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c35 {
+  line-height: 1;
+}
+
+.c36 {
+  line-height: 1.2;
+}
+
+.c14 {
+  width: 160px;
+}
+
+.c19 {
+  width: 76px;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c9 {
+  height: 26px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f8f8f8;
+  border-bottom: 1px solid #d8dde6;
+  padding: 4px 26px;
+}
+
+.c13 {
+  height: 64px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #d8dde6;
+  padding: 4px 26px;
+}
+
+.c22 {
+  height: 96px;
+  border-bottom: 1px solid #d8dde6;
+}
+
+.c22:last-of-type {
+  border-bottom: none;
+}
+
+.c23 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  height: 48px;
+  border-bottom: 1px solid #d8dde6;
+  padding: 4px 26px;
+}
+
+.c38 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  padding: 4px 26px;
+}
+
+.c12 {
+  width: 76px;
+}
+
+.c21 {
+  width: 40px;
+}
+
+.c11 {
+  width: 160px;
+}
+
+.c20 {
+  width: 270px;
+}
+
+.c44 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 0 20px;
+  height: 60px;
+  background: #f4f6f9;
+  border-radius: 0 0 4px 4px;
+}
+
+.c46 {
+  padding: 0 16px;
+  margin-left: 16px;
+}
+
+.c0 {
+  min-width: 900px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    data-testid="transfer-dialog"
+  >
+    <div
+      className="c2"
+    >
+      <button
+        className="c3"
+        data-testid="transfer-dialog__close-button"
+        onClick={[Function]}
+      >
+        <test-file-stub
+          className="c4"
+        />
+      </button>
+    </div>
+    <div
+      className="c5"
+    >
+      <div
+        className="c6"
+      >
+        <h2
+          className="c7"
+        >
+          {$Trac_Lbl_TimeTrackingChargeTransfer}
+        </h2>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className="c8"
+        >
+          <div
+            className="c9"
+          >
+            <span
+              className="c10 c11"
+              color="secondary"
+              width="160"
+            >
+              Start Date
+            </span>
+            <div
+              className="c12"
+              width="76"
+            />
+            <span
+              className="c10"
+              color="secondary"
+            >
+              End Date
+            </span>
+          </div>
+          <div
+            className="c13"
+          >
+            <div
+              className="c14"
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <div
+                      className="c15"
+                    >
+                      <input
+                        className="c16"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        value="Tue, 12/01/2020"
+                      />
+                      <div
+                        className="c17"
+                      >
+                        <test-file-stub
+                          aria-hidden={true}
+                          className="c18"
+                          color="disable"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="c19"
+            />
+            <div
+              className="c14"
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <div
+                      className="c15"
+                    >
+                      <input
+                        className="c16"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        value="Thu, 12/31/2020"
+                      />
+                      <div
+                        className="c17"
+                      >
+                        <test-file-stub
+                          aria-hidden={true}
+                          className="c18"
+                          color="disable"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="c9"
+          >
+            <span
+              className="c10 c20"
+              color="secondary"
+              width="270"
+            >
+              Source Job
+            </span>
+            <div
+              className="c21"
+              width="40"
+            />
+            <span
+              className="c10"
+              color="secondary"
+            >
+              Work Category
+            </span>
+          </div>
+          <div
+            className="c22"
+          >
+            <div
+              className="c23"
+            >
+              <div
+                className="c24"
+              >
+                <div
+                  className="c25"
+                >
+                  <span
+                    className="c26"
+                  >
+                    <span
+                      className="c27"
+                      size="small"
+                    >
+                      EPIC-WPB-1000
+                    </span>
+                  </span>
+                  <span
+                    className="c28"
+                  >
+                    <span
+                      className="c29"
+                      size="large"
+                    >
+                      Develop Time Tracking Charge Transfer
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="c30"
+                >
+                  <div
+                    className="c31"
+                  >
+                    <button
+                      aria-expanded={false}
+                      aria-haspopup="listbox"
+                      aria-readonly={true}
+                      className="c32"
+                      onClick={[Function]}
+                      placeholder="Select"
+                      readOnly={true}
+                      value="1"
+                    >
+                      <div
+                        className="c33"
+                      >
+                        <div
+                          className="c34"
+                        >
+                          <span
+                            className="c10 c35"
+                            color="secondary"
+                            size="medium"
+                          >
+                            DEV-003
+                          </span>
+                          <span
+                            className="c29 c36"
+                            color="primary"
+                            size="large"
+                          >
+                            Testing
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        className="c37"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="c9"
+          >
+            <span
+              className="c10 c20"
+              color="secondary"
+              width="270"
+            >
+              Destination Job
+            </span>
+            <div
+              className="c21"
+              width="40"
+            />
+            <span
+              className="c10"
+              color="secondary"
+            >
+              Work Category
+            </span>
+          </div>
+          <div
+            className="c22"
+          >
+            <div
+              className="c38"
+            >
+              <button
+                className="c39"
+                onClick={[Function]}
+                type="button"
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="c40 c41"
+                />
+                <div
+                  className="c42"
+                  size="large"
+                >
+                  Select Job
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c43"
+      >
+        <div
+          className="c44"
+        >
+          <button
+            className="c45 c46"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+          <button
+            className="c47 c46"
+            color="primary"
+            onClick={[Function]}
+          >
+            Save
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

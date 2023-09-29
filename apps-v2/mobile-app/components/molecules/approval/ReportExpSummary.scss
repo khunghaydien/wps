@@ -1,0 +1,51 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-approval-exp-report-summary {
+  display: flex;
+  margin-bottom: -8px;
+
+  &__person {
+    width: 50px;
+  }
+
+  &__detail {
+    width: calc(100% - 50px);
+  }
+
+  &__subject {
+    text-align: left;
+  }
+
+  &__name,
+  &__status {
+    display: flex;
+    font-size: $small-size;
+  }
+
+  &__bottom {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -6px;
+
+    &__date {
+      display: flex;
+      align-items: center;
+      align-self: flex-end;
+      color: $color-blue-800;
+      font-size: $small-size;
+    }
+
+    &__date-title {
+      margin-right: $base-size;
+    }
+
+    &__amount {
+      display: flex;
+      align-items: flex-start;
+      text-align: right;
+      flex: 1;
+    }
+  }
+}

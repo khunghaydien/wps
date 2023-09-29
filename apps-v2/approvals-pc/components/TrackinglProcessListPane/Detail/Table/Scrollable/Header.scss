@@ -1,0 +1,19 @@
+.approvals-pc-tracking-process-list-pane-detail-table-header {
+  display: flex;
+  height: 35px;
+
+  &__cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid $color-border-default;
+    border-bottom: 1px solid $color-border-default;
+    background-color: $color-bg-heading;
+    color: $color-text-modest;
+    font-size: $font-size-small;
+  }
+
+  &__cell:last-child {
+    border-right: none;
+  }
+}

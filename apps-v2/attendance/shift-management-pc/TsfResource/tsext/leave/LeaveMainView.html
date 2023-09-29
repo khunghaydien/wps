@@ -1,0 +1,69 @@
+<div class="tsext-leave">
+	<ul class="tsext-pankz">
+		<li><a href="#!menu">メニュー</a></li>
+		<li class="tsext-pankz-div">＞</li>
+		<li>日数休暇管理・休暇計算確認</li>
+	</ul>
+	<div class="tsext-error" style="display:none;margin-top:20px;margin-left:0px;">
+	</div>
+	<div class="tsext-leave-view" style="min-height:360px;min-width:900px;">
+		<table class="tsext-leave-reception">
+		<tr>
+			<td>
+				社員
+			</td>
+			<td>
+				<select id="leaveEmps" style="margin-right:10px;min-width:100px;">
+				</select>
+			</td>
+			<td>
+				<input type="button" value="社員設定を開く" id="leaveEmpEdit"       class="buttonw" style="margin-right:4px;" />
+				<input type="button" value="勤怠設定履歴"   id="leaveConfigHistory" class="buttonw" style="margin-right:4px;" />
+				<input type="button" value="勤怠月次"       id="leaveMonthRanges"   class="buttonw" style="margin-right:4px;" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				休暇管理名
+			</td>
+			<td>
+				<select id="leaveManageNames" style="min-width:100px;">
+				</select>
+			</td>
+			<td>
+				<input type="button" value="休暇一覧"     id="leaveHolidays"      class="buttonw" style="margin-right:4px;" />
+			</td>
+		</tr>
+		</table>
+		<div style="margin:16px 8px;">
+			<div style="margin:8px;">
+				<input type="button" value="全消去"       id="leaveAllClear"   style="margin-right:8px;display:none;" />
+				<input type="button" value="付与"         id="leaveAddProvide" style="margin-right:4px;" />
+				<input type="button" value="マイナス付与" id="leaveAddMinus"   style="margin-right:4px;" />
+				<input type="button" value="消化"         id="leaveAddSpend"   style="margin-right:8px;display:none;" />
+				<input type="button" value="更新"         id="leaveRefresh"    style="margin-right:8px;" />
+				<input type="button" value="CSV"          id="leaveDownload"   style="margin-right:8px;" />
+				<span style="margin-right:4px;">表示モード</span>
+				<select id="leaveViewMode" style="margin-right:8px;">
+					<option value="0">時系列順</option>
+					<option value="1">付与別  </option>
+				</select>
+				<span style="margin-right:4px;">切上単位</span>
+				<select id="leaveStepValue" style="margin-right:8px;">
+					<option value="30">30分</option>
+					<option value="60">60分</option>
+				</select>
+				<input type="text" value="" id="leaveTargetDate" style="width:92px;text-align:center;border:1px solid gray;cursor:pointer;padding:1px 0px;" />
+				<span id="leaveRemainDays" style="margin-right:8px;"></span>
+				<input type="button" value="再計算" id="leaveRebuild" style="margin-right:8px;display:none;" />
+			</div>
+		</div>
+		<div style="margin:16px 8px;">
+			<div id="leaveTableArea" class="tsext-leave-table" style="margin:8px;">
+			</div>
+		</div>
+		<div style="display:none;">
+			<a id="leaveDownloadLink"></a>
+		</div>
+	</div>
+</div>

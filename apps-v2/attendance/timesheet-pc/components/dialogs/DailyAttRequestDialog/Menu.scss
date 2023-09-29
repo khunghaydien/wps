@@ -1,0 +1,55 @@
+.timesheet-pc-dialogs-daily-att-request-dialog-menu {
+  border-right: 1px solid #eee;
+  height: 100%;
+  overflow-y: auto;
+
+  &__title {
+    padding: 8px 0 8px 20px;
+    font-size: $font-size-default;
+    font-weight: bold;
+  }
+
+  &__item-button {
+    display: flex;
+    width: 100%;
+    padding: 6px 0 6px 20px;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: $color-text-default;
+    text-align: left;
+    font-size: $font-size-default;
+
+    &:hover {
+      background-color: #f3f2f2;
+    }
+
+    &--selected {
+      background-color: #ebf3f7;
+    }
+  }
+
+  &__item-button-icon {
+    width: 24px;
+    min-width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__item-button-content {
+    padding-left: 4px;
+    padding-right: 4px;
+    // anywhere は新しく追加された overflow-wrap プロパティの値。
+    // flex プロパティなどで幅を指定したり、 width : min-content の時の幅を考慮する。
+    // （brake-word は最小幅を考慮できない）
+    overflow-wrap: anywhere;
+
+    &--selected {
+      color: #2782ed;
+      font-weight: bold;
+    }
+  }
+}

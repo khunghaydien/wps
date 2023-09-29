@@ -1,0 +1,40 @@
+.timesheet-pc-dialogs-daily-att-request-dialog-form-row {
+  display: flex;
+
+  &:not(:nth-of-type(1)) {
+    margin-top: 20px;
+  }
+
+  &__label {
+    display: flex;
+    position: relative;
+    align-items: top;
+    width: 106px;
+    overflow-wrap: anywhere;
+  }
+
+  &__label span {
+    position: absolute;
+    left: -8px;
+    font-size: $font-size-default;
+    color: #f00;
+  }
+
+  &__label p {
+    font-size: $font-size-default;
+    color: #666;
+    padding-top: 6px;
+  }
+
+  &__label--height-thin p {
+    padding-top: 0;
+  }
+
+  &__body {
+    width: 100%;
+    margin-left: 20px;
+    font-size: $font-size-default;
+    color: #333;
+    max-width: 440px;
+  }
+}

@@ -1,0 +1,35 @@
+@import './mobile-global-imports.scss';
+
+@mixin font($size, $weight: 400) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: 1.25;
+}
+
+.heading-1 {
+  @include font($large-size);
+}
+
+.heading-2 {
+  @include font(unit(5));
+}
+
+.heading-3 {
+  @include font($medium-size);
+}
+
+.heading-label {
+  @include font($small-size, 300);
+
+  color: $color-text-base;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+}
+
+.body-1 {
+  @include font($medium-size);
+}
+
+.body-2 {
+  @include font($small-size);
+}

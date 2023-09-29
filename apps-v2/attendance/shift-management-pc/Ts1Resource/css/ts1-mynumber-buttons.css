@@ -1,0 +1,52 @@
+#reg_type1 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #26659a;
+	border-color: #26659a;
+}
+#reg_type1:hover {
+	background-color: #1f4c72;
+	border-color: #1f4c72;
+}
+#reg_type1 img {
+	width: 85%;
+}
+#reg_type2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #b3d22c;
+	border-color: #b3d22c;
+}
+#reg_type2:hover {
+	background-color: #99b227;
+	border-color: #99b227;
+}
+#reg_type2 img {
+	width: 85%;
+}
+#reg_type3 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #f3b81c;
+	border-color: #f3b81c;
+}
+#reg_type3:hover {
+	background-color: #c59719;
+	border-color: #c59719;
+}
+#reg_type3 img {
+	width: 85%;
+}
+#reg_type4 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #5ea7c7;
+	border-color: #5ea7c7;
+}
+#reg_type4:hover {
+	background-color: #5994ac;
+	border-color: #5994ac;
+}
+#reg_type4 img {
+	width: 85%;
+}

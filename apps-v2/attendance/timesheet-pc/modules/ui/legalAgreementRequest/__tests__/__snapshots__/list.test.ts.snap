@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"availableRequestTypes\\": null,
++   \\"requests\\": Array [],
++ }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/LIST/CLEAR 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"availableRequestTypes\\": Array [
+-     \\"Monthly\\",
+-   ],
+-   \\"requests\\": Array [
+-     Object {
+-       \\"approver01Name\\": \\"approver01\\",
+-       \\"changedOvertimeHoursLimit\\": 60,
+-       \\"id\\": \\"a012v000033TVRXAA4\\",
+-       \\"isForReapply\\": false,
+-       \\"measure\\": \\"measure\\",
+-       \\"originalRequestId\\": \\"a0huefhue8RXAA4\\",
+-       \\"reason\\": \\"reason\\",
+-       \\"requestType\\": \\"Monthly\\",
+-       \\"status\\": \\"Approved\\",
+-     },
+-   ],
++   \\"availableRequestTypes\\": null,
++   \\"requests\\": Array [],
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/LIST/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"availableRequestTypes\\": null,
+-   \\"requests\\": Array [],
++   \\"availableRequestTypes\\": Array [
++     \\"Monthly\\",
++   ],
++   \\"requests\\": Array [
++     Object {
++       \\"approver01Name\\": \\"approver01\\",
++       \\"changedOvertimeHoursLimit\\": 60,
++       \\"id\\": \\"a012v000033TVRXAA4\\",
++       \\"isForReapply\\": false,
++       \\"measure\\": \\"measure\\",
++       \\"originalRequestId\\": \\"a0huefhue8RXAA4\\",
++       \\"reason\\": \\"reason\\",
++       \\"requestType\\": \\"Monthly\\",
++       \\"status\\": \\"Approved\\",
++     },
++   ],
+  }"
+`;

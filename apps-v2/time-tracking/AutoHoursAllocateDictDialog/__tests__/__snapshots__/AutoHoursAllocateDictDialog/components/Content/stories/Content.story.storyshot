@@ -1,0 +1,2308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/AutoHoursAllocateDictDialog/Content From Result 1`] = `
+<div
+  className="Contentstory__Wrapper-sc-1dn8f4q-0 duDMPK"
+>
+  <div
+    className="Content__ContentsWrapper-sc-1l7umex-0 lckfCx"
+  >
+    <div
+      className="Table__TableWrapper-sc-103la8k-0 dmgysN"
+    >
+      <div
+        className="ListHeader__Columns-sc-a1tr73-0 fcQWTj"
+      >
+        <div
+          className="ListHeader__MatchField-sc-a1tr73-1 jOqAkS"
+        >
+          Decision Field
+        </div>
+        <div
+          className="ListHeader__MatchType-sc-a1tr73-2 evkfrP"
+        >
+          Decision Type
+        </div>
+        <div
+          className="ListHeader__MatchText-sc-a1tr73-3 laiNnu"
+        >
+          Relevant Text
+        </div>
+        <div
+          className="ListHeader__Job-sc-a1tr73-4 dWEVbb"
+        >
+          Job
+        </div>
+        <div
+          className="ListHeader__WorkCategory-sc-a1tr73-5 hdzcBv"
+        >
+          Work Category
+        </div>
+        <div
+          className="ListHeader__ReferenceScopeType-sc-a1tr73-6 dIOkCl"
+        >
+          Reference Scope
+        </div>
+        <div
+          className="ListHeader__Priority-sc-a1tr73-7 kXpnNi"
+        >
+          Priority
+        </div>
+      </div>
+      <div
+        className="Table__TableScrollDiv-sc-103la8k-2 cWhBPn"
+      >
+        <div
+          className="ListRow__Columns-sc-1khvsum-0 ebGnYk"
+        >
+          <div
+            className="ListRow__MatchField-sc-1khvsum-1 ljJnpa"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={true}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                readOnly={true}
+                type="button"
+                value="Description"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  Description
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__MatchType-sc-1khvsum-2 iGDMMT"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                autoFocus={false}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                type="button"
+                value="EndWith"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  End With
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__MatchText-sc-1khvsum-3 fTkmHS"
+          >
+            <input
+              className="ts-text-field slds-input"
+              disabled={false}
+              id="matching-text_1"
+              maxLength={100}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder={null}
+              readOnly={false}
+              type="text"
+              value="1"
+            />
+          </div>
+          <div
+            className="ListRow__Job-sc-1khvsum-4 fjZFhX"
+          >
+            <div
+              className="JobSelect__Flex-sc-eeio5s-0 iZpget"
+              data-testid="time-track-dic__job-select"
+            >
+              <div
+                className="JobSelect__JobSelectContainer-sc-eeio5s-2 jDIkIb"
+              >
+                <div
+                  className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup="listbox"
+                    className="DropdownButton__Button-sc-8ghard-2 fQhkab JobSelect__Dropdown-sc-eeio5s-1 TLLaE"
+                    onClick={[Function]}
+                    onSelect={[Function]}
+                    placeholder="Select from Recently Used Jobs"
+                    type="button"
+                    value="1"
+                  >
+                    <div
+                      className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                    >
+                      <div
+                        className="JobSelect__Container-sc-eeio5s-4 cqlIgO"
+                      >
+                        <span
+                          className="Text-sc-11kuzx6-0 JobSelect__Code-sc-eeio5s-5 hlQlOc dqTzEB"
+                          color="secondary"
+                          size="medium"
+                        >
+                          job1
+                        </span>
+                        <span
+                          className="Text-sc-11kuzx6-0 JobSelect__Name-sc-eeio5s-6 NTmDY cloyJA"
+                          color="primary"
+                          size="large"
+                        >
+                          job1
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                    />
+                  </button>
+                </div>
+              </div>
+              <button
+                className="Button-sc-w4yovf-0 JobSelect__JobSelectButton-sc-eeio5s-3 ePsLmL cQoRAc"
+                onClick={[Function]}
+              >
+                Select
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__WorkCategory-sc-1khvsum-5 ddcjez"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={false}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                placeholder="Select"
+                readOnly={false}
+                type="button"
+                value="1"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  <div
+                    className="WorkCategoryDropdown__OptionLabel-sc-1nsn9bd-0 deFYlI"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-1nsn9bd-1 hlQlOc cTXRmF"
+                      color="secondary"
+                      size="medium"
+                    >
+                      1
+                    </span>
+                    <span
+                      className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-1nsn9bd-2 NTmDY jeyBwI"
+                      color="primary"
+                      size="large"
+                    >
+                      AAAAA
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__ReferenceScopeType-sc-1khvsum-6 dtoIZx"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={true}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                readOnly={true}
+                type="button"
+                value="Department"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  Department
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__Priority-sc-1khvsum-7 fBSvGC"
+          >
+            <input
+              className="ts-text-field slds-input ListRow__PriorityField-sc-1khvsum-10 hfGEQf"
+              disabled={false}
+              id="priority_1"
+              max={999}
+              min={1}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder={null}
+              readOnly={false}
+              step={1}
+              type="number"
+              value="1"
+            />
+          </div>
+          <div
+            className="ListRow__DeleteButton-sc-1khvsum-8 hsPhjZ"
+            onClick={[Function]}
+          >
+            <button
+              className="IconButton__Button-sc-10k5axt-1 giXGgm ListRow__IconButton-sc-1khvsum-9 fxEFBw"
+              color="#000"
+            >
+              <test-file-stub
+                aria-hidden={true}
+                className="Icons__Icon-sc-cal846-0 hgAhyG IconButton__Icon-sc-10k5axt-0 djRZTt ListRow__IconButton-sc-1khvsum-9 fxEFBw"
+                color="#000"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          className="ListRow__Columns-sc-1khvsum-0 gHgoaF"
+        >
+          <div
+            className="ListRow__MatchField-sc-1khvsum-1 ljJnpa"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={true}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                readOnly={true}
+                type="button"
+                value="Description"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  Description
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__MatchType-sc-1khvsum-2 iGDMMT"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                autoFocus={true}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                type="button"
+                value="EndWith"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  End With
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__MatchText-sc-1khvsum-3 fTkmHS"
+          >
+            <input
+              className="ts-text-field slds-input"
+              disabled={false}
+              id="matching-text_2"
+              maxLength={100}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder={null}
+              readOnly={false}
+              type="text"
+              value="2"
+            />
+          </div>
+          <div
+            className="ListRow__Job-sc-1khvsum-4 fjZFhX"
+          >
+            <div
+              className="JobSelect__Flex-sc-eeio5s-0 iZpget"
+              data-testid="time-track-dic__job-select"
+            >
+              <div
+                className="JobSelect__JobSelectContainer-sc-eeio5s-2 jDIkIb"
+              >
+                <div
+                  className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup="listbox"
+                    className="DropdownButton__Button-sc-8ghard-2 fQhkab JobSelect__Dropdown-sc-eeio5s-1 TLLaE"
+                    onClick={[Function]}
+                    onSelect={[Function]}
+                    placeholder="Select from Recently Used Jobs"
+                    type="button"
+                    value="1"
+                  >
+                    <div
+                      className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                    >
+                      <div
+                        className="JobSelect__Container-sc-eeio5s-4 cqlIgO"
+                      >
+                        <span
+                          className="Text-sc-11kuzx6-0 JobSelect__Code-sc-eeio5s-5 hlQlOc dqTzEB"
+                          color="secondary"
+                          size="medium"
+                        >
+                          job1
+                        </span>
+                        <span
+                          className="Text-sc-11kuzx6-0 JobSelect__Name-sc-eeio5s-6 NTmDY cloyJA"
+                          color="primary"
+                          size="large"
+                        >
+                          job1
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                    />
+                  </button>
+                </div>
+              </div>
+              <button
+                className="Button-sc-w4yovf-0 JobSelect__JobSelectButton-sc-eeio5s-3 ePsLmL cQoRAc"
+                onClick={[Function]}
+              >
+                Select
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__WorkCategory-sc-1khvsum-5 ddcjez"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={false}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                placeholder="Select"
+                readOnly={false}
+                type="button"
+                value="2"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  <div
+                    className="WorkCategoryDropdown__OptionLabel-sc-1nsn9bd-0 deFYlI"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-1nsn9bd-1 hlQlOc cTXRmF"
+                      color="secondary"
+                      size="medium"
+                    >
+                      2
+                    </span>
+                    <span
+                      className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-1nsn9bd-2 NTmDY jeyBwI"
+                      color="primary"
+                      size="large"
+                    >
+                      BBBBB
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__ReferenceScopeType-sc-1khvsum-6 dtoIZx"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={true}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                readOnly={true}
+                type="button"
+                value="Individual"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  Personal
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__Priority-sc-1khvsum-7 fBSvGC"
+          >
+            <input
+              className="ts-text-field slds-input ListRow__PriorityField-sc-1khvsum-10 hfGEQf"
+              disabled={false}
+              id="priority_2"
+              max={999}
+              min={1}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder={null}
+              readOnly={false}
+              step={1}
+              type="number"
+              value="2"
+            />
+          </div>
+          <div
+            className="ListRow__DeleteButton-sc-1khvsum-8 hsPhjZ"
+            onClick={[Function]}
+          >
+            <button
+              className="IconButton__Button-sc-10k5axt-1 giXGgm ListRow__IconButton-sc-1khvsum-9 fxEFBw"
+              color="#000"
+            >
+              <test-file-stub
+                aria-hidden={true}
+                className="Icons__Icon-sc-cal846-0 hgAhyG IconButton__Icon-sc-10k5axt-0 djRZTt ListRow__IconButton-sc-1khvsum-9 fxEFBw"
+                color="#000"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          className="Table__AddRowButtonWrapper-sc-103la8k-1 gNsxtw"
+        >
+          <button
+            className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+            onClick={[Function]}
+            type="button"
+          >
+            <test-file-stub
+              aria-hidden={true}
+              className="Icons__Icon-sc-cal846-0 kTRlpK LinkButton__Icon-sc-1fk5ge7-2 kEGlhx"
+            />
+            <div
+              className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+              size="large"
+            >
+              Add Item
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="BasicSettingCard__Wrapper-sc-11fmiho-0 kZWAHF"
+    >
+      <hr
+        className="BasicSettingCard__Divider-sc-11fmiho-3 hdriKq"
+      />
+      <div
+        className="Card__Wrapper-sc-1xgkzj7-0 imIqed"
+      >
+        <div
+          className="BasicSettingCard__Header-sc-11fmiho-1 dCqIMM"
+        >
+          <span
+            className="Text-sc-11kuzx6-0 drbwaL"
+            color="primary"
+            size="xl"
+          >
+            Base Settings
+          </span>
+          <div>
+            <button
+              className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb BasicSettingCard__ToggleButton-sc-11fmiho-2 cmqtNN"
+              onClick={[Function]}
+              type="button"
+            >
+              <div
+                className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+                size="large"
+              >
+                Close
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          aria-hidden={false}
+          className="rah-static rah-static--height-auto"
+          style={
+            Object {
+              "height": "auto",
+              "overflow": "visible",
+            }
+          }
+        >
+          <div
+            style={Object {}}
+          >
+            <hr
+              className="BasicSettingCard__Divider-sc-11fmiho-3 hdriKq"
+            />
+            <div
+              className="BasicSettingCard__Content-sc-11fmiho-4 euXlKc"
+            >
+              <div
+                className="BasicSetting__Wrapper-sc-12pq6oh-0 lonaUQ"
+              >
+                <div
+                  className="BasicSetting__Row-sc-12pq6oh-1 dkHkDp"
+                >
+                  <div
+                    className="BasicSetting__SettingTitleText-sc-12pq6oh-2 eYlTKO"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 BasicSetting__SettingText-sc-12pq6oh-3 NTmDY jniKde"
+                      size="large"
+                    >
+                      Surplus Time Registration Job
+                    </span>
+                  </div>
+                  <div
+                    className="BasicSetting__SettingDropdown-sc-12pq6oh-4 hKhCUQ"
+                  >
+                    <div
+                      className="JobSelect__Flex-sc-eeio5s-0 iZpget"
+                      data-testid="edit-event-popup__job-select"
+                    >
+                      <div
+                        className="JobSelect__JobSelectContainer-sc-eeio5s-2 jDIkIb"
+                      >
+                        <div
+                          className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                        >
+                          <button
+                            aria-expanded={false}
+                            aria-haspopup="listbox"
+                            className="DropdownButton__Button-sc-8ghard-2 fQhkab JobSelect__Dropdown-sc-eeio5s-1 TLLaE"
+                            onClick={[Function]}
+                            onSelect={[Function]}
+                            placeholder="Select from Recently Used Jobs"
+                            type="button"
+                            value="1"
+                          >
+                            <div
+                              className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                            >
+                              <div
+                                className="JobSelect__Container-sc-eeio5s-4 cqlIgO"
+                              >
+                                <span
+                                  className="Text-sc-11kuzx6-0 JobSelect__Code-sc-eeio5s-5 hlQlOc dqTzEB"
+                                  color="secondary"
+                                  size="medium"
+                                >
+                                  job1
+                                </span>
+                                <span
+                                  className="Text-sc-11kuzx6-0 JobSelect__Name-sc-eeio5s-6 NTmDY cloyJA"
+                                  color="primary"
+                                  size="large"
+                                >
+                                  job1
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                      <button
+                        className="Button-sc-w4yovf-0 JobSelect__JobSelectButton-sc-eeio5s-3 ePsLmL cQoRAc"
+                        onClick={[Function]}
+                      >
+                        Select
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    className="BasicSetting__SettingDropdown-sc-12pq6oh-4 hKhCUQ"
+                  >
+                    <div
+                      className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                    >
+                      <button
+                        aria-expanded={false}
+                        aria-haspopup="listbox"
+                        aria-readonly={false}
+                        className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                        onClick={[Function]}
+                        placeholder="Select"
+                        readOnly={false}
+                        type="button"
+                        value="1"
+                      >
+                        <div
+                          className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                        >
+                          <div
+                            className="WorkCategoryDropdown__OptionLabel-sc-1nsn9bd-0 deFYlI"
+                          >
+                            <span
+                              className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-1nsn9bd-1 hlQlOc cTXRmF"
+                              color="secondary"
+                              size="medium"
+                            >
+                              1
+                            </span>
+                            <span
+                              className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-1nsn9bd-2 NTmDY jeyBwI"
+                              color="primary"
+                              size="large"
+                            >
+                              AAAAA
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="BasicSetting__Row-sc-12pq6oh-1 dkHkDp"
+                >
+                  <div
+                    className="BasicSetting__SettingTitleText-sc-12pq6oh-2 eYlTKO"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 BasicSetting__SettingText-sc-12pq6oh-3 NTmDY jniKde"
+                      size="large"
+                    >
+                      Allocation Method For Overlapping Schedules
+                    </span>
+                  </div>
+                  <div
+                    className="BasicSetting__SettingDropdown-sc-12pq6oh-4 hKhCUQ"
+                  >
+                    <div
+                      className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                    >
+                      <button
+                        aria-expanded={false}
+                        aria-haspopup="listbox"
+                        className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                        onClick={[Function]}
+                        onSelect={[Function]}
+                        type="button"
+                        value="None"
+                      >
+                        <div
+                          className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                        >
+                          Do Not Allocate
+                        </div>
+                        <div
+                          className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots time-tracking/AutoHoursAllocateDictDialog/Content Standard 1`] = `
+<div
+  className="Contentstory__Wrapper-sc-1dn8f4q-0 duDMPK"
+>
+  <div
+    className="Content__ContentsWrapper-sc-1l7umex-0 lckfCx"
+  >
+    <div
+      className="Table__TableWrapper-sc-103la8k-0 dmgysN"
+    >
+      <div
+        className="ListHeader__Columns-sc-a1tr73-0 fcQWTj"
+      >
+        <div
+          className="ListHeader__MatchField-sc-a1tr73-1 jOqAkS"
+        >
+          Decision Field
+        </div>
+        <div
+          className="ListHeader__MatchType-sc-a1tr73-2 evkfrP"
+        >
+          Decision Type
+        </div>
+        <div
+          className="ListHeader__MatchText-sc-a1tr73-3 laiNnu"
+        >
+          Relevant Text
+        </div>
+        <div
+          className="ListHeader__Job-sc-a1tr73-4 dWEVbb"
+        >
+          Job
+        </div>
+        <div
+          className="ListHeader__WorkCategory-sc-a1tr73-5 hdzcBv"
+        >
+          Work Category
+        </div>
+        <div
+          className="ListHeader__ReferenceScopeType-sc-a1tr73-6 dIOkCl"
+        >
+          Reference Scope
+        </div>
+        <div
+          className="ListHeader__Priority-sc-a1tr73-7 kXpnNi"
+        >
+          Priority
+        </div>
+      </div>
+      <div
+        className="Table__TableScrollDiv-sc-103la8k-2 cWhBPn"
+      >
+        <div
+          className="ListRow__Columns-sc-1khvsum-0 ebGnYk"
+        >
+          <div
+            className="ListRow__MatchField-sc-1khvsum-1 ljJnpa"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={true}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                readOnly={true}
+                type="button"
+                value="Description"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  Description
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__MatchType-sc-1khvsum-2 iGDMMT"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                autoFocus={false}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                type="button"
+                value="EndWith"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  End With
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__MatchText-sc-1khvsum-3 fTkmHS"
+          >
+            <input
+              className="ts-text-field slds-input"
+              disabled={false}
+              id="matching-text_1"
+              maxLength={100}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder={null}
+              readOnly={false}
+              type="text"
+              value="1"
+            />
+          </div>
+          <div
+            className="ListRow__Job-sc-1khvsum-4 fjZFhX"
+          >
+            <div
+              className="JobSelect__Flex-sc-eeio5s-0 iZpget"
+              data-testid="time-track-dic__job-select"
+            >
+              <div
+                className="JobSelect__JobSelectContainer-sc-eeio5s-2 jDIkIb"
+              >
+                <div
+                  className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup="listbox"
+                    className="DropdownButton__Button-sc-8ghard-2 fQhkab JobSelect__Dropdown-sc-eeio5s-1 TLLaE"
+                    onClick={[Function]}
+                    onSelect={[Function]}
+                    placeholder="Select from Recently Used Jobs"
+                    type="button"
+                    value="1"
+                  >
+                    <div
+                      className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                    >
+                      <div
+                        className="JobSelect__Container-sc-eeio5s-4 cqlIgO"
+                      >
+                        <span
+                          className="Text-sc-11kuzx6-0 JobSelect__Code-sc-eeio5s-5 hlQlOc dqTzEB"
+                          color="secondary"
+                          size="medium"
+                        >
+                          job1
+                        </span>
+                        <span
+                          className="Text-sc-11kuzx6-0 JobSelect__Name-sc-eeio5s-6 NTmDY cloyJA"
+                          color="primary"
+                          size="large"
+                        >
+                          job1
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                    />
+                  </button>
+                </div>
+              </div>
+              <button
+                className="Button-sc-w4yovf-0 JobSelect__JobSelectButton-sc-eeio5s-3 ePsLmL cQoRAc"
+                onClick={[Function]}
+              >
+                Select
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__WorkCategory-sc-1khvsum-5 ddcjez"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={false}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                placeholder="Select"
+                readOnly={false}
+                type="button"
+                value="1"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  <div
+                    className="WorkCategoryDropdown__OptionLabel-sc-1nsn9bd-0 deFYlI"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-1nsn9bd-1 hlQlOc cTXRmF"
+                      color="secondary"
+                      size="medium"
+                    >
+                      1
+                    </span>
+                    <span
+                      className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-1nsn9bd-2 NTmDY jeyBwI"
+                      color="primary"
+                      size="large"
+                    >
+                      AAAAA
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__ReferenceScopeType-sc-1khvsum-6 dtoIZx"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={true}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                readOnly={true}
+                type="button"
+                value="Department"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  Department
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__Priority-sc-1khvsum-7 fBSvGC"
+          >
+            <input
+              className="ts-text-field slds-input ListRow__PriorityField-sc-1khvsum-10 hfGEQf"
+              disabled={false}
+              id="priority_1"
+              max={999}
+              min={1}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder={null}
+              readOnly={false}
+              step={1}
+              type="number"
+              value="1"
+            />
+          </div>
+          <div
+            className="ListRow__DeleteButton-sc-1khvsum-8 hsPhjZ"
+            onClick={[Function]}
+          >
+            <button
+              className="IconButton__Button-sc-10k5axt-1 giXGgm ListRow__IconButton-sc-1khvsum-9 fxEFBw"
+              color="#000"
+            >
+              <test-file-stub
+                aria-hidden={true}
+                className="Icons__Icon-sc-cal846-0 hgAhyG IconButton__Icon-sc-10k5axt-0 djRZTt ListRow__IconButton-sc-1khvsum-9 fxEFBw"
+                color="#000"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          className="ListRow__Columns-sc-1khvsum-0 ebGnYk"
+        >
+          <div
+            className="ListRow__MatchField-sc-1khvsum-1 ljJnpa"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={true}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                readOnly={true}
+                type="button"
+                value="Description"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  Description
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__MatchType-sc-1khvsum-2 iGDMMT"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                autoFocus={false}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                type="button"
+                value="EndWith"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  End With
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__MatchText-sc-1khvsum-3 fTkmHS"
+          >
+            <input
+              className="ts-text-field slds-input"
+              disabled={false}
+              id="matching-text_2"
+              maxLength={100}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder={null}
+              readOnly={false}
+              type="text"
+              value="2"
+            />
+          </div>
+          <div
+            className="ListRow__Job-sc-1khvsum-4 fjZFhX"
+          >
+            <div
+              className="JobSelect__Flex-sc-eeio5s-0 iZpget"
+              data-testid="time-track-dic__job-select"
+            >
+              <div
+                className="JobSelect__JobSelectContainer-sc-eeio5s-2 jDIkIb"
+              >
+                <div
+                  className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup="listbox"
+                    className="DropdownButton__Button-sc-8ghard-2 fQhkab JobSelect__Dropdown-sc-eeio5s-1 TLLaE"
+                    onClick={[Function]}
+                    onSelect={[Function]}
+                    placeholder="Select from Recently Used Jobs"
+                    type="button"
+                    value="1"
+                  >
+                    <div
+                      className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                    >
+                      <div
+                        className="JobSelect__Container-sc-eeio5s-4 cqlIgO"
+                      >
+                        <span
+                          className="Text-sc-11kuzx6-0 JobSelect__Code-sc-eeio5s-5 hlQlOc dqTzEB"
+                          color="secondary"
+                          size="medium"
+                        >
+                          job1
+                        </span>
+                        <span
+                          className="Text-sc-11kuzx6-0 JobSelect__Name-sc-eeio5s-6 NTmDY cloyJA"
+                          color="primary"
+                          size="large"
+                        >
+                          job1
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                    />
+                  </button>
+                </div>
+              </div>
+              <button
+                className="Button-sc-w4yovf-0 JobSelect__JobSelectButton-sc-eeio5s-3 ePsLmL cQoRAc"
+                onClick={[Function]}
+              >
+                Select
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__WorkCategory-sc-1khvsum-5 ddcjez"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={false}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                placeholder="Select"
+                readOnly={false}
+                type="button"
+                value="2"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  <div
+                    className="WorkCategoryDropdown__OptionLabel-sc-1nsn9bd-0 deFYlI"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-1nsn9bd-1 hlQlOc cTXRmF"
+                      color="secondary"
+                      size="medium"
+                    >
+                      2
+                    </span>
+                    <span
+                      className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-1nsn9bd-2 NTmDY jeyBwI"
+                      color="primary"
+                      size="large"
+                    >
+                      BBBBB
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__ReferenceScopeType-sc-1khvsum-6 dtoIZx"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={true}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                readOnly={true}
+                type="button"
+                value="Individual"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  Personal
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__Priority-sc-1khvsum-7 fBSvGC"
+          >
+            <input
+              className="ts-text-field slds-input ListRow__PriorityField-sc-1khvsum-10 hfGEQf"
+              disabled={false}
+              id="priority_2"
+              max={999}
+              min={1}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder={null}
+              readOnly={false}
+              step={1}
+              type="number"
+              value="2"
+            />
+          </div>
+          <div
+            className="ListRow__DeleteButton-sc-1khvsum-8 hsPhjZ"
+            onClick={[Function]}
+          >
+            <button
+              className="IconButton__Button-sc-10k5axt-1 giXGgm ListRow__IconButton-sc-1khvsum-9 fxEFBw"
+              color="#000"
+            >
+              <test-file-stub
+                aria-hidden={true}
+                className="Icons__Icon-sc-cal846-0 hgAhyG IconButton__Icon-sc-10k5axt-0 djRZTt ListRow__IconButton-sc-1khvsum-9 fxEFBw"
+                color="#000"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          className="Table__AddRowButtonWrapper-sc-103la8k-1 gNsxtw"
+        >
+          <button
+            className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+            onClick={[Function]}
+            type="button"
+          >
+            <test-file-stub
+              aria-hidden={true}
+              className="Icons__Icon-sc-cal846-0 kTRlpK LinkButton__Icon-sc-1fk5ge7-2 kEGlhx"
+            />
+            <div
+              className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+              size="large"
+            >
+              Add Item
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="BasicSettingCard__Wrapper-sc-11fmiho-0 kZWAHF"
+    >
+      <hr
+        className="BasicSettingCard__Divider-sc-11fmiho-3 hdriKq"
+      />
+      <div
+        className="Card__Wrapper-sc-1xgkzj7-0 imIqed"
+      >
+        <div
+          className="BasicSettingCard__Header-sc-11fmiho-1 dCqIMM"
+        >
+          <span
+            className="Text-sc-11kuzx6-0 drbwaL"
+            color="primary"
+            size="xl"
+          >
+            Base Settings
+          </span>
+          <div>
+            <button
+              className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb BasicSettingCard__ToggleButton-sc-11fmiho-2 cmqtNN"
+              onClick={[Function]}
+              type="button"
+            >
+              <div
+                className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+                size="large"
+              >
+                Close
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          aria-hidden={false}
+          className="rah-static rah-static--height-auto"
+          style={
+            Object {
+              "height": "auto",
+              "overflow": "visible",
+            }
+          }
+        >
+          <div
+            style={Object {}}
+          >
+            <hr
+              className="BasicSettingCard__Divider-sc-11fmiho-3 hdriKq"
+            />
+            <div
+              className="BasicSettingCard__Content-sc-11fmiho-4 euXlKc"
+            >
+              <div
+                className="BasicSetting__Wrapper-sc-12pq6oh-0 lonaUQ"
+              >
+                <div
+                  className="BasicSetting__Row-sc-12pq6oh-1 dkHkDp"
+                >
+                  <div
+                    className="BasicSetting__SettingTitleText-sc-12pq6oh-2 eYlTKO"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 BasicSetting__SettingText-sc-12pq6oh-3 NTmDY jniKde"
+                      size="large"
+                    >
+                      Surplus Time Registration Job
+                    </span>
+                  </div>
+                  <div
+                    className="BasicSetting__SettingDropdown-sc-12pq6oh-4 hKhCUQ"
+                  >
+                    <div
+                      className="JobSelect__Flex-sc-eeio5s-0 iZpget"
+                      data-testid="edit-event-popup__job-select"
+                    >
+                      <div
+                        className="JobSelect__JobSelectContainer-sc-eeio5s-2 jDIkIb"
+                      >
+                        <div
+                          className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                        >
+                          <button
+                            aria-expanded={false}
+                            aria-haspopup="listbox"
+                            className="DropdownButton__Button-sc-8ghard-2 fQhkab JobSelect__Dropdown-sc-eeio5s-1 TLLaE"
+                            onClick={[Function]}
+                            onSelect={[Function]}
+                            placeholder="Select from Recently Used Jobs"
+                            type="button"
+                            value="1"
+                          >
+                            <div
+                              className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                            >
+                              <div
+                                className="JobSelect__Container-sc-eeio5s-4 cqlIgO"
+                              >
+                                <span
+                                  className="Text-sc-11kuzx6-0 JobSelect__Code-sc-eeio5s-5 hlQlOc dqTzEB"
+                                  color="secondary"
+                                  size="medium"
+                                >
+                                  job1
+                                </span>
+                                <span
+                                  className="Text-sc-11kuzx6-0 JobSelect__Name-sc-eeio5s-6 NTmDY cloyJA"
+                                  color="primary"
+                                  size="large"
+                                >
+                                  job1
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                      <button
+                        className="Button-sc-w4yovf-0 JobSelect__JobSelectButton-sc-eeio5s-3 ePsLmL cQoRAc"
+                        onClick={[Function]}
+                      >
+                        Select
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    className="BasicSetting__SettingDropdown-sc-12pq6oh-4 hKhCUQ"
+                  >
+                    <div
+                      className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                    >
+                      <button
+                        aria-expanded={false}
+                        aria-haspopup="listbox"
+                        aria-readonly={false}
+                        className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                        onClick={[Function]}
+                        placeholder="Select"
+                        readOnly={false}
+                        type="button"
+                        value="1"
+                      >
+                        <div
+                          className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                        >
+                          <div
+                            className="WorkCategoryDropdown__OptionLabel-sc-1nsn9bd-0 deFYlI"
+                          >
+                            <span
+                              className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-1nsn9bd-1 hlQlOc cTXRmF"
+                              color="secondary"
+                              size="medium"
+                            >
+                              1
+                            </span>
+                            <span
+                              className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-1nsn9bd-2 NTmDY jeyBwI"
+                              color="primary"
+                              size="large"
+                            >
+                              AAAAA
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="BasicSetting__Row-sc-12pq6oh-1 dkHkDp"
+                >
+                  <div
+                    className="BasicSetting__SettingTitleText-sc-12pq6oh-2 eYlTKO"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 BasicSetting__SettingText-sc-12pq6oh-3 NTmDY jniKde"
+                      size="large"
+                    >
+                      Allocation Method For Overlapping Schedules
+                    </span>
+                  </div>
+                  <div
+                    className="BasicSetting__SettingDropdown-sc-12pq6oh-4 hKhCUQ"
+                  >
+                    <div
+                      className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                    >
+                      <button
+                        aria-expanded={false}
+                        aria-haspopup="listbox"
+                        className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                        onClick={[Function]}
+                        onSelect={[Function]}
+                        type="button"
+                        value="None"
+                      >
+                        <div
+                          className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                        >
+                          Do Not Allocate
+                        </div>
+                        <div
+                          className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots time-tracking/AutoHoursAllocateDictDialog/Content Validation Error 1`] = `
+<div
+  className="Contentstory__Wrapper-sc-1dn8f4q-0 duDMPK"
+>
+  <div
+    className="Content__ContentsWrapper-sc-1l7umex-0 lckfCx"
+  >
+    <div
+      className="Table__TableWrapper-sc-103la8k-0 dmgysN"
+    >
+      <div
+        className="ListHeader__Columns-sc-a1tr73-0 fcQWTj"
+      >
+        <div
+          className="ListHeader__MatchField-sc-a1tr73-1 jOqAkS"
+        >
+          Decision Field
+        </div>
+        <div
+          className="ListHeader__MatchType-sc-a1tr73-2 evkfrP"
+        >
+          Decision Type
+        </div>
+        <div
+          className="ListHeader__MatchText-sc-a1tr73-3 laiNnu"
+        >
+          Relevant Text
+        </div>
+        <div
+          className="ListHeader__Job-sc-a1tr73-4 dWEVbb"
+        >
+          Job
+        </div>
+        <div
+          className="ListHeader__WorkCategory-sc-a1tr73-5 hdzcBv"
+        >
+          Work Category
+        </div>
+        <div
+          className="ListHeader__ReferenceScopeType-sc-a1tr73-6 dIOkCl"
+        >
+          Reference Scope
+        </div>
+        <div
+          className="ListHeader__Priority-sc-a1tr73-7 kXpnNi"
+        >
+          Priority
+        </div>
+      </div>
+      <div
+        className="Table__TableScrollDiv-sc-103la8k-2 cWhBPn"
+      >
+        <div
+          className="ListRow__Columns-sc-1khvsum-0 luXoh"
+        >
+          <div
+            className="ListRow__MatchField-sc-1khvsum-1 ljJnpa"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={true}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                readOnly={true}
+                type="button"
+                value="Description"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  Description
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__MatchType-sc-1khvsum-2 iGDMMT"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                autoFocus={false}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                type="button"
+                value="EndWith"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  End With
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__MatchText-sc-1khvsum-3 fTkmHS"
+          >
+            <input
+              className="ts-text-field slds-input"
+              disabled={false}
+              id="matching-text_1"
+              maxLength={100}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder={null}
+              readOnly={false}
+              type="text"
+              value="1"
+            />
+          </div>
+          <div
+            className="ListRow__Job-sc-1khvsum-4 fjZFhX"
+          >
+            <div
+              className="JobSelect__Flex-sc-eeio5s-0 iZpget"
+              data-testid="time-track-dic__job-select"
+            >
+              <div
+                className="JobSelect__JobSelectContainer-sc-eeio5s-2 jDIkIb"
+              >
+                <div
+                  className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup="listbox"
+                    className="DropdownButton__Button-sc-8ghard-2 fQhkab JobSelect__Dropdown-sc-eeio5s-1 TLLaE"
+                    onClick={[Function]}
+                    onSelect={[Function]}
+                    placeholder="Select from Recently Used Jobs"
+                    type="button"
+                    value="1"
+                  >
+                    <div
+                      className="DropdownButton__Label-sc-8ghard-3 bogwxN"
+                    >
+                      Select from Recently Used Jobs
+                    </div>
+                    <div
+                      className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                    />
+                  </button>
+                </div>
+              </div>
+              <button
+                className="Button-sc-w4yovf-0 JobSelect__JobSelectButton-sc-eeio5s-3 ePsLmL cQoRAc"
+                onClick={[Function]}
+              >
+                Select
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__WorkCategory-sc-1khvsum-5 ddcjez"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={false}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                placeholder="Select"
+                readOnly={false}
+                type="button"
+                value="1"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  <div
+                    className="WorkCategoryDropdown__OptionLabel-sc-1nsn9bd-0 deFYlI"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-1nsn9bd-1 hlQlOc cTXRmF"
+                      color="secondary"
+                      size="medium"
+                    >
+                      1
+                    </span>
+                    <span
+                      className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-1nsn9bd-2 NTmDY jeyBwI"
+                      color="primary"
+                      size="large"
+                    >
+                      AAAAA
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__ReferenceScopeType-sc-1khvsum-6 dtoIZx"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={true}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                readOnly={true}
+                type="button"
+                value="Department"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  Department
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__Priority-sc-1khvsum-7 fBSvGC"
+          >
+            <input
+              className="ts-text-field slds-input ListRow__PriorityField-sc-1khvsum-10 hfGEQf"
+              disabled={false}
+              id="priority_1"
+              max={999}
+              min={1}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder={null}
+              readOnly={false}
+              step={1}
+              type="number"
+              value="1"
+            />
+          </div>
+          <div
+            className="ListRow__DeleteButton-sc-1khvsum-8 hsPhjZ"
+            onClick={[Function]}
+          >
+            <button
+              className="IconButton__Button-sc-10k5axt-1 giXGgm ListRow__IconButton-sc-1khvsum-9 fxEFBw"
+              color="#000"
+            >
+              <test-file-stub
+                aria-hidden={true}
+                className="Icons__Icon-sc-cal846-0 hgAhyG IconButton__Icon-sc-10k5axt-0 djRZTt ListRow__IconButton-sc-1khvsum-9 fxEFBw"
+                color="#000"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          className="ListRow__Columns-sc-1khvsum-0 ebGnYk"
+        >
+          <div
+            className="ListRow__MatchField-sc-1khvsum-1 ljJnpa"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={true}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                readOnly={true}
+                type="button"
+                value="Description"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  Description
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__MatchType-sc-1khvsum-2 iGDMMT"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                autoFocus={false}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                type="button"
+                value="EndWith"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  End With
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__MatchText-sc-1khvsum-3 fTkmHS"
+          >
+            <input
+              className="ts-text-field slds-input"
+              disabled={false}
+              id="matching-text_2"
+              maxLength={100}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder={null}
+              readOnly={false}
+              type="text"
+              value="2"
+            />
+          </div>
+          <div
+            className="ListRow__Job-sc-1khvsum-4 fjZFhX"
+          >
+            <div
+              className="JobSelect__Flex-sc-eeio5s-0 iZpget"
+              data-testid="time-track-dic__job-select"
+            >
+              <div
+                className="JobSelect__JobSelectContainer-sc-eeio5s-2 jDIkIb"
+              >
+                <div
+                  className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup="listbox"
+                    className="DropdownButton__Button-sc-8ghard-2 fQhkab JobSelect__Dropdown-sc-eeio5s-1 TLLaE"
+                    onClick={[Function]}
+                    onSelect={[Function]}
+                    placeholder="Select from Recently Used Jobs"
+                    type="button"
+                    value="1"
+                  >
+                    <div
+                      className="DropdownButton__Label-sc-8ghard-3 bogwxN"
+                    >
+                      Select from Recently Used Jobs
+                    </div>
+                    <div
+                      className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                    />
+                  </button>
+                </div>
+              </div>
+              <button
+                className="Button-sc-w4yovf-0 JobSelect__JobSelectButton-sc-eeio5s-3 ePsLmL cQoRAc"
+                onClick={[Function]}
+              >
+                Select
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__WorkCategory-sc-1khvsum-5 ddcjez"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={false}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                placeholder="Select"
+                readOnly={false}
+                type="button"
+                value="2"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  <div
+                    className="WorkCategoryDropdown__OptionLabel-sc-1nsn9bd-0 deFYlI"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-1nsn9bd-1 hlQlOc cTXRmF"
+                      color="secondary"
+                      size="medium"
+                    >
+                      2
+                    </span>
+                    <span
+                      className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-1nsn9bd-2 NTmDY jeyBwI"
+                      color="primary"
+                      size="large"
+                    >
+                      BBBBB
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__ReferenceScopeType-sc-1khvsum-6 dtoIZx"
+          >
+            <div
+              className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                aria-readonly={true}
+                className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                onClick={[Function]}
+                onSelect={[Function]}
+                readOnly={true}
+                type="button"
+                value="Individual"
+              >
+                <div
+                  className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                >
+                  Personal
+                </div>
+                <div
+                  className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="ListRow__Priority-sc-1khvsum-7 fBSvGC"
+          >
+            <input
+              className="ts-text-field slds-input ListRow__PriorityField-sc-1khvsum-10 hfGEQf"
+              disabled={false}
+              id="priority_2"
+              max={999}
+              min={1}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder={null}
+              readOnly={false}
+              step={1}
+              type="number"
+              value="2"
+            />
+          </div>
+          <div
+            className="ListRow__DeleteButton-sc-1khvsum-8 hsPhjZ"
+            onClick={[Function]}
+          >
+            <button
+              className="IconButton__Button-sc-10k5axt-1 giXGgm ListRow__IconButton-sc-1khvsum-9 fxEFBw"
+              color="#000"
+            >
+              <test-file-stub
+                aria-hidden={true}
+                className="Icons__Icon-sc-cal846-0 hgAhyG IconButton__Icon-sc-10k5axt-0 djRZTt ListRow__IconButton-sc-1khvsum-9 fxEFBw"
+                color="#000"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          className="Table__AddRowButtonWrapper-sc-103la8k-1 gNsxtw"
+        >
+          <button
+            className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+            onClick={[Function]}
+            type="button"
+          >
+            <test-file-stub
+              aria-hidden={true}
+              className="Icons__Icon-sc-cal846-0 kTRlpK LinkButton__Icon-sc-1fk5ge7-2 kEGlhx"
+            />
+            <div
+              className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+              size="large"
+            >
+              Add Item
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="BasicSettingCard__Wrapper-sc-11fmiho-0 kZWAHF"
+    >
+      <hr
+        className="BasicSettingCard__Divider-sc-11fmiho-3 hdriKq"
+      />
+      <div
+        className="Card__Wrapper-sc-1xgkzj7-0 imIqed"
+      >
+        <div
+          className="BasicSettingCard__Header-sc-11fmiho-1 dCqIMM"
+        >
+          <span
+            className="Text-sc-11kuzx6-0 drbwaL"
+            color="primary"
+            size="xl"
+          >
+            Base Settings
+          </span>
+          <div>
+            <button
+              className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb BasicSettingCard__ToggleButton-sc-11fmiho-2 cmqtNN"
+              onClick={[Function]}
+              type="button"
+            >
+              <div
+                className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+                size="large"
+              >
+                Close
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          aria-hidden={false}
+          className="rah-static rah-static--height-auto"
+          style={
+            Object {
+              "height": "auto",
+              "overflow": "visible",
+            }
+          }
+        >
+          <div
+            style={Object {}}
+          >
+            <hr
+              className="BasicSettingCard__Divider-sc-11fmiho-3 hdriKq"
+            />
+            <div
+              className="BasicSettingCard__Content-sc-11fmiho-4 euXlKc"
+            >
+              <div
+                className="BasicSetting__Wrapper-sc-12pq6oh-0 lonaUQ"
+              >
+                <div
+                  className="BasicSetting__Row-sc-12pq6oh-1 dkHkDp"
+                >
+                  <div
+                    className="BasicSetting__SettingTitleText-sc-12pq6oh-2 eYlTKO"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 BasicSetting__SettingText-sc-12pq6oh-3 NTmDY jniKde"
+                      size="large"
+                    >
+                      Surplus Time Registration Job
+                    </span>
+                  </div>
+                  <div
+                    className="BasicSetting__SettingDropdown-sc-12pq6oh-4 hKhCUQ"
+                  >
+                    <div
+                      className="JobSelect__Flex-sc-eeio5s-0 iZpget"
+                      data-testid="edit-event-popup__job-select"
+                    >
+                      <div
+                        className="JobSelect__JobSelectContainer-sc-eeio5s-2 jDIkIb"
+                      >
+                        <div
+                          className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                        >
+                          <button
+                            aria-expanded={false}
+                            aria-haspopup="listbox"
+                            className="DropdownButton__Button-sc-8ghard-2 fQhkab JobSelect__Dropdown-sc-eeio5s-1 TLLaE"
+                            onClick={[Function]}
+                            onSelect={[Function]}
+                            placeholder="Select from Recently Used Jobs"
+                            type="button"
+                            value="1"
+                          >
+                            <div
+                              className="DropdownButton__Label-sc-8ghard-3 bogwxN"
+                            >
+                              Select from Recently Used Jobs
+                            </div>
+                            <div
+                              className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                      <button
+                        className="Button-sc-w4yovf-0 JobSelect__JobSelectButton-sc-eeio5s-3 ePsLmL cQoRAc"
+                        onClick={[Function]}
+                      >
+                        Select
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    className="BasicSetting__SettingDropdown-sc-12pq6oh-4 hKhCUQ"
+                  >
+                    <div
+                      className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                    >
+                      <button
+                        aria-expanded={false}
+                        aria-haspopup="listbox"
+                        aria-readonly={false}
+                        className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                        onClick={[Function]}
+                        placeholder="Select"
+                        readOnly={false}
+                        type="button"
+                        value="1"
+                      >
+                        <div
+                          className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                        >
+                          <div
+                            className="WorkCategoryDropdown__OptionLabel-sc-1nsn9bd-0 deFYlI"
+                          >
+                            <span
+                              className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-1nsn9bd-1 hlQlOc cTXRmF"
+                              color="secondary"
+                              size="medium"
+                            >
+                              1
+                            </span>
+                            <span
+                              className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-1nsn9bd-2 NTmDY jeyBwI"
+                              color="primary"
+                              size="large"
+                            >
+                              AAAAA
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="BasicSetting__Row-sc-12pq6oh-1 dkHkDp"
+                >
+                  <div
+                    className="BasicSetting__SettingTitleText-sc-12pq6oh-2 eYlTKO"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 BasicSetting__SettingText-sc-12pq6oh-3 NTmDY jniKde"
+                      size="large"
+                    >
+                      Allocation Method For Overlapping Schedules
+                    </span>
+                  </div>
+                  <div
+                    className="BasicSetting__SettingDropdown-sc-12pq6oh-4 hKhCUQ"
+                  >
+                    <div
+                      className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                    >
+                      <button
+                        aria-expanded={false}
+                        aria-haspopup="listbox"
+                        className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                        onClick={[Function]}
+                        onSelect={[Function]}
+                        type="button"
+                        value="None"
+                      >
+                        <div
+                          className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                        >
+                          Do Not Allocate
+                        </div>
+                        <div
+                          className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,9 @@
+.admin-pc-contents--resource,
+.admin-pc-contents--project {
+  .psa-extended-item__required .ts-horizontal-layout__body,
+  .psa-extended-item__enabled .ts-horizontal-layout__body,
+  .psa-extended-item__readOnly .ts-horizontal-layout__body{
+    position: relative;
+    top: 2px;
+  }
+}

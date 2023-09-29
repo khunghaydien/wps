@@ -1,0 +1,145 @@
+@import '../../commons/styles/global-imports';
+
+.timesheet-pc-summary-timesheet-summary-content {
+  margin: 0 0 16px;
+
+  &__header {
+    font-size: $font-size-large;
+    line-height: 32px;
+  }
+
+  &__footer {
+    line-height: 32px;
+    height: 32px;
+  }
+
+  &__dayTypeIcon {
+    float: left;
+    line-height: 30px;
+    transform: scale(0.6);
+    text-align: left;
+  }
+
+  &__dayType {
+    height: 30px;
+    font-size: 10px;
+    line-height: 10px;
+    margin-top: 10px;
+    padding-top: 1px;
+    float: left;
+  }
+
+  &__table {
+    border-collapse: collapse;
+  }
+
+  &__table > caption {
+    font-size: $font-size-x-large;
+    line-height: 32px;
+  }
+
+  &__table > thead > tr > th,
+  &__table > tbody > tr > td,
+  &__table > tfoot > tr > td {
+    padding: 2px 8px;
+    border: 1px solid $color-border-default;
+
+    @media print {
+      padding: 1px 4px;
+    }
+  }
+
+  &__table > thead > tr > th {
+    background: $color-bg-heading;
+    color: $color-text-modest;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  &__table > tbody {
+    border: 1px solid $color-border-default;
+  }
+
+  &__table > tbody > tr > td {
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+  }
+
+  &__table > tbody > tr > td hr {
+    margin: 0.5em 0;
+  }
+
+  &__divider {
+    height: 2px;
+  }
+
+  &__row {
+    &--boundary:not(:first-child) {
+      border-top: 1px solid $color-border-default;
+    }
+  }
+
+  &__col-date {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  &__col-date-sign {
+    text-align: center;
+    transform: scale(0.8);
+  }
+
+  &__col-time {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  &__col-time--modified {
+    text-align: right;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+
+  &__col-duration {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  &__col-number {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  &__col-text {
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  &__col-label {
+    background: $color-bg-heading;
+    color: $color-text-modest;
+  }
+
+  &__system-remarks {
+    color: $color-text-emphasis;
+    white-space: nowrap;
+  }
+
+  &__text-approval-type {
+    color: $color-text-emphasis;
+  }
+
+  &__tooltip-overtime {
+    display: inline-block;
+    padding-left: 5px;
+  }
+
+  &__tooltip-overtime-img {
+    width: 17px;
+    height: 17px;
+  }
+
+  &__tooltip {
+    @include hide-when-print;
+  }
+}

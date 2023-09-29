@@ -1,0 +1,134 @@
+@import 'mobile-global-imports.scss';
+@import '../../../../../styles/exp/variables/colors';
+
+.record-receipt {
+  margin-bottom: 20px;
+
+  &__input {
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+  }
+
+  &__input-action {
+    display: flex;
+  }
+
+  &__field-container {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    grid-gap: 15px;
+  }
+
+  &__file {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #999;
+    text-align: center;
+    padding: 15px;
+    background-color: #eaf3f8;
+  }
+
+  &__button {
+    width: 100%;
+    margin-bottom: 10px;
+
+    &--file {
+      height: 32px;
+      padding: 0 unit(5);
+      margin-top: 12px;
+      margin-right: 10px;
+      color: $color-bg-primary;
+    }
+
+    &--delete {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 60px;
+      padding: 0.5em 0.6em;
+      background: #1d1d1dd6;
+      margin: 10px;
+      z-index: 2;
+
+      path {
+        fill: white;
+      }
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+
+  &__label span {
+    display: block;
+  }
+
+  &__metadata {
+    margin-top: 12px;
+    color: $color-text-header-dark;
+  }
+
+  &__metadata-warning {
+    margin-top: 8px;
+    border: 1px solid #df8e2f;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+
+    &-svg {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      overflow: visible !important;
+    }
+
+    &-msg {
+      color: $color-text-header-dark;
+      margin-left: 10px;
+    }
+  }
+
+  &__loading-placeholder {
+    height: 40px;
+    color: #c5c5c5;
+    text-align: center;
+
+    & .commons-spinner {
+      position: relative;
+      margin-top: -8px;
+    }
+  }
+
+  .ts-expenses-sf-file-preview_preview-area {
+    img {
+      border: 1px solid #808080;
+    }
+  }
+
+  &__receipt-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #efeeee;
+    padding: 15px;
+
+    &__image {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+@import '../../../commons/styles/wsp';
+
+.ts-finance-approval-sub-header-pager {
+  position: relative;
+  z-index: 10001;
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px 0 0;
+
+  &__back-btn,
+  &__previous-request-btn,
+  &__next-request-btn {
+    border: 0;
+    background: none;
+    outline: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__next-request-btn,
+  &__previous-request-btn {
+    height: auto;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  &__active-arrow {
+    path {
+      fill: color('exp-primary');
+    }
+  }
+
+  &__contents {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: color('text-1');
+  }
+
+  &__current-page {
+    margin: 0 26px;
+    color: color('text-1');
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,60 @@
+.approvals-pc-tracking-process-list-pane-detail-table-row-task {
+  display: flex;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-right: 1px solid $color-border-default;
+  }
+
+  &__item:last-child {
+    border-right: none;
+  }
+
+  // nameだけpadding-leftを調整
+  &__item--name {
+    padding-left: 0;
+  }
+
+  &__item--work-time {
+    justify-content: center;
+  }
+
+  &__item--comment {
+    word-break: break-all;
+  }
+
+  &__task-name {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    word-break: break-all;
+  }
+
+  &__task-index {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+
+  &__tracking-graph {
+    height: 13px;
+  }
+
+  &--is-ellipsis &__item,
+  &--is-ellipsis &__task-name,
+  &--is-ellipsis &__position-adjust {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &--is-ellipsis br {
+    display: none;
+  }
+}

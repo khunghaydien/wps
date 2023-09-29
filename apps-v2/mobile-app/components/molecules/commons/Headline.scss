@@ -1,0 +1,10 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-commons-headline {
+  &__container {
+    overflow: hidden;
+    padding: 0 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

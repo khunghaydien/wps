@@ -1,0 +1,99 @@
+<div>
+	<ul class="tsext-pankz">
+		<li><a href="#!menu">メニュー</a></li>
+		<li class="tsext-pankz-div">＞</li>
+		<li>検証データエクスポート</li>
+	</ul>
+	<div class="tsext-error" style="display:none;">
+	</div>
+	<div class="tsext-form">
+		<div class="tsext-know" style="display:none;">
+			社員単位でデータをエクスポートします。<br/>
+			（一部のマスタ系のオブジェクトは全レコードエクスポート）
+		</div>
+		<table>
+			<tr>
+				<td>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div>1.</div>
+							<div>エクスポート対象の社員を追加してください</div>
+						</div>
+						<div class="tsext-emp-table">
+						</div>
+						<div class="tsext-emp-table-handle">
+							<div>
+								<input type="button" value="追加" id="tsextEmpInsert" />
+							</div>
+							<div>
+								<input type="button" value="削除" id="tsextEmpRemove" />
+							</div>
+						</div>
+					</div>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div>2.</div>
+							<div>コメント（任意）</div>
+						</div>
+						<div>
+							<textarea class="tsext-comment"></textarea>
+						</div>
+					</div>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div>3.</div>
+							<div>エクスポートするデータの種類と期間（空欄は制限なし）、オプションを選択してください</div>
+						</div>
+						<div class="tsext-options">
+							<div class="tsext-option-time">
+								<div class="tsext-option-range1"><label><input type="checkbox" /><span>勤怠</span></label></div>
+								<div class="tsext-option-range2"><input type="text" /> ～ <input type="text" /></div>
+								<div><a>クリア</a></div>
+							</div>
+							<div class="tsext-option-exp">
+								<div class="tsext-option-range1"><label><input type="checkbox" /><span>経費</span></label></div>
+								<div class="tsext-option-range2"><input type="text" /> ～ <input type="text" /></div>
+								<div><a>クリア</a></div>
+							</div>
+							<div>
+								<label><input type="checkbox" id="tsextOptionJointWork" /><span>工数データを含める</span></label>
+							</div>
+							<div>
+								<label><input type="checkbox" id="tsextOptionMaskEmp" /><span>社員名・ユーザ名をマスク</span></label>
+							</div>
+							<div>
+								<label><input type="checkbox" id="tsextOptionMaskNote" /><span>備考・コメントをマスク</span></label>
+							</div>
+							<div>
+								<label><input type="checkbox" id="tsextOptionJobMinimum" /><span>ジョブマスタは関連のみ</span></label>
+							</div>
+							<div>
+								<label><input type="checkbox" id="tsextOptionStepHistory" /><span>承認履歴をエクスポートする</span></label>
+								<div class="tsext-tip" id="tsextStepHistoryHelp">?</div>
+							</div>
+							<div>
+							</div>
+						</div>
+					</div>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div>4.</div>
+							<div>
+								<input type="button" value="エクスポート" id="tsextExport" />
+							</div>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<div class="tsext-section tsext-form-log">
+			<div>
+				ログ
+			</div>
+			<textarea wrap="off" readOnly="readOnly"></textarea>
+		</div>
+		<div class="tsext-form-download" style="display:none;">
+			<a></a>
+		</div>
+	</div>
+</div>

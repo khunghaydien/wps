@@ -1,0 +1,45 @@
+.approvals-pc-tracking-detail-parts-history-table {
+  margin: 0 15px 20px;
+
+  // cellに直接指定するのはコストが高いため、子孫セレクタを利用
+  &--is-ellipsis &__cell {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__column-step {
+    flex: 0 1 85px;
+  }
+
+  &__column-date {
+    flex: 0 1 160px;
+  }
+
+  &__column-status {
+    flex: 0 1 85px;
+  }
+
+  &__column-original-actor {
+    flex: 0 1 100px;
+  }
+
+  &__column-actor {
+    flex: 0 1 150px;
+  }
+
+  &__column-actor-icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+
+  &__column-comment {
+    flex: 1 1 300px;
+  }
+
+  &__body-cell--comment {
+    text-align: left;
+  }
+}

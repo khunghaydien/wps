@@ -1,0 +1,156 @@
+@import '../../../../../../styles/variables/colors';
+@import '../../../../../../styles/exp/variables/colors';
+.ts-expenses__form-report-summary__actions {
+  &__receipt {
+    max-width: 58px;
+  }
+
+  &__attach {
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    margin-right: 16px;
+    border: 1px solid #dddbda;
+    border-radius: 5px;
+
+    &-count {
+      position: absolute;
+      top: -5px;
+      width: 15px;
+      height: 15px;
+      line-height: 15px;
+      margin-left: 23px;
+      background-color: $color-bg-notice;
+      color: $color-bg-lighter;
+      border-radius: 50%;
+      font-size: 10px;
+      padding-top: 1px;
+    }
+  }
+
+  &__submenu.receiptList {
+    width: 276px;
+    margin-top: 0;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  & .lightbox__modal__image-controls > .ts-icon-button {
+    background-color: transparent !important;
+  }
+
+  svg {
+    path {
+      fill: $color-bg-primary;
+    }
+  }
+
+  .attached_file_name {
+    word-wrap: break-word;
+    cursor: pointer;
+    padding: 10px;
+    align-items: center;
+    color: $color-bg-primary;
+
+    a,
+    a:hover {
+      text-decoration: none !important;
+    }
+  }
+
+  &__attached_item {
+    display: flex;
+    padding: 4px 10px 4px 0;
+    min-height: 35px;
+    border-bottom: #e3e3e3 1px solid;
+    align-items: center;
+    width: 100%;
+
+    &-name {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__attached_item-button {
+    min-height: 35px;
+    border-bottom: #e3e3e3 1px solid;
+    align-items: center;
+
+    &-name {
+      &:hover {
+        background-color: $color-bg-hover;
+      }
+    }
+  }
+
+  &__add_file {
+    height: 35px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    border-bottom: #e3e3e3 1px solid;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+
+    &:disabled {
+      color: $ts-input-field-border-gray;
+    }
+    &:active {
+      border-bottom-color: #e3e3e3;
+    }
+  }
+
+  &__item_delete {
+    position: absolute;
+    right: 10px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-bg-hover;
+    }
+
+    &:active {
+      background-color: $color-bg-gray;
+    }
+
+    svg {
+      transform: scale(0.8);
+    }
+  }
+
+  &__preview,
+  &__download {
+    position: absolute;
+    right: 30px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border: none;
+    padding: 0;
+    border-radius: 3px;
+    margin: 0;
+
+    &:hover {
+      background-color: $color-bg-hover;
+    }
+
+    &:active {
+      background-color: $color-bg-gray;
+    }
+  }
+
+  &__preview {
+    padding-left: 2px;
+
+    svg {
+      pointer-events: none;
+    }
+  }
+}

@@ -1,0 +1,109 @@
+@import 'mobile-global-imports';
+
+.mobile-app-molecules-commons-fields-time-select {
+  &__time-select .rmc-picker-popup-header {
+    border-bottom: 1px solid $color-border;
+  }
+
+  &__time-select .rmc-picker-popup-header .rmc-picker-popup-title {
+    color: $color-text-base !important;
+  }
+
+  &__time-select .rmc-picker-popup-header .rmc-picker-popup-header-right:active,
+  &__time-select .rmc-picker-popup-header .rmc-picker-popup-header-left:active {
+    color: $color-blue-700;
+    text-decoration: underline;
+  }
+
+  &__time-select .rmc-picker-popup-header .rmc-picker-popup-item {
+    color: $color-brand;
+    font-size: $medium-size;
+  }
+
+  &__time-select .rmc-picker-item {
+    color: $color-text-base;
+    font-size: 20px;
+  }
+
+  &__time-select .rmc-picker .rmc-picker-popup-item {
+    color: $color-brand;
+    font-size: $medium-size;
+  }
+
+  &__button {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    border: 1px solid $color-border;
+    background: #fff;
+    border-radius: 4px;
+    color: $color-text-base;
+    outline: none;
+
+    @mixin focus($color) {
+      border: 1px solid $color;
+      box-shadow: 0 0 3px $color;
+    }
+
+    &:focus {
+      @include focus($color-blue-400);
+    }
+
+    &--error:focus {
+      @include focus($color-alert);
+    }
+
+    &--disabled {
+      background-color: $color-gray-200;
+    }
+
+    &--read-only {
+      border: 1px solid $color-blue-100;
+      background-color: $color-blue-100;
+    }
+
+    &--error {
+      border: 1px solid $color-alert;
+    }
+
+    &--placeholder {
+      color: $color-gray-300;
+      font-size: $medium-size;
+      font-weight: 300;
+    }
+  }
+
+  &__trigger {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+  }
+
+  &__trigger-label {
+    display: flex;
+    // NOTE: Here is hack.
+    // Style is not good if content text is empty.
+    width: 1px;
+    flex-grow: 1;
+    padding: 0 8px 0 0;
+    font-size: $medium-size;
+    font-weight: 300;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  &__trigger-icon {
+    padding: 0 4px 0 8px;
+    color: $color-blue-800;
+  }
+}

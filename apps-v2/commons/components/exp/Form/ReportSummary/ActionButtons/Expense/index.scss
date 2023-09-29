@@ -1,0 +1,163 @@
+@import '../../../../../../styles/wsp';
+@import '../../../../../../styles/variables/colors';
+
+.ts-expenses__form-report-summary__actions {
+  position: relative;
+
+  button[data-testid] {
+    border-color: #dddbda;
+    // padding-left: 10px;
+    // padding-right: 10px;
+    background-color: $color-bg-lighter;
+    color: #0070d2;
+    line-height: 1;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $color-bg-hover;
+    }
+  }
+
+  &__main {
+    display: flex;
+    height: 32px;
+    float: right;
+  }
+
+  &__close {
+    height: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 5px 0 0 5px;
+  }
+
+  &__disabled-button {
+    pointer-events: none;
+  }
+
+  &__save,
+  &__submit {
+    height: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-left: 5px;
+    border-radius: 0;
+  }
+
+  &__btn-approval-history {
+    padding: 0 16px;
+  }
+
+  // hide
+  &__submit.is-pre-request {
+    display: none;
+  }
+
+  &__toggle {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #dddbda;
+    border-left: 0;
+    border-radius: 0 5px 5px 0;
+
+    &.active img {
+      // transform: rotate(-90deg);
+      width: 10px;
+    }
+
+    .ts-icon-button__image {
+      height: 12px;
+      transform: rotate(90deg);
+      transition: 0.3s ease-in-out;
+    }
+  }
+
+  // FIXME: I think that this style have to become menu component.
+  // https://react.lightningdesignsystem.com/components/menu-dropdowns/
+  &__submenu {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    width: 160px;
+    margin-top: 32px;
+    border: 1px solid #dddbda;
+    border-top: solid 5px transparent;
+    border-bottom: solid 5px transparent;
+    background-color: $color-bg-lighter;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16);
+
+    &.align-left {
+      right: auto;
+    }
+  }
+
+  &__submenu-item-button {
+    width: 100%;
+    min-height: 28px;
+    padding: 0 6px;
+    border: 0;
+    font-size: 12px;
+    text-align: left;
+
+    &:active {
+      background-color: $ts-button-default-dark;
+    }
+
+    &:focus:not(:hover, :active) {
+      background-color: $ts-button-default-focus;
+      box-shadow: $shadow-button-focus;
+      outline: none;
+    }
+
+    &:hover {
+      // hoverはfocusと同じ表現を使う(枠線はなし)
+      background-color: $ts-button-default-focus;
+      outline: none;
+    }
+
+    &[disabled],
+    &[disabled]:hover,
+    &[disabled]:active,
+    &[disabled]:focus {
+      background-color: $ts-button-default-disabled;
+      color: $ts-button-default-disabled-color;
+      cursor: not-allowed;
+    }
+  }
+
+  &.apex-page-action-buttons {
+    display: flex;
+
+    .ts-expenses__form-report-summary__actions__btn-approval-history {
+      width: 150px;
+    }
+
+    .align-left {
+      left: 0;
+      width: 198px;
+    }
+  }
+
+  &__error-message {
+    color: color('required');
+    white-space: nowrap;
+  }
+
+  &__tooltip {
+    display: flex;
+
+    &-content {
+      height: 100%;
+    }
+  }
+
+  .is-required {
+    height: 32px;
+    color: $ts-warning;
+  }
+
+  .slds-tooltip-trigger .ts-button__text {
+    display: block;
+  }
+}

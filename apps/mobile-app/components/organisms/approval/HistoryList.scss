@@ -1,0 +1,33 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-organisms-approval-history-list {
+  text-align: left;
+
+  &__item {
+    margin-bottom: $small-size;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__hidden-area {
+    display: none;
+
+    &--visible {
+      display: block;
+    }
+  }
+
+  &__read-more {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+
+    .mobile-app-atoms-icon {
+      margin-right: $base-size;
+    }
+  }
+}

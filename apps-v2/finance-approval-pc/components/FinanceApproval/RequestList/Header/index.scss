@@ -1,0 +1,68 @@
+@import '../../../../../commons/styles/variables/colors';
+
+.ts-finance-approval__requests-header {
+  width: 100%;
+  padding: 11px 0;
+  border: none !important;
+  background-color: $color-bg-heading;
+  color: $ts-button-default-color;
+  font-size: 13px;
+  &__sort-button {
+    padding: 0;
+    border: none;
+    background: none;
+    float: left;
+    text-align: left;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__icon {
+    transform: rotate(180deg);
+  }
+
+  &__icon--unvisible {
+    visibility: hidden;
+  }
+
+  &__icon--isSorted {
+    transform: rotate(0);
+  }
+
+  &__sort-button:hover &__icon--unvisible {
+    visibility: visible;
+  }
+
+  &__sort-button :hover img {
+    visibility: visible;
+  }
+
+  &__amount {
+    float: right;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    border: 1px solid $color-border-default !important;
+  }
+
+  &__checkbox {
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+
+  &__input-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    input {
+      height: 16px;
+      width: 16px;
+    }
+  }
+}

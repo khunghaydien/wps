@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`initialize() should do with Login User and specified date. 1`] = `
+Array [
+  Object {
+    "payload": Object {},
+    "type": "COMMONS/ACCESS_CONTROL/SET_USER_PERMISSION",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Array [],
+    "type": "GET_USER_SETTING",
+  },
+  Object {
+    "type": "RELOAD_TIMESHEET",
+  },
+  Object {
+    "payload": Array [],
+    "type": "INIT_DAILY_STAMP_TIME",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`initialize() should do with Login User. 1`] = `
+Array [
+  Object {
+    "payload": Object {},
+    "type": "COMMONS/ACCESS_CONTROL/SET_USER_PERMISSION",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Array [],
+    "type": "GET_USER_SETTING",
+  },
+  Object {
+    "type": "RELOAD_TIMESHEET",
+  },
+  Object {
+    "payload": Array [],
+    "type": "INIT_DAILY_STAMP_TIME",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`initialize() should not do if error is occurred. 1`] = `
+Array [
+  Object {
+    "payload": Object {},
+    "type": "COMMONS/ACCESS_CONTROL/SET_USER_PERMISSION",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": FatalError {
+      "errorCode": undefined,
+      "message": "",
+      "name": "Error",
+      "stacktrace": null,
+      "type": "FatalError",
+    },
+    "type": "CATCH_UNEXPECTED_ERROR",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`initialize() should return error if UseCases().reloadTimesheet() throw Error. 1`] = `
+Array [
+  Object {
+    "payload": Object {},
+    "type": "COMMONS/ACCESS_CONTROL/SET_USER_PERMISSION",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Array [],
+    "type": "GET_USER_SETTING",
+  },
+  Object {
+    "type": "RELOAD_TIMESHEET",
+  },
+  Object {
+    "payload": Array [],
+    "type": "INIT_DAILY_STAMP_TIME",
+  },
+  Object {
+    "payload": FatalError {
+      "errorCode": undefined,
+      "message": "Test Error",
+      "name": "Error",
+      "stacktrace": null,
+      "type": "FatalError",
+    },
+    "type": "CATCH_UNEXPECTED_ERROR",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`initialize() should return if isMigratedSummary is false. 1`] = `
+Array [
+  Object {
+    "payload": Object {},
+    "type": "COMMONS/ACCESS_CONTROL/SET_USER_PERMISSION",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Array [],
+    "type": "GET_USER_SETTING",
+  },
+  Object {
+    "type": "RELOAD_TIMESHEET",
+  },
+  Object {
+    "payload": Array [],
+    "type": "INIT_DAILY_STAMP_TIME",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`initialize() should return if timesheet is null. 1`] = `
+Array [
+  Object {
+    "payload": Object {},
+    "type": "COMMONS/ACCESS_CONTROL/SET_USER_PERMISSION",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Array [],
+    "type": "GET_USER_SETTING",
+  },
+  Object {
+    "type": "RELOAD_TIMESHEET",
+  },
+  Object {
+    "payload": Array [],
+    "type": "INIT_DAILY_STAMP_TIME",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`initialize() with parameters should do with proxy and standalone. 1`] = `
+Array [
+  Object {
+    "type": "COMMONS/MODULES/STANDALONEMODE/ENABLE",
+  },
+  Object {
+    "payload": Object {
+      "viewTimeTrackByDelegate": true,
+    },
+    "type": "COMMONS/ACCESS_CONTROL/SET_USER_PERMISSION",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Array [],
+    "type": "GET_USER_SETTING",
+  },
+  Object {
+    "type": "RELOAD_TIMESHEET",
+  },
+  Object {
+    "payload": Object {
+      "departmentCode": "",
+      "departmentName": "Department Name",
+      "employeeCode": "CODE",
+      "employeeName": "Employee Name",
+      "employeePhotoUrl": "photoUrl",
+      "id": "ID",
+      "managerName": "Manager Name",
+      "title": "Title",
+    },
+    "type": "COMMONS/MODULES/PROXY_EMP_INFO/SET",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`initialize() with parameters should do with proxy. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "viewTimeTrackByDelegate": true,
+    },
+    "type": "COMMONS/ACCESS_CONTROL/SET_USER_PERMISSION",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Array [],
+    "type": "GET_USER_SETTING",
+  },
+  Object {
+    "type": "RELOAD_TIMESHEET",
+  },
+  Object {
+    "payload": Object {
+      "departmentCode": "",
+      "departmentName": "Department Name",
+      "employeeCode": "CODE",
+      "employeeName": "Employee Name",
+      "employeePhotoUrl": "photoUrl",
+      "id": "ID",
+      "managerName": "Manager Name",
+      "title": "Title",
+    },
+    "type": "COMMONS/MODULES/PROXY_EMP_INFO/SET",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`initialize() with parameters should not do if targetDate is null with proxy. 1`] = `
+Array [
+  Object {
+    "payload": [Error: Error - The timetable could not be obtained. There is a possibility that the target employee does not exist on the start date of this month, or the authority necessary to switch to the target employee is insufficient.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+  Object {
+    "payload": Object {
+      "viewTimeTrackByDelegate": true,
+    },
+    "type": "COMMONS/ACCESS_CONTROL/SET_USER_PERMISSION",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Array [],
+    "type": "GET_USER_SETTING",
+  },
+  Object {
+    "type": "RELOAD_TIMESHEET",
+  },
+  Object {
+    "payload": Object {
+      "departmentCode": "",
+      "departmentName": "Department Name",
+      "employeeCode": "CODE",
+      "employeeName": "Employee Name",
+      "employeePhotoUrl": "photoUrl",
+      "id": "ID",
+      "managerName": "Manager Name",
+      "title": "Title",
+    },
+    "type": "COMMONS/MODULES/PROXY_EMP_INFO/SET",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`onStampSuccess() should do. 1`] = `Array []`;
+
+exports[`switchProxyEmployee() should do. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "RELOAD_TIMESHEET",
+  },
+  Object {
+    "payload": Object {
+      "id": "employeeId",
+    },
+    "type": "COMMONS/MODULES/PROXY_EMP_INFO/SET",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`switchProxyEmployee() should not do if UseCases().reloadTimesheet throw Error. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "RELOAD_TIMESHEET",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+  Object {
+    "payload": [Error: Error - The timetable could not be obtained. There is a possibility that the target employee does not exist on the start date of this month, or the authority necessary to switch to the target employee is insufficient.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+]
+`;
+
+exports[`switchProxyEmployee() should not do if error is occurred. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "RELOAD_TIMESHEET",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+  Object {
+    "payload": [Error: Error - The timetable could not be obtained. There is a possibility that the target employee does not exist on the start date of this month, or the authority necessary to switch to the target employee is insufficient.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+]
+`;
+
+exports[`switchProxyEmployee() should return if isMigratedSummary is false. 1`] = `Array []`;

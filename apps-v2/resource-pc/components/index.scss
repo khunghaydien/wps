@@ -1,0 +1,13 @@
+@import '../../commons/components/psa/variables.scss';
+
+#container {
+  position: relative;
+}
+
+.ts-container {
+  min-height: 100vh;
+  position: relative;
+  min-width: 1280px;
+  background-color: $color-container;
+  overflow: unset;
+}

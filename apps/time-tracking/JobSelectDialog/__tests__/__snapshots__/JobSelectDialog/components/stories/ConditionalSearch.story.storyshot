@@ -1,0 +1,3829 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/JobSelectDialog/ConditionalSearch Has Long Job Name 1`] = `
+.c4 {
+  fill: #333;
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c0 {
+  border-top: solid 1px #ddd;
+  padding: 20px 20px 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  -webkit-flex: 0 0 71px;
+  -ms-flex: 0 0 71px;
+  flex: 0 0 71px;
+  position: relative;
+  width: 50%;
+}
+
+.c2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #666;
+}
+
+.c3 {
+  padding-left: 32px !important;
+  height: 32px;
+  color: #333;
+}
+
+.c5 {
+  fill: #afadab;
+  position: absolute;
+  left: 8px;
+  margin-top: 8px;
+}
+
+.c6 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c7 {
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 div.title {
+  font-weight: bold;
+  color: #666;
+}
+
+.c7 div.recordCount {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: right;
+  color: #333;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c9 {
+  margin: 10px 0 0;
+  border: solid 1px #ddd;
+  border-radius: 4px;
+}
+
+.c9 > .conditional-search-result-table__scrollable {
+  max-height: 277px;
+}
+
+.c9.conditional-search-result-table__has-more-than-record-count > .conditional-search-result-table__scrollable {
+  max-height: 256px;
+}
+
+.c10 {
+  min-height: 45px;
+  border-top: solid 1px #ddd;
+  cursor: pointer;
+}
+
+.c10:first-child {
+  border-top: none;
+}
+
+.c10:hover {
+  background-color: #f3f2f2;
+}
+
+.c10.conditional-search-result-table-row__selected {
+  background-color: #2782ed;
+  color: #fff;
+}
+
+.c10 .conditional-search-result-table-row-job-label {
+  padding: 8px 0;
+}
+
+.c10 .conditional-search-result-table-row-job-label-period {
+  line-height: 1;
+}
+
+.c11 {
+  padding: 0 20px 0 42px !important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c12 {
+  margin-left: -22px;
+  height: 18px;
+  line-height: 14px;
+}
+
+.c13 {
+  fill: #828282;
+  margin-right: 8px;
+  height: 14px;
+  width: 14px;
+}
+
+<div
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "display": "flex",
+      "height": "420px",
+      "width": "964px",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        Search by entering code or name
+      </div>
+      <input
+        className="ts-text-field slds-input c3"
+        disabled={false}
+        maxLength={100}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Search on Enter"
+        readOnly={false}
+        type="text"
+        value=""
+      />
+      <test-file-stub
+        aria-hidden={true}
+        className="c4 c5"
+      />
+    </div>
+    <div
+      className="c6"
+    >
+      <div
+        className="c7"
+      >
+        <div
+          className="title"
+        >
+          Search Results
+        </div>
+        <div
+          className="recordCount"
+        >
+          3
+           
+          record(s)
+        </div>
+      </div>
+      <div
+        className="c8 ResultBody"
+      >
+        <div
+          className="commons-fixed-header-table c9"
+          role="grid"
+        >
+          <div
+            className="commons-fixed-header-table__fixed"
+          />
+          <div
+            className="commons-fixed-header-table__scrollable conditional-search-result-table__scrollable"
+          >
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000000"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="commons-tooltip c12"
+                  id="commons-tooltip"
+                >
+                  <div
+                    className="slds-tooltip-trigger"
+                    style={
+                      Object {
+                        "display": "block",
+                      }
+                    }
+                  >
+                    <test-file-stub
+                      aria-describedby="000000"
+                      aria-hidden={true}
+                      className="c4 c13"
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      style={Object {}}
+                      tabIndex={0}
+                    />
+                    <span />
+                  </div>
+                </div>
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000000 - 000000
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000001"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000001 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000002"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000002 - LoremipsumdolorsitametconsecteturadipiscingelitseddoeiusmodtemporincididuntutlaboreetdoloremagnaaliquaUtenimadminimveniamquisnostrudexercitationullamcolaborisnisiutaliquipexeacommodoconsequatDuisauteiruredolorinreprehenderitinvoluptatevelitessecillumdoloreeufugiatnullapariaturExcepteursintoccaecatcupidatatnonproidentsuntinculpaquiofficiadeseruntmollitanimidestlaborum
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots time-tracking/JobSelectDialog/ConditionalSearch Has More Than Record Count 1`] = `
+.c4 {
+  fill: #333;
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c0 {
+  border-top: solid 1px #ddd;
+  padding: 20px 20px 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  -webkit-flex: 0 0 71px;
+  -ms-flex: 0 0 71px;
+  flex: 0 0 71px;
+  position: relative;
+  width: 50%;
+}
+
+.c2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #666;
+}
+
+.c3 {
+  padding-left: 32px !important;
+  height: 32px;
+  color: #333;
+}
+
+.c5 {
+  fill: #afadab;
+  position: absolute;
+  left: 8px;
+  margin-top: 8px;
+}
+
+.c6 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c7 {
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 div.title {
+  font-weight: bold;
+  color: #666;
+}
+
+.c7 div.recordCount {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: right;
+  color: #333;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c9 {
+  margin: 10px 0 0;
+  border: solid 1px #ddd;
+  border-radius: 4px;
+}
+
+.c9 > .conditional-search-result-table__scrollable {
+  max-height: 277px;
+}
+
+.c9.conditional-search-result-table__has-more-than-record-count > .conditional-search-result-table__scrollable {
+  max-height: 256px;
+}
+
+.c10 {
+  min-height: 45px;
+  border-top: solid 1px #ddd;
+  cursor: pointer;
+}
+
+.c10:first-child {
+  border-top: none;
+}
+
+.c10:hover {
+  background-color: #f3f2f2;
+}
+
+.c10.conditional-search-result-table-row__selected {
+  background-color: #2782ed;
+  color: #fff;
+}
+
+.c10 .conditional-search-result-table-row-job-label {
+  padding: 8px 0;
+}
+
+.c10 .conditional-search-result-table-row-job-label-period {
+  line-height: 1;
+}
+
+.c11 {
+  padding: 0 20px 0 42px !important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c14 {
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  padding: 12px 0;
+  text-align: right;
+  color: #C23934;
+}
+
+.c12 {
+  margin-left: -22px;
+  height: 18px;
+  line-height: 14px;
+}
+
+.c13 {
+  fill: #828282;
+  margin-right: 8px;
+  height: 14px;
+  width: 14px;
+}
+
+<div
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "display": "flex",
+      "height": "420px",
+      "width": "964px",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        Search by entering code or name
+      </div>
+      <input
+        className="ts-text-field slds-input c3"
+        disabled={false}
+        maxLength={100}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Search on Enter"
+        readOnly={false}
+        type="text"
+        value=""
+      />
+      <test-file-stub
+        aria-hidden={true}
+        className="c4 c5"
+      />
+    </div>
+    <div
+      className="c6"
+    >
+      <div
+        className="c7"
+      >
+        <div
+          className="title"
+        >
+          Search Results
+        </div>
+        <div
+          className="recordCount"
+        >
+          100
+          +
+           
+          record(s)
+        </div>
+      </div>
+      <div
+        className="c8 ResultBody"
+      >
+        <div
+          className="commons-fixed-header-table c9 conditional-search-result-table__has-more-than-record-count"
+          role="grid"
+        >
+          <div
+            className="commons-fixed-header-table__fixed"
+          />
+          <div
+            className="commons-fixed-header-table__scrollable conditional-search-result-table__scrollable"
+          >
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000000"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="commons-tooltip c12"
+                  id="commons-tooltip"
+                >
+                  <div
+                    className="slds-tooltip-trigger"
+                    style={
+                      Object {
+                        "display": "block",
+                      }
+                    }
+                  >
+                    <test-file-stub
+                      aria-describedby="000000"
+                      aria-hidden={true}
+                      className="c4 c13"
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      style={Object {}}
+                      tabIndex={0}
+                    />
+                    <span />
+                  </div>
+                </div>
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000000 - 000000
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000001"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000001 - 000001
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000002"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000002 - 000002
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000003"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000003 - 000003
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000004"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000004 - 000004
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000005"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000005 - 000005
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000006"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000006 - 000006
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000007"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000007 - 000007
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000008"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000008 - 000008
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000009"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000009 - 000009
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000010"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000010 - 000010
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000011"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000011 - 000011
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000012"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000012 - 000012
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000013"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000013 - 000013
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000014"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000014 - 000014
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000015"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000015 - 000015
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000016"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000016 - 000016
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000017"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000017 - 000017
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000018"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000018 - 000018
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000019"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000019 - 000019
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000020"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000020 - 000020
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000021"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000021 - 000021
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000022"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000022 - 000022
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000023"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000023 - 000023
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000024"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000024 - 000024
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000025"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000025 - 000025
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000026"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000026 - 000026
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000027"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000027 - 000027
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000028"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000028 - 000028
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000029"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000029 - 000029
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000030"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000030 - 000030
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000031"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000031 - 000031
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000032"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000032 - 000032
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000033"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000033 - 000033
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000034"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000034 - 000034
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000035"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000035 - 000035
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000036"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000036 - 000036
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000037"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000037 - 000037
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000038"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000038 - 000038
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000039"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000039 - 000039
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000040"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000040 - 000040
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000041"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000041 - 000041
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000042"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000042 - 000042
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000043"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000043 - 000043
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000044"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000044 - 000044
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000045"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000045 - 000045
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000046"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000046 - 000046
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000047"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000047 - 000047
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000048"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000048 - 000048
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000049"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000049 - 000049
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000050"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000050 - 000050
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000051"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000051 - 000051
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000052"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000052 - 000052
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000053"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000053 - 000053
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000054"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000054 - 000054
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000055"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000055 - 000055
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000056"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000056 - 000056
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000057"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000057 - 000057
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000058"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000058 - 000058
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000059"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000059 - 000059
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000060"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000060 - 000060
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000061"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000061 - 000061
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000062"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000062 - 000062
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000063"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000063 - 000063
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000064"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000064 - 000064
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000065"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000065 - 000065
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000066"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000066 - 000066
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000067"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000067 - 000067
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000068"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000068 - 000068
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000069"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000069 - 000069
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000070"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000070 - 000070
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000071"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000071 - 000071
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000072"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000072 - 000072
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000073"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000073 - 000073
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000074"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000074 - 000074
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000075"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000075 - 000075
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000076"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000076 - 000076
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000077"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000077 - 000077
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000078"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000078 - 000078
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000079"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000079 - 000079
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000080"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000080 - 000080
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000081"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000081 - 000081
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000082"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000082 - 000082
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000083"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000083 - 000083
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000084"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000084 - 000084
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000085"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000085 - 000085
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000086"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000086 - 000086
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000087"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000087 - 000087
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000088"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000088 - 000088
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000089"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000089 - 000089
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000090"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000090 - 000090
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000091"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000091 - 000091
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000092"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000092 - 000092
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000093"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000093 - 000093
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000094"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000094 - 000094
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000095"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000095 - 000095
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000096"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000096 - 000096
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000097"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000097 - 000097
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000098"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000098 - 000098
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000099"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000099 - 000099
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c14 ResultFooter"
+      >
+        Too many search results. Please refine your search criteria and try again.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots time-tracking/JobSelectDialog/ConditionalSearch No Results 1`] = `
+.c4 {
+  fill: #333;
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c0 {
+  border-top: solid 1px #ddd;
+  padding: 20px 20px 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  -webkit-flex: 0 0 71px;
+  -ms-flex: 0 0 71px;
+  flex: 0 0 71px;
+  position: relative;
+  width: 50%;
+}
+
+.c2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #666;
+}
+
+.c3 {
+  padding-left: 32px !important;
+  height: 32px;
+  color: #333;
+}
+
+.c5 {
+  fill: #afadab;
+  position: absolute;
+  left: 8px;
+  margin-top: 8px;
+}
+
+.c6 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c7 {
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 div.title {
+  font-weight: bold;
+  color: #666;
+}
+
+.c7 div.recordCount {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: right;
+  color: #333;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+<div
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "display": "flex",
+      "height": "420px",
+      "width": "964px",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        Search by entering code or name
+      </div>
+      <input
+        className="ts-text-field slds-input c3"
+        disabled={false}
+        maxLength={100}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Search on Enter"
+        readOnly={false}
+        type="text"
+        value=""
+      />
+      <test-file-stub
+        aria-hidden={true}
+        className="c4 c5"
+      />
+    </div>
+    <div
+      className="c6"
+    >
+      <div
+        className="c7"
+      >
+        <div
+          className="title"
+        >
+          Search Results
+        </div>
+        <div
+          className="recordCount"
+        >
+          0
+           
+          record(s)
+        </div>
+      </div>
+      <div
+        className="c8 ResultBody"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots time-tracking/JobSelectDialog/ConditionalSearch Standard 1`] = `
+.c4 {
+  fill: #333;
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c0 {
+  border-top: solid 1px #ddd;
+  padding: 20px 20px 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  -webkit-flex: 0 0 71px;
+  -ms-flex: 0 0 71px;
+  flex: 0 0 71px;
+  position: relative;
+  width: 50%;
+}
+
+.c2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #666;
+}
+
+.c3 {
+  padding-left: 32px !important;
+  height: 32px;
+  color: #333;
+}
+
+.c5 {
+  fill: #afadab;
+  position: absolute;
+  left: 8px;
+  margin-top: 8px;
+}
+
+.c6 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c7 {
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 div.title {
+  font-weight: bold;
+  color: #666;
+}
+
+.c7 div.recordCount {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: right;
+  color: #333;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c9 {
+  margin: 10px 0 0;
+  border: solid 1px #ddd;
+  border-radius: 4px;
+}
+
+.c9 > .conditional-search-result-table__scrollable {
+  max-height: 277px;
+}
+
+.c9.conditional-search-result-table__has-more-than-record-count > .conditional-search-result-table__scrollable {
+  max-height: 256px;
+}
+
+.c10 {
+  min-height: 45px;
+  border-top: solid 1px #ddd;
+  cursor: pointer;
+}
+
+.c10:first-child {
+  border-top: none;
+}
+
+.c10:hover {
+  background-color: #f3f2f2;
+}
+
+.c10.conditional-search-result-table-row__selected {
+  background-color: #2782ed;
+  color: #fff;
+}
+
+.c10 .conditional-search-result-table-row-job-label {
+  padding: 8px 0;
+}
+
+.c10 .conditional-search-result-table-row-job-label-period {
+  line-height: 1;
+}
+
+.c11 {
+  padding: 0 20px 0 42px !important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c12 {
+  margin-left: -22px;
+  height: 18px;
+  line-height: 14px;
+}
+
+.c13 {
+  fill: #828282;
+  margin-right: 8px;
+  height: 14px;
+  width: 14px;
+}
+
+<div
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "display": "flex",
+      "height": "420px",
+      "width": "964px",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        Search by entering code or name
+      </div>
+      <input
+        className="ts-text-field slds-input c3"
+        disabled={false}
+        maxLength={100}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Search on Enter"
+        readOnly={false}
+        type="text"
+        value=""
+      />
+      <test-file-stub
+        aria-hidden={true}
+        className="c4 c5"
+      />
+    </div>
+    <div
+      className="c6"
+    >
+      <div
+        className="c7"
+      >
+        <div
+          className="title"
+        >
+          Search Results
+        </div>
+        <div
+          className="recordCount"
+        >
+          20
+           
+          record(s)
+        </div>
+      </div>
+      <div
+        className="c8 ResultBody"
+      >
+        <div
+          className="commons-fixed-header-table c9"
+          role="grid"
+        >
+          <div
+            className="commons-fixed-header-table__fixed"
+          />
+          <div
+            className="commons-fixed-header-table__scrollable conditional-search-result-table__scrollable"
+          >
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000000"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="commons-tooltip c12"
+                  id="commons-tooltip"
+                >
+                  <div
+                    className="slds-tooltip-trigger"
+                    style={
+                      Object {
+                        "display": "block",
+                      }
+                    }
+                  >
+                    <test-file-stub
+                      aria-describedby="000000"
+                      aria-hidden={true}
+                      className="c4 c13"
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      style={Object {}}
+                      tabIndex={0}
+                    />
+                    <span />
+                  </div>
+                </div>
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000000 - 000000
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10 conditional-search-result-table-row__selected"
+              data-testid="conditional-search-result-row-000001"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000001 - 000001
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000002"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000002 - 000002
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000003"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000003 - 000003
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000004"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000004 - 000004
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000005"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000005 - 000005
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000006"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000006 - 000006
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000007"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000007 - 000007
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000008"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000008 - 000008
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000009"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000009 - 000009
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000010"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000010 - 000010
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000011"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000011 - 000011
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000012"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000012 - 000012
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000013"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000013 - 000013
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000014"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000014 - 000014
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000015"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000015 - 000015
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000016"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000016 - 000016
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000017"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000017 - 000017
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000018"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000018 - 000018
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000019"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000019 - 000019
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots time-tracking/JobSelectDialog/ConditionalSearch With History Record 1`] = `
+.c4 {
+  fill: #333;
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c14 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 10px;
+  color: #333;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c0 {
+  border-top: solid 1px #ddd;
+  padding: 20px 20px 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  -webkit-flex: 0 0 71px;
+  -ms-flex: 0 0 71px;
+  flex: 0 0 71px;
+  position: relative;
+  width: 50%;
+}
+
+.c2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #666;
+}
+
+.c3 {
+  padding-left: 32px !important;
+  height: 32px;
+  color: #333;
+}
+
+.c5 {
+  fill: #afadab;
+  position: absolute;
+  left: 8px;
+  margin-top: 8px;
+}
+
+.c6 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c7 {
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 div.title {
+  font-weight: bold;
+  color: #666;
+}
+
+.c7 div.recordCount {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: right;
+  color: #333;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c9 {
+  margin: 10px 0 0;
+  border: solid 1px #ddd;
+  border-radius: 4px;
+}
+
+.c9 > .conditional-search-result-table__scrollable {
+  max-height: 277px;
+}
+
+.c9.conditional-search-result-table__has-more-than-record-count > .conditional-search-result-table__scrollable {
+  max-height: 256px;
+}
+
+.c10 {
+  min-height: 45px;
+  border-top: solid 1px #ddd;
+  cursor: pointer;
+}
+
+.c10:first-child {
+  border-top: none;
+}
+
+.c10:hover {
+  background-color: #f3f2f2;
+}
+
+.c10.conditional-search-result-table-row__selected {
+  background-color: #2782ed;
+  color: #fff;
+}
+
+.c10 .conditional-search-result-table-row-job-label {
+  padding: 8px 0;
+}
+
+.c10 .conditional-search-result-table-row-job-label-period {
+  line-height: 1;
+}
+
+.c11 {
+  padding: 0 20px 0 42px !important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c12 {
+  margin-left: -22px;
+  height: 18px;
+  line-height: 14px;
+}
+
+.c13 {
+  fill: #828282;
+  margin-right: 8px;
+  height: 14px;
+  width: 14px;
+}
+
+.c15 {
+  color: inherit;
+}
+
+<div
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "display": "flex",
+      "height": "420px",
+      "width": "964px",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        Search by entering code or name
+      </div>
+      <input
+        className="ts-text-field slds-input c3"
+        disabled={false}
+        maxLength={100}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Search on Enter"
+        readOnly={false}
+        type="text"
+        value=""
+      />
+      <test-file-stub
+        aria-hidden={true}
+        className="c4 c5"
+      />
+    </div>
+    <div
+      className="c6"
+    >
+      <div
+        className="c7"
+      >
+        <div
+          className="title"
+        >
+          Search Results
+        </div>
+        <div
+          className="recordCount"
+        >
+          3
+           
+          record(s)
+        </div>
+      </div>
+      <div
+        className="c8 ResultBody"
+      >
+        <div
+          className="commons-fixed-header-table c9"
+          role="grid"
+        >
+          <div
+            className="commons-fixed-header-table__fixed"
+          />
+          <div
+            className="commons-fixed-header-table__scrollable conditional-search-result-table__scrollable"
+          >
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000000"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="commons-tooltip c12"
+                  id="commons-tooltip"
+                >
+                  <div
+                    className="slds-tooltip-trigger"
+                    style={
+                      Object {
+                        "display": "block",
+                      }
+                    }
+                  >
+                    <test-file-stub
+                      aria-describedby="000000"
+                      aria-hidden={true}
+                      className="c4 c13"
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      style={Object {}}
+                      tabIndex={0}
+                    />
+                    <span />
+                  </div>
+                </div>
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000000 - 000000
+                  </p>
+                  <p
+                    className="conditional-search-result-table-row-job-label-period"
+                  >
+                    <span
+                      className="c14 c15"
+                      size="small"
+                    >
+                      2020-01-01 - 2025-01-01
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000001"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000001 - 000001
+                  </p>
+                  <p
+                    className="conditional-search-result-table-row-job-label-period"
+                  >
+                    <span
+                      className="c14 c15"
+                      size="small"
+                    >
+                      2020-01-01 - 2025-01-01
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="commons-fixed-header-table-body-row c10"
+              data-testid="conditional-search-result-row-000002"
+              onClick={[Function]}
+              role="columnheader"
+            >
+              <div
+                className="commons-fixed-header-table-body-cell c11"
+                role="grid"
+              >
+                <div
+                  className="conditional-search-result-table-row-job-label"
+                >
+                  <p>
+                    000002 - 000002
+                  </p>
+                  <p
+                    className="conditional-search-result-table-row-job-label-period"
+                  >
+                    <span
+                      className="c14 c15"
+                      size="small"
+                    >
+                      2020-01-01 - 2025-01-01
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots time-tracking/JobSelectDialog/ConditionalSearch initial 1`] = `
+.c4 {
+  fill: #333;
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c0 {
+  border-top: solid 1px #ddd;
+  padding: 20px 20px 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  -webkit-flex: 0 0 71px;
+  -ms-flex: 0 0 71px;
+  flex: 0 0 71px;
+  position: relative;
+  width: 50%;
+}
+
+.c2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #666;
+}
+
+.c3 {
+  padding-left: 32px !important;
+  height: 32px;
+  color: #333;
+}
+
+.c5 {
+  fill: #afadab;
+  position: absolute;
+  left: 8px;
+  margin-top: 8px;
+}
+
+.c6 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c7 {
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 div.title {
+  font-weight: bold;
+  color: #666;
+}
+
+.c7 div.recordCount {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: right;
+  color: #333;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+<div
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "display": "flex",
+      "height": "420px",
+      "width": "964px",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        Search by entering code or name
+      </div>
+      <input
+        className="ts-text-field slds-input c3"
+        disabled={false}
+        maxLength={100}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Search on Enter"
+        readOnly={false}
+        type="text"
+        value=""
+      />
+      <test-file-stub
+        aria-hidden={true}
+        className="c4 c5"
+      />
+    </div>
+    <div
+      className="c6"
+    >
+      <div
+        className="c7"
+      >
+        <div
+          className="title"
+        >
+          Search Results
+        </div>
+        <div
+          className="recordCount"
+        >
+          -
+           
+          record(s)
+        </div>
+      </div>
+      <div
+        className="c8 ResultBody"
+      />
+    </div>
+  </div>
+</div>
+`;

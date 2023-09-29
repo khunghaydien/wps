@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.77 1.846">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #074b69;
+      }
+    </style>
+  </defs>
+  <g id="icons_utility_minimize_window" data-name="icons/utility/minimize_window" transform="translate(-0.615 -0.385)">
+    <path id="Mask" class="cls-1" d="M15.385,1.769a.473.473,0,0,1-.462.462H1.077a.473.473,0,0,1-.462-.462V.846A.473.473,0,0,1,1.077.385H14.923a.473.473,0,0,1,.462.462Z"/>
+  </g>
+</svg>

@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"request\\": null,
++ }"
+`;
+
+exports[`reducer() MOBILE_APP/MODULES/ATTENDANCE/DAILY_REQUEST/UI/REQUESTS/DIRECT_REQUEST/CLEAR should be executed 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"request\\": Object {
+-     \\"approver01Name\\": \\"\\",
+-     \\"canDirectInputTimeRequest\\": false,
+-     \\"directApplyRestTimes\\": Array [
+-       Object {
+-         \\"endTime\\": null,
+-         \\"id\\": \\"3\\",
+-         \\"restReason\\": null,
+-         \\"startTime\\": null,
+-       },
+-     ],
+-     \\"endDate\\": \\"2022-02-22\\",
+-     \\"endTime\\": null,
+-     \\"flexEndTime\\": null,
+-     \\"flexStartTime\\": null,
+-     \\"id\\": \\"\\",
+-     \\"isDirectInputTimeRequest\\": false,
+-     \\"isForReapply\\": false,
+-     \\"leaveCode\\": \\"\\",
+-     \\"leaveDetailCode\\": null,
+-     \\"leaveDetailName\\": null,
+-     \\"leaveName\\": \\"\\",
+-     \\"leaveRange\\": null,
+-     \\"leaveType\\": null,
+-     \\"originalRequestId\\": \\"\\",
+-     \\"patternCode\\": null,
+-     \\"patternName\\": null,
+-     \\"patternRestTimes\\": Array [],
+-     \\"personalReason\\": false,
+-     \\"reason\\": \\"\\",
+-     \\"reasonCode\\": null,
+-     \\"reasonId\\": null,
+-     \\"reasonName\\": null,
+-     \\"remarks\\": \\"\\",
+-     \\"requestDayType\\": null,
+-     \\"requestTypeCode\\": \\"None\\",
+-     \\"requestTypeName\\": \\"\\",
+-     \\"requestableDayType\\": null,
+-     \\"requireReason\\": false,
+-     \\"startDate\\": \\"2022-02-22\\",
+-     \\"startTime\\": null,
+-     \\"status\\": \\"NotRequested\\",
+-     \\"substituteDate\\": \\"\\",
+-     \\"substituteLeaveType\\": null,
+-     \\"type\\": \\"Direct\\",
+-     \\"useEarlyLeaveReason\\": false,
+-     \\"useLateArrivalReason\\": false,
+-     \\"useManagePersonalReason\\": false,
+-     \\"withoutCoreTime\\": false,
+-     \\"workSystem\\": \\"\\",
+-   },
++   \\"request\\": null,
+  }"
+`;
+
+exports[`reducer() MOBILE_APP/MODULES/ATTENDANCE/DAILY_REQUEST/UI/REQUESTS/DIRECT_REQUEST/INITIALIZE should be executed 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"request\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"canDirectInputTimeRequest\\": false,
++     \\"directApplyRestTimes\\": Array [
++       Object {
++         \\"endTime\\": null,
++         \\"id\\": \\"1\\",
++         \\"restReason\\": null,
++         \\"startTime\\": null,
++       },
++     ],
++     \\"endDate\\": \\"2022-02-22\\",
++     \\"endTime\\": null,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isDirectInputTimeRequest\\": false,
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveDetailCode\\": null,
++     \\"leaveDetailName\\": null,
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": null,
++     \\"patternName\\": null,
++     \\"patternRestTimes\\": Array [],
++     \\"personalReason\\": false,
++     \\"reason\\": \\"\\",
++     \\"reasonCode\\": null,
++     \\"reasonId\\": null,
++     \\"reasonName\\": null,
++     \\"remarks\\": \\"\\",
++     \\"requestDayType\\": null,
++     \\"requestTypeCode\\": \\"None\\",
++     \\"requestTypeName\\": \\"\\",
++     \\"requestableDayType\\": null,
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2022-02-22\\",
++     \\"startTime\\": null,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"Direct\\",
++     \\"useEarlyLeaveReason\\": false,
++     \\"useLateArrivalReason\\": false,
++     \\"useManagePersonalReason\\": false,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"\\",
++   },
+  }"
+`;
+
+exports[`reducer() MOBILE_APP/MODULES/ATTENDANCE/DAILY_REQUEST/UI/REQUESTS/DIRECT_REQUEST/UPDATE should be executed  1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -37,11 +37,11 @@
+      \\"requestTypeCode\\": \\"None\\",
+      \\"requestTypeName\\": \\"\\",
+      \\"requestableDayType\\": null,
+      \\"requireReason\\": false,
+      \\"startDate\\": \\"2022-02-22\\",
+-     \\"startTime\\": null,
++     \\"startTime\\": 540,
+      \\"status\\": \\"NotRequested\\",
+      \\"substituteDate\\": \\"\\",
+      \\"substituteLeaveType\\": null,
+      \\"type\\": \\"Direct\\",
+      \\"useEarlyLeaveReason\\": false,"
+`;
+
+exports[`reducer() MOBILE_APP/MODULES/ATTENDANCE/DAILY_REQUEST/UI/REQUESTS/DIRECT_REQUEST/UPDATE should not be executed if state is not initializing 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;

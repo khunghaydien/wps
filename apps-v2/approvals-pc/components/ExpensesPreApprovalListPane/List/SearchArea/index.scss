@@ -1,0 +1,54 @@
+@import '../../../../../commons/styles/wsp';
+
+.approvals-pc-expenses__search-area {
+  padding-left: 12px;
+
+  .ts-expenses__search-area-field {
+    margin: 2px;
+  }
+
+  &-search-button {
+    width: 100px;
+    height: 32px;
+    margin: 10px;
+  }
+
+  & .slds-button--icon-border-filled {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  & .commons-fields-dropdown-custom {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  & .commons-fields-dropdown-custom__value {
+    height: 32px;
+    padding: 5px;
+  }
+
+  & .commons-fields-dropdown-date {
+    z-index: 1;
+  }
+
+  &-proxy-status {
+    display: inline-block;
+    padding: 0 18px;
+
+    &-label {
+      padding-left: 4px;
+      color: #969696;
+    }
+
+    &-value {
+      padding-left: 4px;
+      color: #000;
+      font-weight: bold;
+    }
+  }
+
+  & .ts-button {
+    color: color('exp-primary');
+  }
+}

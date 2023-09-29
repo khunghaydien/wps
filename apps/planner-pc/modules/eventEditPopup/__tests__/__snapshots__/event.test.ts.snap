@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@INIT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"calculateCapacity\\": false,
++   \\"end\\": null,
++   \\"id\\": null,
++   \\"isAllDay\\": false,
++   \\"isOrganizer\\": true,
++   \\"isOuting\\": false,
++   \\"job\\": Object {
++     \\"id\\": \\"\\",
++     \\"name\\": \\"\\",
++   },
++   \\"layout\\": Object {},
++   \\"location\\": \\"\\",
++   \\"remarks\\": \\"\\",
++   \\"start\\": null,
++   \\"title\\": \\"\\",
++   \\"workCategoryCode\\": \\"\\",
++   \\"workCategoryId\\": \\"\\",
++   \\"workCategoryName\\": \\"\\",
++ }"
+`;
+
+exports[`reducer() CLEAR_EVENT_EDIT_POPUP 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() CLEAR_WORK_CATEGORY_LIST_EVENT_EDIT_POPUP 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() EDIT_EVENT_EDIT_POPUP "description" 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,7 +1,8 @@
+  Object {
+    \\"createdServiceBy\\": \\"teamspirit\\",
++   \\"description\\": \\"it should update description property\\",
+    \\"end\\": \\"2019-09-24T15:00:00.000Z\\",
+    \\"externalEventId\\": null,
+    \\"id\\": \\"a172v00000dWP7gAAG\\",
+    \\"isAllDay\\": true,
+    \\"isOrganizer\\": true,"
+`;
+
+exports[`reducer() EDIT_EVENT_EDIT_POPUP "end" 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,8 +1,8 @@
+  Object {
+    \\"createdServiceBy\\": \\"teamspirit\\",
+-   \\"end\\": \\"2019-09-24T15:00:00.000Z\\",
++   \\"end\\": \\"2019-01-15T15:00:00.000Z\\",
+    \\"externalEventId\\": null,
+    \\"id\\": \\"a172v00000dWP7gAAG\\",
+    \\"isAllDay\\": true,
+    \\"isOrganizer\\": true,
+    \\"isOuting\\": false,"
+`;
+
+exports[`reducer() EDIT_EVENT_EDIT_POPUP "isOuting" 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -3,11 +3,11 @@
+    \\"end\\": \\"2019-09-24T15:00:00.000Z\\",
+    \\"externalEventId\\": null,
+    \\"id\\": \\"a172v00000dWP7gAAG\\",
+    \\"isAllDay\\": true,
+    \\"isOrganizer\\": true,
+-   \\"isOuting\\": false,
++   \\"isOuting\\": true,
+    \\"job\\": Object {
+      \\"code\\": \\"\\",
+      \\"id\\": \\"\\",
+      \\"name\\": \\"\\",
+    },"
+`;
+
+exports[`reducer() EDIT_EVENT_EDIT_POPUP "location" 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -17,11 +17,11 @@
+      \\"containsAllDay\\": true,
+      \\"endMinutesOfDay\\": 0,
+      \\"startMinutesOfDay\\": 0,
+      \\"visibleInMonthlyView\\": true,
+    },
+-   \\"location\\": \\"\\",
++   \\"location\\": \\"it should update location property\\",
+    \\"remarks\\": \\"\\",
+    \\"start\\": \\"2019-09-17T15:00:00.000Z\\",
+    \\"title\\": \\"hhhhh\\",
+    \\"workCategoryCode\\": \\"\\",
+    \\"workCategoryId\\": \\"\\","
+`;
+
+exports[`reducer() EDIT_EVENT_EDIT_POPUP "start" 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -19,11 +19,11 @@
+      \\"startMinutesOfDay\\": 0,
+      \\"visibleInMonthlyView\\": true,
+    },
+    \\"location\\": \\"\\",
+    \\"remarks\\": \\"\\",
+-   \\"start\\": \\"2019-09-17T15:00:00.000Z\\",
++   \\"start\\": \\"2019-01-01T15:00:00.000Z\\",
+    \\"title\\": \\"hhhhh\\",
+    \\"workCategoryCode\\": \\"\\",
+    \\"workCategoryId\\": \\"\\",
+    \\"workCategoryName\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() EDIT_EVENT_EDIT_POPUP "title" 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -20,10 +20,10 @@
+      \\"visibleInMonthlyView\\": true,
+    },
+    \\"location\\": \\"\\",
+    \\"remarks\\": \\"\\",
+    \\"start\\": \\"2019-09-17T15:00:00.000Z\\",
+-   \\"title\\": \\"hhhhh\\",
++   \\"title\\": \\"it should update title property\\",
+    \\"workCategoryCode\\": \\"\\",
+    \\"workCategoryId\\": \\"\\",
+    \\"workCategoryName\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() SELECT_DATA_EVENT_EDIT_POPUP 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"calculateCapacity\\": false,
+-   \\"end\\": null,
+-   \\"id\\": null,
+-   \\"isAllDay\\": false,
++   \\"createdServiceBy\\": \\"teamspirit\\",
++   \\"end\\": \\"2019-09-24T15:00:00.000Z\\",
++   \\"externalEventId\\": null,
++   \\"id\\": \\"a172v00000dWP7gAAG\\",
++   \\"isAllDay\\": true,
+    \\"isOrganizer\\": true,
+    \\"isOuting\\": false,
+    \\"job\\": Object {
++     \\"code\\": \\"\\",
+      \\"id\\": \\"\\",
+      \\"name\\": \\"\\",
+    },
+-   \\"layout\\": Object {},
++   \\"layout\\": Object {
++     \\"colIndex\\": 3,
++     \\"colSpan\\": 4,
++     \\"containsAllDay\\": true,
++     \\"endMinutesOfDay\\": 0,
++     \\"startMinutesOfDay\\": 0,
++     \\"visibleInMonthlyView\\": true,
++   },
+    \\"location\\": \\"\\",
+    \\"remarks\\": \\"\\",
+-   \\"start\\": null,
+-   \\"title\\": \\"\\",
++   \\"start\\": \\"2019-09-17T15:00:00.000Z\\",
++   \\"title\\": \\"hhhhh\\",
+    \\"workCategoryCode\\": \\"\\",
+    \\"workCategoryId\\": \\"\\",
+    \\"workCategoryName\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() SELECT_JOB_EVENT_EDIT_POPUP 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -5,13 +5,13 @@
+    \\"id\\": \\"a172v00000dWP7gAAG\\",
+    \\"isAllDay\\": true,
+    \\"isOrganizer\\": true,
+    \\"isOuting\\": false,
+    \\"job\\": Object {
+-     \\"code\\": \\"\\",
+-     \\"id\\": \\"\\",
+-     \\"name\\": \\"\\",
++     \\"code\\": \\"001\\",
++     \\"id\\": \\"a0h2v00000XB8o2AAD\\",
++     \\"name\\": \\"TEST\\",
+    },
+    \\"layout\\": Object {
+      \\"colIndex\\": 3,
+      \\"colSpan\\": 4,
+      \\"containsAllDay\\": true,"
+`;

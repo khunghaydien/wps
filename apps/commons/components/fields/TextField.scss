@@ -1,0 +1,28 @@
+@import '../../styles/variables/colors';
+
+.ts-text-field {
+  min-height: 26px;
+  line-height: 26px;
+
+  // divに適応します。
+  &--readonly {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 12px;
+    line-height: 28px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &::placeholder {
+    color: #706e6b;
+  }
+}
+
+.is-required {
+  display: inline-block;
+  color: $ts-warning;
+  vertical-align: middle;
+}

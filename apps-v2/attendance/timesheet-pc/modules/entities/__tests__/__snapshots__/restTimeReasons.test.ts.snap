@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected undefined but received null."
+`;
+
+exports[`reducer() TIMESHEET-PC/ENTITIES/DAILY_REST_TIME_REASONS/CLEAR 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected array but received null."
+`;
+
+exports[`reducer() TIMESHEET-PC/ENTITIES/DAILY_REST_TIME_REASONS/SET 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected null but received array."
+`;

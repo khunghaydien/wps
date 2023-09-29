@@ -1,0 +1,233 @@
+@import 'mobile-global-imports.scss';
+
+$headerHeight: 48px;
+$footerHeight: 85px;
+
+.mobile-app-pages-transaction-list {
+  .mobile-app-molecules-commons-navigation__title {
+    flex: auto;
+    width: auto;
+  }
+
+  .main-content {
+    height: calc(100vh - #{($headerHeight + $footerHeight)}) !important;
+    margin-top: $headerHeight;
+
+    .mobile-app-molecules-commons-alert {
+      position: sticky;
+      top: 0;
+      width: 100%;
+    }
+  }
+
+  &__next {
+    height: $footerHeight;
+    box-shadow: 0 0 16px $color-box-shadow;
+    padding-top: 5px;
+    &-hint {
+      text-align: center;
+      color: $color-text-info;
+      font-size: 12px;
+      margin-top: -8px;
+    }
+    .mobile-app-atoms-button__container {
+      height: 60px;
+      button {
+        background-color: $color-primary;
+        border-color: $color-primary;
+      }
+
+      button,
+      button:disabled,
+      button::after {
+        border-radius: 4px;
+        width: 300px;
+        height: 44px;
+      }
+    }
+  }
+
+  &__search-area {
+    height: 48px;
+    margin: 0 8px;
+    display: flex;
+    overflow-y: hidden;
+    white-space: nowrap;
+    align-items: center;
+    -webkit-overflow-scrolling: touch;
+
+    &-reset {
+      button {
+        color: $color-primary;
+        font-size: 14px;
+        font-weight: normal;
+      }
+    }
+  }
+
+  &__filter-tag {
+    border: 1px solid $color-text-info;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0 8px;
+    padding: 8px;
+    align-items: center;
+    display: flex;
+
+    &-label {
+      padding-right: 8px;
+      color: $color-text-info;
+      white-space: nowrap;
+    }
+
+    svg {
+      margin: 0 auto;
+      display: block;
+      width: 12px;
+      height: 8px;
+    }
+
+    &.highlight {
+      background-color: $color-primary;
+      border-color: $color-primary;
+
+      span {
+        color: #fff;
+      }
+
+      svg {
+        margin: 0 auto;
+        path {
+          fill: #fff !important;
+        }
+      }
+    }
+
+    .count-icon {
+      background-color: #fff;
+      border-radius: 9px;
+      color: $color-primary !important;
+      min-width: 18px;
+      height: 18px;
+      line-height: 18px;
+      text-align: center;
+      font-weight: normal;
+      margin-right: 8px;
+    }
+  }
+
+  &__item {
+    width: 100%;
+    min-height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid $color-border;
+    align-items: center;
+    height: auto;
+
+    .content {
+      flex: 1;
+      padding: 14px 0 0 18px;
+      width: calc(100% - 50px);
+
+      .top {
+        display: flex;
+        justify-content: space-between;
+        color: $color-text-base;
+        font-size: 14px;
+        font-weight: $font-emphasis;
+        padding: 0 0 10px 0;
+        .info-icon {
+          justify-content: center;
+          align-items: center;
+          transform: scale(1.7);
+        }
+      }
+      .bottom {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        color: $color-text-info;
+        margin-top: 4px;
+        .description {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          padding-right: 4px;
+        }
+      }
+    }
+  }
+
+  &__img-radio {
+    padding: 26px 18px;
+  }
+
+  &__has-zero {
+    color: $color-red-800;
+    text-align: center;
+  }
+
+  &__has-over-maximum {
+    color: $color-red-800;
+    text-align: center;
+  }
+
+  &__count {
+    display: flex;
+    padding-left: 16px;
+    background-color: #f3f2f2;
+  }
+
+  &__num {
+    overflow: hidden;
+    margin-top: $base-size;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .radio-container input:checked ~ .checkmark {
+    background-color: #2782ed;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark::after {
+    content: '';
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .radio-container input:checked ~ .checkmark::after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .radio-container .checkmark::after {
+    left: 10px;
+    top: 5px;
+    width: 7px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}

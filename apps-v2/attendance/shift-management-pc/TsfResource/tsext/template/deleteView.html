@@ -1,0 +1,53 @@
+<div>
+	<ul class="tsext-pankz">
+		<li><a href="#!menu">メニュー</a></li>
+		<li class="tsext-pankz-div">＞</li>
+		<li>検証データ削除</li>
+	</ul>
+	<div class="tsext-error" style="display:none;">
+	</div>
+	<div class="tsext-form">
+		<div class="tsext-know">
+			<div>
+				★プレフィックスを指定してインポートを行っている場合限定の機能です。<br/>
+				名前の先頭がプレフィックスに一致するレコードを削除します。
+			</div>
+		</div>
+		<table>
+			<tr>
+				<td>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div>1.</div>
+							<div>削除対象のプレフィックス</div>
+							<div style="margin-left:10px;">
+								<select id="tsextPrefix" >
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div>2.</div>
+							<div>
+								<input type="button" value="削除実行" id="tsextDelete" />
+							</div>
+						</div>
+					</div>
+				</td>
+				<td style="padding-left:20px;display:none;">
+					<div class="tsext-section">
+						<div class="tsext-form-emps">
+						</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<div class="tsext-form-log">
+			<div>
+				ログ
+			</div>
+			<textarea wrap="off" readOnly="readOnly"></textarea>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/TrackSummary/Graphs Pie 1`] = `
+.c1 {
+  width: 140px;
+  height: 140px;
+}
+
+.c0 {
+  height: 72px;
+  width: 72px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      style={
+        Object {
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots time-tracking/TrackSummary/Graphs Pie/Colors 1`] = `
+.c1 {
+  width: 140px;
+  height: 140px;
+}
+
+.c0 {
+  height: 72px;
+  width: 72px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      style={
+        Object {
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+</div>
+`;

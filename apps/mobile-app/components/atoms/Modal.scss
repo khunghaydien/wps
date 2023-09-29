@@ -1,0 +1,49 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-atoms-modal {
+  position: fixed;
+  z-index: $zindex-modal-bg;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+
+  &.default-theme {
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  &.light-theme {
+    background: #fff;
+  }
+
+  &.dark-theme {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+  }
+
+  & .close-button {
+    position: fixed;
+    top: unit(2);
+    right: unit(1);
+    color: $color-gray-000;
+  }
+
+  & button.close-button {
+    padding: 0;
+    border: none;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+  }
+
+  & .close-button::after {
+    content: '\2573';
+    font-size: unit(10);
+  }
+
+  & .content {
+    padding: unit(5) unit(11) 0 unit(11);
+  }
+}

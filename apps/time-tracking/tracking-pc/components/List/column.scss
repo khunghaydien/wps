@@ -1,0 +1,23 @@
+.tracking-pc-list-column {
+  &--date {
+    flex: 0 0 75px;
+  }
+
+  &--name {
+    flex: 0 0 425px;
+  }
+
+  &--tracking-graph,
+  &--label-summary {
+    flex: 0 0 140px;
+  }
+
+  &--work-time {
+    flex: 0 0 70px;
+    text-align: center;
+  }
+
+  &--item-content {
+    flex: 0 0 625px;
+  }
+}

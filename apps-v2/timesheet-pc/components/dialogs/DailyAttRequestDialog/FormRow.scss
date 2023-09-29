@@ -1,0 +1,34 @@
+.timesheet-pc-dialogs-daily-att-request-dialog-form-row {
+  display: flex;
+
+  &:not(:nth-of-type(1)) {
+    margin-top: 20px;
+  }
+
+  &__label {
+    display: flex;
+    position: relative;
+    align-items: center;
+    max-height: 32px;
+    width: 106px;
+  }
+
+  &__label span {
+    position: absolute;
+    left: -8px;
+    font-size: $font-size-default;
+    color: #f00;
+  }
+
+  &__label p {
+    font-size: $font-size-default;
+    color: #666;
+  }
+
+  &__body {
+    width: 100%;
+    margin-left: 20px;
+    font-size: $font-size-default;
+    color: #333;
+  }
+}

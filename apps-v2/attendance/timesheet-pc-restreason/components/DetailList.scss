@@ -1,0 +1,93 @@
+.timesheet-pc-rest-detail-list {
+  $this: &;
+
+  margin: 0 0 15px;
+
+  @import 'shared-table';
+
+  &__table {
+    border-collapse: collapse;
+  }
+
+  &__table > caption {
+    font-size: $font-size-x-large;
+    line-height: 32px;
+  }
+
+  &__table > thead > tr > th,
+  &__table > tbody > tr > td {
+    padding: 2px 8px;
+
+    @media print {
+      padding: 1px 4px;
+    }
+  }
+
+  &__table > thead > tr > th {
+    border: 1px solid $color-border-default;
+    background: $color-bg-heading;
+    color: $color-text-modest;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  &__table > tbody {
+    border: 1px solid $color-border-default;
+  }
+
+  &__table > tbody > tr {
+    background: $color-bg-tbody-row-stripe-odd;
+  }
+
+  &__table > tbody > tr:nth-child(even) {
+    background: $color-bg-tbody-row-stripe-odd;
+  }
+
+  &__table > tbody > tr > td {
+    border-right: 1px dashed $color-border-default;
+    border-left: 1px dashed $color-border-default;
+
+    @media print {
+      border: 1px solid $color-border-default;
+    }
+  }
+
+  td#{$this}__date {
+    text-align: center;
+  }
+  td#{$this}__rest-reason-name,
+  td#{$this}__rest-reason-code {
+    text-align: left;
+  }
+
+  td#{$this}__rest-start-end-time,
+  td#{$this}__rest-time {
+    text-align: center;
+  }
+
+  &__date {
+    width: 5px;
+    white-space: nowrap;
+  }
+
+  &__rest-reason-name {
+    width: 240px;
+
+    &:empty {
+      height: 24.5px;
+    }
+  }
+
+  &__rest-reason-code {
+    width: 240px;
+    word-break: break-all;
+  }
+
+  &__rest-start-end-time {
+    width: 180px;
+  }
+
+  &__rest-time {
+    width: 180px;
+  }
+}

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should do 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -5,20 +5,37 @@
+        \\"code\\": \\"Code\\",
+        \\"endTime\\": 1200,
+        \\"flexEndTime\\": 1080,
+        \\"flexStartTime\\": 540,
+        \\"name\\": \\"Name\\",
+-       \\"rest1EndTime\\": 725,
+-       \\"rest1StartTime\\": 720,
+-       \\"rest2EndTime\\": 735,
+-       \\"rest2StartTime\\": 730,
+-       \\"rest3EndTime\\": 745,
+-       \\"rest3StartTime\\": 740,
+-       \\"rest4EndTime\\": 755,
+-       \\"rest4StartTime\\": 750,
+-       \\"rest5EndTime\\": 764,
+-       \\"rest5StartTime\\": 760,
++       \\"restTimes\\": Array [
++         Object {
++           \\"endTime\\": 725,
++           \\"restReason\\": undefined,
++           \\"startTime\\": 720,
++         },
++         Object {
++           \\"endTime\\": 735,
++           \\"restReason\\": undefined,
++           \\"startTime\\": 730,
++         },
++         Object {
++           \\"endTime\\": 745,
++           \\"restReason\\": undefined,
++           \\"startTime\\": 740,
++         },
++         Object {
++           \\"endTime\\": 755,
++           \\"restReason\\": undefined,
++           \\"startTime\\": 750,
++         },
++         Object {
++           \\"endTime\\": 764,
++           \\"restReason\\": undefined,
++           \\"startTime\\": 760,
++         },
++       ],
+        \\"startTime\\": 480,
+        \\"withoutCoreTime\\": false,
+        \\"workSystem\\": \\"WorkSystem\\",
+      },
+    ],"
+`;

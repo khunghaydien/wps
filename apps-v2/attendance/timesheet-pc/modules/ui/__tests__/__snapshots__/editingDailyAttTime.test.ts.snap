@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected undefined but received null."
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/ADD_REST_TIME 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -50,8 +50,14 @@
+          \\"id\\": \\"a0A2800000FmMQCEA1\\",
+          \\"name\\": \\"お昼休み\\",
+        },
+        \\"startTime\\": 960,
+      },
++     Object {
++       \\"endTime\\": null,
++       \\"id\\": \\"1\\",
++       \\"restReason\\": null,
++       \\"startTime\\": null,
++     },
+    ],
+    \\"startTime\\": 720,
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/DELETE_REST_TIME 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -21,20 +21,10 @@
+          \\"name\\": \\"お昼休み\\",
+        },
+        \\"startTime\\": 720,
+      },
+      Object {
+-       \\"endTime\\": 896,
+-       \\"id\\": \\"0002\\",
+-       \\"restReason\\": Object {
+-         \\"code\\": \\"001\\",
+-         \\"id\\": \\"a0A2800000FmMQCEA1\\",
+-         \\"name\\": \\"お昼休み\\",
+-       },
+-       \\"startTime\\": 822,
+-     },
+-     Object {
+        \\"endTime\\": 900,
+        \\"id\\": \\"0003\\",
+        \\"restReason\\": Object {
+          \\"code\\": \\"001\\",
+          \\"id\\": \\"a0A2800000FmMQCEA1\\","
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"commuteCount\\": Object {
++     \\"backwardCount\\": 1,
++     \\"forwardCount\\": 0,
++   },
++   \\"dailyObjectivelyEventLog\\": null,
++   \\"endTime\\": 780,
++   \\"hasRestTime\\": false,
++   \\"maxRestTimesCount\\": 5,
++   \\"otherRestReason\\": null,
++   \\"recordDate\\": \\"2020-04-16\\",
++   \\"recordId\\": \\"recordId\\",
++   \\"remarks\\": \\"REMARKS\\",
++   \\"restHours\\": null,
++   \\"restTimes\\": Array [
++     Object {
++       \\"endTime\\": 780,
++       \\"id\\": \\"0001\\",
++       \\"restReason\\": Object {
++         \\"code\\": \\"001\\",
++         \\"id\\": \\"a0A2800000FmMQCEA1\\",
++         \\"name\\": \\"お昼休み\\",
++       },
++       \\"startTime\\": 720,
++     },
++     Object {
++       \\"endTime\\": 896,
++       \\"id\\": \\"0002\\",
++       \\"restReason\\": Object {
++         \\"code\\": \\"001\\",
++         \\"id\\": \\"a0A2800000FmMQCEA1\\",
++         \\"name\\": \\"お昼休み\\",
++       },
++       \\"startTime\\": 822,
++     },
++     Object {
++       \\"endTime\\": 900,
++       \\"id\\": \\"0003\\",
++       \\"restReason\\": Object {
++         \\"code\\": \\"001\\",
++         \\"id\\": \\"a0A2800000FmMQCEA1\\",
++         \\"name\\": \\"お昼休み\\",
++       },
++       \\"startTime\\": 897,
++     },
++     Object {
++       \\"endTime\\": 1020,
++       \\"id\\": \\"0004\\",
++       \\"restReason\\": Object {
++         \\"code\\": \\"001\\",
++         \\"id\\": \\"a0A2800000FmMQCEA1\\",
++         \\"name\\": \\"お昼休み\\",
++       },
++       \\"startTime\\": 960,
++     },
++   ],
++   \\"startTime\\": 720,
++ }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/UNSET 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected object but received null."
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/UPDATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,11 +1,11 @@
+  Object {
+    \\"commuteCount\\": Object {
+      \\"backwardCount\\": 1,
+      \\"forwardCount\\": 0,
+    },
+-   \\"endTime\\": 780,
++   \\"endTime\\": \\"24:00\\",
+    \\"hasRestTime\\": false,
+    \\"maxRestTimesCount\\": 5,
+    \\"otherRestReason\\": null,
+    \\"recordDate\\": \\"2020-04-16\\",
+    \\"recordId\\": \\"recordId\\","
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/UPDATE_DAILY_OBJECTIVELY_EVENT_LOG should update 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -10,12 +10,12 @@
+      },
+      \\"deviatedLeavingTimeReason\\": Object {
+        \\"text\\": \\"Old LeavingReason\\",
+        \\"value\\": null,
+      },
+-     \\"id\\": \\"XXXX\\",
+-     \\"name\\": \\"ZZZZ\\",
++     \\"id\\": \\"YYYY\\",
++     \\"name\\": \\"WWWW\\",
+    },
+    \\"endTime\\": 780,
+    \\"hasRestTime\\": false,
+    \\"maxRestTimesCount\\": 5,
+    \\"otherRestReason\\": null,"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/UPDATE_DAILY_OBJECTIVELY_EVENT_LOG should update if payload is null 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,22 +1,11 @@
+  Object {
+    \\"commuteCount\\": Object {
+      \\"backwardCount\\": 1,
+      \\"forwardCount\\": 0,
+    },
+-   \\"dailyObjectivelyEventLog\\": Object {
+-     \\"deviatedEnteringTimeReason\\": Object {
+-       \\"text\\": \\"Old EnteringReason\\",
+-       \\"value\\": null,
+-     },
+-     \\"deviatedLeavingTimeReason\\": Object {
+-       \\"text\\": \\"Old LeavingReason\\",
+-       \\"value\\": null,
+-     },
+-     \\"id\\": \\"XXXX\\",
+-     \\"name\\": \\"ZZZZ\\",
+-   },
++   \\"dailyObjectivelyEventLog\\": null,
+    \\"endTime\\": 780,
+    \\"hasRestTime\\": false,
+    \\"maxRestTimesCount\\": 5,
+    \\"otherRestReason\\": null,
+    \\"recordDate\\": \\"2020-04-16\\","
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/UPDATE_DEVIATED_TIME_REASON entering 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/UPDATE_DEVIATED_TIME_REASON leaving 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/UPDATE_REST_TIME 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -21,18 +21,18 @@
+          \\"name\\": \\"お昼休み\\",
+        },
+        \\"startTime\\": 720,
+      },
+      Object {
+-       \\"endTime\\": 896,
++       \\"endTime\\": 780,
+        \\"id\\": \\"0002\\",
+        \\"restReason\\": Object {
+          \\"code\\": \\"001\\",
+          \\"id\\": \\"a0A2800000FmMQCEA1\\",
+          \\"name\\": \\"お昼休み\\",
+        },
+-       \\"startTime\\": 822,
++       \\"startTime\\": 720,
+      },
+      Object {
+        \\"endTime\\": 900,
+        \\"id\\": \\"0003\\",
+        \\"restReason\\": Object {"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/UPDATE_REST_TIMES 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;

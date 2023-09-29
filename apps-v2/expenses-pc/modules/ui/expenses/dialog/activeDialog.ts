@@ -1,0 +1,242 @@
+import { Reducer } from 'redux';
+
+import { dropRight } from 'lodash';
+
+//
+// constants
+//
+export const ACTIONS = {
+  HIDE: 'MODULES/DIALOG/ACTIVE_DIALOG/HIDE',
+  HIDE_ALL: 'MODULES/DIALOG/ACTIVE_DIALOG/HIDE_ALL',
+  APPROVAL: 'MODULES/DIALOG/ACTIVE_DIALOG/APPROVAL',
+  APPROVAL_HISTORY: 'MODULES/DIALOG/ACTIVE_DIALOG/APPROVAL_HISTORY',
+  CANCEL_REQUEST: 'MODULES/DIALOG/ACTIVE_DIALOG/CANCEL_REQUEST',
+  COST_CENTER: 'MODULES/DIALOG/ACTIVE_DIALOG/COST_CENTER',
+  EXPENSE_TYPE: 'MODULES/DIALOG/ACTIVE_DIALOG/EXPENSE_TYPE',
+  CUSTOM_REQUEST: 'MODULES/DIALOG/ACTIVE_DIALOG/CUSTOM_REQUEST',
+  EXPENSE_TYPE_CHANGE: 'MODULES/DIALOG/ACTIVE_DIALOG/EXPENSE_TYPE_CHANGE',
+  ROUTE_SELECT: 'MODULES/DIALOG/ACTIVE_DIALOG/ROUTE_SELECT',
+  JOB: 'MODULES/DIALOG/ACTIVE_DIALOG/JOB',
+  SEARCH_CONDITION: 'MODULES/DIALOG/ACTIVE_DIALOG/SEARCH_CONDITION',
+  DELETE_SEARCH_CONDITION:
+    'MODULES/DIALOG/ACTIVE_DIALOG/DELETE_SEARCH_CONDITION',
+  EDIT_HISTORY: 'MODULES/DIALOG/ACTIVE_DIALOG/EDIT_HISTORY',
+  RECEIPTS: 'MODULES/DIALOG/ACTIVE_DIALOG/RECEIPTS',
+  OCR_RECEIPTS: 'MODULES/DIALOG/ACTIVE_DIALOG/OCR_RECEIPTS',
+  OCR_RECEIPT_DETAIL: 'MODULES/DIALOG/ACTIVE_DIALOG/OCR_RECEIPT_DETAIL',
+  TRANSACTION_SELECTION: 'MODULES/DIALOG/ACTIVE_DIALOG/TRANSACTION_SELECTION',
+  IC_CARD_TRANSACTION: 'MODULES/DIALOG/ACTIVE_DIALOG/IC_CARD_TRANSACTION',
+  SWITCH_EMPLOYEE: 'MODULES/DIALOG/ACTIVE_DIALOG/SWITCH_EMPLOYEE',
+  SWITCH_SUBROLE: 'MODULES/DIALOG/ACTIVE_DIALOG/SWITCH_SUBROLE',
+  EI_LOOKUP: 'MODULES/DIALOG/ACTIVE_DIALOG/EI_LOOKUP',
+  VENDOR_LOOKUP: 'MODULES/DIALOG/ACTIVE_DIALOG/VENDOR_LOOKUP',
+  VENDOR_DETAIL: 'MODULES/DIALOG/ACTIVE_DIALOG/VENDOR_DETAIL',
+  VENDOR_CREATE: 'MODULES/DIALOG/ACTIVE_DIALOG/VENDOR_CREATE',
+  VENDOR_EDIT: 'MODULES/DIALOG/ACTIVE_DIALOG/VENDOR_EDIT',
+  CLEAR: 'MODULES/EXPENSES/DIALOG/CLEAR',
+  RECORD_CLONE_DATE: 'MODULES/DIALOG/ACTIVE_DIALOG/RECORD_CLONE_DATE',
+  RECORD_UPDATED: 'MODULES/DIALOG/ACTIVE_DIALOG/RECORD_UPDATED',
+  RECORD_CLONE_NUMBER: 'MODULES/DIALOG/ACTIVE_DIALOG/RECORD_CLONE_NUMBER',
+  RECORD_LIST: 'MODULES/DIALOG/ACTIVE_DIALOG/RECORD_LIST',
+};
+
+export const dialogTypes = {
+  HIDE: 'HIDE',
+  APPROVAL: 'APPROVAL',
+  APPROVAL_HISTORY: 'APPROVAL_HISTORY',
+  CANCEL_REQUEST: 'CANCEL',
+  COST_CENTER: 'COST_CENTER',
+  EXPENSE_TYPE: 'EXPENSE_TYPE',
+  CUSTOM_REQUEST: 'CUSTOM_REQUEST',
+  EXPENSE_TYPE_CHANGE: 'EXPENSE_TYPE_CHANGE',
+  ROUTE_SELECT: 'ROUTE_SELECT',
+  JOB: 'JOB',
+  SEARCH_CONDITION: 'SEARCH_CONDITION',
+  DELETE_SEARCH_CONDITION: 'DELETE_SEARCH_CONDITION',
+  EDIT_HISTORY: 'EDIT_HISTORY',
+  RECEIPTS: 'RECEIPTS',
+  OCR_RECEIPTS: 'OCR_RECEIPTS',
+  OCR_RECEIPT_DETAIL: 'OCR_RECEIPT_DETAIL',
+  TRANSACTION_SELECTION: 'TRANSACTION_SELECTION',
+  IC_CARD_TRANSACTION: 'IC_CARD_TRANSACTION',
+  SWITCH_EMPLOYEE: 'SWITCH_EMPLOYEE',
+  SWITCH_SUBROLE: 'SWITCH_SUBROLE',
+  EI_LOOKUP: 'EI_LOOKUP',
+  VENDOR_LOOKUP: 'VENDOR_LOOKUP',
+  VENDOR_DETAIL: 'VENDOR_DETAIL',
+  VENDOR_CREATE: 'VENDOR_CREATE',
+  VENDOR_EDIT: 'VENDOR_EDIT',
+  RECORD_CLONE_DATE: 'RECORD_CLONE_DATE',
+  RECORD_UPDATED: 'RECORD_UPDATED',
+  RECORD_CLONE_NUMBER: 'RECORD_CLONE_NUMBER',
+};
+
+//
+// actions
+//
+export const actions = {
+  clear: () => ({
+    type: ACTIONS.CLEAR,
+  }),
+  hide: () => ({
+    type: ACTIONS.HIDE,
+    payload: dialogTypes.HIDE,
+  }),
+  hideAll: () => ({
+    type: ACTIONS.HIDE_ALL,
+  }),
+  approval: () => ({
+    type: ACTIONS.APPROVAL,
+    payload: dialogTypes.APPROVAL,
+  }),
+  approvalHistory: () => ({
+    type: ACTIONS.APPROVAL_HISTORY,
+    payload: dialogTypes.APPROVAL_HISTORY,
+  }),
+  cancelRequest: () => ({
+    type: ACTIONS.CANCEL_REQUEST,
+    payload: dialogTypes.CANCEL_REQUEST,
+  }),
+  costCenter: () => ({
+    type: ACTIONS.COST_CENTER,
+    payload: dialogTypes.COST_CENTER,
+  }),
+  expenseType: () => ({
+    type: ACTIONS.EXPENSE_TYPE,
+    payload: dialogTypes.EXPENSE_TYPE,
+  }),
+  customRequest: () => ({
+    type: ACTIONS.CUSTOM_REQUEST,
+    payload: dialogTypes.CUSTOM_REQUEST,
+  }),
+  expenseTypeChange: () => ({
+    type: ACTIONS.EXPENSE_TYPE_CHANGE,
+    payload: dialogTypes.EXPENSE_TYPE_CHANGE,
+  }),
+  routeSelect: () => ({
+    type: ACTIONS.ROUTE_SELECT,
+    payload: dialogTypes.ROUTE_SELECT,
+  }),
+  job: () => ({
+    type: ACTIONS.JOB,
+    payload: dialogTypes.JOB,
+  }),
+  searchCondition: () => ({
+    type: ACTIONS.SEARCH_CONDITION,
+    payload: dialogTypes.SEARCH_CONDITION,
+  }),
+  deleteSearchCondition: () => ({
+    type: ACTIONS.DELETE_SEARCH_CONDITION,
+    payload: dialogTypes.DELETE_SEARCH_CONDITION,
+  }),
+  editHistory: () => ({
+    type: ACTIONS.EDIT_HISTORY,
+    payload: dialogTypes.EDIT_HISTORY,
+  }),
+  receipts: () => ({
+    type: ACTIONS.RECEIPTS,
+    payload: dialogTypes.RECEIPTS,
+  }),
+  ocrReceipts: () => ({
+    type: ACTIONS.OCR_RECEIPTS,
+    payload: dialogTypes.OCR_RECEIPTS,
+  }),
+  ocrReceiptDetail: () => ({
+    type: ACTIONS.OCR_RECEIPT_DETAIL,
+    payload: dialogTypes.OCR_RECEIPT_DETAIL,
+  }),
+  transactionSelection: () => ({
+    type: ACTIONS.TRANSACTION_SELECTION,
+    payload: dialogTypes.TRANSACTION_SELECTION,
+  }),
+  icCardTransaction: () => ({
+    type: ACTIONS.IC_CARD_TRANSACTION,
+    payload: dialogTypes.IC_CARD_TRANSACTION,
+  }),
+  switchEmployee: () => ({
+    type: ACTIONS.SWITCH_EMPLOYEE,
+    payload: dialogTypes.SWITCH_EMPLOYEE,
+  }),
+  switchSubRole: () => ({
+    type: ACTIONS.SWITCH_SUBROLE,
+    payload: dialogTypes.SWITCH_SUBROLE,
+  }),
+  eiLookup: () => ({
+    type: ACTIONS.EI_LOOKUP,
+    payload: dialogTypes.EI_LOOKUP,
+  }),
+  vendorLookup: () => ({
+    type: ACTIONS.VENDOR_LOOKUP,
+    payload: dialogTypes.VENDOR_LOOKUP,
+  }),
+  vendorDetail: () => ({
+    type: ACTIONS.VENDOR_DETAIL,
+    payload: dialogTypes.VENDOR_DETAIL,
+  }),
+  vendorCreate: () => ({
+    type: ACTIONS.VENDOR_CREATE,
+    payload: dialogTypes.VENDOR_CREATE,
+  }),
+  vendorEdit: () => ({
+    type: ACTIONS.VENDOR_EDIT,
+    payload: dialogTypes.VENDOR_EDIT,
+  }),
+  recordCloneDate: () => ({
+    type: ACTIONS.RECORD_CLONE_DATE,
+    payload: dialogTypes.RECORD_CLONE_DATE,
+  }),
+  recordUpdated: () => ({
+    type: ACTIONS.RECORD_UPDATED,
+    payload: dialogTypes.RECORD_UPDATED,
+  }),
+  recordCloneNumber: () => ({
+    type: ACTIONS.RECORD_CLONE_NUMBER,
+    payload: dialogTypes.RECORD_CLONE_NUMBER,
+  }),
+};
+
+//
+// Reducer
+//
+const initialState = [];
+
+export default ((state = initialState, action) => {
+  switch (action.type) {
+    case ACTIONS.HIDE:
+      return dropRight(state);
+    case ACTIONS.HIDE_ALL:
+      return initialState;
+    case ACTIONS.APPROVAL:
+    case ACTIONS.APPROVAL_HISTORY:
+    case ACTIONS.CANCEL_REQUEST:
+    case ACTIONS.COST_CENTER:
+    case ACTIONS.EXPENSE_TYPE:
+    case ACTIONS.CUSTOM_REQUEST:
+    case ACTIONS.EXPENSE_TYPE_CHANGE:
+    case ACTIONS.ROUTE_SELECT:
+    case ACTIONS.JOB:
+    case ACTIONS.SEARCH_CONDITION:
+    case ACTIONS.DELETE_SEARCH_CONDITION:
+    case ACTIONS.EDIT_HISTORY:
+    case ACTIONS.RECEIPTS:
+    case ACTIONS.OCR_RECEIPTS:
+    case ACTIONS.OCR_RECEIPT_DETAIL:
+    case ACTIONS.TRANSACTION_SELECTION:
+    case ACTIONS.IC_CARD_TRANSACTION:
+    case ACTIONS.SWITCH_EMPLOYEE:
+    case ACTIONS.SWITCH_SUBROLE:
+    case ACTIONS.EI_LOOKUP:
+    case ACTIONS.VENDOR_LOOKUP:
+    case ACTIONS.VENDOR_DETAIL:
+    case ACTIONS.VENDOR_CREATE:
+    case ACTIONS.VENDOR_EDIT:
+    case ACTIONS.RECORD_CLONE_DATE:
+    case ACTIONS.RECORD_UPDATED:
+    case ACTIONS.RECORD_CLONE_NUMBER:
+    case ACTIONS.RECORD_LIST:
+      return [...state, action.payload];
+    case ACTIONS.CLEAR:
+    default:
+      return state;
+  }
+}) as Reducer<Array<string>, any>;

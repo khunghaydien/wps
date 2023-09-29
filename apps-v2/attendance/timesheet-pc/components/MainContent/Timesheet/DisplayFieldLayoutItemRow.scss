@@ -1,0 +1,128 @@
+.timesheet-pc-main-content-timesheet-display-field-layout-item-row {
+  $this: &;
+
+  background-color: #fff;
+
+  .slds-input {
+    min-height: 30px;
+    height: 30px;
+  }
+
+  > td {
+    overflow: hidden;
+    height: 32px;
+    text-align: center;
+    vertical-align: middle;
+
+    > div {
+      height: 30px;
+    }
+
+    > input {
+      height: 30px;
+    }
+  }
+
+  @import 'day-type-style';
+
+  &__button {
+    width: 110px;
+    min-width: 110px;
+
+    > button {
+      width: 90px;
+      height: 30px;
+    }
+  }
+
+  &__dropdown {
+    width: 160px;
+    min-width: 160px;
+
+    > div {
+      width: 140px;
+
+      button {
+        height: 30px !important;
+        font-size: 12px !important;
+        color: #53688c !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+
+  &__number {
+    width: 170px;
+    min-width: 170px;
+
+    > input {
+      width: 150px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  &__text {
+    width: 300px;
+    min-width: 300px;
+
+    > input {
+      width: 280px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  &__time {
+    width: 95px;
+    min-width: 95px;
+
+    > input {
+      width: 75px;
+    }
+  }
+
+  &__date {
+    width: 130px;
+    min-width: 130px;
+
+    > div {
+      width: 110px;
+    }
+  }
+
+  &__checkbox {
+    width: 120px;
+    min-width: 120px;
+
+    label {
+      margin-left: 52px;
+    }
+  }
+
+  &__string {
+    width: 200px;
+    min-width: 200px;
+    > div {
+      margin:0 auto;
+      width: 180px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 34px;
+    }
+  }
+
+  &__dropdown-option {
+    li {
+      > div:last-child {
+        width: calc(100% - 29px);
+        overflow-wrap: break-word;
+        }
+      }
+    }
+}

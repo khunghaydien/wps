@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`closeDailySummary() should not verify insufficient rest time if not clock-out  1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "param": Object {
+          "empId": "test",
+          "endDate": undefined,
+          "startDate": undefined,
+        },
+        "path": "/time-track/alert/list",
+      },
+    ],
+    Array [
+      Object {
+        "param": Object {
+          "empId": "test",
+          "endDate": "2020-06-01",
+          "startDate": "2020-06-01",
+        },
+        "path": "/time-track/record/actual/get",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
+  ],
+}
+`;
+
+exports[`closeDailySummary() should refresh time sheet 1`] = `
+Array [
+  Object {
+    "type": "FETCH_TIMESHEET",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "TIMESHEET-PC/UI/DAILY_TIME_TRACK/START_LOADING",
+  },
+  Object {
+    "payload": Object {},
+    "type": "TIMESHEET_PC/MODULES/ENTITIES/TIMETRACKALERT/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "dailyTimeTrackList": Array [],
+      "timesheet": "timesheet",
+    },
+    "type": "TIMESHEET-PC/ENTITIES/DAILYTIMETRACK/UPDATE_RECORDS",
+  },
+  Object {
+    "type": "TIMESHEET-PC/UI/DAILY_TIME_TRACK/END_LOADING",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`closeDailySummary() should verify insufficient rest time  1`] = `
+Array [
+  Object {
+    "type": "FETCH_TIMESHEET",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "TIMESHEET-PC/UI/DAILY_TIME_TRACK/START_LOADING",
+  },
+  Object {
+    "payload": Object {
+      "commuteCount": null,
+      "defaultAction": undefined,
+      "isEnableEndStamp": undefined,
+      "isEnableRestartStamp": undefined,
+      "isEnableStartStamp": undefined,
+      "isPossibleFixDailyRequest": undefined,
+      "record": Object {
+        "fixDailyRequest": Object {
+          "approver01Name": "",
+          "id": "",
+          "performableActionForFix": "Submit",
+          "status": "NotRequested",
+        },
+        "id": "",
+      },
+      "stampInDate": undefined,
+      "stampOutDate": undefined,
+      "stampReInDate": undefined,
+    },
+    "type": "TIMESHEET-PC/ENTITIES/STAMP_WIDGET/APPLY_DAILY_STAMP_TIME",
+  },
+  Object {
+    "payload": Object {},
+    "type": "TIMESHEET_PC/MODULES/ENTITIES/TIMETRACKALERT/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "dailyTimeTrackList": Array [],
+      "timesheet": "timesheet",
+    },
+    "type": "TIMESHEET-PC/ENTITIES/DAILYTIMETRACK/UPDATE_RECORDS",
+  },
+  Object {
+    "type": "TIMESHEET-PC/UI/DAILY_TIME_TRACK/END_LOADING",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;

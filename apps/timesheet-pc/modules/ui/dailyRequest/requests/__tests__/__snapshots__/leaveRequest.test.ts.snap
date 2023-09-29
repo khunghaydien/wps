@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"attLeaveList\\": Array [],
++   \\"hasRange\\": false,
++   \\"request\\": null,
++   \\"selectedAttLeave\\": null,
++ }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/LEAVE_REQUEST/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"attLeaveList\\": Array [],
++   \\"attLeaveList\\": Array [
++     Object {
++       \\"code\\": \\"annualPaidLeave\\",
++       \\"daysLeft\\": 0,
++       \\"hoursLeft\\": 0,
++       \\"isDaysLeftManaged\\": true,
++       \\"name\\": \\"年次有給休暇\\",
++       \\"ranges\\": Array [
++         \\"Day\\",
++       ],
++       \\"requireReason\\": false,
++       \\"timeLeaveDaysLeft\\": null,
++       \\"timeLeaveHoursLeft\\": null,
++       \\"type\\": \\"Annual\\",
++     },
++     Object {
++       \\"code\\": \\"paidLeave\\",
++       \\"daysLeft\\": null,
++       \\"hoursLeft\\": null,
++       \\"isDaysLeftManaged\\": false,
++       \\"name\\": \\"有給休暇\\",
++       \\"ranges\\": Array [
++         \\"Day\\",
++       ],
++       \\"requireReason\\": false,
++       \\"timeLeaveDaysLeft\\": null,
++       \\"timeLeaveHoursLeft\\": null,
++       \\"type\\": \\"Paid\\",
++     },
++     Object {
++       \\"code\\": \\"tswsp_Compensatory\\",
++       \\"daysLeft\\": 0,
++       \\"hoursLeft\\": 0,
++       \\"isDaysLeftManaged\\": true,
++       \\"name\\": \\"代休\\",
++       \\"ranges\\": Array [
++         \\"Day\\",
++       ],
++       \\"requireReason\\": false,
++       \\"timeLeaveDaysLeft\\": null,
++       \\"timeLeaveHoursLeft\\": null,
++       \\"type\\": \\"Compensatory\\",
++     },
++     Object {
++       \\"code\\": \\"unPaidLeave\\",
++       \\"daysLeft\\": null,
++       \\"hoursLeft\\": null,
++       \\"isDaysLeftManaged\\": false,
++       \\"name\\": \\"無給休暇\\",
++       \\"ranges\\": Array [
++         \\"Day\\",
++       ],
++       \\"requireReason\\": false,
++       \\"timeLeaveDaysLeft\\": null,
++       \\"timeLeaveHoursLeft\\": null,
++       \\"type\\": \\"Unpaid\\",
++     },
++   ],
+    \\"hasRange\\": false,
+-   \\"request\\": null,
+-   \\"selectedAttLeave\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"2020-04-07\\",
++     \\"endTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"annualPaidLeave\\",
++     \\"leaveName\\": \\"年次有給休暇\\",
++     \\"leaveRange\\": \\"Day\\",
++     \\"leaveType\\": \\"Annual\\",
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": null,
++     \\"patternName\\": null,
++     \\"patternRestTimes\\": Array [],
++     \\"reason\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestTypeCode\\": \\"Leave\\",
++     \\"requestTypeName\\": \\"休暇\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2020-04-07\\",
++     \\"startTime\\": null,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"Leave\\",
++   },
++   \\"selectedAttLeave\\": Object {
++     \\"code\\": \\"annualPaidLeave\\",
++     \\"daysLeft\\": 0,
++     \\"hoursLeft\\": 0,
++     \\"isDaysLeftManaged\\": true,
++     \\"name\\": \\"年次有給休暇\\",
++     \\"ranges\\": Array [
++       \\"Day\\",
++     ],
++     \\"requireReason\\": false,
++     \\"timeLeaveDaysLeft\\": null,
++     \\"timeLeaveHoursLeft\\": null,
++     \\"type\\": \\"Annual\\",
++   },
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/LEAVE_REQUEST/UPDATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -71,11 +71,11 @@
+      \\"leaveType\\": \\"Annual\\",
+      \\"originalRequestId\\": \\"\\",
+      \\"patternCode\\": null,
+      \\"patternName\\": null,
+      \\"patternRestTimes\\": Array [],
+-     \\"reason\\": \\"\\",
++     \\"reason\\": \\"testですtestです。\\",
+      \\"remarks\\": \\"\\",
+      \\"requestTypeCode\\": \\"Leave\\",
+      \\"requestTypeName\\": \\"休暇\\",
+      \\"requireReason\\": false,
+      \\"startDate\\": \\"2020-04-07\\","
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/LEAVE_REQUEST/UPDATE_HAS_RANGE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -55,15 +55,15 @@
+        \\"timeLeaveDaysLeft\\": null,
+        \\"timeLeaveHoursLeft\\": null,
+        \\"type\\": \\"Unpaid\\",
+      },
+    ],
+-   \\"hasRange\\": false,
++   \\"hasRange\\": true,
+    \\"request\\": Object {
+      \\"approver01Name\\": \\"\\",
+      \\"directApplyRestTimes\\": Array [],
+-     \\"endDate\\": \\"2020-04-07\\",
++     \\"endDate\\": \\"2020-04-08\\",
+      \\"endTime\\": null,
+      \\"id\\": \\"\\",
+      \\"isForReapply\\": false,
+      \\"leaveCode\\": \\"annualPaidLeave\\",
+      \\"leaveName\\": \\"年次有給休暇\\","
+`;

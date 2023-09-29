@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"allIds\\": Array [],
++   \\"byId\\": Object {},
++   \\"isOverLimit\\": false,
++ }"
+`;
+
+exports[`reducer() MODULES/BASE/MENU_PANE/UI/CHANGE_COMPANY 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"payload\\": Object {
+-     \\"allIds\\": Array [
+-       \\"0000001\\",
+-       \\"0000002\\",
+-       \\"0000003\\",
+-       \\"0000004\\",
+-       \\"0000005\\",
+-     ],
+-     \\"byId\\": Object {
+-       \\"0000001\\": Object {
+-         \\"code\\": \\"000001\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000001\\",
+-         \\"name\\": \\"Spring\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000002\\": Object {
+-         \\"code\\": \\"000002\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000002\\",
+-         \\"name\\": \\"Rain\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000003\\": Object {
+-         \\"code\\": \\"000003\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000003\\",
+-         \\"name\\": \\"Summer\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000004\\": Object {
+-         \\"code\\": \\"000004\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000004\\",
+-         \\"name\\": \\"Autumn\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000005\\": Object {
+-         \\"code\\": \\"000005\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000005\\",
+-         \\"name\\": \\"Winter\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-     },
+-     \\"isOverLimit\\": true,
+-   },
+-   \\"type\\": \\"MODULES/MANAGED_LEAVE_MANAGEMENT/ENTITIES/EMPLOYEE_LIST/SEARCH_EMPLOYEE_SUCCESS\\",
++   \\"allIds\\": Array [],
++   \\"byId\\": Object {},
++   \\"isOverLimit\\": false,
+  }"
+`;
+
+exports[`reducer() MODULES/BASE/MENU_PANE/UI/SELECT_MENU_ITEM 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"payload\\": Object {
+-     \\"allIds\\": Array [
+-       \\"0000001\\",
+-       \\"0000002\\",
+-       \\"0000003\\",
+-       \\"0000004\\",
+-       \\"0000005\\",
+-     ],
+-     \\"byId\\": Object {
+-       \\"0000001\\": Object {
+-         \\"code\\": \\"000001\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000001\\",
+-         \\"name\\": \\"Spring\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000002\\": Object {
+-         \\"code\\": \\"000002\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000002\\",
+-         \\"name\\": \\"Rain\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000003\\": Object {
+-         \\"code\\": \\"000003\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000003\\",
+-         \\"name\\": \\"Summer\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000004\\": Object {
+-         \\"code\\": \\"000004\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000004\\",
+-         \\"name\\": \\"Autumn\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000005\\": Object {
+-         \\"code\\": \\"000005\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000005\\",
+-         \\"name\\": \\"Winter\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-     },
+-     \\"isOverLimit\\": true,
+-   },
+-   \\"type\\": \\"MODULES/MANAGED_LEAVE_MANAGEMENT/ENTITIES/EMPLOYEE_LIST/SEARCH_EMPLOYEE_SUCCESS\\",
++   \\"allIds\\": Array [],
++   \\"byId\\": Object {},
++   \\"isOverLimit\\": false,
+  }"
+`;
+
+exports[`reducer() MODULES/MANAGED_LEAVE_MANAGEMENT/ENTITIES/EMPLOYEE_LIST/CLEAR 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"payload\\": Object {
+-     \\"allIds\\": Array [
+-       \\"0000001\\",
+-       \\"0000002\\",
+-       \\"0000003\\",
+-       \\"0000004\\",
+-       \\"0000005\\",
+-     ],
+-     \\"byId\\": Object {
+-       \\"0000001\\": Object {
+-         \\"code\\": \\"000001\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000001\\",
+-         \\"name\\": \\"Spring\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000002\\": Object {
+-         \\"code\\": \\"000002\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000002\\",
+-         \\"name\\": \\"Rain\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000003\\": Object {
+-         \\"code\\": \\"000003\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000003\\",
+-         \\"name\\": \\"Summer\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000004\\": Object {
+-         \\"code\\": \\"000004\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000004\\",
+-         \\"name\\": \\"Autumn\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000005\\": Object {
+-         \\"code\\": \\"000005\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000005\\",
+-         \\"name\\": \\"Winter\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-     },
+-     \\"isOverLimit\\": true,
+-   },
+-   \\"type\\": \\"MODULES/MANAGED_LEAVE_MANAGEMENT/ENTITIES/EMPLOYEE_LIST/SEARCH_EMPLOYEE_SUCCESS\\",
++   \\"allIds\\": Array [],
++   \\"byId\\": Object {},
++   \\"isOverLimit\\": false,
+  }"
+`;
+
+exports[`reducer() MODULES/MANAGED_LEAVE_MANAGEMENT/ENTITIES/EMPLOYEE_LIST/SEARCH_EMPLOYEE_SUCCESS 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"allIds\\": Array [],
+-   \\"byId\\": Object {},
+-   \\"isOverLimit\\": false,
++   \\"allIds\\": Array [
++     \\"0000001\\",
++     \\"0000002\\",
++     \\"0000003\\",
++     \\"0000004\\",
++     \\"0000005\\",
++   ],
++   \\"byId\\": Object {
++     \\"0000001\\": Object {
++       \\"code\\": \\"000001\\",
++       \\"deptName\\": \\"テスト部署\\",
++       \\"id\\": \\"0000001\\",
++       \\"name\\": \\"Spring\\",
++       \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
++       \\"workingTypeName\\": \\"Test Fix\\",
++     },
++     \\"0000002\\": Object {
++       \\"code\\": \\"000002\\",
++       \\"deptName\\": \\"テスト部署\\",
++       \\"id\\": \\"0000002\\",
++       \\"name\\": \\"Rain\\",
++       \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
++       \\"workingTypeName\\": \\"Test Fix\\",
++     },
++     \\"0000003\\": Object {
++       \\"code\\": \\"000003\\",
++       \\"deptName\\": \\"テスト部署\\",
++       \\"id\\": \\"0000003\\",
++       \\"name\\": \\"Summer\\",
++       \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
++       \\"workingTypeName\\": \\"Test Fix\\",
++     },
++     \\"0000004\\": Object {
++       \\"code\\": \\"000004\\",
++       \\"deptName\\": \\"テスト部署\\",
++       \\"id\\": \\"0000004\\",
++       \\"name\\": \\"Autumn\\",
++       \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
++       \\"workingTypeName\\": \\"Test Fix\\",
++     },
++     \\"0000005\\": Object {
++       \\"code\\": \\"000005\\",
++       \\"deptName\\": \\"テスト部署\\",
++       \\"id\\": \\"0000005\\",
++       \\"name\\": \\"Winter\\",
++       \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
++       \\"workingTypeName\\": \\"Test Fix\\",
++     },
++   },
++   \\"isOverLimit\\": true,
+  }"
+`;
+
+exports[`reducer() MODULES/MANAGED_LEAVE_MANAGEMENT/LIST_PANE/UI/LEAVE_TYPE/CHANGE_LEAVE_TYPE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"payload\\": Object {
+-     \\"allIds\\": Array [
+-       \\"0000001\\",
+-       \\"0000002\\",
+-       \\"0000003\\",
+-       \\"0000004\\",
+-       \\"0000005\\",
+-     ],
+-     \\"byId\\": Object {
+-       \\"0000001\\": Object {
+-         \\"code\\": \\"000001\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000001\\",
+-         \\"name\\": \\"Spring\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000002\\": Object {
+-         \\"code\\": \\"000002\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000002\\",
+-         \\"name\\": \\"Rain\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000003\\": Object {
+-         \\"code\\": \\"000003\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000003\\",
+-         \\"name\\": \\"Summer\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000004\\": Object {
+-         \\"code\\": \\"000004\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000004\\",
+-         \\"name\\": \\"Autumn\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000005\\": Object {
+-         \\"code\\": \\"000005\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000005\\",
+-         \\"name\\": \\"Winter\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-     },
+-     \\"isOverLimit\\": true,
+-   },
+-   \\"type\\": \\"MODULES/MANAGED_LEAVE_MANAGEMENT/ENTITIES/EMPLOYEE_LIST/SEARCH_EMPLOYEE_SUCCESS\\",
++   \\"allIds\\": Array [],
++   \\"byId\\": Object {},
++   \\"isOverLimit\\": false,
+  }"
+`;
+
+exports[`reducer() SELECT_TAB 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"payload\\": Object {
+-     \\"allIds\\": Array [
+-       \\"0000001\\",
+-       \\"0000002\\",
+-       \\"0000003\\",
+-       \\"0000004\\",
+-       \\"0000005\\",
+-     ],
+-     \\"byId\\": Object {
+-       \\"0000001\\": Object {
+-         \\"code\\": \\"000001\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000001\\",
+-         \\"name\\": \\"Spring\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000002\\": Object {
+-         \\"code\\": \\"000002\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000002\\",
+-         \\"name\\": \\"Rain\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000003\\": Object {
+-         \\"code\\": \\"000003\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000003\\",
+-         \\"name\\": \\"Summer\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000004\\": Object {
+-         \\"code\\": \\"000004\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000004\\",
+-         \\"name\\": \\"Autumn\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-       \\"0000005\\": Object {
+-         \\"code\\": \\"000005\\",
+-         \\"deptName\\": \\"テスト部署\\",
+-         \\"id\\": \\"0000005\\",
+-         \\"name\\": \\"Winter\\",
+-         \\"photoUrl\\": \\"https://c.ap5.content.force.com/profilephoto/7297F000000kJst/T\\",
+-         \\"workingTypeName\\": \\"Test Fix\\",
+-       },
+-     },
+-     \\"isOverLimit\\": true,
+-   },
+-   \\"type\\": \\"MODULES/MANAGED_LEAVE_MANAGEMENT/ENTITIES/EMPLOYEE_LIST/SEARCH_EMPLOYEE_SUCCESS\\",
++   \\"allIds\\": Array [],
++   \\"byId\\": Object {},
++   \\"isOverLimit\\": false,
+  }"
+`;

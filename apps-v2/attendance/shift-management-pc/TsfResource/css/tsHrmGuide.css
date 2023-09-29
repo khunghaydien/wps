@@ -1,0 +1,708 @@
+@charset "UTF-8";
+/*
+	諸届ナビ
+*/
+input[type="button"].gray-button {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #9897a5;
+  color: #fff;
+  cursor: pointer;
+  display: table;
+  white-space: nowrap;
+  border: none;
+  font-size: 13px;
+  font-weight: normal;
+}
+input[type="button"].gray-button:hover {
+  background-color: #b3b2bd;
+}
+
+input[type="button"].blue-button {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #9897a5;
+  color: #fff;
+  cursor: pointer;
+  display: table;
+  white-space: nowrap;
+  border: none;
+  font-size: 13px;
+  font-weight: normal;
+  background: #0c8cc8;
+}
+input[type="button"].blue-button:hover {
+  background-color: #b3b2bd;
+}
+input[type="button"].blue-button:hover {
+  background-color: #16abf1;
+}
+
+input[type="button"].white-button {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #9897a5;
+  color: #fff;
+  cursor: pointer;
+  display: table;
+  white-space: nowrap;
+  border: none;
+  font-size: 13px;
+  font-weight: normal;
+  background: #ffffff;
+  text-decoration: underline;
+  color: #4A4AFF;
+}
+input[type="button"].white-button:hover {
+  background-color: #b3b2bd;
+}
+input[type="button"].white-button:hover {
+  background: #DCE0F7;
+  color: #0000FF;
+}
+
+button.gray-button {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #9897a5;
+  color: #fff;
+  cursor: pointer;
+  display: table;
+  white-space: nowrap;
+  border: none;
+  font-size: 13px;
+  font-weight: normal;
+}
+button.gray-button:hover {
+  background-color: #b3b2bd;
+}
+
+button.blue-button {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #9897a5;
+  color: #fff;
+  cursor: pointer;
+  display: table;
+  white-space: nowrap;
+  border: none;
+  font-size: 13px;
+  font-weight: normal;
+  background: #0c8cc8;
+}
+button.blue-button:hover {
+  background-color: #b3b2bd;
+}
+button.blue-button:hover {
+  background-color: #16abf1;
+}
+
+button.white-button {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #9897a5;
+  color: #fff;
+  cursor: pointer;
+  display: table;
+  white-space: nowrap;
+  border: none;
+  font-size: 13px;
+  font-weight: normal;
+  background: #ffffff;
+  text-decoration: underline;
+  color: #4A4AFF;
+}
+button.white-button:hover {
+  background-color: #b3b2bd;
+}
+button.white-button:hover {
+  background: #DCE0F7;
+  color: #0000FF;
+}
+
+#hrmGuideGroups {
+  margin: 0px 50px;
+}
+#hrmGuideGroups > p {
+  font-size: 14px;
+  margin: 10px;
+  text-align: left;
+}
+#hrmGuideGroups > ol {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  max-width: 980px;
+}
+#hrmGuideGroups > ol > li {
+  display: inline-block;
+  margin: 4px 0;
+}
+#hrmGuideGroups > ol > li:nth-child(2n+1) {
+  margin-right: 20px;
+}
+#hrmGuideGroups > ol > li > button {
+  cursor: pointer;
+  background: url("../img/hrm_group_arrow.png") 14px 24px/15px no-repeat #346494;
+  color: #FFF;
+  font-weight: normal;
+  display: inline-block;
+  font-size: 18px;
+  width: 450px;
+  text-align: left;
+  padding: 18px 6px 18px 36px;
+  border: 6px double;
+  border-radius: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#hrmGuideGroups > ol > li > button:hover {
+  background-color: #44a2d4;
+}
+
+#hrmGuideEvents {
+  margin: 0px 50px;
+}
+#hrmGuideEvents > h2 {
+  border-left: 5px solid #346494;
+  color: #246498;
+  font-size: 17px;
+  display: block;
+  padding: 3px 10px;
+  font-weight: normal;
+  margin: 18px 12px;
+}
+#hrmGuideEvents > p {
+  font-size: 14px;
+  margin: 10px;
+  text-align: left;
+}
+#hrmGuideEvents > button {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #9897a5;
+  color: #fff;
+  cursor: pointer;
+  display: table;
+  white-space: nowrap;
+  border: none;
+  font-size: 13px;
+  font-weight: normal;
+  background: #ffffff;
+  text-decoration: underline;
+  color: #4A4AFF;
+  font-size: 12px;
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+  white-space: normal;
+}
+#hrmGuideEvents > button:hover {
+  background-color: #b3b2bd;
+}
+#hrmGuideEvents > button:hover {
+  background: #DCE0F7;
+  color: #0000FF;
+}
+#hrmGuideEvents > ol {
+  padding: 0;
+  margin: 16px 0;
+  list-style: none;
+  text-align: left;
+}
+#hrmGuideEvents > ol > li {
+  margin: 0;
+}
+#hrmGuideEvents > ol > li > button {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #9897a5;
+  color: #fff;
+  cursor: pointer;
+  display: table;
+  white-space: nowrap;
+  border: none;
+  font-size: 13px;
+  font-weight: normal;
+  background: #ffffff;
+  text-decoration: underline;
+  color: #4A4AFF;
+  display: inline-block;
+  font-size: 14px;
+  max-width: 100%;
+  text-align: left;
+  white-space: normal;
+}
+#hrmGuideEvents > ol > li > button:hover {
+  background-color: #b3b2bd;
+}
+#hrmGuideEvents > ol > li > button:hover {
+  background: #DCE0F7;
+  color: #0000FF;
+}
+
+div.hrm-guide-submission {
+  margin: 0px 50px;
+}
+div.hrm-guide-submission > div {
+  display: table;
+}
+div.hrm-guide-submission > div.hrm-guide-instruction {
+  margin-top: 8px;
+}
+div.hrm-guide-submission > div.hrm-guide-instruction > div {
+  font-size: 14px !important;
+}
+div.hrm-guide-submission > div.hrm-guide-preview {
+  margin-top: 8px;
+}
+div.hrm-guide-submission .hrm-guide-submission-table {
+  margin-top: 8px;
+  width: 100%;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table input[type="checkbox"] {
+  display: none;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  background-color: white;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table input[type="checkbox"]:checked + span::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -3px;
+  left: 5px;
+  width: 7px;
+  height: 14px;
+  transform: rotate(40deg);
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table label .hrm-guide-noborder span {
+  border: none;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table label .hrm-guide-whiteCheck input[type="checkbox"]:checked + span::after {
+  border-color: white;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table th {
+  background-color: #9ac7df;
+  color: white;
+  border: 1px solid #dedee4;
+  text-align: center;
+  padding: 3px 8px;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table tr:nth-child(even) {
+  background-color: #f4f5f4;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table td {
+  border: 1px solid #dedee4;
+  text-align: left;
+  vertical-align: top;
+  padding: 3px 8px;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table td ul, div.hrm-guide-submission .hrm-guide-submission-table table td ol {
+  margin: 0 !important;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table td ul > li, div.hrm-guide-submission .hrm-guide-submission-table table td ol > li {
+  float: none !important;
+  margin: 0 !important;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table td ul {
+  list-style-type: disc !important;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table td ol {
+  list-style-type: decimal !important;
+  -webkit-padding-start: 11px;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table td a {
+  cursor: pointer;
+  color: #004cff;
+  text-decoration: underline;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table td.hrm-guide-category {
+  color: #222;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table td.hrm-guide-item > a {
+  cursor: pointer;
+  color: #004cff;
+  text-decoration: underline;
+}
+div.hrm-guide-submission .hrm-guide-submission-table table td.hrm-guide-remarks {
+  color: #222;
+}
+
+#dialogHRMGuide {
+  max-width: 750px;
+}
+
+table#dlgHrmGuideTable {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 450px;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-cancel {
+  text-align: right;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-cancel > input[type="button"] {
+  margin-left: auto;
+  margin-right: 0px;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body {
+  padding-top: 10px;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div {
+  margin: auto;
+  width: 100%;
+  background-color: #fff;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-content {
+  margin: auto;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-content > p {
+  max-width: 88%;
+  margin: auto;
+  padding: 10px 0;
+  color: #004cff;
+  text-align: left;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-spc {
+  margin: auto;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-spc > p {
+  font-size: 0.9em;
+  max-width: 88%;
+  margin: 8px auto;
+  text-align: left;
+  color: #555;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-select {
+  padding: 2px 0 10px;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-select > ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-select > ul > li {
+  margin: 11px auto;
+  text-align: center;
+  width: 275px;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-select > ul > li > button {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #9897a5;
+  color: #fff;
+  cursor: pointer;
+  display: table;
+  white-space: nowrap;
+  border: none;
+  font-size: 13px;
+  font-weight: normal;
+  background: #0c8cc8;
+  white-space: normal;
+  width: 100%;
+  display: block;
+  text-align: left;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-select > ul > li > button:hover {
+  background-color: #b3b2bd;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-select > ul > li > button:hover {
+  background-color: #16abf1;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-select > ul > li > button.gray {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #9897a5;
+  color: #fff;
+  cursor: pointer;
+  display: table;
+  white-space: nowrap;
+  border: none;
+  font-size: 13px;
+  font-weight: normal;
+  white-space: normal;
+  width: 100%;
+  display: block;
+  text-align: left;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-select > ul > li > button.gray:hover {
+  background-color: #b3b2bd;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-backlink {
+  padding: 6px 10px;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-backlink > a {
+  font-size: 0.9em;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-yesno > div {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  overflow: hidden;
+  *zoom: 1;
+}
+table#dlgHrmGuideTable td.hrm-guide-dlg-body > div div.hrm-guide-dlg-yesno > div > div {
+  float: left;
+  margin: 0px 20px;
+}
+table#dlgHrmGuideTable #dlgHrmGuideResult table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table#dlgHrmGuideTable #dlgHrmGuideResult table th {
+  background-color: #9ac7df;
+  color: white;
+  border: 1px solid #dedee4;
+  text-align: center;
+}
+table#dlgHrmGuideTable #dlgHrmGuideResult table td {
+  border: 1px solid #dedee4;
+  padding: 1px 4px;
+  width: 50%;
+}
+table#dlgHrmGuideTable #dlgHrmGuideResult table td > a {
+  color: #004cff;
+}
+table#dlgHrmGuideTable #dlgHrmGuideDone > td {
+  text-align: center;
+}
+table#dlgHrmGuideTable #dlgHrmGuideDone > td > div {
+  margin: 10px auto 0px auto;
+  display: table;
+}
+
+div#hrmGuidePrint {
+  padding-left: 10px;
+}
+div#hrmGuidePrint div.hrm-guide-instruction {
+  margin-top: 8px;
+}
+div#hrmGuidePrint div.hrm-guide-instruction > div {
+  font-size: 14px !important;
+  text-align: left;
+}
+div#hrmGuidePrint table {
+  border-collapse: collapse;
+}
+div#hrmGuidePrint table th {
+  text-align: center;
+  border: 1px solid black;
+  color: black;
+  background-color: #E3EBF1;
+}
+div#hrmGuidePrint table td {
+  padding: 3px 8px;
+  text-align: left;
+  border: 1px solid black;
+  background-color: white;
+}
+div#hrmGuidePrint div.hrm-guide-submission {
+  margin: 0px;
+}
+div#hrmGuidePrint div.hrm-guide-submission .hrm-guide-check {
+  text-align: center;
+  width: 30px;
+}
+div#hrmGuidePrint div.hrm-guide-empinfo {
+  padding-top: 10px;
+}
+div#hrmGuidePrint div.hrm-guide-empinfo th {
+  min-width: 100px;
+}
+div#hrmGuidePrint div.hrm-guide-selected .hrm-guide-selected-table {
+  margin-top: 8px;
+  width: 100%;
+}
+div#hrmGuidePrint div.hrm-guide-selected .hrm-guide-selected-table th {
+  min-width: 150px;
+}
+
+/*
+	社員情報変更申請ダイアログのCSS(移植)
+*/
+#bodyCell {
+  padding: 0px !important;
+}
+
+#areaBody {
+  margin: 10px 0px;
+}
+
+div.areaBody
+, div.dijitDialog #requestEditForm_tbody .empInfo_table div
+, div.dijitDialog #requestEditForm_tbody .empInfo_table td
+, div.dijitDialog #requestEditForm_tbody .empInfo_table input
+, div.dijitDialog #requestEditForm_tbody .empInfo_table select {
+  font-family: "lucida grande",tahoma,verdana,arial,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+  font-size: 12px;
+  margin: 2px 4px;
+}
+
+div.dijitDialog div {
+  margin: 0px;
+}
+
+.pane_table div {
+  text-align: left;
+}
+
+table.pane_table td.employeeNavigation {
+  width: 150px;
+  vertical-align: top;
+  padding: 10px 30px 0px 0px;
+}
+
+table.pane_table td.employeeNavigation #navigationCursor {
+  font-size: 15pt;
+  position: relative;
+  color: #386497;
+}
+
+table.pane_table td.employeeNavigation .CategoryNavi {
+  color: #386497;
+  text-align: right;
+  margin: 15px 0px;
+  cursor: pointer;
+}
+
+table.pane_table td.employeeNavigation .CategoryNavi:hover {
+  text-decoration: underline;
+}
+
+table.pane_table td.employeeContents {
+  vertical-align: top;
+}
+
+.requestTemplateName {
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+div.dijitDialog .std-button1 div {
+  margin: 5px 10px;
+}
+
+div.dijitDialog td.SelectEvent {
+  text-align: left;
+  border-bottom: #B8B8CB 1px solid;
+  padding: 5px;
+}
+
+div.dijitDialog .SelectEvent span,
+div.dijitDialog .RequestReturnEvent span {
+  margin: 3px 5px 3px 3px;
+  color: #667CAD;
+  cursor: pointer;
+}
+
+div.dijitDialog .RequestReturnEvent span {
+  text-decoration: underline;
+}
+
+div.dijitDialog .SelectEvent span:hover {
+  text-decoration: underline;
+}
+
+div.dijitDialog .RequestEventTitle {
+  margin: 3px 5px 3px 3px;
+  background: #256499;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 15px;
+}
+
+div.dijitDialog .RequestFlowCheck {
+  width: 20px;
+  height: 20px;
+  background-position: -2px -218px;
+  border: 1px #78A1C1 solid;
+  background-color: white;
+}
+
+div.dijitDialog .RequestFlowRequired,
+div.dijitDialog .RequestFlowRequiredAnnotation {
+  color: red;
+}
+
+div.dijitDialog .RequestFieldRequired {
+  width: 8px;
+}
+
+div.dijitDialog .RequestFieldRequired div {
+  color: red;
+}
+
+div.dijitDialog .RequestSelectFlow {
+  position: relative;
+  left: -4px;
+  color: #667CAD;
+  text-decoration: underline;
+}
+
+div.dijitDialog .RequestSelectFlow div {
+  cursor: pointer;
+}
+
+div.dijitDialog .request_Form tr {
+  height: 28px;
+}
+
+div.dijitDialog .RequestFlowList {
+  height: 100%;
+  overflow-y: auto;
+  vertical-align: top;
+}
+
+button.red-button1 {
+  background: #CA5A5A;
+  color: FDFDFD;
+}
+
+#requestEditForm_tbody .left {
+  width: 160px;
+  text-align: right;
+  color: #667CAD;
+  padding-right: 10px;
+}
+
+#requestEditForm_tbody .right {
+  max-width: 400px;
+}
+
+#ChangeRequest {
+  background: white;
+  border: solid lightgray 1px;
+  padding: 5px;
+}

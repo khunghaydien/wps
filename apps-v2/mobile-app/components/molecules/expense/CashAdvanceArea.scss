@@ -1,0 +1,32 @@
+.mobile-app-molecules-expense-cash-advance-area {
+  &__amount-text {
+    text-align: right;
+  }
+
+  &__field {
+    margin-top: 13px;
+  }
+
+  &__field:first-child {
+    margin-top: 0;
+  }
+
+  &__max {
+    padding: 0;
+  }
+
+  &__request-amount-area {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  .mobile-app-atoms-text-button__button {
+    font-size: 14px;
+    padding-right: 0;
+  }
+
+  .mobile-app-molecules-commons-amount-input input {
+    text-align: right;
+  }
+}

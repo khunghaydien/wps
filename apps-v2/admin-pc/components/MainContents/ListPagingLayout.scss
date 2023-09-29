@@ -1,0 +1,46 @@
+.admin-pc-main-contents-list-paging-layout {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+
+  &__header {
+    background-color: #f5f5f5;
+  }
+
+  &__list-search-form {
+    padding: 0 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+
+  &__paginator {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding-bottom: 18px;
+  }
+
+  &__page-info {
+    display: flex;
+  }
+
+  &__refresh-btn {
+    margin-left: 14px;
+  }
+
+  &__body {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+
+  &__msg-icon {
+    margin-left: 14px;
+    svg path {
+      fill: #2782ed;
+    }
+  }
+
+  .ts-pager-info {
+    margin: 0;
+  }
+}

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"defaultCommuteBackwardCount\\": null,
++   \\"defaultCommuteForwardCount\\": null,
++   \\"requireLocationAtMobileStamp\\": false,
++   \\"useManageCommuteCount\\": false,
++ }"
+`;
+
+exports[`reducer() ATTENDANCE/MOBILE_SETTING 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"defaultCommuteBackwardCount\\": null,
+-   \\"defaultCommuteForwardCount\\": null,
+-   \\"requireLocationAtMobileStamp\\": false,
+-   \\"useManageCommuteCount\\": false,
++   \\"defaultCommuteBackwardCount\\": 0,
++   \\"defaultCommuteForwardCount\\": 0,
++   \\"requireLocationAtMobileStamp\\": true,
++   \\"useManageCommuteCount\\": true,
+  }"
+`;

@@ -1,0 +1,61 @@
+import * as base from './base';
+
+const FUNC_NAME = 'att/objectively-event-log-setting';
+export const SEARCH_OBJECTIVELY_EVENT_LOG_SETTING =
+  'SEARCH_OBJECTIVELY_EVENT_LOG_SETTING';
+export const CREATE_OBJECTIVELY_EVENT_LOG_SETTING =
+  'CREATE_OBJECTIVELY_EVENT_LOG_SETTING';
+export const DELETE_OBJECTIVELY_EVENT_LOG_SETTING =
+  'DELETE_OBJECTIVELY_EVENT_LOG_SETTING';
+export const UPDATE_OBJECTIVELY_EVENT_LOG_SETTING =
+  'UPDATE_OBJECTIVELY_EVENT_LOG_SETTING';
+export const SEARCH_OBJECTIVELY_EVENT_LOG_SETTING_ERROR =
+  'SEARCH_OBJECTIVELY_EVENT_LOG_SETTING_ERROR';
+export const CREATE_OBJECTIVELY_EVENT_LOG_SETTING_ERROR =
+  'CREATE_OBJECTIVELY_EVENT_LOG_SETTING_ERROR';
+export const DELETE_OBJECTIVELY_EVENT_LOG_SETTING_ERROR =
+  'DELETE_OBJECTIVELY_EVENT_LOG_SETTING_ERROR';
+export const UPDATE_OBJECTIVELY_EVENT_LOG_SETTING_ERROR =
+  'UPDATE_OBJECTIVELY_EVENT_LOG_SETTING_ERROR';
+export const GET_CONSTANTS_OBJECTIVELY_EVENT_LOG_SETTING =
+  'GET_CONSTANTS_OBJECTIVELY_EVENT_LOG_SETTING';
+
+export const searchObjectivelyEventLogSetting = (param = {}) => {
+  return base.search(
+    FUNC_NAME,
+    param,
+    SEARCH_OBJECTIVELY_EVENT_LOG_SETTING,
+    SEARCH_OBJECTIVELY_EVENT_LOG_SETTING_ERROR
+  );
+};
+
+export const createObjectivelyEventLogSetting = (param) => {
+  return base.create(
+    FUNC_NAME,
+    param,
+    CREATE_OBJECTIVELY_EVENT_LOG_SETTING,
+    CREATE_OBJECTIVELY_EVENT_LOG_SETTING_ERROR
+  );
+};
+
+export const deleteObjectivelyEventLogSetting = (param) => {
+  return base.del(
+    FUNC_NAME,
+    param,
+    DELETE_OBJECTIVELY_EVENT_LOG_SETTING,
+    DELETE_OBJECTIVELY_EVENT_LOG_SETTING_ERROR
+  );
+};
+
+export const updateObjectivelyEventLogSetting = (param) => {
+  return base.update(
+    FUNC_NAME,
+    param,
+    UPDATE_OBJECTIVELY_EVENT_LOG_SETTING,
+    UPDATE_OBJECTIVELY_EVENT_LOG_SETTING_ERROR
+  );
+};
+
+export const getConstantsObjectivelyEventLogSetting = () => ({
+  type: GET_CONSTANTS_OBJECTIVELY_EVENT_LOG_SETTING,
+});

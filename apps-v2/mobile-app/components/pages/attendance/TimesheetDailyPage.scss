@@ -1,0 +1,39 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-attendance-timesheet-daily-page {
+  &__fix-daily-request-status-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  &__alert + &__request-status-chip {
+    margin-top: 8px;
+  }
+
+  &__working-time {
+    display: flex;
+  }
+
+  &__save-button-area {
+    padding: 16px 0;
+    text-align: center;
+  }
+
+  &__save-button--has-fix-button button {
+    width: 272px;
+  }
+
+  &__fix-daily-request-button {
+    margin-top: 12px;
+  }
+
+  &__refresh {
+    padding: 0 8px;
+  }
+
+  &__package {
+    margin: 12px 12px;
+  }
+}

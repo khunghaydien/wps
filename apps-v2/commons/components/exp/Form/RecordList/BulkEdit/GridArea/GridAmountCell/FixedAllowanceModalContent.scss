@@ -1,0 +1,10 @@
+.grid-amount-fixed-allowance-summary-modal-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+
+  &__amount-selection {
+    padding-left: 10px;
+  }
+}

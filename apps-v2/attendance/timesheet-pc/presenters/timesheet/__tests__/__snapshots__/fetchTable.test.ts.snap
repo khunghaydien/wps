@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reload complete() should do. 1`] = `
+Array [
+  Object {
+    "payload": "layoutTable",
+    "type": "TIMESHEET-PC/UI/DAILY_FILED_LAYOUT/SET",
+  },
+]
+`;
+
+exports[`reload error() should do. 1`] = `
+Array [
+  Object {
+    "type": "TIMESHEET-PC/UI/DAILY_FILED_LAYOUT/RESET",
+  },
+  Object {
+    "type": "TIMESHEET-PC/UI/DAILY_FILED_LAYOUT/CATCH_ERROR",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`reload finally() should do. 1`] = `
+Array [
+  Object {
+    "type": "TIMESHEET-PC/UI/DAILY_FILED_LAYOUT/END_LOADING",
+  },
+]
+`;
+
+exports[`reload start() should do. 1`] = `
+Array [
+  Object {
+    "type": "TIMESHEET-PC/UI/DAILY_FILED_LAYOUT/RESET",
+  },
+  Object {
+    "type": "TIMESHEET-PC/UI/DAILY_FILED_LAYOUT/START_LOADING",
+  },
+]
+`;

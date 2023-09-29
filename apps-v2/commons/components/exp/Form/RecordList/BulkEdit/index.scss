@@ -1,0 +1,26 @@
+.ts-expenses__form-records__bulk-edit {
+  position: relative;
+  flex: 1;
+
+  &__grid-area--blur {
+    tbody {
+      filter: blur(10px);
+    }
+  }
+
+  &__upload-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding-top: 35px;
+
+    &-loading {
+      height: calc(100% - 35px);
+    }
+  }
+
+  &__area--hide {
+    visibility: hidden;
+  }
+}

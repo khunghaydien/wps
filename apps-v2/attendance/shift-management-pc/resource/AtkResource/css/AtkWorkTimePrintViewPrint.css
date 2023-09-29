@@ -1,0 +1,72 @@
+.stdTable th {
+    text-align         : center;
+    color              : #000000;
+    font-size          : 10pt;
+    border-style       : solid;
+    border-bottom-style: double;
+    border-width       : 1pt;
+    padding            : 2pt;
+}
+.buttons {
+    display: none;
+}
+.apex-form{
+    display: none;
+}
+a{
+    display: none;
+}
+/*----------------------------------------------*/
+table.total_table {
+    border           : 1px solid #000000;
+}
+table.total_table tr.even {
+    border-top       : 1px solid #000000;
+}
+table.total_table tr.odd {
+    border-top       : 1px solid #000000;
+}
+table.total_table td.column {
+    border-right     : 1px solid #000000;
+}
+.prtv_table {
+    border           : 1px solid #000000;
+    color            : #000000;
+}
+.prtv_table tr {
+    border           : 1px solid #000000;
+}
+.prtv_head {
+    color            : #000000;
+    border-right     : 1px solid #000000;
+    background-color : #FFFFFF;
+}
+.prtv {
+    border-right     : 1px solid #888888;
+}
+.prtv_note {
+    border-right     : none;
+}
+tfoot {
+    border           : 1px solid #000000;
+}
+.prtv_foot {
+    color            : #343434;
+    border-bottom    : 1px solid #000000;
+    border-right     : 1px solid #000000;
+}
+.prtv_foot_goke {
+    border-left      : none;
+}
+.prtv_foot_note {
+    border-right     : none;
+}
+.prtv_row_even {
+    background-color : #FFFFFF;
+}
+.prtv_row_odd {
+    background-color : #FFFFFF;
+}
+.detail_area {
+    border           : 1px solid #000000;
+}

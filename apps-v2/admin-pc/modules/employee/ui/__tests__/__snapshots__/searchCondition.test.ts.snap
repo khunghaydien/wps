@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"code\\": \\"\\",
++   \\"departmentName\\": \\"\\",
++   \\"managerName\\": \\"\\",
++   \\"name\\": \\"\\",
++   \\"targetDate\\": \\"\\",
++   \\"title\\": \\"\\",
++   \\"workingTypeName\\": \\"\\",
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/EMPLOYEE/UI/SEARCH_CONDITION/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"code\\": \\"12345\\",
+-   \\"departmentName\\": \\"Department Name\\",
+-   \\"managerName\\": \\"Manager Name\\",
+-   \\"name\\": \\"Employee Name\\",
+-   \\"targetDate\\": \\"2019-10-01\\",
+-   \\"title\\": \\"Title\\",
+-   \\"workingTypeName\\": \\"Working Type Name\\",
++   \\"code\\": \\"\\",
++   \\"departmentName\\": \\"\\",
++   \\"managerName\\": \\"\\",
++   \\"name\\": \\"\\",
++   \\"targetDate\\": \\"\\",
++   \\"title\\": \\"\\",
++   \\"workingTypeName\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/EMPLOYEE/UI/SEARCH_CONDITION/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,6 +1,7 @@
+  Object {
++   \\"[object Object]\\": undefined,
+    \\"code\\": \\"\\",
+    \\"departmentName\\": \\"\\",
+    \\"managerName\\": \\"\\",
+    \\"name\\": \\"\\",
+    \\"targetDate\\": \\"\\","
+`;

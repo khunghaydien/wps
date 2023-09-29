@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`apply() should not call onApply when resultList has invalid item { import true, job: undefined } 1`] = `
+Array [
+  Object {
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-RESULT-DIALOG/UI/BLOCKING/ENABLE",
+  },
+  Object {
+    "payload": Object {
+      "message": "Please select a job for import.",
+      "options": undefined,
+      "variant": "error",
+    },
+    "type": "COMMONS/MODULES/TOAST/SHOW",
+  },
+]
+`;
+
+exports[`apply() should not call onApply when resultList has invalid item No Data and No SurplusTimeSetting 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "MOCK/AutoHoursAllocateDictRepository.fetchSurplusTime",
+  },
+  Object {
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-RESULT-DIALOG/UI/BLOCKING/ENABLE",
+  },
+  Object {
+    "payload": Object {
+      "message": "No data selected for import.",
+      "options": undefined,
+      "variant": "error",
+    },
+    "type": "COMMONS/MODULES/TOAST/SHOW",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`fetch() should load AllocateResult and JobPickList 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "MOCK/AutoHoursAllocateRepository.fetchAll",
+  },
+  Object {
+    "type": "MOCK/JobPickListRepository.getJobPickList",
+  },
+  Object {
+    "payload": Array [
+      Object {
+        "allocateResult": "matched",
+        "dictItemId": "DICT_ITEM_KEY_001",
+        "differFromDictionary": true,
+        "endTime": "2022-03-18T12:00:00.000Z",
+        "eventId": "EVENT_ID_001",
+        "eventTitle": "EVENT_TITLE_001",
+        "import": true,
+        "isModified": false,
+        "job": Object {
+          "code": "JOB_CODE_002",
+          "hasJobType": true,
+          "id": "JOB_ID_002",
+          "name": "JOB_NAME_002",
+        },
+        "startTime": "2022-03-18T11:00:00.000Z",
+        "taskTime": 60,
+        "workCategory": Object {
+          "code": "WORK_CATEGORY_CODE_003",
+          "id": "WORK_CATEGORY_ID_003",
+          "name": "WORK_CATEGORY_NAME_003",
+        },
+      },
+      Object {
+        "allocateResult": "matched",
+        "dictItemId": "DICT_ITEM_KEY_004",
+        "differFromDictionary": true,
+        "endTime": "2022-03-18T12:00:00.000Z",
+        "eventId": "EVENT_ID_004",
+        "eventTitle": "EVENT_TITLE_004",
+        "import": true,
+        "isModified": false,
+        "job": Object {
+          "code": "JOB_CODE_005",
+          "hasJobType": true,
+          "id": "JOB_ID_005",
+          "name": "JOB_NAME_005",
+        },
+        "startTime": "2022-03-18T11:00:00.000Z",
+        "taskTime": 60,
+        "workCategory": Object {
+          "code": "WORK_CATEGORY_CODE_006",
+          "id": "WORK_CATEGORY_ID_006",
+          "name": "WORK_CATEGORY_NAME_006",
+        },
+      },
+    ],
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-RESULT-DIALOG/UI/ALLOCATE_RESULT_LIST/INIT",
+  },
+  Object {
+    "payload": Object {
+      "allocateJobList": Array [
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_002",
+          "jobId": "JOB_ID_002",
+          "jobName": "JOB_NAME_002",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_005",
+          "jobId": "JOB_ID_005",
+          "jobName": "JOB_NAME_005",
+        },
+      ],
+      "jobList": Array [
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_007",
+          "jobId": "JOB_ID_007",
+          "jobName": "JOB_NAME_007",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_008",
+          "jobId": "JOB_ID_008",
+          "jobName": "JOB_NAME_008",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_009",
+          "jobId": "JOB_ID_009",
+          "jobName": "JOB_NAME_009",
+        },
+      ],
+    },
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-RESULT-DIALOG/ENTITIES/JOB_LIST/FETCH_SUCCESS_ACTIVE_JOB_LIST",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`fetch() should load AllocateResult and JobPickList, AllocateResult's alerts is not null 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "MOCK/AutoHoursAllocateRepository.fetchAll",
+  },
+  Object {
+    "type": "MOCK/JobPickListRepository.getJobPickList",
+  },
+  Object {
+    "payload": Array [
+      Object {
+        "allocateResult": "matched",
+        "dictItemId": "DICT_ITEM_KEY_001",
+        "differFromDictionary": true,
+        "endTime": "2022-03-18T12:00:00.000Z",
+        "eventId": "EVENT_ID_001",
+        "eventTitle": "EVENT_TITLE_001",
+        "import": true,
+        "isModified": false,
+        "job": Object {
+          "code": "JOB_CODE_002",
+          "hasJobType": true,
+          "id": "JOB_ID_002",
+          "name": "JOB_NAME_002",
+        },
+        "startTime": "2022-03-18T11:00:00.000Z",
+        "taskTime": 60,
+        "workCategory": Object {
+          "code": "WORK_CATEGORY_CODE_003",
+          "id": "WORK_CATEGORY_ID_003",
+          "name": "WORK_CATEGORY_NAME_003",
+        },
+      },
+      Object {
+        "allocateResult": "matched",
+        "dictItemId": "DICT_ITEM_KEY_004",
+        "differFromDictionary": true,
+        "endTime": "2022-03-18T12:00:00.000Z",
+        "eventId": "EVENT_ID_004",
+        "eventTitle": "EVENT_TITLE_004",
+        "import": true,
+        "isModified": false,
+        "job": Object {
+          "code": "JOB_CODE_005",
+          "hasJobType": true,
+          "id": "JOB_ID_005",
+          "name": "JOB_NAME_005",
+        },
+        "startTime": "2022-03-18T11:00:00.000Z",
+        "taskTime": 60,
+        "workCategory": Object {
+          "code": "WORK_CATEGORY_CODE_006",
+          "id": "WORK_CATEGORY_ID_006",
+          "name": "WORK_CATEGORY_NAME_006",
+        },
+      },
+    ],
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-RESULT-DIALOG/UI/ALLOCATE_RESULT_LIST/INIT",
+  },
+  Object {
+    "payload": Object {
+      "allocateJobList": Array [
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_002",
+          "jobId": "JOB_ID_002",
+          "jobName": "JOB_NAME_002",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_005",
+          "jobId": "JOB_ID_005",
+          "jobName": "JOB_NAME_005",
+        },
+      ],
+      "jobList": Array [
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_007",
+          "jobId": "JOB_ID_007",
+          "jobName": "JOB_NAME_007",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_008",
+          "jobId": "JOB_ID_008",
+          "jobName": "JOB_NAME_008",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_009",
+          "jobId": "JOB_ID_009",
+          "jobName": "JOB_NAME_009",
+        },
+      ],
+    },
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-RESULT-DIALOG/ENTITIES/JOB_LIST/FETCH_SUCCESS_ACTIVE_JOB_LIST",
+  },
+  Object {
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-RESULT-DIALOG/UI/BLOCKING/ENABLE",
+  },
+  Object {
+    "payload": Object {
+      "message": "Surplus Time Registration Job(code: JOB-CODE-A) is invalid.",
+      "options": undefined,
+      "variant": "warning",
+    },
+    "type": "COMMONS/MODULES/TOAST/SHOW",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`fetch() should load only AllocateResult, if empId was passed 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "MOCK/AutoHoursAllocateRepository.fetchAll",
+  },
+  Object {
+    "payload": Array [
+      Object {
+        "allocateResult": "matched",
+        "dictItemId": "DICT_ITEM_KEY_001",
+        "differFromDictionary": true,
+        "endTime": "2022-03-18T12:00:00.000Z",
+        "eventId": "EVENT_ID_001",
+        "eventTitle": "EVENT_TITLE_001",
+        "import": true,
+        "isModified": false,
+        "job": Object {
+          "code": "JOB_CODE_002",
+          "hasJobType": true,
+          "id": "JOB_ID_002",
+          "name": "JOB_NAME_002",
+        },
+        "startTime": "2022-03-18T11:00:00.000Z",
+        "taskTime": 60,
+        "workCategory": Object {
+          "code": "WORK_CATEGORY_CODE_003",
+          "id": "WORK_CATEGORY_ID_003",
+          "name": "WORK_CATEGORY_NAME_003",
+        },
+      },
+      Object {
+        "allocateResult": "matched",
+        "dictItemId": "DICT_ITEM_KEY_004",
+        "differFromDictionary": true,
+        "endTime": "2022-03-18T12:00:00.000Z",
+        "eventId": "EVENT_ID_004",
+        "eventTitle": "EVENT_TITLE_004",
+        "import": true,
+        "isModified": false,
+        "job": Object {
+          "code": "JOB_CODE_005",
+          "hasJobType": true,
+          "id": "JOB_ID_005",
+          "name": "JOB_NAME_005",
+        },
+        "startTime": "2022-03-18T11:00:00.000Z",
+        "taskTime": 60,
+        "workCategory": Object {
+          "code": "WORK_CATEGORY_CODE_006",
+          "id": "WORK_CATEGORY_ID_006",
+          "name": "WORK_CATEGORY_NAME_006",
+        },
+      },
+    ],
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-RESULT-DIALOG/UI/ALLOCATE_RESULT_LIST/INIT",
+  },
+  Object {
+    "payload": Object {
+      "allocateJobList": Array [
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_002",
+          "jobId": "JOB_ID_002",
+          "jobName": "JOB_NAME_002",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_005",
+          "jobId": "JOB_ID_005",
+          "jobName": "JOB_NAME_005",
+        },
+      ],
+      "jobList": Array [],
+    },
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-RESULT-DIALOG/ENTITIES/JOB_LIST/FETCH_SUCCESS_ACTIVE_JOB_LIST",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;

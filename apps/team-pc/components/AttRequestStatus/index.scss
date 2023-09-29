@@ -1,0 +1,27 @@
+.team-pc-att-request-status {
+  position: relative;
+  height: calc(100% - 42px);
+  background-color: #fff;
+
+  &__selectors {
+    display: flex;
+    height: 35px;
+    align-items: center;
+    padding-left: 97px;
+    background-color: $color-bg-pane-header-first;
+  }
+
+  &__department-selector {
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+  }
+
+  &__department-name {
+    padding-right: 10px;
+  }
+
+  &__depertment-select-button {
+    height: 30px;
+  }
+}

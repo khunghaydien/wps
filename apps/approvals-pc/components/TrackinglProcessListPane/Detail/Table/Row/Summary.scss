@@ -1,0 +1,39 @@
+.approvals-pc-tracking-process-list-pane-detail-table-row-summary {
+  display: flex;
+  background-color: #f4f6f9;
+
+  &__ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-right: 1px solid $color-border-default;
+  }
+
+  &__item:last-child {
+    border-right: none;
+  }
+
+  &__item--name {
+    padding-left: 25px;
+  }
+
+  &__item--label-summary {
+    justify-content: flex-end;
+    text-align: right;
+  }
+
+  &__item--work-time {
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  &__item--comment {
+    word-break: break-all;
+  }
+}

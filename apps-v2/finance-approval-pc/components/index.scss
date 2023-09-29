@@ -1,0 +1,145 @@
+@import '../../commons/styles/wsp';
+
+.ts-finance-approval {
+  &__header {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 26px;
+
+    &-company {
+      margin-left: auto;
+    }
+
+    span {
+      font-weight: bold;
+    }
+  }
+  // TODO Remove after wsp design update is consistent and Button.scss is updated
+  // Try to overwrite common/components/Button.scss
+  // When wsp is updated new design this can be using Button.scss some color code are not defined because if new design change this color code will be there
+  .ts-button {
+    background-color: color('background-1');
+    color: color('exp-primary');
+
+    &:active {
+      background-color: $ts-button-default-dark;
+    }
+
+    &:focus:not(:hover, :active) {
+      box-shadow: none;
+      outline: none;
+    }
+
+    &:hover {
+      // hoverはfocusと同じ表現を使う(枠線はなし)
+      background-color: color('hover');
+    }
+
+    &[disabled],
+    &[disabled]:hover,
+    &[disabled]:active,
+    &[disabled]:focus {
+      background-color: color('background-1');
+      color: color('disabled');
+    }
+
+    &--primary {
+      border-color: color('exp-primary');
+      background-color: color('exp-primary');
+      color: color('background-1');
+    }
+
+    &--primary:hover,
+    &--primary:active {
+      border-color: #1b59c9;
+      background-color: #1b59c9;
+    }
+
+    &--primary[disabled],
+    &--primary[disabled]:hover,
+    &--primary[disabled]:active,
+    &--primary[disabled]:focus {
+      border-color: #abbacd;
+      background-color: #abbacd;
+      color: #fff;
+      cursor: not-allowed;
+    }
+
+    &--secondary {
+      border-color: color('secondary');
+      background-color: color('secondary');
+      color: #fff;
+    }
+
+    &--secondary:hover,
+    &--secondary:active {
+      border-color: #037b04;
+      background-color: #037b04;
+    }
+
+    &--secondary:focus {
+      border-color: #025703;
+      background-color: #025703;
+    }
+
+    &--secondary[disabled],
+    &--secondary[disabled]:hover,
+    &--secondary[disabled]:active,
+    &--secondary[disabled]:focus {
+      border-color: #92af92;
+      background-color: #92af92;
+      color: #fff;
+      cursor: not-allowed;
+    }
+
+    &--destructive {
+      border-color: color('error');
+      background-color: color('error');
+      color: #fff;
+    }
+
+    &--destructive:hover,
+    &--destructive:active {
+      border-color: #8e2724;
+      background-color: #8e2724;
+    }
+
+    &--destructive:focus {
+      border-color: #6b1d1b;
+      background-color: #6b1d1b;
+    }
+
+    &--destructive[disabled],
+    &--destructive[disabled]:hover,
+    &--destructive[disabled]:active,
+    &--destructive[disabled]:focus {
+      border-color: #bfa8a7;
+      background-color: #bfa8a7;
+      color: #fff;
+      cursor: not-allowed;
+    }
+
+    &--text {
+      background-color: transparent;
+      color: $color-text-anchor;
+    }
+
+    &--text:hover,
+    &--text:active,
+    &--text:focus {
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    &--text[disabled],
+    &--text[disabled]:hover,
+    &--text[disabled]:active,
+    &--text[disabled]:focus {
+      color: darken($color-text-anchor, 15%);
+      text-decoration: none;
+    }
+  }
+  // TODO End of - Remove after wsp design update is consistent and Button.scss is updated
+}

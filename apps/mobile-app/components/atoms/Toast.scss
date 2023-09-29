@@ -1,0 +1,42 @@
+@import 'mobile-global-imports.scss';
+@import 'mixins/transition';
+
+.mobile-app-atoms-toast {
+  position: fixed;
+  z-index: $zindex-common-toast;
+  bottom: 59px;
+  left: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+
+  &__container {
+    width: 290px;
+    padding: 5px;
+    background-color: $color-gray-700;
+    border-radius: 30px;
+  }
+
+  &__content {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  &__animation-enter {
+    opacity: 0;
+  }
+
+  &__animation-enter-active {
+    opacity: 1;
+    transition: opacity 1s;
+  }
+
+  &__animation-exit {
+    opacity: 1;
+  }
+
+  &__animation-exit-active {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+}

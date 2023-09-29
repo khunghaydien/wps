@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"date\\": null,
++   \\"isOpen\\": false,
++   \\"left\\": 0,
++   \\"top\\": 0,
++ }"
+`;
+
+exports[`reducer() CLOSE_POPUP 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() OPEN_POPUP 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"date\\": null,
+-   \\"isOpen\\": false,
+-   \\"left\\": 0,
+-   \\"top\\": 0,
++   \\"date\\": 2019-09-28T15:00:00.000Z,
++   \\"isOpen\\": true,
++   \\"left\\": 20,
++   \\"top\\": 215,
+  }"
+`;

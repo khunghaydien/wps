@@ -1,0 +1,184 @@
+div.expconf_horizon {
+  overflow: hidden;
+  *zoom: 1;
+}
+div.expconf_horizon > div {
+  float: left;
+  margin-right: 12px;
+}
+
+div.expconf_table {
+  display: table;
+}
+div.expconf_table > div {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 12px;
+}
+
+table.expconf_pre_option {
+  border-collapse: collapse;
+  width: 100%;
+}
+table.expconf_pre_option table.pane_table td {
+  padding: 3px !important;
+  vertical-align: middle !important;
+  white-space: nowrap;
+}
+table.expconf_pre_option table.pane_table td:first-child {
+  padding-right: 20px !important;
+}
+
+td.nest_left {
+  font-weight: bold;
+  color: #4A4A56;
+}
+
+div.confirm-change-emptype {
+  padding: 2px 4px;
+  margin: 0px 8px;
+  width: 620px;
+}
+div.confirm-change-emptype div.info-emptype {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 8px;
+  border: 1px solid gray;
+  display: table-cell;
+  vertical-align: top;
+  width: 300px;
+}
+div.confirm-change-emptype div.info-spacer {
+  display: table-cell;
+  vertical-align: top;
+  width: 8px;
+  height: 8px;
+}
+div.confirm-change-emptype div.info-name-label-old, div.confirm-change-emptype div.info-name-label-new {
+  font-weight: bold;
+  padding: 0px 4px;
+  display: table-cell;
+  vertical-align: top;
+}
+div.confirm-change-emptype div.info-name-old, div.confirm-change-emptype div.info-name-new {
+  padding: 0px 4px;
+  max-width: 230px;
+  display: table-cell;
+  vertical-align: top;
+}
+div.confirm-change-emptype table.confirm-table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+div.confirm-change-emptype table.confirm-table td {
+  min-width: 20px;
+  padding: 1px 4px;
+  text-align: left;
+  white-space: nowrap;
+  font-size: 12px;
+}
+div.confirm-change-emptype table.confirm-table td:first-child {
+  font-weight: bold;
+}
+div.confirm-change-emptype table.confirm-table td:nth-child(2) {
+  text-align: left;
+}
+div.confirm-change-emptype div.confirm-changeDate {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding: 4px 16px;
+  font-size: 12px;
+  margin-top: 4px;
+}
+div.confirm-change-emptype div.confirm-changeDate > div > div {
+  padding: 0px 16px;
+  display: table-cell;
+}
+div.confirm-change-emptype div.confirm-changeDate > div > div:first-child {
+  font-weight: bold;
+  padding-left: 0px;
+}
+div.confirm-change-emptype div.confirm-caution {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding: 8px 16px;
+  position: relative;
+  min-height: 50px;
+  font-size: 12px;
+  margin-top: 4px;
+}
+div.confirm-change-emptype div.confirm-caution div.confirm-caution-msg {
+  margin-left: 36px;
+  font-weight: bold;
+}
+div.confirm-change-emptype div.confirm-caution div.confirm-caution-top {
+  margin-top: 4px;
+  margin-left: 60px;
+}
+div.confirm-change-emptype div.confirm-caution div.confirm-caution-row {
+  margin-left: 74px;
+}
+div.confirm-change-emptype div.confirm-caution div.pp_icon_caution {
+  width: 31px;
+  height: 20px;
+  position: absolute;
+  left: 8px;
+  top: 12px;
+}
+div.confirm-change-emptype div.confirm-info {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding: 8px 16px;
+  position: relative;
+  min-height: 50px;
+  font-size: 12px;
+  margin-top: 4px;
+}
+div.confirm-change-emptype div.confirm-info div.confirm-info-msg {
+  margin: 0px auto 4px auto;
+  font-weight: bold;
+  display: table;
+}
+div.confirm-change-emptype div.confirm-info table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  margin: 0px auto;
+}
+div.confirm-change-emptype div.confirm-info table th {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid gray;
+  background-color: #e8f0f5;
+  padding: 0px;
+}
+div.confirm-change-emptype div.confirm-info table td {
+  padding: 1px 16px;
+  text-align: left;
+  white-space: nowrap;
+  font-size: 12px;
+  border: 1px solid gray;
+  white-space: nowrap;
+  background-color: white;
+}
+div.confirm-change-emptype div.confirm-info table td:last-child {
+  text-align: center;
+}
+div.confirm-change-emptype div.confirm-info div.pp_ico_info {
+  width: 19px;
+  height: 18px;
+  position: absolute;
+  left: 8px;
+  top: 12px;
+}
+div.confirm-change-emptype div.confirm-message {
+  padding: 0px 8px;
+  margin-top: 4px;
+  font-size: 12px;
+}

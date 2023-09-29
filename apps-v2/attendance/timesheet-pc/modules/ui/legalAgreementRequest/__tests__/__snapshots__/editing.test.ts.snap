@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"disableAction\\": \\"None\\",
++   \\"editAction\\": \\"None\\",
++   \\"id\\": null,
++   \\"isEditing\\": false,
++   \\"requestType\\": null,
++ }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/EDITING/CLEAR 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"disableAction\\": \\"CancelApproval\\",
+-   \\"editAction\\": \\"Create\\",
+-   \\"id\\": \\"a012v000033TVRXAA4\\",
+-   \\"isEditing\\": true,
+-   \\"requestType\\": \\"Monthly\\",
++   \\"disableAction\\": \\"None\\",
++   \\"editAction\\": \\"None\\",
++   \\"id\\": null,
++   \\"isEditing\\": false,
++   \\"requestType\\": null,
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/EDITING/INIT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"disableAction\\": \\"None\\",
+-   \\"editAction\\": \\"None\\",
+-   \\"id\\": null,
+-   \\"isEditing\\": false,
+-   \\"requestType\\": null,
++   \\"disableAction\\": \\"CancelApproval\\",
++   \\"editAction\\": \\"Reapply\\",
++   \\"id\\": \\"a012v000033TVRXAA4\\",
++   \\"isEditing\\": true,
++   \\"requestType\\": \\"Monthly\\",
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/EDITING/START 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"disableAction\\": \\"None\\",
+    \\"editAction\\": \\"None\\",
+    \\"id\\": null,
+-   \\"isEditing\\": false,
++   \\"isEditing\\": true,
+    \\"requestType\\": null,
+  }"
+`;

@@ -1,0 +1,48 @@
+.attendance-graph-narrow {
+  &__markers {
+    position: relative;
+    width: 62.5%;
+    height: 45px;
+    margin: 0 auto;
+  }
+
+  &__marker {
+    position: absolute;
+    bottom: 10px;
+    display: inline-block;
+    height: 1em;
+    line-height: 1;
+  }
+
+  &__marker-img {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -2px;
+  }
+
+  &__marker--start {
+    left: -1.5em;
+  }
+
+  &__marker--end {
+    right: -1.3em;
+  }
+
+  &__body {
+    height: 10px;
+    background-color: #e0e0e0;
+    line-height: 1;
+    text-align: center;
+  }
+
+  &__body-graph {
+    width: 62.5%;
+    height: 10px;
+    vertical-align: top;
+
+    > rect {
+      height: 10px;
+    }
+  }
+}

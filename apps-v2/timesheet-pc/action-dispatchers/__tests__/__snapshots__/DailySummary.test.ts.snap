@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`closeDailySummary() should not verify insufficient rest time if not clock-out  1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "param": Object {
+          "empId": "test",
+          "targetDate": "2020-06-01",
+        },
+        "path": "/att/timesheet/get",
+      },
+    ],
+    Array [
+      Object {
+        "param": Object {
+          "empId": "test",
+          "endDate": undefined,
+          "startDate": undefined,
+        },
+        "path": "/time-track/alert/list",
+      },
+    ],
+    Array [
+      Object {
+        "param": Object {
+          "empId": "test",
+          "endDate": "2020-06-01",
+          "startDate": "2020-06-01",
+        },
+        "path": "/time-track/record/actual/get",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
+  ],
+}
+`;
+
+exports[`closeDailySummary() should refresh time sheet 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "entities": Object {
+        "records": Array [],
+      },
+      "targetEmployeeId": "test",
+    },
+    "type": "TIMESHEET-PC/ENTITIES/TIMESHEET/SET_TIMESHEET_ITEMS",
+  },
+  Object {
+    "type": "TIMESHEET-PC/UI/DAILY_TIME_TRACK/START_LOADING",
+  },
+  Object {
+    "payload": Object {},
+    "type": "TIMESHEET_PC/MODULES/ENTITIES/TIMETRACKALERT/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "dailyTimeTrackList": Array [],
+      "timesheet": Object {
+        "records": Array [],
+      },
+    },
+    "type": "TIMESHEET-PC/ENTITIES/DAILYTIMETRACK/UPDATE_RECORDS",
+  },
+  Object {
+    "type": "TIMESHEET-PC/UI/DAILY_TIME_TRACK/END_LOADING",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`closeDailySummary() should verify insufficient rest time  1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "entities": Object {
+        "records": Array [],
+      },
+      "targetEmployeeId": "test",
+    },
+    "type": "TIMESHEET-PC/ENTITIES/TIMESHEET/SET_TIMESHEET_ITEMS",
+  },
+  Object {
+    "payload": Object {
+      "commuteBackwardCount": undefined,
+      "commuteForwardCount": undefined,
+      "defaultAction": undefined,
+      "isEnableEndStamp": undefined,
+      "isEnableRestartStamp": undefined,
+      "isEnableStartStamp": undefined,
+    },
+    "type": "COMMONS/STAMP_WIDGET/APPLY_DAILY_STAMP_TIME",
+  },
+  Object {
+    "type": "TIMESHEET-PC/UI/DAILY_TIME_TRACK/START_LOADING",
+  },
+  Object {
+    "payload": Object {},
+    "type": "TIMESHEET_PC/MODULES/ENTITIES/TIMETRACKALERT/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "dailyTimeTrackList": Array [],
+      "timesheet": Object {
+        "records": Array [],
+      },
+    },
+    "type": "TIMESHEET-PC/ENTITIES/DAILYTIMETRACK/UPDATE_RECORDS",
+  },
+  Object {
+    "type": "TIMESHEET-PC/UI/DAILY_TIME_TRACK/END_LOADING",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;

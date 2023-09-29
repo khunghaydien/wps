@@ -1,0 +1,34 @@
+@import 'mobile-global-imports';
+
+.mobile-app-molecules-commons-view-item {
+  margin-bottom: $small-size;
+  border-bottom: 1px solid $color-border;
+  color: $color-text-base;
+  font-size: $medium-size;
+
+  .mobile-app-atoms-label__text {
+    margin-bottom: 2px;
+    color: $color-blue-800;
+  }
+
+  &__body {
+    min-height: 24px;
+    color: $color-text-base;
+    font-size: $medium-size;
+    line-break: strict;
+    overflow-wrap: break-word;
+    word-break: break-word;
+
+    &--left {
+      text-align: left;
+    }
+
+    &--center {
+      text-align: center;
+    }
+
+    &--right {
+      text-align: right;
+    }
+  }
+}

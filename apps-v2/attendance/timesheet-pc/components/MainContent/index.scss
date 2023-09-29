@@ -1,0 +1,144 @@
+.timesheet-pc-main-content {
+  $this: &;
+
+  display: flex;
+
+  // 画面全域のヘッダー・打刻ウィジェット・メイン領域の高さ設定
+  height: 100vh;
+  flex-direction: column;
+
+  & > {
+    * {
+      transition: flex 0.2s ease-out;
+    }
+
+    header {
+      flex: 0 0 38px;
+    }
+
+    #{$this}__stamp-widget {
+      overflow: hidden;
+      flex: 0 0 0;
+    }
+
+    main {
+      flex: 1 1;
+    }
+  }
+
+  // ※打刻ウィジェット展開時
+  &#{$this}--stamp-widget-opened > {
+    #{$this}__stamp-widget {
+      flex: 0 0 52px;
+    }
+  }
+
+  // WSP共通ヘッダー直下の表示・操作要素
+  &__header-operation {
+    position: relative;
+    height: 35px;
+    padding-left: 70px;
+    background-color: #b1c9db;
+    line-height: 35px;
+  }
+
+  &__toggle-stamp-widget.slds-button {
+    position: relative;
+    height: 30px;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-left: 10px;
+    line-height: 28px;
+
+    &::after {
+      position: absolute;
+      top: 2px;
+      right: 4px;
+      content: url('../../images/partsArrowDouble.png');
+    }
+  }
+
+  &__header-heading {
+    display: inline;
+    padding: 0;
+    color: $color-text-header-heading;
+    font-size: $font-size-x-large;
+  }
+
+  &__header-tools {
+    float: right;
+    margin-right: 4px;
+  }
+
+  // メイン領域内のヘッダー・フッター・勤務表の高さ設定
+  &__main {
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    flex-direction: column;
+
+    > {
+      header {
+        flex: 0 0 35px;
+      }
+      div.timesheet-pc-main-content-timesheet {
+        flex: 1 1 calc(100% - 112px);
+      }
+      footer {
+        flex: 0 0 77px;
+      }
+    }
+  }
+
+  // TODO: 勤怠情報の抜粋が実装されたら復活させる
+  //&__footer {
+  //  position: relative;
+  //  height: 77px;
+  //  background-color: #fafafa;
+  //}
+  //
+  //&__footer-tools {
+  //  position: absolute;
+  //  top: 50%;
+  //  right: 0;
+  //  transform: translate(0%, -50%);
+  //}
+  //
+  //&__footer-summary {
+  //  position: absolute;
+  //  top: 50%;
+  //  left: 21px;
+  //  transform: translate(0%, -50%);
+  //}
+}
+
+// TODO: 以降の記述は、コンポーネント分割の進捗にあわせて整理していく
+
+.ts-container {
+  min-width: 1024px;
+  font-size: 12px;
+}
+
+.tmst-value-frame {
+  display: inline-block;
+  min-width: 40px;
+  height: 27px;
+  background-color: #d5e2ed;
+  border-radius: 3px;
+  line-height: 27px;
+  text-align: center;
+
+  &--align-right {
+    padding-right: 12px;
+    padding-left: 12px;
+    text-align: right;
+  }
+
+  &--color-alert {
+    color: #f00;
+  }
+
+  &--color-primary {
+    color: #007fff;
+  }
+}

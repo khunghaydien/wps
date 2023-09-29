@@ -1,0 +1,44 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-psa__end-date-role-dialog {
+  display: flex;
+  max-width: 720px;
+  flex-wrap: wrap;
+  padding: $container-padding;
+  overflow: visible;
+  flex-direction: column;
+
+  .commons-fields-date-field,
+  .react-datepicker-wrapper,
+  .react-datepicker__input-container {
+    width: 100%;
+  }
+
+  &__info {
+    display: flex;
+    margin-top: $container-padding;
+  }
+
+  &__info-text {
+    margin-left: 10px;
+    color: #333;
+  }
+
+  &--is-rescheduled {
+    align-items: center;
+    display: flex;
+  }
+
+  &__comment {
+    margin-top: $container-padding;
+  }
+
+  &__info-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__info-icon path {
+    fill: #54688c;
+  }
+}

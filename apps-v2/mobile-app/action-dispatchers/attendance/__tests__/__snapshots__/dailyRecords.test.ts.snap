@@ -1,0 +1,338 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`initialize() should fetch timesheet when nothing arguments. 1`] = `
+Array [
+  Object {
+    "type": "MOBILE_APP/MODELES/ATTENDANCE/TIMESHEET/UI/DAILY/PAGING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE_APP/MODELES/ATTENDANCE/TIMESHEET/UI/DAILY/EDITING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/CLEAR",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [],
+    "type": "MOCK/COMMONS/ACTIONS/GET_USER_SETTING",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": "2020-10-15",
+      "timesheet": "Mock timesheet(2020-10-15)",
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/DAILY/EDITING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": "2020-10-15",
+      "timesheet": "Mock timesheet(2020-10-15)",
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/DAILY/PAGING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "Mock timesheet(2020-10-15)",
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`initialize() should fetch timesheet when nothing cache. 1`] = `
+Array [
+  Object {
+    "type": "MOBILE_APP/MODELES/ATTENDANCE/TIMESHEET/UI/DAILY/PAGING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE_APP/MODELES/ATTENDANCE/TIMESHEET/UI/DAILY/EDITING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/CLEAR",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [],
+    "type": "MOCK/COMMONS/ACTIONS/GET_USER_SETTING",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": "2010-01-01",
+      "timesheet": "Mock timesheet(2010-01-01)",
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/DAILY/EDITING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": "2010-01-01",
+      "timesheet": "Mock timesheet(2010-01-01)",
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/DAILY/PAGING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "Mock timesheet(2010-01-01)",
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`initialize() should fetch timesheet when outside period cache. 1`] = `
+Array [
+  Object {
+    "type": "MOBILE_APP/MODELES/ATTENDANCE/TIMESHEET/UI/DAILY/PAGING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE_APP/MODELES/ATTENDANCE/TIMESHEET/UI/DAILY/EDITING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/CLEAR",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [],
+    "type": "MOCK/COMMONS/ACTIONS/GET_USER_SETTING",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": "2020-03-01",
+      "timesheet": "Mock timesheet(2020-03-01)",
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/DAILY/EDITING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": "2020-03-01",
+      "timesheet": "Mock timesheet(2020-03-01)",
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/DAILY/PAGING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "Mock timesheet(2020-03-01)",
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`initialize() should not fetch timesheet when having cache. 1`] = `
+Array [
+  Object {
+    "type": "MOBILE_APP/MODELES/ATTENDANCE/TIMESHEET/UI/DAILY/PAGING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE_APP/MODELES/ATTENDANCE/TIMESHEET/UI/DAILY/EDITING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/CLEAR",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [],
+    "type": "MOCK/COMMONS/ACTIONS/GET_USER_SETTING",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": "2010-01-15",
+      "timesheet": Object {
+        "endDate": "2010-01-31",
+        "startDate": "2010-01-01",
+      },
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/DAILY/EDITING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": "2010-01-15",
+      "timesheet": Object {
+        "endDate": "2010-01-31",
+        "startDate": "2010-01-01",
+      },
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/DAILY/PAGING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "endDate": "2010-01-31",
+      "startDate": "2010-01-01",
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`saveAttDailyRecord() should not save record if error occur. 1`] = `
+Array [
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": "test",
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - error test",
+      "problem": "error test",
+      "stackTrace": "stackTrace",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`saveAttDailyRecord() should save record 1`] = `
+Array [
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [
+      "Saved",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_TOAST",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": "2010-01-15",
+      "timesheet": "Mock timesheet(2010-01-15)",
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/DAILY/EDITING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": "2010-01-15",
+      "timesheet": "Mock timesheet(2010-01-15)",
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/DAILY/PAGING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "Mock timesheet(2010-01-15)",
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`saveAttDailyRecord() should save record and dose not fix insufficientRestTime if shoConfirm return false. 1`] = `
+Array [
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [
+      "The rest time input is 60 minutes short. Do you want to automatically register the required rest time?
+If you do not wish to register it automatically, click the “cancel” button and input it manually in the attendance sheet.
+{$Att_Help_ExcessRestTimeBeDeducted}",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": Array [
+      "Saved",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_TOAST",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": "2010-01-15",
+      "timesheet": "Mock timesheet(2010-01-15)",
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/DAILY/EDITING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": "2010-01-15",
+      "timesheet": "Mock timesheet(2010-01-15)",
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/DAILY/PAGING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "Mock timesheet(2010-01-15)",
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`saveAttDailyRecord() should save record and fix insufficientRestTime if shoConfirm return true. 1`] = `
+Array [
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [
+      "The rest time input is 60 minutes short. Do you want to automatically register the required rest time?
+If you do not wish to register it automatically, click the “cancel” button and input it manually in the attendance sheet.
+{$Att_Help_ExcessRestTimeBeDeducted}",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": Array [
+      "Saved",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_TOAST",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": "2010-01-15",
+      "timesheet": "Mock timesheet(2010-01-15)",
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/DAILY/EDITING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": "2010-01-15",
+      "timesheet": "Mock timesheet(2010-01-15)",
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/DAILY/PAGING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "Mock timesheet(2010-01-15)",
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;

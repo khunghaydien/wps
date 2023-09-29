@@ -1,0 +1,915 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectDetailFormContainer Test it renders without crashing 1`] = `
+<div
+  className="ts-psa__project"
+>
+  <div
+    className="ts-psa__common-header"
+  >
+    <div
+      className="ts-psa__common-header-left"
+    >
+      <span
+        className="ts-psa__common-header-breadcrumb"
+      />
+      <span
+        className="ts-psa__common-header-title"
+      >
+        Project Details
+      </span>
+    </div>
+    <div
+      className="ts-psa__common-header__btn-area"
+    >
+      <button
+        className="ts-psa__project__btn--delete ts-button ts-button--primary"
+        data-test-id="ts-psa__project__btn--generate"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+        value=""
+      >
+        <div
+          className="ts-button__contents"
+        >
+          <span
+            className="ts-button__text"
+          >
+            Generate Link
+          </span>
+        </div>
+      </button>
+      <button
+        className="ts-psa__project__btn--delete ts-button ts-button--default"
+        data-testid="ts-psa__project__btn--delete"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+        value=""
+      >
+        <div
+          className="ts-button__contents"
+        >
+          <span
+            className="ts-button__text"
+          >
+            Delete Project
+          </span>
+        </div>
+      </button>
+      <button
+        className="ts-psa__project__btn--cancel ts-button ts-button--default"
+        data-test-id="ts-psa__project__btn--cancel"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+        value=""
+      >
+        <div
+          className="ts-button__contents"
+        >
+          <span
+            className="ts-button__text"
+          >
+            Cancel
+          </span>
+        </div>
+      </button>
+      <button
+        className="ts-psa__project__btn--save ts-button ts-button--primary"
+        data-test-id="ts-psa__project__btn--save"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+        value=""
+      >
+        <div
+          className="ts-button__contents"
+        >
+          <span
+            className="ts-button__text"
+          >
+            Save
+          </span>
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="ts-psa__project__content"
+  >
+    <div
+      className="ts-psa__project-form"
+    >
+      <div
+        className="ts-psa__project-form__error-box"
+      />
+      <div
+        className="ts-psa__project-form__title"
+        style={
+          Object {
+            "marginTop": undefined,
+          }
+        }
+      >
+        Base Info
+      </div>
+      <section
+        className="ts-psa__project-form__base"
+      >
+        <div
+          className="ts-psa__form-field ts-psa__project-form__base__project-title "
+          data-testid="ts-psa__project-form__base__name"
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+            <span
+              className="is-required"
+            >
+              *
+            </span>
+             
+            Project Title
+          </div>
+          <input
+            className="ts-text-field slds-input"
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder={null}
+            readOnly={false}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="ts-psa__form-field  "
+          data-testid="ts-psa__project-form__base__code"
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+            <span
+              className="is-required"
+            >
+              *
+            </span>
+             
+            {$Psa_Clbl_ProjectCode}
+          </div>
+          <input
+            className="ts-text-field slds-input"
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder={null}
+            readOnly={false}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="ts-psa__form-field ts-psa__project-form__base__date "
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+            <span
+              className="is-required"
+            >
+              *
+            </span>
+             
+            Project Duration
+          </div>
+          <div
+            className="ts-psa__date-field__container"
+          >
+            <div
+              className="commons-fields-date-field"
+              data-testid="ts-psa__project-form__base__start-date"
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <input
+                      className="slds-input"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder="Start Date"
+                      readOnly={false}
+                      required={false}
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="ts-psa__date-field__calendar-icon-wrapper"
+            >
+              <test-file-stub
+                className="ts-psa__date-field__calendar-icon-body"
+              />
+            </div>
+          </div>
+          <span
+            className="ts-psa__project-form__base__separator"
+          >
+            -
+          </span>
+          <div
+            className="ts-psa__date-field__container"
+          >
+            <div
+              className="commons-fields-date-field"
+              data-testid="ts-psa__project-form__base__end-date"
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <input
+                      className="slds-input"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder="End Date"
+                      readOnly={false}
+                      required={false}
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="ts-psa__date-field__calendar-icon-wrapper"
+            >
+              <test-file-stub
+                className="ts-psa__date-field__calendar-icon-body"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="ts-psa__form-field  "
+          data-testid="ts-psa__project-form__base__status"
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+             
+            Status
+          </div>
+          <select
+            className="slds-select ts-select"
+            disabled={false}
+            id=""
+            multiple={false}
+            onChange={[Function]}
+            required={false}
+            size={0}
+            value="Planning"
+          >
+            <option
+              disabled={null}
+              value="Planning"
+            >
+              Planning
+            </option>
+            <option
+              disabled={null}
+              value="InProgress"
+            >
+              In Progress
+            </option>
+            <option
+              disabled={null}
+              value="Completed"
+            >
+              Completed
+            </option>
+            <option
+              disabled={null}
+              value="Cancelled"
+            >
+              Cancelled
+            </option>
+          </select>
+        </div>
+        <div
+          className="ts-psa__form-field  "
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+             
+            Client
+          </div>
+          <div
+            className="ts-selection-dialog"
+          >
+            <div
+              className="ts-selection-dialog__selection"
+            >
+              <div
+                className="ts-selection-dialog__selection-button action"
+              >
+                <test-file-stub
+                  className="ts-selection-dialog__selection-button__icon false"
+                />
+                <div
+                  onClick={[Function]}
+                >
+                  <span
+                    className="ts-selection-dialog__selection-button__name false"
+                  >
+                    Select Client
+                  </span>
+                </div>
+              </div>
+              <div
+                className="ts-selection-dialog__selection-list"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="ts-psa__form-field  "
+          data-testid="ts-psa__project-form__base__opportunity"
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+             
+            Opportunity
+          </div>
+          <div
+            className="ts-selection-dialog"
+          >
+            <div
+              className="ts-selection-dialog__selection"
+            >
+              <div
+                className="ts-selection-dialog__selection-button action"
+              >
+                <test-file-stub
+                  className="ts-selection-dialog__selection-button__icon false"
+                />
+                <div
+                  onClick={[Function]}
+                >
+                  <span
+                    className="ts-selection-dialog__selection-button__name false"
+                  >
+                    Select Opportunity
+                  </span>
+                </div>
+              </div>
+              <div
+                className="ts-selection-dialog__selection-list"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="ts-psa__form-field ts-psa__project-form__base__desc "
+          data-testid="ts-psa__project-form__base__description"
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+             
+            Description
+          </div>
+          <textarea
+            className="ts-textarea-field slds-input"
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            value=""
+          />
+        </div>
+        <div />
+      </section>
+      <div
+        className="ts-psa__project-form__title"
+      >
+        Operation
+      </div>
+      <section
+        className="ts-psa__project-form__operation"
+      >
+        <div
+          className="ts-psa__form-field  "
+          data-testid="ts-psa__project-form__operation__pm"
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+            <span
+              className="is-required"
+            >
+              *
+            </span>
+             
+            Project Manager
+          </div>
+          <div
+            aria-expanded={false}
+            aria-haspopup="listbox"
+            aria-owns="react-autowhatever-1"
+            className="react-autosuggest__container"
+            role="combobox"
+          >
+            <div>
+              <input
+                aria-activedescendant={null}
+                aria-autocomplete="list"
+                aria-controls="react-autowhatever-1"
+                autoComplete="off"
+                className="ts-text-field slds-input"
+                disabled={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                readOnly={false}
+                type="text"
+                value="undefined"
+              />
+            </div>
+            <div
+              className="react-autosuggest__suggestions-container"
+              id="react-autowhatever-1"
+              role="listbox"
+            />
+          </div>
+        </div>
+        <div
+          className="ts-psa__form-field  "
+          data-testid="ts-psa__project-form__operation__project-department"
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+             
+            Project Department
+          </div>
+          <div
+            aria-expanded={false}
+            aria-haspopup="listbox"
+            aria-owns="react-autowhatever-1"
+            className="react-autosuggest__container"
+            role="combobox"
+          >
+            <div>
+              <input
+                aria-activedescendant={null}
+                aria-autocomplete="list"
+                aria-controls="react-autowhatever-1"
+                autoComplete="off"
+                className="ts-text-field slds-input"
+                disabled={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                placeholder="Search Project Department"
+                readOnly={false}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="react-autosuggest__suggestions-container"
+              id="react-autowhatever-1"
+              role="listbox"
+            />
+          </div>
+        </div>
+        <div
+          className="ts-psa__form-field  "
+          data-testid="ts-psa__project-form__operation__rg"
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+             
+            Resource Group
+          </div>
+          <div
+            className="ts-Resource-group-filter"
+          >
+            <div
+              className="ts-Resource-group-filter__selection"
+            >
+              <div
+                className="ts-Resource-group-filter__selection-button"
+              >
+                <test-file-stub
+                  className="ts-Resource-group-filter__selection-button__icon__action"
+                />
+                <div
+                  onClick={[Function]}
+                >
+                  <span
+                    className="ts-Resource-group-filter__selection-button__name__action"
+                  >
+                    Select Resource Group
+                  </span>
+                </div>
+              </div>
+              <div
+                className="ts-Resource-group-filter__selection-list"
+              />
+            </div>
+          </div>
+        </div>
+        <div />
+      </section>
+      <div
+        className="ts-psa__project-form__title"
+      >
+        Financials
+      </div>
+      <section
+        className="ts-psa__project-form__financials"
+      >
+        <div
+          className="ts-psa__form-field  "
+          data-testid="ts-psa__project-form__financials__contract-type"
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+             
+            Contract Type
+          </div>
+          <select
+            className="slds-select ts-select"
+            disabled={false}
+            id=""
+            multiple={false}
+            onChange={[Function]}
+            required={false}
+            size={0}
+            value="TnM"
+          >
+            <option
+              disabled={null}
+              value="TnM"
+            >
+              Time & Material
+            </option>
+            <option
+              disabled={null}
+              value="Fixed"
+            >
+              Fixed
+            </option>
+          </select>
+        </div>
+        <div
+          className="ts-psa__form-field  "
+          data-testid="ts-psa__project-form__financials__contract-amount"
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+             
+            Contract Amount
+          </div>
+          <input
+            className="ts-text-field slds-input"
+            disabled={true}
+            onBlur={[Function]}
+            onChange={[Function]}
+            value={0}
+          />
+        </div>
+        <div
+          className="ts-psa__form-field  "
+          data-testid="ts-psa__project-form__financials__target-margin"
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+             
+            Target Margin (%)
+          </div>
+          <input
+            className="ts-text-field slds-input"
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            value={0}
+          />
+        </div>
+        <div />
+      </section>
+      <div
+        className="ts-psa__project-form__title"
+      >
+        Planning Options
+      </div>
+      <section
+        className="ts-psa__project-form__planning-options"
+      >
+        <div
+          className="ts-psa__form-field  "
+          data-testid="ts-psa__project-form__planning-options__work-hours"
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+            <span
+              className="is-required"
+            >
+              *
+            </span>
+             
+            Work Hours Per Day
+          </div>
+          <input
+            className="ts-text-field slds-input"
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder={null}
+            readOnly={false}
+            type="tel"
+            value="0"
+          />
+        </div>
+        <div
+          className="ts-psa__form-field ts-psa__project-form__planning-options__calendar "
+          data-testid="ts-psa__project-form__planning-options__calendar"
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+             
+            Calendar
+          </div>
+          <select
+            className="slds-select ts-select ts-psa__project-form__planning-options__calendar-contents"
+            disabled={true}
+            id=""
+            multiple={false}
+            onChange={[Function]}
+            required={false}
+            size={0}
+            value=""
+          />
+        </div>
+        <div
+          className="ts-psa__form-field ts-psa__project-form__planning-options__workingdays "
+          data-testid="ts-psa__project-form__planning-options__working-days"
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+             
+            Project Working Days
+          </div>
+          <div
+            className="ts-psa__project-form__planning-options__workingdays-contents"
+          >
+            <label
+              className="ts-psa__project-form__planning-options__workingdays-label"
+              htmlFor="workingDaySUN"
+            >
+              <input
+                checked={false}
+                className="ts-psa__project-form__planning-options__workingdays-checkbox"
+                disabled={false}
+                id="workingDaySUN"
+                onChange={[Function]}
+                type="checkbox"
+                value={false}
+              />
+              <span
+                className="ts-psa__project-form__planning-options__workingdays-text"
+                style={
+                  Object {
+                    "marginLeft": undefined,
+                  }
+                }
+              >
+                Sun
+              </span>
+            </label>
+            <label
+              className="ts-psa__project-form__planning-options__workingdays-label"
+              htmlFor="workingDayMON"
+            >
+              <input
+                checked={false}
+                className="ts-psa__project-form__planning-options__workingdays-checkbox"
+                disabled={false}
+                id="workingDayMON"
+                onChange={[Function]}
+                type="checkbox"
+                value={false}
+              />
+              <span
+                className="ts-psa__project-form__planning-options__workingdays-text"
+                style={
+                  Object {
+                    "marginLeft": undefined,
+                  }
+                }
+              >
+                Mon
+              </span>
+            </label>
+            <label
+              className="ts-psa__project-form__planning-options__workingdays-label"
+              htmlFor="workingDayTUE"
+            >
+              <input
+                checked={false}
+                className="ts-psa__project-form__planning-options__workingdays-checkbox"
+                disabled={false}
+                id="workingDayTUE"
+                onChange={[Function]}
+                type="checkbox"
+                value={false}
+              />
+              <span
+                className="ts-psa__project-form__planning-options__workingdays-text"
+                style={
+                  Object {
+                    "marginLeft": undefined,
+                  }
+                }
+              >
+                Tue
+              </span>
+            </label>
+            <label
+              className="ts-psa__project-form__planning-options__workingdays-label"
+              htmlFor="workingDayWED"
+            >
+              <input
+                checked={false}
+                className="ts-psa__project-form__planning-options__workingdays-checkbox"
+                disabled={false}
+                id="workingDayWED"
+                onChange={[Function]}
+                type="checkbox"
+                value={false}
+              />
+              <span
+                className="ts-psa__project-form__planning-options__workingdays-text"
+                style={
+                  Object {
+                    "marginLeft": undefined,
+                  }
+                }
+              >
+                Wed
+              </span>
+            </label>
+            <label
+              className="ts-psa__project-form__planning-options__workingdays-label"
+              htmlFor="workingDayTHU"
+            >
+              <input
+                checked={false}
+                className="ts-psa__project-form__planning-options__workingdays-checkbox"
+                disabled={false}
+                id="workingDayTHU"
+                onChange={[Function]}
+                type="checkbox"
+                value={false}
+              />
+              <span
+                className="ts-psa__project-form__planning-options__workingdays-text"
+                style={
+                  Object {
+                    "marginLeft": undefined,
+                  }
+                }
+              >
+                Thu
+              </span>
+            </label>
+            <label
+              className="ts-psa__project-form__planning-options__workingdays-label"
+              htmlFor="workingDayFRI"
+            >
+              <input
+                checked={false}
+                className="ts-psa__project-form__planning-options__workingdays-checkbox"
+                disabled={false}
+                id="workingDayFRI"
+                onChange={[Function]}
+                type="checkbox"
+                value={false}
+              />
+              <span
+                className="ts-psa__project-form__planning-options__workingdays-text"
+                style={
+                  Object {
+                    "marginLeft": undefined,
+                  }
+                }
+              >
+                Fri
+              </span>
+            </label>
+            <label
+              className="ts-psa__project-form__planning-options__workingdays-label"
+              htmlFor="workingDaySAT"
+            >
+              <input
+                checked={false}
+                className="ts-psa__project-form__planning-options__workingdays-checkbox"
+                disabled={false}
+                id="workingDaySAT"
+                onChange={[Function]}
+                type="checkbox"
+                value={false}
+              />
+              <span
+                className="ts-psa__project-form__planning-options__workingdays-text"
+                style={
+                  Object {
+                    "marginLeft": undefined,
+                  }
+                }
+              >
+                Sat
+              </span>
+            </label>
+          </div>
+        </div>
+        <div
+          className="ts-psa__form-field  "
+          data-testid="ts-psa__project-form__planning-options__planning-cycle"
+        >
+          <div
+            className="ts-psa__form-field__label"
+          >
+             
+            Planning Cycle
+          </div>
+          <select
+            className="slds-select ts-select"
+            disabled={false}
+            id=""
+            multiple={false}
+            onChange={[Function]}
+            required={false}
+            size={0}
+            value=""
+          >
+            <option
+              disabled={null}
+              value="Monthly"
+            >
+              Monthly
+            </option>
+            <option
+              disabled={null}
+              value="Weekly"
+            >
+              Weekly
+            </option>
+          </select>
+        </div>
+        <div />
+      </section>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,22 @@
+.admin-pc-job-job-assignment-dialogs-employee-search-form {
+  &__form {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__control {
+    margin: 0 1rem 0 0;
+  }
+
+  &__control &__label {
+    color: $color-text-modest;
+  }
+
+  &__search-button {
+    min-width: 90px;
+    min-height: calc(1.875rem + (1px * 2));
+    align-self: flex-end;
+  }
+}

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return RestTimeReasonList 1`] = `
+Object {
+  "deviationReasons": Map {
+    "001" => Object {
+      "label": "Label 1",
+      "value": "001",
+    },
+    "002" => Object {
+      "label": "Label 2",
+      "value": "002",
+    },
+  },
+  "employeeId": "employeeId",
+  "id": "id",
+  "targetDate": "2022-06-21",
+}
+`;

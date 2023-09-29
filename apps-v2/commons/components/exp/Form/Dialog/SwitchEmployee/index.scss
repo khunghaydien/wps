@@ -1,0 +1,44 @@
+.ts-expenses-modal-switch-employee {
+  &__dialog-frame {
+    width: 968px;
+    height: 580px;
+
+    & .ts-expenses-switch-employee-table {
+      border: 1px solid #d8dde6;
+
+      &__column {
+        &-emp-photo-url {
+          display: flex;
+          flex: 0 1 100px;
+          justify-content: center;
+        }
+
+        &-emp-name,
+        &-emp-code,
+        &-dep-name,
+        &-dep-code,
+        &-title {
+          width: 160px;
+        }
+      }
+
+      & .commons-fixed-header-table-body-row {
+        cursor: pointer;
+
+        &:hover {
+          background-color: #f3f2f2;
+        }
+      }
+
+      &__icon {
+        height: 28px;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+
+      &__scrollable {
+        max-height: 380px;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.timesheet-pc-request {
+  display: inline-block;
+
+  &__status {
+    display: inline-block;
+    height: 27px;
+    background-color: #d5e2ed;
+    border-radius: 3px;
+    line-height: 27px;
+
+    &__title {
+      padding: 4px;
+      color: $color-text-weak;
+    }
+
+    &__value {
+      display: inline-block;
+      min-width: 90px;
+      text-align: center;
+    }
+  }
+
+  &__action {
+    display: inline-block;
+    padding: 0 16px 0 14px;
+
+    &:empty {
+      padding-left: 0;
+    }
+
+    > button {
+      min-width: 90px;
+      line-height: 27px;
+    }
+  }
+}

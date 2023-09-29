@@ -1,0 +1,74 @@
+@import 'mobile-global-imports';
+
+.mobile-app-organisms-daily-task-input-card {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+
+  &--strong {
+    background: #fff3f2;
+  }
+
+  &__heading {
+    padding: 0 16px 0 0;
+    color: $color-text-default;
+    font-weight: $font-emphasis;
+    overflow: hidden;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  &__code {
+    word-break: break-all;
+  }
+
+  &__break {
+    margin: 0 4px 0 4px;
+  }
+
+  &__job {
+    display: inline-block;
+    min-width: 84px;
+  }
+
+  &__work-category {
+    min-width: 84px;
+    padding: 0 16px 0 0;
+    font-size: 16px;
+    color: #666;
+  }
+
+  &__default-job {
+    margin: 0 0 4px;
+  }
+
+  &__input {
+    width: 64px;
+  }
+
+  & .horizontal {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  & .horizontal &__right {
+    margin: 0 0 0 1rem;
+  }
+
+  &__additional {
+    $space: 20px;
+    $card-padding: 12px;
+
+    margin: 0 ($space - $card-padding) 0 $space;
+  }
+
+  // HACK
+  // iOS見た目が崩れるのでサイズを強制する
+  & > .mobile-app-atoms-icon {
+    width: 16px !important;
+    height: 16px !important;
+  }
+}

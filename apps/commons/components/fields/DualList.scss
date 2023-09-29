@@ -1,0 +1,51 @@
+.react-dual-listbox {
+  position: relative;
+  width: 100%;
+
+  &__dual_listbox_title {
+    margin-bottom: 6px;
+    color: #333;
+
+    &_left {
+      display: inline-block;
+      width: 50%;
+    }
+  }
+
+  .rdl-control {
+    border-radius: 4px;
+  }
+
+  .rdl-move-all {
+    visibility: hidden;
+  }
+
+  .rdl-move {
+    border: #fff;
+    background: transparent;
+  }
+
+  .rdl-move-up,
+  .rdl-move-down {
+    position: relative;
+    top: -80px;
+  }
+
+  select {
+    height: 220px;
+    option {
+      overflow: hidden;
+      max-width: 100%;
+      white-space: normal;
+      word-wrap: break-word !important;
+    }
+  }
+
+  .rdl-selected {
+    select {
+      option:first-child {
+        max-width: calc(100% - 50px);
+      }
+    }
+  }
+}

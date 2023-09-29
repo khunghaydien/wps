@@ -1,0 +1,33 @@
+.commons-grid-formatters-employee {
+  display: flex;
+  height: 100%;
+
+  &__icon-wrapper {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  &__icon {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  &__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+
+  &__cell-name-department {
+    color: $color-text-modest;
+  }
+
+  &__cell-employee-name {
+    font-size: 11px;
+  }
+}

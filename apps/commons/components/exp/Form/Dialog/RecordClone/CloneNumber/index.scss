@@ -1,0 +1,30 @@
+@import '../../../../../../../commons/styles/wsp.scss';
+
+.ts-expenses-modal-record-clone-number-input {
+  &__dialog-frame {
+    width: 500px;
+
+    .commons-dialog-frame__header-title {
+      padding: 0 8px;
+    }
+  }
+
+  &__inner {
+    height: 220px;
+    padding: 50px 24px 0;
+  }
+
+  &__inputbox {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  &__body {
+    display: flex;
+  }
+
+  &__error {
+    margin-top: 2px;
+    color: color('error');
+  }
+}

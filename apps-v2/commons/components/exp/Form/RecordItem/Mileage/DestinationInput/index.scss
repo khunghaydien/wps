@@ -1,0 +1,64 @@
+@import '../../../../../../../commons/styles/exp/variables/colors';
+
+.ts-expenses__form-record-item__mileage-destination-input {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+  align-items: center;
+
+  &__icon {
+    zoom: 1 !important;
+    overflow: visible !important;
+  }
+
+  &__indicator {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #666;
+    border-radius: 50%;
+    margin-right: 10px;
+    &-red {
+      border-color: #f00;
+      background-color: #f00;
+    }
+  }
+
+  &__input-container {
+    width: 100%;
+    position: relative;
+
+    input {
+      height: unset;
+      padding: unset;
+      border: unset;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    li {
+      padding-right: 29px !important;
+    }
+  }
+
+  &__input {
+    flex: 9;
+    &-error {
+      border-color: $ts-warning !important;
+    }
+
+    ::placeholder {
+      font-size: 13px;
+    }
+  }
+
+  &-button {
+    width: 16px;
+    margin-left: 8px;
+    & path {
+      fill: #666;
+    }
+  }
+}

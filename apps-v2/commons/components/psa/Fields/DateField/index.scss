@@ -1,0 +1,24 @@
+.ts-psa__date-field {
+  &__container {
+    display: flex;
+  }
+  &__calendar-icon-wrapper {
+    position: relative;
+    z-index: 0;
+  }
+
+  &__calendar-icon-body {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -24px;
+    z-index: 2;
+  }
+
+  &__popper {
+    z-index: 9999999;
+  }
+
+  &__error {
+    color:red;
+  }
+}

@@ -1,0 +1,69 @@
+@import '../../../commons/styles/wsp';
+
+.approvals-pc-detail-parts-attachment-preview {
+  &__attachment {
+    &-items {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    &-item {
+      height: 32px;
+      line-height: 32px;
+      background: color('hover');
+      border-radius: 4px;
+      margin-top: 10px;
+      display: flex;
+
+      svg: {
+        position: relative;
+        top: -1px;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      a {
+        width: 100%;
+        display: inherit;
+
+        &,
+        &:hover,
+        &:active {
+          text-decoration: none !important;
+          color: color('text-1');
+        }
+      }
+    }
+  }
+
+  &__file-type-icon {
+    pointer-events: none;
+    margin: 8px;
+    min-width: 16px;
+    width: 16px;
+    height: 16px;
+  }
+
+  &__preview-icon {
+    pointer-events: none;
+    width: 18px;
+    margin: auto;
+    margin-right: 10px;
+
+    &.zoomIcon {
+      width: 16px;
+    }
+
+    path {
+      fill: color('text-2');
+    }
+  }
+
+  &__file-name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Receipt deleteReceipt() delete receipt success 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": "receiptId",
+    "type": "MODULES/ENTITIES/EXP/RECEIPT_LIBRARY/DELETE",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`Receipt executeOcr() executeOcr success 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "receiptFileId": "",
+      "status": "InProgress",
+    },
+    "type": "MODULES/ENTITIES/EXP/RECEIPT_LIBRARY/SET_OCR_STATUS",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+  Object {
+    "payload": Object {
+      "isSuccess": true,
+      "result": null,
+    },
+    "type": "MODULES/ENTITIES/EXP/RECEIPT_LIBRARY/OCR_SUCCESS",
+  },
+]
+`;
+
+exports[`Receipt keepGettingStatus() get status completed success 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "ocrInfo": Object {
+        "result": null,
+        "status": "Completed",
+        "taskId": null,
+      },
+      "receiptFileId": "",
+    },
+    "type": "MODULES/ENTITIES/EXP/RECEIPT_LIBRARY/GET_OCR_STATUS",
+  },
+]
+`;

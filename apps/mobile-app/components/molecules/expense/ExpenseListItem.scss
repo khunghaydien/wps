@@ -1,0 +1,33 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molcules-expense-expense-list-item {
+  .mobile-app-atoms-link-list-item__item {
+    flex-direction: column;
+  }
+
+  padding-top: $base-size;
+  padding-bottom: $base-size;
+
+  &__subject {
+    width: 100%;
+    text-align: left;
+  }
+
+  &__bottom {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+
+    &__date {
+      width: 150px;
+      align-self: flex-end;
+      color: $color-blue-800;
+      font-size: $small-size;
+    }
+
+    &__amount {
+      width: calc(100% - 150px);
+      text-align: right;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@import '@commons/styles/exp/variables/_colors.scss';
+
+.ts-route-map__attention-icon {
+  display: inline-block;
+  vertical-align: middle;
+
+  & li {
+    display: inline-block;
+    padding: 1px 5px;
+    margin-top: 1px;
+    margin-right: 4px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+  }
+
+  & li:last-child {
+    margin-right: 0;
+  }
+
+  &--fast {
+    background-color: $fast-icon-bg;
+  }
+
+  &--easy {
+    background-color: $easy-icon-bg;
+  }
+
+  &--cheap {
+    background-color: $cheap-icon-bg;
+  }
+
+  &--ic,
+  &--ex {
+    background-color: $ex-ic-icon-bg;
+  }
+
+  &--round {
+    background-color: $round-trip-icon-bg;
+  }
+}

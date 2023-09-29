@@ -1,0 +1,23 @@
+@import 'mobile-global-imports';
+
+.mobile-app-molecules-date-range-field {
+  &__fieldset {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__start {
+    width: 100%;
+  }
+
+  &__hyphen {
+    margin: 8px;
+    font-size: 16px;
+  }
+
+  &__end {
+    width: 100%;
+  }
+}

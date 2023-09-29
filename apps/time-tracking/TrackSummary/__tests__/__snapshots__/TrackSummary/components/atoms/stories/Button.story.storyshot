@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/TrackSummary Buttons 1`] = `
+Array [
+  <button
+    className="wsp-button"
+    onClick={[Function]}
+  >
+    Button
+  </button>,
+  <button
+    className="wsp-button "
+    default={true}
+    onClick={[Function]}
+  >
+    Default
+  </button>,
+  <button
+    className="wsp-button wsp-button--primary"
+    onClick={[Function]}
+  >
+    Primary
+  </button>,
+  <button
+    className="wsp-button wsp-button--secondary"
+    onClick={[Function]}
+  >
+    Secondary
+  </button>,
+  <button
+    className="wsp-button wsp-button--error"
+    onClick={[Function]}
+  >
+    Error
+  </button>,
+  <button
+    className="wsp-button wsp-button--text"
+    onClick={[Function]}
+  >
+    Text
+  </button>,
+]
+`;

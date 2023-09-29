@@ -1,0 +1,81 @@
+.admin-pc-contents-detail-pane {
+  height: 100%;
+  background-color: $color-bg-pane-third;
+
+  &__scrollable {
+    overflow: auto;
+    height: calc(100% - 34px);
+  }
+
+  &__revision-header,
+  &__org-info-header {
+    margin: 0 18px 12px;
+  }
+
+  &__org-info-department-grid {
+    margin: 28px;
+    margin-top: 0;
+    max-width: 451px;
+  }
+
+  &__revision {
+    margin: 12px;
+  }
+
+  &__revision li {
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    background: white;
+    color: $color-text-modest;
+    font-size: 13px;
+  }
+
+  &__revision li:last-child {
+    border-bottom: 1px solid #ddd;
+  }
+
+  &__revision-title__date,
+  &__revision-item__date {
+    display: inline-block;
+    width: 120px;
+    padding: 4px;
+  }
+
+  &__revision-item__date {
+    vertical-align: top;
+  }
+
+  &__revision-title__comment,
+  &__revision-item__comment {
+    display: inline-block;
+    width: calc(100% - 120px);
+    padding: 4px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  &__revision-title__date,
+  &__revision-title__comment {
+    background: #f5f6fa;
+  }
+
+  &__sub-role {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    select {
+      width: 150px;
+    }
+  }
+
+  &__history-select_wrapper {
+    display: inline-block;
+    margin-top: -2px;
+    margin-right: 12px;
+  }
+
+  &__history-select.slds-select {
+    display: inline-block;
+    width: 120px;
+  }
+}

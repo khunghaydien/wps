@@ -1,0 +1,18 @@
+.timesheet-pc-main-content-owner-info {
+  display: inline-block;
+
+  strong {
+    margin: 0 15px;
+  }
+
+  &__working-type-name {
+    display: inline-block;
+    margin-left: 140px - 15px;
+
+    dl,
+    dt,
+    dd {
+      display: inline-block;
+    }
+  }
+}

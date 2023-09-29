@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"selectedRowIndex\\": -1,
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/BASE/LIST_PANE/UI/LIST/SET_SELECTED_ROW_INDEX 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"selectedRowIndex\\": -1,
++   \\"selectedRowIndex\\": 0,
+  }"
+`;

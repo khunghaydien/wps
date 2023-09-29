@@ -1,0 +1,28 @@
+//
+// Design Guideline - Font
+// 詳しい解説はStorybook参照
+//
+
+//
+// Size
+//
+$font-size-default: 13px;
+
+$font-size-x-small: 9px;
+
+$font-size-small: 12px;
+
+$font-size-large: 14px;
+
+$font-size-x-large: 15px;
+
+$font-size-xx-large: 20px;
+
+// pane
+$font-size-pane-first: $font-size-x-large;
+
+$font-size-pane-second: $font-size-x-large;
+
+$font-size-pane-second-label: $font-size-default;
+
+$font-size-pane-third: $font-size-x-large;

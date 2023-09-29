@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`load() should be called catchApiError() if API returns a error. 1`] = `
+Array [
+  Object {
+    "type": "TIMESHEET-PC/ENTITIES/TIMESHEET/CLEAR_REQUEST_TYPE_CODES",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": "test",
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - error test",
+      "problem": "error test",
+      "stackTrace": "stackTrace",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`load() should load Available Daily Request. 1`] = `
+Array [
+  Object {
+    "type": "TIMESHEET-PC/ENTITIES/TIMESHEET/CLEAR_REQUEST_TYPE_CODES",
+  },
+  Object {
+    "payload": Object {
+      "a": Array [
+        "Absence",
+      ],
+      "b": Array [
+        "Direct",
+      ],
+      "c": Array [
+        "EarlyLeave",
+        "LateArrival",
+      ],
+    },
+    "type": "TIMESHEET-PC/ENTITIES/TIMESHEET/SET_REQUEST_TYPE_CODES",
+  },
+]
+`;
+
+exports[`load() should load if employeeId is null. 1`] = `
+Array [
+  Object {
+    "type": "TIMESHEET-PC/ENTITIES/TIMESHEET/CLEAR_REQUEST_TYPE_CODES",
+  },
+  Object {
+    "payload": Object {
+      "a": Array [
+        "Absence",
+      ],
+      "b": Array [
+        "Direct",
+      ],
+      "c": Array [
+        "EarlyLeave",
+        "LateArrival",
+      ],
+    },
+    "type": "TIMESHEET-PC/ENTITIES/TIMESHEET/SET_REQUEST_TYPE_CODES",
+  },
+]
+`;

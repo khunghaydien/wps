@@ -1,0 +1,161 @@
+@import '../variables.scss';
+
+.body_scroll_disable {
+  overflow: hidden;
+}
+.ts-psa__common-filter {
+  padding: 8px 0;
+
+  // Outside //
+  &__outside {
+    display: flex;
+  }
+
+  &__result {
+    padding: 8px 12px;
+    background-color: #eee;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    margin-left: 10px;
+  }
+
+  // overflow were added for horizontal scroll effect. Not respected in older ie browsers
+  &__results {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    &::-webkit-scrollbar {
+      height: $size-base;
+      background-color: $color-container;
+      border-radius: $size-s;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: $color-bg-form;
+      border-radius: $size-s;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $color-btn-primary;
+      border-radius: $size-s;
+    }
+  }
+
+  &__result-label {
+    color: #144177;
+    font-weight: bold;
+  }
+
+  &__trigger {
+    padding: 8px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    height: 34px;
+
+    &:hover {
+      background-color: $color-btn-focus;
+
+      > svg {
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+      }
+    }
+  }
+
+  // Inside //
+  &__inside {
+    position: fixed;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    transition: opacity 0.3s ease-out;
+  }
+
+  &__inside-content {
+    background-color: #fff;
+    width: 100%;
+    transition: all 0.3s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+  }
+
+  &__header,
+  &__content {
+    padding: $container-padding;
+  }
+
+  &__content {
+    padding-bottom: 30px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f6f9;
+    border-bottom: 1px solid #ddd;
+  }
+
+  &__header-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: $color-text-grey;
+  }
+
+  &__reset,
+  &__cancel,
+  &__apply {
+    padding: $size-xs $size-m;
+    border: 0;
+    margin-left: 16px;
+  }
+
+  &__apply {
+    background-color: $color-btn-primary;
+    border-radius: $size-base;
+    color: $color-bg-white;
+
+    &:focus {
+      background-color: $color-btn-primary;
+      box-shadow: none;
+    }
+  }
+
+  &__cancel {
+    color: $color-btn-save;
+    border: 1px solid $color-border-light-grey;
+  }
+
+  &__reset {
+    background: transparent;
+    color: $color-btn-primary;
+  }
+
+  // Animation classes
+  &__animate-enter {
+    opacity: 0;
+  }
+
+  &__animate-enter-done {
+    opacity: 1;
+  }
+
+  &__animate-enter .ts-psa__common-filter__inside-content {
+    transform: translate3d(0, -20%, 0);
+  }
+
+  &__animate-enter-done .ts-psa__common-filter__inside-content {
+    transform: translate3d(0, 0, 0);
+  }
+
+  &__animate-exit,
+  &__animate-exit-active {
+    opacity: 0;
+  }
+}

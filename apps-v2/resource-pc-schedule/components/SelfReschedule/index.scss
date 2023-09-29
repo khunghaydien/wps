@@ -1,0 +1,195 @@
+@import '../../../commons/components/psa/variables.scss';
+@import '../../../commons/components/psa/ParentResourceItem/index.scss';
+
+.ts-psa__resource-reschedule {
+  &__resource-container {
+    padding: 0 $container-padding 0 $container-padding;
+  }
+  &__resource-header-container {
+    border: 1px solid $color-border-light-grey;
+    background: $color-container;
+    padding: 0 $container-padding 0 $container-padding;
+  }
+
+  &__resource-list-header {
+    display: flex;
+    position: relative;
+    width: 100%;
+
+    &__resources {
+      display: inline-flex;
+      color: $color-text-grey;
+      height: 48px;
+      align-items: center;
+      width: 25%;
+    }
+
+    &__values {
+      width: 85%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    &__value {
+      display: flex;
+      color: $color-text-grey;
+      text-align: center;
+      width: 100%;
+      text-transform: uppercase;
+      flex-direction: column;
+      &.js-is-today {
+        background-color: #fff;
+      }
+
+      &.js-is-sat {
+        color: #0090b9;
+      }
+
+      &.js-is-sun {
+        color: #ff2c35;
+      }
+    }
+  }
+
+  &__resource-reschedule-content {
+    width: 100%;
+    border-top: 1px solid $color-border-light-grey;
+  }
+
+  &__reschedule-form {
+    display: flex;
+    flex-direction: column;
+    padding: $size-m-padding;
+  }
+  &__reschedule-form-header {
+    width: 100%;
+    background-color: $color-bg-dark-blue;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    font-size: $font-size-m;
+    font-weight: bold;
+    color: $color-font-white;
+    border: 1px solid $color-border-light-grey;
+    border-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    &__title {
+      padding: $size-m-padding 8px;
+      width: 25%;
+    }
+    &__effort {
+      padding: $size-m-padding;
+      display: flex;
+      width: 85%;
+      justify-content: flex-start;
+      border-left: 1px solid $color-bg-white;
+    }
+  }
+  &__reschedule-current-header {
+    width: 100%;
+    background-color: $color-bg-lighter-blue;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    font-size: $font-size-m;
+    font-weight: bold;
+    color: $color-font-grey;
+    border: 1px solid $color-border-light-grey;
+    border-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    &__title {
+      padding: $size-m-padding 8px;
+      width: 25%;
+    }
+    &__effort {
+      padding: $size-m-padding;
+      display: flex;
+      width: 85%;
+      justify-content: flex-start;
+      border-left: 1px solid $color-border-light-grey;
+    }
+  }
+  &__reschedule-form-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color: $color-bg-white;
+    border: 1px solid $color-border-light-grey;
+    &__row {
+      width: 100%;
+    }
+  }
+  &__reschedule-form-bulk-update__row {
+    display: flex;
+    padding: $size-m-padding;
+    &__separator {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 25px 5px 5px 5px;
+      color: $color-text-grey;
+      font-size: x-large;
+    }
+  }
+
+  &__work-hours-per-day {
+    padding-left: $container-padding;
+    &__container {
+      display: flex;
+    }
+    .slds-input {
+      border-radius: 0.25rem 0 0 0.25rem;
+    }
+    &__dropdown {
+      max-width: 100px;
+      .slds-button.slds-button_neutral {
+        border-radius: 0 0.25rem 0.25rem 0;
+      }
+    }
+  }
+  &__bulk-preview-button-container {
+    padding-top: 27px;
+  }
+
+  &__reschedule-form-footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: $size-m-padding;
+    background-color: $color-bg-lighter-blue;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid $color-border-light-grey;
+    border-top: 0;
+  }
+
+  &__reschedule-edit-schedule-button,
+  &__reschedule-reset-button,
+  &__reschedule-cancel-button {
+    min-width: 100px;
+    padding: 7px 20px;
+    margin-left: 15px;
+    color: $color-text-blue;
+  }
+  &__bulk-update-button,
+  &__reschedule-preview-button,
+  &__reschedule-save-button {
+    min-width: 100px;
+    padding: 7px 20px;
+    margin-left: 15px;
+  }
+}
+
+// For fixed header in schedules
+.ts-psa-fixed-header {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+
+  .ts-psa__common-header {
+    position: relative;
+  }
+}

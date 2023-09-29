@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"attPatternList\\": Array [],
++   \\"hasRange\\": false,
++   \\"request\\": null,
++   \\"selectedAttPattern\\": null,
++ }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"attPatternList\\": Array [],
++   \\"attPatternList\\": Array [
++     Object {
++       \\"code\\": \\"test01\\",
++       \\"endTime\\": 1080,
++       \\"name\\": \\"変形労働時間制01\\",
++       \\"restTimes\\": Array [
++         Object {
++           \\"endTime\\": 780,
++           \\"startTime\\": 720,
++         },
++         Object {
++           \\"endTime\\": 960,
++           \\"startTime\\": 900,
++         },
++         Object {
++           \\"endTime\\": 1080,
++           \\"startTime\\": 1020,
++         },
++       ],
++       \\"startTime\\": 540,
++     },
++   ],
+    \\"hasRange\\": false,
+-   \\"request\\": null,
+-   \\"selectedAttPattern\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"2020-04-07\\",
++     \\"endTime\\": 1080,
++     \\"id\\": \\"\\",
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": \\"test01\\",
++     \\"patternName\\": \\"変形労働時間制01\\",
++     \\"patternRestTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 960,
++         \\"startTime\\": 900,
++       },
++       Object {
++         \\"endTime\\": 1080,
++         \\"startTime\\": 1020,
++       },
++     ],
++     \\"reason\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestTypeCode\\": \\"Pattern\\",
++     \\"requestTypeName\\": \\"勤務時間変更\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2020-04-07\\",
++     \\"startTime\\": 540,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"Pattern\\",
++   },
++   \\"selectedAttPattern\\": Object {
++     \\"code\\": \\"test01\\",
++     \\"endTime\\": 1080,
++     \\"name\\": \\"変形労働時間制01\\",
++     \\"restTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 960,
++         \\"startTime\\": 900,
++       },
++       Object {
++         \\"endTime\\": 1080,
++         \\"startTime\\": 1020,
++       },
++     ],
++     \\"startTime\\": 540,
++   },
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -48,11 +48,11 @@
+        Object {
+          \\"endTime\\": 1080,
+          \\"startTime\\": 1020,
+        },
+      ],
+-     \\"reason\\": \\"\\",
++     \\"reason\\": \\"testですtestです。\\",
+      \\"remarks\\": \\"\\",
+      \\"requestTypeCode\\": \\"Pattern\\",
+      \\"requestTypeName\\": \\"勤務時間変更\\",
+      \\"requireReason\\": false,
+      \\"startDate\\": \\"2020-04-07\\","
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE_HAS_RANGE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -19,15 +19,15 @@
+          },
+        ],
+        \\"startTime\\": 540,
+      },
+    ],
+-   \\"hasRange\\": false,
++   \\"hasRange\\": true,
+    \\"request\\": Object {
+      \\"approver01Name\\": \\"\\",
+      \\"directApplyRestTimes\\": Array [],
+-     \\"endDate\\": \\"2020-04-07\\",
++     \\"endDate\\": \\"2020-04-08\\",
+      \\"endTime\\": 1080,
+      \\"id\\": \\"\\",
+      \\"isForReapply\\": false,
+      \\"leaveCode\\": \\"\\",
+      \\"leaveName\\": \\"\\","
+`;

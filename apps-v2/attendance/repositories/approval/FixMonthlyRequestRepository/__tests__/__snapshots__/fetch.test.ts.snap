@@ -1,0 +1,491 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should do 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,8 +1,13 @@
+  Object {
++   \\"attention\\": Object {
++     \\"ineffectiveWorkingTime\\": 0,
++     \\"insufficientRestTime\\": 0,
++   },
+    \\"comment\\": \\"comment\\",
+    \\"dailyAllowanceRecordList\\": Array [],
++   \\"dailyAllowanceRecords\\": Array [],
+    \\"dailyObjectiveEventLogRecordList\\": Array [
+      Object {
+        \\"attRecord\\": Object {
+          \\"attSummary\\": Object {
+            \\"id\\": \\"attSummaryId\\",
+@@ -67,63 +72,164 @@
+        \\"leavingTime1\\": 1020,
+        \\"leavingTime2\\": 1011,
+        \\"leavingTime3\\": 1023,
+      },
+    ],
++   \\"dailyObjectiveEventLogRecords\\": Array [
++     Object {
++       \\"deviatedEnteringTimeReason\\": Object {
++         \\"label\\": \\"deviatedEnteringTimeReasonSelectedLabel\\",
++         \\"text\\": \\"Deviated Entering Time Reason\\",
++         \\"value\\": \\"deviatedEnteringTimeReasonSelectedValue\\",
++       },
++       \\"deviatedLeavingTimeReason\\": Object {
++         \\"label\\": \\"deviatedLeavingTimeReasonSelectedLabel\\",
++         \\"text\\": \\"Deviated Leaving Time Reason\\",
++         \\"value\\": \\"deviatedLeavingTimeReasonSelectedValue\\",
++       },
++       \\"deviationReasonExtendedItemId\\": \\"deviationReasonExtendedItemId\\",
++       \\"id\\": \\"dailyObjectivelyEventLogId\\",
++       \\"inpEndTime\\": 1075,
++       \\"inpStartTime\\": 415,
++       \\"logs\\": Array [
++         Object {
++           \\"allowingDeviationTime\\": null,
++           \\"entering\\": Object {
++             \\"deviatedTime\\": 5,
++             \\"eventLogUpdatedBy\\": \\"Entering event log updated1 by\\",
++             \\"eventType\\": \\"Entering\\",
++             \\"id\\": \\"enteringEventLogId1\\",
++             \\"linked\\": \\"\\",
++             \\"time\\": 480,
++           },
++           \\"leaving\\": Object {
++             \\"deviatedTime\\": 6,
++             \\"eventLogUpdatedBy\\": \\"Leaving event log updated1 by\\",
++             \\"eventType\\": \\"Leaving\\",
++             \\"id\\": \\"leavingEventLogId1\\",
++             \\"linked\\": \\"\\",
++             \\"time\\": 1020,
++           },
++           \\"requireDeviationReason\\": false,
++           \\"setting\\": Object {
++             \\"code\\": \\"CODE_NAME_1\\",
++             \\"id\\": \\"setting1\\",
++             \\"name\\": \\"name1\\",
++           },
++         },
++         Object {
++           \\"allowingDeviationTime\\": 5,
++           \\"entering\\": Object {
++             \\"deviatedTime\\": 10,
++             \\"eventLogUpdatedBy\\": \\"Entering event log updated2 by\\",
++             \\"eventType\\": \\"Entering\\",
++             \\"id\\": \\"enteringEventLogId2\\",
++             \\"linked\\": \\"\\",
++             \\"time\\": 470,
++           },
++           \\"leaving\\": Object {
++             \\"deviatedTime\\": 9,
++             \\"eventLogUpdatedBy\\": \\"Leaving event log updated2 by\\",
++             \\"eventType\\": \\"Leaving\\",
++             \\"id\\": \\"leavingEventLogId2\\",
++             \\"linked\\": \\"\\",
++             \\"time\\": 1011,
++           },
++           \\"requireDeviationReason\\": false,
++           \\"setting\\": Object {
++             \\"code\\": \\"CODE_NAME_2\\",
++             \\"id\\": \\"setting2\\",
++             \\"name\\": \\"name2\\",
++           },
++         },
++         Object {
++           \\"allowingDeviationTime\\": 60,
++           \\"entering\\": Object {
++             \\"deviatedTime\\": 1,
++             \\"eventLogUpdatedBy\\": \\"Entering event log updated3 by\\",
++             \\"eventType\\": \\"Entering\\",
++             \\"id\\": \\"enteringEventLogId3\\",
++             \\"linked\\": \\"\\",
++             \\"time\\": 481,
++           },
++           \\"leaving\\": Object {
++             \\"deviatedTime\\": 3,
++             \\"eventLogUpdatedBy\\": \\"Leaving event log updated3 by\\",
++             \\"eventType\\": \\"Leaving\\",
++             \\"id\\": \\"leavingEventLogId3\\",
++             \\"linked\\": \\"\\",
++             \\"time\\": 1023,
++           },
++           \\"requireDeviationReason\\": true,
++           \\"setting\\": Object {
++             \\"code\\": \\"CODE_NAME_3\\",
++             \\"id\\": \\"setting3\\",
++             \\"name\\": \\"name3\\",
++           },
++         },
++       ],
++       \\"recordDate\\": \\"2020-01-01\\",
++       \\"recordId\\": \\"recordId\\",
++     },
++   ],
+    \\"dailyRestRecordList\\": Array [],
+-   \\"delegatedEmployeeName\\": \\"Delegated Employee Name\\",
++   \\"dailyRestRecords\\": Array [],
+    \\"displayFieldLayout\\": null,
+    \\"dividedSummaries\\": Array [
+      Object {
++       \\"endDate\\": \\"2020-01-15\\",
+        \\"name\\": \\"summary 1\\",
++       \\"startDate\\": \\"2020-01-01\\",
+        \\"summaries\\": Array [
+          Object {
+            \\"items\\": Array [
+              Object {
+-               \\"items\\": Array [],
++               \\"daysAndHours\\": undefined,
+                \\"name\\": \\"ContractualWorkDays\\",
++               \\"unit\\": undefined,
+                \\"value\\": \\"string\\",
+              },
+              Object {
+-               \\"items\\": Array [],
++               \\"daysAndHours\\": undefined,
+                \\"name\\": \\"RealWorkDays\\",
++               \\"unit\\": undefined,
+                \\"value\\": 101,
+              },
+              Object {
+-               \\"items\\": Array [],
++               \\"daysAndHours\\": undefined,
+                \\"name\\": \\"CommuteCount\\",
++               \\"unit\\": undefined,
+                \\"value\\": null,
+              },
+              Object {
+-               \\"items\\": Array [],
++               \\"daysAndHours\\": undefined,
+                \\"name\\": \\"LegalHolidayWorkCount\\",
+                \\"unit\\": \\"daysAndHours\\",
+                \\"value\\": 101,
+              },
+              Object {
+                \\"daysAndHours\\": Object {
+                  \\"days\\": 1,
+                  \\"hours\\": 2,
+                  \\"unit\\": \\"unit\\",
+                },
+-               \\"items\\": Array [],
+                \\"name\\": \\"HolidayWorkCount\\",
+                \\"unit\\": \\"daysAndHours\\",
+                \\"value\\": null,
+              },
+            ],
+            \\"name\\": \\"AbsenceSummary\\",
+          },
+          Object {
+            \\"items\\": Array [
+              Object {
++               \\"closingDate\\": \\"2020-01-04\\",
+                \\"daysAndHours\\": Object {
+                  \\"days\\": 1,
+                  \\"hours\\": 2,
+                  \\"unit\\": \\"unit\\",
+                },
+-               \\"items\\": Array [],
+                \\"name\\": \\"AnnualPaidLeaveDays\\",
+                \\"unit\\": \\"count\\",
+                \\"value\\": 201,
+              },
+            ],
+@@ -164,62 +270,64 @@
+              },
+            ],
+            \\"name\\": \\"AnnualPaidLeaveLeftSummary\\",
+          },
+        ],
+-       \\"summaryEndDate\\": \\"2020-01-15\\",
+-       \\"summaryStartDate\\": \\"2020-01-01\\",
+      },
+      Object {
++       \\"endDate\\": \\"2020-01-31\\",
+        \\"name\\": \\"summary 2\\",
++       \\"startDate\\": \\"2020-01-16\\",
+        \\"summaries\\": Array [
+          Object {
+            \\"items\\": Array [
+              Object {
+-               \\"items\\": Array [],
++               \\"daysAndHours\\": undefined,
+                \\"name\\": \\"ContractualWorkDays\\",
++               \\"unit\\": undefined,
+                \\"value\\": \\"string\\",
+              },
+              Object {
+-               \\"items\\": Array [],
++               \\"daysAndHours\\": undefined,
+                \\"name\\": \\"RealWorkDays\\",
++               \\"unit\\": undefined,
+                \\"value\\": 101,
+              },
+              Object {
+-               \\"items\\": Array [],
++               \\"daysAndHours\\": undefined,
+                \\"name\\": \\"CommuteCount\\",
++               \\"unit\\": undefined,
+                \\"value\\": null,
+              },
+              Object {
+-               \\"items\\": Array [],
++               \\"daysAndHours\\": undefined,
+                \\"name\\": \\"LegalHolidayWorkCount\\",
+                \\"unit\\": \\"daysAndHours\\",
+                \\"value\\": 101,
+              },
+              Object {
+                \\"daysAndHours\\": Object {
+                  \\"days\\": 1,
+                  \\"hours\\": 2,
+                  \\"unit\\": \\"unit\\",
+                },
+-               \\"items\\": Array [],
+                \\"name\\": \\"HolidayWorkCount\\",
+                \\"unit\\": \\"daysAndHours\\",
+                \\"value\\": null,
+              },
+            ],
+            \\"name\\": \\"AbsenceSummary\\",
+          },
+          Object {
+            \\"items\\": Array [
+              Object {
++               \\"closingDate\\": \\"2020-01-04\\",
+                \\"daysAndHours\\": Object {
+                  \\"days\\": 1,
+                  \\"hours\\": 2,
+                  \\"unit\\": \\"unit\\",
+                },
+-               \\"items\\": Array [],
+                \\"name\\": \\"AnnualPaidLeaveDays\\",
+                \\"unit\\": \\"count\\",
+                \\"value\\": 201,
+              },
+            ],
+@@ -260,12 +368,10 @@
+              },
+            ],
+            \\"name\\": \\"AnnualPaidLeaveLeftSummary\\",
+          },
+        ],
+-       \\"summaryEndDate\\": \\"2020-01-31\\",
+-       \\"summaryStartDate\\": \\"2020-01-16\\",
+      },
+    ],
+    \\"employeeCode\\": \\"Employee Code\\",
+    \\"employeeInfoList\\": Array [
+      Object {
+@@ -274,11 +380,10 @@
+        \\"startDate\\": \\"2020-01-01\\",
+        \\"workingTypeName\\": \\"WorkingType Name\\",
+      },
+    ],
+    \\"employeeName\\": \\"Employee Name\\",
+-   \\"employeePhotoUrl\\": \\"employee-photo-url\\",
+    \\"endDate\\": \\"2020-01-31\\",
+    \\"historyList\\": Array [
+      Object {
+        \\"actorId\\": \\"actorId\\",
+        \\"actorName\\": \\"Actor Name\\",
+@@ -293,19 +398,45 @@
+        \\"statusLabel\\": \\"Status Label\\",
+        \\"stepName\\": \\"Step Name\\",
+      },
+    ],
+    \\"id\\": \\"summaryId\\",
++   \\"ownerInfos\\": Array [
++     Object {
++       \\"department\\": Object {
++         \\"name\\": \\"Department Name\\",
++       },
++       \\"employee\\": Object {
++         \\"code\\": \\"Employee Code\\",
++         \\"name\\": \\"Employee Name\\",
++       },
++       \\"endDate\\": \\"2020-01-31\\",
++       \\"startDate\\": \\"2020-01-01\\",
++       \\"workingType\\": Object {
++         \\"name\\": \\"WorkingType Name\\",
++       },
++     },
++   ],
++   \\"recordTotal\\": Object {
++     \\"holidayWorkTime\\": 0,
++     \\"lostTime\\": 30,
++     \\"nightTime\\": 180,
++     \\"overTime\\": 180,
++     \\"realWorkTime\\": 2700,
++     \\"restTime\\": 180,
++     \\"virtualWorkTime\\": 1440,
++   },
+    \\"records\\": Array [
+      Object {
+        \\"allowanceDailyRecordCount\\": null,
+-       \\"commuteCountBackward\\": 1,
+-       \\"commuteCountForward\\": 1,
++       \\"attentions\\": Array [],
++       \\"commuteState\\": \\"BothWays\\",
+        \\"dailyObjectiveEventLog\\": null,
+        \\"dayType\\": \\"Workday\\",
+        \\"endStampTime\\": 1385,
+        \\"endTime\\": 1380,
++       \\"endTimeModified\\": true,
+        \\"event\\": \\"Event\\",
+        \\"holidayWorkTime\\": null,
+        \\"insufficientRestTime\\": null,
+        \\"isHolLegalHoliday\\": false,
+        \\"lostTime\\": 10,
+@@ -319,20 +450,22 @@
+        \\"remarks\\": \\"remarks\\",
+        \\"restTime\\": 60,
+        \\"shift\\": \\"Shift\\",
+        \\"startStampTime\\": 410,
+        \\"startTime\\": 420,
++       \\"startTimeModified\\": true,
+        \\"virtualWorkTime\\": 480,
+      },
+      Object {
+        \\"allowanceDailyRecordCount\\": null,
+-       \\"commuteCountBackward\\": null,
+-       \\"commuteCountForward\\": null,
++       \\"attentions\\": Array [],
++       \\"commuteState\\": \\"Unentered\\",
+        \\"dailyObjectiveEventLog\\": null,
+        \\"dayType\\": \\"Holiday\\",
+        \\"endStampTime\\": 1385,
+        \\"endTime\\": 1380,
++       \\"endTimeModified\\": true,
+        \\"event\\": \\"Event\\",
+        \\"holidayWorkTime\\": null,
+        \\"insufficientRestTime\\": null,
+        \\"isHolLegalHoliday\\": false,
+        \\"lostTime\\": 10,
+@@ -346,20 +479,22 @@
+        \\"remarks\\": \\"remarks\\",
+        \\"restTime\\": 60,
+        \\"shift\\": \\"Shift\\",
+        \\"startStampTime\\": 410,
+        \\"startTime\\": 420,
++       \\"startTimeModified\\": true,
+        \\"virtualWorkTime\\": 480,
+      },
+      Object {
+        \\"allowanceDailyRecordCount\\": null,
+-       \\"commuteCountBackward\\": null,
+-       \\"commuteCountForward\\": null,
++       \\"attentions\\": Array [],
++       \\"commuteState\\": \\"Unentered\\",
+        \\"dailyObjectiveEventLog\\": null,
+        \\"dayType\\": \\"LegalHoliday\\",
+        \\"endStampTime\\": 1385,
+        \\"endTime\\": 1380,
++       \\"endTimeModified\\": true,
+        \\"event\\": \\"Event\\",
+        \\"holidayWorkTime\\": null,
+        \\"insufficientRestTime\\": null,
+        \\"isHolLegalHoliday\\": false,
+        \\"lostTime\\": 10,
+@@ -373,62 +508,80 @@
+        \\"remarks\\": \\"remarks\\",
+        \\"restTime\\": 60,
+        \\"shift\\": \\"Shift\\",
+        \\"startStampTime\\": 410,
+        \\"startTime\\": 420,
++       \\"startTimeModified\\": true,
+        \\"virtualWorkTime\\": 480,
+      },
+    ],
+    \\"startDate\\": \\"2020-01-01\\",
+    \\"status\\": \\"Pending\\",
++   \\"submitter\\": Object {
++     \\"delegator\\": Object {
++       \\"employee\\": Object {
++         \\"name\\": \\"Delegated Employee Name\\",
++       },
++     },
++     \\"employee\\": Object {
++       \\"code\\": \\"Employee Code\\",
++       \\"department\\": Object {
++         \\"name\\": \\"\\",
++       },
++       \\"name\\": \\"Employee Name\\",
++       \\"photoUrl\\": \\"employee-photo-url\\",
++     },
++   },
+    \\"summaries\\": Array [
+      Object {
+        \\"items\\": Array [
+          Object {
+-           \\"items\\": Array [],
++           \\"daysAndHours\\": undefined,
+            \\"name\\": \\"ContractualWorkDays\\",
++           \\"unit\\": undefined,
+            \\"value\\": \\"string\\",
+          },
+          Object {
+-           \\"items\\": Array [],
++           \\"daysAndHours\\": undefined,
+            \\"name\\": \\"RealWorkDays\\",
++           \\"unit\\": undefined,
+            \\"value\\": 101,
+          },
+          Object {
+-           \\"items\\": Array [],
++           \\"daysAndHours\\": undefined,
+            \\"name\\": \\"CommuteCount\\",
++           \\"unit\\": undefined,
+            \\"value\\": null,
+          },
+          Object {
+-           \\"items\\": Array [],
++           \\"daysAndHours\\": undefined,
+            \\"name\\": \\"LegalHolidayWorkCount\\",
+            \\"unit\\": \\"daysAndHours\\",
+            \\"value\\": 101,
+          },
+          Object {
+            \\"daysAndHours\\": Object {
+              \\"days\\": 1,
+              \\"hours\\": 2,
+              \\"unit\\": \\"unit\\",
+            },
+-           \\"items\\": Array [],
+            \\"name\\": \\"HolidayWorkCount\\",
+            \\"unit\\": \\"daysAndHours\\",
+            \\"value\\": null,
+          },
+        ],
+        \\"name\\": \\"AbsenceSummary\\",
+      },
+      Object {
+        \\"items\\": Array [
+          Object {
++           \\"closingDate\\": \\"2020-01-04\\",
+            \\"daysAndHours\\": Object {
+              \\"days\\": 1,
+              \\"hours\\": 2,
+              \\"unit\\": \\"unit\\",
+            },
+-           \\"items\\": Array [],
+            \\"name\\": \\"AnnualPaidLeaveDays\\",
+            \\"unit\\": \\"count\\",
+            \\"value\\": 201,
+          },
+        ],
+@@ -469,7 +622,13 @@
+          },
+        ],
+        \\"name\\": \\"AnnualPaidLeaveLeftSummary\\",
+      },
+    ],
++   \\"useRestReason\\": false,
++   \\"workingType\\": Object {
++     \\"useAllowanceManagement\\": false,
++     \\"useManageCommuteCount\\": true,
++     \\"useObjectivelyEventLog\\": false,
+      \\"useRestReason\\": false,
++   },
+  }"
+`;

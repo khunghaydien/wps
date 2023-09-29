@@ -1,0 +1,12 @@
+@import '../variables.scss';
+
+.ts-psa__resource-planner__filter-info {
+  display: block;
+  background: $color-bg-white;
+  width: 100%;
+  height: auto;
+
+  &__second-row {
+    padding: 0 $container-padding;
+  }
+}

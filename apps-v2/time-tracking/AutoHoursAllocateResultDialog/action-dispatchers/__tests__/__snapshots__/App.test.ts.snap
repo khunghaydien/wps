@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hideErrorNotification() should dispatch to hide error notifications 1`] = `
+Array [
+  Object {
+    "type": "COMMONS/MODULES/TOAST/HIDE",
+  },
+  Object {
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-RESULT-DIALOG/UI/BLOCKING/DISABLE",
+  },
+]
+`;
+
+exports[`initialize() should initialize app 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "anyPermissionItem": true,
+    },
+    "type": "COMMONS/ACCESS_CONTROL/SET_USER_PERMISSION",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+]
+`;
+
+exports[`resetErrorNotification() should dispatch to reset error notifications 1`] = `
+Array [
+  Object {
+    "type": "COMMONS/MODULES/TOAST/RESET",
+  },
+]
+`;
+
+exports[`showErrorNotification() should dispatch to show error notifications 1`] = `
+Array [
+  Object {
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-RESULT-DIALOG/UI/BLOCKING/ENABLE",
+  },
+  Object {
+    "payload": Object {
+      "message": "test",
+      "options": undefined,
+      "variant": "error",
+    },
+    "type": "COMMONS/MODULES/TOAST/SHOW",
+  },
+]
+`;

@@ -1,0 +1,37 @@
+.mobile-app-molecules-commons-navigation {
+  z-index: 4;
+
+  &__container {
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__backward {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    font-weight: 600px;
+    flex-basis: 25%;
+  }
+
+  &__title {
+    overflow: hidden;
+    width: 100%;
+    flex: 1;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex-basis: 50%;
+  }
+
+  &__actions {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    justify-content: flex-end;
+    flex-basis: 25%;
+  }
+}

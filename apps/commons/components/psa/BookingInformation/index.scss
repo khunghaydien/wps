@@ -1,0 +1,120 @@
+@import '../variables';
+
+.ts-psa__booking-information {
+
+  &__header--schedule {
+    padding: 8px 20px;
+    background-color: $color-bg-lighter-blue;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    color: $color-text-grey;
+    border: 1px solid $color-border-light-grey;
+    border-bottom: 0;
+  }
+
+  &__schedule {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid $color-border-light-grey;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  &__field {
+    display: inline-flex;
+    width: 50%;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    & > .label {
+      font-size: 10px;
+      font-weight: bold;
+      line-height: 13px;
+      margin-bottom: 4px;
+      color: $color-text-grey;
+    }
+
+    & > .value {
+      font-size: 13px;
+      color: #666;
+      line-height: 17px;
+    }
+  }
+
+  &__resource-separator {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: 1px solid $color-border-light-grey;
+  }
+
+  &__resource-name {
+    display: inline-grid;
+
+    &__header {
+      font-size: 10px;
+      font-weight: bold;
+      line-height: 13px;
+      margin-bottom: 4px;
+      color: $color-text-grey;
+    }
+  }
+
+  &__resource-photo {
+    & > img {
+      width: 32px;
+      height: 32px;
+      margin-right: 10px;
+      margin-top: 20px;
+      border-radius: 50%;
+      &:hover {
+        cursor: pointer;
+        border: solid 1px $color-bg-grey;
+      }
+    }
+  }
+
+  &__schedule-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+
+  &__trash-icon {
+    margin-left: 50px;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    path {
+      fill: $color-text-blue;
+    }
+  }
+
+  &__show-schedule {
+    display: inline-flex;
+  }
+
+  &__resource-select-input {
+    display: inline-flex;
+    margin-left: 50px;
+
+    &__radio {
+      width: 18px;
+      height: 18px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    &__label {
+      margin-left: 10px;
+      &.is-checked {
+        color: $color-text-blue;
+      }
+    }
+  }
+}

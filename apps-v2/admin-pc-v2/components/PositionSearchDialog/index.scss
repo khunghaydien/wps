@@ -1,0 +1,36 @@
+@import '@apps/commons/styles/wsp.scss';
+
+.admin-pc-v2-position-search-dialog {
+  width: 900px;
+
+  &__body {
+    padding: 20px;
+  }
+
+  &__too-many-results {
+    margin-top: 5px;
+    color: color('error');
+  }
+
+  .is-select-single {
+    .react-grid-HeaderRow {
+      input {
+        display: none;
+      }
+    }
+  }
+
+  .react-grid-Canvas {
+    overflow: auto !important;
+
+    .react-grid-Row {
+      cursor: pointer;
+    }
+  }
+
+  .rdg-last--frozen,
+  .react-grid-HeaderCell {
+    border-right: unset !important;
+    box-shadow: unset !important;
+  }
+}

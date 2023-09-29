@@ -1,0 +1,59 @@
+@import '../variables.scss';
+
+.ts-psa__legend {
+  &__label {
+    margin: $size-xs;
+  }
+  &__divider {
+    margin-top: $size-s;
+    border-top: 1px solid $color-icon-light-grey;
+  }
+  &__toolTip-header {
+    margin-top: $size-s;
+    font-weight: bold;
+  }
+  &__toolTip-body {
+    display: flex;
+    flex-direction: column;
+    min-width: 120px;
+    padding: 5px 5px 5px 0;
+  }
+  &__toolTip-item {
+    display: flex;
+    padding: 3px;
+  }
+  &__toolTip-item-color {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 10%;
+    text-align: center;
+    border: 0.5px solid $color-bg-white;
+    margin-right: 5px;
+
+    &.soft-booked {
+      background: $color-status-soft-booked;
+    }
+    &.confirmed {
+      background: $color-status-confirmed;
+    }
+    &.non-project {
+      background: $color-status-non-project;
+    }
+    &.non-working-day {
+      background: $color-status-non-working-day;
+    }
+    &.available {
+      background: $color-status-available;
+    }
+    &.fully-booked-off-day {
+      background: $color-status-fully-booked-off-day;
+    }
+    &.capacity-exceeded {
+      background: $color-status-capacity-exceeded;
+    }
+    &.out-of-range {
+      background: $color-status-non-working-day;
+    }
+  }
+}

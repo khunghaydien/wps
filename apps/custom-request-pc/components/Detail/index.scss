@@ -1,0 +1,179 @@
+@import '../../../commons/styles/exp/variables/colors';
+.ts-custom-request-detail {
+  &__header {
+    padding: 12px 24px 8px 20px;
+    display: flex;
+  }
+
+  &__navigation {
+    font-size: 13px;
+    line-height: 17px;
+
+    &-back {
+      color: #2782ed;
+      cursor: pointer;
+    }
+
+    &-detail::before {
+      content: '>';
+      margin: 0 10px;
+    }
+  }
+
+  &_title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  &__buttons {
+    margin-left: auto;
+    button {
+      color: #2782ed;
+      width: 72px;
+      border-radius: 0;
+    }
+    button:first-child {
+      border-radius: 4px 0 0 4px;
+    }
+    button:last-child {
+      border-radius: 0 4px 4px 0;
+    }
+  }
+
+  &__delete,
+  &__recall {
+    color: #c23934 !important;
+
+    &.disabled {
+      color: #aaa !important;
+    }
+  }
+
+  hr {
+    margin: 0;
+  }
+
+  .slds-size--6-of-12 {
+    &:first-child {
+      padding-right: 8px;
+    }
+    &:last-child {
+      padding-left: 8px;
+    }
+  }
+
+  &__section {
+    margin: 16px 16px 0;
+    border: 1px #d9d9d9 solid;
+    border-radius: 4px;
+    &-header {
+      background-color: #ebf3f7;
+      height: 41px;
+      line-height: 41px;
+      padding-left: 16px;
+      border-bottom: 1px #d9d9d9 solid;
+    }
+
+    &-body {
+      padding: 16px;
+    }
+
+    .history &-body {
+      padding: 0;
+    }
+
+    .file-attachment-empty &-body {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__attachment-item {
+    margin: 8px;
+    color: #2782ed;
+  }
+
+  .slds-size--3-of-12 {
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__history-header {
+    display: flex;
+    background: #eee;
+    height: 39px;
+    line-height: 39px;
+
+    div {
+      width: 25%;
+      padding: 0 16px;
+    }
+  }
+
+  &__history-row {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px #d9d9d9 solid;
+
+    div {
+      width: 25%;
+      padding: 0 16px;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__body {
+    padding-bottom: 30px;
+  }
+
+  &__label {
+    min-width: 120px;
+    border-radius: 2px;
+    padding: 2px 4px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  &__recalled {
+    background: $ts-status-background-removed;
+  }
+
+  &__pending {
+    background: $ts-status-background-pending-clamined;
+  }
+
+  &__approved {
+    background: $ts-status-background-approved;
+  }
+
+  &__rejected {
+    background: $ts-status-background-rejected;
+  }
+
+  .slds-rich-text {
+    .slds-input {
+      margin: 4px 0;
+      background-color: #ecebea;
+      border: 1px solid #c9c7c5;
+      &.no-value {
+        .rdw-editor-main {
+          height: 30px;
+        }
+      }
+    }
+    .rdw-editor-toolbar {
+      display: none;
+    }
+  }
+}

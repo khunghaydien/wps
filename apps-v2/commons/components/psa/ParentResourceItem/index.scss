@@ -1,0 +1,130 @@
+@import '../variables.scss';
+
+.ts-psa__view-all-resources,
+.ts-psa__resource-planner {
+  display: flex;
+  flex-direction: column;
+
+  &__resource-container {
+    width: 100%;
+  }
+
+  &__resource-list-header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    top: 1px;
+
+    &__resources {
+      display: inline-flex;
+      color: $color-text-grey;
+      height: 48px;
+      align-items: center;
+    }
+
+    &__total-hours {
+      color: $color-text-grey;
+    }
+
+    &__values {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    &__value {
+      color: $color-text-grey;
+      text-align: center;
+      width: 100%;
+      text-transform: uppercase;
+      flex-direction: column;
+      &.js-is-today {
+        background-color: #fff;
+        border: 2px solid #2782ED;
+      }
+
+      &.js-is-sat {
+        color: #0090b9;
+      }
+
+      &.js-is-sun {
+        color: #ff2c35;
+      }
+    }
+  }
+
+  &__resource-list-item-container {
+    border: 1px solid $color-border-light-grey;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+
+  &__resource-list-item__first-column {
+    display: flex;
+    align-items: center;
+  }
+
+  &__resource-list-item__resource-item-info {
+    display: flex;
+    flex-direction: column;
+    &__second-row {
+      word-break: break-all;
+    }
+    &__first-row {
+      word-break: break-word;
+    }
+  }
+
+  &__resource-list-content {
+    width: 100%;
+    padding-bottom: $container-padding;
+  }
+
+  &__resource-assignment-detail:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    .ts-psa__resource-planner__resource-list-item__resources {
+      border-bottom-left-radius: 8px;
+    }
+
+    .ts-psa__resource-planner__resource-list-item__values,
+    .ts-psa__resource-planner__resource-list-item__value:last-child {
+      border-bottom-right-radius: 8px;
+    }
+  }
+
+  &__download-btn,
+  &__refresh-btn {
+    min-width: 32px;
+    height: 32px;
+    margin-top: $container-padding;
+  }
+}
+
+// Group the width calculation styles here for easier update
+.ts-psa__resource-planner__resource-list-item__resources,
+.ts-psa__resource-planner__resource-list-header__resources {
+  width: 25%;
+}
+
+.ts-psa__resource-planner__resource-list-header__values,
+.ts-psa__resource-planner__resource-list-item__values {
+  width: 85%;
+}
+
+div.slds-popover--tooltip,
+div.slds-popover_tooltip {
+  animation: bounceRight 0.5s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+}
+
+@keyframes bounceRight {
+  0% {
+    transform: translateX(10px) scale(0.5);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}

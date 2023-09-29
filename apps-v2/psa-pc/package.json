@@ -1,0 +1,8 @@
+{
+    "name": "psa-pc",
+    "version": "1.0.0",
+    "description": "",
+    "peerDependencies": {
+        "TeamSpirit1": "workspace:^"
+    }
+}

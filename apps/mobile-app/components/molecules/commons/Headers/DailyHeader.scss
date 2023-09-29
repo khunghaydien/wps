@@ -1,0 +1,11 @@
+@import 'mobile-global-imports', 'headers';
+
+.mobile-app-components-molecules-commons-headers-daily-header {
+  &__paging {
+    @include header();
+  }
+
+  &__date-field {
+    @include select-field();
+  }
+}

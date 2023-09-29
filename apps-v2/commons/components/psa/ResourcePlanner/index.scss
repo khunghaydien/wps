@@ -1,0 +1,110 @@
+@import '../../../components/psa/variables.scss';
+@import '../../../components/psa/ParentResourceItem/index.scss';
+
+.ts-psa__resource-planner {
+  &__resource-container {
+    padding: 0 $container-padding 0 $container-padding;
+  }
+
+  &__download-btn {
+    margin-right: 8px;
+  }
+
+  &__download-icon path {
+    fill: $color-btn-primary;
+  }
+
+  &__resource-list-header {
+    &__value {
+
+      &.js-is-today {
+        background-color: #fff;
+      }
+
+      &.js-is-sat {
+        color: #0090b9;
+      }
+
+      &.js-is-sun {
+        color: #ff2c35;
+      }
+    }
+  }
+
+  &__resource-preview-container {
+    padding: 0 $container-padding 0 $container-padding;
+    width: 100%;
+  }
+
+  &__resource-preview-header {
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    color: $color-text-grey;
+    height: 48px;
+    align-items: center;
+  }
+
+  &__resource-assignment-detail
+    .ts-psa__resource-planner__resource-list-item__total-hours {
+    /* Hide the text. */
+    font-size: 0;
+  }
+
+  &__resource-schedule-result-header {
+    min-height: 30px;
+    color: $color-text-grey;
+    padding: $size-xs 0 $size-xs 0;
+  }
+
+  &__download-btn,
+  &__refresh-btn {
+    &:disabled path {
+      fill: $color-border-light-grey-2;
+    }
+  }
+}
+
+.ts-psa__resource-planner__resource-list-header__total-hours,
+.ts-psa__resource-planner__resource-list-header__value {
+  display: inline-flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ts-psa__resource-planner__resource-list-header__total-hours {
+  font-size: $font-size-s;
+}
+
+.ts-psa__resource-planner__resource-list-header__total-hours,
+.ts-psa__resource-planner__resource-list-item__total-hours,
+.ts-psa__resource-planner__resource-list-item__value {
+  width: 100%;
+}
+
+// For fixed header in schedules
+.ts-psa-fixed-header {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+
+  .ts-psa__common-header {
+    position: relative;
+  }
+
+  .ts-psa__resource-planner__filter-info {
+    position: relative;
+    margin-top: 0;
+    box-shadow: 0 1px 0 $color-border-light-grey;
+  }
+
+  .ts-psa__view-all-resources__resource-list-header,
+  .ts-psa__resource-planner__resource-list-header {
+    background-color: $color-container;
+    padding: 0 20px;
+    box-shadow: 0 1px 0 $color-border-light-grey;
+    height: 48px;
+  }
+}

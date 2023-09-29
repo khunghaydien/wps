@@ -1,0 +1,35 @@
+@import 'mobile-global-imports';
+
+.mobile-app-organisms-tracking-item-list {
+  background: #fff;
+
+  &__item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border-bottom: solid 1px #c9c9c9;
+  }
+
+  &__content {
+    padding: 0 12px 0 0;
+    white-space: normal;
+    overflow: hidden;
+    overflow-wrap: break-word;
+  }
+
+  &__code {
+    font-size: 16px;
+    color: #666;
+  }
+
+  &__name {
+    font-size: 16px;
+    color: #000;
+  }
+
+  &__button {
+    width: 32px;
+  }
+}

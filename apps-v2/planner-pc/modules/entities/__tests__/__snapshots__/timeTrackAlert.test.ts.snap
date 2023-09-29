@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@INIT 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() PLANNER-PC/MODULES/ENTITIES/TIMETRACKALERT/FETCH_SUCCESS 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"2019-10-01\\": Array [
++     Object {
++       \\"code\\": \\"TIME_ATT_CONSISTENCY\\",
++       \\"level\\": \\"Warn\\",
++     },
++   ],
++   \\"2019-10-02\\": Array [
++     Object {
++       \\"code\\": \\"TIME_ATT_CONSISTENCY\\",
++       \\"level\\": \\"Warn\\",
++     },
++   ],
++   \\"2019-10-03\\": Array [
++     Object {
++       \\"code\\": \\"TIME_ATT_CONSISTENCY\\",
++       \\"level\\": \\"Warn\\",
++     },
++   ],
++ }"
+`;

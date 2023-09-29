@@ -1,0 +1,65 @@
+.db-tool-record-detail-page {
+  margin: 15px;
+
+  &-btn-row {
+    margin: 5px 0;
+  }
+
+  &-btn-back {
+    margin: 5px 0;
+    border: none;
+    background-color: transparent;
+    color: blue;
+    outline: 0;
+    text-decoration: underline;
+
+    &:hover {
+      background-color: transparent;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+
+    .ts-button__text:focus {
+      outline: 0;
+    }
+  }
+
+  &-object-key {
+    margin: 0 20px 0 5px;
+    font-weight: bold;
+  }
+
+  .ReactTable {
+    max-width: 1000px;
+    margin: 5px 0;
+
+    .rt-thead.-header {
+      background-color: #f9f9f9;
+      font-weight: bold;
+    }
+
+    .rt-tbody {
+      background-color: white;
+
+      .rt-td {
+        white-space: normal !important;
+        word-wrap: break-word;
+
+        & .navigatable-highlight {
+          color: blue;
+          cursor: pointer;
+        }
+
+        &.isEditable-highlight {
+          background-color: lightBlue;
+        }
+
+        &.isModified-highlight {
+          background-color: lightyellow;
+        }
+      }
+    }
+  }
+}

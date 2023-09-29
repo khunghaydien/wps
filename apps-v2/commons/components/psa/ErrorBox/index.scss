@@ -1,0 +1,60 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts_psa__commons-error-message-box {
+  display: flex;
+  border-radius: 4px;
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid $color-form-error;
+
+  &__header {
+    background-color: $color-btn-remove;
+    display: flex;
+    align-items: center;
+    padding: $size-s;
+  }
+
+  &__exclamation-icon {
+    > svg {
+      width: 24px !important;
+      height: 24px !important;
+      margin: 0 $size-xs 0 0;
+
+      path {
+        fill: #fff;
+        transform: scale(0.35);
+      }
+    }
+  }
+
+  &__header-text {
+    color: white;
+    font-weight: lighter;
+    font-size: 16px;
+  }
+
+  &__errors-list {
+    padding: $size-s;
+  }
+
+  &__error-bullet {
+    width: 2px;
+    height: 2px;
+    border-radius: 8px;
+    background-color: $color-btn-remove;
+    margin: 4px;
+    padding: 2px;
+  }
+
+  &__error-text-container {
+    color: $color-btn-remove;
+    display: flex;
+    align-items: center;
+  }
+  &__err-btn {
+    width: fit-content;
+    min-width: 90px;
+    align-self: center;
+    margin-bottom: 12px;
+  }
+}

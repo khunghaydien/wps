@@ -1,0 +1,65 @@
+@import '@commons/styles/wsp';
+@import '@commons/styles/exp/variables/colors';
+
+.ts-expenses-requests__contents__local-amount {
+  margin-right: 10px;
+
+  &__amount {
+    .title {
+      display: flex;
+      justify-content: space-between;
+      .ts-button {
+        margin-bottom: 4px;
+        min-height: auto;
+      }
+    }
+    .key {
+      margin-bottom: 4px;
+    }
+  }
+
+  &__negative-warning {
+    margin-top: 8px;
+    border: 1px solid $ts-attention;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+
+    &-svg {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      overflow: visible !important;
+    }
+
+    &-msg {
+      color: $color-text-header-dark;
+      margin-left: 10px;
+    }
+  }
+
+  input {
+    &.slds-input {
+      color: color('text-1');
+    }
+
+    &.input_disabled {
+      &_right-aligned:disabled {
+        border-color: color('border-1');
+        background-color: color('disabled-1');
+        text-align: right;
+      }
+    }
+
+    &.input {
+      &_right-aligned {
+        border-color: color('border-1');
+        text-align: right;
+      }
+    }
+
+    &.highlight-bg:disabled {
+      background-color: $color-text-highlight;
+    }
+  }
+}

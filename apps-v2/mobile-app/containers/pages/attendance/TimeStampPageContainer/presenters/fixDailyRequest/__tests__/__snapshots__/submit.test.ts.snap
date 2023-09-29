@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`complete() should do { result: false, reason: 'existedInvalidRequest' }. 1`] = `
+Array [
+  Object {
+    "payload": [Error: Error - There are requests that were rejected or canceled during the period.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+]
+`;
+
+exports[`complete() should do { result: false, reason: 'existedSubmittingRequest' }. 1`] = `
+Array [
+  Object {
+    "payload": [Error: Error - There is a request waiting for approval during the period.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+]
+`;
+
+exports[`complete() should do { result: true }. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "message": "Fix daily request is requested",
+      "options": undefined,
+      "variant": "success",
+    },
+    "type": "COMMONS/MODULES/TOAST/SHOW",
+  },
+  Object {
+    "type": "ATTENDANCE/TIME_STAMP/UI/CLEAR_COMMENT",
+  },
+]
+`;
+
+exports[`complete() should do with sending. 1`] = `
+Array [
+  Object {
+    "type": "ATTENDANCE/TIME_STAMP/UI/CLEAR_COMMENT",
+  },
+]
+`;
+
+exports[`error() should do. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`finally() should do. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`start() should do. 1`] = `
+Array [
+  Object {
+    "payload": "1",
+    "type": "START_LOADING",
+  },
+]
+`;

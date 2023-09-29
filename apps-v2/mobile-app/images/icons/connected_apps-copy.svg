@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.134 14.783">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #074b69;
+      }
+    </style>
+  </defs>
+  <g id="icons_utility_connected_apps-copy" data-name="icons/utility/connected_apps-copy" transform="translate(-0.077 -0.615)">
+    <path id="Mask" class="cls-1" d="M4.314,9.6,3.145,15.015c-.062.308.338.523.523.277l6.462-8a.312.312,0,0,0-.215-.523H6.468a.312.312,0,0,1-.277-.462L9.237,1.323a.466.466,0,0,0-.4-.708H3.391a.8.8,0,0,0-.738.523L.1,8.615a.467.467,0,0,0,.431.615H4.037a.288.288,0,0,1,.277.369Z"/>
+  </g>
+</svg>

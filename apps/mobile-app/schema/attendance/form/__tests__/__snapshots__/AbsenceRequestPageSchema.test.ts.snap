@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`return error when data is ''. 1`] = `
+Object {
+  "reason": Array [
+    " Required",
+  ],
+  "startDate": Array [
+    " Required",
+  ],
+}
+`;
+
+exports[`return error when data is empty. 1`] = `
+Object {
+  "reason": Array [
+    " Required",
+  ],
+  "startDate": Array [
+    " Required",
+  ],
+}
+`;
+
+exports[`return error when data is null. 1`] = `
+Object {
+  "reason": Array [
+    " Required",
+  ],
+  "startDate": Array [
+    " Required",
+  ],
+}
+`;

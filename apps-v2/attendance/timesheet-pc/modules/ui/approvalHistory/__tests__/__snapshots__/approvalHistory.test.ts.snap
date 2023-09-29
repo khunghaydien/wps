@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"isOpen\\": false,
++ }"
+`;
+
+exports[`reducer() MODULES/UI/APPROVAL_HISTORY_DIALOG/CLOSE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"isOpen\\": true,
++   \\"isOpen\\": false,
+  }"
+`;
+
+exports[`reducer() MODULES/UI/APPROVAL_HISTORY_DIALOG/OPEN 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"isOpen\\": false,
++   \\"isOpen\\": true,
+  }"
+`;

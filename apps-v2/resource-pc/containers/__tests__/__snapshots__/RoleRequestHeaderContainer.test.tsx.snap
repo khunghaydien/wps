@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoleRequestHeaderContainer Test it renders without crashing 1`] = `
+<div
+  className="ts-psa__common-parent-header"
+>
+  <div
+    className="ts-psa__common-parent-header__first-row"
+  >
+    <div
+      className="ts-psa__common-parent-header--left"
+    >
+      <span
+        className="ts-psa__common-parent-header-title"
+      >
+        Resource Requests
+      </span>
+    </div>
+    <div
+      className="ts-psa__common-parent-header--right"
+    >
+      <button
+        className="ts-psa__common-parent-header__refresh-btn ts-button ts-button--default"
+        data-testid="ts-psa__common-parent-header__refresh-btn"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+        value=""
+      >
+        <div
+          className="ts-button__contents"
+        >
+          <span
+            className="ts-button__text"
+          >
+            <test-file-stub />
+          </span>
+        </div>
+      </button>
+      <button
+        className="ts-psa__common-parent-header__btn-resources ts-button ts-button--default"
+        data-testid="ts-psa__common-parent-header__btn--resources"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+        value=""
+      >
+        <div
+          className="ts-button__contents"
+        >
+          <span
+            className="ts-button__text"
+          >
+            View All Resources
+          </span>
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="ts-psa__common-parent-header__second-row"
+  >
+    <div
+      className="ts-psa__common-filter"
+    >
+      <div
+        className="ts-psa__common-filter__outside"
+      >
+        <button
+          className="ts-psa__common-filter__trigger ts-icon-button"
+          data-testid="ts-psa__common-filter__trigger"
+          onClick={[Function]}
+          type="button"
+        >
+          <test-file-stub
+            aria-hidden="true"
+            style={
+              Object {
+                "fill": "#2782ED",
+              }
+            }
+          />
+        </button>
+        <div
+          className="ts-psa__common-filter__results"
+          data-testid="ts-psa__common-filter__results"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

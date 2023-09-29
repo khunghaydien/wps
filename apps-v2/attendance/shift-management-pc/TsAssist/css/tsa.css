@@ -1,0 +1,1042 @@
+@charset "UTF-8";
+#TsAssistView * {
+  font-family: Meiryo, "メイリオ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "MS PGothic", "MS UI Gothic", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+#TsAssitView {
+  margin: 0px;
+  padding: 0px;
+}
+
+#TsaBaseArea {
+  position: relative;
+  margin-left: 24px;
+  margin-top: 4px;
+}
+
+#TsaTopBar {
+  background-color: #256499;
+  color: white;
+  margin-left: -20px;
+  padding: 2px 32px;
+  margin-top: -10px;
+  margin-right: -10px;
+}
+#TsaTopBar > div {
+  margin: 2px 8px 2px 0px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#TsaOrganization {
+  margin-left: 20px;
+}
+#TsaOrganization span {
+  margin-left: 16px;
+  margin-right: 2px;
+}
+
+#TsaVersion {
+  margin-left: 20px;
+}
+
+.tsa-menu-icon {
+  background-color: #256498 !important;
+  background: url("../img/tsa-images.png") no-repeat;
+  background-position: -0px -57px;
+  width: 18px;
+  height: 18px;
+  display: block;
+  cursor: pointer;
+}
+.tsa-menu-icon:hover {
+  background-color: #4f98d4;
+}
+
+.tsa-top-menu {
+  min-width: 400px;
+  min-height: 140px;
+  margin-top: 12px;
+}
+.tsa-top-menu > div {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.tsa-top-menu > div > div {
+  margin: 8px 0px;
+}
+.tsa-top-menu a {
+  text-decoration: underline;
+  text-underline-position: under;
+  padding: 2px 4px;
+  color: #0022cc;
+}
+.tsa-top-menu a:hover {
+  background-color: #e9f3ff;
+  color: #1818b1;
+}
+
+.tsa-blocking-ui {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 110;
+}
+.tsa-blocking-ui > div {
+  background-color: white;
+}
+.tsa-blocking-ui > div {
+  width: 500px;
+  margin: 200px auto;
+}
+.tsa-blocking-ui > div > div {
+  padding: 10px 0px;
+}
+.tsa-blocking-ui > div > div > div {
+  margin: auto;
+  display: table;
+  text-align: center;
+}
+
+.tsa-modal {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.tsa-modal > div {
+  background-color: white;
+}
+.tsa-modal > div {
+  min-width: 400px;
+  margin: auto;
+  display: table;
+  position: relative;
+}
+.tsa-modal > div > div {
+  padding: 0px;
+}
+.tsa-modal > div > div > div {
+  margin: auto;
+  display: table;
+}
+.tsa-modal > div > div.tsa-caption {
+  margin: 1px;
+  background-color: #e3e3ff;
+  font-size: 11px;
+  padding: 0px 8px;
+  color: #555;
+}
+.tsa-modal > div > div.tsa-quit {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.tsa-modal > div > div.tsa-quit > button {
+  padding: 0px 4px;
+}
+
+.tsa-top button {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 3px 12px;
+  margin-left: 4px;
+  margin-right: 4px;
+  white-space: nowrap;
+  border: none;
+  font-weight: normal;
+  text-decoration: none;
+  background: #108dc5;
+  color: white;
+  cursor: pointer;
+}
+.tsa-top button:hover {
+  background-color: #7acef4;
+}
+.tsa-top button:active {
+  background-color: #d8f1fc;
+  color: #0070d2;
+}
+.tsa-top button.tsa-cancel {
+  background-color: transparent;
+  color: #4A4AFF;
+  cursor: pointer;
+}
+.tsa-top button.tsa-cancel:hover {
+  background-color: #DCE0F7;
+  color: #0000FF;
+}
+.tsa-top button.tsa-mainte {
+  background: #a72a2a;
+  color: #fff;
+}
+.tsa-top button.tsa-mainte:hover {
+  background-color: #cf3f3f;
+}
+.tsa-top button:disabled {
+  background: #c8cdd0;
+  color: #fff;
+  cursor: default;
+  text-decoration: none;
+}
+.tsa-top button:disabled:hover {
+  background: #c8cdd0;
+}
+
+div.tsa-error, div.tsa-error-main {
+  width: 100%;
+  min-height: 30px;
+  margin: 4px auto;
+  vertical-align: middle;
+  border: 1px solid #db8f8f;
+}
+div.tsa-error > div, div.tsa-error-main > div {
+  background-color: #db8f8f;
+  color: white;
+  margin: 2px;
+  padding: 4px 8px 4px 18px;
+  position: relative;
+}
+div.tsa-error > div > div.tsa-error-close, div.tsa-error-main > div > div.tsa-error-close {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background-color: transparent;
+  background: url("../img/tsa-images.png") no-repeat;
+  background-position: -0px -75px;
+  width: 18px;
+  height: 18px;
+  display: block;
+  cursor: pointer;
+}
+div.tsa-error > div > div.tsa-error-close:hover, div.tsa-error-main > div > div.tsa-error-close:hover {
+  background-color: #eca6a6;
+}
+div.tsa-error > div > span, div.tsa-error-main > div > span {
+  margin-left: 18px;
+}
+
+div.tsa-error-field {
+  color: red;
+  font-size: 90% !important;
+  margin-top: 0px !important;
+  margin-left: 24px !important;
+}
+
+div.tsa-panel1 {
+  display: table;
+}
+div.tsa-panel1 > div {
+  margin: 2px 8px 2px 0px;
+  display: inline-block;
+  vertical-align: middle;
+}
+div.tsa-panel1 > div input[type="checkbox"] {
+  vertical-align: middle;
+}
+div.tsa-panel1 > div > .tsa-hint {
+  margin-left: -6px;
+}
+div.tsa-panel1 > div a {
+  text-decoration: underline;
+  text-underline-position: under;
+  padding: 2px 4px;
+  color: #0022cc;
+}
+div.tsa-panel1 > div a:hover {
+  background-color: #e9f3ff;
+  color: #1818b1;
+}
+
+div.tsa-buttons {
+  display: table;
+}
+div.tsa-buttons > div {
+  margin: 0px 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div.tsa-filter-input {
+  display: table;
+  border: 1px solid gray;
+  padding: 0px 2px;
+}
+div.tsa-filter-input > div {
+  margin: 1px 0px;
+  display: inline-block;
+  vertical-align: middle;
+}
+div.tsa-filter-input > div input[type="text"] {
+  border: none;
+  padding: 0px;
+  outline: none;
+}
+div.tsa-filter-input .tsa-loupe {
+  background: url("../img/tsa-images.png") no-repeat;
+  background-position: -1px 0px;
+  cursor: pointer;
+  width: 19px;
+  height: 19px;
+}
+div.tsa-filter-input .tsa-clear {
+  background: url("../img/tsa-images.png") no-repeat;
+  background-position: -1px -22px;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+
+.tsa-hint {
+  background: url("../img/tsa-images.png") no-repeat;
+  background-position: -0px -39px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 2px;
+  margin-left: 2px;
+}
+
+div.tsa-pager1 {
+  display: table;
+  margin: 4px 0px;
+}
+div.tsa-pager1 > div {
+  margin: 2px 8px 2px 0px;
+  display: inline-block;
+  vertical-align: middle;
+}
+div.tsa-pager1 > div button {
+  padding: 2px 8px;
+}
+
+table.tsa-sobjs {
+  border-collapse: collapse;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+table.tsa-sobjs thead {
+  border-top: 1px solid #5180a9;
+  border-left: 1px solid #5180a9;
+}
+table.tsa-sobjs thead th {
+  border-right: 1px solid #5180a9;
+  padding: 0px;
+  text-align: center;
+  background-color: #cce0ef;
+}
+table.tsa-sobjs thead th > div {
+  display: inline-block;
+  margin: 0px 2px;
+}
+table.tsa-sobjs thead th > div > div {
+  display: inline-block;
+}
+table.tsa-sobjs thead.body-empty {
+  border-bottom: 1px solid #5180a9;
+}
+table.tsa-sobjs tbody {
+  border: 1px solid #5180a9;
+}
+table.tsa-sobjs tbody tr {
+  border-bottom: 1px solid #5180a9;
+}
+table.tsa-sobjs tbody tr:hover {
+  background-color: #f4f4ff;
+}
+table.tsa-sobjs tbody tr:last-child {
+  border-bottom: none;
+}
+table.tsa-sobjs tbody tr.tsa-popval {
+  cursor: pointer;
+}
+table.tsa-sobjs tbody tr.tsa-popval:hover {
+  background-color: #e5e5ff;
+}
+table.tsa-sobjs tbody tr.tsa-deleted {
+  background-color: #d2d2d2;
+}
+table.tsa-sobjs tbody tr td {
+  border-right: 1px solid #5180a9;
+  padding: 0px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+table.tsa-sobjs tbody tr td > div {
+  display: inline-block;
+  margin: 0px 2px;
+  vertical-align: middle;
+}
+table.tsa-sobjs tbody tr td > div > div {
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0px 2px;
+}
+table.tsa-sobjs tbody tr td > div > div > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #0022cc;
+}
+table.tsa-sobjs tbody tr td.tsa-popval {
+  cursor: pointer;
+}
+table.tsa-sobjs tbody tr td.tsa-popval:hover {
+  background-color: #e5e5ff;
+}
+table.tsa-sobjs tbody tr td.tsa-edited {
+  cursor: pointer;
+  background-color: #ffff9f;
+}
+table.tsa-sobjs tbody tr td.tsa-edited:hover {
+  background-color: #ffff06;
+}
+table.tsa-sobjs thead {
+  display: block;
+}
+table.tsa-sobjs tbody {
+  display: block;
+  overflow-y: scroll;
+}
+table.tsa-sobjs tbody td > div > div, table.tsa-sobjs tbody td > div input, table.tsa-sobjs tbody td > div select, table.tsa-sobjs tbody td > div textarea {
+  font-size: 11px !important;
+}
+table.tsa-sobjs tbody td > div > div > a, table.tsa-sobjs tbody td > div input > a, table.tsa-sobjs tbody td > div select > a, table.tsa-sobjs tbody td > div textarea > a {
+  font-size: 11px !important;
+}
+table.tsa-sobjs tbody td > div input[type="text"] {
+  padding: 0px 2px;
+}
+
+table.tsa-sobj {
+  border-collapse: collapse;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+table.tsa-sobj thead {
+  border-top: 1px solid #5180a9;
+  border-left: 1px solid #5180a9;
+}
+table.tsa-sobj thead th {
+  border-right: 1px solid #5180a9;
+  padding: 0px;
+  text-align: center;
+  background-color: #cce0ef;
+}
+table.tsa-sobj thead th > div {
+  display: inline-block;
+  margin: 0px 2px;
+}
+table.tsa-sobj thead th > div > div {
+  display: inline-block;
+}
+table.tsa-sobj thead.body-empty {
+  border-bottom: 1px solid #5180a9;
+}
+table.tsa-sobj tbody {
+  border: 1px solid #5180a9;
+}
+table.tsa-sobj tbody tr {
+  border-bottom: 1px solid #5180a9;
+}
+table.tsa-sobj tbody tr:hover {
+  background-color: #f4f4ff;
+}
+table.tsa-sobj tbody tr:last-child {
+  border-bottom: none;
+}
+table.tsa-sobj tbody tr.tsa-popval {
+  cursor: pointer;
+}
+table.tsa-sobj tbody tr.tsa-popval:hover {
+  background-color: #e5e5ff;
+}
+table.tsa-sobj tbody tr.tsa-deleted {
+  background-color: #d2d2d2;
+}
+table.tsa-sobj tbody tr td {
+  border-right: 1px solid #5180a9;
+  padding: 0px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+table.tsa-sobj tbody tr td > div {
+  display: inline-block;
+  margin: 0px 2px;
+  vertical-align: middle;
+}
+table.tsa-sobj tbody tr td > div > div {
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0px 2px;
+}
+table.tsa-sobj tbody tr td > div > div > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #0022cc;
+}
+table.tsa-sobj tbody tr td.tsa-popval {
+  cursor: pointer;
+}
+table.tsa-sobj tbody tr td.tsa-popval:hover {
+  background-color: #e5e5ff;
+}
+table.tsa-sobj tbody tr td.tsa-edited {
+  cursor: pointer;
+  background-color: #ffff9f;
+}
+table.tsa-sobj tbody tr td.tsa-edited:hover {
+  background-color: #ffff06;
+}
+table.tsa-sobj td, table.tsa-sobj th {
+  white-space: nowrap;
+  max-width: 350px;
+}
+table.tsa-sobj div {
+  font-size: 11px !important;
+}
+
+table.tsa-card1 td:first-child {
+  white-space: nowrap;
+  padding-right: 20px;
+}
+table.tsa-card1 td:last-child {
+  white-space: normal;
+  min-width: 200px;
+}
+table.tsa-card1 td:last-child > div {
+  max-width: 440px;
+}
+
+#viewSobject a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #0022cc;
+}
+
+.tsa-tooltip-dialog {
+  position: absolute;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 8px 10px;
+  min-width: 120px;
+  max-width: 300px;
+  color: #fff;
+  font-size: 12px;
+  background: #fff;
+  border: 1px solid #636363;
+  z-index: 105;
+}
+
+.tsa-tool-hint {
+  position: absolute;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 300px;
+  color: #fff;
+  font-size: 12px;
+  background: #256498;
+  z-index: 105;
+}
+
+.tsa-tool-hint-t:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 20%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid #256498;
+}
+
+.tsa-tool-hint-b:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid #256498;
+}
+
+.tsa-tool-hint p {
+  margin: 0;
+  padding: 0;
+}
+
+.tsa-download-option > div {
+  color: #444;
+  padding: 4px 0px;
+}
+.tsa-download-option > div > div {
+  display: inline-block;
+  margin: 0px;
+}
+.tsa-download-option > div > div > button {
+  width: 200px;
+  margin: 2px;
+}
+
+div.separate-bar {
+  margin-left: -10px !important;
+  margin-right: -10px !important;
+}
+div.separate-bar hr {
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+.tsa-popup-menu-items > div {
+  color: #444;
+  padding: 4px 0px;
+}
+.tsa-popup-menu-items > div > div {
+  display: inline-block;
+  margin: 0px;
+}
+.tsa-popup-menu-items > div > div > button {
+  width: 200px;
+  margin: 2px;
+}
+.tsa-popup-menu-items a {
+  text-decoration: underline;
+  text-underline-position: under;
+  padding: 2px 4px;
+  color: #0022cc;
+}
+.tsa-popup-menu-items a:hover {
+  background-color: #e9f3ff;
+  color: #1818b1;
+}
+.tsa-popup-menu-items div.separate-bar {
+  height: 8px;
+}
+
+.tsa-exte-options {
+  margin: 10px 8px;
+}
+.tsa-exte-options .tsa-exte-section-name {
+  font-weight: bold;
+  margin: 0px 0px 0px 10px;
+}
+.tsa-exte-options .tsa-exte-section {
+  min-width: 700px;
+  min-height: 50px;
+  background-color: #eef4fb;
+  margin: 0px 8px 8px 8px;
+  padding: 8px 4px;
+  position: relative;
+}
+.tsa-exte-options .tsa-exte-section > div {
+  margin: 2px 8px;
+  padding-bottom: 2px;
+}
+.tsa-exte-options .tsa-exte-section > div:last-child {
+  padding-bottom: 0px;
+}
+.tsa-exte-options .tsa-exte-section > div input[type="checkbox"] {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.tsa-exte-options .tsa-exte-section > div div {
+  margin: 2px 2px 2px 12px;
+}
+.tsa-exte-options .tsa-exte-section > div div.tsa-exte-note {
+  margin-top: 1px;
+  font-size: 94% !important;
+  display: none;
+  background-color: #feffe7;
+  padding: 2px 4px;
+  margin-left: 20px;
+}
+.tsa-exte-options .tsa-exte-section > div div.tsa-exte-field {
+  margin-top: 1px;
+  font-size: 94% !important;
+  display: none;
+  background-color: #feffe7;
+  padding: 1px 4px;
+  margin-left: 20px;
+}
+.tsa-exte-options .tsa-exte-section > div div.tsa-exte-input {
+  display: inline-block;
+  margin: 0px 0px 0px 26px;
+}
+.tsa-exte-options .tsa-exte-section div.tsa-exte-desc {
+  display: inline-block;
+  margin-left: 1px;
+  background-color: #b1c6d5;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+}
+.tsa-exte-options .tsa-exte-section-dep {
+  min-width: 700px;
+  min-height: 50px;
+  background-color: #eef4fb;
+  margin: 0px 8px 8px 8px;
+  padding: 8px 4px;
+  position: relative;
+  background-color: #c9c9c9;
+}
+.tsa-exte-options .tsa-exte-section-dep > div {
+  margin: 2px 8px;
+  padding-bottom: 2px;
+}
+.tsa-exte-options .tsa-exte-section-dep > div:last-child {
+  padding-bottom: 0px;
+}
+.tsa-exte-options .tsa-exte-section-dep > div input[type="checkbox"] {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.tsa-exte-options .tsa-exte-section-dep > div div {
+  margin: 2px 2px 2px 12px;
+}
+.tsa-exte-options .tsa-exte-section-dep > div div.tsa-exte-note {
+  margin-top: 1px;
+  font-size: 94% !important;
+  display: none;
+  background-color: #feffe7;
+  padding: 2px 4px;
+  margin-left: 20px;
+}
+.tsa-exte-options .tsa-exte-section-dep > div div.tsa-exte-field {
+  margin-top: 1px;
+  font-size: 94% !important;
+  display: none;
+  background-color: #feffe7;
+  padding: 1px 4px;
+  margin-left: 20px;
+}
+.tsa-exte-options .tsa-exte-section-dep > div div.tsa-exte-input {
+  display: inline-block;
+  margin: 0px 0px 0px 26px;
+}
+.tsa-exte-options .tsa-exte-section-dep div.tsa-exte-desc {
+  display: inline-block;
+  margin-left: 1px;
+  background-color: #b1c6d5;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+}
+.tsa-exte-options .tsa-exte-section-test {
+  min-width: 700px;
+  min-height: 50px;
+  background-color: #eef4fb;
+  margin: 0px 8px 8px 8px;
+  padding: 8px 4px;
+  position: relative;
+  background-color: #fdeaea;
+}
+.tsa-exte-options .tsa-exte-section-test > div {
+  margin: 2px 8px;
+  padding-bottom: 2px;
+}
+.tsa-exte-options .tsa-exte-section-test > div:last-child {
+  padding-bottom: 0px;
+}
+.tsa-exte-options .tsa-exte-section-test > div input[type="checkbox"] {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.tsa-exte-options .tsa-exte-section-test > div div {
+  margin: 2px 2px 2px 12px;
+}
+.tsa-exte-options .tsa-exte-section-test > div div.tsa-exte-note {
+  margin-top: 1px;
+  font-size: 94% !important;
+  display: none;
+  background-color: #feffe7;
+  padding: 2px 4px;
+  margin-left: 20px;
+}
+.tsa-exte-options .tsa-exte-section-test > div div.tsa-exte-field {
+  margin-top: 1px;
+  font-size: 94% !important;
+  display: none;
+  background-color: #feffe7;
+  padding: 1px 4px;
+  margin-left: 20px;
+}
+.tsa-exte-options .tsa-exte-section-test > div div.tsa-exte-input {
+  display: inline-block;
+  margin: 0px 0px 0px 26px;
+}
+.tsa-exte-options .tsa-exte-section-test div.tsa-exte-desc {
+  display: inline-block;
+  margin-left: 1px;
+  background-color: #b1c6d5;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+}
+
+.tsa-exte-result {
+  color: #2a2aff;
+}
+
+.tsa-cleaning-area {
+  margin: 10px 8px 16px 8px;
+}
+.tsa-cleaning-area .tsa-ebma-block {
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border: 2px solid #609fff;
+  width: 600px;
+  min-height: 24px;
+  margin-left: 32px;
+  padding: 8px 16px;
+}
+.tsa-cleaning-area input[type="checkbox"] {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.tsa-pankz {
+  margin-bottom: 4px;
+  margin-left: -10px;
+}
+.tsa-pankz > a {
+  color: #015BA7;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tsa-leave-list-title {
+  background-color: #76acc7;
+  display: block;
+  padding: 1px;
+  margin-left: -12px;
+  margin-bottom: 4px;
+}
+.tsa-leave-list-title > div {
+  color: white;
+  font-weight: bold;
+  font-size: 14px !important;
+  margin: 0px 16px;
+}
+
+.tsa-leave-emp-panel {
+  border-collapse: collapse;
+}
+.tsa-leave-emp-panel td {
+  vertical-align: middle;
+  padding-left: 4px;
+}
+.tsa-leave-emp-panel td.tsa-leave-info-item {
+  font-weight: bold;
+  font-size: 90% !important;
+  color: #5a5a5a;
+  padding-right: 16px;
+}
+.tsa-leave-emp-panel td.tsa-leave-info-value {
+  font-size: 110% !important;
+  padding-right: 20px;
+}
+
+table.tsa-leave-table {
+  border-collapse: collapse;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+table.tsa-leave-table thead {
+  border-top: 1px solid #5180a9;
+  border-left: 1px solid #5180a9;
+}
+table.tsa-leave-table thead th {
+  border-right: 1px solid #5180a9;
+  padding: 0px;
+  text-align: center;
+  background-color: #cce0ef;
+}
+table.tsa-leave-table thead th > div {
+  display: inline-block;
+  margin: 0px 2px;
+}
+table.tsa-leave-table thead th > div > div {
+  display: inline-block;
+}
+table.tsa-leave-table thead.body-empty {
+  border-bottom: 1px solid #5180a9;
+}
+table.tsa-leave-table tbody {
+  border: 1px solid #5180a9;
+}
+table.tsa-leave-table tbody tr {
+  border-bottom: 1px solid #5180a9;
+}
+table.tsa-leave-table tbody tr:hover {
+  background-color: #f4f4ff;
+}
+table.tsa-leave-table tbody tr:last-child {
+  border-bottom: none;
+}
+table.tsa-leave-table tbody tr.tsa-popval {
+  cursor: pointer;
+}
+table.tsa-leave-table tbody tr.tsa-popval:hover {
+  background-color: #e5e5ff;
+}
+table.tsa-leave-table tbody tr.tsa-deleted {
+  background-color: #d2d2d2;
+}
+table.tsa-leave-table tbody tr td {
+  border-right: 1px solid #5180a9;
+  padding: 0px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+table.tsa-leave-table tbody tr td > div {
+  display: inline-block;
+  margin: 0px 2px;
+  vertical-align: middle;
+}
+table.tsa-leave-table tbody tr td > div > div {
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0px 2px;
+}
+table.tsa-leave-table tbody tr td > div > div > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #0022cc;
+}
+table.tsa-leave-table tbody tr td.tsa-popval {
+  cursor: pointer;
+}
+table.tsa-leave-table tbody tr td.tsa-popval:hover {
+  background-color: #e5e5ff;
+}
+table.tsa-leave-table tbody tr td.tsa-edited {
+  cursor: pointer;
+  background-color: #ffff9f;
+}
+table.tsa-leave-table tbody tr td.tsa-edited:hover {
+  background-color: #ffff06;
+}
+table.tsa-leave-table thead {
+  display: block;
+}
+table.tsa-leave-table thead th {
+  border-right: 1px solid #acc2d5;
+}
+table.tsa-leave-table thead th > div {
+  overflow: hidden;
+}
+table.tsa-leave-table thead th > div > div {
+  color: #3a3a3a;
+  font-size: 90% !important;
+}
+table.tsa-leave-table thead th:last-child {
+  border-right: 1px solid #5180a9;
+}
+table.tsa-leave-table tbody {
+  display: block;
+  overflow-y: scroll;
+  background-color: white;
+}
+table.tsa-leave-table tbody tr {
+  border-bottom: none;
+}
+table.tsa-leave-table tbody tr:nth-child(odd) {
+  background-color: #f2f6fd;
+}
+table.tsa-leave-table tbody tr:hover {
+  background-color: #dde4f9;
+}
+table.tsa-leave-table tbody tr td {
+  border-right: 1px solid #acc2d5;
+}
+table.tsa-leave-table tbody tr td > div > div, table.tsa-leave-table tbody tr td > div input, table.tsa-leave-table tbody tr td > div select, table.tsa-leave-table tbody tr td > div textarea, table.tsa-leave-table tbody tr td > div a {
+  font-size: 11px !important;
+}
+table.tsa-leave-table tbody tr td > div > div > a, table.tsa-leave-table tbody tr td > div input > a, table.tsa-leave-table tbody tr td > div select > a, table.tsa-leave-table tbody tr td > div textarea > a, table.tsa-leave-table tbody tr td > div a > a {
+  font-size: 11px !important;
+}
+table.tsa-leave-table tbody tr td > div input[type="text"] {
+  padding: 0px 2px;
+}
+table.tsa-leave-table tbody tr td > div > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #0022cc;
+}
+table.tsa-leave-table tbody.monthly-body tr {
+  border-bottom: none;
+}
+table.tsa-leave-table tbody.monthly-body tr.change-ym {
+  border-top: 1px solid #5180a9;
+}
+
+.tsa-leave-manage-edit {
+  background-color: #ecf2fd;
+  padding: 6px;
+}
+.tsa-leave-manage-edit .tsa-leave-field-name {
+  font-weight: bold;
+  vertical-align: middle;
+  color: #5a5a5a;
+  max-width: 170px;
+}
+.tsa-leave-manage-edit .tsa-leave-end-option {
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+}
+.tsa-leave-manage-edit .tsa-leave-end-option select {
+  padding: 0px;
+  font-weight: bold;
+  background-color: #f0f3f9;
+  color: #5a5a5a;
+}
+
+.tsa-leave-contents {
+  padding: 4px 8px;
+  display: table;
+  border: 1px solid #b2d8f0;
+  margin-top: 4px;
+}
+.tsa-leave-contents .tsa-leave-item-name {
+  font-weight: bold;
+  margin-left: 8px;
+  color: #5a5a5a;
+}

@@ -1,0 +1,346 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`convert return value (Absence) 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -13,24 +13,10 @@
+        \\"status\\": \\"Approved\\",
+        \\"statusLabel\\": \\"Status Label\\",
+        \\"stepName\\": \\"Step Name\\",
+      },
+    ],
+-   \\"originalRequest\\": Object {
+-     \\"comment\\": \\"Comment\\",
+-     \\"delegatedEmployeeName\\": \\"Delegated Employee Name Original \\",
+-     \\"employeeName\\": \\"Employee Name Original \\",
+-     \\"employeePhotoUrl\\": \\"employee-photo-url-original\\",
+-     \\"endDate\\": \\"2020-01-04\\",
+-     \\"id\\": \\"0002\\",
+-     \\"reason\\": \\"Reason Original \\",
+-     \\"remarks\\": \\"Remarks \\",
+-     \\"startDate\\": \\"2020-01-03\\",
+-     \\"status\\": \\"Approved\\",
+-     \\"type\\": \\"Absence\\",
+-     \\"typeLabel\\": \\"typeLabel\\",
+-   },
+    \\"request\\": Object {
+      \\"comment\\": \\"Comment\\",
+      \\"delegatedEmployeeName\\": \\"Delegated Employee Name\\",
+      \\"employeeName\\": \\"Employee Name\\",
+      \\"employeePhotoUrl\\": \\"employee-photo-url\\","
+`;
+
+exports[`convert return value (Direct) 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -13,50 +13,20 @@
+        \\"status\\": \\"Approved\\",
+        \\"statusLabel\\": \\"Status Label\\",
+        \\"stepName\\": \\"Step Name\\",
+      },
+    ],
+-   \\"originalRequest\\": Object {
+-     \\"comment\\": \\"Comment\\",
+-     \\"dailyRestList\\": Array [
+-       Object {
+-         \\"restEndTime\\": 32,
+-         \\"restStartTime\\": 31,
+-       },
+-       Object {
+-         \\"restEndTime\\": 34,
+-         \\"restStartTime\\": 33,
+-       },
+-       Object {
+-         \\"restEndTime\\": 36,
+-         \\"restStartTime\\": 35,
+-       },
+-       Object {
+-         \\"restEndTime\\": 38,
+-         \\"restStartTime\\": 37,
+-       },
+-       Object {
+-         \\"restEndTime\\": 40,
+-         \\"restStartTime\\": 39,
+-       },
+-     ],
+-     \\"delegatedEmployeeName\\": \\"Delegated Employee Name Original \\",
+-     \\"employeeName\\": \\"Employee Name Original \\",
+-     \\"employeePhotoUrl\\": \\"employee-photo-url-original\\",
+-     \\"endDate\\": \\"2020-01-04\\",
+-     \\"endTime\\": 22,
+-     \\"id\\": \\"0002\\",
+-     \\"remarks\\": \\"Remarks \\",
+-     \\"startDate\\": \\"2020-01-03\\",
+-     \\"startTime\\": 21,
+-     \\"status\\": \\"Approved\\",
+-     \\"type\\": \\"Direct\\",
+-     \\"typeLabel\\": \\"typeLabel\\",
+-   },
+    \\"request\\": Object {
+      \\"comment\\": \\"Comment\\",
+-     \\"dailyRestList\\": Array [
++     \\"delegatedEmployeeName\\": \\"Delegated Employee Name\\",
++     \\"employeeName\\": \\"Employee Name\\",
++     \\"employeePhotoUrl\\": \\"employee-photo-url\\",
++     \\"endDate\\": \\"2020-01-02\\",
++     \\"endTime\\": 12,
++     \\"id\\": \\"0001\\",
++     \\"remarks\\": \\"Remarks \\",
++     \\"restTimes\\": Array [
+        Object {
+          \\"restEndTime\\": 32,
+          \\"restStartTime\\": 31,
+        },
+        Object {
+@@ -74,17 +44,10 @@
+        Object {
+          \\"restEndTime\\": 40,
+          \\"restStartTime\\": 39,
+        },
+      ],
+-     \\"delegatedEmployeeName\\": \\"Delegated Employee Name\\",
+-     \\"employeeName\\": \\"Employee Name\\",
+-     \\"employeePhotoUrl\\": \\"employee-photo-url\\",
+-     \\"endDate\\": \\"2020-01-02\\",
+-     \\"endTime\\": 12,
+-     \\"id\\": \\"0001\\",
+-     \\"remarks\\": \\"Remarks \\",
+      \\"startDate\\": \\"2020-01-01\\",
+      \\"startTime\\": 11,
+      \\"status\\": \\"Approved\\",
+      \\"type\\": \\"Direct\\",
+      \\"typeLabel\\": \\"typeLabel\\","
+`;
+
+exports[`convert return value (EarlyLeave) 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -13,29 +13,10 @@
+        \\"status\\": \\"Approved\\",
+        \\"statusLabel\\": \\"Status Label\\",
+        \\"stepName\\": \\"Step Name\\",
+      },
+    ],
+-   \\"originalRequest\\": Object {
+-     \\"comment\\": \\"Comment\\",
+-     \\"delegatedEmployeeName\\": \\"Delegated Employee Name Original \\",
+-     \\"employeeName\\": \\"Employee Name Original \\",
+-     \\"employeePhotoUrl\\": \\"employee-photo-url-original\\",
+-     \\"endDate\\": \\"2020-01-04\\",
+-     \\"endTime\\": 12,
+-     \\"id\\": \\"0002\\",
+-     \\"personalReason\\": true,
+-     \\"reason\\": \\"Reason Original\\",
+-     \\"reasonId\\": \\"\\",
+-     \\"remarks\\": \\"Remarks \\",
+-     \\"startDate\\": \\"2020-01-03\\",
+-     \\"startTime\\": 11,
+-     \\"status\\": \\"Approved\\",
+-     \\"type\\": \\"EarlyLeave\\",
+-     \\"typeLabel\\": \\"typeLabel\\",
+-     \\"useManageEarlyLeavePersonalReason\\": true,
+-   },
+    \\"request\\": Object {
+      \\"comment\\": \\"Comment\\",
+      \\"delegatedEmployeeName\\": \\"Delegated Employee Name\\",
+      \\"employeeName\\": \\"Employee Name\\",
+      \\"employeePhotoUrl\\": \\"employee-photo-url\\","
+`;
+
+exports[`convert return value (EarlyStartWork) 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -13,25 +13,10 @@
+        \\"status\\": \\"Approved\\",
+        \\"statusLabel\\": \\"Status Label\\",
+        \\"stepName\\": \\"Step Name\\",
+      },
+    ],
+-   \\"originalRequest\\": Object {
+-     \\"comment\\": \\"Comment\\",
+-     \\"delegatedEmployeeName\\": \\"Delegated Employee Name Original \\",
+-     \\"employeeName\\": \\"Employee Name Original \\",
+-     \\"employeePhotoUrl\\": \\"employee-photo-url-original\\",
+-     \\"endDate\\": \\"2020-01-04\\",
+-     \\"endTime\\": 12,
+-     \\"id\\": \\"0002\\",
+-     \\"remarks\\": \\"Remarks \\",
+-     \\"startDate\\": \\"2020-01-03\\",
+-     \\"startTime\\": 11,
+-     \\"status\\": \\"Approved\\",
+-     \\"type\\": \\"EarlyStartWork\\",
+-     \\"typeLabel\\": \\"typeLabel\\",
+-   },
+    \\"request\\": Object {
+      \\"comment\\": \\"Comment\\",
+      \\"delegatedEmployeeName\\": \\"Delegated Employee Name\\",
+      \\"employeeName\\": \\"Employee Name\\",
+      \\"employeePhotoUrl\\": \\"employee-photo-url\\","
+`;
+
+exports[`convert return value (HolidayWork) 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`convert return value (LateArrival) 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -13,29 +13,10 @@
+        \\"status\\": \\"Approved\\",
+        \\"statusLabel\\": \\"Status Label\\",
+        \\"stepName\\": \\"Step Name\\",
+      },
+    ],
+-   \\"originalRequest\\": Object {
+-     \\"comment\\": \\"Comment\\",
+-     \\"delegatedEmployeeName\\": \\"Delegated Employee Name Original \\",
+-     \\"employeeName\\": \\"Employee Name Original \\",
+-     \\"employeePhotoUrl\\": \\"employee-photo-url-original\\",
+-     \\"endDate\\": \\"2020-01-04\\",
+-     \\"endTime\\": 12,
+-     \\"id\\": \\"0002\\",
+-     \\"personalReason\\": true,
+-     \\"reason\\": \\"Reason Origin\\",
+-     \\"reasonId\\": \\"\\",
+-     \\"remarks\\": \\"Remarks \\",
+-     \\"startDate\\": \\"2020-01-03\\",
+-     \\"startTime\\": 11,
+-     \\"status\\": \\"Approved\\",
+-     \\"type\\": \\"LateArrival\\",
+-     \\"typeLabel\\": \\"typeLabel\\",
+-     \\"useManageLateArrivalPersonalReason\\": true,
+-   },
+    \\"request\\": Object {
+      \\"comment\\": \\"Comment\\",
+      \\"delegatedEmployeeName\\": \\"Delegated Employee Name\\",
+      \\"employeeName\\": \\"Employee Name\\",
+      \\"employeePhotoUrl\\": \\"employee-photo-url\\","
+`;
+
+exports[`convert return value (Leave) 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`convert return value (None) 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -13,21 +13,10 @@
+        \\"status\\": \\"Approved\\",
+        \\"statusLabel\\": \\"Status Label\\",
+        \\"stepName\\": \\"Step Name\\",
+      },
+    ],
+-   \\"originalRequest\\": Object {
+-     \\"comment\\": \\"Comment\\",
+-     \\"delegatedEmployeeName\\": \\"Delegated Employee Name Original \\",
+-     \\"employeeName\\": \\"Employee Name Original \\",
+-     \\"employeePhotoUrl\\": \\"employee-photo-url-original\\",
+-     \\"id\\": \\"0002\\",
+-     \\"remarks\\": \\"Remarks \\",
+-     \\"status\\": \\"Approved\\",
+-     \\"type\\": \\"\\",
+-     \\"typeLabel\\": \\"typeLabel\\",
+-   },
+    \\"request\\": Object {
+      \\"comment\\": \\"Comment\\",
+      \\"delegatedEmployeeName\\": \\"Delegated Employee Name\\",
+      \\"employeeName\\": \\"Employee Name\\",
+      \\"employeePhotoUrl\\": \\"employee-photo-url\\","
+`;
+
+exports[`convert return value (OvertimeWork) 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -13,25 +13,10 @@
+        \\"status\\": \\"Approved\\",
+        \\"statusLabel\\": \\"Status Label\\",
+        \\"stepName\\": \\"Step Name\\",
+      },
+    ],
+-   \\"originalRequest\\": Object {
+-     \\"comment\\": \\"Comment\\",
+-     \\"delegatedEmployeeName\\": \\"Delegated Employee Name Original \\",
+-     \\"employeeName\\": \\"Employee Name Original \\",
+-     \\"employeePhotoUrl\\": \\"employee-photo-url-original\\",
+-     \\"endDate\\": \\"2020-01-04\\",
+-     \\"endTime\\": 12,
+-     \\"id\\": \\"0002\\",
+-     \\"remarks\\": \\"Remarks \\",
+-     \\"startDate\\": \\"2020-01-03\\",
+-     \\"startTime\\": 11,
+-     \\"status\\": \\"Approved\\",
+-     \\"type\\": \\"OvertimeWork\\",
+-     \\"typeLabel\\": \\"typeLabel\\",
+-   },
+    \\"request\\": Object {
+      \\"comment\\": \\"Comment\\",
+      \\"delegatedEmployeeName\\": \\"Delegated Employee Name\\",
+      \\"employeeName\\": \\"Employee Name\\",
+      \\"employeePhotoUrl\\": \\"employee-photo-url\\","
+`;
+
+exports[`convert return value (Pattern) 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -13,42 +13,10 @@
+        \\"status\\": \\"Approved\\",
+        \\"statusLabel\\": \\"Status Label\\",
+        \\"stepName\\": \\"Step Name\\",
+      },
+    ],
+-   \\"originalRequest\\": Object {
+-     \\"attPatternName\\": \\"AttPatternNameOrigin\\",
+-     \\"comment\\": \\"Comment\\",
+-     \\"delegatedEmployeeName\\": \\"Delegated Employee Name Original \\",
+-     \\"employeeName\\": \\"Employee Name Original \\",
+-     \\"employeePhotoUrl\\": \\"employee-photo-url-original\\",
+-     \\"endDate\\": \\"2020-01-04\\",
+-     \\"endTime\\": 22,
+-     \\"flexEndTime\\": 400,
+-     \\"flexStartTime\\": 300,
+-     \\"id\\": \\"0002\\",
+-     \\"isDirectInputTimeRequest\\": false,
+-     \\"remarks\\": \\"Remarks \\",
+-     \\"requestDayType\\": null,
+-     \\"rest1EndTime\\": 32,
+-     \\"rest1StartTime\\": 31,
+-     \\"rest2EndTime\\": 34,
+-     \\"rest2StartTime\\": 33,
+-     \\"rest3EndTime\\": 36,
+-     \\"rest3StartTime\\": 35,
+-     \\"rest4EndTime\\": 38,
+-     \\"rest4StartTime\\": 37,
+-     \\"rest5EndTime\\": 40,
+-     \\"rest5StartTime\\": 39,
+-     \\"startDate\\": \\"2020-01-03\\",
+-     \\"startTime\\": 21,
+-     \\"status\\": \\"Approved\\",
+-     \\"type\\": \\"Pattern\\",
+-     \\"typeLabel\\": \\"typeLabel\\",
+-     \\"withoutCoreTime\\": false,
+-     \\"workSystem\\": \\"workSystemOriginal\\",
+-   },
+    \\"request\\": Object {
+      \\"attPatternName\\": \\"AttPatternName\\",
+      \\"comment\\": \\"Comment\\",
+      \\"delegatedEmployeeName\\": \\"Delegated Employee Name\\",
+      \\"employeeName\\": \\"Employee Name\\","
+`;

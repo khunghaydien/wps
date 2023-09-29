@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"overtime\\": null,
++   \\"request\\": null,
++   \\"workSystem\\": null,
++ }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/REQUESTS/YEARLY-REQUEST/CLEAR 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"overtime\\": null,
+-   \\"request\\": Object {
+-     \\"approver01Name\\": \\"approver01\\",
+-     \\"changedOvertimeHoursLimit\\": 60,
+-     \\"id\\": \\"a012v000033TVRXAA4\\",
+-     \\"isForReapply\\": false,
+-     \\"measure\\": \\"measure\\",
+-     \\"originalRequestId\\": \\"a0huefhue8RXAA4\\",
+-     \\"reason\\": \\"reason\\",
+-     \\"requestType\\": \\"Monthly\\",
+-     \\"status\\": \\"Approved\\",
+-   },
++   \\"request\\": null,
+    \\"workSystem\\": null,
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/REQUESTS/YEARLY-REQUEST/INIT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"overtime\\": null,
+-   \\"request\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"approver01\\",
++     \\"changedOvertimeHoursLimit\\": 60,
++     \\"id\\": \\"a012v000033TVRXAA4\\",
++     \\"isForReapply\\": false,
++     \\"measure\\": \\"measure\\",
++     \\"originalRequestId\\": \\"a0huefhue8RXAA4\\",
++     \\"reason\\": \\"reason\\",
++     \\"requestType\\": \\"Monthly\\",
++     \\"status\\": \\"Approved\\",
++   },
+    \\"workSystem\\": null,
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/REQUESTS/YEARLY-REQUEST/SETOVERTIME 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"overtime\\": null,
++   \\"overtime\\": Object {
++     \\"extensionCount\\": 6,
++     \\"specialExtensionCountLimit\\": 60,
++     \\"specialYearlyOvertimeHours\\": 60,
++     \\"specialYearlyOvertimeHours1YearAgo\\": 60,
++     \\"specialYearlyOvertimeLimit\\": 60,
++     \\"yearlyOvertimeHours\\": 120,
++     \\"yearlyOvertimeHours1YearAgo\\": 120,
++     \\"yearlyOvertimeLimit\\": 60,
++   },
+    \\"request\\": null,
+-   \\"workSystem\\": null,
++   \\"workSystem\\": \\"ModifiedYearly\\",
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/REQUESTS/YEARLY-REQUEST/UPDATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -5,11 +5,11 @@
+      \\"changedOvertimeHoursLimit\\": 60,
+      \\"id\\": \\"a012v000033TVRXAA4\\",
+      \\"isForReapply\\": false,
+      \\"measure\\": \\"measure\\",
+      \\"originalRequestId\\": \\"a0huefhue8RXAA4\\",
+-     \\"reason\\": \\"reason\\",
++     \\"reason\\": \\"reason2\\",
+      \\"requestType\\": \\"Monthly\\",
+      \\"status\\": \\"Approved\\",
+    },
+    \\"workSystem\\": null,
+  }"
+`;

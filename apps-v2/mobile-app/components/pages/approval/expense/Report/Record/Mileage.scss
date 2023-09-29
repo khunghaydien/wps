@@ -1,0 +1,85 @@
+@import 'mobile-global-imports';
+@import '../../../../../../../commons/styles/wsp';
+@import '../../../../../../../commons/styles/exp/variables/colors';
+
+.mobile-app-pages-approval-page-expense-record-mileage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &-open-map-container {
+    display: flex;
+    align-items: center;
+
+    &-label {
+      color: $color-bg-primary;
+    }
+
+    &-icon {
+      & path {
+        fill: $color-bg-primary;
+      }
+
+      margin-right: 8px !important;
+      margin-bottom: 4px;
+    }
+  }
+
+  &-destination-list {
+    width: 100%;
+    position: relative;
+    list-style: none;
+    z-index: 1;
+    padding-bottom: 16px;
+
+    &-item {
+      padding-bottom: 16px;
+      position: relative;
+      display: flex;
+
+      &::before {
+        content: '';
+        position: absolute;
+        border-left: 2px solid $color-text-secondary-gray;
+        z-index: 1;
+        top: 15px;
+        height: calc(100% - 10px);
+        left: 4.5px;
+      }
+
+      &-indicator {
+        border-radius: 50%;
+        border: 2px solid $color-text-secondary-gray;
+        min-width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        background: rgb(248, 248, 248);
+        margin-top: 5px;
+      }
+
+      &:last-child {
+        padding-bottom: 0;
+        &::before {
+          content: none;
+        }
+      }
+
+      &:last-child &-indicator {
+        border: 1px solid $ts-warning;
+        background-color: $ts-warning;
+
+        &::before {
+          content: none !important;
+        }
+      }
+    }
+  }
+
+  &-details {
+    margin-top: 8px;
+
+    &-item-body-highlight {
+      font-style: italic;
+    }
+  }
+}

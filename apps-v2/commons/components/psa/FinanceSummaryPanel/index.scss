@@ -1,0 +1,43 @@
+@import '../variables';
+
+.ts-psa__summary-panel {
+  flex-direction: column;
+  background-color: $color-bg-heading;
+  padding: $container-padding;
+  border: 1px solid $color-border-light-grey;
+  margin-top: 10px;
+  margin-bottom: $size-base * 5;
+  border-radius: $size-base;
+
+  &__field {
+    display: inline-flex;
+    width: $size-base * 75;
+    flex-direction: column;
+    > p {
+      white-space: pre-wrap;
+    }
+  }
+  &__label {
+    font-size: $font-size-s;
+    line-height: 13px;
+    margin-bottom: $size-base;
+    color: $color-font-grey;
+  }
+
+  &__value {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    &.default {
+      color: $color-text-dark-grey;
+    }
+
+    &.is-danger {
+      color: #ff2c35;
+    }
+
+    &.is-success {
+      color: #51b460;
+    }
+  }
+}

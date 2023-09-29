@@ -1,0 +1,52 @@
+@import '../../../../../../commons/components/psa/variables.scss';
+
+.ts-psa__activity-header {
+  position: sticky;
+  top: $header-height;
+  right: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  background-color: $color-btn-active;
+  color: $color-text-grey;
+  border: none;
+  padding: 8px;
+
+  > div:nth-child(1) {
+    padding-left: 31px;
+  }
+
+  @media screen and (max-width: 1280px) {
+    width: 1030px;
+  }
+
+  &-expand-all {
+    border: none;
+    background: none;
+    color: $color-btn-save;
+    outline: none;
+    padding: 5px;
+  }
+  &-info {
+    padding-left: 15px;
+  }
+  &-separator {
+    padding: 5px;
+    opacity: 0.5;
+  }
+  .slds-col > span {
+    display: inline-flex;
+    min-height: 29px;
+    align-items: center;
+  }
+}
+.ts-psa__activity-header-status {
+  padding-left: 20px;
+}
+
+.ts-psa__activity-header .slds-col.slds-size--1-of-12:nth-child(3) {
+  min-width: 100px;
+}
+.ts-psa__activity-header .slds-col.slds-size--1-of-12:nth-child(4) {
+  min-width: 100px;
+}

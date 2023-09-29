@@ -1,0 +1,7 @@
+.commons-fields-att-time-3-digit-hour-field {
+  width: 6.25em;
+
+  &::placeholder {
+    color: $color-text-weak;
+  }
+}

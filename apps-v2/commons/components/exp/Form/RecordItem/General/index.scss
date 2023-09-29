@@ -1,0 +1,145 @@
+@import '../../../../../styles/wsp';
+@import '../../../../../styles/exp/variables/colors';
+
+.ts-tax-auto {
+  position: relative;
+  flex: 1;
+  margin-top: 26px;
+
+  &-non-editable {
+    -webkit-flex: 0;
+    flex: 0;
+  }
+
+  button {
+    position: absolute;
+    z-index: 1;
+    width: 28px;
+    height: 28px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    border: none;
+    border-radius: 50%;
+
+    &:hover {
+      background-color: $ts-button-default-focus;
+    }
+
+    &:active {
+      background-color: $color-bg-gray;
+    }
+
+    & svg {
+      margin: 0 auto;
+    }
+  }
+
+  button:focus {
+    outline: none;
+  }
+}
+
+.ts-expenses-taxRateArea {
+  padding-right: 10px;
+
+  .key {
+    margin-bottom: 4px;
+  }
+
+  // When in FA read only mode or when tax rate is read only Text Field
+  .ts-text-field-container {
+    &--textValue {
+      margin-top: 10px;
+      display: inline-block;
+    }
+  }
+  .highlight-bg {
+    background-color: $color-text-highlight;
+  }
+
+  .ts-select {
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    padding-right: 30px !important;
+  }
+}
+
+.ts-expenses-amount-without-tax {
+  margin-left: 10px;
+
+  & input {
+    text-align: right;
+    padding: 5px 10px;
+  }
+  .title {
+    display: flex;
+    justify-content: space-between;
+    .ts-button {
+      margin-bottom: 4px;
+      min-height: auto;
+    }
+  }
+
+  &__negative-warning {
+    margin-top: 8px;
+    border: 1px solid $ts-attention;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+
+    &-svg {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      overflow: visible !important;
+    }
+
+    &-msg {
+      color: $color-text-header-dark;
+      margin-left: 10px;
+    }
+  }
+}
+
+.ts-expenses-gst-vat-area {
+  display: flex;
+  margin-left: 10px;
+  margin-bottom: 20px;
+
+  &__tax-area {
+    display: block;
+    min-width: 90%;
+    flex: 1;
+  }
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    .ts-button {
+      margin-bottom: 4px;
+      min-height: auto;
+    }
+  }
+
+  input {
+    &.input_disabled {
+      &_right-aligned:disabled {
+        border-color: color('border-1');
+        background-color: color('disabled-1');
+        text-align: right;
+      }
+    }
+
+    &.input {
+      &_right-aligned {
+        border-color: color('border-1');
+        text-align: right;
+      }
+    }
+
+    &.highlight-bg:disabled {
+      background-color: $color-text-highlight;
+    }
+  }
+}

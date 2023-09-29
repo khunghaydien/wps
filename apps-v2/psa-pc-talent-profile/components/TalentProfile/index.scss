@@ -1,0 +1,93 @@
+@import '../../../commons/components/psa/variables.scss';
+
+.ts-psa__talent-profile-management {
+  background-color: #fff;
+  height: fit-content;
+  min-height: 100vh;
+  width: 840px;
+  margin: 0 auto;
+  padding-top: 16px;
+  &__profile {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0;
+  }
+  &__profile-picture {
+    margin: 8px 20px 8px auto;
+    width: 120px;
+    height: 100px;
+    &__img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 1px solid #ddd;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+  }
+  &__profile-label {
+    height: 120px;
+    width: 100%;
+    color: #333;
+    padding: 24px 20px;
+    &__header {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+    }
+    &__subheader {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin-top: 8px;
+    }
+  }
+  &__actions {
+    width: 100%;
+    height: 56px;
+    background: linear-gradient(0deg, #eee, #eee), #f4f6f9;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 16px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &__discard-btn {
+    width: 80px;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0 4px;
+    color: $color-text-blue;
+  }
+  &__save-btn {
+    width: 80px;
+    height: 32px;
+    background: $color-btn-primary;
+    border-radius: 4px;
+    margin: 0 16px 0 4px;
+    color: #fff;
+    &:hover {
+      background-color: $color-action-btn-primary-hover;
+      box-shadow: none;
+    }
+    &:focus {
+      background-color: $color-btn-primary;
+      box-shadow: none;
+    }
+  }
+}
+.ts-container {
+  background-color: #fff;
+}

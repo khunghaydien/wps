@@ -1,0 +1,33 @@
+.ts-exp-icon {
+  min-width: 8px;
+  min-height: 8px;
+
+  @mixin size($s) {
+    width: $s;
+    height: $s;
+  }
+
+  &.x-small {
+    @include size(8px);
+  }
+
+  &.small {
+    @include size(12px);
+  }
+
+  &.medium {
+    @include size(16px);
+  }
+
+  &.large {
+    @include size(32px);
+  }
+
+  &.x-large {
+    @include size(64px);
+  }
+
+  path {
+    fill: currentColor;
+  }
+}

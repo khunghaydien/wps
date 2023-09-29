@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@INIT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"selectedHistoryId\\": \\"\\",
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/DETAIL/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"selectedIndex\\": 0,
++   \\"selectedHistoryId\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/DETAIL/SET_SELECTED_HISTORY_ID 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"selectedHistoryId\\": \\"\\",
++   \\"selectedHistoryId\\": 0,
+  }"
+`;

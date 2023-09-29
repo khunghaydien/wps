@@ -1,0 +1,36 @@
+@import '../../../../../../commons/components/psa/variables.scss';
+
+.ts-psa__project-form__operation {
+  .ts-psa__form-field {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .ts-psa__form-field__label {
+    width: 25%;
+  }
+
+  .ts-text-field.slds-input {
+    width: 75%;
+  }
+
+  .ts-psa__date-field__container,
+  .react-autosuggest__container {
+    width: 75%;
+  }
+
+  &__extended-item-container {
+    width: 100%;
+  }
+
+  .react-datepicker-wrapper,
+  .react-datepicker__input-container,
+  .commons-fields-date-field {
+    width: 100%;
+  }
+
+  &__errText{
+    width: 75%;
+    margin-left: 25%;
+  }
+}

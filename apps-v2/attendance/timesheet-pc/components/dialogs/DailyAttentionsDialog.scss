@@ -1,0 +1,45 @@
+.timesheet-pc-dialogs-daily-attentions-dialog {
+  &.commons-dialog-frame {
+    width: 40vw;
+    min-width: 400px;
+  }
+
+  .commons-dialog-frame__header-title {
+    color: $color-text-modest;
+  }
+
+  .commons-dialog-frame__contents {
+    padding: 15px;
+  }
+
+  &__message {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin: 10px 0;
+  }
+
+  &__icon {
+    align-self: center;
+    padding: 0 10px;
+  }
+
+  &__icon > img {
+    width: 35px;
+    max-width: 35px;
+    height: 35px;
+  }
+
+  &__content {
+    align-self: center;
+    padding-left: 10px;
+    white-space: pre-wrap;
+  }
+
+  &__list {
+    padding-left: 1em;
+    list-style-type: disc;
+  }
+}

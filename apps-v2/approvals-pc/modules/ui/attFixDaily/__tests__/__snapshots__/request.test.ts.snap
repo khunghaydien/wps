@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected undefined but received null."
+`;
+
+exports[`reducer() APPROVALS-PC/UI/ATT-DAILY-FIX/REQUEST/SET 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected null but received object."
+`;
+
+exports[`reducer() APPROVALS-PC/UI/ATT-DAILY-FIX/REQUEST/UNSET 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected object but received null."
+`;

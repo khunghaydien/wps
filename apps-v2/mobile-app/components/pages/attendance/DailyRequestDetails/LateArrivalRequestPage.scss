@@ -1,0 +1,31 @@
+.mobile-app-pages-attendance-daily-request-details-late-arrival-request-page {
+  &__item {
+    margin-bottom: 16px;
+  }
+
+  &__date {
+    width: 100%;
+  }
+
+  &__start-time {
+    width: 164px;
+  }
+
+  &__end-time {
+    width: 164px;
+  }
+
+  &__reason {
+    width: 100%;
+  }
+
+  &__remarks {
+    width: 100%;
+  }
+
+  &__personal-reason {
+    width: 100%;
+    color: #074b69;
+    font-size: 13px;
+  }
+}

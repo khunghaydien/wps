@@ -1,0 +1,272 @@
+@import '@apps/commons/components/psa/variables.scss';
+
+.ts-psa__resource-planner__resource-list-item {
+  display: flex;
+  min-height: 55px;
+  width: 100%;
+  box-shadow: inset 0 -1px 0 0 $color-border-light-grey;
+  border-bottom: solid 1px $color-border-light-grey;
+  cursor: auto;
+
+  &__name-onclick {
+    word-break: break-all;
+  }
+
+  &__resources,
+  &__show-assignment-details,
+  &__value,
+  &__total-hours {
+    transition: background-color 0.2s ease-in;
+  }
+
+  &.is-selectable {
+    cursor: pointer;
+    border-radius: 8px;
+
+    .ts-psa__resource-planner__resource-list-item__resources {
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
+
+    .ts-psa__resource-planner__resource-list-item__values,
+    .ts-psa__resource-planner__resource-list-item__background:last-child {
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+
+    &:hover {
+      .ts-psa__resource-planner__resource-list-item__resources,
+      .ts-psa__resource-planner__resource-list-item__show-assignment-details,
+      .ts-psa__resource-planner__resource-list-item__value,
+      .ts-psa__resource-planner__resource-list-item__total-hours {
+        background-color: #f3f2f2 !important;
+      }
+    }
+
+    &.js-is-expanded {
+      .ts-psa__resource-planner__resource-list-item__resources {
+        border-bottom-left-radius: 0;
+      }
+
+      .ts-psa__resource-planner__resource-list-item__values,
+      .ts-psa__resource-planner__resource-list-item__value:last-child {
+        border-bottom-right-radius: 0;
+      }
+    }
+  }
+
+  &__resource-dept {
+    display: block;
+    color: $color-sidebar-link-text;
+    font-weight: normal;
+    font-size: $font-size-s;
+  }
+
+  &__resources {
+    display: flex;
+    padding: $size-xs $container-padding;
+    align-items: center;
+    background: $color-bg-white;
+
+    &__photo {
+      display: inline-block;
+      min-width: 32px;
+      margin-right: $size-m;
+
+      > img {
+        height: 32px;
+        border-radius: 50%;
+        &:hover {
+          cursor: pointer;
+          border: solid 1px $color-bg-grey;
+        }
+      }
+    }
+
+    &__info {
+      display: inline-flex;
+      flex-direction: column;
+    }
+
+    &__name {
+      color: $color-text-dark-grey;
+      font-weight: bold;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 180px;
+      transition: all 0.3s ease-in;
+
+      &:hover {
+        white-space: break-spaces;
+        width: auto;
+      }
+    }
+
+    &__position {
+      color: $color-text-grey;
+    }
+
+    &.is-selected {
+      background-color: $color-bg-light-blue;
+    }
+    &.is-scheduled {
+      background-color: $color-bg-grey;
+    }
+    &.is-non-daily-hour {
+      background-color: $color-bg-white;
+    }
+  }
+
+  &__total-hours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color-bg-white;
+    text-align: center;
+    border-left: 1px solid $color-border-light-grey;
+
+    &.is-scheduled {
+      background-color: $color-bg-grey;
+    }
+  }
+
+  &__values {
+    display: flex;
+    background: $color-bg-white;
+  }
+
+  &__show-assignment-details {
+    display: flex;
+    padding: 0 $size-m-padding 0 0;
+
+    &-btn {
+      position: relative;
+      outline: none;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+
+      &.is-disabled{
+        background-color: darkgray;
+      }
+
+      &::before {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        content: '';
+        opacity: 0;
+        transition-duration: 0.15s;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        background: none;
+        border-radius: 50%;
+        box-sizing: border-box;
+        transform: scale(0);
+        transition-property: transform, opacity;
+        width: 32px;
+        height: 32px;
+      }
+
+      &:hover::before {
+        background-color: $color-btn-hover;
+        border: none;
+        box-shadow: none;
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    &.is-expanded {
+      background: $color-bg-light-blue;
+
+      .ts-psa__resource-planner__resource-list-item__show-assignment-details-btn {
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  &__background {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid $color-border-light-grey;
+    background-color: $color-bg-white;
+    &.is-today {
+      border-left: 2px solid #2782ED;
+    }
+  }
+
+  &__value {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    &.is-available {
+      background-color: $color-bg-green;
+    }
+    &.is-overBooked {
+      background-color: $color-bg-red;
+    }
+    &.is-notAvailable {
+      background-color: $color-bg-yellow;
+    }
+    &.is-outOfRange {
+      background-color: $color-bg-grey;
+    }
+  }
+
+  &__booked-hour-value {
+    display: inline-flex;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: $color-bg-blue;
+    color: $color-font-dark-grey;
+
+    &.is-notAvailable {
+      background-color: $color-bg-grey !important;
+    }
+
+    &.is-softBooked {
+      background-color: $color-bg-blue;
+    }
+
+    &.is-nonProject {
+      background-color: $color-bg-black;
+      color: #fff;
+    }
+
+    &.is-confirmed {
+      background-color: $color-bg-dark-green;
+    }
+  }
+
+  &__custom-booked-hour-value {
+    display: inline-flex;
+    width: 100%;
+    height: calc(100% - 4px);
+    margin: 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: $color-bg-white;
+    color: $color-font-dark-grey;
+    border-left: 1px solid $color-border-light-grey;
+    &.is-edited {
+      color: $color-font-blue;
+    }
+  }
+}
+

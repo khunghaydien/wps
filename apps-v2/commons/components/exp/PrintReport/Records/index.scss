@@ -1,0 +1,176 @@
+.expenses-pc-print-print-report-records {
+  margin-bottom: 100px;
+
+  &-extended-item {
+    margin-top: 9px;
+
+    &__row {
+      margin-bottom: 9px;
+
+      div:only-child {
+        padding-right: 10px;
+      }
+    }
+
+    &__label {
+      margin-bottom: 4px;
+      font-size: 8px;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    &__value {
+      font-size: 11px;
+      min-height: 14px;
+      word-wrap: break-word;
+    }
+
+    &__code {
+      font-size: 8px;
+      word-wrap: break-word;
+    }
+  }
+
+  &__merchant {
+    &-label {
+      margin-bottom: 4px;
+      font-size: 8px;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+
+  &__record-header {
+    width: 100%;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 10px;
+    display: inline-flex;
+    margin-bottom: 4px;
+
+    & > div {
+      padding-right: 15px;
+    }
+
+    .amount {
+      text-align: right;
+    }
+    .tax,
+    .excl-tax {
+      justify-content: flex-end;
+    }
+  }
+
+  &__record-content {
+    width: 100%;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: left;
+
+    &-row {
+      min-height: 25px;
+      margin: 10px 0;
+
+      &-indentation {
+        padding: 0 4px;
+      }
+
+      & > div {
+        padding-right: 15px;
+      }
+
+      hr {
+        border-color: #c4c4c4 !important;
+      }
+    }
+
+    .date,
+    .expense-type,
+    .detail {
+      vertical-align: top;
+      display: inline-flex;
+    }
+
+    .expense-type {
+      word-break: break-word;
+    }
+
+    .tax,
+    .excl-tax {
+      display: inline-grid;
+      vertical-align: top;
+      text-align: right;
+      overflow-wrap: anywhere;
+    }
+
+    .tax-type {
+      font-size: 9px;
+      text-align: right;
+    }
+
+    .cost-center {
+      display: inline-grid;
+      vertical-align: top;
+
+      &-code {
+        font-size: 8px;
+        line-height: 13px;
+      }
+    }
+
+    .detail {
+      vertical-align: top;
+      white-space: pre-wrap;
+    }
+  }
+
+  .date {
+    width: 15%;
+  }
+
+  .expense-type {
+    width: 15%;
+
+    &.without-cost-center {
+      width: 20%;
+    }
+  }
+
+  .tax,
+  .excl-tax {
+    width: 10%;
+
+    &.without-cost-center {
+      width: 15%;
+    }
+  }
+
+  .amount {
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+
+    &-foreign-currency {
+      font-size: 8px;
+      text-align: right;
+    }
+
+    &.without-cost-center {
+      width: 15%;
+    }
+  }
+
+  .cost-center {
+    width: 20%;
+    padding-left: 35px;
+  }
+
+  .detail {
+    width: 20%;
+    text-align: justify;
+
+    &.without-cost-center {
+      padding-left: 10px;
+    }
+  }
+}

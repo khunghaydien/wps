@@ -1,0 +1,89 @@
+.db-tool-object-page {
+  margin: 15px;
+
+  &-row-section {
+    margin: 5px 0;
+  }
+
+  &-panel-section {
+    .ts-collapse__children {
+      padding: 10px 0 10px;
+    }
+
+    .ts-collapse__header-anchor {
+      background-color: #ebeef3;
+      text-decoration: none;
+
+      &:hover,
+      &:active {
+        color: #52525f;
+      }
+    }
+  }
+
+  &-sql-section {
+    margin-right: 20px;
+
+    .sql-text-area {
+      min-height: 180px;
+      max-height: 450px;
+    }
+  }
+
+  textarea {
+    max-width: 100%;
+  }
+
+  &__checkbox {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  &__data-grid {
+    width: 100%;
+
+    .rt-thead.-header {
+      background-color: #f9f9f9;
+      font-weight: bold;
+    }
+
+    .rt-tbody {
+      max-height: 450px;
+      background-color: white;
+      overflow-y: auto;
+    }
+
+    .reference-highlight {
+      background-color: lightgreen;
+    }
+
+    .custom-reference-highlight {
+      background-color: lightcoral;
+    }
+  }
+
+  .react-grid-checkbox-label {
+    display: none;
+  }
+
+  .react-grid-checkbox {
+    position: relative;
+    opacity: 1;
+  }
+
+  &-btn--table-search {
+    margin-right: 10px;
+  }
+
+  &__attribute-list {
+    padding: 10px 20px;
+    background-color: white;
+  }
+  .commons-fields-dropdown-searchable__search-options {
+    max-height: 500px;
+  }
+
+  .select-option__single-value {
+    top: 15px;
+  }
+}

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() APPROVALS-PC/UI/ATT-LEGAL-AGREEMENT/LIST/SELECTED_IDS/CLEAR 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array [
+-   \\"0001\\",
+- ]
++ Array []"
+`;
+
+exports[`reducer() APPROVALS-PC/UI/ATT-LEGAL-AGREEMENT/LIST/SELECTED_IDS/REMOVE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Array [
+-   \\"0001\\",
+    \\"0002\\",
+    \\"0003\\",
+  ]"
+`;
+
+exports[`reducer() APPROVALS-PC/UI/ATT-LEGAL-AGREEMENT/LIST/SELECTED_IDS/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   \\"0001\\",
++   \\"0002\\",
++ ]"
+`;

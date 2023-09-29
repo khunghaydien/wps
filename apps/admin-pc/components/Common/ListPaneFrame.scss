@@ -1,0 +1,26 @@
+.admin-pc-common-list-pane-frame {
+  display: flex;
+  overflow: auto;
+  height: 100%;
+  flex-direction: column;
+  background: $color-bg-pane-second;
+
+  &__header {
+    height: 34px;
+    padding: 0 20px;
+    background: $color-bg-pane-header-second;
+    color: $color-text-pane-header-second;
+  }
+
+  &__header-title {
+    font-size: $font-size-x-large;
+    line-height: 34px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 12px 20px;
+  }
+}

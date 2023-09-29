@@ -1,0 +1,30 @@
+.admin-pc-common-employee-list {
+  padding-top: 16px;
+
+  &__emp-photo {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+  }
+
+  &__list-description-container {
+    padding: 0 0 8px;
+  }
+
+  &__list-description {
+    font-size: $font-size-x-large;
+  }
+
+  &__message-container {
+    padding: 16px 32px;
+  }
+
+  &__message-icon {
+    margin: 0 16px 0 0;
+  }
+
+  &__message-text {
+    font-size: $font-size-x-large;
+    font-weight: bold;
+  }
+}

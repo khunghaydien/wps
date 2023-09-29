@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"request\\": null,
++ }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/EARLY_START_WORK_REQUEST/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"request\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"canDirectInputTimeRequest\\": false,
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"\\",
++     \\"endTime\\": 540,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isDirectInputTimeRequest\\": false,
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveDetailCode\\": null,
++     \\"leaveDetailName\\": null,
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": null,
++     \\"patternName\\": null,
++     \\"patternRestTimes\\": Array [],
++     \\"personalReason\\": false,
++     \\"reason\\": \\"\\",
++     \\"reasonCode\\": \\"\\",
++     \\"reasonId\\": \\"\\",
++     \\"reasonName\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestDayType\\": null,
++     \\"requestTypeCode\\": \\"EarlyStartWork\\",
++     \\"requestTypeName\\": \\"早朝勤務\\",
++     \\"requestableDayType\\": \\"Holiday\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2020-04-06\\",
++     \\"startTime\\": null,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"EarlyStartWork\\",
++     \\"useEarlyLeaveReason\\": false,
++     \\"useLateArrivalReason\\": false,
++     \\"useManagePersonalReason\\": false,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": null,
++   },
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/EARLY_START_WORK_REQUEST/UPDATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -19,11 +19,11 @@
+      \\"originalRequestId\\": \\"\\",
+      \\"patternCode\\": null,
+      \\"patternName\\": null,
+      \\"patternRestTimes\\": Array [],
+      \\"personalReason\\": false,
+-     \\"reason\\": \\"\\",
++     \\"reason\\": \\"testですtestです。\\",
+      \\"reasonCode\\": \\"\\",
+      \\"reasonId\\": \\"\\",
+      \\"reasonName\\": \\"\\",
+      \\"remarks\\": \\"\\",
+      \\"requestDayType\\": null,"
+`;

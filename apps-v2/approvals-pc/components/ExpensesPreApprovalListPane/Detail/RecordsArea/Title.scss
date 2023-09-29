@@ -1,0 +1,39 @@
+@import '../../../../../commons/styles/wsp';
+
+.approvals-pc-expenses-pre-approval-pane-detail__records-area__title {
+  display: flex;
+  height: 38px;
+  align-items: center;
+  padding: 20px 20px;
+  padding-left: 36px;
+  border-top: 1px solid color('border-2');
+  border-bottom: 1px solid color('border-2');
+  background-color: color('background-2');
+
+  & > div {
+    display: inline-block;
+    color: color('text-2');
+  }
+
+  &-date {
+    width: 120px;
+    padding-right: 20px;
+  }
+
+  &-exp-type,
+  &-cost-center {
+    width: 20%;
+
+    &-expand {
+      width: 40%;
+    }
+  }
+
+  &-tax,
+  &-excl-tax,
+  &-amount {
+    width: 15%;
+    margin-left: auto;
+    text-align: right;
+  }
+}

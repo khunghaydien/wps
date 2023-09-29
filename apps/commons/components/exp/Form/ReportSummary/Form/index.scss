@@ -1,0 +1,140 @@
+@import '../../../../../styles/wsp';
+
+.ts-expenses__form-report-summary__form {
+  .ts-bottom {
+    color: color('exp-primary');
+  }
+
+  // section divider
+  > .slds-grid {
+    padding-top: 28px;
+    margin: 0;
+  }
+
+  > .slds-grid:not(:last-child) {
+    padding-bottom: 28px;
+    border-bottom: 1px solid color('border-2');
+  }
+
+  > .extended-item-row {
+    padding-bottom: 0 !important;
+    border-bottom: none !important;
+  }
+  > .extended-item-row:not(:first-child) {
+    padding-top: 0 !important;
+  }
+
+  .slds-col {
+    padding-right: 10px;
+    position: relative;
+  }
+
+  &__job-input,
+  &__cost-center-input,
+  &__vendor-input {
+    // This is needed because ts-input overides all input fields
+    input {
+      height: unset;
+      padding: unset;
+      border: unset;
+    }
+  }
+
+  &__vendor__btn-clear,
+  &__ei-lookup-input-btn--clear,
+  &__cost-center-input-btn--clear {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    background-color: #afadab;
+
+    svg {
+      width: 8px !important;
+      height: 8px !important;
+      fill: #fff !important;
+    }
+  }
+
+  &__vendor-btn--select,
+  &__ei-lookup-btn--search,
+  &__cost-center-input-btn--search {
+    height: 32px;
+    padding: 1px 27px;
+
+    &:disabled,
+    &:disabled:hover {
+      border-color: color('border-1');
+      background-color: color('background-1');
+      color: color('border-1');
+    }
+  }
+
+  &__vendor-btn--viewDetail {
+    &,
+    &:focus {
+      padding: 0;
+      border: 0;
+      background: transparent !important;
+      box-shadow: none;
+    }
+
+    &:hover {
+      padding: 0;
+      border: 0;
+      background: transparent !important;
+      box-shadow: none;
+      text-decoration: underline;
+    }
+  }
+  &__vendor--jct-number {
+    text-align: right;
+    margin-bottom: 0;
+    line-height: 28px;
+    min-height: 28px;
+    margin-right: -10px;
+  }
+
+  .date-input {
+    height: 28px;
+    padding: 3px 4px;
+    margin-left: 6px;
+    border: 1px solid #d0d0d0;
+  }
+
+  .date-input-label {
+    margin-left: 6px;
+    color: color('exp-primary');
+  }
+
+  .react-datepicker__input-container {
+    width: 100%;
+  }
+
+  &__report-type-label-area {
+    display: -webkit-box;
+  }
+
+  &__report-type-info {
+    height: 13px;
+    padding-left: 10px;
+    vertical-align: middle;
+  }
+
+  &__report-type-input[disabled] {
+    pointer-events: none;
+  }
+
+  .ts-ext-item-spacing {
+    min-height: 60px;
+    margin-bottom: 10px;
+  }
+
+  &__select:focus {
+    outline: 0;
+    border-color: #1589ee;
+    box-shadow: 0 0 3px #0070d2;
+  }
+}

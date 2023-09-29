@@ -1,0 +1,3928 @@
+@import "compass";
+
+@charset "UTF-8";
+/*----------------------------------------------------------------------------*/
+$imgDir                 : '../img/';
+// $moneyFont              : "lucida grande",tahoma,verdana,arial,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+
+$fontSize               : 12px;
+//$moneyFont              : 'MS PGothic','Hiragino Kaku Gothic Pro',Meiryo,sans-serif !important;
+$moneyFont              : Meiryo, "メイリオ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif;
+//$moneyFont              : "lucida grande",tahoma,verdana,arial,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+$moneyFontSize          : 12px !important;
+$sectionBarFontSize     : 13px !important;
+$titleFontSize          : 18px !important;
+
+// 共通ヘッダ部
+$topPhotoWidth          : 66px; // 写真エリア幅
+$topRightButtonWidth    : 69px; // ボタンエリア幅
+
+$headerBgColor          : #256499;  // 共通ヘッダ部の背景色
+$headerStrColor1        : #c2d4e2;  // 共通ヘッダ部の項目名称の文字色
+$headerStrColor2        : #ffffff;    // 共通ヘッダ部の項目値の文字色
+
+/* メイン画面 */
+$borderColor1           : #728EA5;  // メインテーブルの外側の罫線の色
+$borderColor2           : #f0f0e1;  // メインテーブルのボディ部の横罫線の色
+$headerColor1           : #2E5E7E;  // メインテーブルヘッダ・フッタ部の文字色
+$headerColor2           : #333;     // メインテーブルボディ部の文字色
+
+// 共通ヘッダ高さ
+$formHeaderHeight       : 36px;
+
+$sectionBgColor         : #cddbe8;
+$formLabelBgColor       : #e3ebf1;
+$formLabelBgColor2      : lighten(#e3ebf1, 10%);
+//$formLabelColor         : #3b7aa4;
+$formLabelColor         : darken(#3b7aa4, 10%);
+/*----------------------------------------------------------------------------*/
+#tsfArea *, .upload-area * {
+//    font-family         : "lucida grande",tahoma,verdana,arial,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+    font-family         : "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif;
+    font-size           : $fontSize;
+}
+#tsfArea {
+    margin              : 0px 0px 0px -10px;
+    text-align          : center;
+    ul {
+        list-style          : none;
+        -webkit-padding-start: 10px;
+        li {
+            float               : left;
+            margin-right        : 8px;
+        }
+    }
+    div, td, input, textarea, select {
+        box-sizing          : border-box;
+        -moz-box-sizing     : border-box;
+        -webkit-box-sizing  : border-box;
+    }
+//    a:hover {
+//        text-decoration : none;
+//    }
+}
+.ts-popup-win {
+    margin      : 0px !important;
+}
+.inputyen {
+    font-family     : Meiryo,'MS PGothic',sans-serif,'Hiragino Kaku Gothic Pro' !important;
+    font-size       : 96% !important;
+}
+/*----------------------------------------------------------------------------*/
+.ui-widget, .ui-widget input, .ui-widget select {
+    font-family         : "lucida grande",tahoma,verdana,arial,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+    font-size           : $fontSize;
+}
+.ui-spinner input {
+    text-align          : center;
+}
+.ui-spinner-input:focus {
+    outline: none;
+}
+.noTitleDialog .ui-dialog-titlebar {
+    display: none;
+}
+
+div.dijitDialog:not(#dialogCalendar) div, div.dijitDialog:not(#dialogCalendar) td,
+div.dijitDialog:not(#dialogCalendar) input, div.dijitDialog:not(#dialogCalendar) select {
+    font-family  : "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif;
+}
+
+/*----------------------------------------------------------------------------*/
+.png-sprite, .png-add, .png-add_on, .png-del, .png-del_on, .png-down, .png-down_on, .png-edit, .png-edit_on, .png-icon05, .png-icon08, .png-iconx2, .png-iconx3, .png-iconx7, .png-ido, .png-ido_on, .png-up, .png-up_on {
+    background: url('#{$imgDir}png-sb1456c62f2.png') no-repeat;
+    width       : 18px !important;
+    height      : 18px;
+    border      : none;
+}
+.png-add     {  background-position: 0 -198px; &:hover { background-position: 0 -180px; } }
+.png-add_on  {  background-position: 0 -180px; }
+.png-del     {  background-position: 0 -396px; &:hover { background-position: 0 -378px; }}
+.png-del_on  {  background-position: 0 -378px; }
+.png-up      {  background-position: 0 -360px; &:hover { background-position: 0 -306px; }}
+.png-up_on   {  background-position: 0 -306px; }
+.png-down    {  background-position: 0 -342px; &:hover { background-position: 0 -270px; }}
+.png-down_on {  background-position: 0 -270px; }
+.png-edit    {  background-position: 0 -324px; &:hover { background-position: 0 -288px; }}
+.png-edit_on {  background-position: 0 -288px; }
+.png-ido     {  background-position: 0 -252px; &:hover { background-position: 0 -234px; }}
+.png-ido_on  {  background-position: 0 -234px; }
+.png-icon05  {  background-position: 0 -108px; }
+.png-icon08  {  background-position: 0 -216px; }
+.png-iconx2  {  background-position: 0  -90px; }
+.png-iconx3  {  background-position: 0  -54px; }
+.png-iconx7  {  background-position: 0 -162px; }
+
+.wt-f01, .wt-f02, .wt-f03, .wt-f04, .wt-f06, .wt-f07 {
+    background: url('#{$imgDir}png-sb1456c62f2.png') no-repeat;
+    width       : 18px !important;
+    height      : 18px;
+    border      : none;
+    margin      : auto;
+}
+.wt-f01 {  background-position: 0 -72px;  } // 出勤
+.wt-f02 {  background-position: 0 -36px;  } // 警告
+.wt-f03 {  background-position: 0 -18px;  } // 欠勤
+.wt-f04 {  background-position: 0 -126px; } // 代休
+.wt-f06 {  background-position: 0 0;      } // 有休
+.wt-f07 {  background-position: 0 -144px; } // 注意
+
+/*
+.wt-f01, .wt-f02, .wt-f03, .wt-f04, .wt-f05, .wt-f06 {
+    background: url('#{$imgDir}v4-wt.png') no-repeat;
+    width       : 31px;
+    height      : 20px;
+    border      : none;
+}
+.wt-f01 {  background-position: 0 -60px;  } // 出勤
+.wt-f02 {  background-position: 0 -20px;  } // 警告
+.wt-f03 {  background-position: 0 -100px; } // 欠勤
+.wt-f04 {  background-position: 0 0;      } // 代休
+.wt-f06 {  background-position: 0 -80px;  } // 有休
+.wt-f07 {  background-position: 0 -40px;  } // 注意
+*/
+.png-sprite, .png-sts001, .png-sts001_off, .png-sts002, .png-sts002_off, .png-sts003, .png-sts003_off, .png-sts004, .png-sts004_off, .png-sts005, .png-sts005_off, .png-sts006, .png-sts006_off, .png-sts007, .png-sts007_off, .png-sts008, .png-sts008_off, .png-sts009, .png-sts009_off, .png-sts010, .png-sts010_off, .png-sts011, .png-sts011_off, .png-sts012, .png-sts012_off {
+    background  : url('#{$imgDir}png-s2a2b9e7d9d.png') no-repeat;
+    width       : 24px;
+    height      : 24px;
+}
+.png-sts001     {  background-position: 0 -96px;  }
+.png-sts001_off {  background-position: 0 -120px; }
+.png-sts002     {  background-position: 0 -72px;  }
+.png-sts002_off {  background-position: 0 -48px;  }
+.png-sts003     {  background-position: 0 -24px;  }
+.png-sts003_off {  background-position: 0 0;      }
+.png-sts004     {  background-position: 0 -408px; }
+.png-sts004_off {  background-position: 0 -384px; }
+.png-sts005     {  background-position: 0 -216px; }
+.png-sts005_off {  background-position: 0 -168px; }
+.png-sts006     {  background-position: 0 -360px; }
+.png-sts006_off {  background-position: 0 -336px; }
+.png-sts007     {  background-position: 0 -192px; }
+.png-sts007_off {  background-position: 0 -144px; }
+.png-sts008     {  background-position: 0 -288px; }
+.png-sts008_off {  background-position: 0 -312px; }
+.png-sts009     {  background-position: 0 -240px; }
+.png-sts009_off {  background-position: 0 -264px; }
+.png-sts010     {  background-position: 0 -456px; }
+.png-sts010_off {  background-position: 0 -432px; }
+.png-sts011     {  background-position: 0 -504px; }
+.png-sts011_off {  background-position: 0 -480px; }
+.png-sts012     {  background-position: 0 -528px; }
+.png-sts012_off {  background-position: 0 -552px; }
+
+.info-bl {
+    background  : url('#{$imgDir}infobl.png') no-repeat;
+    width       : 13px;
+    height      : 18px;
+}
+.info-an {
+    background  : url('#{$imgDir}infoan.gif') no-repeat;
+    width       : 13px;
+    height      : 18px;
+}
+
+/*----------------------------------------------------------------------------*/
+.ts-status-img {
+    background  : url('#{$imgDir}p_images.png') no-repeat;
+    width       : 16px;
+    height      : 14px;
+    border      : none;
+    display     : table;
+    margin-left : auto;
+    margin-right: auto;
+}
+.ts-s-wait   , .ts-ap_day_up, .ts-ap_tab_up {
+    background-position: -17px -215px;
+}
+.ts-s-approve, .ts-ap_day_ok, .ts-ap_tab_ok {
+    background-position: -34px -215px;
+}
+.ts-s-reject , .ts-ap_day_ng, .ts-ap_tab_ng {
+    background-position: -51px -215px;
+}
+.ts-s-remove , .ts-ap_day_rm, .ts-ap_tab_rm {
+    background-position: -68px -215px;
+}
+.ts-ap_tab_ne {
+    background-position: 0px -215px;
+}
+.ts-ap_tab_up, .ts-ap_tab_ok, .ts-ap_tab_ng, .ts-ap_tab_rm, .ts-ap_tab_ne {
+    float           : left;
+    margin-right    : 2px;
+}
+.ts-s-paid {
+    background-position: -102px -215px;
+}
+.ts-s-none {
+    background-position: -85px -215px;
+}
+.ts-s-cancel-wait {
+    background-position: -119px -215px;
+}
+.ts-s-cancel-approve {
+    background-position: -136px -215px;
+}
+.ts-s-journal {
+    background-position: -153px -215px;
+}
+.ts-spice {
+    background  : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: -42px -111px;
+    width       : 20px;
+    height      : 20px;
+}
+
+.ts-external {
+    background  : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: -168px -111px;
+    width       : 20px;
+    height      : 20px;
+    border      : none;
+    &:focus {
+        outline : none;
+    }
+}
+
+.pp_ico_receipt, .pp_ico_receipt_a, .pp_ico_receipt_r, .pp_ico_card1, .pp_ico_card2, .pp_ico_bill {
+    background  : url('#{$imgDir}p_images.png') no-repeat;
+    width       : 20px;
+    height      : 20px;
+    border      : none;
+}
+.pp_ico_receipt {
+    background-position: 0px -111px;
+    cursor      : pointer;
+    &:focus {
+        outline : none;
+    }
+}
+
+.pp_ico_receipt_a {
+    background-position: -21px -111px;
+    cursor      : pointer;
+    &:focus {
+        outline : none;
+    }
+}
+
+.pp_ico_receipt_r {
+    background-position: -147px -111px;
+    cursor      : pointer;
+    &:focus {
+        outline : none;
+    }
+}
+
+.pp_ico_receipt_u {
+    background  : url('#{$imgDir}UBER_API_Badges_1x_22px.png') no-repeat;
+    width       : 22px;
+    height      : 22px;
+    border      : none;
+    cursor      : pointer;
+    &:focus {
+        outline : none;
+    }
+}
+
+.pp_ico_card1 {
+    background-position: -84px -111px;
+    cursor      : default;
+}
+
+.pp_ico_card2 {
+    background-position: -105px -111px;
+    cursor      : default;
+}
+
+.pp_ico_bill {
+    background-position: -63px -111px;
+    cursor      : default;
+}
+
+.pp_ico_trepo {
+    background   : url('#{$imgDir}time-repo.png') no-repeat;
+    width        : 13px;
+    height       : 14px;
+    margin-top   : 2px;
+    border       : none;
+    cursor       : pointer;
+}
+.pp_ico_ng {
+    background  : url('#{$imgDir}ngicon.png') no-repeat;
+    width       : 14px;
+    height      : 14px;
+    border      : none;
+}
+.pp_ico_jtb_ticket {
+    background  : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: -434px -111px;
+    width       : 22px;
+    height      : 22px;
+    border      : none;
+}
+.pp_ico_ban {
+    background  : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: -187px -215px;
+    width       : 14px;
+    height      : 14px;
+}
+.pp_ico_jtb_ticket {
+    background  : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: -434px -111px;
+    width       : 22px;
+    height      : 22px;
+    border      : none;
+}
+.busywait {
+    background-image: url('#{$imgDir}arrow45-003.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width : 120px;
+    height: 32px;
+}
+/*----------------------------------------------------------------------------*/
+/* 共通ヘッダ部 */
+.ts-align-left {
+    text-align      : left;
+}
+.ts-align-center {
+    text-align      : center;
+}
+.ts-align-right {
+    text-align      : right;
+}
+
+// 共通ヘッダ部右側のボタンエリア
+@mixin top-right-button {
+    margin      : 0px 3px 11px 3px;
+    padding     : 0px;
+    width       : 63px;
+    height      : 49px;
+}
+@mixin ts-std-button1 {
+    @include border-radius(3px);
+    padding             : 5px 10px;
+    background          : #108dc5;
+    color               : white;
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    &:hover {
+        background-color    : lighten(#108dc5, 30%);
+    }
+}
+@mixin ts-std-button1-disabled {
+    @include border-radius(3px);
+    padding             : 5px 10px;
+    background          : #D5D6D6;
+    color               : #FDFDFD;
+    cursor              : default;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+}
+@mixin ts-std-button2 {
+    @include border-radius(3px);
+    padding             : 5px 10px;
+//    background          : #f5f5f5;
+//    color               : #696969;
+    background          : transparent;
+    text-decoration     : underline;
+    color               : #4A4AFF;
+
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    > div {
+        text-decoration     : underline;
+        color               : #4A4AFF;
+    }
+
+    &:hover {
+//        background-color    : #f0f8ff;
+        background      : #DCE0F7;
+        color           : #0000FF;
+        > div {
+            color       : #0000FF;
+        }
+    }
+}
+@mixin ts-std-button2-disabled {
+    @include border-radius(3px);
+    padding             : 5px 10px;
+    background          : transparent;
+    text-decoration     : underline;
+    color               : gray;
+
+    cursor              : default;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    > div {
+        text-decoration     : underline;
+        color               : gray;
+    }
+}
+@mixin ts-std-button3 {
+    @include border-radius(3px);
+    padding             : 5px 10px;
+    background          : #adc929;
+    color               : white;
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    &:hover {
+        background-color    : lighten(#adc929, 10%);
+    }
+}
+@mixin ts-std-button4 {
+    @include border-radius(3px);
+    padding             : 5px 10px;
+    background          : #f78c17;
+    color               : white;
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    &:hover {
+        background-color    : lighten(#f78c17, 10%);
+    }
+}
+@mixin ts-std-undo1 {
+    @include border-radius(3px);
+    padding             : 5px 10px;
+    background          : #f09199;
+    color               : white;
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    &:hover {
+        background-color    : #eebbcb;
+    }
+}
+@mixin ts-std-undo1-disabled {
+    @include border-radius(3px);
+    padding             : 5px 10px;
+    background          : #D5D6D6;
+    color               : #FDFDFD;
+    cursor              : default;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+}
+@mixin ts-done-button {
+    @include border-radius(3px);
+    padding             : 5px 10px;
+    background          : #108dc5;
+    color               : white;
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    &:hover {
+        background-color    : lighten(#108dc5, 30%);
+    }
+}
+@mixin ts-done-button-s {
+    @include border-radius(3px);
+    padding             : 3px 10px;
+    background          : #108dc5;
+    color               : white;
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    &:hover {
+        background-color    : lighten(#108dc5, 30%);
+    }
+}
+@mixin ts-done-button-sh {
+    @include border-radius(3px);
+    padding             : 1px 10px;
+    background          : #108dc5;
+    color               : white;
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    &:hover {
+        background-color    : lighten(#108dc5, 30%);
+    }
+}
+@mixin ts-undo-button {
+    @include border-radius(3px);
+    padding             : 5px 10px;
+    background          : #f09199;
+    color               : white;
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    &:hover {
+        background-color    : #eebbcb;
+    }
+}
+@mixin ts-undo-button-s {
+    @include border-radius(3px);
+    padding             : 3px 10px;
+    background          : #f09199;
+    color               : white;
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    &:hover {
+        background-color    : #eebbcb;
+    }
+}
+@mixin ts-thin-button-s {
+    @include border-radius(3px);
+    padding             : 3px 10px;
+    background          : transparent;
+    text-decoration     : underline;
+    color               : #4A4AFF;
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    > div {
+        text-decoration     : underline;
+        color               : #4A4AFF;
+    }
+
+    &:hover {
+        background      : #DCE0F7;
+        color           : #0000FF;
+        > div {
+            color       : #0000FF;
+        }
+    }
+}
+// エラー表示エリア
+@mixin ts-error-output {
+    text-align          : left;
+    div {
+        background      : #fdeff2;
+        margin          : 1px;
+        border          : 1px solid red;
+        color           : red;
+        padding         : 2px 8px;
+        word-break      : break-all;
+    }
+}
+.margin-top-10 {
+    margin-top      : 10px;
+}
+// 共通ヘッダ部本体
+#expTopView {
+    position            : relative;
+    > table {
+        width               : 100%;
+        border-collapse     : collapse;
+        background-color    : $headerBgColor;
+        > tbody {
+            > tr {
+                height      : 60px;
+                > td {
+                    padding : 0px;
+                }
+                > td.ts-top-logo { // タイトルロゴエリア
+                    width       : 60px;
+                    div {
+                        background  : url('#{$imgDir}p_images.png') no-repeat;
+                        width       : 60px;
+                        height      : 60px;
+                    }
+                    div.work-list { // 勤務表
+                        background-position: 0px 0px;
+                        position    : relative;
+                    }
+                    div.time-report { // タイムレポート
+                        background-position: -61px 0px;
+                        position    : relative;
+                    }
+                    div.labor-record { // 月次工数実績
+                        background-position: -244px 0px;
+                        position    : relative;
+                    }
+                    div.exp-pre-apply { // 経費事前申請
+                        background-position: -183px 0px;
+                        position    : relative;
+                    }
+                    div.exp-apply { // 経費申請
+                        background-position: -122px 0px;
+                        position    : relative;
+                    }
+                    div.emp-info { // 社員情報
+                        background-position: -366px 0px;
+                        position    : relative;
+                    }
+                    div.emp-navi { // 諸届ナビ
+                        background-position: -427px 0px;
+                        position    : relative;
+                    }
+                    div.redmask {
+                        background  : url('#{$imgDir}redmask.png') no-repeat;
+                        position    : absolute;
+                        top         : 0px;
+                        left        : 0px;
+                        width       : 60px;
+                        height      : 60px;
+                    }
+                }
+                > td.ts-top-title { // タイトル画像エリア
+                    width       : auto;
+                    text-align      : left;
+                    > div.main-title {
+                        color           : #ffffff;
+                        font-size       : 19px;
+                        margin-top      : 8px;
+                        white-space     : nowrap;
+                        text-align      : left;
+                    }
+                    > div.sub-title {
+                        color           : #8aadc9;
+                        font-size       : 10px;
+                        white-space     : nowrap;
+                        text-align      : left;
+                    }
+                }
+                > td.ts-top-empinfo { // 部署、勤務体系、社員名エリア
+                    vertical-align  : bottom;
+                    text-align      : center;
+                    > div {
+                        position    : relative;
+                        margin      : 0px;
+                        padding     : 0px;
+                    }
+                    table {
+                        border-collapse : collapse;
+                        margin          : 2px auto;
+                        width           : 100%;
+                        tr {
+                            td {
+                                padding : 1px 6px;
+                            }
+                            td.ts-top-info-l {
+                                text-align  : right;
+                                color       : $headerStrColor1;
+                                white-space : nowrap;
+                            }
+                            td.ts-top-info-r {
+                                text-align  : left;
+                                color       : $headerStrColor2;
+                                white-space : nowrap;
+                            }
+                        }
+                    }
+                }
+                > td.ts-top-emplist { // 社員リスト表示ボタン
+                    width           : 14px;
+                    vertical-align  : bottom;
+                    > div {
+                        margin      : 0px 0px 5px 2px;
+                    }
+                }
+                > td.ts-top-photo { // 写真
+                    width   : $topPhotoWidth;
+                    div {
+                        padding : 3px 6px;
+                        img {
+                            width   : 48px;
+                            height  : 48px;
+                        }
+                    }
+                }
+                > td.ts-top-button1 { // ボタン：Gメニュー
+                    width   : $topRightButtonWidth;
+                    a {
+                        text-decoration : none;
+//                        cursor          : pointer;
+                        div {
+                            background  : url('#{$imgDir}p_images.png') no-repeat;
+                            background-position: 0px -61px;
+                            @include top-right-button;
+//                            &:hover {
+//                                background  : url('#{$imgDir}Gmenu01_mouseON.jpg') no-repeat;
+//                            }
+                        }
+                    }
+                }
+                > td.ts-top-button2 { // ボタン：休暇情報
+                    width   : $topRightButtonWidth;
+                    a {
+                        text-decoration : none;
+//                        cursor          : pointer;
+                        div {
+                            background  : url('#{$imgDir}p_images.png') no-repeat;
+                            background-position: -64px -61px;
+                            @include top-right-button;
+//                            &:hover {
+//                                background  : url('#{$imgDir}Gmenu02_mouseON.jpg') no-repeat;
+//                            }
+                        }
+                    }
+                }
+                > td.ts-top-button3 { // ボタン：HELP
+                    width   : $topRightButtonWidth;
+                    a {
+                        text-decoration : none;
+                        cursor          : pointer;
+                        div {
+                            background  : url('#{$imgDir}p_images.png') no-repeat;
+                            background-position: -448px -61px;
+                            @include top-right-button;
+                            &:hover {
+                                background-position: -512px -61px;
+                            }
+                        }
+                    }
+                }
+                > td.ts-top-button4 { // ボタン：休暇情報
+                    width   : $topRightButtonWidth;
+                    a {
+                        text-decoration : none;
+                        cursor          : pointer;
+                        div {
+                            background  : url('#{$imgDir}Gmenu04.jpg') no-repeat;
+                            @include top-right-button;
+                            &:hover {
+                                background  : url('#{$imgDir}Gmenu04_mouseON.jpg') no-repeat;
+                            }
+                        }
+                    }
+                }
+                > td.ts-top-button5 { // ボタン：休暇情報
+                    width   : $topRightButtonWidth;
+                    a {
+                        text-decoration : none;
+                        cursor          : pointer;
+                        > div {
+                            background  : url('#{$imgDir}p_images.png') no-repeat;
+                            background-position: -320px -61px;
+                            position    : relative;
+                            color       : white;
+                            @include top-right-button;
+                            &:hover {
+                                background-position: -384px -61px;
+                                color       : #6eebf1;
+                            }
+                            div {
+                                position    : absolute;
+                                bottom      : 1px;
+                                left        : 8px;
+                                color       : inherit;
+                            }
+                        }
+                    }
+                }
+                > td.ts-top-button-jtb { // ボタン：JTB
+                    width   : $topRightButtonWidth;
+                    a {
+                        text-decoration : none;
+                        cursor          : pointer;
+                        div {
+                            background  : url('#{$imgDir}p_images.png') no-repeat;
+                            background-position: 0px -259px;
+                            @include top-right-button;
+                            &:hover {
+                                background-position: -64px -259px;
+                            }
+                        }
+                    }
+                }
+                > td.ts-top-last {
+                    width   : 30px;
+                }
+            }
+        }
+    }
+}
+// 共通ヘッダ部本体
+#ts1TopView {
+    margin: -8px -8px 2px -8px;
+    position            : relative;
+    div.ts-top-logo { // タイトルロゴエリア
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width       : 60px;
+        div {
+            background  : url('#{$imgDir}p_images.png') no-repeat;
+            width       : 60px;
+            height      : 60px;
+        }
+        div.work-list { // 勤務表
+            background-position: 0px 0px;
+            position    : relative;
+        }
+    }
+    > table {
+        width               : 100%;
+        min-height          : 60px;
+        border-collapse     : collapse;
+        background-color    : $headerBgColor;
+        > tbody {
+            > tr {
+                > td {
+                    padding : 0px;
+                }
+                > td.ts-top-empinfo { // 部署、勤務体系、社員名エリア
+                    > div.main-title {
+                        margin-left : 60px;
+                        color           : #ffffff;
+                        font-size       : 12px;
+                        white-space     : nowrap;
+                        text-align      : left;
+                    }
+                    vertical-align  : bottom;
+                    text-align      : center;
+                    > div {
+                        position    : relative;
+                        margin      : 0px 0px 2px 0px;
+                        padding     : 0px;
+                    }
+                    table {
+                        border-collapse : collapse;
+                        margin-left : 40px;
+                        width           : 100%;
+                        tr {
+                            td {
+                                padding : 0px 6px;
+                            }
+                            td.ts-top-info-l {
+                                text-align  : right;
+                                color       : $headerStrColor1;
+                                white-space : nowrap;
+                            }
+                            td.ts-top-info-r {
+                                text-align  : left;
+                                color       : $headerStrColor2;
+                                white-space : nowrap;
+                                width       : 70%;
+                                > div {
+                                    overflow-x: hidden;
+                                    max-width: 190px;
+                                }
+                            }
+                        }
+                    }
+                }
+                > td.ts-top-photo { // 写真
+                    width   : $topPhotoWidth;
+                    div {
+                        width   : 48px;
+                        height  : 48px;
+                        padding : 0px 6px 1px 6px;
+                        img {
+                            width   : 48px;
+                            height  : 48px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// メイン画面メインテーブル本体
+#expListView {
+    > table {
+        margin              : 0px 10px 20px 30px;
+        width               : 94%;
+        border-collapse     : collapse;
+        border              : 1px solid $borderColor1;
+        thead { // ヘッダ行
+            tr {
+                height      : 26px;
+                th {
+                    background      : url('#{$imgDir}List_Hedda02.jpg') repeat-x;
+                    padding         : 0px 2px;
+                    text-align      : center;
+                    border-right    : 1px dashed $borderColor1;
+                    border-bottom   : 1px solid $borderColor1;
+                    white-space     : nowrap;
+                    > div {
+                        @include clearfix;
+                        margin      : auto;
+                        display     : table;
+                        div {
+                            color   : $headerColor1;
+                            float   : left;
+                        }
+                        div.pp_base {
+                            margin-top      : 4px;
+                            margin-left     : 2px;
+                        }
+                    }
+                }
+            }
+        }
+        tbody { // ボディ
+            tr {
+                td {
+                    padding         : 1px 6px;
+                    border-right    : 1px dashed $borderColor2;
+                    border-bottom   : 1px solid $borderColor2;
+                    vertical-align  : middle;
+                    text-align      : center;
+                    div {
+                        color   : $headerColor2;
+                    }
+                    div.ts-form-currency { // 金額
+                        text-align      : right;
+                        font-family     : $moneyFont;
+                        font-size       : $moneyFontSize;
+                    }
+                    div.ts-form-number { // 数値
+                        text-align      : right;
+                        font-family     : $moneyFont;
+                        font-size       : $moneyFontSize;
+                    }
+                }
+                td.ts-form-text {
+                    text-align      : left;
+                }
+                td.ts-form-currency {
+                    text-align      : right;
+                }
+                &:hover {
+                    background      : #F4F7F9;
+                }
+            }
+        }
+        tfoot { // フッタ行
+            tr {
+                height      : 26px;
+                td {
+                    background      : url('#{$imgDir}List_Hedda02.jpg') repeat-x;
+                    padding         : 0px;
+                    border-top      : 1px solid $borderColor1;
+                    vertical-align  : middle;
+                    div {
+                        color       : $headerColor1;
+                        font-weight : bold;
+                    }
+                }
+            }
+        }
+    }
+    div.ts-section-emp {
+        margin-bottom       : 0px;
+        margin-top          : 6px;
+    }
+}
+
+// メイン画面メインテーブル上部
+div.ts-list-top {
+    margin              : 4px 10px 4px 30px;
+    width               : 94%;
+    @include clearfix;
+    div.ts-form-edge-left {
+        margin-top  : 2px;
+        float       : left;
+    }
+    div.ts-form-edge-right {
+        float   : right;
+    }
+    table {
+        > tbody {
+            > tr {
+                > td {
+                    padding             : 0px;
+                    text-align          : center;
+                    vertical-align      : middle;
+                    border              : none;
+                }
+                > td.ts-list-top-label {
+                    > div {
+                        margin-right    : 8px;
+                    }
+                }
+                > td.ts-list-top-select {
+                    > div {
+                        margin-right    : 8px;
+                    }
+                }
+                > td.ts-list-top-status {
+                    > div {
+                        margin-right    : 20px;
+                    }
+                }
+                > td.ts-list-top-page {
+                    width           : auto;
+                    vertical-align  : bottom;
+                    > div {
+                        margin-left : 10px;
+                    }
+                }
+                > td.ts-output-zengin-button { // 検索ボタン
+                    button {
+                        @include ts-done-button;
+                    }
+                }
+                > td.ts-search-button { // 検索ボタン
+                    button {
+                        @include ts-done-button;
+                    }
+                }
+                > td.ts-pay-button { // 精算実行ボタン
+                    button {
+                        @include ts-done-button;
+                    }
+                }
+                > td.ts-reset-button { // 精算取消ボタン
+                    button {
+                        @include ts-undo-button;
+                    }
+                }
+                > td.ts-std-button { // ボタン
+                    button {
+                        @include ts-std-button2;
+                    }
+                    button.disabled {
+                        @include ts-std-button2-disabled;
+                    }
+                }
+            }
+        }
+    }
+}
+div.ts-list-countDiv {
+	text-align	: left;
+	> div {
+		display: inline-block;
+	}
+	div.ts-list-countMsg {
+		text-align	: left;
+		margin-left: 30px;
+		margin-right: 10px;
+	}
+	div.ts-list-caution {
+		text-align	: left;
+		margin-left: 30px;
+	}
+}
+
+// メイン画面メインテーブル本体
+#printExpView {
+    padding : 0px 0px 0px 10px;
+    > table {
+        margin              : 0px;
+        width               : 100%;
+        border-collapse     : collapse;
+        border              : 1px solid #222222;
+        thead { // ヘッダ行
+            tr {
+                th {
+                    padding         : 0px;
+                    text-align      : center;
+                    background      : #E3EBF1;
+                    border          : 1px solid #222222;
+                    > div {
+                        @include clearfix;
+                        margin      : auto;
+                        display     : table;
+                        div {
+                            color   : #000000;
+                            float   : left;
+                        }
+                    }
+                }
+            }
+        }
+        tbody { // ボディ
+            tr {
+                td {
+                    padding         : 1px 6px;
+                    border          : 1px solid #222222;
+                    vertical-align  : middle;
+                    text-align      : center;
+                    div {
+                        color   : #000000;
+                    }
+                    div.ts-form-currency { // 金額
+                        text-align      : right;
+                    }
+                    div.ts-form-number { // 数値
+                        text-align      : right;
+                    }
+                }
+                td.ts-print-emp-row {
+                    background      : #E3EBF1;
+                    @include clearfix;
+                    > div {
+                        float   : left;
+                    }
+                    > div.ts-print-emp-c {
+                        margin  : 0px 2px 0px 0px;
+                    }
+                    > div.ts-print-emp-v {
+                        margin  : 0px 8px 0px 0px;
+                    }
+                }
+                td.ts-print-emp-sum1 {
+                    border-right    : 1px solid #fff;
+                }
+                td.ts-print-emp-sum2 {
+                    border-right    : 1px solid #fff;
+                }
+                td.ts-form-text {
+                    text-align      : left;
+                }
+                td.ts-form-currency {
+                    text-align      : right;
+                    > div {
+                        white-space : nowrap;
+                    }
+                }
+                td.ts-form-date {
+                    > div {
+                        white-space : nowrap;
+                    }
+                }
+                td.ts-form-datetime {
+                    > div {
+                        white-space : nowrap;
+                    }
+                }
+            }
+            tr.ts-print-empty-row {
+                height  : 3px;
+                > td {
+                    border-left     : 1px solid #ffffff;
+                    border-right    : 1px solid #ffffff;
+                }
+            }
+        }
+    }
+    div.ts-print-buttons {
+        @include clearfix;
+        button {
+            float   : left;
+        }
+        button.ts-print-out {
+            @include ts-done-button;
+        }
+        button.ts-close {
+            @include ts-std-button2;
+        }
+    }
+}
+
+/* メインテーブルの＋ボタン（追加）*/
+.png-add, .png-del, .png-up, .png-down, .png-ido { // ＋ボタンイメージ
+    margin      : auto;
+    cursor      : pointer;
+}
+.ts-cell-add { // ＋ボタンのセル
+    text-align      : center;
+    vertical-align  : middle;
+}
+
+.menu-item-1 {
+    margin              : 0;
+    padding             : 1px;
+}
+
+// フォーム画面共通ヘッダ
+div.ts-form-header {
+    text-align          : center;
+    width               : 96%;
+    margin-left         : auto;
+    margin-right        : auto;
+    @include clearfix;
+    div.ts-form-edge-left {
+        float   : left;
+    }
+    div.ts-form-edge-right {
+        float   : right;
+    }
+    table {
+        width           : 100%;
+        > tbody {
+            > tr {
+                > td {
+                    white-space     : nowrap;
+                    div {
+                        white-space     : nowrap;
+                    }
+                }
+                > td.ts-form-back { // 戻るボタン
+//                    width               : 100px;
+                }
+                > td.ts-form-title-vbar { // タイトルの縦棒
+                    text-align          : center;
+                    width               : 2px;
+                    div {
+                        width           : 2px;
+                        height          : $formHeaderHeight - 8px;
+                        margin-right    : 6px;
+                        background-color: green;
+                    }
+                }
+                > td.ts-form-title { // タイトル
+                    text-align          : left;
+                    div {
+                        font-size       : $titleFontSize;
+                        color           : green;
+                        white-space     : nowrap;
+                    }
+                }
+                > td.ts-form-change { // 
+                    display             : none;
+                    width               : auto;
+                }
+                > td.ts-form-value { // 
+                    padding-left        : 6px;
+                    padding-right       : 10px;
+                }
+                > td.ts-form-status-label { // ステータス(ラベル)
+                    padding             : 0px 4px;
+                    text-align          : right;
+                    div {
+                        color           : gray;
+                    }
+                }
+                > td.ts-form-status { // ステータス
+                    > button {
+//                        width       : 100px;
+                        padding     : 0px 5px !important;
+                        @include ts-std-button2;
+                        @include clearfix;
+                        > div {
+                            float       : left;
+                            padding     : 4px 2px;
+                            white-space : nowrap;
+                            &:first-child {
+                                padding     : 0px;
+                            }
+                        }
+                        &:disabled {
+                            @include ts-std-button2-disabled;
+                            div {
+                                text-decoration     : underline;
+                                color               : gray;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// フォーム画面共通フッタ
+div.ts-form-footer, div.ts-form-apron {
+    width               : 96%;
+    height              : 54px;
+    text-align          : center;
+    margin-bottom       : 0px;
+    margin-left         : auto;
+    margin-right        : auto;
+    > table {
+        margin-left     : auto;
+        margin-right    : 0px;
+    }
+    @include clearfix;
+    div.ts-form-edge-left {
+        float   : left;
+    }
+    div.ts-form-edge-right {
+        float   : right;
+    }
+}
+div.ts-form-tail {
+    text-align          : center;
+    width               : 96%;
+    margin-left         : auto;
+    margin-right        : auto;
+    margin-bottom       : 0px;
+}
+div.ts-form-bottom {
+    width               : 10px;
+    height              : 1px;
+    margin-bottom       : 10px;
+}
+// フォーム画面ヘッダ・フッタ
+table.ts-form-control {
+    width       : 100%;
+    a {
+        text-decoration : none;
+        color           : #4A4AFF;
+        &:hover {
+            color       : #0000FF;
+        }
+    }
+    tbody {
+        > tr {
+            height  : $formHeaderHeight;
+            > td {
+                padding             : 0px;
+                text-align          : center;
+                vertical-align      : middle;
+                border              : 1px solid #ccccc;
+            }
+            > td.ts-total-label,td.ts-payValue-label,td.ts-provis-label,td.ts-dueToPay-label,td.ts-credit-label,td.ts-invoice-label { // 精算金額,仮払金額,本人立替分,法人カード払い分,請求書払い分(ラベル)
+                padding             : 0px 0px 0px 4px;
+                text-align          : right;
+                div {
+                    color           : gray;
+                }
+                min-width           : 50px;
+            }
+            > td.ts-total-value,td.ts-payValue-value,td.ts-provis-value,td.ts-dueToPay-value,td.ts-credit-value,td.ts-invoice-value { // 精算金額,仮払金額,本人立替分,法人カード払い分,請求書払い分
+                text-align          : right;
+                padding             : 0px 4px;
+                div {
+                    padding             : 2px 4px;
+                    background          : #9FC;
+                    text-align          : right;
+                    width               : 90px;
+                    margin              : 0px;
+                    color               : #222;
+                    font-family         : $moneyFont;
+                    font-size           : $moneyFontSize;
+                }
+            }
+            > td.ts-provis-value > div, td.ts-dueToPay-value > div, td.ts-credit-value > div, td.ts-invoice-value > div {
+                background          : #f9f9ff;
+            }
+            > td.ts-form-cardread {
+                > div {
+                    display     : none;
+                }
+            }
+            > td.ts-std-button { // ボタン
+                button {
+                    @include ts-std-button2;
+                }
+                button.disabled {
+                    @include ts-std-button2-disabled;
+                }
+            }
+            > td.ts-std-jtb-button { // 予約連携ボタン
+                button {
+                    @include ts-std-button2;
+                }
+                button.disabled {
+                    @include ts-std-button2-disabled;
+                }
+            }
+            > td.ts-apply-button { // 承認申請ボタン
+                button {
+                    @include ts-std-button1;
+                }
+            }
+            > td.ts-apply-start { // 精算開始ボタン
+                button {
+                    @include ts-std-button1;
+                }
+            }
+            > td.ts-approve-button { // 承認/却下ボタン
+                button {
+                    @include ts-std-button3;
+                }
+            }
+            > td.ts-edit-button { // 承認/却下ボタン
+                button {
+                    @include ts-std-button4;
+                }
+            }
+            > td.ts-form-label {
+                div {
+                    color           : gray;
+                    margin-left     : 8px;
+                    margin-right    : 8px;
+                }
+            }
+            > td.ts-form-pulldown {
+                select {
+                    margin-left     : 0px;
+                    margin-right    : 8px;
+                    border          : 1px solid #c0c0c0;
+                }
+            }
+        }
+    }
+}
+div.ts-form-spacer {
+    width       : 10px;
+    height      : 0px;
+}
+div.ts-form-removed {
+    text-align          : left !important;
+    margin              : 0px 30px;
+    color               : red;
+    font-weight         : bold;
+}
+
+// エラー表示エリア
+div.ts-error-area {
+    width               : 96%;
+    margin-left         : auto;
+    margin-right        : auto;
+    padding             : 4px;
+    margin-bottom       : 4px;
+    @include ts-error-output;
+}
+
+// 申請フォーム
+#tsfFormArea > div {
+    text-align          : center;
+    width               : 96%;
+    margin-left         : auto;
+    margin-right        : auto;
+}
+
+.ts-row-odd {
+    background-color    : lighten(#e3ebf1, 5%);
+}
+.ts-row-even {
+    background-color    : #fefefe;
+}
+
+.ts-section-bar1 { // セクションバー１
+    background-color    : $sectionBgColor;
+    text-align          : left;
+    @include clearfix;
+    div:last-child {
+        float               : left;
+        margin              : 2px 10px;
+        padding             : 0px;
+        color               : $formLabelColor;
+        font-weight         : bold;
+        font-size           : $sectionBarFontSize;
+    }
+}
+.ts-section-bar2 { // セクションバー２（開閉あり）
+    margin-bottom       : 10px;
+    height              : 23px;
+    background-color    : $sectionBgColor;
+    text-align          : left;
+    padding             : 0px;
+    overflow            : hidden;
+    position            : relative;
+    div {
+        position            : absolute;
+        margin              : 0px;
+        padding             : 0px;
+    }
+    div.ts-section-vbar {
+        left                : 0px;
+        top                 : 0px;
+        width               : 3px;
+        height              : 30px;
+        background-color    : #256499;
+    }
+    div.ts-section-check {
+        left                : 10px;
+        top                 : 5px;
+    }
+    div.ts-section-title {
+        left                : 30px;
+        top                 : 2px;
+        color               : $formLabelColor;
+        font-weight         : bold;
+        font-size           : $sectionBarFontSize;
+    }
+    div.ts-section-option {
+        position            : absolute;
+        left                : 300px;
+        margin-top          : 3px;
+    }
+}
+//.ts-section-bar2 + .ts-section-form { // セクションバー２のすぐ次の div は初期値で非表示にする
+//    display             : none;
+//}
+
+.ts-main-form {
+    margin-bottom       : 10px;
+    margin-left         : 30px;
+}
+td.ts-form-text {
+    > div {
+        white-space         : normal !important;
+        word-break          : break-all;
+    }
+}
+// セクション内のフォーム
+.ts-section-form {
+    text-align          : left;
+    position            : relative;
+    input[type="text"] {
+        border          : 1px solid gray;
+        padding         : 1px 4px;
+        margin          : 0px;
+        width           : 100%;
+    }
+    textarea {
+        border          : 1px solid gray;
+        padding         : 1px 4px;
+        margin          : 0px;
+        width           : 100%;
+    }
+    select {
+        border          : 1px solid gray;
+        margin          : 0px;
+        width           : 100%;
+    }
+    > table {
+        border-collapse     : collapse;
+        > thead {
+            > tr {
+                > th {
+                    padding         : 0px;
+                    vertical-align  : middle;
+                    text-align      : center;
+                    > div {
+                        margin              : 1px;
+                        padding             : 2px;
+                        color               : $formLabelColor;
+                        font-weight         : normal;
+                        text-align          : center;
+                        background          : $formLabelBgColor;
+                        position            : relative;
+                    }
+                    div.ts-require {
+                        margin          : 0px;
+                        position        : absolute;
+                        left            : 2px;
+                        top             : 2px;
+                        width           : 4px;
+                        height          : 4px;
+                        background      : #3B7DDF;
+                    }
+                }
+                > th.ts-form-checkbox {
+                    > div {
+                        padding         : 4px 2px;
+                    }
+                }
+                // 経費明細の内容は固定幅。
+                // 調整する場合は、tbody.tr.td.ts-form-route の方も合わせて調整すること。
+                > th.ts-form-route {
+                    width       : 340px;
+                }
+            }
+        }
+        > tbody {
+            > tr {
+                > td {
+                    padding         : 0px;
+                    vertical-align  : middle;
+                    @include clearfix;
+                    > div {
+                        float               : left;
+                        margin              : 1px 0px;
+                        padding             : 0px 2px;
+                        width               : 100%;
+                        white-space         : nowrap;
+                    }
+                    > div.ts-form-icon {
+                        margin              : 0px;
+                        padding             : 0px;
+                    }
+                    > div.ts-form-value {
+                        > div {
+                            padding         : 1px 4px;
+                            > a {
+                                color       : #4A4AFF;
+                                &:hover {
+                                    color   : #0000FF;
+                                }
+                            }
+                        }
+                    }
+                    > div.ts-form-route {
+                        padding     : 2px 0px !important;
+                    }
+                }
+                > td.ts-form-route {
+                    div.ts-form-route {
+                        margin          : 0px;
+                        padding         : 2px 4px;
+                        width           : 100%;
+                        white-space     : normal;
+                        word-break      : break-all;
+                        div.route {
+                            font-size   : 0.8em !important;
+                        }
+                        @include clearfix;
+                        > div.ts-route-icons {
+                            float       : right;
+                            @include clearfix;
+                            > input {
+                                margin  : 1px;
+                                float   : left;
+                            }
+                            > div {
+                                margin      : 1px;
+                                float       : left;
+                                position    : relative;
+                                min-width   : 14px;
+                                min-height  : 14px;
+                                > div {
+                                    position    : absolute;
+                                    right       : 0px;
+                                    top         : 0px;
+                                }
+                            }
+                        }
+                        div.ts-content-detail {
+                            font-size   : 0.9em !important;
+                        }
+                        > div.ts-content {
+                            width   : auto;
+                        }
+                        > div.ts-station-area {
+                            left        : 0px;
+                            top         : 0px;
+                            width       : 246px;
+                            position    : absolute;
+                            @include clearfix;
+                            > div {
+                                float           : left;
+                                margin          : 0px;
+                                padding         : 0px;
+                                white-space     : nowrap;
+                            }
+                            > div.ts-station-text {
+                                width           : 105px;
+                                .dijitTextBox {
+                                    width       : 100%;
+                                }
+                            }
+                            > input[type="button"].pp_btn_oneway, input[type="button"].pp_btn_round {
+                                float       : left;
+                                margin      : 1px 2px !important;
+                                width       : 20px !important;
+                            }
+                        }
+                    }
+                }
+                > td.ts-form-cal {
+                    width       : 25px;
+                }
+            }
+        }
+        tr.ts-table-empty-row {
+            height          : 0px;
+        }
+        tr.ts-table-border-1 {
+            height          : 1px;
+            border-bottom   : 1px dashed $borderColor1;
+        }
+        tr.ts-table-border-2 {
+            height          : 2px;
+        }
+        tr.ts-table-bottom {
+            td {
+                @include clearfix;
+                > table {
+                    border-collapse : collapse;
+                    margin          : 0px;
+                    float           : left;
+                    div {
+                        width       : 22px;
+                    }
+                }
+                > button {
+                    float           : left;
+                    margin-left     : 30px !important;
+                    @include ts-done-button-sh;
+                }
+            }
+        }
+    }
+    div.ts-form-row {
+        margin-top          : 2px;
+        display             : table;
+        > div {
+            display         : table-cell;
+            vertical-align  : middle;
+        }
+        div.ts-form-label { // 項目ラベル
+            background-color    : $formLabelBgColor;
+            text-align          : right;
+            width               : 148px;
+            position            : relative;
+            div {
+                margin          : 3px 8px;
+                color           : $formLabelColor;
+            }
+            div.ts-require {
+                margin          : 0px;
+                position        : absolute;
+                left            : 2px;
+                top             : 2px;
+                width           : 4px;
+                height          : 4px;
+                background      : #3B7DDF;
+            }
+            div.ts-mismatch {
+                position        : absolute;
+                left            : 0px;
+                top             : 0px;
+            }
+        }
+        div.ts-tooltip { // ツールチップ
+            > div {
+                margin : 3px 2px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+        div.ts-form-value { // 値入力・表示エリア
+            margin      : 0px 1px;
+            padding     : 0px 2px;
+            > div {
+//                border          : 1px solid #DEDEDE;
+                padding         : 2px 4px;
+                background      : #f9f9ff;
+//                min-width       : 100px;
+            }
+        }
+        div.ts-search-button {
+            margin-left : 8px;
+            button {
+                @include ts-done-button-s;
+            }
+        }
+        input[type="button"].pp_btn_ektsrch {
+            float       : left
+        }
+        input[type="button"].pp_ico_ekitan {
+            margin-left : 4px;
+        }
+        div.ts-spice {
+            margin-left : 4px;
+        }
+        div.ts-external {
+            margin-left : 4px;
+        }
+        div.ts-payment-icon {
+            margin-left : 4px;
+        }
+        input[type="button"].pp_ico_receipt {
+            margin-left : 4px;
+        }
+        input[type="button"].pp_ico_receipt_a {
+            margin-left : 4px;
+        }
+        input[type="button"].pp_ico_receipt_r {
+            margin-left : 4px;
+        }
+        input[type="button"].ts-external {
+            margin-top  : 2px;
+            margin-left : 4px;
+        }
+        button.ts-button-done {
+            float   : left;
+            @include ts-done-button-s;
+        }
+        button.ts-button-undo {
+            float   : left;
+            @include ts-undo-button-s;
+        }
+        button.ts-button-thin {
+            float   : left;
+            @include ts-thin-button-s;
+        }
+    }
+    div.ts-form-select { // 
+        > div.ts-form-select {
+            padding     : 1px 4px;
+            white-space : normal;
+        }
+        a {
+            white-space : normal;
+        }
+    }
+    div.ts-mismatch {
+        display     : table;
+        >div, > a {
+            display     : table-cell;
+        }
+        > div {
+            padding     : 0px 0px 0px 2px;
+            margin      : 0px;
+        }
+    }
+    div.ts-mismatch2 {
+        position        : relative;
+        > div.pp_ico_ng {
+            position    : absolute;
+            left        : 2px;
+            top         : 0px;
+        }
+    }
+    div.ts-form-date { // 日付
+        text-align      : center;
+        input {
+            text-align      : center;
+        }
+    }
+    div.ts-form-datetime { // 日時
+        text-align      : center;
+        input {
+            text-align      : center;
+        }
+    }
+    div.ts-form-time { // 時刻
+        text-align      : center;
+        input {
+            text-align      : center;
+        }
+    }
+    td.ts-form-currency { // 金額
+        text-align      : right;
+    }
+    div.ts-form-currency { // 金額
+        text-align      : right;
+        font-family     : $moneyFont;
+        font-size       : $moneyFontSize;
+        padding         : 0px 4px;
+        input, div {
+            text-align      : right;
+            font-family     : $moneyFont !important;
+            font-size       : $moneyFontSize;
+            padding         : 0px 4px;
+        }
+        input.read-only {
+            padding         : 2px 4px;
+            border          : none;
+            background      : #f9f9ff
+        }
+    }
+    div.ts-form-number { // 枚数
+        text-align      : right;
+        font-family     : $moneyFont;
+        font-size       : $moneyFontSize;
+        padding         : 0px 4px;
+        input, div {
+            text-align      : right;
+            font-family     : $moneyFont;
+            font-size       : $moneyFontSize;
+            padding         : 0px 4px;
+        }
+    }
+    div.ts-form-checkbox {
+        text-align  : center;
+        margin      : 0px;
+        padding     : 0px;
+    }
+    div.ts-form-radio {
+        padding-top : 2px !important;
+        label {
+            margin-left     : 6px;
+            margin-right    : 10px;
+        }
+    }
+    div.ts-form-children {
+        div.pp_ico_receipt_a, div.pp_ico_receipt_r {
+            margin-left     : auto;
+            margin-right    : auto;
+        }
+    }
+    table.ts-section-ticket {
+        width       : 100%;
+    }
+    table.ts-section-content {
+        > tbody {
+            > tr:hover {
+                background  : lighten(#c1e4e9, 8%);
+            }
+        }
+    }
+    table.ts-section-detail {
+        width       : 100%;
+        > tbody {
+            > tr:hover {
+                background  : lighten(#c1e4e9, 8%);
+            }
+        }
+    }
+    div.ts-attach-button {
+        margin-left : 50px;
+//        button {
+//            @include ts-std-button2;
+//        }
+//        button.disabled {
+//            @include ts-std-button2-disabled;
+//        }
+    }
+}
+
+button.ts-form-cal, div.ts-form-cal { // 日付選択UIボタン
+    width           : 21px !important;
+    height          : 20px !important;
+    margin          : 0px;
+    cursor          : pointer;
+    border          : none;
+    background      : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: -338px -111px;
+    &:hover {
+        background-position: -360px -111px;
+    }
+}
+
+button.ts-form-find, div.ts-form-find {
+    width           : 21px !important;
+    height          : 20px !important;
+    margin          : 0px;
+    cursor          : pointer;
+    border          : none;
+    background      : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: -294px -111px;
+    &:hover {
+        background-position: -316px -111px;
+    }
+}
+
+// 海外出張
+div.ts-section-foreign {
+    @include clearfix;
+    > div {
+        float       : left;
+    }
+    > div.ts-section-z2 {
+        margin-left : 20px;
+    }
+}
+// 仮払い申請
+div.ts-section-provisional {
+    @include clearfix;
+    > div {
+        float       : left;
+    }
+    > div.ts-section-z2 {
+        margin-left : 20px;
+    }
+}
+// 社員情報
+div.ts-section-emp {
+    margin-left         : 30px;
+    margin-bottom       : 6px;
+    @include clearfix;
+    > div {
+        float       : left;
+    }
+    > div.ts-section-z2 {
+        margin-top  : 4px;
+        margin-left : 10px;
+    }
+    > div.ts-section-z3 {
+        margin-top  : 4px;
+        margin-left : 10px;
+    }
+    div.ts-form-label { // 項目ラベル
+//        background-color    : $formLabelBgColor2 !important;
+        background-color    : lighten($formLabelBgColor, 5%) !important;
+        width               : 76px !important;
+    }
+    div.ts-form-value { // 値入力・表示エリア
+        margin      : 2px 1px !important;
+        div {
+            border  : none !important;
+        }
+    }
+}
+// 経費情報
+div.ts-section-exp-head {
+    margin-top      : 6px;
+    margin-bottom   : 10px;
+    @include clearfix;
+    > div {
+        float       : left;
+    }
+    > div.ts-section-z1 {
+        width       : 30%;
+    }
+    > div.ts-section-z2 {
+        width       : 30%;
+    }
+    > div.ts-section-z3 {
+        width       : 30%;
+    }
+    > div.ts-section-z4 {
+        width       : 30%;
+    }
+    > div.ts-section-z5 {
+        width       : 30%;
+    }
+    div.ts-form-row {
+        margin-top  : 0px !important;
+        display             : table !important;
+        > div {
+            display         : table-cell !important;
+            vertical-align  : middle;
+            float           : none;
+        }
+    }
+    div.ts-form-label { // 項目ラベル
+        background      : transparent !important;
+        div {
+            color   : #808080;
+        }
+    }
+    div.ts-form-value { // 値入力・表示エリア
+        margin      : 2px !important;
+        div {
+            border  : none !important;
+        }
+    }
+}
+// 稟議情報
+div.ts-section-exp-ringi {
+    margin-top      : 6px;
+    margin-bottom   : 10px;
+    @include clearfix;
+    > div {
+        float       : left;
+    }
+    > div.ts-section-z1 {
+        width       : 50%;
+    }
+    > div.ts-section-z2 {
+        width       : 50%;
+    }
+    div.ts-form-row {
+        margin-top  : 0px !important;
+        display             : table !important;
+        > div {
+            display         : table-cell !important;
+            vertical-align  : middle;
+        }
+    }
+    div.ts-form-label { // 項目ラベル
+        background      : transparent !important;
+        div {
+            color   : #808080;
+        }
+    }
+    div.ts-form-value { // 値入力・表示エリア
+        margin      : 2px !important;
+        div {
+            border  : none !important;
+        }
+    }
+}
+// 経費コメント
+div.ts-section-exp-comment {
+    margin-top      : 6px;
+    margin-bottom   : 10px;
+    @include clearfix;
+    > div {
+        float       : left;
+    }
+    div.ts-form-row {
+        margin-top  : 0px !important;
+    }
+    div.ts-form-label { // 項目ラベル
+        width               : auto !important;
+        background-color    : lighten($formLabelBgColor, 5%) !important;
+    }
+    div.ts-form-value { // 値入力・表示エリア
+    }
+}
+// 申請情報エリア
+div.ts-section-exp-assist {
+    margin-top      : 6px;
+    margin-bottom   : 8px;
+    margin-left     : 30px;
+    > div {
+    }
+    > div.ts-section-z0 {
+        width           : 100%;
+        margin-bottom   : 5px;
+    }
+    > div.ts-section-zp {
+        display         : table;
+        > div.ts-section-z1 {
+            display         : table-cell;
+            width           : 50%;
+        }
+        > div.ts-section-z2 {
+            display         : table-cell;
+            width           : 50%;
+            padding-left    : 10px;
+        }
+    }
+    div.ts-form-row {
+        margin-top    : 0px !important;
+        margin-bottom : 2px !important;
+        display             : table !important;
+        > div {
+            display         : table-cell !important;
+        }
+    }
+    div.ts-form-label { // 項目ラベル
+        div {
+            color   : #808080;
+        }
+    }
+    div.ts-form-value { // 値入力・表示エリア
+        margin      : 0px 3px 0px 1px !important;
+        div {
+            border  : none !important;
+        }
+    }
+    div.ts-form-icon {
+        margin      : 1px 4px 0px -2px !important;
+    }
+}
+div.ts-zone-type1 {
+    display         : table;
+    > div {
+        display         : table-cell;
+        vertical-align  : top;
+    }
+    > div.ts-section-z1 {
+    }
+    > div.ts-section-z2 {
+    }
+}
+// 添付ファイルエリア
+div.ts-section-exp-attach {
+    table {
+        margin-left     : 30px;
+        margin-bottom   : 6px;
+        border-collapse : collapse;
+        > tbody {
+            > tr {
+                vertical-align  : middle;
+                > td {
+                    padding : 0px;
+                    > div {
+                        margin              : 1px 4px;
+                        padding             : 1px 4px;
+                        background-color    : #F9F9FF;
+                        min-width           : 180px;
+                        a {
+                            cursor          : pointer;
+                            text-decoration : underline;
+                            color           : blue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+div.ts-form-date-range {
+    margin          : 0px 2px;
+    @include clearfix;
+    div {
+        float       : left;
+    }
+    div.ts-form-date {
+        padding     : 0px 1px;
+    }
+    div.ts-form-icon {
+    }
+    div.ts-form-wave {
+        width       : 24px;
+        margin-top  : 2px;
+        text-align  : center;
+    }
+}
+
+div.ts-form-currency-range {
+    margin          : 0px 2px;
+    @include clearfix;
+    div {
+        float       : left;
+    }
+    div.ts-form-currency {
+        padding     : 0px 1px;
+    }
+    div.ts-form-wave {
+        width       : 24px;
+        margin-top  : 2px;
+        text-align  : center;
+    }
+}
+
+div.ts-dialog {
+    div, td, input, textarea, select, table, tr, td {
+        box-sizing          : border-box;
+        -moz-box-sizing     : border-box;
+        -webkit-box-sizing  : border-box;
+    }
+    a:hover {
+        text-decoration : none;
+    }
+    * {
+//        font-family     : "lucida grande",tahoma,verdana,arial,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+        font-family     : "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif;
+        font-size       : $fontSize;
+    }
+    .ts-list-paging {
+        margin-bottom   : 2px;
+    }
+    div.ts-dialog-title {
+        margin-bottom   : 4px;
+    }
+    div.ts-dialog-comment {
+        textarea {
+            width       : 360px;
+            height      : 80px;
+        }
+    }
+    div.ts-error-area {
+        padding             : 0px 0px 4px 0px;
+        @include ts-error-output;
+    }
+    div.ts-dialog-tips {
+        position    : absolute;
+        top         : 0px;
+        right       : 0px;
+        display     : table;
+        font-size   : 0.9em;
+        a {
+            color       : #4A4AFF;
+            &:hover {
+                color   : #0000FF;
+            }
+        }
+    }
+}
+div.ts-dialog-route {
+    margin          : 0px 3px;
+    padding         : 0px 2px;
+    height          : 22px;
+    position        : relative;
+    > div.ts-station-area {
+        left        : 0px;
+        top         : 0px;
+        width       : 346px;
+        position    : absolute;
+        @include clearfix;
+        > div {
+            float           : left;
+            margin          : 0px;
+            padding         : 0px;
+            white-space     : nowrap;
+        }
+        > div.ts-station-text {
+            width           : 130px;
+            .dijitTextBox {
+                width       : 100%;
+            }
+        }
+        > div.ts-station-div {
+            width           : 300px;
+        }
+        > input[type="button"].pp_btn_oneway, input[type="button"].pp_btn_round {
+            float       : left;
+            margin      : 1px 4px !important;
+            width       : 20px !important;
+        }
+    }
+    input[type="button"].pp_btn_ektsrch {
+        left        : 292px;
+        top         : 1px;
+        width       : 25px !important;
+        position    : absolute;
+    }
+    input[type="button"].pp_ico_ekitan {
+        left        : 320px;
+        top         : 0px;
+        margin-left : 2px  !important;
+        width       : 22px !important;
+        position    : absolute;
+    }
+    div.ts-spice {
+        left        : 320px;
+        top         : 0px;
+        margin-left : 2px  !important;
+        position    : absolute;
+    }
+    input[type="button"].pp_ico_receipt {
+        left        : 288px;
+        top         : 0px;
+        margin-top  : 2px  !important;
+        margin-left : 2px  !important;
+        width       : 20px !important;
+        position    : absolute;
+    }
+    input[type="button"].pp_ico_receipt_a {
+        left        : 288px;
+        top         : 0px;
+        margin-top  : 2px  !important;
+        margin-left : 2px  !important;
+        width       : 20px !important;
+        position    : absolute;
+    }
+    button.ts-tax-icon {
+        left        : 310px;
+        top         : 0px;
+        margin-top  : 2px  !important;
+        margin-left : 2px  !important;
+        width       : 20px !important;
+        position    : absolute;
+    }
+}
+div.ts-dialog-buttons {
+    margin-top      : 16px;
+    margin-bottom   : 4px;
+    position        : relative;
+    > div {
+        margin-left     : auto;
+        margin-right    : auto;
+        display         : table;
+        @include clearfix;
+        > button {
+            margin-left : 16px !important;
+            float       : left;
+        }
+        > button.ts-dialog-ok {
+            @include ts-std-button1;
+        }
+        > button.ts-dialog-ok-disabled {
+            @include ts-std-button1-disabled;
+        }
+        > button.ts-cancel-apply {
+            @include ts-std-undo1;
+        }
+        > button.ts-cancel-apply-disabled {
+            @include ts-std-undo1-disabled;
+        }
+        > button.ts-dialog-cancel {
+            @include ts-std-button2;
+        }
+    }
+    > div.ts-edge-left {
+        position    : absolute;
+        top         : 0px;
+        left        : 6px;
+        button {
+            @include ts-std-button1;
+        }
+    }
+    > div.ts-edge-right {
+        position    : absolute;
+        top         : 0px;
+        right       : 0px;
+        button {
+            @include ts-std-button2;
+            margin-left : auto !important;
+        }
+    }
+    > div.ts-edge-continue {
+        position    : absolute;
+        top         : 0px;
+        left        : 60px;
+        button {
+            @include ts-std-button1;
+        }
+    }
+}
+div.ts-form-tax {
+    margin          : 0px;
+    padding         : 0px;
+    > table {
+        border-collapse : collapse;
+        > tbody {
+            > tr {
+                vertical-align  : middle;
+                > td {
+                    padding : 0px;
+                }
+            }
+        }
+    }
+    div.ts-tax-type {
+        margin      : 0px 10px 0px 0px;
+    }
+    div.ts-tax-label {
+        margin      : 0px 3px 0px 4px;
+    }
+    button.ts-tax-auto {
+        margin              : 0px;
+        width               : 20px;
+        height              : 20px;
+        background          : url('#{$imgDir}HandIn.gif') no-repeat;
+        border              : none;
+    }
+    button.enabled {
+        background-position : 0 0;
+        cursor              : pointer;
+    }
+    button.pushed {
+        background-position : 0 -40px;
+    }
+    button.disabled {
+        background-position : 0 -20px;
+        cursor              : default;
+    }
+    input.ts-tax-without-tax {
+        width           : 90px;
+        text-align      : right;
+        font-family     : $moneyFont;
+        font-size       : $moneyFontSize;
+        padding         : 0px 4px;
+    }
+    input.ts-tax-tax {
+        width           : 80px;
+        text-align      : right;
+        font-family     : $moneyFont;
+        font-size       : $moneyFontSize;
+        padding         : 0px 4px;
+    }
+}
+
+div.ts-form-foreign {
+    margin          : 0px;
+    padding         : 0px;
+    > table {
+        border-collapse : collapse;
+        > tbody {
+            > tr {
+                vertical-align  : middle;
+                > td {
+                    padding : 0px;
+                }
+            }
+        }
+    }
+    div.ts-foreign-label {
+        margin      : 0px 3px 0px 4px;
+    }
+    select.ts-foreign-name {
+        width           : 80px;
+        padding         : 0px;
+    }
+    input.ts-foreign-rate {
+        width           : 90px;
+        text-align      : right;
+        font-family     : $moneyFont;
+        font-size       : $moneyFontSize;
+        padding         : 0px 4px;
+    }
+    input.ts-foreign-cost {
+        width           : 110px;
+        text-align      : right;
+        font-family     : $moneyFont;
+        font-size       : $moneyFontSize;
+        padding         : 0px 4px;
+    }
+}
+div.ts-suffix {
+    margin-top      : 2px;
+    margin-left     : 2px;
+}
+div.ts-dialog-comment {
+    .dijitDialogPaneContent {
+        padding     : 8px;
+    }
+}
+
+//div.ts-apply-target {
+//    margin-top      : 0px;
+//    margin-left     : 8px;
+//    margin-bottom   : 0px;
+//}
+
+div.ts-apply-target-choice {
+    margin: 0px auto 6px auto;
+    display: table;
+    @include clearfix;
+    > div {
+        float           : left;
+        margin-right    : 18px;
+    }
+    > div.ts-apply-target {
+        font-weight     : bold;
+    }
+}
+div.ts-apply-start-message {
+    width: 390px;
+    height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	> div {
+		margin-top: auto;
+	}
+}
+div.ts-apply-approver-area {
+    margin-top      : 0px;
+    margin-bottom   : 6px;
+    @include clearfix;
+    > div.ts-apply-approver-a {
+        float           : left;
+        margin-right    : 18px;
+        font-weight     : bold;
+    }
+    > div.ts-apply-approver-b {
+        float           : left;
+        margin-right    : 12px;
+    }
+    > div.ts-apply-approver-c {
+        float           : right;
+        > a {
+            float           : left;
+            margin-right    : 8px;
+            text-decoration : underline;
+            color           : #4A4AFF;
+            cursor          : pointer;
+        }
+    }
+}
+
+div.ts-apply-link-ringi {
+    @include clearfix;
+    > button.std-button1 {
+        float           : left;
+        margin          : 8px 4px;
+        @include ts-std-button1;
+    }
+    > button.std-button2 {
+        float           : left;
+        margin          : 8px 4px 8px 8px;
+        @include ts-std-button2;
+    }
+}
+div.ts-section-ringi {
+    margin-bottom       : 8px;
+}
+a.ts-section-jump {
+    position    : absolute;
+    top         : 0px;
+    right       : 50px;
+    > div {
+        background      : url('#{$imgDir}p_images.png') no-repeat;
+        background-position: -434px -157px;
+        width       : 24px;
+        height      : 24px;
+        overflow    : hidden;
+        border      : none;
+        &:hover {
+            background-position: -459px -157px;
+        }
+    }
+}
+.ts-list-head{
+    border-top      : 1px solid lighten(#3b7aa4, 30%);
+    border-right    : 1px solid lighten(#3b7aa4, 30%);
+    border-left     : 1px solid lighten(#3b7aa4, 30%);
+}
+div.ts-search-list {
+    margin-top      : -4px;
+    table.ts-list-head {
+        border-top      : 1px solid lighten(#3b7aa4, 30%);
+        border-right    : 1px solid lighten(#3b7aa4, 30%);
+        border-left     : 1px solid lighten(#3b7aa4, 30%);
+        border-collapse : collapse;
+        thead {
+            tr {
+                th {
+                    white-space     : normal;
+                    background-color: #e3ebf1;
+                    padding         : 2px 0px;
+                    text-align      : center;
+                    > div {
+                        @include clearfix;
+                        margin      : auto;
+                        padding     : 0px;
+                        word-break  : break-all;
+                        display     : table;
+                        background-color: transparent;
+                        div {
+                            padding     : 0px;
+                            float       : left;
+                            background-color: transparent;
+                        }
+                        div.pp_base {
+                            margin-top      : 4px;
+                            margin-left     : 2px;
+                        }
+                    }
+                }
+                th.head-caution {
+                    background-color: #FFD5D5;
+                }
+            }
+        }
+    }
+    div.ts-commuter-pass-msg {
+        margin          : 0px 4px 8px 4px;
+        color           : #191970;
+    }
+    div.ts-search-list-box {
+        border          : 1px solid lighten(#3b7aa4, 30%);
+        overflow-y      : scroll;
+        height          : 202px;
+    }
+    div.ts-section-form {
+        div.ts-form-row {
+            padding-top     : 4px;
+            margin-bottom   : 6px;
+            div.ts-search-button {
+                margin-left :  2px;
+                margin-top  : -2px;
+            }
+            div.ts-receipt-sum {
+                margin-top  : 4px;
+                margin-left : 50px;
+//                font-size   : 90%;
+                white-space : nowrap;
+                a.proc-count, a.erro-count, a.comp-count {
+                    cursor          : pointer;
+                    text-decoration : underline;
+                    color           : blue;
+                }
+            }
+        }
+    }
+    table.ts-list-body {
+        border-collapse : collapse;
+        tbody {
+            tr {
+                td {
+                    border-right: 1px dashed #d0d0d0;
+                    padding     : 1px 4px;
+                }
+                td.last {
+                    border-right: none;
+                }
+                td.ts-form-route {
+                    font-size   : 0.9em;
+                    div,span {
+                        font-size   : inherit;
+                    }
+                    div.ts-form-route {
+                        @include clearfix;
+                        > div.ts-route-icons {
+                            float       : right;
+                            @include clearfix;
+                            > input {
+                                margin  : 1px;
+                                float   : left;
+                            }
+                            > div {
+                                margin  : 1px;
+                                float   : left;
+                            }
+                        }
+                    }
+                }
+                &:hover {
+                    background-color    : lighten(#b0c4de, 12%);
+                }
+            }
+        }
+    }
+    table.ts-moveto-null {
+        border-collapse : collapse;
+        width           : 100%;
+        tbody {
+            tr {
+                td {
+                    padding     : 6px;
+                }
+            }
+        }
+    }
+    button.ts-form-cal {
+        margin      : 1px;
+    }
+}
+
+div.ts-list-paging {
+    padding     : 0px;
+    @include clearfix;
+    div {
+        float           : left;
+        padding         : 0px;
+    }
+    div.ts-page-no {
+        margin          : 0px 1px;
+        padding         : 1px;
+    }
+    div.ts-page-on {
+        text-decoration : underline;
+        color           : #4A4AFF;
+        cursor          : pointer;
+        &:hover {
+            background  : #DCE0F7;
+        }
+    }
+    div.ts-page-off {
+        text-decoration : none;
+        color           : gray;
+        cursor          : default;
+    }
+    div.ts-page-message {
+        margin          : 0px 0px 0px 10px;
+        white-space     : nowrap;
+        display         : table;
+    }
+}
+
+td.ts-exp-apply-head {
+    @include clearfix;
+    div {
+        float           : left;
+    }
+    div.ts-exp-apply-title {
+        font-size       : 120% !important;
+        margin-top      : 5px;
+        margin-right    : 100px;
+        color           : #1E5481;
+    }
+    div.ts-list-paging {
+        margin-top      : 5px;
+    }
+    div.ts-exp-apply-not {
+        margin-left     : 80px;
+        button {
+            @include ts-std-button2;
+        }
+    }
+}
+
+.ts-currency {
+    font-family     : $moneyFont;
+    font-size       : $moneyFontSize;
+}
+.ts-currency2 {
+    font-family     : $moneyFont;
+}
+
+div.ts-exp-route {
+    padding         : 0px;
+    > table {
+        width           : 660px;
+        border-collapse : collapse;
+        > tbody {
+            > tr {
+                > td {
+                    padding     : 0px;
+                }
+                > td.ts-title {
+                    text-align  : left;
+                    div {
+                        margin-left : 12px;
+                    }
+                }
+                > td.ts-cost {
+                    div {
+                        margin-left : 12px;
+                        margin-top  : 4px;
+                    }
+                }
+                > td.ts-route-head {
+                    border          : 1px solid #74A3C5;
+                    text-align      : center;
+                    div {
+                        padding     : 2px;
+                        color       : #ffffff;
+                        background  : #74A3C5;
+                    }
+                }
+                > td.ts-route-body {
+                    border          : 1px solid #74A3C5;
+                    div {
+                        overflow-x  : scroll;
+                        overflow-y  : hidden;
+                        margin      : 0px;
+                        width       : 658px;
+                        height      : 54px;
+                        > table {
+                            margin-top  : 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+table.ts-expItem-tip {
+    border-collapse : collapse;
+    font-size       : 0.9em;
+    > tbody {
+        > tr {
+            > td {
+                padding     : 2px 8px;
+            }
+        }
+    }
+}
+
+.ts-diff-yes {
+    background-color    : #f4c64c;
+    color               : #222222;
+    div {
+        color           : #222222;
+    }
+}
+.ts-diff-del {
+    background-color    : #c9cac2;
+    color               : #909088;
+    div {
+        color           : #909088;
+    }
+}
+.ts-diff-jsnavi {
+    background-color    : #c9cac2;
+    color               : #909088;
+    div {
+        color           : #909088;
+    }
+}
+.ts-diff-no {
+    background-color    : transparent;
+    color               : #222222;
+    div {
+        color           : #222222;
+    }
+}
+.ts-pink {
+    background-color    : #fff0f5;
+}
+
+#tsfCalendarArea {
+    width       : auto;
+    height      : auto;
+}
+
+// .pp_ico_ekitan {
+//     &:active {
+//         background-position : -229px -190px !important;
+//     }
+// }
+
+div.ts-message-box {
+    width   : 340px;
+    div.ts-section-form {
+        div.ts-message {
+            margin      : 0px 12px;
+        }
+        div.ts-option {
+            margin      : 20px 32px;
+            min-height  : 2px;
+            span {
+                font-size   : 90%;
+            }
+        }
+    }
+}
+/*----------------------------------------------------------------------------*/
+input[type="button"].ts-legacy-cal { // 日付選択UIボタン
+    width           : 21px !important;
+    height          : 20px !important;
+    margin          : 0px 2px;
+    cursor          : pointer;
+    border          : none;
+    background      : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: -338px -111px;
+    &:hover {
+        background-position: -360px -111px;
+    }
+}
+table.ekitan_search_frame table.cond {
+    margin          : 0px;
+}
+table.ekitan_route td select {
+    font-size       : 11px;
+}
+#expSearchResultSearch {
+    @include ts-done-button-s;
+    padding         : 0px;
+    > div {
+        margin      : 3px 10px;
+    }
+}
+#expSearchOk {
+    @include ts-done-button;
+    padding         : 0px;
+    > div {
+        margin      : 5px 10px;
+    }
+}
+#expSearchCancel {
+    @include ts-std-button2;
+    padding         : 0px;
+    > div {
+        margin      : 5px 10px;
+    }
+}
+#expSearchClose {
+    @include ts-std-button2;
+    margin-left     : auto;
+    margin-right    : auto;
+    > div {
+        margin      : 5px 10px;
+    }
+}
+
+/*----------------------------------------------------------------------------*/
+#attachExpCtrl {
+    text-align      : right;
+    table {
+        border-collapse : collapse;
+        margin-left     : auto;
+        width           : 100%;
+        td {
+            text-align  : center;
+            white-space : nowrap;
+            .zoomDisp {
+                width       : 55px;
+                padding     : 1px;
+                border      : 1px solid #222;
+                text-align  : center;
+            }
+            button.ts-close {
+                @include ts-std-button2;
+            }
+        }
+        td.ts-close {
+            padding-left    : 10px;
+            width           : 100px;
+        }
+        td.pb_btns {
+            width           : 110px;
+        }
+        td.zoomDisp {
+            width           : 70px;
+        }
+    }
+}
+#attachExpView, #receiptsPlace {
+    div.image-area {
+        margin              : 5px 10px;
+        overflow            : scroll;
+        border              : 1px solid #000;
+        background-color    : #BBB;
+        text-align          : left;
+        img {
+        }
+    }
+    div.no-image-area {
+        margin              : 15px;
+        text-align          : left;
+    }
+    div.image-print {
+        margin              : 2px 10px;
+        overflow            : hidden;
+        text-align          : left;
+    }
+    div.image-name {
+        margin              : 2px 12px 0px 12px;
+        text-align          : left;
+        font-size           : $fontSize;
+        color               : #222222;
+    }
+    div.receipt-print {
+        margin              : 2px;
+        overflow            : hidden;
+        text-align          : left;
+    }
+    div.receipt-name {
+        margin              : 2px;
+        text-align          : left;
+    }
+    textarea.csv-textarea {
+        margin              : 5px 10px;
+        padding             : 2px 4px;
+        border              : 1px solid #ccc;
+    }
+}
+
+#csvResultList {
+    margin              : 2px 12px;
+    width               : auto;
+    div {
+        margin-right        : 24px;
+        font-size           : 90%;
+    }
+}
+
+/* 回転用スタイル */
+.rotate0 {
+    -webkit-transform : rotate(0deg);
+    -moz-transform    : rotate(0deg);
+    -ms-transform     : rotate(0deg);
+}
+.rotate90 {
+    -webkit-transform : rotate(90deg);
+    -moz-transform    : rotate(90deg);
+    -ms-transform     : rotate(90deg);
+}
+.rotate180 {
+    -webkit-transform : rotate(180deg);
+    -moz-transform    : rotate(180deg);
+    -ms-transform     : rotate(180deg);
+}
+.rotate270 {
+    -webkit-transform : rotate(270deg);
+    -moz-transform    : rotate(270deg);
+    -ms-transform     : rotate(270deg);
+}
+/* 回転用スタイルのIE8以前用 */
+.rotate0_ie8 {
+    filter : progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+}
+.rotate90_ie8 {
+    filter : progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+.rotate180_ie8 {
+    filter : progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+.rotate270_ie8 {
+    filter : progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.ts-popup-win > div {
+    margin-top      : -4px;
+    margin-bottom   : 16px;
+    > table {
+        min-width   : 650px;
+        margin      : 0px auto;
+        td {
+            text-align          : left;
+            background-color    : #91C5DB;
+            color               : white;
+            div {
+                margin          : 0px 8px;
+                font-weight     : bold;
+            }
+        }
+    }
+}
+.ts-popup-win #expListView {
+    min-width       : 650px;
+    div.ts-emp-table {
+        margin          : 0px auto;
+        display         : table;
+    }
+    div.ts-list-paging {
+        margin-top      : 5px;
+        display         : table;
+    }
+    div.ts-tool-top {
+        display             : table !important;
+        > div {
+            display         : table-cell !important;
+            vertical-align  : middle;
+            button.ts-search {
+                @include ts-std-button1;
+            }
+            button.ts-close {
+                @include ts-std-button2;
+            }
+        }
+        div.ts-tool-label {
+            padding-left    : 4px;
+            padding-right   : 4px;
+        }
+        div.ts-tool-value {
+            padding-left    : 4px;
+            padding-right   : 8px;
+        }
+    }
+    table.ts-list-body {
+        a {
+            text-decoration : none;
+            color           : #4A4AFF;
+            &:hover {
+                color       : #0000FF;
+            }
+        }
+    }
+}
+
+$printSectionTop : 8px;
+.ts-exp-print, .upload-area {
+    margin          : 0px !important;
+    #tsfFormArea {
+        padding     : 2px 8px;
+    }
+    button.std-button1 {
+        @include ts-std-button1;
+        padding     : 0px;
+        > div {
+            margin  : 5px 10px;
+        }
+    }
+    button.std-button2 {
+        @include ts-std-button2;
+        padding     : 0px;
+        > div {
+            margin  : 5px 10px;
+        }
+    }
+    button.std-button3 {
+        @include ts-std-button3;
+        padding     : 0px;
+        > div {
+            margin  : 5px 10px;
+        }
+    }
+    table {
+        border-collapse : collapse;
+        td {
+            padding     : 0px;
+        }
+    }
+    table.print-top1 {
+        width           : 100%;
+        > tbody > tr > td {
+            vertical-align  : bottom;
+        }
+    }
+    table.print-top1L {
+        width           : 100%;
+        td.big-title > div {
+            font-size   : 110% !important;
+        }
+    }
+    table.print-tops {
+        width           : 100%;
+        td {
+            border      : 1px solid #555;
+            white-space : nowrap;
+            text-align  : left;
+            padding     : 1px 0px;
+            div {
+                margin  : 0px 4px;
+            }
+        }
+        td.print-col-c  {
+            text-align      : right;
+            font-weight     : bold;
+//            background-color: #CDDBE8;
+        }
+        td.print-trans  {
+            border      : 1px solid transparent;
+        }
+    }
+    table.print-appno {
+        margin-top      : 4px;
+        td.print-apno  { text-align: center; width: 20%; }
+        td.print-stat  { text-align: center; width: 20%; }
+        td.print-payd  { text-align: center; width: 20%; }
+        td.print-aptype {
+            width           : 35%;
+            white-space     : normal;
+            border-top      : 1px solid transparent;
+            border-left     : 1px solid transparent;
+            border-bottom   : 1px solid transparent;
+            > div {
+                margin-right    : 10px;
+            }
+        }
+    }
+    table.print-who {
+        margin-top      : 2px;
+        td.print-col-c  { width :  8%; }
+        td.print-dept   { width : 36%; }
+        td.print-code   { width : 15%; }
+        td.print-emp    { width : 25%; }
+    }
+    table.print-sum {
+        margin-top      : 2px;
+        td.print-col-c { width :  8%; }
+        td.print-total, td.print-provis, td.print-duetopay, td.print-credit, td.print-invoice {
+            width : 25%;
+        }
+    }
+    table.print-bodys {
+        width           : 100%;
+        td {
+            border      : 1px solid #555;
+            text-align  : left;
+            padding     : 1px 0px;
+            div {
+                margin  : 0px 4px;
+            }
+        }
+        td > div {
+            margin      : -1px 4px;
+        }
+        td.print-bar {
+            font-weight     : bold;
+            border-top      : 1px solid transparent;
+            border-left     : 1px solid transparent;
+            border-right    : 1px solid transparent;
+        }
+        td.print-col-c     {
+            text-align: center; font-weight: bold;
+//            background-color: #CDDBE8;
+        }
+        tr.print-head > td {
+//            background-color: #CDDBE8;
+        }
+    }
+    table.print-base {
+        margin-top      : $printSectionTop;
+        td.print-apptype {
+            border-top      : none;
+            border-left     : 1px solid transparent;
+            border-right    : 1px solid transparent;
+        }
+        td > div {
+            margin      : -1px 4px;
+        }
+        td.print-col-c   {
+            width       : 10%;
+            white-space : nowrap;
+            text-align  : right;
+        }
+        td.expense-type, td.pay-expitem, td.apply-date, td.pay-date, td.provis-paym, td.job, td.charge-dept, td.extra-item1, td.extra-item2 {
+            width       : 40%;
+        }
+        td.print-sd, td.print-st, td.print-dt {
+            width       : 20%;
+        }
+    }
+    table.print-jtb {
+        margin-top      : $printSectionTop;
+        td > div {
+            margin      : -1px 4px;
+        }
+        td.print-jtb-c1  { width: 10%; text-align: center; font-weight: bold; }
+        td.print-jtb-c2  { width: 15%; text-align: center; font-weight: bold; }
+        td.print-jtb-c3  { width: 10%; text-align: center; font-weight: bold; }
+        td.print-jtb-c4  { width: 10%; text-align: center; font-weight: bold; }
+        td.print-jtb-c5  { width: 35%; text-align: center; font-weight: bold; }
+        td.print-jtb-c6  { width: 20%; text-align: center; font-weight: bold; }
+        td.print-date {
+            text-align  : center;
+        }
+        td.print-right {
+            text-align  : right;
+        }
+        td.print-total {
+            text-align  : right;
+            div {
+                font-weight : bold;
+            }
+        }
+    }
+    table.print-btpd {
+        margin-top      : $printSectionTop;
+        td > div {
+            margin      : -1px 4px;
+        }
+        td.print-btpd-c1 { width: 10%; text-align: center; font-weight: bold; }
+        td.print-btpd-c2 { width: 25%; text-align: center; font-weight: bold; }
+        td.print-btpd-c3 { width: 25%; text-align: center; font-weight: bold; }
+        td.print-btpd-c4 { width: 40%; text-align: center; font-weight: bold; }
+        td.print-date {
+            text-align  : center;
+        }
+    }
+    table.print-coupon {
+        margin-top      : $printSectionTop;
+        td > div {
+            margin      : -1px 4px;
+        }
+        td.print-coupon-c1 { width: 10%; text-align: center; font-weight: bold; }
+        td.print-coupon-c2 { width: 40%; text-align: center; font-weight: bold; }
+        td.print-coupon-c3 { width: 10%; text-align: center; font-weight: bold; }
+        td.print-coupon-c4 { width: 40%; text-align: center; font-weight: bold; }
+        td.print-date {
+            text-align  : center;
+        }
+        td.print-right {
+            text-align  : right;
+        }
+    }
+    table.print-ticket {
+        margin-top      : $printSectionTop;
+        td > div {
+            margin      : -1px 4px;
+        }
+        td.print-ticket-c1 { width: 10%; text-align: center; font-weight: bold; }
+        td.print-ticket-c2 { width: 20%; text-align: center; font-weight: bold; }
+        td.print-ticket-c3 { width: 30%; text-align: center; font-weight: bold; }
+        td.print-ticket-c4 { width: 20%; text-align: center; font-weight: bold; }
+        td.print-ticket-c5 { width: 20%; text-align: center; font-weight: bold; }
+        td.print-ticket-c31 { width: 10%; }
+        td.print-date {
+            text-align  : center;
+        }
+    }
+    table.print-foreign {
+        margin-top      : $printSectionTop;
+        td > div {
+            margin      : -1px 4px;
+        }
+        td.print-col-c   {
+            width       : 10%;
+            white-space : nowrap;
+            text-align  : right;
+        }
+    }
+    table.print-provis {
+        margin-top      : $printSectionTop;
+        td > div {
+            margin      : -1px 4px;
+        }
+        td.print-col-c   {
+            width       : 10%;
+            white-space : nowrap;
+            text-align  : right;
+        }
+        td.print-date {
+            width       : 30%;
+        }
+        td.print-amount {
+            width       : 30%;
+        }
+    }
+    table.print-detail {
+        margin-top      : $printSectionTop;
+        td > div {
+            margin      : -1px 4px;
+        }
+        td.print-detail-c1  { width:  4%; text-align: center; font-weight: bold; }
+        td.print-detail-c2s { width:  1%; text-align: center; font-weight: bold; }
+        td.print-detail-c2  { width: 15%; text-align: center; font-weight: bold; }
+        td.print-detail-c3  { width: 25%; text-align: center; font-weight: bold; }
+        td.print-detail-c4  { width: 10%; text-align: center; font-weight: bold; }
+        td.print-detail-c5  { width: 20%; text-align: center; font-weight: bold; }
+        td.print-detail-c6  { width: 25%; text-align: center; font-weight: bold; }
+        td.print-date {
+            text-align  : center;
+        }
+        td.print-right {
+            text-align  : right;
+        }
+        td.print-total {
+            text-align  : right;
+            div {
+                font-weight : bold;
+            }
+        }
+    }
+    table.print-attach {
+        margin-top      : $printSectionTop;
+        td > div {
+            margin      : -1px 4px;
+        }
+        td.print-detail-c1  { width:  1%; text-align: center; font-weight: bold; }
+        td.print-detail-c2  { width: 10%; text-align: center; font-weight: bold; }
+        td.print-detail-c3  { width: 90%; text-align: center; font-weight: bold; }
+        td.print-no {
+            text-align  : right;
+        }
+        td.print-target {
+            text-align  : left;
+            white-space : nowrap;
+        }
+        td.print-fname > div {
+            text-align  : left;
+            margin      : -1px 10px;
+        }
+    }
+    table.print-comment {
+        margin-top      : $printSectionTop;
+        td > div {
+            margin      : -1px 4px;
+        }
+    }
+    table.print-attr {
+        margin-top      : $printSectionTop;
+        td.print-col-a   {
+            width       : 10%;
+            white-space : nowrap;
+            text-align  : left;
+        }
+        td {
+            border      : 1px solid transparent;
+        }
+        td.print-lastd { width: 40%; text-align: left; }
+        td.print-appld { width: 40%; text-align: left; }
+        td.print-actor { width: 40%; text-align: left; }
+    }
+    div.print-image {
+        margin-top      : $printSectionTop;
+    }
+    table.print-sign {
+        width           : 100%;
+        td {
+            border      : 1px solid #555;
+            width       : 60px;
+            height      : 60px;
+        }
+    }
+    table.print-assist {
+        margin-top      : $printSectionTop;
+//        td > div {
+//            margin      : -1px 4px;
+//        }
+        div.print-col-c   {
+//            width       : 10%;
+            white-space : nowrap;
+            text-align  : right;
+            font-weight : bold;
+        }
+        .print-bar {
+            border-bottom   : none;
+        }
+        td.assist-area {
+            border      : 1px solid #555;
+            > div {
+                margin      : 0px;
+                @include clearfix;
+                > div {
+                    display     : table;
+                    margin      : 0px 1px -1px 1px;
+                    float       : left;
+                    > div {
+                        display     : table-cell;
+                        vertical-align  : middle;
+                        margin      : 0px;
+                        padding     : 0px 4px;
+                    }
+                    > div.minw-100 {
+                        min-width       : 100px;
+                        border-bottom   : 1px solid #555;
+                        text-align      : center;
+                        padding         : 0px 4px;
+                    }
+                }
+            }
+        }
+    }
+    td.ts-form-route {
+        font-size   : 0.9em;
+        div,span {
+            font-size   : inherit;
+        }
+        div.ts-form-route {
+            margin      : -1px 2px;
+            @include clearfix;
+            > div.ts-route-icons {
+                margin      : 0px;
+                float       : right;
+                @include clearfix;
+                > input {
+                    margin  : 1px;
+                    float   : left;
+                }
+                > div {
+                    margin  : 1px;
+                    float   : left;
+                }
+            }
+            > div {
+                font-size   : 90% !important;
+            }
+        }
+    }
+    td.exp-ctrl {
+        width           : 180px;
+    }
+    .upload-toggle {
+        margin-left     : 10px;
+    }
+    .upload-file {
+        display         : table;
+        border          : 1px dashed #000000;
+        margin          : 4px 10px;
+        table {
+            border-collapse : collapse;
+            margin          : 4px 5px 8px 5px;
+            td {
+                text-align  : left;
+                input[type="file"] {
+                    font-size   : 96%;
+                }
+            }
+        }
+    }
+    .uploadError {
+        color           : red;
+        font-weight     : strong;
+    }
+    td.print-col-c, tr.print-head > td {
+        background-color    : #E3EBF1;
+    }
+    div.print-removed {
+        color           : red;
+        font-weight     : bold;
+        text-align      : left;
+        margin          : 0px 4px;
+    }
+}
+div.upload-area > div > table {
+    width               : 100%;
+    td {
+        vertical-align  : bottom;
+    }
+}
+.attach-table {
+    > div {
+        text-align      : left;
+        margin          : 0px 10px 4px 20px;
+        font-size       : 110%;
+    }
+    table {
+        border-collapse : collapse;
+        margin          : 0px 10px 6px 20px;
+        td {
+            text-align  : left;
+            font-size   : 96%;
+            > a {
+                text-decoration : underline;
+                color           : #4A4AFF;
+                cursor          : pointer;
+                &:hover {
+                    background  : #DCE0F7;
+                }
+            }
+        }
+        td.attach-name {
+            min-width       : 150px;
+            padding-right   : 20px;
+        }
+    }
+}
+div.receipt-area {
+    margin-top  : 4px;
+    padding     : 2px 12px 2px 8px;
+    > div {
+        border-collapse : collapse;
+        width           : 100%;
+        border          : 2px dotted #CCC;
+        > div {
+            margin-bottom       : 8px;
+        }
+        > div.receipt-mark {
+            display             : table;
+            margin              : 8px auto 0px auto;
+            color               : #CCC;
+            font-size           : 15px !important;
+            font-weight         : bold;
+        }
+    }
+}
+div.allowance-mismatch {
+    margin-top      : 4px;
+    margin-bottom   : 4px;
+    @include clearfix;
+    > div {
+        float   : left;
+    }
+    > div.pp_ico_ng {
+        margin-left     : 2px;
+        margin-right    : 8px;
+    }
+    > div.ng-message {
+        color           : red;
+    }
+}
+// 参照モード表示用
+div.reference-mark {
+    position         : absolute;
+    right            : 310px;
+    top              : 1px;
+    color            : #FFF;
+    background-color : #AE3838;
+    font-size        : 12px !important;
+    z-index          : 2;
+    cursor           : pointer;
+    padding          : 0px 6px;
+    &:hover {
+        background-color : #EC4F4F;
+    }
+}
+div.reference-mark-mobile {
+    position         : absolute;
+    left             : -4px;
+    top              : 1px;
+    color            : #FFF;
+    background-color : #AE3838;
+    font-size        : 10px !important;
+    z-index          : 2;
+    cursor           : pointer;
+    padding          : 0px 6px;
+    &:hover {
+        background-color : #EC4F4F;
+    }
+}
+div.ts-apply-warn-closing {
+    width   : 390px;
+    > div {
+        padding             : 4px 8px;
+        background-color    : #FDE5EA;
+        margin              : 4px;
+        color               : #F00;
+        border              : 1px solid #F00;
+    }
+    div.ts-range-list{
+        margin          : 4px 12px;
+        > div {
+            white-space         : nowrap;
+            padding             : 0px 2px;
+            margin              : 2px 4px;
+            span {
+                margin-left     : 4px;
+            }
+        }
+    }
+}
+div.ts-apply-warn-over {
+    width   : 390px;
+    > div {
+        padding             : 4px 8px;
+        background-color    : #FDE5EA;
+        margin              : 4px;
+        color               : #F00;
+        border              : 1px solid #F00;
+        > div.top-only {
+            margin          : 4px 20px;
+            span {
+                margin-left     : 4px;
+            }
+        }
+    }
+}
+div.ts-jtb-zone {
+    display     : block !important;
+    margin      : 8px 0px 0px 0px;
+    > div.ts-jtb-buttons {
+        @include clearfix;
+        > button {
+            float           : left;
+            margin-right    : 10px;
+        }
+    }
+    > div.ts-jtb-form {
+        display     : table;
+        border      : 1px solid gray;
+        padding     : 8px;
+        margin      : 4px;
+        background-color    : #FFFAFA
+    }
+}
+.ts-uiblock {
+    margin           : 0;
+    padding          : 0;
+    left             : 0px;
+    top              : 0px;
+    border           : 0px none;
+    position         : absolute;
+    display          : block;
+    background-color : black;
+    opacity          : .25;
+    -moz-opacity     : .25;
+    z-index          : 100;
+}
+.ts-busy-panel {
+    margin           : 0;
+    padding          : 0;
+    left             : 0px;
+    top              : 0px;
+    width            : 240px;
+    height           : 80px;
+    border           : 0px none;
+    position         : absolute;
+    display          : block;
+    background-color : white;
+    z-index          : 110;
+
+    div.busy-message {
+        margin          : 15px auto 5px auto;
+        display         : table;
+        font-family     : $moneyFont;
+    }
+    button.std-button1 {
+        @include ts-std-button2;
+        padding         : 0px;
+        margin          : 5px auto;
+        > div {
+            margin      : 5px 10px;
+            font-family : $moneyFont;
+            font-size   : 110%;
+        }
+    }
+}
+// 絞り込みエリア
+div.ts-section-exp-filter {
+    margin-top      : 6px;
+    margin-bottom   : 8px;
+    margin-left     : 30px;
+    > div {
+    }
+    div.ts-form-label { // 項目ラベル
+        div {
+//            background-color    : #EAE7FF; // #8496 で削除
+        }
+    }
+}
+.ts-section-bar-filter {
+//    background-color    : #D4D0F1; // #8496 で削除
+}
+
+button.n-std-button1 {
+    @include ts-std-button1;
+    padding     : 0px;
+    > div {
+        margin  : 5px 10px;
+    }
+}
+button.n-std-button2 {
+    @include ts-std-button2;
+    padding     : 0px;
+    > div {
+        margin  : 5px 10px;
+    }
+}
+button.n-std-button3 {
+    @include ts-std-button3;
+    padding     : 0px;
+    > div {
+        margin  : 5px 10px;
+    }
+}
+
+// 事前申請：出張手配（交通・宿泊）
+div.ts-jtb-button-area {
+	margin         :10px 0px;
+	padding-left   :10px;
+	width          :996px;
+	border         :solid 1.5px #d3deeb;
+	border-radius  :5px;
+	@include clearfix;
+	table {
+		> tbody {
+			> tr {
+				> td {
+                    white-space         : nowrap;
+                    div {
+                        white-space     : nowrap;
+                    }
+                }
+                > td.ts-jtb-button {
+                    > button {
+                        @include ts-std-button1;
+                        @include clearfix;
+                        padding     : 0px;
+                        height      :28px;
+                        > div {
+                            float       : left;
+                            padding     : 5px 2px;
+                            white-space : nowrap;
+                            &:first-child {
+                                padding : 0px;
+                            }
+                        }
+                    }
+                }
+			}
+		}
+	}
+}
+
+.ts-jtb-logo {		// J'sNAVI Jrロゴ
+    background : url('#{$imgDir}jtb_logo.png') no-repeat;
+    width      : 110px;
+    height     : 20px;
+    margin-top : 3px;
+}
+
+.ts-jtb-travel {	// 出張手配を行う
+    background : url('#{$imgDir}jtb_travel.png') no-repeat;
+    width      : 23px;
+    height     : 20px;
+    margin-top : 5px;
+    margin-left: 8px;
+}
+
+.ts-jtb-refresh {	// 手配情報更新
+    background : url('#{$imgDir}jtb_refresh.png') no-repeat;
+    width      : 23px;
+    height     : 20px;
+    margin-top : 5px;
+    margin-left: 8px;
+}
+
+/* 縦スクロール可能なテーブル */
+.scrollable-table{
+    thead{
+        border-top      : 1px solid #9cc2dc;
+        border-right    : 1px solid #9cc2dc;
+        border-left     : 1px solid #9cc2dc;
+        border-collapse : collapse;
+        background-color: #e3ebf1;
+        display: block;
+        th{
+            white-space: normal;
+            word-break: break-word;
+        }
+    }
+
+    tbody{
+        border: 1px solid #9cc2dc;
+        display: block; 
+        overflow-x: hidden; 
+        overflow-y: scroll; 
+        tr:nth-child(even){
+            background-color: #fefefe; 
+        }
+        tr:nth-child(odd){
+            background-color: #f4f7fa; 
+        }
+        td{
+            border-right: 1px dashed #d0d0d0;
+            white-space: normal;
+            word-break: break-word;
+        }
+    }
+}
+
+

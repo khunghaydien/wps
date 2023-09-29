@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"isLoading\\": false,
++ }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/DAILY_TIME_TRACK/END_LOADING 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"isLoading\\": true,
++   \\"isLoading\\": false,
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/DAILY_TIME_TRACK/START_LOADING 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"isLoading\\": false,
++   \\"isLoading\\": true,
+  }"
+`;

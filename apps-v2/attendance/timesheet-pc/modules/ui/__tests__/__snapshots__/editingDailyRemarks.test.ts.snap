@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected undefined but received null."
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_REMARKS/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"recordDate\\": \\"2020-04-03\\",
++   \\"recordId\\": \\"a0D2v00001DXpnZEAT\\",
++   \\"remarks\\": \\"\\",
++ }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_REMARKS/UNSET 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected object but received null."
+`;

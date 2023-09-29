@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loadTimeTrackAlerts() should dispatch actions to fetch alerts of inconsistency of time tracking and work hours 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "2019-10-01": Array [
+        Object {
+          "code": "TIME_ATT_CONSISTENCY",
+          "level": "Warn",
+        },
+      ],
+      "2019-10-02": Array [
+        Object {
+          "code": "TIME_ATT_CONSISTENCY",
+          "level": "Warn",
+        },
+      ],
+      "2019-10-03": Array [
+        Object {
+          "code": "TIME_ATT_CONSISTENCY",
+          "level": "Warn",
+        },
+      ],
+      "2019-10-04": Array [
+        Object {
+          "code": "TIME_ATT_CONSISTENCY",
+          "level": "Warn",
+        },
+      ],
+      "2019-10-07": Array [
+        Object {
+          "code": "TIME_ATT_CONSISTENCY",
+          "level": "Warn",
+        },
+      ],
+      "2019-10-08": Array [
+        Object {
+          "code": "TIME_ATT_CONSISTENCY",
+          "level": "Warn",
+        },
+      ],
+      "2019-10-09": Array [
+        Object {
+          "code": "TIME_ATT_CONSISTENCY",
+          "level": "Warn",
+        },
+      ],
+      "2019-10-10": Array [
+        Object {
+          "code": "TIME_ATT_CONSISTENCY",
+          "level": "Warn",
+        },
+      ],
+    },
+    "type": "PLANNER-PC/MODULES/ENTITIES/TIMETRACKALERT/FETCH_SUCCESS",
+  },
+]
+`;

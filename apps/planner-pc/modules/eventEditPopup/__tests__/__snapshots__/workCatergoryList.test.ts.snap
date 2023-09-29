@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@INIT 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() CLEAR_EVENT_EDIT_POPUP 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() CLEAR_WORK_CATEGORY_LIST_EVENT_EDIT_POPUP 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() FETCH_SUCCESS_WORK_CATEGORY_LIST_EVENT_EDIT_POPUP 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"code\\": \\"1\\",
++     \\"id\\": \\"a1F2v00000CwPPzEAN\\",
++     \\"name\\": \\"ピザの上にペパロニを載せる\\",
++   },
++   Object {
++     \\"code\\": \\"2\\",
++     \\"id\\": \\"a1F2v00000CwPQ4EAN\\",
++     \\"name\\": \\"▲刺身の上にタンポポを乗せる\\",
++   },
++   Object {
++     \\"code\\": \\"3\\",
++     \\"id\\": \\"a1F2v00000CwPQEEA3\\",
++     \\"name\\": \\"親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れ\\",
++   },
++   Object {
++     \\"code\\": \\"4\\",
++     \\"id\\": \\"a1F2v00000CwPQJEA3\\",
++     \\"name\\": \\"吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。 何でも薄暗いじめじめした所でニャ\\",
++   },
++   Object {
++     \\"code\\": \\"7\\",
++     \\"id\\": \\"a1F2v00000CwZRHEA3\\",
++     \\"name\\": \\"7\\",
++   },
++ ]"
+`;

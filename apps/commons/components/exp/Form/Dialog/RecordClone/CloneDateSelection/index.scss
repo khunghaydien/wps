@@ -1,0 +1,106 @@
+@import '../../../../../../styles/wsp';
+
+.ts-expenses-modal-record-clone-date-selection {
+  &__dialog-frame {
+    width: 764px;
+
+    .commons-dialog-frame__header-title {
+      padding: 0 8px;
+    }
+  }
+
+  &__inner {
+    height: 420px;
+    padding: 24px 24px 0;
+
+    &-date-select {
+      padding-left: 20px;
+    }
+  }
+
+  &__body {
+    display: flex;
+  }
+
+  &__icon-btn {
+    height: 20px;
+    margin-top: 150px;
+    border: none;
+    color: #2782ed;
+
+    &:focus {
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    &:hover {
+      background-color: #f3f2f2;
+    }
+
+    svg {
+      height: 18px;
+    }
+  }
+
+  &__calender {
+    margin: auto;
+
+    .DayPicker-wrapper {
+      padding-bottom: 5px;
+
+      .DayPicker-Caption {
+        text-align: center;
+
+        div {
+          font-weight: bold;
+        }
+      }
+
+      .DayPicker-Months {
+        .DayPicker-Month:first-child {
+          margin-left: 0;
+        }
+
+        .DayPicker-Month:nth-child(2) {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .DayPicker-Day--today {
+      color: #080707;
+      font-weight: inherit;
+    }
+
+    .DayPicker-Day {
+      border-radius: 0;
+    }
+
+    .DayPicker-Day--defaultDay {
+      color: #216aa5;
+
+      &.DayPicker-Day--selected {
+        color: #f0f8ff !important;
+      }
+    }
+
+    &-hint {
+      color: color('text-2');
+      font-size: 12px;
+
+      &-day {
+        color: #216aa5;
+        float: right;
+      }
+    }
+  }
+
+  &__error {
+    margin-top: 2px;
+    color: #c23934;
+  }
+
+  &-dateSelect {
+    color: color('text-2');
+  }
+}

@@ -1,0 +1,29 @@
+.tracking-pc-list-empty-item {
+  display: flex;
+  min-height: 30px;
+  border-bottom: 1px solid $color-border-default;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 1px solid $color-border-default;
+  }
+
+  &__item-date-inner {
+    display: flex;
+    min-height: 29px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 8px;
+  }
+
+  &__item:last-child {
+    border-right: none;
+  }
+
+  &__item--date {
+    border-right: 1px solid $color-border-default;
+  }
+}

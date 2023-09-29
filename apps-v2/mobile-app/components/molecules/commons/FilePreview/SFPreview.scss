@@ -1,0 +1,63 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-commons-file-sf-preview {
+  text-align: center;
+
+  &__expand {
+    img {
+      width: 100%;
+    }
+  }
+
+  &__area {
+    position: relative;
+    background-color: #fff;
+    min-height: 110px;
+    width: 100%;
+    border: 1px solid grey;
+  }
+
+  &__thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__msg {
+    font-size: 12px;
+    white-space: nowrap;
+
+    &-center {
+      text-align: center;
+      margin-top: -18px;
+    }
+  }
+
+  &__placeholder,
+  &__image {
+    z-index: -100;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+
+  &__placeholder-icon {
+    padding: 25px;
+    display: block;
+    pointer-events: none;
+    svg {
+      transform: scale(2);
+    }
+  }
+
+  &_large-file-msg-with-link {
+    padding: 20px 5px 0 5px;
+    text-align: center;
+    word-break: break-word;
+    display: grid;
+    &-title {
+      color: #000;
+    }
+  }
+}

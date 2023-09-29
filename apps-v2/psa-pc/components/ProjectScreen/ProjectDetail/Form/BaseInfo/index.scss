@@ -1,0 +1,59 @@
+@import '../../../../../../commons/components/psa/variables.scss';
+
+.ts-psa__project-form__base {
+  .ts-psa__form-field {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .ts-psa__form-field__label {
+    width: 25%;
+  }
+
+  .slds-select.ts-select,
+  .ts-textarea-field.slds-input,
+  .ts-text-field.slds-input {
+    width: 75%;
+  }
+  .ts-psa__date-field__container {
+    width: 36%;
+  }
+
+  &__extended-item-container {
+    width: 100%;
+  }
+
+  .admin-pc-common-clearable-field__clear {
+    width: auto;
+    height: auto;
+  }
+  &__search-header-container {
+    display: flex;
+    gap:10px;
+    margin: 10px;
+
+  }
+  &__errText{
+    width: 75%;
+    margin-left: 25%;
+  }
+  &__search-button {
+    min-width: 32px;
+    min-height: 32px;
+    align-self: flex-end;
+    border: 1px solid #dddbda;
+    border-radius: 4px;
+    &-container {
+      align-self: flex-end;
+    }
+    &:hover {
+      background-color: $color-bg-grey;
+    }
+  }
+
+  &__separator {
+    font-size: 22px;
+    padding: 0 5px 0 5px;
+  }
+
+}

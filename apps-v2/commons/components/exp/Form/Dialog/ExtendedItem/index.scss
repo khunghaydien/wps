@@ -1,0 +1,115 @@
+@import '../../../../../styles/variables/colors';
+@import '../../../../../styles/wsp.scss';
+
+.ts-expenses-modal-lookup-dialog {
+  &__dialog-frame {
+    width: 800px;
+    height: 600px;
+  }
+
+  &__row {
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-bg-hover;
+    }
+  }
+
+  &__skeleton {
+    margin-top: 20px;
+  }
+
+  &__search-field {
+    position: relative;
+  }
+
+  &__search-field-input {
+    padding-left: 32px !important;
+  }
+
+  &__search-btn {
+    position: absolute;
+    top: 4px;
+    bottom: 0;
+    left: 10px;
+    margin: auto;
+  }
+
+  &__inner {
+    font-size: 13px;
+
+    input {
+      width: 50%;
+      margin-top: 5px;
+    }
+  }
+
+  &__scrollable {
+    max-height: 300px;
+  }
+
+  &--is-ellipsis {
+    border: 1px solid #eee;
+  }
+
+  &__code {
+    width: 30%;
+    //font-weight: normal;
+  }
+
+  &__name {
+    width: 70%;
+  }
+
+  &__count {
+    float: right;
+  }
+
+  &__label {
+    padding: 10px 0;
+  }
+
+  &__message {
+    padding-top: 4px;
+    color: color('error');
+    float: right;
+  }
+
+  &--is-ellipsis &__cell {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__section {
+    display: flex;
+
+    &:not(:last-child) {
+      margin-bottom: 32px;
+    }
+  }
+
+  &__field {
+    width: 50%;
+
+    &:first-child {
+      width: calc(50% - 32px);
+      margin-right: 32px;
+    }
+  }
+
+  &__hint-msg {
+    position: absolute;
+    left: 16px;
+  }
+}
+
+.ts-expenses-modal-lookup-dialog__row {
+  .ts-expenses-modal-lookup-dialog__code {
+    font-weight: normal;
+  }
+
+  .ts-expenses-modal-lookup-dialog__name {
+    font-weight: normal;
+  }
+}

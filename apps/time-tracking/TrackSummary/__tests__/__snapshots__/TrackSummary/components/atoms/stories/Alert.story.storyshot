@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/TrackSummary Alert 1`] = `
+.c3 {
+  fill: #de933a;
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c4 {
+  font-family: 'Salesforce Sans';
+  font-weight: bold;
+  font-size: 12px;
+  color: #de933a;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c0 {
+  display: inline-block;
+  height: 28px;
+  width: 116px;
+  border-radius: 32px;
+  background: rgba(255,138,0,0.16);
+  padding: 6px 17px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 6px;
+}
+
+.c5 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+<div
+  className="c0"
+  tabIndex={0}
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <test-file-stub
+        aria-hidden={true}
+        className="c3"
+        color="removed"
+      />
+    </div>
+    <span
+      className="c4 c5"
+      color="removed"
+    >
+      未提出あり
+    </span>
+  </div>
+</div>
+`;

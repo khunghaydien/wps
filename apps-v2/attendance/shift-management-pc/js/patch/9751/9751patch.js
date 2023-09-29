@@ -1,0 +1,1 @@
+if(typeof(teasp) == "object" && teasp.dialog && teasp.dialog.EmpApply){teasp.dialog.EmpApply.prototype.createErrorParts=function(a,b,d){dojo.create("div",{id:"dialogApplyError"+d,style:{color:"red",marginTop:"6px",width:"515px"}},dojo.create("td",{colSpan:2,style:{textAlign:"center"}},dojo.create("tr",{id:"dialogApplyErrorRow"+d,style:{display:"none"}},b)))};}

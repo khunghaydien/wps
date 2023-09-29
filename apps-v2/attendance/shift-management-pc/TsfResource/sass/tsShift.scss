@@ -1,0 +1,258 @@
+@import "compass";
+@charset "UTF-8";
+
+$imgDir: '../img/';
+$headerBgColor: #256499;  // 共通ヘッダ部の背景色
+$topRightButtonWidth: 69px; // ボタンエリア幅
+$fontSize: 12px;
+$fontFamily: Meiryo, "メイリオ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif;
+
+@mixin top-right-button {
+	margin		: 0px 3px 1px 3px;
+	padding 	: 0px;
+	width		: 63px;
+	height		: 29px;
+}
+@mixin ts-std-button1 {
+	@include border-radius(3px);
+	padding 		: 4px 10px;
+	background		: #108dc5;
+	color			: white;
+	cursor			: pointer;
+	margin-left 	: 4px;
+	margin-right	: 4px;
+	white-space 	: nowrap;
+	border			: none;
+	font-size		: $fontSize;
+	font-weight 	: normal;
+	&:hover {
+		background-color	: lighten(#108dc5, 30%);
+	}
+}
+@mixin ts-std-button2 {
+	@include border-radius(3px);
+	padding 			: 4px 10px;
+	background			: transparent;
+	text-decoration 	: underline;
+	color				: saturate(darken(#E0EEFA, 65%), 50%);
+	cursor				: pointer;
+	margin-left 		: 4px;
+	margin-right		: 4px;
+	white-space 		: nowrap;
+	border				: none;
+	font-size			: $fontSize;
+	font-weight 		: normal;
+	&:hover {
+		background		: desaturate(lighten(#E0EEFA, 3%), 40%);
+		color			: desaturate(lighten(#0000FF, 3%), 20%);
+	}
+}
+@mixin ts-std-button3 {
+	@include border-radius(3px);
+	padding 			: 4px 10px;
+	background			: #f09199;
+	color				: white;
+	cursor				: pointer;
+	margin-left 		: 4px;
+	margin-right		: 4px;
+	white-space 		: nowrap;
+	border				: none;
+	font-size			: $fontSize;
+	font-weight 		: normal;
+	&:hover {
+		background		: #eebbcb;
+	}
+}
+#big_area {
+	div, td, input, textarea, select {
+		box-sizing			: border-box;
+		-moz-box-sizing 	: border-box;
+		-webkit-box-sizing	: border-box;
+	}
+}
+div.dijitArrowButtonInner,div.holyIcon,div.pattern {
+	box-sizing			: content-box !important;
+	-moz-box-sizing 	: content-box !important;
+	-webkit-box-sizing	: content-box !important;
+}
+#shiftTopView {
+	position			: relative;
+	> table {
+		width				: 100%;
+		border-collapse 	: collapse;
+		background-color	: $headerBgColor;
+		> tbody {
+			> tr {
+				height		: 30px;
+				> td {
+					padding : 0px;
+				}
+				> td.ts-top-logo { // タイトルロゴエリア
+					width		: 60px;
+					div {
+						background	: url('#{$imgDir}Icon_shift.png') no-repeat;
+						width		: 31px;
+						height		: 23px;
+						margin-left : 16px;
+					}
+					div.work-list { // 
+						background-position: 0pxpx;
+						position	: relative;
+					}
+				}
+				> td.ts-top-title { // タイトル画像エリア
+					width		: auto;
+					text-align		: left;
+					> div.main-title {
+						color			: #ffffff;
+						font-size		: 16px;
+						margin-top		: 0px;
+						white-space 	: nowrap;
+						text-align		: left;
+					}
+					> div.sub-title {
+						color			: #8aadc9;
+						font-size		: 10px;
+						white-space 	: nowrap;
+						text-align		: left;
+					}
+				}
+				> td.ts-top-button1 { // ボタン
+					width	: $topRightButtonWidth;
+					a {
+						display: block;
+						text-decoration : none;
+						background	: url('#{$imgDir}p_images.png') no-repeat;
+						background-position: -128px -262px;
+						@include top-right-button;
+					}
+				}
+				> td.ts-top-button5 { // ボタン
+					width	: $topRightButtonWidth;
+					a {
+						display: block;
+						text-decoration : none;
+						background	: url('#{$imgDir}p_images.png') no-repeat;
+						background-position: -192px -262px;
+						@include top-right-button;
+					}
+				}
+				> td.ts-top-button3 { // ボタン：HELP
+					width	: $topRightButtonWidth;
+					a {
+						display: block;
+						text-decoration : none;
+						background	: url('#{$imgDir}p_images.png') no-repeat;
+						background-position: -256px -262px;
+						@include top-right-button;
+					}
+				}
+				> td.ts-top-last {
+					width	: 30px;
+				}
+			}
+		}
+	}
+}
+#workArea,#shiftCsvImportDialog,#shiftPrintMain {
+	div.shift-label {
+		margin-right: 8px;
+		font-weight: bold;
+		white-space: nowrap;
+	}
+	div.shift-value {
+		margin-right: 8px;
+	}
+}
+#big_area,div.dlg_content {
+	input[type="button"].normalbtn {
+		@include ts-std-button1;
+	}
+	input[type="button"].cancelbtn {
+		@include ts-std-button2;
+	}
+	input[type="button"].deletebtn {
+		@include ts-std-button3;
+	}
+	input[type="button"]:disabled {
+		background-color: #c8cdd0 !important;
+		color: white !important;
+		cursor: default;
+		text-decoration: none !important;
+	}
+	input[type="button"]:disabled:hover {
+		background-color: #c8cdd0 !important;
+	}
+	input[type="button"]:disabled:active {
+		background-color: #c8cdd0 !important;
+	}
+	input[type="button"].loupe {
+		@include ts-std-button1;
+		width:30px;
+		height:22px;
+		background-image: url('#{$imgDir}icon_search.png');
+		background-repeat: no-repeat;
+	}
+	div,input {
+		font-family: $fontFamily !important;
+	}
+}
+div.dlg_content {
+	tr.shift_normal_day,tr.shift_day_type {
+		td {
+			> div {
+				display: inline-block;
+			}
+			* {
+				vertical-align: middle;
+			}
+		}
+	}
+}
+#selectDeptTbody {
+	tr.ts-row-odd {
+		background-color: lighten(#e3ebf1, 5%);
+	}
+	tr.ts-row-even {
+		background-color: #fefefe;
+	}
+	tr {
+		td {
+			font-family: $fontFamily !important;
+		}
+		&:hover {
+			background-color: #dff1f4
+		}
+	}
+}
+#empSelectTbody {
+	div {
+		word-break: break-all;
+	}
+}
+#shiftImportErrorLink {
+	a {
+		cursor: pointer;
+		color: red;
+		text-decoration: underline;
+	}
+}
+div.shift-csv-upload {
+	margin-bottom: 8px;
+	input[type="file"] {
+		font-family: $fontFamily !important;
+		font-size: 96%;
+		width	: 300px;
+//		border: 1px solid #354b7f;
+		padding: 0px;
+	}
+}
+div.shift-file-help {
+	margin: 0px 4px;
+	padding: 0px 4px;
+	> div {
+		white-space: nowrap;
+		font-family: $fontFamily !important;
+		font-size: 90%;
+	}
+}

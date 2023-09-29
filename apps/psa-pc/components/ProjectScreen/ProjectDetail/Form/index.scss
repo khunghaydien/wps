@@ -1,0 +1,31 @@
+@import '../../../../../commons/components/psa/variables.scss';
+
+.ts-psa__project-form {
+  width: 90%;
+  margin-left: 5%;
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: $container-padding;
+    margin-bottom: $container-padding;
+    background-color: $color-bg-white;
+    border-radius: $size-xs;
+  }
+
+  &__title {
+    width: 100%;
+    margin-bottom: $container-padding;
+    color: $color-text-grey;
+    font-size: 20px;
+  }
+
+  .ts-psa__form-field {
+    margin-bottom: $container-padding;
+  }
+
+  .separator {
+    margin-right: $size-xs;
+    margin-left: $size-xs;
+  }
+}

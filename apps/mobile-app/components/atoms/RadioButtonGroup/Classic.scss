@@ -1,0 +1,69 @@
+@import 'mobile-global-imports';
+
+.mobile-app-atoms-radio-button-group-classic {
+  position: relative;
+
+  &__control {
+    width: 100%;
+  }
+
+  &__radio-button-group {
+    padding: 10px;
+  }
+
+  &__radio-button {
+    display: block;
+    padding: 10px;
+  }
+
+  &__radio-button--input {
+    appearance: none;
+    opacity: 0;
+    outline: none;
+    vertical-align: middle;
+  }
+
+  &__radio-button--checked {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 8px 0 0;
+    border: 1px $color-border solid;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+
+  &__radio-button--input:checked + &__radio-button--checked::before {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    margin: 3px;
+    background: $color-brand;
+    border-radius: 50%;
+    content: ' ';
+  }
+
+  &__radio-button--input:checked + &__radio-button--readonly::before {
+    background: $color-blue-300;
+  }
+
+  &__radio-button--input:checked + &__radio-button--disabled,
+  &__radio-button--input:checked + &__radio-button--disabled::before {
+    background: $color-gray-200;
+    visibility: visible;
+  }
+
+  &__radio-button--disabled + &__radio-button--label {
+    color: $color-gray-500;
+  }
+
+  &__radio-button--label {
+    display: inline;
+    font-size: 13px;
+    vertical-align: middle;
+  }
+
+  &__error {
+    padding: 0 0 0 20px;
+  }
+}

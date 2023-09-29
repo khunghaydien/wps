@@ -1,0 +1,1 @@
+export default 'MODULES/ENTITIES/APPROVAL/ENTITIES/ATTENDANCE' as const;

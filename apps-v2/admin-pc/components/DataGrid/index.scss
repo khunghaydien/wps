@@ -1,0 +1,133 @@
+.data-grid {
+  min-width: 676px;
+  height: 100%;
+
+  .react-grid-Main {
+    height: 100%;
+  }
+
+  .react-grid-Container {
+    position: relative;
+    height: 100%;
+  }
+
+  // important は強い指定となってしまうので使用しない方法を取りたいです。
+  // GENIE-7904 で改善として課題を投稿しております。
+  .react-grid-Grid {
+    height: 100% !important;
+  }
+
+  .react-grid-Canvas {
+    height: 100% !important;
+  }
+
+  .rdg-cell-action,
+  .rdg-cell-action-button {
+    width: 100%;
+    text-align: left;
+  }
+
+  .rdg-selected {
+    border: none;
+  }
+}
+
+.data-grid,
+.data-grid-in-flex {
+  .react-grid-HeaderCell .form-group {
+    margin-top: -4px;
+  }
+
+  .react-grid-HeaderCell .form-group input {
+    width: 100%;
+  }
+
+  .react-grid-Main {
+    outline: none;
+  }
+
+  .react-grid-HeaderCell {
+    background-color: #f2f7fa;
+    color: $color-text-modest;
+    font-weight: normal;
+    text-align: left;
+  }
+
+  .react-grid-Cell {
+    height: 32px;
+    padding: 0 10px;
+    border-right: none;
+    background-color: #fff;
+    color: $color-text-default;
+    font-weight: normal;
+    text-align: left;
+
+    &:focus {
+      outline: none; // NOTE: セルがクリックされたときの枠線を消す
+    }
+  }
+
+  .react-grid-Row.row-selected .react-grid-Cell {
+    background-color: $color-bg-active;
+  }
+
+  .react-grid-checkbox-label {
+    display: none;
+  }
+
+  .react-grid-checkbox {
+    position: relative;
+    opacity: 1;
+  }
+
+  .react-grid-HeaderCell > .react-grid-checkbox-container {
+    height: auto;
+  }
+
+  .react-grid-HeaderCell__draggable {
+    z-index: 999;
+
+    /*
+     * デフォルトのドラッグ可能領域が狭すぎるため広げている。
+     */
+    width: 20px !important;
+    height: 100% !important;
+
+    /*
+     * react-data-grid はカラム幅のリサイズのために、ドラッグできる領域を
+     * ヘッダーセルの前に配置する。
+     * つまり、厳密にはヘッダーセルの間にマウスカーソルを合わせても
+     * カラム幅をドラッグで変更することはできない。
+     * この挙動は非直感的なので、右にずらすしている。
+     * -px指定なので、大変気持ち悪いのだが、ご容赦願いたい。
+     */
+    margin-right: -10px;
+  }
+
+  // ヘッダー行の背景色の設定
+  .react-grid-HeaderRow {
+    background-color: #f2f7fa;
+  }
+
+  /* ヘッダー行のボーダーを設定 */
+  .react-grid-HeaderRow,
+  .react-grid-HeaderCell {
+    // ヘッダーのボーダーをリセット
+    border: none;
+  }
+
+  .react-grid-Cell:last-child,
+  .react-grid-HeaderCell {
+    border-right: 1px solid #ddd;
+  }
+
+  .react-grid-HeaderRow:last-child .react-grid-HeaderCell {
+    // ヘッダーとデータの境目のボーダー
+    border-bottom: 1px solid #ddd;
+  }
+
+  .react-grid-HeaderRow {
+    // PATCH 検索フィールドのHeaderのheightがおかしいので修正
+    min-height: fit-content !important;
+  }
+}

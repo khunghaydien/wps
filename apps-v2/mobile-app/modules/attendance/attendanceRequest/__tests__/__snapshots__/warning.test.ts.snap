@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"callback\\": [Function callback],
++   \\"messages\\": null,
++ }"
+`;
+
+exports[`reducer() MOBILE-APP/ATTENDANCE/ATTENDANCE_REQUEST/WARNING/CLEAR 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"callback\\": [Function callback],
+-   \\"messages\\": Array [
+-     \\"Messages 0\\",
+-     \\"Messages 1\\",
+-     \\"Messages 2\\",
+-   ],
++   \\"messages\\": null,
+  }"
+`;
+
+exports[`reducer() MOBILE-APP/ATTENDANCE/ATTENDANCE_REQUEST/WARNING/SET_MESSAGES 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"callback\\": [Function callback],
+-   \\"messages\\": null,
++   \\"callback\\": [Function anonymous],
++   \\"messages\\": Array [
++     \\"Messages 0\\",
++     \\"Messages 1\\",
++     \\"Messages 2\\",
++   ],
+  }"
+`;

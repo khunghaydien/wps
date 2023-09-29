@@ -1,0 +1,43 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-expense-jorudan-amount-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__amount {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-right: $extra-small-size;
+  }
+
+  &__amount__single-trip,
+  &__amount__round-trip {
+    font-size: $medium-size;
+  }
+
+  &__amount__single-trip {
+    margin-right: $base-size;
+    color: $color-blue-800;
+    font-weight: bold;
+  }
+
+  &__amount__round-trip {
+    display: flex;
+    margin-right: $base-size;
+    color: $color-gray-600;
+  }
+
+  &__amount__round-trip-text {
+    color: $color-gray-600;
+    font-weight: normal;
+  }
+
+  &-fare-type {
+    margin-left: $base-size;
+    color: $color-blue-800;
+    font-size: $medium-size;
+    font-weight: bold;
+  }
+}

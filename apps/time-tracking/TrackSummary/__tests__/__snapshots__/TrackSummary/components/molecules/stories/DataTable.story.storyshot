@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/TrackSummary DataTable 1`] = `
+.c0 {
+  padding: 0;
+  margin: 0;
+}
+
+.c1 {
+  white-space: nowrap;
+}
+
+.c3 {
+  text-align: right;
+  font-weight: normal;
+  padding: 4px 6px 5px 6px;
+}
+
+.c3:last-child {
+  padding: 0 0 0 6px;
+}
+
+.c3:first-child {
+  padding: 0 6px 0 0;
+}
+
+.c5 {
+  text-align: left;
+  font-weight: normal;
+  padding: 4px 6px 5px 6px;
+}
+
+.c5:last-child {
+  padding: 0 0 0 6px;
+}
+
+.c5:first-child {
+  padding: 0 6px 0 0;
+}
+
+.c2 {
+  border-bottom: 1px solid undefined;
+  height: 24px;
+  font-weight: normal;
+}
+
+.c8 {
+  text-align: right;
+  padding: 4px 6px 5px 6px;
+}
+
+.c8:last-child {
+  padding: 0 0 0 6px;
+}
+
+.c8:first-child {
+  padding: 0 6px 0 0;
+}
+
+.c10 {
+  text-align: left;
+  padding: 4px 6px 5px 6px;
+}
+
+.c10:last-child {
+  padding: 0 0 0 6px;
+}
+
+.c10:first-child {
+  padding: 0 6px 0 0;
+}
+
+.c4 {
+  width: 12px;
+}
+
+.c9 {
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+}
+
+.c6 {
+  min-width: 480px;
+}
+
+.c7 {
+  width: 380px;
+}
+
+<table
+  className="c0"
+>
+  <thead
+    className="c1"
+  >
+    <tr
+      className="c2"
+    >
+      <th
+        className="c3 c4"
+      />
+      <th
+        className="c5 c6"
+      >
+        Job/Work Category
+      </th>
+      <th
+        className="c3"
+      >
+        Working Percentage
+      </th>
+      <th
+        className="c3 c7"
+      >
+        Working Hours
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    className=""
+  >
+    <tr
+      className="c2"
+    >
+      <td
+        className="c8"
+      >
+        <div
+          className="c9"
+        />
+      </td>
+      <td
+        className="c10"
+      >
+        R06(19/07)_WSP_Entire/Design
+      </td>
+      <td
+        className="c8"
+      >
+        62.0%
+      </td>
+      <td
+        className="c8"
+      >
+        97:09
+      </td>
+    </tr>
+    <tr
+      className="c2"
+    >
+      <td
+        className="c8"
+      >
+        <div
+          className="c9"
+        />
+      </td>
+      <td
+        className="c10"
+      >
+        R06(19/07)_WSP_Entire／Meeting&Others
+      </td>
+      <td
+        className="c8"
+      >
+        23.0%
+      </td>
+      <td
+        className="c8"
+      >
+        36:00
+      </td>
+    </tr>
+    <tr
+      className="c2"
+    >
+      <td
+        className="c8"
+      >
+        <div
+          className="c9"
+        />
+      </td>
+      <td
+        className="c10"
+      >
+        （PD-Common）Others
+      </td>
+      <td
+        className="c8"
+      >
+        12.3%
+      </td>
+      <td
+        className="c8"
+      >
+        16:30
+      </td>
+    </tr>
+    <tr
+      className="c2"
+    >
+      <td
+        className="c8"
+      >
+        <div
+          className="c9"
+        />
+      </td>
+      <td
+        className="c10"
+      >
+        （PD-Common）Recruting
+      </td>
+      <td
+        className="c8"
+      >
+        2.1%
+      </td>
+      <td
+        className="c8"
+      >
+        03:30
+      </td>
+    </tr>
+    <tr
+      className="c2"
+    >
+      <td
+        className="c8"
+      >
+        <div
+          className="c9"
+        />
+      </td>
+      <td
+        className="c10"
+      >
+        （PD-Common）Meeting/ミーティング他
+      </td>
+      <td
+        className="c8"
+      >
+        0.1%
+      </td>
+      <td
+        className="c8"
+      >
+        00:30
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

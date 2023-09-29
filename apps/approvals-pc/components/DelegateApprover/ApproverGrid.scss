@@ -1,0 +1,98 @@
+.ts-expenses-modal-delegate-approver-grid {
+  &__name {
+    display: flex;
+  }
+
+  &__code {
+    font-size: 10px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__icon {
+    height: 28px;
+    margin-top: 2px;
+    margin-right: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  div[title] {
+    display: inline-block;
+    height: max-content;
+  }
+
+  //This css is part of DataGrid component
+  .react-grid-checkbox-label {
+    display: none;
+  }
+
+  .react-grid-checkbox,
+  &__checkbox {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+  }
+
+  .react-grid-HeaderCell {
+    margin-top: -4px;
+  }
+
+  .react-grid-HeaderCell .form-group input {
+    width: 100%;
+  }
+
+  .react-grid-Main {
+    outline: none;
+  }
+
+  .react-grid-HeaderCell {
+    background-color: #f4f6f9;
+    color: $color-text-modest;
+    font-weight: normal;
+    text-align: left;
+  }
+
+  .react-grid-Cell {
+    height: 32px;
+    padding: 0 10px;
+    border-right: none;
+    background-color: #fff;
+    color: $color-text-default;
+    font-weight: normal;
+    text-align: left;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .react-grid-Row.row-selected .react-grid-Cell {
+    background-color: $color-bg-active;
+  }
+
+  .react-grid-HeaderCell > .react-grid-checkbox-container {
+    height: auto;
+  }
+
+  .react-grid-HeaderRow {
+    background-color: #f4f6f9;
+  }
+
+  .react-grid-HeaderRow,
+  .react-grid-HeaderCell {
+    border: none;
+  }
+
+  .react-grid-HeaderRow:last-child .react-grid-HeaderCell {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .react-grid-HeaderRow {
+    min-height: fit-content !important;
+  }
+}

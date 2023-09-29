@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should reload 1`] = `Array []`;
+
+exports[`should reset if timesheet is null 1`] = `
+Array [
+  Object {
+    "payload": null,
+    "type": "TIMESHEET-PC/ENTITIES/TIMESHEET/SET_DAILY_OBJECTIVELY_EVENT_LOGS",
+  },
+]
+`;
+
+exports[`should reset if useObjectivelyEventLog is false 1`] = `
+Array [
+  Object {
+    "payload": null,
+    "type": "TIMESHEET-PC/ENTITIES/TIMESHEET/SET_DAILY_OBJECTIVELY_EVENT_LOGS",
+  },
+]
+`;

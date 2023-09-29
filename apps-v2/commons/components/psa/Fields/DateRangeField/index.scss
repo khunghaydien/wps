@@ -1,0 +1,23 @@
+.ts-psa__date-range-field {
+  display: inline-flex;
+  width: 100%;
+  align-items: flex-start;
+  &__input {
+    flex-grow: 1;
+
+    .commons-fields-date-field,
+    .react-datepicker-wrapper,
+    .react-datepicker__input-container {
+      width: 100%;
+    }
+  }
+
+  &__separation {
+    display: flex;
+    flex: 0 0 2em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+  }
+}

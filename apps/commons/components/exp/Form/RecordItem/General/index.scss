@@ -1,0 +1,100 @@
+@import '../../../../../styles/wsp';
+@import '../../../../../styles/exp/variables/colors';
+
+.ts-tax-auto {
+  position: relative;
+  flex: 1;
+  margin-top: 26px;
+
+  &-non-editable {
+    -webkit-flex: 0;
+    flex: 0;
+  }
+
+  button {
+    position: absolute;
+    z-index: 1;
+    width: 28px;
+    height: 28px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    border: none;
+    border-radius: 50%;
+
+    &:hover {
+      background-color: $ts-button-default-focus;
+    }
+
+    &:active {
+      background-color: $color-bg-gray;
+    }
+
+    & svg {
+      margin: 0 auto;
+    }
+  }
+
+  button:focus {
+    outline: none;
+  }
+}
+
+.ts-expenses-taxRateArea {
+  padding-left: 10px;
+
+  .key {
+    margin-bottom: 4px;
+  }
+
+  // When in FA read only mode or when tax rate is read only Text Field
+  .ts-text-field-container {
+    &--textValue {
+      margin-top: 10px;
+    }
+  }
+}
+
+.ts-expenses-amount-without-tax {
+  margin-right: 10px;
+
+  & input {
+    text-align: right;
+    padding: 5px 10px;
+  }
+  .title {
+    display: flex;
+    justify-content: space-between;
+    .ts-button {
+      margin-bottom: 4px;
+      min-height: auto;
+    }
+  }
+}
+
+.ts-expenses-gst-vat-area {
+  display: flex;
+  margin-left: 10px;
+
+  &__tax-area {
+    display: block;
+    min-width: 90%;
+    flex: 1;
+  }
+
+  input {
+    &.input_disabled {
+      &_right-aligned:disabled {
+        border-color: color('border-1');
+        background-color: color('disabled-1');
+        text-align: right;
+      }
+    }
+
+    &.input {
+      &_right-aligned {
+        border-color: color('border-1');
+        text-align: right;
+      }
+    }
+  }
+}

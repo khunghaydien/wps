@@ -1,0 +1,52 @@
+@import 'mobile-global-imports';
+
+@mixin centering($direction, $align: center) {
+  display: flex;
+  flex-flow: $direction nowrap;
+  align-items: $align;
+  justify-content: center;
+}
+
+.mobile-app-commons-error-page {
+  @include centering(row, flex-start);
+
+  position: relative;
+  z-index: $zindex-error-page;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  background-color: $color-blue-100;
+
+  &__container {
+    margin: 66px 0 0;
+  }
+
+  &__icon {
+    @include centering(row);
+  }
+
+  &__icon &__lock {
+    width: 88px;
+    height: 88px;
+  }
+
+  &__message,
+  &__solution {
+    @include centering(row);
+
+    width: 238px;
+    font-size: 16px;
+    text-align: center;
+    white-space: pre-wrap;
+  }
+
+  &__message {
+    margin: 24px 0 0;
+  }
+
+  &__solution {
+    margin: 22px 0 0;
+  }
+}

@@ -1,0 +1,126 @@
+@import '@apps/commons/components/psa/variables.scss';
+
+.ts-selection-dialog {
+  display: flex;
+  &__grey_out path{
+    cursor: not-allowed;
+    fill: $color-icon-grey !important;
+  }
+  &__grey_out {
+    cursor: not-allowed;
+    color: $color-icon-grey !important;
+    &:hover {
+      cursor: not-allowed !important;
+    }
+  }
+  &__selection-button {
+    height: 32px;
+    display: flex;
+    align-items: center;
+   
+    &.disable {
+      display: none;
+    }
+
+    &__icon {
+      width: 16px;
+      height: 16px;
+      fill: $color-text-blue;
+      
+    }
+
+    &__name {
+      margin-left: 8px;
+      color: $color-text-blue;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__modal-content {
+    display: flex;
+    flex-direction: column;
+    min-width: 720px;
+    height: 334px;
+  }
+
+  &__content-header {
+    &-container {
+      margin: 0 10px;
+      border: 1px solid #d9d9d9;
+      border-radius: 4px 4px 0 0;
+      background-color: #f3f6f9;
+      color: #5a6e91;
+      padding-right: 16px;
+    }
+    &-item {
+      padding: 16px 10px;
+      font-weight: bold;
+    }
+  }
+
+  &__content-list {
+    &-container {
+      margin: 0 10px;
+      border: 1px solid #d9d9d9;
+      border-radius: 0 0 4px 4px;
+      border-top: 0;
+      overflow-y: scroll;
+      
+    }
+    &-row {
+      &.selected {
+        background-color: $color-bg-grey;
+        font-weight: bold;
+      }
+      &:hover {
+        background-color: $color-bg-grey;
+        cursor: pointer;
+      }
+    }
+    &-item {
+      padding: 12px 10px;
+      border-top: 1px solid #d9d9d9;
+    }
+  }
+
+  &__selection-list {
+    display: flex;
+    flex-flow: row wrap;
+
+    &__item {
+      display: flex;
+      flex-direction: row;
+      background-color: $color-bg-white;
+      border: $color-border;
+      padding: 2px 4px;
+      box-sizing: border-box;
+      border-radius: 4px;
+      flex: none;
+      order: 0;
+      align-self: flex-start;
+      margin: 4px 2px;
+
+      &__label {
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: capitalize;
+        flex: none;
+        order: 0;
+        align-self: center;
+        margin: 2px 0;
+      }
+
+      &__close-button {
+        width: 10px;
+        height: 10px;
+        flex: none;
+        order: 1;
+        align-self: center;
+        margin: 2px 2px 2px 8px;
+      }
+    }
+  }
+}

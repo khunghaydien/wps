@@ -1,0 +1,49 @@
+@import '@commons/styles/exp/variables/colors';
+$sumHeight: 50px;
+
+.ts-expenses__form-records__list-items-detail {
+  border: 1px solid $color-border-default;
+
+  & .commons-grid__head {
+    border-top: none;
+    overflow-y: visible;
+    text-align: left;
+  }
+
+  & .commons-grid__body {
+    overflow-y: auto;
+  }
+
+  & .commons-grid-body-row__cell {
+    border-bottom: none;
+  }
+
+  & .commons-grid-body-row__selection {
+    border-bottom: 1px solid $color-border-default;
+  }
+
+  & .commons-grid-formatters-currency {
+    width: 100%;
+    text-align: right;
+  }
+
+  & .commons-grid-body-row__cell-inner {
+    text-align: left;
+  }
+
+  & .commons-grid__cell-head--checkbox,
+  & .commons-grid-body-row__cell--select {
+    max-width: 25px;
+  }
+
+  &__tax-withholding {
+    &__gst {
+      text-align: left;
+    }
+
+    &__tax-type {
+      font-size: 11px;
+      color: $color-gray-600;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-organisms-expense-clone-calendar-dialog {
+  .mobile-app-molecules-commons-dialog__title {
+    font-size: $medium-size;
+    font-weight: $font-emphasis;
+    color: $color-blue-600;
+  }
+
+  &__calender-hint {
+    text-align: right;
+    margin-right: 12px;
+  }
+
+  &__calender {
+    .DayPicker-Caption div {
+      font-size: $medium-size;
+    }
+
+    .DayPicker {
+      width: 100%;
+    }
+    .DayPicker-Day--today {
+      color: #080707;
+      font-weight: inherit;
+    }
+
+    .DayPicker-Day {
+      border-radius: 50%;
+
+      &:focus {
+        outline: none;
+      }
+
+      &.DayPicker-Day--selected {
+        background-color: $color-blue-600 !important;
+        color: $color-text-reverse;
+      }
+
+      &.DayPicker-Day--outside {
+        background-color: transparent !important;
+      }
+    }
+
+    .DayPicker-NavButton:focus {
+      outline: none;
+    }
+
+    .DayPicker-Day--defaultDay {
+      color: $color-blue-500;
+    }
+
+    .DayPicker-wrapper:focus,
+    .DayPicker-Months:focus {
+      outline: none;
+    }
+  }
+
+  .mobile-app-molecules-commons-dialog__content {
+    padding: 10px 20px;
+  }
+
+  .mobile-app-molecules-commons-dialog__title {
+    margin: 15px 0 0;
+  }
+}

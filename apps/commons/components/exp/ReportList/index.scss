@@ -1,0 +1,99 @@
+.ts-expenses__reports {
+  height: 100%;
+
+  // Pagination styles
+  &__request-header {
+    display: flex;
+    align-items: center;
+    margin: 12px;
+  }
+
+  &__page-info {
+    padding-left: 4px;
+  }
+
+  &__refresh-btn {
+    display: flex;
+    padding: 4px;
+    margin-left: 12px;
+    background: none;
+    border-radius: 4px;
+  }
+
+  &-too-many-results {
+    margin-top: 12px;
+    color: #006dcc;
+    text-align: center;
+  }
+
+  &-list-footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+
+    & .ts-pager-info {
+      margin: 0 0 0 4px;
+    }
+  }
+
+  &-list-pagination {
+    display: flex;
+    margin-top: -36px;
+    margin-right: 20px;
+    float: right;
+  }
+
+  &-list {
+    display: block;
+    overflow: auto;
+    height: calc(100% - 100px);
+    position: relative;
+    z-index: 0;
+
+    &.empty-list {
+      height: auto;
+    }
+
+    &__empty {
+      &--notapproved {
+        height: 100%;
+        padding-top: 400px;
+        background-image: url('../../../images/iconbackGround.png');
+        background-position: 50% 100px;
+        background-repeat: no-repeat;
+        color: #53688c;
+        font-size: 15px;
+        text-align: center;
+      }
+
+      &--approved {
+        height: 100%;
+        padding-top: 280px;
+        background-image: url('../../../images/iconDoneCircle.png');
+        background-position: 50% 130px;
+        background-repeat: no-repeat;
+        background-size: 130px 130px;
+        color: #53688c;
+        font-size: 15px;
+        text-align: center;
+      }
+    }
+
+    &__loading-msg {
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .commons-spinner {
+    position: static;
+  }
+
+  .ts-expenses__search-area {
+    padding-left: 20px;
+  }
+}

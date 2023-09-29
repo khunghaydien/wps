@@ -1,0 +1,45 @@
+.timesheet-pc-allowance-header {
+  margin: 0 0 15px;
+
+  &__table {
+    border-collapse: collapse;
+  }
+
+  &__table > thead > tr > th,
+  &__table > tbody > tr > td {
+    padding: 2px 8px;
+    border: 1px solid $color-border-default;
+
+    @media print {
+      padding: 1px 4px;
+    }
+  }
+
+  &__table > thead > tr > th {
+    background: $color-bg-heading;
+    color: $color-text-modest;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  &__target-month {
+    width: 20%;
+    text-align: center;
+  }
+
+  &__dept-name {
+    width: 20%;
+  }
+
+  &__work-scheme {
+    width: 20%;
+  }
+
+  &__emp-code {
+    width: 20%;
+  }
+
+  &__emp-name {
+    width: 20%;
+  }
+}

@@ -1,0 +1,45 @@
+.commons-dialogs-approver-user-setting-dialog {
+  &.commons-dialog-frame {
+    width: 40vw;
+    min-width: 400px;
+  }
+
+  &__body {
+    padding: 16px;
+  }
+
+  &__step {
+    padding: 10px;
+    border: 1px solid #d8dde6;
+    background: #f8f8f8;
+    border-radius: 4px;
+  }
+
+  &__title {
+    padding: 10px;
+    background: #8ea1b1;
+    color: $color-text-inverse;
+    font-size: $font-size-large;
+  }
+
+  &__content {
+    padding: 16px 0;
+
+    &:last-child {
+      padding-bottom: 8px;
+    }
+  }
+
+  &__user {
+    display: flex;
+    height: 38px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px 5px 16px;
+    margin-right: 5px;
+    margin-left: 23px;
+    border: 1px solid #d8dde6;
+    background: #fff;
+    border-radius: 4px;
+  }
+}

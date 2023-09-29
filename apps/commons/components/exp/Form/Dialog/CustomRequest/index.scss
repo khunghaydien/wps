@@ -1,0 +1,84 @@
+@import '../../../../../styles/wsp';
+
+.ts-expenses-modal-custom-request {
+  &__dialog-frame {
+    width: 865px;
+
+    & .commons-dialog-frame__wrap .commons-dialog-frame__contents {
+      padding: 0;
+    }
+  }
+
+  &__skeleton {
+    padding: 10px 20px 30px 20px;
+  }
+
+  &__too-many-results {
+    margin-top: 5px;
+    color: color('error');
+    text-align: center;
+  }
+
+  &__table {
+    & .commons-grid__body {
+      height: 304px;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    & .commons-grid-body-row__cell--select {
+      border-bottom: 1px solid $color-border-default;
+    }
+
+    & .commons-grid-body-row {
+      cursor: pointer;
+    }
+  }
+
+  &__search-area {
+    padding: 20px;
+    display: flex;
+
+    &-search-button {
+      margin-left: 20px;
+    }
+
+    & .commons-fields-dropdown-custom__value {
+      width: 150px;
+      padding: 5px;
+      height: 32px;
+    }
+
+    &-status {
+      & .commons-fields-dropdown-custom__value {
+        width: 150px;
+      }
+    }
+
+    &-date {
+      z-index: 1;
+      & .commons-fields-dropdown-custom__value {
+        width: 170px;
+      }
+
+      & .commons-fields-dropdown-date {
+        width: 300px;
+      }
+    }
+
+    &-title {
+      z-index: 1;
+      & .commons-fields-dropdown-custom__value {
+        width: 120px;
+      }
+    }
+
+    & .commons-fields-dropdown-custom {
+      z-index: 1;
+    }
+
+    & .commons-fields-filterable-checkbox__input-checkbox {
+      height: 12px;
+    }
+  }
+}

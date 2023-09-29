@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"isOpen\\": false,
++   \\"left\\": 0,
++   \\"top\\": 0,
++ }"
+`;
+
+exports[`reducer() SUB_APP/EVENT_DIALOG/MODULES/UI/CONDITIONS/CLOSE 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() SUB_APP/EVENT_DIALOG/MODULES/UI/CONDITIONS/SET 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducerPSA() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"isOpen\\": false,
++   \\"left\\": 0,
++   \\"top\\": 0,
++ }"
+`;
+
+exports[`reducerPSA() SUB_APP/EVENT_DIALOG/MODULES/UI/CONDITIONS/CLOSE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"isOpen\\": true,
+-   \\"left\\": 20,
+-   \\"top\\": 215,
++   \\"isOpen\\": false,
++   \\"left\\": 0,
++   \\"top\\": 0,
+  }"
+`;
+
+exports[`reducerPSA() SUB_APP/EVENT_DIALOG/MODULES/UI/CONDITIONS/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"isOpen\\": false,
+-   \\"left\\": 0,
+-   \\"top\\": 0,
++   \\"isOpen\\": true,
++   \\"left\\": 20,
++   \\"top\\": 215,
+  }"
+`;

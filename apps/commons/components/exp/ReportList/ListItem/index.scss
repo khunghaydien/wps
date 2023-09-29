@@ -1,0 +1,55 @@
+@import '../../../../styles/wsp';
+
+.ts-expenses__reports-list-items {
+  display: block;
+  width: 100%;
+  padding: 12px 24px 12px 20px;
+  border: none;
+  border-bottom: 1px solid color('border-2');
+  background-color: color('background-1');
+  color: color('text-1');
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: left;
+
+  & .slds-grid {
+    & .slds-align-top {
+      align-self: center;
+    }
+  }
+
+  &:hover {
+    background-color: color('hover');
+  }
+
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
+
+  &--active {
+    background-color: color('selected');
+    color: #000;
+  }
+
+  &-status {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 20px;
+      margin-right: 12px;
+    }
+  }
+
+  &-amount {
+    text-align: right;
+  }
+
+  &-report-type {
+    padding-right: 10px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+}

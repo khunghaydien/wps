@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"disableAction\\": \\"None\\",
++   \\"editAction\\": \\"None\\",
++   \\"id\\": null,
++   \\"isEditing\\": false,
++   \\"requestTypeCode\\": null,
++ }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/DAILY_REQUEST/EDITING/CLEAR 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"disableAction\\": \\"\\",
+-   \\"editAction\\": \\"Create\\",
+-   \\"id\\": \\"a012v000033TVRXAA4\\",
+-   \\"isEditing\\": true,
+-   \\"requestTypeCode\\": \\"Leave\\",
++   \\"disableAction\\": \\"None\\",
++   \\"editAction\\": \\"None\\",
++   \\"id\\": null,
++   \\"isEditing\\": false,
++   \\"requestTypeCode\\": null,
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/DAILY_REQUEST/EDITING/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"disableAction\\": \\"None\\",
+-   \\"editAction\\": \\"None\\",
+-   \\"id\\": null,
+-   \\"isEditing\\": false,
+-   \\"requestTypeCode\\": null,
++   \\"disableAction\\": \\"CancelApproval\\",
++   \\"editAction\\": \\"Reapply\\",
++   \\"id\\": \\"a012v000033TVRXAA4\\",
++   \\"isEditing\\": true,
++   \\"requestTypeCode\\": \\"Leave\\",
+  }"
+`;

@@ -1,0 +1,11 @@
+@import 'mobile-global-imports', 'buttons';
+
+.mobile-app-components-molecules-commons-buttons-back-button {
+  &__text {
+    @include centering();
+
+    .mobile-app-atoms-icon {
+      margin-right: $base-size;
+    }
+  }
+}

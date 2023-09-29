@@ -1,0 +1,37 @@
+// Spacing
+
+// margin/padding,その他サイズには4の倍数を用いる
+
+@function unit($scale, $base: 4px) {
+  @return $scale * $base;
+}
+
+// 4px
+$base-size: unit(1);
+
+// 8px
+$extra-small-size: unit(2);
+
+// 12px
+$small-size: unit(3);
+
+// 16px
+$medium-size: unit(4);
+
+// 32px
+$large-size: unit(8);
+
+// 64px
+$extra-large-size: unit(16);
+
+/* Share size variables with JavaScript */
+/* stylelint-disable */
+:export {
+  baseSize: $base-size;
+  extraSmallSize: $extra-small-size;
+  smallSize: $small-size;
+  mediumSize: $medium-size;
+  largeSize: $large-size;
+  extraLargeSize: $extra-large-size;
+}
+/* stylelint-enable */

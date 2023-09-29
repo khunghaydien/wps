@@ -1,0 +1,64 @@
+.approvals-pc-tracking-process-list-pane-list-table-body-row {
+  font-size: $font-size-small;
+
+  &:hover {
+    background-color: $color-bg-hover;
+  }
+
+  &--selected,
+  &--selected:hover {
+    background-color: $color-bg-active;
+  }
+
+  &__selection {
+    display: flex;
+    min-height: 50px;
+    align-content: center;
+  }
+
+  &__cell {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-bottom: 1px solid $color-border-default;
+  }
+
+  &__cell--select {
+    border-bottom: none;
+  }
+
+  &__cell--select > input {
+    outline: 10px solid #333;
+  }
+
+  &__cell--name {
+    justify-content: flex-start;
+  }
+
+  &__input-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__cell-name {
+    display: flex;
+    align-items: center;
+  }
+
+  &__cell-name-icon {
+    width: 40px;
+    height: 40px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  &__cell-name-department {
+    color: $color-text-modest;
+  }
+}

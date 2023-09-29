@@ -1,0 +1,68 @@
+.ts-route-form__options__radio {
+  &-item {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+    /* Custom labels: the container */
+    &-label {
+      position: relative;
+      display: block;
+      padding-left: 15px;
+      cursor: pointer;
+
+      /* On mouse-over, add a grey background color */
+      &:hover span {
+        background-color: #ccc;
+      }
+    }
+
+    /* Hide the browser's default checkbox */
+    &-input {
+      position: absolute;
+      cursor: pointer;
+      opacity: 0;
+
+      /* When the radio button is checked, add a blue background */
+      &:checked ~ span {
+        border-color: #2196f3;
+        background-color: #2196f3;
+      }
+
+      /* Show the indicator (dot/circle) when checked */
+      &:checked ~ span::after {
+        display: block;
+      }
+    }
+
+    /* Create a custom radio button */
+    &__radio-btn {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 13px;
+      height: 13px;
+      margin: auto;
+      border: 1px solid #8e8e8e;
+      background-color: #fff;
+      border-radius: 50%;
+
+      /* Create the indicator (the dot/circle - hidden when not checked) */
+      &::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: none;
+        width: 3px;
+        height: 3px;
+        margin: auto;
+        background: white;
+        border-radius: 50%;
+        content: '';
+      }
+    }
+  }
+}

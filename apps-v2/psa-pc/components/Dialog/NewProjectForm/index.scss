@@ -1,0 +1,149 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-psa__new-project-form {
+  padding: $container-padding;
+  min-width: 720px;
+  max-height: 50vh;
+
+  &__error-box {
+    margin: 20px 0 $container-padding 0;
+  }
+
+  // when use existing job code, swap the orders for 2nd and 3rd row
+  &.js-is-reordered {
+    display: flex;
+    flex-direction: column;
+
+    > div:nth-child(1) {
+      order: 1;
+    }
+    > div:nth-child(2) {
+      order: 2;
+    }
+    > div:nth-child(3) {
+      order: 4;
+    }
+    > div:nth-child(4) {
+      order: 3;
+    }
+    > div {
+      order: 5;
+    }
+  }
+
+  &__dialog-frame {
+    max-width: 720px;
+  }
+
+  .ts-psa__form-field {
+    position: relative;
+    margin-bottom: $container-padding;
+
+    &:nth-child(2n) {
+      margin-bottom: 0;
+    }
+  }
+
+  .separator {
+    margin-right: $size-xs;
+    margin-left: $size-xs;
+  }
+
+  &__date-field-container {
+    position: relative;
+  }
+
+  &__form-field-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .ts-psa__form-field {
+      flex: 0 50%;
+      padding: 0 10px 0 0;
+
+      &:nth-child(2n) {
+        padding: 0 0 0 10px;
+      }
+    }
+  }
+
+  .commons-fields-date-field,
+  .react-datepicker-wrapper,
+  .react-datepicker__input-container {
+    width: 100%;
+  }
+
+  &__calendar-icon {
+    position: absolute;
+    right: 10px;
+    margin-top: 7px;
+    z-index: 2;
+  }
+
+  .loader {
+    position: absolute;
+    right: 20px;
+    bottom: 7px;
+  }
+}
+
+div.slds-popover--tooltip,
+div.slds-popover_tooltip {
+  animation: bounceUp 0.5s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+}
+
+.commons-dialog-frame__contents {
+  max-height: 720px;
+  overflow-y: auto;
+}
+
+@keyframes bounceUp {
+  0% {
+    transform: translateY(10px) scale(0.5);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+
+.ts-psa__project-form-create{
+  width: 90%;
+  margin:0 auto;
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: $container-padding;
+    margin-bottom: $container-padding;
+    background-color: $color-bg-white;
+    border-radius: 0 0 $size-xs $size-xs;
+    border: 1px solid $color-border-light-grey;
+  }
+
+  &__title {
+    width: 100%;
+    color: $color-text-grey;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: $container-padding;
+    background: $color-bg-light-blue;
+    padding: $size-s-padding $container-padding;
+    margin-bottom: -1px;
+    border-radius: $size-xs $size-xs 0 0;
+    border: 1px solid $color-border-light-grey;
+  }
+
+  .ts-psa__form-field {
+    margin-bottom: $container-padding;
+  }
+
+  .react-datepicker-wrapper,
+  .react-datepicker__input-container,
+  .commons-fields-date-field {
+    width: 100%;
+  }
+}

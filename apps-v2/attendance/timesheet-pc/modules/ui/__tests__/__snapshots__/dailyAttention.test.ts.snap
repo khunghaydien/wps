@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"messages\\": Array [],
++ }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/DAILY_WARNING_TIME/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"messages\\": Array [],
++   \\"messages\\": Array [
++     \\"message1\\",
++     \\"message2\\",
++   ],
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/DAILY_WARNING_TIME/UNSET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"message\\": Array [
+-     \\"message1\\",
+-     \\"message2\\",
+-   ],
++   \\"messages\\": Array [],
+  }"
+`;

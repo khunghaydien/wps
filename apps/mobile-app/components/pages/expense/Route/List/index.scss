@@ -1,0 +1,55 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-expense-page-route-result {
+  &.mobile-app-atoms-wrapper {
+    padding-top: 0;
+  }
+
+  .main-content {
+    padding: 48px 0;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $small-size;
+    background-color: #fbfbfa;
+  }
+
+  &__fare-type {
+    color: $color-blue-800;
+    font-weight: bold;
+  }
+
+  &__journey {
+    display: flex;
+    flex-wrap: wrap;
+    padding: $small-size;
+    margin: -4px 0 0 0;
+
+    span {
+      position: relative;
+      padding: $base-size $extra-small-size;
+      margin: $base-size 20px 0 0;
+      background-color: $color-gray-200;
+    }
+
+    .mobile-app-pages-expense-page-route-result__via {
+      border: 1px solid $color-gray-200;
+      background-color: $color-text-reverse;
+    }
+  }
+
+  &__via::after,
+  &__to::after {
+    position: absolute;
+    top: 50%;
+    right: -16px;
+    display: inline-block;
+    width: $small-size;
+    height: 2px;
+    background-color: $color-gray-200;
+    content: '';
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@attendance/sub-importer-ui-page-timesheet-pc-importer",
+  "version": "1.0.0",
+  "description": "",
+  "peerDependencies": {
+    "TeamSpirit1": "workspace:^"
+  },
+  "dependencies": {
+    "@silevis/reactgrid": "^4.0.4",
+    "react-datepicker": "^4.8.0",
+    "yup": "^0.32.11"
+  }
+}

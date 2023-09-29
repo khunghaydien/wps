@@ -1,0 +1,14 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-commons-loading {
+  z-index: $zindex-loading;
+  display: flex;
+  flex: column nowrap;
+  align-items: center;
+  justify-content: center;
+
+  &__text {
+    margin: unit(1);
+    text-align: center;
+  }
+}

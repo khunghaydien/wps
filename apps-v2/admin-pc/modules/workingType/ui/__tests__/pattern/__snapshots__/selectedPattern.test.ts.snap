@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"orginalSelectedPattern\\": Array [],
++   \\"selectedPattern\\": Array [],
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/PATTERN/SELECTED_PATTERN/INIT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"orginalSelectedPattern\\": Array [],
+-   \\"selectedPattern\\": Array [],
++   \\"orginalSelectedPattern\\": Array [
++     Object {
++       \\"code\\": \\"pattern01\\",
++       \\"name\\": \\"pattern01\\",
++       \\"validDateFrom\\": \\"2023-03-20\\",
++       \\"validDateTo\\": \\"2100-03-20\\",
++     },
++   ],
++   \\"selectedPattern\\": Array [
++     Object {
++       \\"code\\": \\"pattern01\\",
++       \\"name\\": \\"pattern01\\",
++       \\"validDateFrom\\": \\"2023-03-20\\",
++       \\"validDateTo\\": \\"2100-03-20\\",
++     },
++   ],
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/PATTERN/SELECTED_PATTERN/RESET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"orginalSelectedPattern\\": Array [
+-     Object {
+-       \\"code\\": \\"pattern01\\",
+-       \\"name\\": \\"pattern01\\",
+-       \\"validDateFrom\\": \\"2023-03-20\\",
+-       \\"validDateTo\\": \\"2100-03-20\\",
+-     },
+-   ],
+-   \\"selectedPattern\\": Array [
+-     Object {
+-       \\"code\\": \\"pattern01\\",
+-       \\"name\\": \\"pattern01\\",
+-       \\"validDateFrom\\": \\"2023-03-20\\",
+-       \\"validDateTo\\": \\"2100-03-20\\",
+-     },
+-   ],
++   \\"orginalSelectedPattern\\": Array [],
++   \\"selectedPattern\\": Array [],
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/PATTERN/SELECTED_PATTERN/SET_SELECTED_PATTERN 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"orginalSelectedPattern\\": Array [],
+-   \\"selectedPattern\\": Array [],
++   \\"selectedPattern\\": Array [
++     Object {
++       \\"code\\": \\"pattern01\\",
++       \\"name\\": \\"pattern01\\",
++       \\"validDateFrom\\": \\"2023-03-20\\",
++       \\"validDateTo\\": \\"2100-03-20\\",
++     },
++   ],
+  }"
+`;

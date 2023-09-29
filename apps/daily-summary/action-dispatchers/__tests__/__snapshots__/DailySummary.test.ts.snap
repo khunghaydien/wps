@@ -1,0 +1,405 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DailySummary openDailySummary() should dispatch actions not to leave if targetDate is not today 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/UI/DAILY_SUMMARY/RESET",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/ENTITIES/EVENTS/RESET",
+  },
+  Object {
+    "payload": Object {
+      "key": "targetDate",
+      "value": "2020-02-05",
+    },
+    "type": "/DAILY-SUMMARY/UI/DAILY_SUMMARY/UPDATE",
+  },
+  Object {
+    "payload": "2020-02-05",
+    "type": "/DAILY-SUMMARY/ENTITIES/EVENTS/SET_TARGET_DATE",
+  },
+  Object {
+    "payload": Object {
+      "plannerDefaultView": "Weekly",
+      "searchConditionList": Array [],
+    },
+    "type": "FETCH_PERSONAL_SETTING_SUCCESS",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+  Object {
+    "payload": Object {
+      "dailySummary": Object {
+        "isTemporaryWorkTime": null,
+        "note": "",
+        "output": null,
+        "realWorkTime": null,
+        "status": "NotRequested",
+        "targetDate": "2020-02-05",
+        "taskList": Array [
+          Object {
+            "color": Object {
+              "base": "#0083b6",
+              "linked": "#00658c",
+            },
+            "hasJobType": true,
+            "id": 1,
+            "isDirectCharged": true,
+            "isDirectInput": true,
+            "isEditLocked": true,
+            "jobCode": "3",
+            "jobId": "a0h2v00000a4y34AAA",
+            "jobName": "JOB_NAME",
+            "ratio": null,
+            "taskNote": "",
+            "taskTime": 120,
+            "volume": null,
+            "workCategoryCode": "7",
+            "workCategoryId": "a1G2v000003z0jkEAA",
+            "workCategoryName": "event",
+          },
+        ],
+        "useWorkReportByJob": true,
+      },
+      "targetDate": "2020-02-05",
+    },
+    "type": "/DAILY-SUMMARY/UI/DAILY_SUMMARY/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "events": Array [
+        Object {
+          "contactId": null,
+          "contactName": null,
+          "createdServiceBy": "teamspirit",
+          "description": null,
+          "endDateTime": "2020-02-13T15:00:00.000Z",
+          "externalEventId": null,
+          "id": "a182v00000HUNAUAA5",
+          "isAllDay": true,
+          "isOrganizer": true,
+          "isOuting": false,
+          "jobCode": null,
+          "jobId": null,
+          "jobName": null,
+          "location": null,
+          "ownerId": "0052v00000WnC8VAAV",
+          "startDateTime": "2020-02-02T15:00:00.000Z",
+          "title": "Sprint 1st",
+          "workCategoryCode": null,
+          "workCategoryId": null,
+          "workCategoryName": null,
+        },
+      ],
+      "targetDate": "2020-02-05",
+    },
+    "type": "/DAILY-SUMMARY/ENTITIES/EVENTS/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "key": "isEnableEndStamp",
+      "value": false,
+    },
+    "type": "/DAILY-SUMMARY/UI/DAILY_SUMMARY/UPDATE",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`DailySummary openDailySummary() should dispatch actions to leave if targetDate is today 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/UI/DAILY_SUMMARY/RESET",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/ENTITIES/EVENTS/RESET",
+  },
+  Object {
+    "payload": Object {
+      "key": "targetDate",
+      "value": "2020-02-04",
+    },
+    "type": "/DAILY-SUMMARY/UI/DAILY_SUMMARY/UPDATE",
+  },
+  Object {
+    "payload": "2020-02-04",
+    "type": "/DAILY-SUMMARY/ENTITIES/EVENTS/SET_TARGET_DATE",
+  },
+  Object {
+    "payload": Object {
+      "plannerDefaultView": "Weekly",
+      "searchConditionList": Array [],
+    },
+    "type": "FETCH_PERSONAL_SETTING_SUCCESS",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+  Object {
+    "payload": Object {
+      "dailySummary": Object {
+        "isTemporaryWorkTime": null,
+        "note": "",
+        "output": null,
+        "realWorkTime": null,
+        "status": "NotRequested",
+        "targetDate": "2020-02-05",
+        "taskList": Array [
+          Object {
+            "color": Object {
+              "base": "#0083b6",
+              "linked": "#00658c",
+            },
+            "hasJobType": true,
+            "id": 1,
+            "isDirectCharged": true,
+            "isDirectInput": true,
+            "isEditLocked": true,
+            "jobCode": "3",
+            "jobId": "a0h2v00000a4y34AAA",
+            "jobName": "JOB_NAME",
+            "ratio": null,
+            "taskNote": "",
+            "taskTime": 120,
+            "volume": null,
+            "workCategoryCode": "7",
+            "workCategoryId": "a1G2v000003z0jkEAA",
+            "workCategoryName": "event",
+          },
+        ],
+        "useWorkReportByJob": true,
+      },
+      "targetDate": "2020-02-04",
+    },
+    "type": "/DAILY-SUMMARY/UI/DAILY_SUMMARY/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "events": Array [
+        Object {
+          "contactId": null,
+          "contactName": null,
+          "createdServiceBy": "teamspirit",
+          "description": null,
+          "endDateTime": "2020-02-13T15:00:00.000Z",
+          "externalEventId": null,
+          "id": "a182v00000HUNAUAA5",
+          "isAllDay": true,
+          "isOrganizer": true,
+          "isOuting": false,
+          "jobCode": null,
+          "jobId": null,
+          "jobName": null,
+          "location": null,
+          "ownerId": "0052v00000WnC8VAAV",
+          "startDateTime": "2020-02-02T15:00:00.000Z",
+          "title": "Sprint 1st",
+          "workCategoryCode": null,
+          "workCategoryId": null,
+          "workCategoryName": null,
+        },
+      ],
+      "targetDate": "2020-02-04",
+    },
+    "type": "/DAILY-SUMMARY/ENTITIES/EVENTS/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "isEnableEndStamp": true,
+      "targetDate": "2020-02-04",
+    },
+    "type": "/DAILY-SUMMARY/UI/DAILY_SUMMARY/SET_IS_ENABLE_END_STAMP",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`DailySummary openDailySummary() should dispatch actions to notify error if api throws error 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/UI/DAILY_SUMMARY/RESET",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/ENTITIES/EVENTS/RESET",
+  },
+  Object {
+    "payload": Object {
+      "key": "targetDate",
+      "value": "2020-02-05",
+    },
+    "type": "/DAILY-SUMMARY/UI/DAILY_SUMMARY/UPDATE",
+  },
+  Object {
+    "payload": "2020-02-05",
+    "type": "/DAILY-SUMMARY/ENTITIES/EVENTS/SET_TARGET_DATE",
+  },
+  Object {
+    "payload": Object {
+      "plannerDefaultView": "Weekly",
+      "searchConditionList": Array [],
+    },
+    "type": "FETCH_PERSONAL_SETTING_SUCCESS",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/UI/BLOCKING/ENABLE",
+  },
+  Object {
+    "payload": Object {
+      "message": "Server not responded",
+      "options": undefined,
+      "variant": "error",
+    },
+    "type": "COMMONS/MODULES/TOAST/SHOW",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`DailySummary saveDailySummary() should dispatch actions to notify error if api throws error 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/UI/BLOCKING/ENABLE",
+  },
+  Object {
+    "payload": Object {
+      "message": "Server not responded",
+      "options": undefined,
+      "variant": "error",
+    },
+    "type": "COMMONS/MODULES/TOAST/SHOW",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`DailySummary saveDailySummary() should dispatch to notify error if ratio total is not 100% 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/UI/BLOCKING/ENABLE",
+  },
+  Object {
+    "payload": Object {
+      "message": "Unable to save. Set the total input value ot job percentage to 100%.",
+      "options": undefined,
+      "variant": "error",
+    },
+    "type": "COMMONS/MODULES/TOAST/SHOW",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`DailySummary saveDailySummary() should dispatch to save daily summary 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`DailySummary saveDailySummaryAndLeaveWork() should dispatch to reload daily summary if plannerDefaultView is daily 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/UI/DAILY_SUMMARY/RESET",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/ENTITIES/EVENTS/RESET",
+  },
+  Object {
+    "payload": Object {
+      "key": "targetDate",
+      "value": "2020-02-05",
+    },
+    "type": "/DAILY-SUMMARY/UI/DAILY_SUMMARY/UPDATE",
+  },
+  Object {
+    "payload": "2020-02-05",
+    "type": "/DAILY-SUMMARY/ENTITIES/EVENTS/SET_TARGET_DATE",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+  Object {
+    "payload": Object {
+      "plannerDefaultView": "Weekly",
+      "searchConditionList": Array [],
+    },
+    "type": "FETCH_PERSONAL_SETTING_SUCCESS",
+  },
+]
+`;
+
+exports[`DailySummary saveDailySummaryAndLeaveWork() should dispatch to save daily summary and leave 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/UI/DAILY_SUMMARY/RESET",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/ENTITIES/EVENTS/RESET",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/ENTITIES/WORK_CATEGORIES/CLEAR",
+  },
+  Object {
+    "payload": undefined,
+    "type": "/DAILY-SUMMARY/UI/WORK_CATEGORY_LIST/CLEAR",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;

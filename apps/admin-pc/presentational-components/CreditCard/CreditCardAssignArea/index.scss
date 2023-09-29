@@ -1,0 +1,47 @@
+.admin-pc-credit-card-assign-area {
+  border-top: solid 1px #d8dde6;
+  margin-top: 20px;
+  padding-top: 16px;
+
+  &__title {
+    margin: 0 0 5px;
+    color: $color-text-modest;
+    font-size: 1rem;
+  }
+
+  &__hint {
+    color: #92939a;
+    margin-left: 6px;
+  }
+
+  &__new {
+    float: left;
+  }
+
+  &__holder {
+    float: right;
+    margin-right: 6px;
+  }
+
+  &__delete {
+    float: right;
+  }
+
+  &__tooltip {
+    display: flex;
+  }
+
+  &__icon_help {
+    position: relative;
+    width: 19px;
+    height: 19px;
+    margin-left: 7px;
+    background-image: url('../../../../commons/images/iconTooltip.png');
+    background-size: 19px;
+  }
+
+  > .data-grid {
+    margin-top: 20px;
+    padding-top: 35px;
+  }
+}

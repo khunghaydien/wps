@@ -1,0 +1,1 @@
+if(typeof(Visualforce) == "object"){ Visualforce.remoting.timeout = 120000; }

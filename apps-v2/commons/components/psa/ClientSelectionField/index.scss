@@ -1,0 +1,165 @@
+@import '@apps/commons/components/psa/variables.scss';
+
+.ts-client-selection-dialog {
+  display: flex;
+  &__selection-button {
+    height: 32px;
+    display: flex;
+    align-items: center;
+
+    &.disable {
+      display: none;
+    }
+
+    &__icon {
+      width: 16px;
+      height: 16px;
+      fill: $color-text-blue;
+    }
+
+    &__name {
+      margin-left: 8px;
+      color: $color-text-blue;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  &__modal-content {
+    display: flex;
+    flex-direction: column;
+    min-width: 720px;
+    height: 367px;
+  }
+  &__form-field-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px;
+    .ts-psa__form-field {
+      padding: 10px;
+    }
+  }
+  &__search-button-container {
+    display: flex;
+    // margin-left: auto;
+  }
+  &__search-button {
+    min-width: 32px;
+    min-height: 32px;
+    align-self: flex-end;
+    border: 1px solid #dddbda;
+    border-radius: 4px;
+    &:hover {
+      background-color: $color-bg-grey;
+    }
+  }
+
+  &__list-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  &__list-item {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    background-color: $color-bg-white;
+    border: solid 1px #ddd;
+
+    &.selected {
+      background-color: $color-bg-grey;
+      font-weight: bold;
+    }
+    &-header {
+      width: 100%;
+      display: flex;
+      padding: 20px;
+      background-color: #f3f6f9;
+      color: #5a6e91;
+      font-weight: bold;
+      border: solid 1px #ddd;
+      border-top-right-radius: 3px;
+      border-top-left-radius: 3px;
+      margin: 0 10px;
+
+      > span {
+        width: 33%;
+      }
+    }
+    &-content {
+      width: 100%;
+      margin: 0 10px;
+      overflow-y: auto;
+      max-height: 200px;
+      border-bottom: solid 1px #ddd;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }
+
+    &:hover {
+      background-color: $color-bg-grey;
+      cursor: pointer;
+    }
+
+    > span {
+      width: 33%;
+    }
+  }
+
+  &__selection-list {
+    display: flex;
+    flex-flow: row wrap;
+
+    &__item {
+      display: flex;
+      flex-direction: row;
+      background-color: $color-bg-white;
+      border: $color-border;
+      padding: 2px 4px;
+      box-sizing: border-box;
+      border-radius: 4px;
+      flex: none;
+      order: 0;
+      align-self: flex-start;
+      margin: 4px 2px;
+
+      &__label {
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: capitalize;
+        flex: none;
+        order: 0;
+        align-self: center;
+        margin: 2px 0;
+      }
+
+      &__close-button {
+        width: 10px;
+        height: 10px;
+        flex: none;
+        order: 1;
+        align-self: center;
+        margin: 2px 2px 2px 8px;
+      }
+    }
+  }
+}
+
+.slds-modal__header {
+  padding: 0;
+  border-radius: 4px 4px 0 0;
+  background: #f4f6f9;
+}
+
+.slds-modal__content {
+  overflow-y: hidden;
+  max-width: 860px;
+}
+
+.ts-client-selection-dialog__modal-content {
+  max-width: 860px;
+}

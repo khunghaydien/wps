@@ -1,0 +1,71 @@
+.admin-pc-employee-list {
+  position: relative;
+  z-index: 0;
+  height: 100%;
+
+  &__header {
+    position: relative;
+    height: 34px;
+    background-color: $color-bg-pane-header-second;
+    color: $color-text-pane-header-second;
+    font-size: $font-size-x-large;
+  }
+
+  &__header-content {
+    padding-left: 18px;
+  }
+
+  &__header-content__title {
+    display: table-cell;
+    height: 36px;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  &__header-area {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+  }
+
+  &__header-area button {
+    width: 86px;
+    font-size: 13px;
+  }
+
+  &__header-area__history {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  &__header-area__history-label {
+    display: inline-block;
+  }
+
+  &__header-area__history-date_field {
+    display: inline-block;
+  }
+
+  &__header-area__history-search_button {
+    width: 86px;
+    margin-left: 5px;
+  }
+
+  &__list-paging-layout {
+    height: calc(100% - 83px);
+  }
+
+  &__name {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    height: 28px;
+    border-radius: 50%;
+  }
+
+  &__info {
+    padding-left: 8px;
+  }
+}

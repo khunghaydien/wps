@@ -1,0 +1,67 @@
+@import 'mobile-global-imports.scss';
+@import '../../../../../../commons/styles/exp/variables/colors';
+
+.mobile-app-pages-expense-page-route-form {
+  .main-content {
+    padding: 48px $small-size;
+  }
+
+  &__trip-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  &__route-container {
+    display: flex;
+    flex-direction: column;
+    flex: 9;
+    padding-right: 16px;
+  }
+
+  &__route-reversal-container {
+    display: flex;
+    flex: 1;
+  }
+
+  &__reversal-icon {
+    align-items: center;
+  }
+
+  &__search-button {
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  &__via-station {
+    position: relative;
+    margin: 8px 0;
+  }
+
+  &__via .mobile-app-atoms-label__control {
+    width: calc(100% - 40px);
+  }
+
+  &__via-delete {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    display: block;
+  }
+
+  input:disabled,
+  select:disabled,
+  .mobile-app-atoms-input--disabled,
+  .mobile-app-molecules-common-like-input-button__button--disabled {
+    background: $ts-input-field-border-gray !important;
+    color: $ts-input-field-dashed-gray !important;
+    opacity: 1; /* required on iOS */
+    -webkit-text-fill-color: $ts-input-field-dashed-gray;
+    &::placeholder {
+      color: $ts-input-field-dashed-gray;
+    }
+  }
+}

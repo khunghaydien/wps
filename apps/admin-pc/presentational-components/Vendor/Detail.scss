@@ -1,0 +1,5 @@
+@import '../Employee/Detail.scss';
+
+.admin-pc-vendor-detail {
+  @extend .admin-pc-employee-detail;
+}

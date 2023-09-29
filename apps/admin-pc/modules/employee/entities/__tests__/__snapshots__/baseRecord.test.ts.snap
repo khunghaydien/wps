@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"code\\": \\"\\",
++   \\"displayName_L0\\": \\"\\",
++   \\"displayName_L1\\": \\"\\",
++   \\"displayName_L2\\": \\"\\",
++   \\"firstName_L0\\": \\"\\",
++   \\"firstName_L1\\": \\"\\",
++   \\"firstName_L2\\": \\"\\",
++   \\"hiredDate\\": \\"\\",
++   \\"id\\": \\"\\",
++   \\"lastName_L0\\": \\"\\",
++   \\"lastName_L1\\": \\"\\",
++   \\"lastName_L2\\": \\"\\",
++   \\"middleName_L0\\": \\"\\",
++   \\"middleName_L1\\": \\"\\",
++   \\"middleName_L2\\": \\"\\",
++   \\"name\\": \\"\\",
++   \\"resignationDate\\": \\"\\",
++   \\"userId\\": \\"\\",
++   \\"userName\\": \\"\\",
++   \\"validFrom\\": \\"\\",
++   \\"validTo\\": \\"\\",
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/EMPLOYEE/ENTITIES/BASE_RECORD/FETCH 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"code\\": \\"\\",
+-   \\"displayName_L0\\": \\"\\",
+-   \\"displayName_L1\\": \\"\\",
+-   \\"displayName_L2\\": \\"\\",
+-   \\"firstName_L0\\": \\"\\",
+-   \\"firstName_L1\\": \\"\\",
+-   \\"firstName_L2\\": \\"\\",
+-   \\"hiredDate\\": \\"\\",
+-   \\"id\\": \\"\\",
+-   \\"lastName_L0\\": \\"\\",
+-   \\"lastName_L1\\": \\"\\",
+-   \\"lastName_L2\\": \\"\\",
+-   \\"middleName_L0\\": \\"\\",
+-   \\"middleName_L1\\": \\"\\",
+-   \\"middleName_L2\\": \\"\\",
+-   \\"name\\": \\"\\",
+-   \\"resignationDate\\": \\"\\",
+-   \\"userId\\": \\"\\",
+-   \\"userName\\": \\"\\",
+-   \\"validFrom\\": \\"\\",
+-   \\"validTo\\": \\"\\",
++   \\"code\\": \\"code\\",
++   \\"displayName_L0\\": \\"displayName_L0\\",
++   \\"displayName_L1\\": \\"displayName_L1\\",
++   \\"displayName_L2\\": \\"displayName_L2\\",
++   \\"firstName_L0\\": \\"firstName_L0\\",
++   \\"firstName_L1\\": \\"firstName_L1\\",
++   \\"firstName_L2\\": \\"firstName_L2\\",
++   \\"id\\": \\"id\\",
++   \\"lastName_L0\\": \\"lastName_L0\\",
++   \\"lastName_L1\\": \\"lastName_L1\\",
++   \\"lastName_L2\\": \\"lastName_L2\\",
++   \\"middleName_L0\\": \\"middleName_L0\\",
++   \\"middleName_L1\\": \\"middleName_L1\\",
++   \\"middleName_L2\\": \\"middleName_L2\\",
++   \\"name\\": \\"name\\",
++   \\"userId\\": \\"userId\\",
++   \\"userName\\": \\"userName\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/EMPLOYEE/ENTITIES/BASE_RECORD/INITIALIZE 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;

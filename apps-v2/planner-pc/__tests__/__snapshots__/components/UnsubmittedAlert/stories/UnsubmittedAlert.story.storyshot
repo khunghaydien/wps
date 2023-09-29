@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots planner-pc/UnsubmittedAlert Alert 1`] = `
+<div
+  className="UnsubmittedAlert__Wrapper-sc-p36nus-0 cMABsr"
+>
+  <div
+    className="UnsubmittedAlert__IconWrapper-sc-p36nus-1 jkRMNp"
+  >
+    <test-file-stub
+      aria-hidden={true}
+      className="Icons__Icon-sc-cal846-0 jWhNzX"
+      color="base"
+    />
+  </div>
+  <span
+    className="Text-sc-11kuzx6-0 haJPxg"
+    color="base"
+  >
+    There is an unsubmitted time tracking confirmation request.
+    (
+    2021-03-01 - 2021-03-31
+    )
+  </span>
+</div>
+`;

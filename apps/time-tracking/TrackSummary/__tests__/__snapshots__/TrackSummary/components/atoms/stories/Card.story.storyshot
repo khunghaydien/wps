@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/TrackSummary/Cards Card 1`] = `
+.c1 {
+  margin: 0 0 0 20px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="wsp-card"
+  >
+    <div
+      className="wsp-card__header"
+    >
+      <div
+        className="wsp-card__title"
+      >
+        Title
+      </div>
+      <div
+        className="c1 wsp-card__header-group"
+      >
+        <div
+          className="wsp-card__header-group__item"
+        >
+          item
+        </div>
+      </div>
+      <div
+        className="c1 wsp-card__header-group"
+      >
+        <div
+          className="wsp-card__header-group__item"
+        >
+          right 1
+        </div>
+        <div
+          className="wsp-card__header-group__item"
+        >
+          right 2
+        </div>
+      </div>
+    </div>
+    <div
+      className="wsp-card__divider"
+    />
+    <div
+      className="wsp-card__body"
+    >
+      Body
+    </div>
+  </div>
+</div>
+`;

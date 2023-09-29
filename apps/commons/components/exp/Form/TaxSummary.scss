@@ -1,0 +1,129 @@
+@import './../../../../commons/styles/exp/variables/colors';
+.ts-expenses__form-tax-summary {
+  width: 100%;
+  margin-bottom: 10px;
+  padding-right: 15px;
+  font-size: 13px;
+  &--tax-detail {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    &-title {
+      width: 45%;
+      color: #53688c;
+      text-align: right;
+    }
+    &-line {
+      position: relative;
+      &::before {
+        position: absolute;
+        content: '';
+        width: 3px;
+        height: 100%;
+        background: #53688c;
+      }
+    }
+    &-list-amount {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      width: 50%;
+    }
+  }
+  &--list-amount-item {
+    margin-bottom: 1px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    &-tax-rate {
+      display: flex;
+      justify-content: flex-end;
+      background: $ts-button-default-color;
+      padding: 0 10px;
+      border-radius: 10px;
+      height: 20px;
+      color: #fff;
+    }
+    &:last-child {
+      margin-bottom: unset;
+    }
+    &-tax-amount {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+  &--foreign-currency {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    &-title {
+      width: 45%;
+      color: #de933a;
+      text-align: right;
+    }
+    &-line {
+      position: relative;
+      &::before {
+        position: absolute;
+        content: '';
+        width: 3px;
+        height: 100%;
+        background: #de933a;
+      }
+    }
+    &-amount {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      line-height: 20px;
+      width: 50%;
+      text-align: right;
+    }
+  }
+  &__approval {
+    padding-right: unset;
+    &--foreign-currency-amount {
+      text-align: right;
+    }
+    &--foreign-currency,
+    &--tax-detail {
+      float: right;
+      &-title {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .ts-expenses__form-tax-summary {
+    padding-right: unset;
+    &--tax-detail,
+    &--foreign-currency {
+      width: 100%;
+      &-title {
+        max-width: 150px;
+        word-break: keep-all;
+        text-align: left;
+        margin-right: 10px;
+      }
+      &-amount,
+      &-list-amount {
+        width: 100%;
+        min-width: 220px;
+        margin-left: 10px;
+      }
+    }
+    &--list-amount-item {
+      justify-content: unset;
+    }
+    &--list-amount-item-tax-rate-detail {
+      width: 60px;
+      display: flex;
+      justify-content: flex-start;
+    }
+    &--list-amount-item-tax-rate-subdetail {
+      color: #333;
+    }
+  }
+}

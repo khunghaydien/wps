@@ -1,0 +1,128 @@
+@import '../../../commons/styles/wsp.scss';
+
+.admin-pc-expense-type-search-dialog {
+  width: 900px;
+
+  &__too-many-results {
+    margin-top: 5px;
+    color: color('error');
+  }
+
+  &__list--search-result {
+    display: flex;
+    overflow: auto;
+    flex-flow: column nowrap;
+    padding: 16px;
+  }
+
+  &__button {
+    height: 32px;
+    font-weight: bold;
+  }
+
+  &__add-button:disabled {
+    border-color: #d5dce6;
+
+    span {
+      color: #d5dce6;
+    }
+  }
+
+  &__add-button {
+    border-color: #2782ed;
+
+    span {
+      color: #2782ed;
+    }
+  }
+
+  .react-grid-Canvas {
+    overflow: auto !important;
+
+    .react-grid-Row {
+      cursor: pointer;
+    }
+  }
+
+  .react-grid-Cell__value > div > span > div {
+    overflow: hidden;
+    width: 95%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .react-grid-checkbox {
+    width: 16px;
+    height: 16px;
+  }
+
+  .widget-HeaderCell__value {
+    font-weight: bold;
+  }
+
+  .react-grid-Cell--locked {
+    border-right: none !important;
+  }
+
+  .react-grid-HeaderCell {
+    border-right: none;
+    background: #f4f6f9;
+  }
+}
+
+.admin-pc-expense-type-search-form {
+  display: flex;
+  width: calc(100% - 40px);
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 16px;
+
+  .slds-input {
+    min-height: 30px;
+    border-radius: 0;
+  }
+
+  :first-child {
+    .slds-input {
+      border-radius: 4px 0 0 4px;
+    }
+  }
+
+  .admin-pc-expense-type-search-form__control:nth-child(2) {
+    .slds-input {
+      border-left: none;
+    }
+  }
+
+  :nth-child(3) {
+    .slds-input {
+      border-left: none;
+    }
+  }
+
+  :nth-child(4) {
+    .slds-input {
+      border-left: none;
+      border-radius: 0 4px 4px 0;
+    }
+  }
+
+  &__control {
+    width: 25%;
+  }
+
+  &__control &__label {
+    color: $color-text-modest;
+  }
+
+  &__search-button {
+    position: absolute;
+    right: 16px;
+    min-width: 32px;
+    min-height: 32px;
+    align-self: flex-end;
+    border: 1px solid #dddbda;
+    border-radius: 4px;
+  }
+}

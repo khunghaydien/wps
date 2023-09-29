@@ -1,0 +1,61 @@
+@import 'mobile-global-imports';
+
+.mobile-app-molecules-date-select {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+
+  &__datepicker .rmc-picker-popup-header {
+    border-bottom: 1px solid $color-border;
+  }
+
+  &__datepicker .rmc-picker-popup-header .rmc-picker-popup-title {
+    color: $color-text-base !important;
+  }
+
+  &__datepicker .rmc-picker-popup-header .rmc-picker-popup-header-right:active,
+  &__datepicker .rmc-picker-popup-header .rmc-picker-popup-header-left:active {
+    color: $color-blue-700;
+    text-decoration: underline;
+  }
+
+  &__datepicker .rmc-picker-popup-header .rmc-picker-popup-item {
+    color: $color-brand;
+    font-size: $medium-size;
+  }
+
+  &__datepicker .rmc-picker-item {
+    color: $color-text-base;
+    font-size: 20px;
+  }
+
+  &__datepicker .rmc-picker .rmc-picker-popup-item {
+    color: $color-brand;
+    font-size: $medium-size;
+  }
+
+  &__trigger {
+    display: flex;
+    height: 100%;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__trigger-label {
+    margin: 0 8px 0 0;
+
+    // NOTE: for in TextButton[disabled]
+    color: $color-text-base;
+  }
+
+  &__text-button {
+    :disabled {
+      .mobile-app-atoms-icon {
+        path {
+          fill: $color-blue-300;
+        }
+      }
+    }
+  }
+}

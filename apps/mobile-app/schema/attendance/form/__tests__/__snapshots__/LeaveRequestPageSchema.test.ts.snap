@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[LeaveRange=Time] return error when endTime is null. 1`] = `
+Object {
+  "startTime": Array [
+    " Required",
+  ],
+}
+`;
+
+exports[`[LeaveRange=Time] return error when startTime is null. 1`] = `
+Object {
+  "endTime": Array [
+    " Required",
+  ],
+}
+`;
+
+exports[`[leaveRange=Day] return error when endDate is null. 1`] = `
+Object {
+  "endDate": Array [
+    " Required",
+  ],
+}
+`;
+
+exports[`[requireReason=true] return error when reason is null. 1`] = `
+Object {
+  "reason": Array [
+    " Required",
+  ],
+}
+`;
+
+exports[`return error when data is ''. 1`] = `
+Object {
+  "endTime": Array [
+    "endTime must be a \`number\` type, but the final value was: \`NaN\` (cast from the value \`\\"\\"\`).",
+  ],
+  "leaveCode": Array [
+    " Required",
+  ],
+  "leaveRange": Array [
+    "leaveRange must be one of the following values: Day, AM, PM, Half, Time",
+  ],
+  "startDate": Array [
+    " Required",
+  ],
+  "startTime": Array [
+    "startTime must be a \`number\` type, but the final value was: \`NaN\` (cast from the value \`\\"\\"\`).",
+  ],
+}
+`;
+
+exports[`return error when data is empty. 1`] = `
+Object {
+  "leaveCode": Array [
+    " Required",
+  ],
+  "leaveRange": Array [
+    "leaveRange is a required field",
+  ],
+  "startDate": Array [
+    " Required",
+  ],
+}
+`;
+
+exports[`return error when data is null. 1`] = `
+Object {
+  "leaveCode": Array [
+    " Required",
+  ],
+  "leaveRange": Array [
+    "leaveRange must be one of the following values: Day, AM, PM, Half, Time",
+  ],
+  "startDate": Array [
+    " Required",
+  ],
+}
+`;

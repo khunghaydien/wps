@@ -1,0 +1,1658 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"attPatternList\\": Array [],
++   \\"directInputInfo\\": null,
++   \\"hasRange\\": false,
++   \\"request\\": null,
++   \\"selectedAttPattern\\": null,
++   \\"workingTypeInfo\\": null,
++ }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -2,7 +2,17 @@
+    \\"attPatternList\\": Array [],
+    \\"directInputInfo\\": null,
+    \\"hasRange\\": false,
+    \\"request\\": null,
+    \\"selectedAttPattern\\": null,
+-   \\"workingTypeInfo\\": null,
++   \\"workingTypeInfo\\": Object {
++     \\"code\\": null,
++     \\"endTime\\": 0,
++     \\"flexEndTime\\": 0,
++     \\"flexStartTime\\": 0,
++     \\"name\\": null,
++     \\"restTimes\\": Array [],
++     \\"startTime\\": 0,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Fix\\",
++   },
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/INITIALIZE 2`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"attPatternList\\": Array [],
+-   \\"directInputInfo\\": null,
++   \\"directInputInfo\\": Object {
++     \\"code\\": null,
++     \\"endTime\\": 0,
++     \\"flexEndTime\\": 0,
++     \\"flexStartTime\\": 0,
++     \\"name\\": null,
++     \\"restTimes\\": Array [],
++     \\"startTime\\": 0,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Fix\\",
++   },
+    \\"hasRange\\": false,
+    \\"request\\": null,
+    \\"selectedAttPattern\\": null,
+    \\"workingTypeInfo\\": null,
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/INITIALIZE 3`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"attPatternList\\": Array [],
++   \\"attPatternList\\": Array [
++     Object {
++       \\"code\\": \\"test01\\",
++       \\"endTime\\": 1080,
++       \\"flexEndTime\\": null,
++       \\"flexStartTime\\": null,
++       \\"name\\": \\"変形労働時間制01\\",
++       \\"restTimes\\": Array [
++         Object {
++           \\"endTime\\": 780,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 720,
++         },
++         Object {
++           \\"endTime\\": 960,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 900,
++         },
++         Object {
++           \\"endTime\\": 1080,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 1020,
++         },
++       ],
++       \\"startTime\\": 540,
++       \\"withoutCoreTime\\": false,
++       \\"workSystem\\": \\"JP:Modified\\",
++     },
++   ],
+    \\"directInputInfo\\": null,
+    \\"hasRange\\": false,
+-   \\"request\\": null,
+-   \\"selectedAttPattern\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"canDirectInputTimeRequest\\": false,
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"2020-04-07\\",
++     \\"endTime\\": 1080,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isDirectInputTimeRequest\\": false,
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveDetailCode\\": null,
++     \\"leaveDetailName\\": null,
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": \\"test01\\",
++     \\"patternName\\": \\"変形労働時間制01\\",
++     \\"patternRestTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 960,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 900,
++       },
++       Object {
++         \\"endTime\\": 1080,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 1020,
++       },
++     ],
++     \\"personalReason\\": false,
++     \\"reason\\": \\"\\",
++     \\"reasonCode\\": \\"\\",
++     \\"reasonId\\": \\"\\",
++     \\"reasonName\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestDayType\\": null,
++     \\"requestTypeCode\\": \\"Pattern\\",
++     \\"requestTypeName\\": \\"勤務時間変更\\",
++     \\"requestableDayType\\": \\"Holiday\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2020-04-07\\",
++     \\"startTime\\": 540,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"Pattern\\",
++     \\"useEarlyLeaveReason\\": false,
++     \\"useLateArrivalReason\\": false,
++     \\"useManagePersonalReason\\": false,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Modified\\",
++   },
++   \\"selectedAttPattern\\": Object {
++     \\"code\\": \\"test01\\",
++     \\"endTime\\": 1080,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"name\\": \\"変形労働時間制01\\",
++     \\"restTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 960,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 900,
++       },
++       Object {
++         \\"endTime\\": 1080,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 1020,
++       },
++     ],
++     \\"startTime\\": 540,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Modified\\",
++   },
+    \\"workingTypeInfo\\": null,
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/INITIALIZE 4`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"attPatternList\\": Array [],
++   \\"attPatternList\\": Array [
++     Object {
++       \\"code\\": \\"test01\\",
++       \\"endTime\\": 1080,
++       \\"flexEndTime\\": null,
++       \\"flexStartTime\\": null,
++       \\"name\\": \\"固定労働時間制01\\",
++       \\"restTimes\\": Array [
++         Object {
++           \\"endTime\\": 780,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 720,
++         },
++         Object {
++           \\"endTime\\": 960,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 900,
++         },
++         Object {
++           \\"endTime\\": 1080,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 1020,
++         },
++       ],
++       \\"startTime\\": 540,
++       \\"withoutCoreTime\\": false,
++       \\"workSystem\\": \\"JP:Fix\\",
++     },
++   ],
+    \\"directInputInfo\\": null,
+    \\"hasRange\\": false,
+-   \\"request\\": null,
+-   \\"selectedAttPattern\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"canDirectInputTimeRequest\\": false,
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"2021-11-09\\",
++     \\"endTime\\": 1080,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isDirectInputTimeRequest\\": false,
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveDetailCode\\": null,
++     \\"leaveDetailName\\": null,
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": \\"test01\\",
++     \\"patternName\\": \\"固定労働時間制01\\",
++     \\"patternRestTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 960,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 900,
++       },
++       Object {
++         \\"endTime\\": 1080,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 1020,
++       },
++     ],
++     \\"personalReason\\": false,
++     \\"reason\\": \\"\\",
++     \\"reasonCode\\": \\"\\",
++     \\"reasonId\\": \\"\\",
++     \\"reasonName\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestDayType\\": null,
++     \\"requestTypeCode\\": \\"Pattern\\",
++     \\"requestTypeName\\": \\"勤務時間変更\\",
++     \\"requestableDayType\\": \\"Holiday\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2021-11-09\\",
++     \\"startTime\\": 540,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"Pattern\\",
++     \\"useEarlyLeaveReason\\": false,
++     \\"useLateArrivalReason\\": false,
++     \\"useManagePersonalReason\\": false,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Fix\\",
++   },
++   \\"selectedAttPattern\\": Object {
++     \\"code\\": \\"test01\\",
++     \\"endTime\\": 1080,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"name\\": \\"固定労働時間制01\\",
++     \\"restTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 960,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 900,
++       },
++       Object {
++         \\"endTime\\": 1080,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 1020,
++       },
++     ],
++     \\"startTime\\": 540,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Fix\\",
++   },
+    \\"workingTypeInfo\\": null,
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/INITIALIZE 5`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"attPatternList\\": Array [],
++   \\"attPatternList\\": Array [
++     Object {
++       \\"code\\": \\"test01\\",
++       \\"endTime\\": 960,
++       \\"flexEndTime\\": 1080,
++       \\"flexStartTime\\": 480,
++       \\"name\\": \\"フレックスタイム制01\\",
++       \\"restTimes\\": Array [
++         Object {
++           \\"endTime\\": 780,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 720,
++         },
++         Object {
++           \\"endTime\\": 960,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 900,
++         },
++         Object {
++           \\"endTime\\": 1080,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 1020,
++         },
++       ],
++       \\"startTime\\": 540,
++       \\"withoutCoreTime\\": false,
++       \\"workSystem\\": \\"JP:Flex\\",
++     },
++   ],
+    \\"directInputInfo\\": null,
+    \\"hasRange\\": false,
+-   \\"request\\": null,
+-   \\"selectedAttPattern\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"canDirectInputTimeRequest\\": false,
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"2021-11-10\\",
++     \\"endTime\\": 960,
++     \\"flexEndTime\\": 1080,
++     \\"flexStartTime\\": 480,
++     \\"id\\": \\"\\",
++     \\"isDirectInputTimeRequest\\": false,
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveDetailCode\\": null,
++     \\"leaveDetailName\\": null,
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": \\"test01\\",
++     \\"patternName\\": \\"フレックスタイム制01\\",
++     \\"patternRestTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 960,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 900,
++       },
++       Object {
++         \\"endTime\\": 1080,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 1020,
++       },
++     ],
++     \\"personalReason\\": false,
++     \\"reason\\": \\"\\",
++     \\"reasonCode\\": \\"\\",
++     \\"reasonId\\": \\"\\",
++     \\"reasonName\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestDayType\\": null,
++     \\"requestTypeCode\\": \\"Pattern\\",
++     \\"requestTypeName\\": \\"勤務時間変更\\",
++     \\"requestableDayType\\": \\"Holiday\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2021-11-10\\",
++     \\"startTime\\": 540,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"Pattern\\",
++     \\"useEarlyLeaveReason\\": false,
++     \\"useLateArrivalReason\\": false,
++     \\"useManagePersonalReason\\": false,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Flex\\",
++   },
++   \\"selectedAttPattern\\": Object {
++     \\"code\\": \\"test01\\",
++     \\"endTime\\": 960,
++     \\"flexEndTime\\": 1080,
++     \\"flexStartTime\\": 480,
++     \\"name\\": \\"フレックスタイム制01\\",
++     \\"restTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 960,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 900,
++       },
++       Object {
++         \\"endTime\\": 1080,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 1020,
++       },
++     ],
++     \\"startTime\\": 540,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Flex\\",
++   },
+    \\"workingTypeInfo\\": null,
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/INITIALIZE 6`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"attPatternList\\": Array [],
++   \\"attPatternList\\": Array [
++     Object {
++       \\"code\\": \\"test01\\",
++       \\"endTime\\": null,
++       \\"flexEndTime\\": 1080,
++       \\"flexStartTime\\": 480,
++       \\"name\\": \\"フレックスタイム制01\\",
++       \\"restTimes\\": Array [
++         Object {
++           \\"endTime\\": 780,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 720,
++         },
++         Object {
++           \\"endTime\\": 960,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 900,
++         },
++         Object {
++           \\"endTime\\": 1080,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 1020,
++         },
++       ],
++       \\"startTime\\": null,
++       \\"withoutCoreTime\\": true,
++       \\"workSystem\\": \\"JP:Flex\\",
++     },
++   ],
+    \\"directInputInfo\\": null,
+    \\"hasRange\\": false,
+-   \\"request\\": null,
+-   \\"selectedAttPattern\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"canDirectInputTimeRequest\\": false,
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"2021-11-10\\",
++     \\"endTime\\": null,
++     \\"flexEndTime\\": 1080,
++     \\"flexStartTime\\": 480,
++     \\"id\\": \\"\\",
++     \\"isDirectInputTimeRequest\\": false,
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveDetailCode\\": null,
++     \\"leaveDetailName\\": null,
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": \\"test01\\",
++     \\"patternName\\": \\"フレックスタイム制01\\",
++     \\"patternRestTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 960,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 900,
++       },
++       Object {
++         \\"endTime\\": 1080,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 1020,
++       },
++     ],
++     \\"personalReason\\": false,
++     \\"reason\\": \\"\\",
++     \\"reasonCode\\": \\"\\",
++     \\"reasonId\\": \\"\\",
++     \\"reasonName\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestDayType\\": null,
++     \\"requestTypeCode\\": \\"Pattern\\",
++     \\"requestTypeName\\": \\"勤務時間変更\\",
++     \\"requestableDayType\\": \\"Holiday\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2021-11-10\\",
++     \\"startTime\\": null,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"Pattern\\",
++     \\"useEarlyLeaveReason\\": false,
++     \\"useLateArrivalReason\\": false,
++     \\"useManagePersonalReason\\": false,
++     \\"withoutCoreTime\\": true,
++     \\"workSystem\\": \\"JP:Flex\\",
++   },
++   \\"selectedAttPattern\\": Object {
++     \\"code\\": \\"test01\\",
++     \\"endTime\\": null,
++     \\"flexEndTime\\": 1080,
++     \\"flexStartTime\\": 480,
++     \\"name\\": \\"フレックスタイム制01\\",
++     \\"restTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 960,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 900,
++       },
++       Object {
++         \\"endTime\\": 1080,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 1020,
++       },
++     ],
++     \\"startTime\\": null,
++     \\"withoutCoreTime\\": true,
++     \\"workSystem\\": \\"JP:Flex\\",
++   },
+    \\"workingTypeInfo\\": null,
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/INITIALIZE 7`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"attPatternList\\": Array [],
++   \\"attPatternList\\": Array [
++     Object {
++       \\"code\\": \\"test01\\",
++       \\"endTime\\": 1020,
++       \\"flexEndTime\\": null,
++       \\"flexStartTime\\": null,
++       \\"name\\": \\"裁量労働制01\\",
++       \\"restTimes\\": Array [
++         Object {
++           \\"endTime\\": 780,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 720,
++         },
++         Object {
++           \\"endTime\\": 900,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 840,
++         },
++         Object {
++           \\"endTime\\": 1020,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 960,
++         },
++       ],
++       \\"startTime\\": 600,
++       \\"withoutCoreTime\\": false,
++       \\"workSystem\\": \\"JP:Discretion\\",
++     },
++   ],
+    \\"directInputInfo\\": null,
+    \\"hasRange\\": false,
+-   \\"request\\": null,
+-   \\"selectedAttPattern\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"canDirectInputTimeRequest\\": false,
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"2021-11-10\\",
++     \\"endTime\\": 1020,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isDirectInputTimeRequest\\": false,
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveDetailCode\\": null,
++     \\"leaveDetailName\\": null,
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": \\"test01\\",
++     \\"patternName\\": \\"裁量労働制01\\",
++     \\"patternRestTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 900,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 840,
++       },
++       Object {
++         \\"endTime\\": 1020,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 960,
++       },
++     ],
++     \\"personalReason\\": false,
++     \\"reason\\": \\"\\",
++     \\"reasonCode\\": \\"\\",
++     \\"reasonId\\": \\"\\",
++     \\"reasonName\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestDayType\\": null,
++     \\"requestTypeCode\\": \\"Pattern\\",
++     \\"requestTypeName\\": \\"勤務時間変更\\",
++     \\"requestableDayType\\": \\"Holiday\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2021-11-10\\",
++     \\"startTime\\": 600,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"Pattern\\",
++     \\"useEarlyLeaveReason\\": false,
++     \\"useLateArrivalReason\\": false,
++     \\"useManagePersonalReason\\": false,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Discretion\\",
++   },
++   \\"selectedAttPattern\\": Object {
++     \\"code\\": \\"test01\\",
++     \\"endTime\\": 1020,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"name\\": \\"裁量労働制01\\",
++     \\"restTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 900,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 840,
++       },
++       Object {
++         \\"endTime\\": 1020,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 960,
++       },
++     ],
++     \\"startTime\\": 600,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Discretion\\",
++   },
+    \\"workingTypeInfo\\": null,
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/INITIALIZE 8`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"attPatternList\\": Array [],
++   \\"attPatternList\\": Array [
++     Object {
++       \\"code\\": \\"test01\\",
++       \\"endTime\\": null,
++       \\"flexEndTime\\": null,
++       \\"flexStartTime\\": null,
++       \\"name\\": \\"裁量労働制01\\",
++       \\"restTimes\\": Array [
++         Object {
++           \\"endTime\\": 780,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 720,
++         },
++         Object {
++           \\"endTime\\": 900,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 840,
++         },
++         Object {
++           \\"endTime\\": 1020,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 960,
++         },
++       ],
++       \\"startTime\\": null,
++       \\"withoutCoreTime\\": false,
++       \\"workSystem\\": \\"JP:Discretion\\",
++     },
++   ],
+    \\"directInputInfo\\": null,
+    \\"hasRange\\": false,
+-   \\"request\\": null,
+-   \\"selectedAttPattern\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"canDirectInputTimeRequest\\": false,
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"2021-11-10\\",
++     \\"endTime\\": null,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isDirectInputTimeRequest\\": false,
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveDetailCode\\": null,
++     \\"leaveDetailName\\": null,
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": \\"test01\\",
++     \\"patternName\\": \\"裁量労働制01\\",
++     \\"patternRestTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 900,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 840,
++       },
++       Object {
++         \\"endTime\\": 1020,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 960,
++       },
++     ],
++     \\"personalReason\\": false,
++     \\"reason\\": \\"\\",
++     \\"reasonCode\\": \\"\\",
++     \\"reasonId\\": \\"\\",
++     \\"reasonName\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestDayType\\": null,
++     \\"requestTypeCode\\": \\"Pattern\\",
++     \\"requestTypeName\\": \\"勤務時間変更\\",
++     \\"requestableDayType\\": \\"Holiday\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2021-11-10\\",
++     \\"startTime\\": null,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"Pattern\\",
++     \\"useEarlyLeaveReason\\": false,
++     \\"useLateArrivalReason\\": false,
++     \\"useManagePersonalReason\\": false,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Discretion\\",
++   },
++   \\"selectedAttPattern\\": Object {
++     \\"code\\": \\"test01\\",
++     \\"endTime\\": null,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"name\\": \\"裁量労働制01\\",
++     \\"restTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 900,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 840,
++       },
++       Object {
++         \\"endTime\\": 1020,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 960,
++       },
++     ],
++     \\"startTime\\": null,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Discretion\\",
++   },
+    \\"workingTypeInfo\\": null,
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/INITIALIZE 9`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"attPatternList\\": Array [],
++   \\"attPatternList\\": Array [
++     Object {
++       \\"code\\": \\"test01\\",
++       \\"endTime\\": 1020,
++       \\"flexEndTime\\": null,
++       \\"flexStartTime\\": null,
++       \\"name\\": \\"管理監督者01\\",
++       \\"restTimes\\": Array [
++         Object {
++           \\"endTime\\": 780,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 720,
++         },
++         Object {
++           \\"endTime\\": 900,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 840,
++         },
++         Object {
++           \\"endTime\\": 1020,
++           \\"restReason\\": Object {
++             \\"code\\": \\"001\\",
++             \\"id\\": \\"a0A2800000FmMQCEA1\\",
++             \\"name\\": \\"お昼休み\\",
++           },
++           \\"startTime\\": 960,
++         },
++       ],
++       \\"startTime\\": 600,
++       \\"withoutCoreTime\\": false,
++       \\"workSystem\\": \\"JP:Manager\\",
++     },
++   ],
+    \\"directInputInfo\\": null,
+    \\"hasRange\\": false,
+-   \\"request\\": null,
+-   \\"selectedAttPattern\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"canDirectInputTimeRequest\\": false,
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"2021-11-10\\",
++     \\"endTime\\": 1020,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isDirectInputTimeRequest\\": false,
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveDetailCode\\": null,
++     \\"leaveDetailName\\": null,
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": \\"test01\\",
++     \\"patternName\\": \\"管理監督者01\\",
++     \\"patternRestTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 900,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 840,
++       },
++       Object {
++         \\"endTime\\": 1020,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 960,
++       },
++     ],
++     \\"personalReason\\": false,
++     \\"reason\\": \\"\\",
++     \\"reasonCode\\": \\"\\",
++     \\"reasonId\\": \\"\\",
++     \\"reasonName\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestDayType\\": null,
++     \\"requestTypeCode\\": \\"Pattern\\",
++     \\"requestTypeName\\": \\"勤務時間変更\\",
++     \\"requestableDayType\\": \\"Holiday\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2021-11-10\\",
++     \\"startTime\\": 600,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"Pattern\\",
++     \\"useEarlyLeaveReason\\": false,
++     \\"useLateArrivalReason\\": false,
++     \\"useManagePersonalReason\\": false,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Manager\\",
++   },
++   \\"selectedAttPattern\\": Object {
++     \\"code\\": \\"test01\\",
++     \\"endTime\\": 1020,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"name\\": \\"管理監督者01\\",
++     \\"restTimes\\": Array [
++       Object {
++         \\"endTime\\": 780,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 720,
++       },
++       Object {
++         \\"endTime\\": 900,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 840,
++       },
++       Object {
++         \\"endTime\\": 1020,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 960,
++       },
++     ],
++     \\"startTime\\": 600,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Manager\\",
++   },
+    \\"workingTypeInfo\\": null,
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/SETDIRECTINPUT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"attPatternList\\": Array [],
+-   \\"directInputInfo\\": null,
++   \\"directInputInfo\\": Object {
++     \\"code\\": null,
++     \\"endTime\\": 0,
++     \\"flexEndTime\\": 0,
++     \\"flexStartTime\\": 0,
++     \\"name\\": null,
++     \\"restTimes\\": Array [],
++     \\"startTime\\": 0,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Fix\\",
++   },
+    \\"hasRange\\": false,
+    \\"request\\": null,
+    \\"selectedAttPattern\\": null,
+    \\"workingTypeInfo\\": null,
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/SETWORKINGTYPE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -2,7 +2,17 @@
+    \\"attPatternList\\": Array [],
+    \\"directInputInfo\\": null,
+    \\"hasRange\\": false,
+    \\"request\\": null,
+    \\"selectedAttPattern\\": null,
+-   \\"workingTypeInfo\\": null,
++   \\"workingTypeInfo\\": Object {
++     \\"code\\": null,
++     \\"endTime\\": 0,
++     \\"flexEndTime\\": 0,
++     \\"flexStartTime\\": 0,
++     \\"name\\": null,
++     \\"restTimes\\": Array [],
++     \\"startTime\\": 0,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"JP:Fix\\",
++   },
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -100,11 +100,11 @@
+          },
+          \\"startTime\\": 1020,
+        },
+      ],
+      \\"personalReason\\": false,
+-     \\"reason\\": \\"\\",
++     \\"reason\\": \\"testですtestです。\\",
+      \\"reasonCode\\": \\"\\",
+      \\"reasonId\\": \\"\\",
+      \\"reasonName\\": \\"\\",
+      \\"remarks\\": \\"\\",
+      \\"requestDayType\\": null,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE 2`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -100,11 +100,11 @@
+          },
+          \\"startTime\\": 1020,
+        },
+      ],
+      \\"personalReason\\": false,
+-     \\"reason\\": \\"\\",
++     \\"reason\\": \\"testWorkingTypeですtestFixです。\\",
+      \\"reasonCode\\": \\"\\",
+      \\"reasonId\\": \\"\\",
+      \\"reasonName\\": \\"\\",
+      \\"remarks\\": \\"\\",
+      \\"requestDayType\\": null,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE 3`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -100,11 +100,11 @@
+          },
+          \\"startTime\\": 1020,
+        },
+      ],
+      \\"personalReason\\": false,
+-     \\"reason\\": \\"\\",
++     \\"reason\\": \\"testFixですtestFixです。\\",
+      \\"reasonCode\\": \\"\\",
+      \\"reasonId\\": \\"\\",
+      \\"reasonName\\": \\"\\",
+      \\"remarks\\": \\"\\",
+      \\"requestDayType\\": null,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE 4`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -100,11 +100,11 @@
+          },
+          \\"startTime\\": 1020,
+        },
+      ],
+      \\"personalReason\\": false,
+-     \\"reason\\": \\"\\",
++     \\"reason\\": \\"testFlexですtestFlexです。\\",
+      \\"reasonCode\\": \\"\\",
+      \\"reasonId\\": \\"\\",
+      \\"reasonName\\": \\"\\",
+      \\"remarks\\": \\"\\",
+      \\"requestDayType\\": null,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE 5`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -100,11 +100,11 @@
+          },
+          \\"startTime\\": 1020,
+        },
+      ],
+      \\"personalReason\\": false,
+-     \\"reason\\": \\"\\",
++     \\"reason\\": \\"testFlexWithoutCoretimeですtestFlexWithoutCoretimeです。\\",
+      \\"reasonCode\\": \\"\\",
+      \\"reasonId\\": \\"\\",
+      \\"reasonName\\": \\"\\",
+      \\"remarks\\": \\"\\",
+      \\"requestDayType\\": null,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE 6`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -100,11 +100,11 @@
+          },
+          \\"startTime\\": 1020,
+        },
+      ],
+      \\"personalReason\\": false,
+-     \\"reason\\": \\"\\",
++     \\"reason\\": \\"testDiscretionですtestDiscretionです。\\",
+      \\"reasonCode\\": \\"\\",
+      \\"reasonId\\": \\"\\",
+      \\"reasonName\\": \\"\\",
+      \\"remarks\\": \\"\\",
+      \\"requestDayType\\": null,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE 7`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -100,11 +100,11 @@
+          },
+          \\"startTime\\": 1020,
+        },
+      ],
+      \\"personalReason\\": false,
+-     \\"reason\\": \\"\\",
++     \\"reason\\": \\"testDiscretionWithoutTimeですtestDiscretionWithoutTimeです。\\",
+      \\"reasonCode\\": \\"\\",
+      \\"reasonId\\": \\"\\",
+      \\"reasonName\\": \\"\\",
+      \\"remarks\\": \\"\\",
+      \\"requestDayType\\": null,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE 8`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -100,11 +100,11 @@
+          },
+          \\"startTime\\": 1020,
+        },
+      ],
+      \\"personalReason\\": false,
+-     \\"reason\\": \\"\\",
++     \\"reason\\": \\"testManagerですtestManagereです。\\",
+      \\"reasonCode\\": \\"\\",
+      \\"reasonId\\": \\"\\",
+      \\"reasonName\\": \\"\\",
+      \\"remarks\\": \\"\\",
+      \\"requestDayType\\": null,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE_HAS_RANGE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -49,16 +49,16 @@
+      \\"restTimes\\": Array [],
+      \\"startTime\\": 0,
+      \\"withoutCoreTime\\": false,
+      \\"workSystem\\": \\"JP:Fix\\",
+    },
+-   \\"hasRange\\": false,
++   \\"hasRange\\": true,
+    \\"request\\": Object {
+      \\"approver01Name\\": \\"\\",
+      \\"canDirectInputTimeRequest\\": false,
+      \\"directApplyRestTimes\\": Array [],
+-     \\"endDate\\": \\"2020-04-07\\",
++     \\"endDate\\": \\"2020-04-08\\",
+      \\"endTime\\": 1080,
+      \\"flexEndTime\\": null,
+      \\"flexStartTime\\": null,
+      \\"id\\": \\"\\",
+      \\"isDirectInputTimeRequest\\": false,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE_HAS_RANGE 2`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -49,16 +49,16 @@
+      \\"restTimes\\": Array [],
+      \\"startTime\\": 0,
+      \\"withoutCoreTime\\": false,
+      \\"workSystem\\": \\"JP:Fix\\",
+    },
+-   \\"hasRange\\": false,
++   \\"hasRange\\": true,
+    \\"request\\": Object {
+      \\"approver01Name\\": \\"\\",
+      \\"canDirectInputTimeRequest\\": false,
+      \\"directApplyRestTimes\\": Array [],
+-     \\"endDate\\": \\"2020-04-07\\",
++     \\"endDate\\": \\"2020-04-08\\",
+      \\"endTime\\": 1080,
+      \\"flexEndTime\\": null,
+      \\"flexStartTime\\": null,
+      \\"id\\": \\"\\",
+      \\"isDirectInputTimeRequest\\": false,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE_HAS_RANGE 3`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -49,16 +49,16 @@
+      \\"restTimes\\": Array [],
+      \\"startTime\\": 0,
+      \\"withoutCoreTime\\": false,
+      \\"workSystem\\": \\"JP:Fix\\",
+    },
+-   \\"hasRange\\": false,
++   \\"hasRange\\": true,
+    \\"request\\": Object {
+      \\"approver01Name\\": \\"\\",
+      \\"canDirectInputTimeRequest\\": false,
+      \\"directApplyRestTimes\\": Array [],
+-     \\"endDate\\": \\"2021-11-09\\",
++     \\"endDate\\": \\"2021-11-10\\",
+      \\"endTime\\": 1080,
+      \\"flexEndTime\\": null,
+      \\"flexStartTime\\": null,
+      \\"id\\": \\"\\",
+      \\"isDirectInputTimeRequest\\": false,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE_HAS_RANGE 4`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -49,16 +49,16 @@
+      \\"restTimes\\": Array [],
+      \\"startTime\\": 0,
+      \\"withoutCoreTime\\": false,
+      \\"workSystem\\": \\"JP:Fix\\",
+    },
+-   \\"hasRange\\": false,
++   \\"hasRange\\": true,
+    \\"request\\": Object {
+      \\"approver01Name\\": \\"\\",
+      \\"canDirectInputTimeRequest\\": false,
+      \\"directApplyRestTimes\\": Array [],
+-     \\"endDate\\": \\"2021-11-10\\",
++     \\"endDate\\": \\"2021-11-11\\",
+      \\"endTime\\": 960,
+      \\"flexEndTime\\": 1080,
+      \\"flexStartTime\\": 480,
+      \\"id\\": \\"\\",
+      \\"isDirectInputTimeRequest\\": false,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE_HAS_RANGE 5`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -49,16 +49,16 @@
+      \\"restTimes\\": Array [],
+      \\"startTime\\": 0,
+      \\"withoutCoreTime\\": false,
+      \\"workSystem\\": \\"JP:Fix\\",
+    },
+-   \\"hasRange\\": false,
++   \\"hasRange\\": true,
+    \\"request\\": Object {
+      \\"approver01Name\\": \\"\\",
+      \\"canDirectInputTimeRequest\\": false,
+      \\"directApplyRestTimes\\": Array [],
+-     \\"endDate\\": \\"2021-11-10\\",
++     \\"endDate\\": \\"2021-11-11\\",
+      \\"endTime\\": null,
+      \\"flexEndTime\\": 1080,
+      \\"flexStartTime\\": 480,
+      \\"id\\": \\"\\",
+      \\"isDirectInputTimeRequest\\": false,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE_HAS_RANGE 6`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -49,16 +49,16 @@
+      \\"restTimes\\": Array [],
+      \\"startTime\\": 0,
+      \\"withoutCoreTime\\": false,
+      \\"workSystem\\": \\"JP:Fix\\",
+    },
+-   \\"hasRange\\": false,
++   \\"hasRange\\": true,
+    \\"request\\": Object {
+      \\"approver01Name\\": \\"\\",
+      \\"canDirectInputTimeRequest\\": false,
+      \\"directApplyRestTimes\\": Array [],
+-     \\"endDate\\": \\"2021-11-10\\",
++     \\"endDate\\": \\"2021-11-11\\",
+      \\"endTime\\": 1080,
+      \\"flexEndTime\\": null,
+      \\"flexStartTime\\": null,
+      \\"id\\": \\"\\",
+      \\"isDirectInputTimeRequest\\": false,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE_HAS_RANGE 7`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -49,16 +49,16 @@
+      \\"restTimes\\": Array [],
+      \\"startTime\\": 0,
+      \\"withoutCoreTime\\": false,
+      \\"workSystem\\": \\"JP:Fix\\",
+    },
+-   \\"hasRange\\": false,
++   \\"hasRange\\": true,
+    \\"request\\": Object {
+      \\"approver01Name\\": \\"\\",
+      \\"canDirectInputTimeRequest\\": false,
+      \\"directApplyRestTimes\\": Array [],
+-     \\"endDate\\": \\"2021-11-10\\",
++     \\"endDate\\": \\"2021-11-11\\",
+      \\"endTime\\": null,
+      \\"flexEndTime\\": null,
+      \\"flexStartTime\\": null,
+      \\"id\\": \\"\\",
+      \\"isDirectInputTimeRequest\\": false,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/PATTERN_REQUEST/UPDATE_HAS_RANGE 8`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -49,16 +49,16 @@
+      \\"restTimes\\": Array [],
+      \\"startTime\\": 0,
+      \\"withoutCoreTime\\": false,
+      \\"workSystem\\": \\"JP:Fix\\",
+    },
+-   \\"hasRange\\": false,
++   \\"hasRange\\": true,
+    \\"request\\": Object {
+      \\"approver01Name\\": \\"\\",
+      \\"canDirectInputTimeRequest\\": false,
+      \\"directApplyRestTimes\\": Array [],
+-     \\"endDate\\": \\"2021-11-10\\",
++     \\"endDate\\": \\"2021-11-11\\",
+      \\"endTime\\": 1080,
+      \\"flexEndTime\\": null,
+      \\"flexStartTime\\": null,
+      \\"id\\": \\"\\",
+      \\"isDirectInputTimeRequest\\": false,"
+`;

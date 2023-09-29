@@ -1,0 +1,22 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-atoms-fix-daily-request-status-tag {
+  min-width: 6px;
+  height: 48px;
+
+  &--approved {
+    background-color: #05ae06;
+  }
+
+  &--pending {
+    background-color: #2782ed;
+  }
+
+  &--warning {
+    background-color: #c23934;
+  }
+
+  &--not-requested {
+    background: #c23934 url('../../../../../commons/images/bgHatchedLine.png');
+  }
+}

@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"hasRange\\": false,
++   \\"request\\": null,
++ }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/DIRECT_REQUEST/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"hasRange\\": false,
+-   \\"request\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"directApplyRestTimes\\": Array [
++       Object {
++         \\"endTime\\": null,
++         \\"startTime\\": null,
++       },
++       Object {
++         \\"endTime\\": null,
++         \\"startTime\\": null,
++       },
++       Object {
++         \\"endTime\\": null,
++         \\"startTime\\": null,
++       },
++     ],
++     \\"endDate\\": \\"2020-04-06\\",
++     \\"endTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": null,
++     \\"patternName\\": null,
++     \\"patternRestTimes\\": Array [],
++     \\"reason\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestTypeCode\\": \\"Direct\\",
++     \\"requestTypeName\\": \\"直行直帰\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2020-04-06\\",
++     \\"startTime\\": null,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"Direct\\",
++   },
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/DIRECT_REQUEST/UPDATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -26,11 +26,11 @@
+      \\"leaveType\\": null,
+      \\"originalRequestId\\": \\"\\",
+      \\"patternCode\\": null,
+      \\"patternName\\": null,
+      \\"patternRestTimes\\": Array [],
+-     \\"reason\\": \\"\\",
++     \\"reason\\": \\"testですtestです。\\",
+      \\"remarks\\": \\"\\",
+      \\"requestTypeCode\\": \\"Direct\\",
+      \\"requestTypeName\\": \\"直行直帰\\",
+      \\"requireReason\\": false,
+      \\"startDate\\": \\"2020-04-06\\","
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/DIRECT_REQUEST/UPDATE_HAS_RANGE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,7 +1,7 @@
+  Object {
+-   \\"hasRange\\": false,
++   \\"hasRange\\": true,
+    \\"request\\": Object {
+      \\"approver01Name\\": \\"\\",
+      \\"directApplyRestTimes\\": Array [
+        Object {
+          \\"endTime\\": null,
+@@ -14,11 +14,11 @@
+        Object {
+          \\"endTime\\": null,
+          \\"startTime\\": null,
+        },
+      ],
+-     \\"endDate\\": \\"2020-04-06\\",
++     \\"endDate\\": \\"2020-04-07\\",
+      \\"endTime\\": null,
+      \\"id\\": \\"\\",
+      \\"isForReapply\\": false,
+      \\"leaveCode\\": \\"\\",
+      \\"leaveName\\": \\"\\","
+`;

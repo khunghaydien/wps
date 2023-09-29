@@ -1,0 +1,73 @@
+@import '../../../commons/components/psa/variables.scss';
+@import '../../../commons/components/psa/ParentHeader/index.scss';
+
+// Styles specific to Resource Tab
+.ts-psa__common-parent-header {
+  &--left__reduce-margin {
+    margin-left: -20px;
+    margin-top: -15px;
+    :first-child {
+      border-bottom: 0;
+    }
+  }
+
+  &__btn-resources {
+    padding: $size-xs $container-padding;
+    color: $color-btn-primary;
+  }
+
+  &__selected-resource {
+    display: flex;
+    margin-right: 10px;
+    padding: 3px 6px;
+    border: 1px solid $color-border-light-grey;
+    border-radius: 4px;
+    background-color: $color-container;
+  }
+
+  &__selected-resource-label {
+    display: grid;
+    margin-right: 10px;
+    & > p {
+      margin: auto;
+      color: $color-text-dark-grey;
+    }
+  }
+
+  &__selected-resource-name {
+    display: grid;
+    & > a {
+      margin: auto;
+      font-weight: bold;
+    }
+  }
+
+  &__selected-resource-photo {
+    display: flex;
+    & > img {
+      width: 28px;
+      height: 28px;
+      margin-right: 10px;
+      border-radius: 50%;
+      &:hover {
+        cursor: pointer;
+        border: solid 1px $color-bg-grey;
+      }
+    }
+  }
+
+  &__option-group {
+    width: 152px !important;
+    margin-right: 8px;
+    height: 36px !important;
+    padding: 5px;
+  }
+
+  &__option-group-label {
+    align-items: center;
+    margin-right: 8px;
+    display: inline-flex;
+    color: #144177;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots planner-pc/MonthlyView/parts/DayHeader default 1`] = `
+<div
+  className="DayHeader__Block-sc-463ki7-0 fgvVxp"
+>
+  <span
+    className="Text-sc-11kuzx6-0 DayHeader__DayText-sc-463ki7-1 bqmfRR kZBIHP"
+  >
+    Sun
+  </span>
+  <span
+    className="Text-sc-11kuzx6-0 DayHeader__DayText-sc-463ki7-1 bqmfRR kZBIHP"
+  >
+    Mon
+  </span>
+  <span
+    className="Text-sc-11kuzx6-0 DayHeader__DayText-sc-463ki7-1 bqmfRR kZBIHP"
+  >
+    Tue
+  </span>
+  <span
+    className="Text-sc-11kuzx6-0 DayHeader__DayText-sc-463ki7-1 bqmfRR kZBIHP"
+  >
+    Wed
+  </span>
+  <span
+    className="Text-sc-11kuzx6-0 DayHeader__DayText-sc-463ki7-1 bqmfRR kZBIHP"
+  >
+    Thu
+  </span>
+  <span
+    className="Text-sc-11kuzx6-0 DayHeader__DayText-sc-463ki7-1 bqmfRR kZBIHP"
+  >
+    Fri
+  </span>
+  <span
+    className="Text-sc-11kuzx6-0 DayHeader__DayText-sc-463ki7-1 bqmfRR kZBIHP"
+  >
+    Sat
+  </span>
+</div>
+`;
+
+exports[`Storyshots planner-pc/MonthlyView/parts/DayHeader locale 1`] = `
+<div
+  className="DayHeader__Block-sc-463ki7-0 fgvVxp"
+>
+  <span
+    className="Text-sc-11kuzx6-0 DayHeader__DayText-sc-463ki7-1 bqmfRR kZBIHP"
+  >
+    Sun
+  </span>
+  <span
+    className="Text-sc-11kuzx6-0 DayHeader__DayText-sc-463ki7-1 bqmfRR kZBIHP"
+  >
+    Mon
+  </span>
+  <span
+    className="Text-sc-11kuzx6-0 DayHeader__DayText-sc-463ki7-1 bqmfRR kZBIHP"
+  >
+    Tue
+  </span>
+  <span
+    className="Text-sc-11kuzx6-0 DayHeader__DayText-sc-463ki7-1 bqmfRR kZBIHP"
+  >
+    Wed
+  </span>
+  <span
+    className="Text-sc-11kuzx6-0 DayHeader__DayText-sc-463ki7-1 bqmfRR kZBIHP"
+  >
+    Thu
+  </span>
+  <span
+    className="Text-sc-11kuzx6-0 DayHeader__DayText-sc-463ki7-1 bqmfRR kZBIHP"
+  >
+    Fri
+  </span>
+  <span
+    className="Text-sc-11kuzx6-0 DayHeader__DayText-sc-463ki7-1 bqmfRR kZBIHP"
+  >
+    Sat
+  </span>
+</div>
+`;

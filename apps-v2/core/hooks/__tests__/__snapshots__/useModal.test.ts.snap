@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useModal() should style the background of modal 1`] = `"display: flex; flex-flow: column nowrap; justify-content: center; align-items: center; height: 100%; width: 100%; position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; background: rgba(0, 0, 0, 0.6); z-index: 5100000;"`;

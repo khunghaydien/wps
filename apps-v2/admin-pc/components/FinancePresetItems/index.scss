@@ -1,0 +1,78 @@
+.admin-pc__finance-preset-items {
+  > .slds-grid {
+    align-items: flex-start;
+    ::after {
+      top: 8px;
+    }
+  }
+  > .ts-horizontal-layout {
+    > div {
+      padding-top: 8px;
+    }
+  }
+
+  &__btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__add-links-text {
+    margin-left: 8px;
+  }
+  &__add-names {
+    font-weight: bold;
+  }
+
+  &__add-links--dialog {
+    background: none;
+    border: 0;
+  }
+
+  &__dialog {
+    min-width: 720px;
+    .commons-dialog-frame-footer__inner {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .commons-dialog-frame__contents {
+      padding: 30px 30px 18px 30px;
+    }
+    .name-delete-btn {
+      align-self: flex-end;
+      background-color: transparent;
+      color: red;
+      border: none;
+    }
+  }
+
+  &__preset-names {
+    &-container {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 12px;
+    }
+    &-item {
+      flex: 1;
+    }
+    &__container-item {
+      display: flex;
+      flex: 1;
+      gap: 16px;
+    }
+    &__count{
+      color:#000;
+      padding-top: 4px;
+    }
+    &__button-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__preset-item{
+      text-overflow: ellipsis;
+    }
+  }
+  &__add-links-icon__disable > path {
+    fill: grey;
+  }
+}

@@ -1,0 +1,9 @@
+.record-access-privilege-target-table {
+  &__delete {
+    float: right;
+  }
+
+  > .data-grid {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,19 @@
+.admin-pc-common-clearable-field {
+  &__text {
+    color: #000;
+  }
+
+  &__clear {
+    margin-left: 12px;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+
+    & path {
+      fill: #fff;
+    }
+  }
+  &__select {
+    min-height: 30px;
+  }
+}

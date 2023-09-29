@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should do. 1`] = `Array []`;
+
+exports[`should do. 2`] = `Array []`;
+
+exports[`should do. 3`] = `Array []`;
+
+exports[`should not do. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "availableRequestTypes": null,
+      "requests": Array [],
+    },
+    "type": "TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/LIST/SET",
+  },
+]
+`;

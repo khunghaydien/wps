@@ -1,0 +1,30 @@
+@import '../../styles/wsp';
+
+.ts-label-with-hint {
+  display: flex;
+  color: color('text-2');
+  line-height: 19px;
+
+  &__info {
+    overflow: visible !important;
+    height: 13px;
+    outline: 0;
+    vertical-align: baseline;
+
+    & path {
+      fill: color('exp-primary');
+    }
+  }
+
+  &__left-info {
+    padding-left: 10px;
+  }
+
+  &__right-info {
+    padding-right: 10px;
+  }
+
+  &__hintMsg {
+    white-space: pre-wrap;
+  }
+}

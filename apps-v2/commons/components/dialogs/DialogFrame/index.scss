@@ -1,0 +1,127 @@
+.commons-dialog-frame {
+  $headerHeight: 60px;
+  $footerHeight: 60px;
+
+  // 中央配置
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+
+  &__wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+
+    // 中央配置
+    &::before {
+      display: inline-block;
+      width: 0;
+      height: 100%;
+      content: '';
+      vertical-align: middle;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: -23px;
+    right: 10px;
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    line-height: 1;
+
+    img {
+      vertical-align: bottom;
+    }
+  }
+
+  &__header {
+    height: $headerHeight;
+    padding: 0 16px;
+    border-bottom: solid 1px $color-border-default;
+    background: $color-bg-heading;
+    border-radius: 4px 4px 0 0;
+
+    &__cursor {
+      &:hover {
+        cursor: all-scroll;
+      }
+    }
+  }
+
+  &__header-icon {
+    margin: 0 8px 0 0;
+  }
+
+  &__header-title {
+    color: $color-text-modest;
+    font-size: $font-size-xx-large;
+    font-weight: bold;
+    line-height: $headerHeight;
+  }
+
+  &__icon-title {
+    width: auto;
+    height: auto;
+    margin-top: -3px;
+    margin-right: 5px;
+  }
+
+  &__wrap {
+    width: 100%;
+    height: calc(100% - #{($headerHeight + $footerHeight)});
+    background-color: #fff;
+  }
+
+  &--no-footer &__wrap {
+    height: calc(100% - #{$headerHeight});
+    border-radius: 0 0 4px 4px;
+  }
+
+  &__contents {
+    // Popover系のUIがDialogFrame.HeaderやDialogFrame.Footerに隠れてしまわないようにする
+    overflow: visible;
+    height: 100%;
+  }
+
+  &__footer {
+    height: $footerHeight;
+    padding: 16px;
+    border-top: 1px solid $color-border-default;
+    background-color: $color-bg-heading;
+    border-radius: 0 0 4px 4px;
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(151, 163, 173, 0.75);
+  }
+
+  .ts-exp-icon,
+  .ts-exp-icon-button {
+    path {
+      fill: rgb(175, 173, 171);
+    }
+  }
+
+  .commons-fields-dropdown-custom {
+    .ts-exp-icon,
+    .ts-exp-icon-button {
+      path {
+        fill: currentColor;
+      }
+    }
+  }
+}

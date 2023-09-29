@@ -1,0 +1,19 @@
+.ts-date-range-field {
+  display: inline-flex;
+
+  &__input {
+    flex-grow: 1;
+  }
+
+  &__separation {
+    display: flex;
+    flex: 0 0 2em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &__separation-inner {
+    // flexboxのレイアウトを有効にするためにwrapしている
+  }
+}

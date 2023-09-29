@@ -1,0 +1,18 @@
+@import '../../../../styles/wsp';
+
+.ts-expenses__reports-list-header {
+  padding: 12px 24px 8px 20px;
+  border-bottom: 1px solid color('border-2');
+  background-color: color('background-1');
+  color: color('text-2');
+  font-size: 12px;
+  line-height: 18px;
+
+  &--amount {
+    text-align: right;
+  }
+
+  &--report-type {
+    padding-right: 10px;
+  }
+}

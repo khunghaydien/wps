@@ -1,0 +1,38 @@
+/**
+ * Salesfroce Classic プランナー対応
+ */
+
+// NOTE: フォントを修正。
+body .tsnext,
+.tsnext td {
+  font-family: 'Salesforce Sans', Arial, sans-serif;
+}
+
+// TODO: ボタンのスタイリングを修正。プランナーでの暫定対応。
+body .tsnext button {
+  padding: inherit;
+  margin: inherit;
+  background: inherit;
+  font-weight: inherit;
+}
+
+// NOTE: 予定のタイトルにboldがかかってしまうのを修正
+body .tsnext dt {
+  font-weight: inherit;
+}
+
+// NOTE: flexboxのfallback
+.tsnext .slds-grid {
+  display: table;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  width: 100%; /* ie9 */ /* ie9 */ /* Safari8 */ /* ie10 */
+}
+
+// NOTE: flexboxのfallback
+.tsnext .ts-event-edit .slds-grid > * {
+  /* ie9 */
+  display: table-cell;
+  display: inline-block;
+}

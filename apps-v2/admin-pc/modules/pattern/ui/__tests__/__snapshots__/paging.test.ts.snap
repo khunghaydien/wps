@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"current\\": 0,
++   \\"isOverLimit\\": false,
++   \\"limit\\": 5000,
++   \\"limitPerPage\\": 100,
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/PATTERN/UI/PAGING/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"current\\": 0,
++   \\"current\\": 100,
+    \\"isOverLimit\\": false,
+    \\"limit\\": 5000,
+    \\"limitPerPage\\": 100,
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/PATTERN/UI/PAGING/RESET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"current\\": 100,
++   \\"current\\": 0,
+    \\"isOverLimit\\": false,
+    \\"limit\\": 5000,
+    \\"limitPerPage\\": 100,
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/PATTERN/UI/PAGING/SET_CURRRENT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"current\\": 0,
++   \\"current\\": 3,
+    \\"isOverLimit\\": false,
+    \\"limit\\": 5000,
+    \\"limitPerPage\\": 100,
+  }"
+`;

@@ -1,0 +1,30 @@
+.ts-collapse-with-animation {
+  &__header {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding-left: 10px;
+    border: 1px solid $color-border-default;
+    background-color: $color-bg-heading-sub;
+  }
+
+  &__toggle {
+    margin-right: 10px;
+    line-height: 22px;
+  }
+
+  &__toggle img {
+    transform: rotate(-90deg);
+    transition: transform 0.25s ease;
+  }
+
+  &__toggle--is-open img {
+    transform: rotate(0deg);
+  }
+
+  &__panel {
+    border: 1px solid $color-border-default;
+    border-top: none;
+    background-color: #fff;
+  }
+}

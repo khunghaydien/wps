@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected undefined but received boolean."
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/LOADING_DAILY_OBJECTIVELY_EVENT_LOG_DIALOG/FINISH 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- true
++ false"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/LOADING_DAILY_OBJECTIVELY_EVENT_LOG_DIALOG/START 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- false
++ true"
+`;

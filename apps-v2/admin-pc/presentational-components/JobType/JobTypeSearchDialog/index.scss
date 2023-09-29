@@ -1,0 +1,30 @@
+@import '../../../../commons/styles/wsp.scss';
+
+.admin-pc-job-type-search-dialog {
+  width: 900px;
+
+  &__body {
+    padding: 20px;
+  }
+
+  &__too-many-results {
+    margin-top: 5px;
+    color: color('error');
+  }
+
+  &__list--search-result {
+    .react-grid-HeaderRow {
+      input {
+        display: none;
+      }
+    }
+  }
+
+  .react-grid-Canvas {
+    overflow: auto !important;
+
+    .react-grid-Row {
+      cursor: pointer;
+    }
+  }
+}

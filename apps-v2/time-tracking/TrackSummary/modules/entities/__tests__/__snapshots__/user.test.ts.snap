@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() /TRACK_SUMMARY/ENTITIES/USER/RESET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"departmentCode\\": \\"\\",
+    \\"departmentName\\": \\"\\",
+    \\"employeeCode\\": \\"\\",
+    \\"employeeName\\": \\"\\",
+-   \\"employeePhotoUrl\\": undefined,
+-   \\"id\\": \\"a0W2v00013dlrcEAA\\",
+-   \\"isDelegated\\": true,
++   \\"employeePhotoUrl\\": \\"\\",
++   \\"id\\": \\"\\",
++   \\"isDelegated\\": false,
+    \\"managerName\\": \\"\\",
+    \\"title\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() /TRACK_SUMMARY/ENTITIES/USER/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"departmentCode\\": \\"\\",
+    \\"departmentName\\": \\"\\",
+    \\"employeeCode\\": \\"\\",
+    \\"employeeName\\": \\"\\",
+-   \\"employeePhotoUrl\\": \\"\\",
+-   \\"id\\": \\"\\",
+-   \\"isDelegated\\": false,
++   \\"employeePhotoUrl\\": undefined,
++   \\"id\\": \\"a0W2v00013dlrcEAA\\",
++   \\"isDelegated\\": true,
+    \\"managerName\\": \\"\\",
+    \\"title\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"departmentCode\\": \\"\\",
++   \\"departmentName\\": \\"\\",
++   \\"employeeCode\\": \\"\\",
++   \\"employeeName\\": \\"\\",
++   \\"employeePhotoUrl\\": \\"\\",
++   \\"id\\": \\"\\",
++   \\"isDelegated\\": false,
++   \\"managerName\\": \\"\\",
++   \\"title\\": \\"\\",
++ }"
+`;

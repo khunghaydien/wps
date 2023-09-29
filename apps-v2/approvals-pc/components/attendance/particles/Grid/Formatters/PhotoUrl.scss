@@ -1,0 +1,21 @@
+.approvals-pc-attendance-particles-grid-formatters-photo-url {
+  display: flex;
+  height: 100%;
+  flex: 0 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  &__icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__icon {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,19 @@
+.admin-pc-att-pattern-employee-batch-detail-pane-new {
+  &__file {
+    height: 30em;
+  }
+
+  &__button-area {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+
+  &__execute-button {
+    min-width: 80px;
+    height: 28px;
+    line-height: 28px;
+  }
+}

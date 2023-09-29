@@ -1,0 +1,117 @@
+.approvals-pc-tracking-process-list-pane-detail {
+  height: 100%;
+
+  &__header {
+    height: 35px;
+    background-color: $color-bg-pane-header-second;
+    color: $color-text-pane-header-second;
+    line-height: 35px;
+  }
+
+  &__header-btn-expand {
+    margin-left: 10px;
+    line-height: 22px;
+  }
+
+  &__header-btn-expand-image {
+    transform: rotate(180deg);
+  }
+
+  &__header-btn-expand-image--is-expand {
+    transform: rotate(0deg);
+  }
+
+  &__header-body {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: $font-size-x-large;
+  }
+
+  &__header-meta-wrapper {
+    display: inline-block;
+    margin-left: 35px;
+  }
+
+  &__header-meta {
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  &__header-meta + &__header-meta {
+    margin-left: 15px;
+  }
+
+  &__header-meta-name::after {
+    display: inline-block;
+    margin-right: 2px;
+    margin-left: 2px;
+    content: ':';
+  }
+
+  &__header-meta-content {
+    color: $color-text-pane-header-label;
+  }
+
+  &__scrollable {
+    height: calc(100% - 35px);
+    overflow-y: auto;
+  }
+
+  &__info-area {
+    background-color: #f2f2f2;
+  }
+
+  &__comment {
+    display: flex;
+    padding: 20px 15px;
+    border-radius: 0.25em;
+  }
+
+  &__comment-icon {
+    height: 50px;
+    flex: 0 0 50px;
+    margin-right: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  &__comment-body {
+    position: relative;
+    width: calc(100% - 80px);
+    flex: 1 1 auto;
+    padding: 0.25em 0.5em;
+    border: 1px solid $color-border-default;
+    word-wrap: break-word;
+  }
+
+  &__comment-body::before {
+    position: absolute;
+    top: 20px;
+    left: -9px;
+    content: url('../../../../commons/images/partsCommentBubbleGray.png');
+  }
+
+  &__table {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+  }
+
+  &__history-table {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+  }
+
+  &__summary {
+    padding: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+  }
+
+  &__approve {
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+  }
+}

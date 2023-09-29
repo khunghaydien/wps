@@ -1,0 +1,21 @@
+.ts-select-target {
+  &__dialog-body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding: 32px;
+    padding-left: 8px;
+
+    &-select-button {
+      width: 100%;
+    }
+  }
+  &__dialog-frame {
+    width: 440px;
+    height: 280px;
+    &-contents {
+      padding: 0 !important;
+    }
+  }
+}

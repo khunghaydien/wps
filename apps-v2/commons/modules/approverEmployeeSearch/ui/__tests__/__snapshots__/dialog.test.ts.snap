@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@INIT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"isOpen\\": false,
++   \\"type\\": \\"\\",
++ }"
+`;
+
+exports[`reducer() COMMONS/APPROVER_EMPLOYEE_SEARCH/UI/DIALOG/CLOSE 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() COMMONS/APPROVER_EMPLOYEE_SEARCH/UI/DIALOG/OPEN 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"isOpen\\": false,
+-   \\"type\\": \\"\\",
++   \\"isOpen\\": true,
++   \\"type\\": \\"AttDailyRequest\\",
+  }"
+`;

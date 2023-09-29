@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"companyId\\": \\"\\",
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/EMPLOYEE/UI/SEARCH_QUERY/SAVE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"companyId\\": \\"\\",
++   \\"code\\": \\"12345\\",
++   \\"companyId\\": \\"companyId\\",
++   \\"departmentName\\": \\"Department Name\\",
++   \\"limitNumber\\": 100,
++   \\"managerName\\": \\"Manager Name\\",
++   \\"name\\": \\"Employee Name\\",
++   \\"sortCondition\\": Object {
++     \\"field\\": \\"code\\",
++     \\"order\\": \\"ASC\\",
++   },
++   \\"targetDate\\": \\"2019-10-01\\",
++   \\"title\\": \\"Title\\",
++   \\"workingTypeName\\": \\"Working Type Name\\",
+  }"
+`;

@@ -1,0 +1,31 @@
+.ts-expenses__form-record-item-invoice {
+  margin-bottom: 20px;
+  &__radio-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 6px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__radio {
+    display: inline-block;
+    height: auto !important;
+    margin-right: 5px;
+  }
+
+  &__jct-registration-number {
+    margin-bottom: 10px;
+    position: relative;
+
+    .slds-dot-loader {
+      left: 5%;
+      margin-left: 5px;
+      top: 125%;
+    }
+  }
+}

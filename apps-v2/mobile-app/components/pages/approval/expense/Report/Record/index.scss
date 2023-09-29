@@ -1,0 +1,313 @@
+@import 'mobile-global-imports.scss';
+@import '../../../../../../../commons/styles/exp/variables/colors';
+@import '../../../../expense/commons/theme/theme.scss';
+
+.mobile-app-pages-approval-page-expense-record {
+  $side-padding: 16px;
+
+  &-highlight-italic,
+  &-child-items__highlight-italic {
+    white-space: pre-wrap;
+    font-style: italic;
+  }
+
+  &-route-original {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .main-content,
+  &-child-items .main-content {
+    padding-top: 52px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .approval-multi-tax-form {
+    margin-bottom: 12px;
+  }
+
+  &__receipt.mobile-app-molecules-commons-view-item.block {
+    .mobile-app-atoms-label {
+      &__text {
+        font-size: 13px;
+        padding-left: $side-padding;
+        text-transform: uppercase;
+        height: 49px;
+        line-height: 49px;
+        background-color: $color-list-view-bg-hover;
+        border-top: 1px solid $ts-input-field-border-gray;
+        border-bottom: 1px solid $ts-input-field-border-gray;
+      }
+      &__control {
+        padding: 14px $side-padding 0 $side-padding;
+      }
+
+      .mobile-app-molecules-commons-view-item__body {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__receipt-with-padding {
+    padding: 14px 16px 0 16px;
+  }
+
+  &__header,
+  &-child-items__header {
+    & .base-amount {
+      color: $color-text-base;
+      font-size: 22px;
+      font-weight: $font-emphasis;
+      justify-content: flex-end;
+    }
+
+    & .local-amount {
+      font-size: 14px;
+      color: $color-text-info;
+      font-weight: $font-normal;
+      justify-content: flex-end;
+    }
+  }
+
+  &__merchant-info {
+    padding-top: 0;
+  }
+
+  &__jct-number-info {
+    padding-top: 0;
+  }
+
+  &__vendor {
+    &-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-detail {
+      .mobile-app-atoms-icon.medium {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+
+  &__payment-due-date-info {
+    padding-top: 0;
+  }
+
+  &__header,
+  &-child-items__header {
+    margin: 0 $side-padding;
+    padding-bottom: 12px;
+    margin-bottom: -1px; // hide border when item date stick to top
+    border-bottom: 1px solid $ts-input-field-border-gray;
+  }
+
+  &__content,
+  &-child-items__content {
+    overflow-y: auto;
+
+    &-parent {
+      padding: 0 $side-padding;
+      padding-top: 14px;
+      &:empty {
+        padding-top: 0;
+      }
+    }
+  }
+
+  &__pdf-download-link {
+    display: inline-block;
+    height: auto;
+    padding: 30px 60px;
+    margin-bottom: $extra-small-size;
+    border: 2px solid #d9d9d9;
+    background: $color-blue-100;
+    border-radius: 0;
+  }
+
+  &__amount-field-feedback {
+    color: $color-text-base;
+    font-size: 14px;
+    margin: 4px 0 16px 0;
+    padding: 8px;
+    border: 1px solid $color-attention;
+    border-radius: 5px;
+
+    &-msg {
+      margin-left: 8px;
+    }
+
+    & path {
+      fill: $color-attention;
+    }
+  }
+
+  &-general {
+    &__exchange-rate {
+      & .ts-text-field {
+        padding-right: 0;
+      }
+
+      & .mobile-app-molecules-commons-view-item__body {
+        display: flex;
+      }
+
+      & svg {
+        padding-bottom: 6px;
+        margin-left: 10px;
+
+        & path {
+          fill: rgb(185, 223, 239);
+        }
+      }
+    }
+  }
+
+  &-general {
+    &__local-amount,
+    &__without-tax,
+    &__tax,
+    &__withholding-tax,
+    &__amount-payable {
+      color: $color-text-base;
+      font-weight: normal;
+      font-size: 14px;
+    }
+  }
+
+  &-child-items__amount {
+    color: $color-text-base;
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  &__date,
+  &-child-items__date {
+    color: $color-text-info;
+    font-size: 14px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+
+  &__exp-type,
+  &-child-items__exp-type {
+    font-size: 14px;
+    font-weight: $font-emphasis;
+    color: $color-text-base;
+  }
+
+  .rate-edited {
+    color: $color-text-weak;
+    font-size: 12px;
+    line-height: 22px;
+    margin-left: 4px;
+  }
+
+  &__metadata {
+    padding: 8px 16px;
+  }
+
+  &__metadata-warning {
+    margin: 0 16px 8px;
+    border: 1px solid #df8e2f;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+
+    &-svg {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      overflow: visible !important;
+    }
+
+    &-msg {
+      color: #333;
+      margin-left: 10px;
+    }
+  }
+
+  &__itemization {
+    padding-bottom: 30px;
+
+    &-label {
+      background-color: #ebf3f7;
+      padding: 0 12px;
+      min-height: 38px;
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 15px;
+
+      .mobile-app-atoms-label__text {
+        margin: 0;
+        color: #333;
+      }
+    }
+
+    &-highlight-new {
+      padding: 0;
+    }
+
+    & .mobile-app-molecules-expense-record-summary-list-item {
+      & .mobile-app-atoms-link-list-item__item {
+        word-break: break-word;
+      }
+    }
+
+    & .mobile-app-atoms-link-list-item {
+      padding: 5px 12px;
+      width: 100vw;
+    }
+  }
+
+  // /////////////////////////////////////////////////////////////////////
+  //
+  // Customize style for view item
+  //
+  // /////////////////////////////////////////////////////////////////////
+  & .mobile-app-molecules-commons-view-item,
+  &-child-items .mobile-app-molecules-commons-view-item {
+    &__body {
+      font-size: 14px;
+    }
+
+    & .mobile-app-atoms-label {
+      display: flex;
+      justify-content: space-between;
+      & .mobile-app-atoms-label__text {
+        max-width: 50%;
+      }
+    }
+
+    &.block .mobile-app-atoms-label {
+      flex-direction: column;
+      & .mobile-app-atoms-label__text {
+        max-width: unset;
+      }
+    }
+  }
+
+  // /////////////////////////////////////////////////////////////////////
+  //
+  // Styling for hotel fee items
+  //
+  // /////////////////////////////////////////////////////////////////////
+
+  & .sticky {
+    padding: 0 $side-padding;
+    border-top: 1px solid $ts-input-field-border-gray;
+    border-bottom: 1px solid $ts-input-field-border-gray;
+    font-size: 13px;
+    height: 49px;
+    line-height: 49px;
+    background-color: $color-list-view-bg-hover;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+}

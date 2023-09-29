@@ -1,0 +1,25 @@
+@import '../../../commons/components/psa/variables.scss';
+
+.ts-resource__list {
+  height: 100%;
+  padding: $container-padding;
+  padding-top: 0;
+  position: relative;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+  &-too-many-results {
+    margin-top: 12px;
+    color: #006dcc;
+    text-align: center;
+  }
+  &__list-pager {
+    margin: 12px 0;
+  }
+}
+
+.ts-pager-cutom-page-size {
+  margin-right: 10px;
+}

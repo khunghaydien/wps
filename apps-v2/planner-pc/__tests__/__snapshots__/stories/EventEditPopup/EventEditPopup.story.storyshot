@@ -1,0 +1,3670 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots planner-pc/EventEditPopup all day event 1`] = `
+<div
+  className="EventEditPopupstory__Center-sc-xvw4xi-0 XUTem"
+>
+  <div
+    className="EventEditPopup__Container-sc-pjl2gb-1 ipWHml"
+  >
+    <div
+      className="PopupFrame-sc-1khx7qe-0 hFnbZm"
+    >
+      <div
+        className="PopupFrame__Header-sc-1khx7qe-1 hwdHIK"
+      >
+        <div
+          className="PopupFrame__ButtonPositioning-sc-1khx7qe-2 dJHnwY"
+        >
+          <button
+            className="IconButton__Button-sc-10k5axt-1 giXGgm"
+            color="#999"
+            onClick={[Function]}
+          >
+            <test-file-stub
+              className="IconButton__Icon-sc-10k5axt-0 ceuBbk"
+              color="#999"
+            />
+          </button>
+        </div>
+        <header
+          className="Header__Title-sc-up5cd3-0 gHkVjt"
+        >
+          <input
+            className="Header__TitleInput-sc-up5cd3-1 kQVhfW"
+            data-testid="event-edit-popup__title"
+            onChange={[Function]}
+            placeholder="Title"
+            type="text"
+            value=""
+          />
+        </header>
+      </div>
+      <div
+        className="EventEditPopup__Body-sc-pjl2gb-2 eCKFPL"
+      >
+        <div
+          className="EventDate-sc-4jh3gj-0 bGOGTN"
+        >
+          <label
+            className="CheckBox-sc-51bayz-3 eFpvBW"
+          >
+            <input
+              checked={true}
+              className="CheckBox__Input-sc-51bayz-0 cMvfaO"
+              data-testid="event-edit-popup__all-day"
+              disabled={false}
+              onChange={[Function]}
+              readOnly={false}
+              type="checkbox"
+            />
+            <div
+              checked={true}
+              className="CheckBox__Box-sc-51bayz-1 fTHePo"
+              disabled={false}
+              onChange={[Function]}
+              readOnly={false}
+            >
+              <div
+                checked={true}
+                className="CheckBox__Check-sc-51bayz-2 iLpJUR"
+                disabled={false}
+                onChange={[Function]}
+                readOnly={false}
+              />
+            </div>
+            <span
+              className="CheckBox__Label-sc-51bayz-4 kYcYSu"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 EventDate__Text-sc-4jh3gj-1 bqmfRR fPceuh"
+              >
+                All Day
+              </span>
+            </span>
+          </label>
+          <div>
+            <div
+              className="react-datepicker-wrapper"
+            >
+              <div
+                className="react-datepicker__input-container"
+              >
+                <input
+                  className="DatePicker__StyledDatePicker-sc-1m5gls3-0 cAuFqS EventDate__StartDatePicker-sc-4jh3gj-2 evSQFp"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  type="text"
+                  value="Oct 1, 2019"
+                />
+              </div>
+            </div>
+          </div>
+          <span
+            className="Text-sc-11kuzx6-0 bqmfRR"
+          >
+            -
+          </span>
+          <div>
+            <div
+              className="react-datepicker-wrapper"
+            >
+              <div
+                className="react-datepicker__input-container"
+              >
+                <input
+                  className="DatePicker__StyledDatePicker-sc-1m5gls3-0 cAuFqS EventDate__EndDatePicker-sc-4jh3gj-4 kZuwiU"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  type="text"
+                  value="Oct 7, 2019"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="EventEditPopup__Flex-sc-pjl2gb-0 EventEditPopup__AlignStart-sc-pjl2gb-4 jWgHoz fOIBxR"
+          >
+            <div
+              className="EventEditPopup__Label-sc-pjl2gb-6 fVpGoH"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bqmfRR"
+              >
+                Description
+              </span>
+            </div>
+            <div
+              className="EventEditPopup__Value-sc-pjl2gb-7 hkTXwN"
+            >
+              <textarea
+                className="TextField__StyledTextArea-sc-41505i-0 kqQkrx"
+                data-testid="event-edit-popup__description"
+                onChange={[Function]}
+                readOnly={false}
+                style={
+                  Object {
+                    "height": 0,
+                  }
+                }
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            className="EventEditPopup__Flex-sc-pjl2gb-0 EventEditPopup__AlignStart-sc-pjl2gb-4 jWgHoz fOIBxR"
+          >
+            <label
+              className="CheckBox-sc-51bayz-3 eFpvBW"
+            >
+              <input
+                checked={false}
+                className="CheckBox__Input-sc-51bayz-0 cMvfaO"
+                data-testid="event-edit-popup__calculate-capcity"
+                disabled={false}
+                onChange={[Function]}
+                readOnly={false}
+                type="checkbox"
+              />
+              <div
+                checked={false}
+                className="CheckBox__Box-sc-51bayz-1 fyyPDt"
+                disabled={false}
+                onChange={[Function]}
+                readOnly={false}
+              />
+              <span
+                className="CheckBox__Label-sc-51bayz-4 kYcYSu"
+              >
+                <span
+                  className="Text-sc-11kuzx6-0 EventEditPopup__Text-sc-pjl2gb-5 bqmfRR eVpYgG"
+                >
+                  Non-project schedule
+                </span>
+              </span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        className="PopupFrame__Footer-sc-1khx7qe-3 kvTZcl"
+      >
+        <footer
+          className="Footer__Container-sc-z24fod-0 kDXDKa"
+        >
+          <div />
+          <div>
+            <button
+              className="Button-sc-w4yovf-0 Footer__Button-sc-z24fod-1 ePsLmL ihVyK"
+              onClick={[Function]}
+            >
+              Cancel
+            </button>
+            <button
+              className="Button-sc-w4yovf-0 Footer__Button-sc-z24fod-1 ccvjrW ihVyK"
+              color="primary"
+              data-testid="event-edit-popup__submit"
+              onClick={[Function]}
+            >
+              Save
+            </button>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots planner-pc/EventEditPopup edit event 1`] = `
+<div
+  className="EventEditPopupstory__Center-sc-xvw4xi-0 XUTem"
+>
+  <div
+    className="EventEditPopup__Container-sc-pjl2gb-1 ipWHml"
+  >
+    <div
+      className="PopupFrame-sc-1khx7qe-0 hFnbZm"
+    >
+      <div
+        className="PopupFrame__Header-sc-1khx7qe-1 hwdHIK"
+      >
+        <div
+          className="PopupFrame__ButtonPositioning-sc-1khx7qe-2 dJHnwY"
+        >
+          <button
+            className="IconButton__Button-sc-10k5axt-1 giXGgm"
+            color="#999"
+            onClick={[Function]}
+          >
+            <test-file-stub
+              className="IconButton__Icon-sc-10k5axt-0 ceuBbk"
+              color="#999"
+            />
+          </button>
+        </div>
+        <header
+          className="Header__Title-sc-up5cd3-0 gHkVjt"
+        >
+          <input
+            className="Header__TitleInput-sc-up5cd3-1 kQVhfW"
+            data-testid="event-edit-popup__title"
+            onChange={[Function]}
+            placeholder="Title"
+            type="text"
+            value="CW1"
+          />
+        </header>
+      </div>
+      <div
+        className="EventEditPopup__Body-sc-pjl2gb-2 eCKFPL"
+      >
+        <div
+          className="EventDate-sc-4jh3gj-0 bGOGTN"
+        >
+          <label
+            className="CheckBox-sc-51bayz-3 eFpvBW"
+          >
+            <input
+              checked={false}
+              className="CheckBox__Input-sc-51bayz-0 cMvfaO"
+              data-testid="event-edit-popup__all-day"
+              disabled={false}
+              onChange={[Function]}
+              readOnly={false}
+              type="checkbox"
+            />
+            <div
+              checked={false}
+              className="CheckBox__Box-sc-51bayz-1 fyyPDt"
+              disabled={false}
+              onChange={[Function]}
+              readOnly={false}
+            />
+            <span
+              className="CheckBox__Label-sc-51bayz-4 kYcYSu"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 EventDate__Text-sc-4jh3gj-1 bqmfRR fPceuh"
+              >
+                All Day
+              </span>
+            </span>
+          </label>
+          <div>
+            <div
+              className="react-datepicker-wrapper"
+            >
+              <div
+                className="react-datepicker__input-container"
+              >
+                <input
+                  className="DatePicker__StyledDatePicker-sc-1m5gls3-0 cAuFqS EventDate__StartDatePicker-sc-4jh3gj-2 evSQFp"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  type="text"
+                  value="Oct 1, 2019"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="Combobox__Dropdown-sc-1g4f8gj-0 fRAOHM EventDate__StartTimePicker-sc-4jh3gj-3 fgosvg"
+          >
+            <div
+              aria-expanded={false}
+              aria-haspopup="listbox"
+              aria-owns="108"
+              className="Combobox-sc-1g4f8gj-1 hyLZnz"
+              onClick={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+            >
+              <input
+                aria-activedescendant="15:00"
+                aria-autocomplete="list"
+                aria-controls="108"
+                className="Combobox__Input-sc-1g4f8gj-2 hTaKuy"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onSelect={[Function]}
+                type="text"
+                value="15:00"
+              />
+            </div>
+            <ul
+              className="Combobox__ListBox-sc-1g4f8gj-3 fwZcGu"
+              id="108"
+              role="listbox"
+            >
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="3"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  00:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="4"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  00:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="5"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  01:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="6"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  01:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="7"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  02:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="8"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  02:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="9"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  03:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="10"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  03:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="11"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  04:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="12"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  04:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="13"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  05:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="14"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  05:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="15"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  06:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="16"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  06:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="17"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  07:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="18"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  07:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="19"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  08:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="20"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  08:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="21"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  09:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="22"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  09:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="23"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  10:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="24"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  10:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="25"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  11:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="26"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  11:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="27"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  12:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="28"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  12:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="29"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  13:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="30"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  13:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="31"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  14:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="32"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  14:30
+                </a>
+              </li>
+              <li
+                aria-selected={true}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="33"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 iSbJgO"
+                  href="#"
+                  selected={true}
+                >
+                  15:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="34"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  15:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="35"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  16:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="36"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  16:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="37"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  17:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="38"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  17:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="39"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  18:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="40"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  18:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="41"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  19:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="42"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  19:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="43"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  20:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="44"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  20:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="45"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  21:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="46"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  21:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="47"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  22:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="48"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  22:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="49"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  23:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="50"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  23:30
+                </a>
+              </li>
+            </ul>
+          </div>
+          <span
+            className="Text-sc-11kuzx6-0 bqmfRR"
+          >
+            -
+          </span>
+          <div>
+            <div
+              className="react-datepicker-wrapper"
+            >
+              <div
+                className="react-datepicker__input-container"
+              >
+                <input
+                  className="DatePicker__StyledDatePicker-sc-1m5gls3-0 cAuFqS EventDate__EndDatePicker-sc-4jh3gj-4 kZuwiU"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  type="text"
+                  value="Oct 7, 2019"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="Combobox__Dropdown-sc-1g4f8gj-0 fRAOHM EventDate__EndTimePicker-sc-4jh3gj-5 hPoPJS"
+          >
+            <div
+              aria-expanded={false}
+              aria-haspopup="listbox"
+              aria-owns="109"
+              className="Combobox-sc-1g4f8gj-1 hyLZnz"
+              onClick={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+            >
+              <input
+                aria-activedescendant="16:00"
+                aria-autocomplete="list"
+                aria-controls="109"
+                className="Combobox__Input-sc-1g4f8gj-2 hTaKuy"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onSelect={[Function]}
+                type="text"
+                value="16:00"
+              />
+            </div>
+            <ul
+              className="Combobox__ListBox-sc-1g4f8gj-3 fwZcGu"
+              id="109"
+              role="listbox"
+            >
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="53"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  00:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="54"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  00:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="55"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  01:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="56"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  01:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="57"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  02:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="58"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  02:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="59"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  03:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="60"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  03:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="61"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  04:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="62"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  04:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="63"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  05:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="64"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  05:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="65"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  06:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="66"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  06:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="67"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  07:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="68"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  07:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="69"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  08:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="70"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  08:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="71"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  09:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="72"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  09:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="73"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  10:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="74"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  10:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="75"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  11:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="76"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  11:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="77"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  12:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="78"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  12:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="79"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  13:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="80"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  13:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="81"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  14:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="82"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  14:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="83"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  15:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="84"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  15:30
+                </a>
+              </li>
+              <li
+                aria-selected={true}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="85"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 iSbJgO"
+                  href="#"
+                  selected={true}
+                >
+                  16:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="86"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  16:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="87"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  17:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="88"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  17:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="89"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  18:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="90"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  18:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="91"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  19:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="92"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  19:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="93"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  20:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="94"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  20:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="95"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  21:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="96"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  21:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="97"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  22:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="98"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  22:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="99"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  23:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="100"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  23:30
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div
+            className="EventEditPopup__Flex-sc-pjl2gb-0 EventEditPopup__AlignCenter-sc-pjl2gb-3 jWgHoz bsAzsc"
+          >
+            <div
+              className="EventEditPopup__Label-sc-pjl2gb-6 fVpGoH"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bqmfRR"
+              >
+                Job
+              </span>
+            </div>
+            <div
+              className="EventEditPopup__Value-sc-pjl2gb-7 hkTXwN"
+            >
+              <div
+                className="JobSelect__Flex-sc-zpuf72-0 dVWDyp"
+              >
+                <div
+                  className="JobSelect__JobSelectContainer-sc-zpuf72-2 dGEiiz"
+                >
+                  <div
+                    className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                  >
+                    <button
+                      aria-expanded={false}
+                      aria-haspopup="listbox"
+                      className="DropdownButton__Button-sc-8ghard-2 fQhkab JobSelect__Dropdown-sc-zpuf72-1 elubIA"
+                      onClick={[Function]}
+                      onSelect={[Function]}
+                      placeholder="Select from Recently Used Jobs"
+                      type="button"
+                    >
+                      <div
+                        className="DropdownButton__Label-sc-8ghard-3 bogwxN"
+                      >
+                        Select from Recently Used Jobs
+                      </div>
+                      <div
+                        className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <button
+                  className="Button-sc-w4yovf-0 JobSelect__JobSelectButton-sc-zpuf72-3 ePsLmL iBFNWw"
+                  onClick={[Function]}
+                >
+                  Select
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="EventEditPopup__Flex-sc-pjl2gb-0 EventEditPopup__AlignCenter-sc-pjl2gb-3 jWgHoz bsAzsc"
+          >
+            <div
+              className="EventEditPopup__Label-sc-pjl2gb-6 fVpGoH"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bqmfRR"
+              >
+                Work Category
+              </span>
+            </div>
+            <div
+              className="EventEditPopup__Value-sc-pjl2gb-7 hkTXwN"
+            >
+              <div
+                className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+              >
+                <button
+                  aria-expanded={false}
+                  aria-haspopup="listbox"
+                  aria-readonly={false}
+                  className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                  onClick={[Function]}
+                  placeholder="Select"
+                  readOnly={false}
+                  type="button"
+                >
+                  <div
+                    className="DropdownButton__Label-sc-8ghard-3 bogwxN"
+                  >
+                    Select
+                  </div>
+                  <div
+                    className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="EventEditPopup__Flex-sc-pjl2gb-0 EventEditPopup__AlignStart-sc-pjl2gb-4 jWgHoz fOIBxR"
+          >
+            <div
+              className="EventEditPopup__Label-sc-pjl2gb-6 fVpGoH"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bqmfRR"
+              >
+                Description
+              </span>
+            </div>
+            <div
+              className="EventEditPopup__Value-sc-pjl2gb-7 hkTXwN"
+            >
+              <textarea
+                className="TextField__StyledTextArea-sc-41505i-0 kqQkrx"
+                data-testid="event-edit-popup__description"
+                onChange={[Function]}
+                readOnly={false}
+                style={
+                  Object {
+                    "height": 0,
+                  }
+                }
+                value="This is description"
+              />
+            </div>
+          </div>
+          <div
+            className="EventEditPopup__Flex-sc-pjl2gb-0 EventEditPopup__AlignStart-sc-pjl2gb-4 jWgHoz fOIBxR"
+          >
+            <label
+              className="CheckBox-sc-51bayz-3 eFpvBW"
+            >
+              <input
+                checked={false}
+                className="CheckBox__Input-sc-51bayz-0 cMvfaO"
+                data-testid="event-edit-popup__calculate-capcity"
+                disabled={false}
+                onChange={[Function]}
+                readOnly={false}
+                type="checkbox"
+              />
+              <div
+                checked={false}
+                className="CheckBox__Box-sc-51bayz-1 fyyPDt"
+                disabled={false}
+                onChange={[Function]}
+                readOnly={false}
+              />
+              <span
+                className="CheckBox__Label-sc-51bayz-4 kYcYSu"
+              >
+                <span
+                  className="Text-sc-11kuzx6-0 EventEditPopup__Text-sc-pjl2gb-5 bqmfRR eVpYgG"
+                >
+                  Non-project schedule
+                </span>
+              </span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        className="PopupFrame__Footer-sc-1khx7qe-3 kvTZcl"
+      >
+        <footer
+          className="Footer__Container-sc-z24fod-0 kDXDKa"
+        >
+          <div>
+            <button
+              className="Button-sc-w4yovf-0 Footer__Button-sc-z24fod-1 eeYZQP ihVyK"
+              color="danger"
+              data-testid="event-edit-popup__delete"
+              onClick={[Function]}
+            >
+              Delete
+            </button>
+          </div>
+          <div>
+            <button
+              className="Button-sc-w4yovf-0 Footer__Button-sc-z24fod-1 ePsLmL ihVyK"
+              onClick={[Function]}
+            >
+              Cancel
+            </button>
+            <button
+              className="Button-sc-w4yovf-0 Footer__Button-sc-z24fod-1 ccvjrW ihVyK"
+              color="primary"
+              data-testid="event-edit-popup__submit"
+              onClick={[Function]}
+            >
+              Save
+            </button>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots planner-pc/EventEditPopup new event 1`] = `
+<div
+  className="EventEditPopupstory__Center-sc-xvw4xi-0 XUTem"
+>
+  <div
+    className="EventEditPopup__Container-sc-pjl2gb-1 ipWHml"
+  >
+    <div
+      className="PopupFrame-sc-1khx7qe-0 hFnbZm"
+    >
+      <div
+        className="PopupFrame__Header-sc-1khx7qe-1 hwdHIK"
+      >
+        <div
+          className="PopupFrame__ButtonPositioning-sc-1khx7qe-2 dJHnwY"
+        >
+          <button
+            className="IconButton__Button-sc-10k5axt-1 giXGgm"
+            color="#999"
+            onClick={[Function]}
+          >
+            <test-file-stub
+              className="IconButton__Icon-sc-10k5axt-0 ceuBbk"
+              color="#999"
+            />
+          </button>
+        </div>
+        <header
+          className="Header__Title-sc-up5cd3-0 gHkVjt"
+        >
+          <input
+            className="Header__TitleInput-sc-up5cd3-1 kQVhfW"
+            data-testid="event-edit-popup__title"
+            onChange={[Function]}
+            placeholder="Title"
+            type="text"
+            value=""
+          />
+        </header>
+      </div>
+      <div
+        className="EventEditPopup__Body-sc-pjl2gb-2 eCKFPL"
+      >
+        <div
+          className="EventDate-sc-4jh3gj-0 bGOGTN"
+        >
+          <label
+            className="CheckBox-sc-51bayz-3 eFpvBW"
+          >
+            <input
+              checked={false}
+              className="CheckBox__Input-sc-51bayz-0 cMvfaO"
+              data-testid="event-edit-popup__all-day"
+              disabled={false}
+              onChange={[Function]}
+              readOnly={false}
+              type="checkbox"
+            />
+            <div
+              checked={false}
+              className="CheckBox__Box-sc-51bayz-1 fyyPDt"
+              disabled={false}
+              onChange={[Function]}
+              readOnly={false}
+            />
+            <span
+              className="CheckBox__Label-sc-51bayz-4 kYcYSu"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 EventDate__Text-sc-4jh3gj-1 bqmfRR fPceuh"
+              >
+                All Day
+              </span>
+            </span>
+          </label>
+          <div>
+            <div
+              className="react-datepicker-wrapper"
+            >
+              <div
+                className="react-datepicker__input-container"
+              >
+                <input
+                  className="DatePicker__StyledDatePicker-sc-1m5gls3-0 cAuFqS EventDate__StartDatePicker-sc-4jh3gj-2 evSQFp"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  type="text"
+                  value="Oct 1, 2019"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="Combobox__Dropdown-sc-1g4f8gj-0 fRAOHM EventDate__StartTimePicker-sc-4jh3gj-3 fgosvg"
+          >
+            <div
+              aria-expanded={false}
+              aria-haspopup="listbox"
+              aria-owns="108"
+              className="Combobox-sc-1g4f8gj-1 hyLZnz"
+              onClick={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+            >
+              <input
+                aria-activedescendant="15:00"
+                aria-autocomplete="list"
+                aria-controls="108"
+                className="Combobox__Input-sc-1g4f8gj-2 hTaKuy"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onSelect={[Function]}
+                type="text"
+                value="15:00"
+              />
+            </div>
+            <ul
+              className="Combobox__ListBox-sc-1g4f8gj-3 fwZcGu"
+              id="108"
+              role="listbox"
+            >
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="3"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  00:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="4"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  00:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="5"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  01:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="6"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  01:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="7"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  02:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="8"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  02:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="9"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  03:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="10"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  03:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="11"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  04:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="12"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  04:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="13"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  05:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="14"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  05:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="15"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  06:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="16"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  06:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="17"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  07:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="18"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  07:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="19"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  08:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="20"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  08:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="21"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  09:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="22"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  09:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="23"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  10:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="24"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  10:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="25"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  11:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="26"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  11:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="27"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  12:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="28"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  12:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="29"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  13:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="30"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  13:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="31"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  14:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="32"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  14:30
+                </a>
+              </li>
+              <li
+                aria-selected={true}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="33"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 iSbJgO"
+                  href="#"
+                  selected={true}
+                >
+                  15:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="34"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  15:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="35"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  16:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="36"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  16:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="37"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  17:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="38"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  17:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="39"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  18:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="40"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  18:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="41"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  19:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="42"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  19:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="43"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  20:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="44"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  20:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="45"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  21:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="46"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  21:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="47"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  22:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="48"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  22:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="49"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  23:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="50"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  23:30
+                </a>
+              </li>
+            </ul>
+          </div>
+          <span
+            className="Text-sc-11kuzx6-0 bqmfRR"
+          >
+            -
+          </span>
+          <div>
+            <div
+              className="react-datepicker-wrapper"
+            >
+              <div
+                className="react-datepicker__input-container"
+              >
+                <input
+                  className="DatePicker__StyledDatePicker-sc-1m5gls3-0 cAuFqS EventDate__EndDatePicker-sc-4jh3gj-4 kZuwiU"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  type="text"
+                  value="Oct 7, 2019"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="Combobox__Dropdown-sc-1g4f8gj-0 fRAOHM EventDate__EndTimePicker-sc-4jh3gj-5 hPoPJS"
+          >
+            <div
+              aria-expanded={false}
+              aria-haspopup="listbox"
+              aria-owns="109"
+              className="Combobox-sc-1g4f8gj-1 hyLZnz"
+              onClick={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+            >
+              <input
+                aria-activedescendant="16:00"
+                aria-autocomplete="list"
+                aria-controls="109"
+                className="Combobox__Input-sc-1g4f8gj-2 hTaKuy"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onSelect={[Function]}
+                type="text"
+                value="16:00"
+              />
+            </div>
+            <ul
+              className="Combobox__ListBox-sc-1g4f8gj-3 fwZcGu"
+              id="109"
+              role="listbox"
+            >
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="53"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  00:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="54"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  00:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="55"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  01:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="56"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  01:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="57"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  02:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="58"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  02:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="59"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  03:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="60"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  03:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="61"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  04:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="62"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  04:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="63"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  05:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="64"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  05:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="65"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  06:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="66"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  06:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="67"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  07:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="68"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  07:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="69"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  08:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="70"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  08:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="71"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  09:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="72"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  09:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="73"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  10:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="74"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  10:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="75"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  11:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="76"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  11:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="77"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  12:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="78"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  12:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="79"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  13:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="80"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  13:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="81"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  14:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="82"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  14:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="83"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  15:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="84"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  15:30
+                </a>
+              </li>
+              <li
+                aria-selected={true}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="85"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 iSbJgO"
+                  href="#"
+                  selected={true}
+                >
+                  16:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="86"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  16:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="87"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  17:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="88"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  17:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="89"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  18:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="90"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  18:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="91"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  19:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="92"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  19:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="93"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  20:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="94"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  20:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="95"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  21:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="96"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  21:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="97"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  22:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="98"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  22:30
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="99"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  23:00
+                </a>
+              </li>
+              <li
+                aria-selected={false}
+                className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+                id="100"
+                onMouseDown={[Function]}
+              >
+                <a
+                  className="Combobox__A-sc-1g4f8gj-5 snDqw"
+                  href="#"
+                  selected={false}
+                >
+                  23:30
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div
+            className="EventEditPopup__Flex-sc-pjl2gb-0 EventEditPopup__AlignCenter-sc-pjl2gb-3 jWgHoz bsAzsc"
+          >
+            <div
+              className="EventEditPopup__Label-sc-pjl2gb-6 fVpGoH"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bqmfRR"
+              >
+                Job
+              </span>
+            </div>
+            <div
+              className="EventEditPopup__Value-sc-pjl2gb-7 hkTXwN"
+            >
+              <div
+                className="JobSelect__Flex-sc-zpuf72-0 dVWDyp"
+              >
+                <div
+                  className="JobSelect__JobSelectContainer-sc-zpuf72-2 dGEiiz"
+                >
+                  <div
+                    className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                  >
+                    <button
+                      aria-expanded={false}
+                      aria-haspopup="listbox"
+                      className="DropdownButton__Button-sc-8ghard-2 fQhkab JobSelect__Dropdown-sc-zpuf72-1 elubIA"
+                      onClick={[Function]}
+                      onSelect={[Function]}
+                      placeholder="Select from Recently Used Jobs"
+                      type="button"
+                    >
+                      <div
+                        className="DropdownButton__Label-sc-8ghard-3 bogwxN"
+                      >
+                        Select from Recently Used Jobs
+                      </div>
+                      <div
+                        className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <button
+                  className="Button-sc-w4yovf-0 JobSelect__JobSelectButton-sc-zpuf72-3 ePsLmL iBFNWw"
+                  onClick={[Function]}
+                >
+                  Select
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="EventEditPopup__Flex-sc-pjl2gb-0 EventEditPopup__AlignCenter-sc-pjl2gb-3 jWgHoz bsAzsc"
+          >
+            <div
+              className="EventEditPopup__Label-sc-pjl2gb-6 fVpGoH"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bqmfRR"
+              >
+                Work Category
+              </span>
+            </div>
+            <div
+              className="EventEditPopup__Value-sc-pjl2gb-7 hkTXwN"
+            >
+              <div
+                className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+              >
+                <button
+                  aria-expanded={false}
+                  aria-haspopup="listbox"
+                  aria-readonly={false}
+                  className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                  onClick={[Function]}
+                  placeholder="Select"
+                  readOnly={false}
+                  type="button"
+                >
+                  <div
+                    className="DropdownButton__Label-sc-8ghard-3 bogwxN"
+                  >
+                    Select
+                  </div>
+                  <div
+                    className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="EventEditPopup__Flex-sc-pjl2gb-0 EventEditPopup__AlignStart-sc-pjl2gb-4 jWgHoz fOIBxR"
+          >
+            <div
+              className="EventEditPopup__Label-sc-pjl2gb-6 fVpGoH"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bqmfRR"
+              >
+                Description
+              </span>
+            </div>
+            <div
+              className="EventEditPopup__Value-sc-pjl2gb-7 hkTXwN"
+            >
+              <textarea
+                className="TextField__StyledTextArea-sc-41505i-0 kqQkrx"
+                data-testid="event-edit-popup__description"
+                onChange={[Function]}
+                readOnly={false}
+                style={
+                  Object {
+                    "height": 0,
+                  }
+                }
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            className="EventEditPopup__Flex-sc-pjl2gb-0 EventEditPopup__AlignStart-sc-pjl2gb-4 jWgHoz fOIBxR"
+          >
+            <label
+              className="CheckBox-sc-51bayz-3 eFpvBW"
+            >
+              <input
+                checked={false}
+                className="CheckBox__Input-sc-51bayz-0 cMvfaO"
+                data-testid="event-edit-popup__calculate-capcity"
+                disabled={false}
+                onChange={[Function]}
+                readOnly={false}
+                type="checkbox"
+              />
+              <div
+                checked={false}
+                className="CheckBox__Box-sc-51bayz-1 fyyPDt"
+                disabled={false}
+                onChange={[Function]}
+                readOnly={false}
+              />
+              <span
+                className="CheckBox__Label-sc-51bayz-4 kYcYSu"
+              >
+                <span
+                  className="Text-sc-11kuzx6-0 EventEditPopup__Text-sc-pjl2gb-5 bqmfRR eVpYgG"
+                >
+                  Non-project schedule
+                </span>
+              </span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        className="PopupFrame__Footer-sc-1khx7qe-3 kvTZcl"
+      >
+        <footer
+          className="Footer__Container-sc-z24fod-0 kDXDKa"
+        >
+          <div />
+          <div>
+            <button
+              className="Button-sc-w4yovf-0 Footer__Button-sc-z24fod-1 ePsLmL ihVyK"
+              onClick={[Function]}
+            >
+              Cancel
+            </button>
+            <button
+              className="Button-sc-w4yovf-0 Footer__Button-sc-z24fod-1 ccvjrW ihVyK"
+              color="primary"
+              data-testid="event-edit-popup__submit"
+              onClick={[Function]}
+            >
+              Save
+            </button>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking|time-tracking-charge-transfer-pc App Header 1`] = `
+.c0 {
+  position: fixed;
+  width: 100%;
+  height: 56px;
+  background: #fff;
+  top: 0;
+  left: 0;
+  z-index: 10001;
+  border-bottom: 1px solid #eee;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.c2 {
+  width: 32px;
+  height: 32px;
+  margin: 12px 20px;
+}
+
+.c4 {
+  font-family: 'Salesforce Sans';
+  font-weight: bold;
+  font-size: 20px;
+  color: #666;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c5 {
+  padding-right: 20px;
+}
+
+<nav
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <test-file-stub />
+    </div>
+    <div
+      className="c3"
+    >
+      <span
+        className="c4"
+        color="secondary"
+        size="xxl"
+      >
+        {$Trac_Lbl_TimeTrackingChargeTransfer}
+      </span>
+      <div
+        className="c5"
+      >
+        <div
+          className="slds-m-horizontal--xx-small commons-personal-menu-popover-button"
+        >
+          <button
+            className="slds-button slds-button--icon commons-personal-menu-popover-button__button"
+            onClick={[Function]}
+            title="Open Personal Menu"
+          >
+            <test-file-stub
+              aria-hidden={true}
+              className="slds-button__icon slds-button__icon--large slds-button__icon--hint"
+            />
+            <test-file-stub
+              aria-hidden={true}
+              className="slds-button__icon slds-button__icon--x-small slds-button__icon--hint"
+            />
+            <span
+              className="slds-assistive-text"
+            >
+              Open Personal Menu
+            </span>
+            <div
+              className="commons-personal-menu-popover-button__count"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;

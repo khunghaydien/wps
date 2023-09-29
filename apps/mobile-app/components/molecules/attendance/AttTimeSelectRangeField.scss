@@ -1,0 +1,24 @@
+@import 'mobile-global-imports';
+
+.mobile-app-components-molecules-attendance-att-time-select-range-field {
+  &__controle {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__label {
+    width: 100%;
+  }
+
+  &__from-time,
+  &__to-time {
+    flex-grow: 1;
+  }
+
+  &__separator-text {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 0 8px;
+  }
+}

@@ -1,0 +1,43 @@
+.ts-expenses__form-pre-request-summary {
+  width: 100%;
+  order: 1;
+  padding: 10px 20px;
+  margin: 10px 0 0;
+  background-color: #f2f4f5;
+  border-radius: 8px;
+
+  &__title {
+    padding-right: 20px;
+    margin-bottom: 4px;
+
+    img {
+      height: 24px;
+      vertical-align: sub;
+    }
+
+    span {
+      margin: 0 4px;
+      font-size: 20px;
+      vertical-align: middle;
+    }
+  }
+
+  &__body {
+    font-size: 13px;
+  }
+
+  &__label {
+    margin-right: 20px;
+    word-break: break-word;
+
+    &-amount {
+      text-align: right;
+    }
+  }
+
+  &__report-no {
+    color: $color-text-anchor;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

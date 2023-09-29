@@ -1,0 +1,86 @@
+.ts-route-form {
+  &__search-area {
+    padding: 4px;
+    margin: 10px;
+    background: white;
+    border-radius: 4px;
+
+    &__item {
+      position: relative;
+      margin-bottom: 4px;
+
+      &__line {
+        position: absolute;
+        z-index: 1;
+        top: 8px;
+        bottom: 0;
+        left: 13px;
+        display: block;
+        overflow: hidden;
+        width: 5px;
+        height: calc(100% + 20px);
+        border-width: 5px;
+        border-color: #1c5bac;
+        border-left-style: solid;
+        text-indent: 100%;
+        white-space: nowrap;
+      }
+
+      &__icon {
+        position: relative;
+        z-index: 2;
+        top: 4px;
+        left: 5px;
+      }
+
+      &__delete-button {
+        margin-left: 5px;
+      }
+
+      &__input[type='text'] {
+        display: inline-block;
+        width: 100%;
+        height: 28px;
+        padding: 0 8px;
+        border: 0;
+        border-bottom: 1px solid #ccc;
+        border-radius: 0;
+        font-size: 14px;
+      }
+    }
+
+    &__search-button {
+      width: 90%;
+      margin: 5px 0 10px;
+      font-size: 16px;
+    }
+
+    &__route-option {
+      input {
+        height: 18px;
+        margin: 0 6px 0 12px;
+        vertical-align: bottom;
+      }
+
+      &__items__item {
+        display: inline-block;
+      }
+
+      &__add-via {
+        text-align: right;
+
+        &__button {
+          border: 0;
+          background: transparent;
+          color: #00f;
+        }
+      }
+    }
+
+    &__train-icon {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+}

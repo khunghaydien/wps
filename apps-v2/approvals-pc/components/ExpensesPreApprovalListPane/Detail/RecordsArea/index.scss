@@ -1,0 +1,139 @@
+@import '../../../../../commons/styles/wsp';
+
+.approvals-pc-expenses-pre-approval-pane-detail__records-area {
+  margin: 20px;
+  background-color: color('background-1');
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+  &__record-header {
+    display: flex;
+    padding: 16px 20px;
+  }
+
+  &-button-area {
+    margin-left: auto;
+
+    & .ts-button,
+    & .ts-button:focus {
+      padding: 0 0 0 10px;
+      border: 0;
+      background-color: transparent;
+      box-shadow: none;
+      color: color('exp-primary');
+      outline: none;
+    }
+
+    & .ts-button:hover {
+      background-color: transparent;
+      outline: none;
+      text-decoration: underline;
+    }
+
+    & .ts-button:not(:last-child) {
+      padding: 0 10px 0 0;
+      border-right: 1px solid color('border-2');
+    }
+
+    & > button:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+
+  &-title {
+    margin-left: 43px;
+
+    & > div {
+      display: inline-block;
+    }
+
+    &-date {
+      width: 25%;
+    }
+
+    &-exp-type {
+      width: 25%;
+    }
+
+    &-record-type {
+      width: 25%;
+    }
+
+    &-amount {
+      width: 25%;
+    }
+  }
+
+  &-record {
+    border-bottom: 1px solid color('border-2');
+
+    &-contents-hr {
+      padding: 10px 0;
+      margin: 0 0 0 7px;
+      border-right: 1px solid #d8dde6;
+      border-left: 1px solid #d8dde6;
+      background: #fff;
+
+      hr {
+        width: 97%;
+        margin: 0 auto;
+        border-top: 1px solid #d8dde6;
+      }
+    }
+  }
+
+  // Last Record body need to have round conrner at the bottom of it
+  &-record:last-child {
+    border-bottom: 0;
+
+    & .approvals-pc-expenses-request-pane-detail__records-area-record__body {
+      border-radius: 0 0 8px 8px;
+    }
+  }
+
+  &-record__body {
+    &__receipt-preview {
+      overflow: hidden;
+      width: 148px;
+      height: 110px;
+      padding: 0;
+      border-radius: 4px;
+      box-shadow: 0 0 4px color('border-1');
+      float: right;
+
+      &-body {
+        width: 148px;
+        max-width: none;
+        height: 110px;
+        margin-right: 20px;
+
+        & .lightbox__thumbnail-container {
+          width: 100%;
+          height: 110px;
+        }
+      }
+
+      &__pdf-download-btn {
+        height: 100%;
+      }
+
+      &__pdf-download-link {
+        width: 100%;
+        height: 100%;
+        padding: 0 40px;
+      }
+    }
+
+    & .ts-button {
+      color: color('exp-primary');
+    }
+  }
+
+  & .ts-horizontal-layout {
+    &__label::after {
+      top: 0;
+      display: none;
+      content: '';
+    }
+  }
+}

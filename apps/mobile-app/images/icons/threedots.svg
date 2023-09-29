@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.77 3.691">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #074b69;
+      }
+    </style>
+  </defs>
+  <g id="icons_utility_threedots" data-name="icons/utility/threedots" transform="translate(-0.615 -0.154)">
+    <path id="Mask" class="cls-1" d="M2.462.154A1.846,1.846,0,1,1,.615,2,1.852,1.852,0,0,1,2.462.154ZM8,.154A1.846,1.846,0,1,1,6.154,2,1.852,1.852,0,0,1,8,.154Zm5.538,0A1.846,1.846,0,1,1,11.692,2,1.852,1.852,0,0,1,13.538.154Z"/>
+  </g>
+</svg>

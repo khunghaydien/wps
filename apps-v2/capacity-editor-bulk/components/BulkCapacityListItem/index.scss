@@ -1,0 +1,96 @@
+@import '../../../commons/components/psa/variables.scss';
+.ts-capacity_editor_list_item {
+
+  &__dateField{
+    display: inline-block !important;
+    text-align: left;
+    width: 100%;
+  }
+  &__TextField {
+    max-width: 130px;
+  }
+
+ &__action{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+ }
+
+  &__selectField {
+    display: inline-block !important;
+    text-align: right;
+    width: 70%;
+    
+  }
+  &__TextFieldValidation{
+    color:#f00
+  }
+
+  &__TextFieldError{
+    border-color: #f00 !important;
+  }
+}
+
+.ts-capacity_editor_list_item_top {
+  padding: $size-m;
+  margin-bottom: $size-xs;
+  background-color: $color-bg-white;
+  border-radius: $size-xs;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+
+  &__selection-button{
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    height:32px
+}
+&__selection-button-name{
+    margin-left: 8px;
+    color: #2782ed;
+}
+&__selection-button-icon-remove{
+    cursor: pointer;
+}
+  &:hover {
+    background-color: $color-btn-hover;
+  }
+
+  &:active {
+    background-color: $color-btn-active;
+  }
+
+  // Add space to accomodate the fixed header height (51px) + normal padding for mouse (8px)
+  &:first-child {
+    margin-top: 59px;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+    border-bottom-left-radius: $size-xs;
+    border-bottom-right-radius: $size-xs;
+  }
+
+  &__rowId{
+    display: inline-block;
+    width: 80%;
+    text-align: right;
+  }
+
+  &__status {
+    display: inline-block;
+    width: 90px;
+    padding: $size-xxs;
+    border-radius: $size-xxs;
+    text-align: center;
+  }
+
+
+
+}
+
+.admin-pc-employee-member-link-config {
+  display: flex;
+  flex-direction: column;
+}

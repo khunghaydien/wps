@@ -1,0 +1,59 @@
+.admin-pc-modal-delegate-assignment {
+  &__dialog-frame {
+    width: 800px;
+    height: 600px;
+
+    .commons-dialog-frame-footer__inner > .ts-button {
+      width: 66px;
+      height: 32px;
+    }
+  }
+
+  &__search-area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  &__select-button {
+    width: 122px;
+    height: 32px;
+  }
+
+  &__delete {
+    width: 74px;
+    margin-left: auto;
+  }
+
+  &__search-btn {
+    position: absolute;
+    top: 4px;
+    bottom: 0;
+    left: 10px;
+    margin: auto;
+  }
+
+  &__inner {
+    padding: 16px;
+
+    .rdg-selected {
+      border: none;
+    }
+
+    .react-grid-HeaderCell--frozen,
+    .rdg-last--frozen {
+      box-shadow: none !important;
+    }
+  }
+
+  &__warning {
+    padding-top: 10px;
+    color: #b7423a;
+  }
+
+  &__info {
+    margin-left: 12px;
+  }
+}

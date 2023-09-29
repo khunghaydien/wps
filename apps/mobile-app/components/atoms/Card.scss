@@ -1,0 +1,20 @@
+@import 'mobile-global-imports';
+
+.mobile-app-atoms-card {
+  overflow: hidden;
+  padding: 12px;
+  border: 1px $color-gray-300 solid;
+  background: #fff;
+  border-radius: 4px;
+
+  &--flat {
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+  }
+
+  &__title {
+    margin: 0 0 16px;
+    font-size: 20px;
+  }
+}

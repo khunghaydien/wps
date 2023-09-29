@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`props onChangeComment. 1`] = `
+Array [
+  Object {
+    "payload": "new comment",
+    "type": "MOBILE/MODULES/APPROVAL/UI/LIST/SET_COMMENT",
+  },
+]
+`;
+
+exports[`props onChangeFilter. 1`] = `
+Array [
+  Object {
+    "payload": "attendance_fix",
+    "type": "MODULES/ENTITIES/APPROVAL/SET_FILTER",
+  },
+  Object {
+    "type": "MODULES/ENTITIES/APPROVAL/CHECK_ALL",
+  },
+]
+`;
+
+exports[`props onCheck when has record. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "MODULES/ENTITIES/APPROVAL/TOGGLE",
+  },
+]
+`;
+
+exports[`props onCheck when hasn't record. 1`] = `Array []`;
+
+exports[`props onCheck when over max. 1`] = `
+Array [
+  Object {
+    "type": "showAlert",
+  },
+]
+`;
+
+exports[`props onCheckAll. 1`] = `
+Array [
+  Object {
+    "type": "MODULES/ENTITIES/APPROVAL/TOGGLE_ALL",
+  },
+]
+`;
+
+exports[`props onClickApproveButton answer is false. 1`] = `Array []`;
+
+exports[`props onClickApproveButton answer is true. 1`] = `Array []`;
+
+exports[`useUseCases approve answer is no 1`] = `Array []`;
+
+exports[`useUseCases approve answer is yes 1`] = `
+Array [
+  Object {
+    "payload": "uuid/v4/mock",
+    "type": "START_LOADING",
+  },
+  Object {
+    "type": "MOBILE/MODULES/APPROVAL/UI/LIST/INITIALIZE",
+  },
+  Object {
+    "payload": Object {
+      "message": "Approved",
+      "options": undefined,
+      "variant": "success",
+    },
+    "type": "COMMONS/MODULES/TOAST/SHOW",
+  },
+  Object {
+    "payload": "uuid/v4/mock",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`useUseCases load 1`] = `
+Array [
+  Object {
+    "payload": "uuid/v4/mock",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": "approval list",
+    "type": "MODULES/ENTITIES/APPROVAL/SET_RECORDS",
+  },
+  Object {
+    "payload": "uuid/v4/mock",
+    "type": "END_LOADING",
+  },
+]
+`;

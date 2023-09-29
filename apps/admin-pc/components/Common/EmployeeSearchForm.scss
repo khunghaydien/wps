@@ -1,0 +1,17 @@
+.admin-pc-common-employee-search-form {
+  &__search-summary-conditions {
+    margin: 0 0 0 16px;
+  }
+
+  &__label .ts-horizontal-layout__label {
+    padding: 0;
+  }
+
+  &__button-container {
+    padding: 8px 0 0;
+  }
+
+  &__button {
+    min-width: 64px;
+  }
+}

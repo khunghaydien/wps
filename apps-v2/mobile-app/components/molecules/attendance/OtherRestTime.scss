@@ -1,0 +1,20 @@
+.mobile-app-molecules-attendance-other-rest-time{
+  $this: &;
+
+  &__container {
+    display: flex;
+  }
+
+  &--enabled-rest-reason {
+    #{$this}__input {
+      width: 80px;
+      max-width: 80px;
+      min-width: 80px;
+    }
+  }
+
+  &__rest-reason {
+    padding-left: 16px;
+    flex-grow: 1;
+  }
+}

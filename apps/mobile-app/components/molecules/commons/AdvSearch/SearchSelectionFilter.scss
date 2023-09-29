@@ -1,0 +1,57 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-components-molecules-commons-advsearch-search-selection-filter {
+  &__search-input {
+    justify-content: center;
+    width: 100%;
+    flex: 0 0 68px;
+    background: $color-blue-100;
+    border-bottom: 1px solid #d8d8d8;
+    position: relative;
+  }
+
+  &__search-icon {
+    position: absolute;
+    left: 28px;
+    top: 26px;
+    z-index: 1;
+    path {
+      fill: #dadada;
+    }
+  }
+
+  &__search-field {
+    margin: 16px;
+    width: calc(100% - 32px);
+    height: 32px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    text-indent: 36px;
+    font-size: 14px;
+
+    &::-webkit-input-placeholder {
+      font-size: 14px;
+      color: #999;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__clear-search {
+    position: absolute;
+    top: 22px;
+    right: 24px;
+    border: none;
+    background: #fff;
+
+    &:focus {
+      outline: none;
+    }
+
+    path {
+      fill: #bbb;
+    }
+  }
+}

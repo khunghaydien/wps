@@ -1,0 +1,381 @@
+/**
+ * Namespace
+ */
+$ns: '.wsp';
+
+/**
+ * base
+ */
+
+html,
+body {
+  font-family: Salesforce Sans, Arial, sans-serif;
+}
+
+/**
+ * colors
+ */
+
+$colors: (
+  brand: #008eb6,
+  primary: #2782ec,
+  exp-primary: #2782ed,
+  secondary: #05ae06,
+  warning: #ff9e2c,
+  error: #c23934,
+  default: #53688c,
+  border-1: #d9d9d9,
+  border-2: #ddd,
+  border-3: #eaeaea,
+  background-1: #fff,
+  background-2: #f8f8f8,
+  background-3: #ccc,
+  text-1: #333,
+  text-2: #666,
+  text-3: #999,
+  hover: #f3f2f2,
+  hover-button: rgb(244, 246, 249),
+  hover-outline: #0070d2,
+  clicked: #e5e5e5,
+  disabled: #d9d9d9,
+  disabled-1: #eee,
+  required: #f00,
+  selected: #e5f3ff,
+  selected-2: #ebf3f7,
+  tooltip: #16325c,
+);
+
+@function color($key) {
+  @return map-get($colors, $key);
+}
+
+/**
+ * graph colors
+ */
+$graph-colors: #76a7df, #9357ea, #54a9a3, #eba861, #2e6ecb, #d36763, #3ec0c9,
+  #d195db, #71c274, #d0cb4f, #4d9ed8, #d98a69;
+
+@for $i from 1 through length($graph-colors) {
+  $color: nth($graph-colors, $i);
+
+  #{$ns}-graph-color-#{$i} {
+    background: $color;
+    fill: $color;
+  }
+}
+
+/**
+ * typography
+ */
+
+$typography-map: (
+  header-1: (
+    font-size: 20px,
+    font-weight: bold,
+    line-height: 26px,
+  ),
+  body-1: (
+    font-size: 12px,
+    line-height: 15px,
+  ),
+  body-2: (
+    font-size: 10px,
+    line-height: 20px,
+  ),
+  button: (
+    font-size: 13px,
+    line-height: 17px,
+  ),
+);
+
+@mixin text($text) {
+  @each $key, $value in map-get($typography-map, $text) {
+    #{$key}: $value;
+  }
+}
+
+@each $key in map-keys($typography-map) {
+  #{$ns}-#{$key} {
+    @include text($key);
+  }
+}
+
+/**
+ * buttons
+ */
+
+$buttons: (
+  default: (
+    background: #fff,
+    color: color(default),
+    hover: #f3f2f2,
+    click: #e5e5e5,
+    disabled: #fff,
+    border: 1px solid color(border-1),
+  ),
+  primary: (
+    background: color(primary),
+    color: #fff,
+    hover: #1b59c9,
+    click: #144399,
+    disabled: #abbacd,
+    border: none,
+  ),
+  secondary: (
+    background: color(secondary),
+    color: #fff,
+    hover: #037b04,
+    click: #025703,
+    disabled: #92af92,
+    border: none,
+  ),
+  error: (
+    background: color(error),
+    color: #fff,
+    hover: #8e2724,
+    click: #6b1d1b,
+    disabled: #bfa8a7,
+    border: none,
+  ),
+  text: (
+    background: none,
+    color: color(text-1),
+    hover: color(hover),
+    click: #d9d9d9,
+    disabled: color(disabled),
+    border: none,
+  ),
+);
+
+#{$ns}-button {
+  @mixin button($bg-color, $color) {
+    background: $bg-color;
+    border-radius: 4px;
+    color: $color;
+  }
+
+  @mixin hover($color: none) {
+    &:not(:disabled) {
+      &:hover {
+        background: $color;
+      }
+    }
+  }
+
+  @mixin click($color) {
+    &:not(:disabled) {
+      &:active {
+        background: $color;
+      }
+    }
+  }
+
+  @include button(#fff, color(default));
+  @include hover(#f3f2f2);
+  @include click(#e5e5e5);
+
+  display: inline-block;
+  height: 32px;
+  padding: 7px 17px 6px 17px;
+  border: 1px solid color(border-1);
+  appearance: none;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+
+  @each $modifier, $props in $buttons {
+    &--#{$modifier} {
+      @include button(map-get($props, background), map-get($props, color));
+      @include hover(map-get($props, hover));
+      @include click(map-get($props, click));
+
+      border: map-get($props, border);
+    }
+
+    &--#{$modifier}:disabled {
+      @if ($modifier == default or $modifier == text) {
+        color: color(disabled);
+      } @else {
+        color: #fff;
+      }
+
+      background: map-get($props, disabled);
+      cursor: default;
+    }
+
+    &--#{$modifier}#{$ns}-button--text {
+      @include button(none, map-get($props, background));
+
+      border: none;
+      border-radius: 50%;
+    }
+
+    &--#{$modifier}#{$ns}-button--icon {
+      @include button(transparent, map-get($props, color));
+      @include hover(#f3f2f2);
+      @include click(#e5e5e5);
+
+      width: 32px;
+      height: 32px;
+      padding: 0;
+      border-radius: 50%;
+      fill: map-get($props, background);
+    }
+  }
+}
+
+/**
+ * card
+ */
+
+#{$ns}-card {
+  @mixin nowrap-rows() {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+
+  display: block;
+  min-width: 400px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  &__header {
+    @include nowrap-rows;
+  }
+
+  &__header &__header-group {
+    @include nowrap-rows;
+
+    justify-self: flex-start;
+  }
+
+  &__header &__header-group--right {
+    @include nowrap-rows;
+
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+
+  &__header-group__item:not(:first-of-type) {
+    margin-left: 20px;
+  }
+
+  &__header-group--right &__header-group__item {
+    @include nowrap-rows;
+
+    margin-left: 25px;
+  }
+
+  &__body {
+    @include text(body-1);
+  }
+
+  &__title {
+    @include text(header-1);
+  }
+
+  &__divider {
+    width: inherit;
+    height: 1px;
+    margin: 15px 0;
+    border: none;
+    background: color(border-2);
+    color: color(border-2);
+  }
+}
+
+/**
+ * labels
+ */
+
+#{$ns}-label {
+  @include text(body-1);
+
+  display: inline-flex;
+  height: 20px;
+  align-items: center;
+  padding: 0 11px 0 12px;
+  background: #7d7d7d;
+  border-radius: 2px;
+  color: #fff;
+  line-height: unset;
+  text-align: center;
+
+  &--round {
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+
+  &--small {
+    @include text(body-2);
+
+    height: 16px;
+    line-height: unset;
+  }
+
+  &--outline {
+    box-sizing: border-box;
+    border: 1px solid color(text-1);
+    background: none;
+    color: color(text-1);
+  }
+}
+
+/**
+ * effects
+ */
+
+#{$ns}-hover:hover {
+  background: color(hover);
+}
+
+#{$ns}-selected {
+  background: color(selected);
+}
+
+/**
+ * tooltip
+ */
+#{$ns}-tooltip {
+  background: color(tooltip);
+}
+
+/**
+ * Export styles to JavaScript hash
+ */
+/* stylelint-disable */
+:export {
+  color: {
+    @each $key, $value in $colors {
+      #{$key}: $value;
+    }
+  }
+  button: {
+    @each $btn, $props in $buttons {
+      #{$btn}: {
+        @each $key, $value in $props {
+          #{$key}: $value;
+        }
+      }
+    }
+  }
+  graph: {
+    @for $i from 1 through length($graph-colors) {
+      color-#{$i}: nth($graph-colors, $i);
+    }
+  }
+  text: {
+    @each $text, $props in $typography-map {
+      #{$text}: {
+        @each $key, $value in $props {
+          #{$key}: $value;
+        }
+      }
+    }
+  }
+}

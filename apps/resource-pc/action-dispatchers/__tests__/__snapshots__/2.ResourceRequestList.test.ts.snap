@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Role Request List Page fetchResourceRequestList() load resource list fail 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Server not responded",
+      "problem": "Server not responded",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`Role Request List Page fetchResourceRequestList() should fetch list of all role requests 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "pageData": Array [
+        Object {
+          "endDate": "30/11/2020",
+          "projectManager": "Pm Id",
+          "projectTitle": "test project",
+          "receivedDate": "27/10/2020",
+          "resourceManager": "Rm Id",
+          "roleId": "Role Id 1",
+          "roleTitle": "Role title 1",
+          "startDate": "1/11/2020",
+          "status": "Pending",
+        },
+        Object {
+          "endDate": "30/11/2020",
+          "projectManager": "Pm Id",
+          "projectTitle": "test project 2",
+          "receivedDate": "27/10/2020",
+          "resourceManager": "Rm Id",
+          "roleId": "Role Id 2",
+          "roleTitle": "Role title 2",
+          "startDate": "1/11/2020",
+          "status": "Pending",
+        },
+        Object {
+          "endDate": "30/11/2020",
+          "projectManager": "Pm Id",
+          "projectTitle": "test project 3",
+          "receivedDate": "27/10/2020",
+          "resourceManager": "Rm Id",
+          "roleId": "Role Id 3",
+          "roleTitle": "Role title 3",
+          "startDate": "1/11/2020",
+          "status": "Pending",
+        },
+      ],
+      "pageNum": 1,
+      "pageSize": 50,
+      "totalPages": 1,
+      "totalRecords": 3,
+    },
+    "type": "MODULES/ENTITIES/PSA/REQUEST/LIST_SUCCESS",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;

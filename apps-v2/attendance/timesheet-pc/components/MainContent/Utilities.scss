@@ -1,0 +1,15 @@
+.timesheet-pc-utilities {
+  display: inline-block;
+  padding: 0;
+  margin: 0 16px 0 0;
+  font-size: 12px;
+
+  &__item {
+    display: inline-block;
+    margin-right: 14px;
+  }
+
+  &__item:last-child {
+    margin-right: 0;
+  }
+}

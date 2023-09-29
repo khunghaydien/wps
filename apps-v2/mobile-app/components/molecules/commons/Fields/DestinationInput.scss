@@ -1,0 +1,43 @@
+@import 'mobile-global-imports';
+@import '../../../../../commons/styles/exp/variables/colors';
+
+.mobile-app-molecules-destination-input {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+  align-items: center;
+
+  &__icon {
+    zoom: 1 !important;
+    overflow: visible !important;
+  }
+
+  &__indicator {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #666;
+    border-radius: 50%;
+    margin-right: 10px;
+    &-red {
+      border-color: $ts-warning;
+      background-color: $ts-warning;
+    }
+  }
+
+  &__input {
+    flex: 9;
+    &-error {
+      border-color: $ts-warning !important;
+    }
+  }
+
+  &-button {
+    width: 16px;
+    margin-left: 8px;
+    & path {
+      fill: #666;
+    }
+  }
+}

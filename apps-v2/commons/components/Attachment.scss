@@ -1,0 +1,70 @@
+.attachment {
+  height: 32px;
+  line-height: 32px;
+  background: #f3f2f2;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: flex;
+
+  svg: {
+    position: relative;
+    top: -1px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  a {
+    width: 100%;
+    display: inherit;
+
+    &,
+    &:hover,
+    &:active {
+      text-decoration: none !important;
+      color: color('text-1');
+    }
+  }
+
+  &__preview-icon {
+    pointer-events: none;
+    width: 18px;
+    margin: auto;
+    margin-right: 10px;
+
+    &.zoomIcon {
+      width: 16px;
+    }
+
+    path {
+      fill: #666;
+    }
+  }
+
+  &__delete {
+    width: 24px;
+    padding-top: 8px;
+    padding-right: 4px;
+    height: 100%;
+    transform: scale(0.875);
+
+    path {
+      fill: #666;
+    }
+  }
+
+  &__file-type-icon {
+    pointer-events: none;
+    margin: 8px;
+    min-width: 16px;
+    width: 16px;
+    height: 16px;
+  }
+
+  &__file-name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}

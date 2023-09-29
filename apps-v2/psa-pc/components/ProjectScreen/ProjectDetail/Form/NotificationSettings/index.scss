@@ -1,0 +1,27 @@
+@import '../../../../../../commons/components/psa/variables.scss';
+
+.ts-psa__project-form__notificationSettings {
+  .ts-psa__form-field {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .ts-psa__form-field__label {
+    width: 25%;
+  }
+
+  .ts-psa__date-field__container,
+  .slds-select.ts-select,
+  .ts-textarea-field.slds-input,
+  .ts-text-field.slds-input {
+    width: 75%;
+  }
+
+  &__extended-item-container {
+    width: 100%;
+  }
+  &__errText{
+    width: 75%;
+    margin-left: 25%;
+  }
+}

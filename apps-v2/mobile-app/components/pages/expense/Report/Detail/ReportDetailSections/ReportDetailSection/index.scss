@@ -1,0 +1,52 @@
+.report-detail-section-tab {
+  width: 100%;
+  overflow: hidden;
+
+  input[type='checkbox'] {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  &-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-top: 1px solid #c8c9c8;
+    border-bottom: 1px solid #c8c9c8;
+
+    &::after {
+      content: '\25bc';
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      transition: all 0.35s;
+    }
+  }
+
+  &-content {
+    height: 0;
+    max-height: 0;
+    margin: 0 20px;
+    background: white;
+    transition: all 0.35s;
+  }
+}
+
+input:checked {
+  + .report-detail-section-tab-label {
+    background: #eef7fa;
+    &::after {
+      content: '\25b2';
+    }
+  }
+
+  ~ .report-detail-section-tab-content {
+    height: auto;
+    max-height: 100%;
+    margin: 20px;
+  }
+}

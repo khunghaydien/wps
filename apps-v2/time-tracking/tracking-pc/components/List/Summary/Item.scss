@@ -1,0 +1,28 @@
+.tracking-pc-list-summary-item {
+  display: flex;
+
+  &__subitem {
+    display: flex;
+    min-height: 30px;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 1px solid $color-border-default;
+  }
+
+  &__subitem--name {
+    padding-left: 25px;
+  }
+
+  &__subitem:last-child {
+    border-right: none;
+  }
+
+  &__subitem--work-time {
+    justify-content: center;
+  }
+
+  &__graph {
+    height: 13px;
+  }
+}

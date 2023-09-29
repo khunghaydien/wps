@@ -1,0 +1,112 @@
+@import '../../../../../../../commons/styles/exp/variables/colors';
+
+.ts-expenses__form-record-item__mileage-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  &__icon {
+    zoom: 1 !important;
+    overflow: visible !important;
+  }
+
+  &-highlight-bg {
+    background-color: $color-text-highlight;
+  }
+
+  &__input {
+    &-error {
+      border-color: $ts-warning !important;
+    }
+  }
+
+  &-error-message {
+    color: $ts-warning;
+  }
+
+  &__destination-map-container {
+    display: flex;
+
+    &-destinations-container {
+      display: flex;
+
+      &-left {
+        display: flex;
+        flex-direction: column;
+        flex: 19;
+        margin-right: 8px;
+      }
+
+      &-right {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        &-button-reverse {
+          width: 20px;
+          cursor: pointer;
+          margin-bottom: 16px;
+          margin-left: 8px;
+
+          & path {
+            fill: $color-bg-primary;
+          }
+        }
+      }
+    }
+
+    &-destination {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+    }
+
+    &-preview-button {
+      margin-bottom: 16px;
+      width: fit-content;
+    }
+
+    &-preview-button-add-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+      cursor: pointer;
+    }
+
+    &-preview-button-add {
+      width: 16px;
+
+      & svg {
+        background-color: $color-bg-primary;
+        border-radius: 8px;
+        padding: 2px;
+        width: 100%;
+      }
+      & path {
+        fill: $color-bg-lighter;
+      }
+    }
+  }
+  &__destination-details-container {
+    display: flex;
+    width: 100%;
+    &-field {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      margin-left: 10px;
+    }
+    &-margin-right {
+      margin-right: 16px;
+    }
+  }
+
+  &__rate-container {
+    position: relative;
+
+    .slds-dot-loader {
+      top: 70%;
+    }
+  }
+}

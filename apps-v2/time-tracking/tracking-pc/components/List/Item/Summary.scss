@@ -1,0 +1,36 @@
+.tracking-pc-list-item-summary {
+  display: flex;
+  min-height: 30px;
+  background-color: #f4f6f9;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-right: 1px solid $color-border-default;
+  }
+
+  &__item--name {
+    padding-left: 25px;
+  }
+
+  &__item:last-child {
+    flex: 1 1 auto;
+    border-right: none;
+  }
+
+  &__item--label-summary {
+    justify-content: flex-end;
+    color: $color-text-modest;
+    text-align: right;
+  }
+
+  &__item--work-time {
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  &__item--comment {
+    word-break: break-all;
+  }
+}

@@ -1,0 +1,349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TalentProfileContainer Test it renders without crashing 1`] = `
+<div
+  className="ts-psa__talent-profile-management"
+>
+  <div
+    className="ts-psa__talent-profile-management__profile"
+  >
+    <div
+      className="ts-psa__talent-profile-management__profile-label"
+    >
+      <div
+        className="ts-psa__talent-profile-management__profile-label__header"
+      >
+        Personal Info
+      </div>
+      <div
+        className="ts-psa__talent-profile-management__profile-label__subheader"
+      >
+        Information about you referred in PSA services
+      </div>
+    </div>
+    <div
+      className="ts-psa__talent-profile-management__profile-picture"
+    >
+      <img
+        className="ts-psa__talent-profile-management__profile-picture__img"
+        src="https://test-url.com/profilephoto/005/T"
+      />
+    </div>
+  </div>
+  <div
+    className="ts-psa__talent-profile-management__actions"
+  >
+    <button
+      className="ts-psa__talent-profile-management__discard-btn ts-button ts-button--default"
+      data-testid="ts-psa__talent-profile-management__discard-btn"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+      value=""
+    >
+      <div
+        className="ts-button__contents"
+      >
+        <span
+          className="ts-button__text"
+        >
+          Discard
+        </span>
+      </div>
+    </button>
+    <button
+      className="ts-psa__talent-profile-management__save-btn ts-button ts-button--primary"
+      data-testid="ts-psa__talent-profile-management__save-btn"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+      value=""
+    >
+      <div
+        className="ts-button__contents"
+      >
+        <span
+          className="ts-button__text"
+        >
+          Save
+        </span>
+      </div>
+    </button>
+  </div>
+  <div
+    className="ts-psa__talent-profile-management__basic-info"
+  >
+    <div
+      className="ts-psa__talent-profile__basic-info"
+    >
+      <div
+        className="ts-psa__talent-profile__basic-info__header"
+      >
+        Basic Info
+      </div>
+      <div
+        className="ts-psa__talent-profile__basic-info__row"
+      >
+        <div
+          className="ts-psa__talent-profile__basic-info__label"
+        >
+          Name
+        </div>
+        <div
+          className="ts-psa__talent-profile__basic-info__value"
+        >
+          Sista Aadmi
+        </div>
+      </div>
+      <div
+        className="ts-psa__talent-profile__basic-info__row"
+      >
+        <div
+          className="ts-psa__talent-profile__basic-info__label"
+        >
+          Job Title
+        </div>
+        <div
+          className="ts-psa__talent-profile__basic-info__value"
+        >
+          Dept Manager
+        </div>
+      </div>
+      <div
+        className="ts-psa__talent-profile__basic-info__row"
+      >
+        <div
+          className="ts-psa__talent-profile__basic-info__label"
+        >
+          Employee code
+        </div>
+        <div
+          className="ts-psa__talent-profile__basic-info__value"
+        >
+          TDEMP000
+        </div>
+      </div>
+      <div
+        className="ts-psa__talent-profile__basic-info__row"
+      >
+        <div
+          className="ts-psa__talent-profile__basic-info__label"
+        >
+          Department
+        </div>
+        <div
+          className="ts-psa__talent-profile__basic-info__value"
+        >
+          Dept CEO
+        </div>
+      </div>
+      <div
+        className="ts-psa__talent-profile__basic-info__row"
+      >
+        <div
+          className="ts-psa__talent-profile__basic-info__label"
+        >
+          Job Grade
+        </div>
+        <div
+          className="ts-psa__talent-profile__basic-info__value"
+        >
+          -
+        </div>
+      </div>
+      <div
+        className="ts-psa__talent-profile__basic-info__row"
+      >
+        <div
+          className="ts-psa__talent-profile__basic-info__label"
+        >
+          Date of Hire
+        </div>
+        <div
+          className="ts-psa__talent-profile__basic-info__value"
+        >
+          2021-01-01
+        </div>
+      </div>
+      <div
+        className="ts-psa__talent-profile__basic-info__row"
+      >
+        <div
+          className="ts-psa__talent-profile__basic-info__label"
+        >
+          Email
+        </div>
+        <div
+          className="ts-psa__talent-profile__basic-info__value"
+        >
+          test.email@testemail.com
+        </div>
+      </div>
+      <div
+        className="ts-psa__talent-profile__basic-info__row__remarks"
+      >
+        <div
+          className="ts-psa__talent-profile__basic-info__label"
+        >
+          Remarks
+        </div>
+        <div
+          className="ts-psa__talent-profile__basic-info__value"
+        >
+          <textarea
+            className="ts-textarea-field ts-psa__talent-profile__basic-info__text-remarks slds-input"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            value="I'm good. Are you?"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ts-psa__talent-profile-management__skill-edit"
+  >
+    <div
+      className="ts-psa__talent-profile__skill-edit"
+    >
+      <div
+        className="ts-psa__talent-profile__skill-edit__header"
+      >
+        Skill Proficiency
+        <div
+          className="ts-talent-skill-select"
+        >
+          <div
+            className="ts-talent-skill-select__selection"
+          >
+            <div
+              className="ts-talent-skill-select__selection-button"
+              onClick={[Function]}
+            >
+              <test-file-stub
+                className="ts-talent-skill-select__selection-button__icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__talent-profile__skill-edit__subheader"
+      >
+        <div
+          className="slds-grid ts-psa__talent-profile__skill-edit__header-title"
+        >
+          <div
+            className="slds-col slds-size--3-of-12 slds-align-top"
+          >
+            <div
+              className="ts-psa__talent-profile__skill-edit__header-title-column"
+            >
+              Skill Category
+            </div>
+          </div>
+          <div
+            className="slds-col slds-size--4-of-12 slds-align-top"
+          >
+            <div
+              className="ts-psa__talent-profile__skill-edit__header-title-column"
+            >
+              Skill Name
+            </div>
+          </div>
+          <div
+            className="slds-col slds-size--4-of-12 slds-align-top"
+          >
+            <div
+              className="ts-psa__talent-profile__skill-edit__header-title-column"
+            >
+              Rating
+            </div>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <div
+              className="ts-psa__talent-profile__skill-edit__header-title-column"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__talent-profile__skill-edit__skill-divider"
+      />
+      <div
+        className="ts-psa__talent-profile__skill-edit__editable-skill"
+      />
+      <div
+        className="ts-psa__talent-profile__skill-edit__skill-divider"
+      />
+      <div
+        className="ts-psa__talent-profile__skill-edit__read-only-skill"
+      />
+    </div>
+  </div>
+  <div
+    className="ts-psa__talent-profile-management__links-edit"
+  >
+    <div
+      className="ts-psa__talent-profile__link-edit"
+    >
+      <div
+        className="ts-psa__talent-profile__link-edit__header"
+      >
+        Manage Links
+        <div
+          className="ts-psa__talent-profile__link-edit__add-button"
+          onClick={[Function]}
+        >
+          <test-file-stub
+            className="ts-psa__talent-profile__link-edit__add-button__icon"
+          />
+        </div>
+      </div>
+      <div
+        className="ts-psa__talent-profile__link-edit__subheader"
+      >
+        <div
+          className="slds-grid ts-psa__talent-profile__link-edit__header-title"
+        >
+          <div
+            className="slds-col slds-size--3-of-12 slds-align-top"
+          >
+            <div
+              className="ts-psa__talent-profile__link-edit__header-title-column"
+            >
+              Name
+            </div>
+          </div>
+          <div
+            className="slds-col slds-size--8-of-12 slds-align-top"
+          >
+            <div
+              className="ts-psa__talent-profile__link-edit__header-title-column"
+            >
+              Link URL
+            </div>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <div
+              className="ts-psa__talent-profile__link-edit__header-title-column"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__talent-profile__link-edit__link-divider"
+      />
+      <div
+        className="ts-psa__talent-profile__link-edit__editable-links"
+      />
+    </div>
+  </div>
+</div>
+`;

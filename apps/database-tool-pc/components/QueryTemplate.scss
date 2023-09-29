@@ -1,0 +1,42 @@
+.db-tool-query-template {
+  height: 30px;
+  margin-bottom: 5px;
+
+  .commons-fields-dropdown-searchable {
+    margin-right: 10px;
+  }
+
+  &-save-query,
+  &-delete-query {
+    height: 30px;
+    width: 60px;
+    margin-right: 10px;
+  }
+
+  &-dialog {
+    &__dialog-frame {
+      width: 580px;
+    }
+
+    &__inner {
+      padding: 40px;
+      height: 150px;
+
+      &_label {
+        font-size: 15px;
+        margin-bottom: 5px;
+        color: $color-text-modest;
+      }
+    }
+
+    &__action-button {
+      width: 98px;
+    }
+
+    &__error {
+      margin-top: 5px;
+      color: #c23934;
+      font-size: 12px;
+    }
+  }
+}

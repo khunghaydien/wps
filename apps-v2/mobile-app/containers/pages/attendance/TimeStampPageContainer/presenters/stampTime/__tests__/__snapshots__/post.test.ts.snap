@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`noCompleteMessage complete() clockType = in should do with sending. 1`] = `Array []`;
+
+exports[`noCompleteMessage complete() clockType = in should do. 1`] = `Array []`;
+
+exports[`noCompleteMessage complete() clockType = out should do with sending. 1`] = `Array []`;
+
+exports[`noCompleteMessage complete() clockType = out should do. 1`] = `Array []`;
+
+exports[`noCompleteMessage complete() clockType = rein should do with sending. 1`] = `Array []`;
+
+exports[`noCompleteMessage complete() clockType = rein should do. 1`] = `Array []`;
+
+exports[`noCompleteMessage complete() should show error 1`] = `
+Array [
+  Object {
+    "payload": "Error - Comment is required if you don't send the current location.",
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`noCompleteMessage confirmToComplementInsufficientingRestTime() should do. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+  Object {
+    "payload": "The rest time input is 0 minutes short. Do you want to automatically register the required rest time?
+If you do not wish to register it automatically, click the “cancel” button and input it manually in the attendance sheet.
+{$Att_Help_ExcessRestTimeBeDeducted}",
+    "type": "SHOW_CONFIRM",
+  },
+  Object {
+    "payload": "1",
+    "type": "START_LOADING",
+  },
+]
+`;
+
+exports[`noCompleteMessage error() should do 1`] = `
+Array [
+  Object {
+    "payload": "Error Test",
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`noCompleteMessage finally() should do. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`noCompleteMessage should do with loadingId. 1`] = `
+Array [
+  Object {
+    "payload": "1",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": "1",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`noCompleteMessage start() should do. 1`] = `
+Array [
+  Object {
+    "payload": "1",
+    "type": "START_LOADING",
+  },
+]
+`;
+
+exports[`normal complete() clockType = in should do with sending. 1`] = `
+Array [
+  Object {
+    "payload": "Start time of attendance has been stamped",
+    "type": "SHOW_TOAST",
+  },
+  Object {
+    "type": "ATTENDANCE/TIME_STAMP/UI/CLEAR_COMMENT",
+  },
+]
+`;
+
+exports[`normal complete() clockType = in should do. 1`] = `
+Array [
+  Object {
+    "payload": "Start time of attendance has been stamped",
+    "type": "SHOW_TOAST",
+  },
+  Object {
+    "type": "ATTENDANCE/TIME_STAMP/UI/CLEAR_COMMENT",
+  },
+]
+`;
+
+exports[`normal complete() clockType = out should do with sending. 1`] = `
+Array [
+  Object {
+    "payload": "End time of attendance has been stamped",
+    "type": "SHOW_TOAST",
+  },
+  Object {
+    "type": "ATTENDANCE/TIME_STAMP/UI/CLEAR_COMMENT",
+  },
+]
+`;
+
+exports[`normal complete() clockType = out should do. 1`] = `
+Array [
+  Object {
+    "payload": "End time of attendance has been stamped",
+    "type": "SHOW_TOAST",
+  },
+  Object {
+    "type": "ATTENDANCE/TIME_STAMP/UI/CLEAR_COMMENT",
+  },
+]
+`;
+
+exports[`normal complete() clockType = rein should do with sending. 1`] = `
+Array [
+  Object {
+    "payload": "Restart time of attendance has been stamped",
+    "type": "SHOW_TOAST",
+  },
+  Object {
+    "type": "ATTENDANCE/TIME_STAMP/UI/CLEAR_COMMENT",
+  },
+]
+`;
+
+exports[`normal complete() clockType = rein should do. 1`] = `
+Array [
+  Object {
+    "payload": "Restart time of attendance has been stamped",
+    "type": "SHOW_TOAST",
+  },
+  Object {
+    "type": "ATTENDANCE/TIME_STAMP/UI/CLEAR_COMMENT",
+  },
+]
+`;
+
+exports[`normal complete() should show error 1`] = `
+Array [
+  Object {
+    "payload": "Error - Comment is required if you don't send the current location.",
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`normal confirmToComplementInsufficientingRestTime() should do. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+  Object {
+    "payload": "The rest time input is 0 minutes short. Do you want to automatically register the required rest time?
+If you do not wish to register it automatically, click the “cancel” button and input it manually in the attendance sheet.
+{$Att_Help_ExcessRestTimeBeDeducted}",
+    "type": "SHOW_CONFIRM",
+  },
+  Object {
+    "payload": "1",
+    "type": "START_LOADING",
+  },
+]
+`;
+
+exports[`normal error() should do 1`] = `
+Array [
+  Object {
+    "payload": "Error Test",
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`normal finally() should do. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`normal should do with loadingId. 1`] = `
+Array [
+  Object {
+    "payload": "1",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": "1",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`normal start() should do. 1`] = `
+Array [
+  Object {
+    "payload": "1",
+    "type": "START_LOADING",
+  },
+]
+`;

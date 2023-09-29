@@ -1,0 +1,86 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-psa__activity {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+  background: $color-bg-grey;
+
+  &__header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 250px);
+    z-index: 10;
+    align-items: center;
+    justify-content: space-between;
+    padding: $size-s;
+    border: none;
+    background-color: $color-bg-white;
+    height: $header-height;
+  }
+
+  &__header-title {
+    color: $color-text-dark-grey;
+    line-height: 26px;
+  }
+
+  &__header-breadcrumb-link {
+    cursor: pointer;
+    color: $color-sidebar-link-text-active;
+  }
+
+  &__header-breadcrumb-separator {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+
+  &__header-project {
+    display: block;
+    position: relative;
+    top: 2px;
+    color: $color-text-dark-grey;
+    font-size: $font-size-m;
+    margin-left: $size-m;
+  }
+
+  &__header-description {
+    display: block;
+    position: relative;
+    bottom: 2px;
+    color: $color-text-dark-grey;
+    font-size: $font-size-l;
+    font-weight: bold;
+    margin-left: $size-m;
+  }
+
+  &__btn-area {
+    margin-left: 8px;
+    white-space: nowrap;
+  }
+
+  &__refresh-btn {
+    min-width: 32px;
+    min-height: 32px;
+    margin-right: $size-xs;
+  }
+
+  &__btn--new {
+    padding: $size-xs $container-padding;
+    background-color: $color-action-btn-primary-default;
+    color: $color-bg-white;
+    &:focus {
+      background-color: $color-action-btn-primary-default;
+      box-shadow: none;
+    }
+    &:hover {
+      background-color: $color-action-btn-primary-hover;
+      box-shadow: none;
+    }
+  }
+
+  &__content {
+    padding: 42px;
+    padding-top: 0;
+  }
+}

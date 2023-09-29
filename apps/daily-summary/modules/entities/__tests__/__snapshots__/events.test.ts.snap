@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() /DAILY-SUMMARY/ENTITIES/EVENTS/FETCH_SUCCESS targetDate matched 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"records\\": Array [],
++   \\"records\\": Array [
++     Object {
++       \\"createdServiceBy\\": \\"teamspirit\\",
++       \\"end\\": \\"2020-02-05T05:30:00.000Z\\",
++       \\"externalEventId\\": null,
++       \\"id\\": \\"a182v00000HUNAoAAP\\",
++       \\"isAllDay\\": false,
++       \\"isOrganizer\\": true,
++       \\"isOuting\\": false,
++       \\"job\\": Object {
++         \\"code\\": \\"1\\",
++         \\"id\\": \\"a0h2v00000ManntAAB\\",
++         \\"name\\": \\"Development\\",
++       },
++       \\"layout\\": Object {
++         \\"containsAllDay\\": false,
++         \\"endMinutesOfDay\\": 725,
++         \\"startMinutesOfDay\\": 450,
++       },
++       \\"location\\": \\"\\",
++       \\"remarks\\": \\"\\",
++       \\"start\\": \\"2020-02-05T00:00:00.000Z\\",
++       \\"title\\": \\"Daily-summary redesign\\",
++       \\"workCategoryId\\": \\"a1G2v000003yt6oEAA\\",
++       \\"workCategoryName\\": \\"Coding\\",
++     },
++   ],
+    \\"targetDate\\": \\"2020-02-05\\",
+  }"
+`;
+
+exports[`reducer() /DAILY-SUMMARY/ENTITIES/EVENTS/RESET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"records\\": Array [
+-     Object {
+-       \\"createdServiceBy\\": \\"teamspirit\\",
+-       \\"end\\": \\"2020-02-05T05:30:00.000Z\\",
+-       \\"externalEventId\\": null,
+-       \\"id\\": \\"a182v00000HUNAoAAP\\",
+-       \\"isAllDay\\": false,
+-       \\"isOrganizer\\": true,
+-       \\"isOuting\\": false,
+-       \\"job\\": Object {
+-         \\"code\\": \\"1\\",
+-         \\"id\\": \\"a0h2v00000ManntAAB\\",
+-         \\"name\\": \\"Development\\",
+-       },
+-       \\"layout\\": Object {
+-         \\"containsAllDay\\": false,
+-         \\"endMinutesOfDay\\": 725,
+-         \\"startMinutesOfDay\\": 450,
+-       },
+-       \\"location\\": \\"\\",
+-       \\"remarks\\": \\"\\",
+-       \\"start\\": \\"2020-02-05T00:00:00.000Z\\",
+-       \\"title\\": \\"Daily-summary redesign\\",
+-       \\"workCategoryId\\": \\"a1G2v000003yt6oEAA\\",
+-       \\"workCategoryName\\": \\"Coding\\",
+-     },
+-   ],
+-   \\"targetDate\\": \\"2020-02-05\\",
++   \\"records\\": Array [],
++   \\"targetDate\\": undefined,
+  }"
+`;
+
+exports[`reducer() /DAILY-SUMMARY/ENTITIES/EVENTS/SET_TARGET_DATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"records\\": Array [],
+-   \\"targetDate\\": undefined,
++   \\"targetDate\\": \\"2020-02-05\\",
+  }"
+`;
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"records\\": Array [],
++   \\"targetDate\\": undefined,
++ }"
+`;

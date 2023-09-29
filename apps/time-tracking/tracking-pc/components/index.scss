@@ -1,0 +1,23 @@
+.tracking-pc {
+  &__month-picker-wrapper {
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+
+    .slds-select {
+      width: 150px;
+    }
+  }
+
+  &__nav {
+    margin: 0 0 0 20px;
+    height: 56px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+
+  &__body {
+    margin: 56px 0 0 0;
+  }
+}

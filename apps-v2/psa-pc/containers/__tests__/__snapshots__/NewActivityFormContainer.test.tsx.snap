@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewActivityFormContainer renders without crashing it renders without crashing 1`] = `
+<div
+  className="commons-dialog-frame__wrapper"
+  style={
+    Object {
+      "zIndex": 5100000,
+    }
+  }
+>
+  <div
+    className="commons-dialog-frame__overlay"
+    onClick={[Function]}
+  />
+  <div
+    className="commons-dialog-frame slds ts-psa__new-activity-form__dialog-frame react-draggable"
+    onMouseDown={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    role="dialog"
+    style={
+      Object {
+        "height": undefined,
+        "transform": "translate(0px,0px)",
+      }
+    }
+    transform={null}
+  >
+    <div
+      className="slds-grid slds-grid--vertical-align-center commons-dialog-frame__header commons-dialog-frame__header__cursor"
+    >
+      <div
+        className="slds-grow commons-dialog-frame__header-title"
+      >
+        New {$Psa_Clbl_Activity}
+      </div>
+    </div>
+    <div
+      className="commons-dialog-frame__wrap"
+    >
+      <div
+        className="commons-dialog-frame__contents"
+      >
+        <div
+          className="ts-psa__new-activity-form__inner"
+        >
+          <div
+            className="ts-psa__new-activity-form__sub-header"
+          >
+            <div
+              className="ts-psa__new-activity-form__sub-header__title"
+              data-testid="ts-psa__new-activity-form__sub-header__title"
+            >
+              <span
+                className="ts-psa__new-activity-form__sub-header__title-header"
+              >
+                Project Title
+              </span>
+              :
+              <span
+                className="ts-psa__new-activity-form__sub-header__title-header-body"
+              />
+            </div>
+            <div
+              className="ts-psa__new-activity-form__sub-header__duration"
+              data-testid="ts-psa__new-activity-form__sub-header--duration"
+            >
+              <span
+                className="ts-psa__new-activity-form__sub-header__duration-header"
+              >
+                 
+                Duration
+              </span>
+              : 
+              
+                  -
+            
+            </div>
+          </div>
+          <div
+            className="ts-psa__new-activity-form"
+          >
+            <div
+              className="ts-psa__new-activity-form__form-field-container"
+            >
+              <div
+                className="ts-psa__form-field  "
+                data-testid="ts-psa__new-activity-form--title"
+              >
+                <div
+                  className="ts-psa__form-field__label"
+                >
+                  <span
+                    className="is-required"
+                  >
+                    *
+                  </span>
+                   
+                  {$Psa_Clbl_Activity} Title
+                </div>
+                <input
+                  className="ts-text-field slds-input"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="ts-psa__form-field  "
+                data-testid="ts-psa__new-activity-form--code"
+              >
+                <div
+                  className="ts-psa__form-field__label"
+                >
+                  <span
+                    className="is-required"
+                  >
+                    *
+                  </span>
+                   
+                  {$Psa_Clbl_Activity} Code
+                </div>
+                <input
+                  className="ts-text-field slds-input"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder={null}
+                  readOnly={false}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              className="ts-psa__new-activity-form__form-field-container"
+            >
+              <div
+                className="ts-psa__new-activity-form__date-status-container"
+              >
+                <div
+                  className="ts-psa__new-activity-form__dates-container"
+                >
+                  <div
+                    className="ts-psa__new-activity-form__dates"
+                  >
+                    <div
+                      className="ts-psa__form-field ts-psa__new-activity-form__form-field-container__item ts-psa__new-activity-form--start-date "
+                      data-testid="ts-psa__new-activity-form--start-date"
+                    >
+                      <div
+                        className="ts-psa__form-field__label"
+                      >
+                        <span
+                          className="is-required"
+                        >
+                          *
+                        </span>
+                         
+                        Start Date
+                      </div>
+                      <div
+                        className="ts-psa__date-field__container"
+                      >
+                        <div
+                          className="commons-fields-date-field"
+                          data-testid=""
+                        >
+                          <div>
+                            <div
+                              className="react-datepicker-wrapper"
+                            >
+                              <div
+                                className="react-datepicker__input-container"
+                              >
+                                <input
+                                  className="slds-input"
+                                  disabled={false}
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  placeholder="Select Start Date"
+                                  readOnly={false}
+                                  required={false}
+                                  type="text"
+                                  value=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className="ts-psa__date-field__calendar-icon-wrapper"
+                        >
+                          <test-file-stub
+                            className="ts-psa__date-field__calendar-icon-body"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ts-psa__form-field ts-psa__new-activity-form__form-field-container__item ts-psa__new-activity-form--end-date "
+                      data-testid="ts-psa__new-activity-form--end-date"
+                    >
+                      <div
+                        className="ts-psa__form-field__label"
+                      >
+                        <span
+                          className="is-required"
+                        >
+                          *
+                        </span>
+                         
+                        End Date
+                      </div>
+                      <div
+                        className="ts-psa__date-field__container"
+                      >
+                        <div
+                          className="commons-fields-date-field"
+                          data-testid=""
+                        >
+                          <div>
+                            <div
+                              className="react-datepicker-wrapper"
+                            >
+                              <div
+                                className="react-datepicker__input-container"
+                              >
+                                <input
+                                  className="slds-input"
+                                  disabled={false}
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  placeholder="Select End Date"
+                                  readOnly={false}
+                                  required={false}
+                                  type="text"
+                                  value=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className="ts-psa__date-field__calendar-icon-wrapper"
+                        >
+                          <test-file-stub
+                            className="ts-psa__date-field__calendar-icon-body"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ts-psa__new-activity-form__status-container"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="commons-dialog-frame__footer"
+    >
+      <div
+        className="slds-grid commons-dialog-frame-footer"
+      >
+        <div
+          className="slds-grow commons-dialog-frame-footer__sub"
+        />
+        <div
+          className="commons-dialog-frame-footer__inner"
+        >
+          <button
+            className="ts-button ts-button--default"
+            data-testid="ts-psa__new-activity-form--cancel"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                Cancel
+              </span>
+            </div>
+          </button>
+          <button
+            className="ts-button ts-button--primary"
+            data-testid="ts-psa__new-activity-form--save"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                Save
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

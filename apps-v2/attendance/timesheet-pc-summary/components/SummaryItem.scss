@@ -1,0 +1,59 @@
+.timesheet-pc-summary-summary-item {
+  $this: &;
+
+  display: flex;
+  justify-content: space-between;
+
+  &:not(:last-of-type) {
+    border-bottom: 1px dashed $color-border-default;
+  }
+
+  &__name,
+  &__value {
+    padding: 2px 8px;
+
+    @media print {
+      padding: 1px 4px;
+    }
+
+    &::before {
+      display: inline-block;
+      width: 0;
+      height: 100%;
+      content: '';
+      vertical-align: middle;
+    }
+
+    > span {
+      display: inline-block;
+    }
+  }
+
+  &__name {
+    flex: 1 1;
+    background: $color-bg-heading;
+    color: $color-text-modest;
+    
+    span {
+      width: 100%;
+      word-break: break-word;
+    }
+  }
+
+  &__value {
+    flex: 0 0 7rem;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  &__as_at_closing_date {
+    display: block;
+  }
+
+  &--sub-item #{$this}__name {
+    padding-left: 32px;
+    background: 20px 2px url('../../../commons/images/iconNest.png') no-repeat
+      $color-bg-list-item-nested;
+    background-size: 7px 13px;
+  }
+}

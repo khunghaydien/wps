@@ -1,0 +1,175 @@
+@import "compass";
+
+div.expconf_horizon {
+    @include clearfix;
+    > div {
+        float           : left;
+        margin-right    : 12px;
+    }
+}
+div.expconf_table {
+    display         : table;
+    > div {
+        display         : table-cell;
+        vertical-align  : middle;
+        padding-right   : 12px;
+    }
+}
+table.expconf_pre_option {
+    border-collapse : collapse;
+    width           : 100%;
+    table.pane_table {
+        td {
+            padding         : 3px !important;
+            vertical-align  : middle !important;
+            white-space     : nowrap;
+        }
+        td:first-child {
+            padding-right   : 20px !important;
+        }
+    }
+}
+td.nest_left {
+    font-weight     : bold;
+    color           : #4A4A56;
+}
+div.confirm-change-emptype {
+	padding: 2px 4px;
+	margin: 0px 8px;
+	width: 620px;
+	div.info-emptype {
+		@include border-radius(3px);
+		padding: 8px;
+		border: 1px solid gray;
+		display: table-cell;
+		vertical-align: top;
+		width: 300px;
+	}
+	div.info-spacer {
+		display: table-cell;
+		vertical-align: top;
+		width: 8px;
+		height: 8px;
+	}
+	div.info-name-label-old, div.info-name-label-new {
+		font-weight: bold;
+		padding: 0px 4px;
+		display: table-cell;
+		vertical-align: top;
+	}
+	div.info-name-old, div.info-name-new {
+		padding: 0px 4px;
+		max-width: 230px;
+		display: table-cell;
+		vertical-align: top;
+	}
+	table.confirm-table {
+		border-collapse: collapse;
+		border-spacing: 0px;
+		td {
+			min-width: 20px;
+			padding: 1px 4px;
+			text-align: left;
+			white-space: nowrap;
+			font-size: 12px;
+		}
+		td:first-child {
+			font-weight: bold;
+		}
+		td:nth-child(2) {
+			text-align: left;
+		}
+	}
+	div.confirm-changeDate {
+		@include border-radius(3px);
+		border: 1px solid gray;
+		padding: 4px 16px;
+		font-size: 12px;
+		margin-top: 4px;
+		> div > div {
+			padding: 0px 16px;
+			display: table-cell;
+			&:first-child {
+				font-weight: bold;
+				padding-left: 0px;
+			}
+		}
+	}
+	div.confirm-caution {
+		@include border-radius(3px);
+		border: 1px solid gray;
+		padding: 8px 16px;
+		position: relative;
+		min-height: 50px;
+		font-size: 12px;
+		margin-top: 4px;
+		div.confirm-caution-msg {
+			margin-left: 36px;
+			font-weight: bold;
+		}
+		div.confirm-caution-top {
+			margin-top: 4px;
+			margin-left: 60px;
+		}
+		div.confirm-caution-row {
+			margin-left: 74px;
+		}
+		div.pp_icon_caution {
+			width: 31px;
+			height: 20px;
+			position: absolute;
+			left: 8px;
+			top: 12px;
+		}
+	}
+	div.confirm-info {
+		@include border-radius(3px);
+		border: 1px solid gray;
+		padding: 8px 16px;
+		position: relative;
+		min-height: 50px;
+		font-size: 12px;
+		margin-top: 4px;
+		div.confirm-info-msg {
+			margin: 0px auto 4px auto;
+			font-weight: bold;
+			display: table;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0px;
+			margin: 0px auto;
+			th {
+				text-align: center;
+				font-weight: bold;
+				border: 1px solid gray;
+				background-color: #e8f0f5;
+				padding: 0px;
+			}
+			td {
+				padding: 1px 16px;
+				text-align: left;
+				white-space: nowrap;
+				font-size: 12px;
+				border: 1px solid gray;
+				white-space: nowrap;
+				background-color: white;
+				&:last-child {
+					text-align: center;
+				}
+			}
+		}
+		div.pp_ico_info {
+			width: 19px;
+			height: 18px;
+			position: absolute;
+			left: 8px;
+			top: 12px;
+		}
+	}
+	div.confirm-message {
+		padding: 0px 8px;
+		margin-top: 4px;
+		font-size: 12px;
+	}
+}

@@ -1,0 +1,12 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-commons-field-search-button-field {
+  &-button {
+    display: inline-block;
+    width: calc(100% - 50px);
+  }
+
+  &-icon-button {
+    margin-left: 7px;
+  }
+}

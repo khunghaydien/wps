@@ -1,0 +1,96 @@
+@import './variables';
+
+// HeadingRow, DailyRow に共通するスタイルの設定
+// $thisは、import元で定義されたCOMPONENT_ROOTのクラス名
+
+// カラムの共通設定
+&__col {
+  $table-min-width: 1024px;
+
+  // TODO: 工数カラム復活時に有効化する
+  //$fixed-width-total: 72px + 54px + 52px + 74px + 74px + 63px;
+  //$remarks-col-width: 192px;
+  $fixed-width-total: 72px + 54px + 52px + 74px + 74px;
+  $remarks-col-width: 261px;
+
+  &-status {
+    width: 36px;
+    min-width: 36px;
+  }
+
+  &-application {
+    width: 54px;
+    min-width: 54px;
+  }
+
+  &-date {
+    width: 60px;
+    min-width: 60px;
+  }
+
+  &-start-time,
+  &-end-time {
+    width: 74px;
+    min-width: 74px;
+  }
+
+  &-commute-count {
+    width: 120px;
+    min-width: 120px;
+  }
+
+  &-time-tracking {
+    width: 73px;
+    min-width: 73px;
+  }
+
+  // TODO: 工数カラム復活時に有効化する
+  //&-man-hours { width: 63px; }
+  //
+  //&-man-hours-graph {
+  //  position: relative;
+  //  transition: width 0.3s ease-out;
+  //
+  //  // 初期非表示
+  //  width: 0;
+  //
+  //  > div {
+  //    position: absolute;
+  //    top: 50%;
+  //    left: 0;
+  //    width: 175px;
+  //    overflow: hidden;
+  //    white-space: nowrap;
+  //    transform: translate(0, -50%);
+  //  }
+  //
+  //  #{$this}#{$this}--man-hours-graph-opened & {
+  //    width: 175px;
+  //  }
+  //}
+
+  &-chart {
+    position: relative;
+    min-width: $table-min-width - $fixed-width-total - $remarks-col-width;
+    max-width: $WIDTH_PX_OF_ONE_HOUR * (1 + (24 * 2) + 1);
+    overflow-x: hidden;
+    transition: min-width 0.3s ease-out;
+
+    // TODO: 工数カラム復活時に有効化する
+    //#{$this}#{$this}--man-hours-graph-opened & {
+    //  min-width: $table-min-width - $fixed-width-total - $remarks-col-width -100px;
+    //}
+  }
+
+  &-remarks {
+    min-width: $remarks-col-width;
+    padding-right: 5px;
+    padding-left: 5px;
+    transition: min-width 0.3s ease-out;
+
+    // TODO: 工数カラム復活時に有効化する
+    //#{$this}#{$this}--man-hours-graph-opened & {
+    //  min-width: $remarks-col-width - 75px;
+    //}
+  }
+}

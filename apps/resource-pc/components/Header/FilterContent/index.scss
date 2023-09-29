@@ -1,0 +1,50 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-psa__common-filter__content {
+  display: flex;
+
+  &__left,
+  &__center {
+    width: 30%;
+    margin-right: 20px;
+  }
+
+  .slds-listbox {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+
+  &__status {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__status-checkbox {
+    margin-right: 8px;
+  }
+
+  &__status-label {
+    margin-bottom: 14px;
+  }
+
+  .ts-psa__form-field + .ts-psa__form-field {
+    margin-top: $container-padding;
+  }
+
+  // Needed to show the entire icon
+  .admin-pc-common-clearable-field__clear {
+    width: auto;
+    height: auto;
+  }
+
+  &__project-code-container {
+    display: flex;
+    .ts-psa__date-field__container {
+      margin-right: 10px;
+    }
+  }
+
+  &__resource_group {
+    margin: $container-padding 0;
+  }
+}

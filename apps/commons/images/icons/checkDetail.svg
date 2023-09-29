@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <g transform="translate(-198 -351)">
+        <g transform="translate(198 351)" fill="#fff" stroke="#355073" strokeMiterlimit="10">
+            <circle cx="10" cy="10" r="10" stroke="none" />
+            <circle cx="10" cy="10" r="9.5" fill="none" />
+        </g>
+        <rect width="9" height="1.5" rx="0.75" transform="translate(203.5 355.75)"
+        class="cls-detail"/>
+        <rect width="6" height="1.5" rx="0.75" transform="translate(206.5 358.75)"
+        class="cls-detail"/>
+        <rect width="1.5" height="1.5" rx="0.75" transform="translate(204.25 358.75)"
+        class="cls-detail"/>
+        <rect width="1.5" height="1.5" rx="0.75" transform="translate(204.25 361.75)"
+        class="cls-detail"/>
+        <rect width="6" height="1.5" rx="0.75" transform="translate(206.5 361.75)"
+        class="cls-detail"/>
+        <rect width="1.5" height="1.5" rx="0.75" transform="translate(204.25 364.75)"
+        class="cls-detail"/>
+        <rect width="6" height="1.5" rx="0.75" transform="translate(206.5 364.75)"
+        class="cls-detail"/>
+    </g>
+</svg>

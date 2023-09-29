@@ -1,0 +1,59 @@
+@import '../../../../commons/styles/wsp';
+
+.ts-finance-approval__requests {
+  height: calc(100% - 150px); // Not to have extra white space
+  flex: 1;
+  overflow: hidden;
+
+  &-header {
+    padding: 12px 20px 8px 20px;
+    border-top: 1px solid color('border-2');
+    border-bottom: 1px solid color('border-2');
+    background-color: color('background-1');
+    color: color('text-2');
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  &-list {
+    display: block;
+    overflow: auto;
+    height: calc(100% - 150px); // Not to have extra white space
+  }
+
+  &-too-many-results {
+    margin-top: 12px;
+    color: #006dcc;
+    text-align: center;
+  }
+
+  &-list-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+
+    .ts-pager-info {
+      margin-right: 0;
+    }
+  }
+
+  &__refresh-btn {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: 14px;
+    background: none;
+  }
+
+  &-list-footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+
+    & .ts-pager-info {
+      margin: 0 0 0 4px;
+    }
+  }
+}

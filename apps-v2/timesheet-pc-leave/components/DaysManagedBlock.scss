@@ -1,0 +1,39 @@
+.timesheet-pc-leave-days-managed-block {
+  $this: &;
+
+  margin: 0 0 15px;
+
+  @import 'shared-table';
+
+  &__table {
+    > caption {
+      font-size: $font-size-default;
+      font-weight: bold;
+      line-height: 1.5;
+    }
+
+    > tbody > tr,
+    > tfoot > tr {
+      > td#{$this}__col-days-granted,
+      > td#{$this}__col-days-taken,
+      > td#{$this}__col-days-left {
+        text-align: right;
+      }
+
+      > td#{$this}__col-comment {
+        text-align: left;
+      }
+    }
+  }
+
+  &__col-valid-date-from,
+  &__col-valid-date-to {
+    width: 152px;
+  }
+
+  &__col-days-granted,
+  &__col-days-taken,
+  &__col-days-left {
+    width: 120px;
+  }
+}

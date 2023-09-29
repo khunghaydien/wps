@@ -1,0 +1,36 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-components-molecules-attendance-time-stamp-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: $small-size;
+  border-top: 2px solid $color-border;
+  background: #fff;
+
+  &__commute-count-area {
+    padding-bottom: 12px;
+    overflow-x: scroll;
+  }
+
+  &__comment-area {
+    padding-bottom: 8px;
+  }
+
+  &__button-area {
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__stamp_button {
+    &:first-of-type {
+      margin-right: 20px;
+    }
+  }
+
+  .mobile-app-atoms-button {
+    padding: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+.commons-grid-formatters-icon {
+  display: flex;
+  width: 1em;
+  height: 100%;
+  justify-content: flex-start;
+  padding: 10px 0;
+
+  &__top {
+    align-items: flex-start;
+  }
+
+  &__middle {
+    align-items: center;
+  }
+
+  &__bottom {
+    align-items: flex-end;
+  }
+}

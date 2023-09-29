@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchListLegalAgreementRequest should be call select when had targetId 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "request": Object {
+        "id": "abc",
+      },
+    },
+    "type": "TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/REQUESTS/MONTHLY-REQUEST/INIT",
+  },
+  Object {
+    "payload": Object {
+      "isEditing": false,
+      "request": Object {
+        "id": "abc",
+      },
+    },
+    "type": "TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/EDITING/INIT",
+  },
+]
+`;
+
+exports[`fetchListLegalAgreementRequest should be not call select when had not targetId 1`] = `Array []`;

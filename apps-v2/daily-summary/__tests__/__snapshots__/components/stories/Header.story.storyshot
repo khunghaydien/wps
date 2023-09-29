@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots daily-summary Header 1`] = `
+<div
+  className="Header__Wrapper-sc-edpl2r-0 jKRJno"
+>
+  <span
+    className="Text-sc-11kuzx6-0 CgJnn"
+    color="dialogTitle"
+    size="xxl"
+  >
+    Daily Summary
+  </span>
+  <div
+    className="Header__Navigation-sc-edpl2r-1 dBKItx"
+  >
+    <button
+      className="IconButton__Button-sc-10k5axt-1 giXGgm"
+      color="#000"
+      onClick={[Function]}
+    >
+      <test-file-stub
+        className="IconButton__Icon-sc-10k5axt-0 djRZTt"
+        color="#000"
+      />
+    </button>
+    <div
+      className="Header__DatePickerWrapper-sc-edpl2r-3 ddqooP"
+    >
+      <div>
+        <div
+          className="react-datepicker-wrapper"
+        >
+          <div
+            className="react-datepicker__input-container"
+          >
+            <div
+              className="DatePicker__InputWrapper-sc-1m5gls3-1 krKEcb"
+            >
+              <input
+                className="DatePicker__StyledDatePicker-sc-1m5gls3-0 cAuFqS"
+                disabled={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                placeholder="Thu, 10/08/2020"
+                value="Thu, 10/08/2020"
+              />
+              <div
+                className="DatePicker__IconWrapper-sc-1m5gls3-2 gcZFqG"
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 dtSGBU"
+                  color="disable"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      className="IconButton__Button-sc-10k5axt-1 giXGgm"
+      color="#2782ed"
+      onClick={[Function]}
+    >
+      <test-file-stub
+        className="ArrowRightButton__Icon-sc-1dgl0nf-0 dLOhLH IconButton__Icon-sc-10k5axt-0 cjZlAH"
+        color="#2782ed"
+      />
+    </button>
+  </div>
+</div>
+`;

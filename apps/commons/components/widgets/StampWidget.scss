@@ -1,0 +1,83 @@
+.commons-widgets-stamp-widget {
+  $this: &;
+
+  // 内容レイアウト用
+  display: flex;
+  height: 52px;
+  align-items: center;
+  padding: 0 24px 0 82px; // NOTE: PCHeaderの余白を参考に、左右両端が揃って見える数値とした
+  box-shadow: inset 5px 5px 4px rgba(0, 0, 0, 0.05);
+
+  // 時刻表示
+  &__clock {
+    color: $color-text-modest;
+  }
+
+  &__date {
+    margin-right: 15px;
+    font-size: 15px;
+  }
+
+  &__time {
+    font-size: 22px;
+
+    @keyframes blink {
+      50% {
+        opacity: 0;
+      }
+    }
+
+    > span {
+      animation: blink 1s step-end infinite;
+    }
+  }
+
+  // 出勤・退勤の選択
+  &__mode {
+    padding-left: 20px;
+  }
+
+  // メッセージ入力欄
+  &__message {
+    position: relative;
+    flex-grow: 1;
+    padding-left: 20px;
+
+    > span {
+      &::after {
+        position: absolute;
+        right: 0;
+        bottom: 8px;
+        display: block;
+        width: 9px;
+        height: 13px;
+        content: url('../../../commons/images/partsCommentBubble.png');
+        transform: scaleX(-1);
+      }
+    }
+
+    &--disabled > span::after {
+      content: url('../../../commons/images/partsCommentBubbleDisabled.png');
+    }
+
+    input {
+      width: calc(100% - 8px);
+      height: 30px;
+      min-height: 30px;
+      line-height: 28px;
+    }
+  }
+
+  // 打刻ボタン
+  &__submit {
+    padding-left: 20px;
+
+    > button.ts-button {
+      border: solid 2px #0209a1;
+
+      &[disabled] {
+        border-color: $color-border-default;
+      }
+    }
+  }
+}

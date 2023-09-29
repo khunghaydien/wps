@@ -1,0 +1,9 @@
+//
+// --- Utility Mixins
+
+// Hide the element while the page is being printed.
+@mixin hide-when-print {
+  @media print {
+    display: none;
+  }
+}

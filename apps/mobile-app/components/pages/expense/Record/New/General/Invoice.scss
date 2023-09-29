@@ -1,0 +1,32 @@
+.mobile-app-pages-expense-page-record-new-general-invoice {
+  &__radio-field {
+    display: block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+
+  &__radio {
+    display: inline-block;
+    height: auto !important;
+    margin-right: 5px;
+  }
+
+  &__jct-registration-number {
+    margin-bottom: 15px;
+    position: relative;
+
+    .mobile-app-atoms-label {
+      &__main,
+      &__hint-area {
+        display: none;
+      }
+    }
+
+    .slds-dot-loader {
+      display: flex;
+      left: 90%;
+      margin-left: 5px;
+      top: 70%;
+    }
+  }
+}

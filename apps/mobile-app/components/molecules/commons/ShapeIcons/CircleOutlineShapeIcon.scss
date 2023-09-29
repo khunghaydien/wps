@@ -1,0 +1,36 @@
+@import 'mobile-global-imports', 'ShapeIcon';
+
+.mobile-app-molecules-commons-icons-circle-outline-shape-icon {
+  @include shape-icon();
+  @include size-set();
+
+  &__container {
+    @include container-centering();
+
+    border-radius: 50%;
+
+    @mixin border($size) {
+      border: $size solid transparent;
+    }
+
+    &.x-small {
+      @include border(1px);
+    }
+
+    &.small {
+      @include border(1px);
+    }
+
+    &.medium {
+      @include border(1px);
+    }
+
+    &.large {
+      @include border(unit(1));
+    }
+
+    &.x-large {
+      @include border(unit(1));
+    }
+  }
+}

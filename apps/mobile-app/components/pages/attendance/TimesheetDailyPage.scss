@@ -1,0 +1,20 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-attendance-timesheet-daily-page {
+  &__working-time {
+    display: flex;
+  }
+
+  &__save-button-area {
+    padding: 16px 0;
+    text-align: center;
+  }
+
+  &__refresh {
+    padding: 0 8px;
+  }
+
+  &__package {
+    margin: 12px 12px;
+  }
+}

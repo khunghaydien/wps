@@ -1,0 +1,212 @@
+.approvals-pc-attendance-record-table {
+  $this: &;
+
+  position: relative;
+
+  &__header {
+    font-size: $font-size-large;
+    line-height: 32px;
+  }
+
+  &__footer {
+    line-height: 32px;
+  }
+
+  &__table {
+    background: $color-bg-tbody-row;
+    border-collapse: separate;
+    border-width: 0;
+    height: 100%;
+  }
+
+  &__table > caption {
+    font-size: $font-size-x-large;
+    line-height: 32px;
+  }
+
+  &__table > thead > tr > th {
+    position: sticky;
+    top: -1px;
+    z-index: 2;
+  }
+
+  &__table > thead > tr > th:first-child {
+    left: 0;
+    z-index: 3;
+  }
+
+  &__table > tbody > tr > td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    padding: 0;
+    height: 100%;
+  }
+
+  &__table > thead > tr > th,
+  &__table > tbody > tr > td,
+  &__table > tfoot > tr > td {
+    padding: 2px 8px;
+    border-width: 0;
+    border-right: 1px solid $color-border-default;
+    border-bottom: 1px dashed $color-border-default;
+
+    @media print {
+      padding: 1px 4px;
+    }
+  }
+
+  &__table > thead > tr > th {
+    border-top: 1px solid $color-border-default;
+    border-bottom: 1px solid $color-border-default;
+  }
+
+  &__table > thead > tr > td {
+    border-bottom: 1px dashed $color-border-default;
+  }
+
+  &__table > tbody > tr:last-child > td {
+    border-bottom-style: solid;
+  }
+
+  &__table > tfoot > tr:last-child > td {
+    border-top: 1px solid $color-border-default;
+    border-bottom: 1px solid $color-border-default;
+  }
+
+  &__table > thead > tr > th:first-child,
+  &__table > tbody > tr > td:first-child,
+  &__table > tfoot > tr > td:first-child {
+    border-left: 1px solid $color-border-default;
+  }
+
+  &__table > thead > tr > th {
+    background: $color-bg-heading;
+    color: $color-text-modest;
+    font-weight: normal;
+    text-align: center;
+    min-width: 60px;
+
+    &#{$this}__request-and-event {
+      min-width: 120px;
+    }
+
+    &#{$this}__shift-and-short-time-work {
+      min-width: 120px;
+    }
+
+    &#{$this}__commute-count-commute {
+      min-width: 80px;
+    }
+  }
+
+  &__table > tbody {
+    border: 1px solid $color-border-default;
+  }
+
+  &__table > tbody > tr > td hr {
+    margin: 0.5rem 0;
+  }
+
+  &__divider {
+    height: 2px;
+  }
+
+  &__row--selected td {
+    background-color: #58cdff !important;
+  }
+
+  &__col-date {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  &__col-date-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+
+    > *:first-child {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    > * {
+      padding: 2px 8px;
+    }
+
+  }
+
+  &__col-date-icon {
+    align-self: center;
+    padding-right: 10px;
+  }
+
+  &__col-date-icon img {
+    width: 18px;
+    max-width: 18px;
+    height: 18px;
+  }
+
+  &__col-date {
+    border-right: 1px solid $color-border-default;
+  }
+
+  &__col-date-date {
+    align-self: center;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  &__col-date-sign {
+    text-align: center;
+    height: 100%;
+    width: 45px;
+  }
+
+  &__day-type-icon {
+    transform: scale(0.8);
+    text-align: center;
+  }
+
+  &__col-time {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  &__col-time--modified {
+    text-align: right;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+
+  &__col-duration {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  &__system-remarks {
+    color: $color-text-emphasis;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  &__col-label {
+    background: $color-bg-heading;
+    color: $color-text-modest;
+  }
+
+  &__col-number {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  &__text-approval-type {
+    color: $color-text-emphasis;
+  }
+}

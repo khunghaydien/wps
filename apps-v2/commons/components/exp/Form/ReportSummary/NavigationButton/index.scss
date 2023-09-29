@@ -1,0 +1,15 @@
+@import '../../../../../styles/variables/colors';
+
+.ts-navigation-button {
+  border: none;
+  background: none;
+
+  // &:hover {
+  // color: $color-text-anchor;
+  // }
+
+  span {
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+}

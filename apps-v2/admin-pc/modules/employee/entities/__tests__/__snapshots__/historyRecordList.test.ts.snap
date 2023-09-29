@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected object but received array."
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/EMPLOYEE/ENTITIES/HISTORY_RECORD_LIST/FETCH 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"agreementAlertSetting\\": Object {
++       \\"name\\": \\"agreementAlertSettingName\\",
++     },
++     \\"agreementAlertSettingId\\": \\"agreementAlertSettingId\\",
++     \\"approvalAuthority01\\": \\"approvalAuthority01\\",
++     \\"approver01\\": Object {
++       \\"code\\": \\"approver01Code\\",
++       \\"name\\": \\"approver01Name\\",
++     },
++     \\"approver01Id\\": \\"approver01Id\\",
++     \\"baseId\\": \\"baseId\\",
++     \\"calendarId\\": \\"calenderId\\",
++     \\"comment\\": \\"comment\\",
++     \\"commuterPassAvailable\\": \\"commuterPassAvailable\\",
++     \\"department\\": Object {
++       \\"name\\": \\"departmentName\\",
++     },
++     \\"departmentId\\": \\"departmentId\\",
++     \\"id\\": \\"id\\",
++     \\"jorudanRoute\\": Object {
++       \\"fare1\\": 0,
++       \\"fare3\\": 0,
++       \\"fare6\\": 0,
++       \\"pashList\\": Array [
++         Object {
++           \\"fromName\\": \\"fromName\\",
++           \\"lineName\\": \\"lineName\\",
++           \\"lineType\\": \\"lineType\\",
++           \\"toName\\": \\"toName\\",
++         },
++       ],
++     },
++     \\"manager\\": Object {
++       \\"code\\": \\"managerCode\\",
++       \\"name\\": \\"managerName\\",
++     },
++     \\"managerId\\": \\"managerId\\",
++     \\"permissionId\\": \\"permissionId\\",
++     \\"timeSetting\\": Object {
++       \\"name\\": \\"timeSettingName\\",
++     },
++     \\"timeSettingId\\": \\"timeSettingId\\",
++     \\"title\\": \\"title\\",
++     \\"title_L0\\": \\"title_L0\\",
++     \\"title_L1\\": \\"title_L1\\",
++     \\"title_L2\\": \\"title_L2\\",
++     \\"validDateFrom\\": \\"validDateFrom\\",
++     \\"validDateTo\\": \\"validDateTo\\",
++     \\"workingType\\": Object {
++       \\"name\\": \\"workingTypeName\\",
++     },
++     \\"workingTypeId\\": \\"workingTypeId\\",
++   },
++ ]"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/EMPLOYEE/ENTITIES/HISTORY_RECORD_LIST/INITIALIZE 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;

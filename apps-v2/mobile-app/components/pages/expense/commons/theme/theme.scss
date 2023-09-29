@@ -1,0 +1,276 @@
+$fieldFontColor: #333;
+$themePrimaryColorBlue: #0071d3;
+$readOnlyGreyBgColor: #f3f2f2;
+
+@mixin label-style {
+  color: $fieldFontColor;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+@mixin value-style {
+  color: $fieldFontColor;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/** Navigation styles **/
+.mobile-app-pages-report-detail,
+.mobile-app-pages-expense-page-report-edit,
+.mobile-app-pages-expense-page-record-new-general,
+.mobile-app-pages-approval-page-expense-report,
+.mobile-app-pages-approval-page-expense-record,
+.mobile-app-pages-expense-page-route-list-item,
+.mobile-app-pages-expense-page-route-result,
+.mobile-app-pages-expense-page-route-form,
+.mobile-app-pages-expense-type,
+.mobile-app-pages-ei-lookup,
+.mobile-app-pages-level-list,
+.mobile-app-pages-expense-custom-request-list,
+.mobile-app-pages-commons-filter-detail {
+  .mobile-app-molecules-commons-navigation {
+    background-color: #fff;
+    box-shadow: 0 3px 5px #aaa;
+
+    // back button styles
+    .mobile-app-components-molecules-commons-buttons-back-button__text {
+      color: $themePrimaryColorBlue;
+      font-weight: 400;
+    }
+
+    // icon styles
+    svg {
+      width: 12px;
+      height: 12px;
+
+      > path {
+        fill: $themePrimaryColorBlue;
+      }
+    }
+  }
+}
+
+/** Action bar styles **/
+.mobile-app-pages-report-detail__actions,
+.mobile-app-pages-expense-page-report-edit__actions,
+.mobile-app-pages-expense-page-record-new-general__actions,
+.mobile-app-pages-expense-page-route-list-item__actions {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  grid-gap: 5px;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #c8c9c8;
+  background: #f8f8f8;
+  padding: 0 10px;
+  z-index: 99;
+  height: 48px;
+
+  .mobile-app-atoms-button__container {
+    min-width: 100px;
+    background-color: white;
+  }
+
+  button.mobile-app-atoms-button {
+    border: 1px solid $themePrimaryColorBlue;
+    width: 100%;
+    color: $themePrimaryColorBlue;
+    background: transparent;
+    border-radius: 8px;
+    min-width: 0;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    text-overflow: ellipsis;
+
+    &__neutral--primary {
+      color: white;
+      background: $themePrimaryColorBlue;
+    }
+
+    &__alert--primary {
+      color: white;
+      background: #d30108;
+      border: 1px solid #d30108;
+    }
+
+    &--disabled::after {
+      border-radius: 0;
+    }
+  }
+}
+
+.mobile-app-pages-approval-page-expense-report__section,
+.mobile-app-pages-approval-page-expense-record-child-items,
+.mobile-app-pages-report-detail__report {
+  // form styles
+  .mobile-app-molecules-commons-view-item {
+    .mobile-app-atoms-label {
+      // form label
+      &__text {
+        @include label-style;
+      }
+
+      // form value
+      &__control {
+        // disabled form value (text)
+        .mobile-app-molecules-commons-view-item__body {
+          @include value-style;
+
+          // disabled form value (numbers)
+          .mobile-app-pages-report-detail__amount {
+            @include value-style;
+          }
+        }
+      }
+    }
+  }
+}
+
+.mobile-app-pages-approval-page-expense-report__records-area,
+.mobile-app-pages-approval-page-expense-record__itemization,
+.mobile-app-pages-report-detail__records,
+.mobile-app-pages-expense-page-record-new-general-items-area {
+  .mobile-app-atoms-link-list-item {
+    padding: 0;
+
+    .mobile-app-molecules-expense-record-summary {
+      font-size: 15px;
+
+      &__bottom__date,
+      &__bottom__amount {
+        @include value-style;
+
+        line-height: normal;
+      }
+
+      &__bottom__date {
+        font-size: 12px;
+      }
+
+      &__bottom__date-icon {
+        display: none;
+      }
+    }
+  }
+}
+
+.mobile-app-pages-expense-page-record-new-general,
+.mobile-app-pages-expense-page-report-edit,
+.mobile-app-pages-approval-page-expense-record,
+.mobile-app-pages-approval-page-expense-record-child-items,
+.mobile-app-pages-expense-page-route-list-item,
+.mobile-app-pages-expense-page-route-form {
+  // form styles
+  .mobile-app-molecules-commons-view-item,
+  .mobile-app-molecules-commons-sf-date-field,
+  .mobile-app-molecules-commons-select-field,
+  .mobile-app-molecules-commons-text-field,
+  .mobile-app-molecules-commons-field-search-button-field,
+  .mobile-app-pages-expense-page-record-new-general-attachment__title,
+  .mobile-app-pages-expense-page-report-edit-attachment__title,
+  .mobile-app-molecules-commons-field-link-input-button-field,
+  .mobile-app-molecules-commons-amount-input-field,
+  .mobile-app-pages-expense-page-record-new-general-invoice__label,
+  .mobile-app-pages-expense-page-record-new-general__vendor__input {
+    .mobile-app-atoms-label {
+      // form label
+      &__text {
+        @include label-style;
+      }
+
+      // form value
+      &__control {
+        // disabled form value (text)
+        .mobile-app-molecules-commons-view-item__body {
+          @include value-style;
+
+          .highlight-container {
+            width: 100%;
+
+            &:not(:first-child) {
+              margin-top: 5px;
+            }
+          }
+
+          // disabled form value (numbers)
+          .mobile-app-pages-report-detail__amount {
+            @include value-style;
+          }
+        }
+      }
+    }
+  }
+
+  .mobile-app-atoms-radio-button-group-default
+    .slds-radio_button
+    [type='radio']:checked
+    + .slds-radio_button__label,
+  .mobile-app-atoms-radio-button-group-default
+    .slds-radio_button
+    [type='radio']:checked
+    + .slds-radio_button__label:hover,
+  .mobile-app-atoms-button__neutral--primary {
+    background-color: $themePrimaryColorBlue !important;
+  }
+  .mobile-app-molecules-destination-input__input {
+    background: none;
+  }
+
+  .mobile-app-atoms-input,
+  .mobile-app-atoms-input::placeholder,
+  .mobile-app-molecules-common-like-input-button__button,
+  .mobile-app-atoms-date-field input.slds-input,
+  .mobile-app-atoms-select,
+  .commons-autocomplete-input__input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #c9c9c9;
+    font-size: 15px;
+    height: 30px;
+  }
+
+  .mobile-app-atoms-select__select {
+    min-height: 30px;
+  }
+
+  .mobile-app-atoms-icon.medium {
+    width: 10px;
+    height: 10px;
+    top: 0;
+    bottom: 0;
+    right: 0.75rem;
+    margin: auto 0;
+  }
+
+  .mobile-app-atoms-icon.large {
+    width: 16px;
+    height: 16px;
+    top: 0;
+    bottom: 0;
+    right: 0.75rem;
+    margin: auto 0;
+  }
+}
+
+.read-only-bg {
+  background: $readOnlyGreyBgColor;
+}
+
+.mobile-app-pages-report-detail {
+  .mobile-app-molecules-commons-alert {
+    margin-bottom: 15px;
+  }
+}
+
+.mobile-app-molecules-expense-level-link-list-item__body,
+.mobile-app-pages-ei-lookup__option {
+  font-size: 14px;
+  font-weight: 300;
+}

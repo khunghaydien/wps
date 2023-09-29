@@ -1,0 +1,97 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-atoms-date-field {
+  position: relative;
+
+  // Centre icon
+  display: flex;
+  align-items: center;
+
+  &,
+  &.slds-datepicker,
+  &.slds-datepicker td,
+  .slds-form-element__control input::placeholder {
+    font-size: $medium-size;
+  }
+
+  &.slds-datepicker td > .slds-day {
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    line-height: 32px;
+  }
+
+  &.slds-dropdown {
+    max-width: 20em;
+  }
+
+  .slds-dropdown-trigger {
+    width: 100%;
+  }
+
+  .slds-input {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 8px;
+    margin: 0;
+    border: 1px solid $color-border;
+    background: #fff;
+    border-radius: 4px;
+    color: $color-text-base;
+    font-size: $medium-size;
+    font-weight: $font-light;
+  }
+
+  &__input .slds-input__icon,
+  &__input .slds-button__icon {
+    right: 12px;
+    display: flex;
+    width: $medium-size;
+    height: $medium-size;
+    align-items: center;
+    justify-content: center;
+    color: $color-blue-800;
+    font-size: $medium-size;
+  }
+
+  &__input input:read-only {
+    padding: 0 8px;
+    border: 1px solid $color-border;
+    appearance: none;
+    background-color: #fff;
+    box-shadow: none;
+    font-size: $medium-size;
+    font-weight: $font-light;
+  }
+
+  &__input input:disabled {
+    background-color: $color-gray-200;
+
+    + button {
+      pointer-events: none;
+    }
+  }
+
+  &__input input::placeholder {
+    color: $color-gray-300;
+    font-weight: $font-light;
+  }
+
+  &__input.is-read-only input {
+    border: 1px solid $color-blue-100;
+    background-color: $color-blue-100;
+  }
+
+  .is-error input {
+    border: 1px solid $color-red-600;
+  }
+
+  :disabled {
+    background-color: $color-gray-200;
+  }
+}

@@ -1,0 +1,22 @@
+@import 'mobile-global-imports';
+
+.mobile-app-pages-commons-submit-with-comment-page {
+  .main-content {
+    padding-top: 48px;
+  }
+
+  &__person-area {
+    padding: $extra-small-size;
+    background: #fff;
+  }
+
+  &__action {
+    margin: 28px 0 0;
+  }
+
+  .mobile-app-atoms-textarea {
+    border: 0;
+    border-bottom: 1px solid $color-border;
+    border-radius: 0;
+  }
+}

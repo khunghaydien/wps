@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"hasMoreRecords\\": false,
++   \\"offsetCodes\\": Array [],
++   \\"selectedCode\\": \\"\\",
++   \\"sortOrder\\": Object {
++     \\"field\\": \\"code\\",
++     \\"order\\": \\"ASC\\",
++   },
++   \\"total\\": 0,
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/LIST/_OFFSET_CODES 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"hasMoreRecords\\": false,
+-   \\"offsetCodes\\": Array [
+-     \\"001\\",
+-     \\"002\\",
+-     \\"003\\",
+-   ],
++   \\"offsetCodes\\": Array [],
+    \\"selectedCode\\": \\"123\\",
+    \\"sortOrder\\": Object {
+      \\"field\\": \\"code\\",
+      \\"order\\": \\"DESC\\",
+    },
+-   \\"total\\": 1000,
++   \\"total\\": 0,
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/LIST/RESET_SELECTED_CODE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -3,11 +3,11 @@
+    \\"offsetCodes\\": Array [
+      \\"001\\",
+      \\"002\\",
+      \\"003\\",
+    ],
+-   \\"selectedCode\\": \\"123\\",
++   \\"selectedCode\\": \\"\\",
+    \\"sortOrder\\": Object {
+      \\"field\\": \\"code\\",
+      \\"order\\": \\"DESC\\",
+    },
+    \\"total\\": 1000,"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/LIST/RESET_SORT_ORDER 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -6,9 +6,9 @@
+      \\"003\\",
+    ],
+    \\"selectedCode\\": \\"123\\",
+    \\"sortOrder\\": Object {
+      \\"field\\": \\"code\\",
+-     \\"order\\": \\"DESC\\",
++     \\"order\\": \\"ASC\\",
+    },
+    \\"total\\": 1000,
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/LIST/SET_OFFSET_CODES 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"hasMoreRecords\\": false,
+-   \\"offsetCodes\\": Array [],
++   \\"offsetCodes\\": Array [
++     \\"001\\",
++     \\"002\\",
++     \\"003\\",
++   ],
+    \\"selectedCode\\": \\"\\",
+    \\"sortOrder\\": Object {
+      \\"field\\": \\"code\\",
+      \\"order\\": \\"ASC\\",
+    },
+-   \\"total\\": 0,
++   \\"total\\": 1000,
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/LIST/SET_SELECTED_CODE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,9 +1,9 @@
+  Object {
+    \\"hasMoreRecords\\": false,
+    \\"offsetCodes\\": Array [],
+-   \\"selectedCode\\": \\"\\",
++   \\"selectedCode\\": \\"1234abc\\",
+    \\"sortOrder\\": Object {
+      \\"field\\": \\"code\\",
+      \\"order\\": \\"ASC\\",
+    },
+    \\"total\\": 0,"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/LIST/SET_SORT_ORDER 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;

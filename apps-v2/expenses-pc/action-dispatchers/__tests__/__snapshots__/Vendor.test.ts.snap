@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Vendor searchVendorDetail() search vendor by ID success 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "active": true,
+      "address": "Sample Address",
+      "bankAccountNumber": "Sample Bank Account Number",
+      "bankAccountType": "Checking",
+      "bankCode": "B_CODE",
+      "bankName": "Sample Bank Name",
+      "branchAddress": "Sample Branch Address",
+      "branchCode": "BRC",
+      "branchName": "Sample Branch Name",
+      "code": "SAMPLE_VENDOR",
+      "companyId": "a0N2v00000VuxjtEAB",
+      "correspondentBankAddress": "Sample Correspondent Bank Address",
+      "correspondentBankName": "Sample Correspondent Bank Name",
+      "correspondentBranchName": "Sample Correspondent Branch Name",
+      "correspondentSwiftCode": "COR_SWIFT",
+      "country": "SG",
+      "currencyCode": "SGD",
+      "id": "a1C2v00000ofP2vEAE",
+      "isWithholdingTax": true,
+      "name": "Sample Vendor",
+      "name_L0": "Sample Vendor",
+      "name_L1": null,
+      "name_L2": null,
+      "payeeName": "Sample Payee Name",
+      "paymentDueDateUsage": "Optional",
+      "paymentTerm": "Sample Payment Term",
+      "paymentTermCode": null,
+      "swiftCode": "SWIFT_CODE",
+      "zipCode": "123456",
+    },
+    "type": "MODULES/EXPENSES/DIALOG/VENDOR/LIST/SET",
+  },
+]
+`;
+
+exports[`Vendor searchVendorLookup() search vendor by name or code success 1`] = `
+Array [
+  Object {
+    "payload": true,
+    "type": "MODULES/EXPENSES/DIALOG/IS_LOADING/TOGGLE",
+  },
+  Object {
+    "payload": false,
+    "type": "MODULES/EXPENSES/DIALOG/IS_LOADING/TOGGLE",
+  },
+]
+`;

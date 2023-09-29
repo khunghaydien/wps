@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/TRACK_SUMMARY/UI/REQUEST @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"comment\\": \\"\\",
++   \\"isOpen\\": false,
++   \\"isOpenHistoryDialog\\": false,
++ }"
+`;
+
+exports[`/TRACK_SUMMARY/UI/REQUEST RESET 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`/TRACK_SUMMARY/UI/REQUEST UPDATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"comment\\": \\"\\",
+-   \\"isOpen\\": false,
++   \\"isOpen\\": true,
+    \\"isOpenHistoryDialog\\": false,
+  }"
+`;

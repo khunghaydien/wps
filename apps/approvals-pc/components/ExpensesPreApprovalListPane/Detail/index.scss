@@ -1,0 +1,237 @@
+@import '../../../../commons/styles/wsp';
+
+.approvals-pc-expenses-pre-approval-pane-detail {
+  height: 100%;
+  background: color('disabled-1');
+  display: flex;
+
+  &__content {
+    width: 100%;
+
+    &.with-side-panel {
+      width: 60%;
+    }
+  }
+
+  &__header {
+    width: 100%;
+  }
+
+  &__list-detail {
+    padding: 0 20px 20px;
+
+    &-item {
+      display: flex;
+      word-break: break-all;
+    }
+
+    & .ts-button,
+    .ts-button:focus {
+      border: 0;
+      background-color: none;
+      box-shadow: none;
+      color: color('exp-primary');
+      outline: none;
+    }
+
+    & .ts-button:hover {
+      background-color: transparent;
+      text-decoration: underline;
+    }
+  }
+
+  &__list-detail-item + &__list-detail-item {
+    padding-top: 1.5em;
+  }
+
+  &__extended-item-label {
+    color: color('text-2');
+    line-height: 19px;
+    word-break: break-word;
+    margin-bottom: 10px;
+  }
+  &__extended-item-body {
+    flex: 1;
+    color: color('text-1');
+    line-height: 19px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    padding-right: 20px;
+  }
+
+  & .ts-horizontal-layout {
+    width: 100%;
+    align-items: flex-start;
+    color: color('text-2');
+
+    &__label {
+      width: 140px;
+      padding: 0;
+      margin-right: 20px;
+      color: color('text-2');
+      line-height: 19px;
+      word-break: break-word;
+    }
+
+    &__label::after {
+      top: 0;
+      display: none;
+      content: '';
+    }
+
+    &__body {
+      flex: 1;
+      padding-right: 20px;
+      color: color('text-1');
+      line-height: 19px;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+  }
+
+  &__history-list {
+    margin-bottom: 20px;
+  }
+
+  &__scrollable {
+    height: calc(100% - 56px);
+    overflow-y: auto;
+  }
+
+  &__hr--top {
+    margin: 15px 20px;
+  }
+
+  &__hr--bottom {
+    margin: 15px 20px;
+  }
+
+  &__vendor-detail {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+  }
+
+  &__container {
+    margin: 0 20px 20px 20px;
+    background-color: color('background-1');
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 13px;
+  }
+
+  &__summary-header {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 9px;
+    margin: 20px 20px 0;
+    border-bottom: 1px solid color('border-2');
+
+    &--summary {
+      width: 40%;
+      margin: 9px 0;
+    }
+
+    &--reportnum {
+      width: 60%;
+      margin: 9px 0;
+      margin-left: auto;
+      text-align: right;
+    }
+
+    &--title {
+      width: calc(100% - 450px);
+      word-break: break-word;
+    }
+
+    &--amount {
+      font-size: 16px;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    &--amount-setion-detail {
+      min-width: 200px;
+      max-width: 450px;
+    }
+
+    &--amount-setion {
+      display: flex;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  & .approvals-pc-detail-parts-receipt-preview {
+    overflow: hidden;
+    width: 148px;
+    height: 110px;
+    padding: 0;
+    margin-right: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px color('border-1');
+    float: right;
+
+    &-body {
+      width: 148px;
+      max-width: none;
+      height: 110px;
+      margin-right: 20px;
+
+      & .lightbox__thumbnail-container {
+        width: 100%;
+        height: 110px;
+      }
+    }
+  }
+
+  & .approvals-pc-tracking-detail-parts-history-table {
+    margin: 0 20px 20px;
+  }
+
+  &__pencil-icon {
+    margin-left: 10px;
+  }
+
+  &__total-base-amount,
+  &__total-foriegn-amount {
+    margin-top: 3px;
+    color: #666;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+  }
+
+  .slds-tooltip-trigger {
+    div:focus {
+      outline: none !important;
+    }
+
+    span {
+      display: none;
+    }
+  }
+
+  .commons-tooltip {
+    margin-bottom: 4px;
+    margin-left: auto;
+  }
+}
+
+.approvals-pc-expenses-pre-approval-pane-detail__apex-page {
+  width: 50%;
+  margin: 20px auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  &.with-side-panel {
+    width: 80%;
+  }
+  .approvals-pc-expenses-pre-approval-pane-detail-side-file-preview {
+    &-controls {
+      bottom: 50px;
+    }
+    &-hide {
+      top: 40px;
+      right: 150px;
+    }
+  }
+}

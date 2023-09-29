@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View All Resource Page fetchViewAllResources() load resource list fail 1`] = `
+Array [
+  Object {
+    "payload": [Error: Unexpected Error - Failed to retrieve data. Please refresh the page and search again.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+]
+`;
+
+exports[`View All Resource Page fetchViewAllResources() should fetch list of all resources 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "MODULES/ENTITIES/PSA/RESOURCE/LIST_VIEW_ALL_RESOURCE_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "resources": Array [
+        undefined,
+      ],
+    },
+    "type": "MODULES/ENTITIES/PSA/RESOURCE/SET_VIEW_ALL_RESOURCE_PAGE_DATA_SUCCESS",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+  Object {
+    "payload": Object {
+      "pageData": Array [],
+      "pageNum": 1,
+      "pageSize": 10,
+      "totalPages": 2,
+      "totalRecords": 20,
+    },
+    "type": "MODULES/ENTITIES/PSA/RESOURCE/SET_VIEW_ALL_RESOURCE_PAGINATION_SUCCESS",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;

@@ -1,0 +1,583 @@
+@charset "UTF-8";
+html, body {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #f3f4f5;
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif;
+  color: #246498;
+  box-sizing: border-box;
+}
+
+#ts1-area {
+  padding: 0;
+  background: #f3f4f5;
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif;
+  color: #246498;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+header {
+  color: #fff;
+  font-size: large;
+  background-color: #246498;
+  padding: 4px;
+}
+
+a:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.error-message {
+  color: red;
+  margin-left: 1em;
+}
+
+/*
+textarea{
+  width:95%;
+  margin: 5px 3px;
+  padding:2px 5px;
+  rows:3;
+  @include border-radius(7px);
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+*/
+span {
+  vertical-align: middle;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right {
+  text-align: right;
+}
+
+.item-name {
+  color: #246498;
+}
+
+ul.grid {
+  list-style: none;
+  display: table;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+li.grid {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+/*1行での左寄せ・右寄せ混在用 */
+div.line-left {
+  text-align: left;
+  float: left;
+}
+
+div.line-right {
+  text-align: right;
+  margin-right: 5px;
+}
+
+.button, .file-button {
+  color: #fff;
+  background-color: #246498;
+  height: 44px;
+  display: table;
+  vertical-align: middle;
+  padding: 20px 0px 6px 0px;
+  width: 95%;
+  margin: 10px auto;
+  padding: 8px;
+  cursor: pointer;
+  font-size: large;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.small-button {
+  color: #fff;
+  background-color: #246498;
+  height: 44px;
+  display: block;
+  padding: 6px 1em;
+  margin: 10px auto;
+  cursor: pointer;
+  font-size: large;
+  text-align: center;
+  overflow: hidden;
+  width: 80%;
+  white-space: nowrap;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#instruction_step0 {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+.regist-button {
+  color: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* 画面下部にボタンを並べる時用 */
+.grid-button {
+  padding: 0px;
+  border: 0px;
+  margin: 5px;
+}
+
+#receipt_image_area > img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  z-index: 10;
+}
+
+input.color {
+    color: #4797BC;
+    font-weight: bold;
+    width: 100%;
+}
+
+/*
+input[type=text].red_ph {
+    background-color: #848484;
+}
+*/
+input[type=text].red_ph::-webkit-input-placeholder {
+    color: #f00;
+    font-weight: normal;
+}
+input[type=text].red_ph:-ms-input-placeholder {
+    color: #f00;
+    font-weight: normal;
+}
+input[type=text].red_ph::-moz-placeholder {
+    color: #f00;
+    font-weight: normal;
+}
+
+/* ファイル選択部分無効化 */
+#image_file {
+  position: absolute;
+  opacity: 0.01;
+}
+
+#file_field {
+  overflow: hidden;
+  position: relative;
+}
+
+.header-area {
+  color: #fff;
+  font-size: large;
+  background-color: #246498;
+  padding: 4px;
+  width: 100%;
+  /* height: 42px; */
+}
+
+.contents-area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 42px;
+}
+
+.icon-receipt-header {
+  margin: 5px 2px;
+  height: 24px;
+}
+
+.icon-receipt {
+  margin: 2px 5px 7px;
+  height: 26px;
+}
+
+.file-button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button, .file-button {
+  width: 90%;
+}
+
+#regist_button {
+  outline: none;
+}
+
+.title-bar {
+  border-color: #c0c0c0;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-collapse: collapse;
+  color: #246498;
+  background-color: #dae2ea;
+  padding: 3px;
+  padding-left: 1em;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+#loading-view {
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  filter: alpha(opacity=5);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+    background-image: url(../image/loading.gif) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/***** bootstrapタブ上書き *****/
+/*
+.nav-pills > li + li {
+    margin-left: 0px;
+}
+.nav-pills > li > a {
+    border-radius: 0px;
+}
+*/
+/***** jQuery 上書き *****/
+/*ダイアログのタイトルバーを非表示にする。*/
+.ui-dialog-titlebar {
+  display: none;
+}
+
+.ui-dialog {
+  padding: 0;
+}
+
+.ui-dialog .ui-dialog-content {
+  padding: 0;
+}
+
+.ui-corner-all {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.ui-widget {
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif;
+}
+
+
+.mn-std-panel { padding: 16px; padding-top: 10px; }
+.ocr-button { margin-bottom: 10px; }
+
+#cancel_but { display: none; }
+#ocr_preview_box {
+  text-align: center;
+}
+#ocr_loading_box, #ocr_textdata_box, #ocr_error_box {
+  display: none;
+}
+
+.step_number {
+    vertical-align:baseline;
+}
+    
+/* loading circle */
+#fade {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #ffffff;
+    top: 0px;
+    left: 0px;
+    z-index: 10000;
+}
+#loader {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 10001;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 8px solid #ff5b6b;
+    border-right-color: transparent;
+    animation: loopSpin 1s linear infinite;
+    -webkit-animation: loopSpin 1s linear infinite;
+    -moz-animation: loopSpin 1s linear infinite;
+}
+@keyframes loopSpin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@-webkit-keyframes loopSpin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes loopSpin {
+    0% { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(360deg); }
+}
+#error_message_box{
+    margin-top: 5px;
+    display: none;
+}
+#info_message_box{
+    margin-top: 5px;
+    display: none;
+}
+
+#android_msg_panel {
+  margin-top: 20px;
+}
+
+#android_msg_panel .panel-title {
+  font-size: 16px;
+}
+
+#init_error_msg_panel {
+  margin-top: 20px;
+}
+
+#init_error_msg_panel .panel-title {
+  font-size: 16px;
+}
+
+.modal-backdrop {
+  z-index: -1;
+}
+
+.warning-mark {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.warning-mark img {
+  width: 25%;
+}
+#note_confirm_button, #close_button {
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 20px 40px;
+}
+.bootstrap-sf1 button.attach_image {
+  /*margin-top: 5px;*/
+  margin: 0 auto;
+  font-size: 20px;
+	padding: 20px 30px;
+	max-width: 80%;
+}
+
+.bootstrap-sf1 button.reattach_image {
+  margin-top: 5px;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.bootstrap-sf1 .button_row .col-xs-4 {
+    padding: 1px;
+}
+
+.bootstrap-sf1 .button_row button {
+    width: 100%;
+    padding: 6px 5px;
+}
+
+.bootstrap-sf1 div.btn-group button {
+  /*margin-top: 5px;*/
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+
+label.control-label {
+  color: #246498;
+  font-weight: bold;
+}
+
+.form-group {
+  font-size: 18px;
+}
+.bootstrap-sf1 input.form-control,
+.bootstrap-sf1 select.form-control,
+.bootstrap-sf1 textarea.form-control {
+  font-size: 18px;
+} /* .bootstrap-sf1 をつけないと効かない */
+
+.bootstrap-sf1 input.form-control[type=text] {
+  height: 34px; 
+     line-height: 34px;
+     padding-top: 8px;
+     /* 8x2(padding top and bottom)+18(text size) = 34 */
+}
+
+.bootstrap-sf1 input#mynumber[type=text] {
+  height: 52px; 
+     line-height: 52px;
+     padding-top: 8px;
+     font-size: 36px;
+     /* 8x2(padding top and bottom)+18(text size) = 34 */
+}
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+div.image_frame {
+    position: relative;
+    width: 100%;
+    background-color:#A4A4A4;
+}
+div.image_frame:before {
+    content:"";
+    display: block;
+    padding-top: 60%; /* 高さを幅の60%に固定 */
+}
+div.image_frame div.image_frame_inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+button.attach_image img {
+  width: 50px;
+  margin-right: 5px;
+}
+button.reattach_image img {
+  width: 30px;
+  margin-right: 5px;
+}
+
+/* workaround for modifying btp-group dynamically */
+.bootstrap-sf1 .btn-group>.btn-group button.radius_right {
+    border-top-right-radius: 4px!important;
+    border-bottom-right-radius: 4px!important;
+}
+
+.bootstrap-sf1 .card#photoid_note_card {
+  margin-top: 15px;
+}
+.bootstrap-sf1 .card .card-detail.photoid_note {
+  padding-top: 15px;
+  /*font-weight: bold;*/
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.bootstrap-sf1 .card#ocr_note_card {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  display: none;
+}
+.bootstrap-sf1 .card .card-detail.ocr_note {
+  padding-top: 15px;
+  /*font-weight: bold;*/
+  font-size: 15px;
+  color: #f00;
+}
+#ocr_error_text {
+    vertical-align:baseline;
+}
+div.helpmark {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #fff;
+  color: #496385;
+  border: 2px solid #787D7E;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+  width:25px;
+  height:25px;
+  text-align:center;
+}
+
+div.helpmark-option {
+	display:inline-block;
+	margin-left:10px;
+	vertical-align:middle;
+	margin-bottom:5px;
+}
+
+.control-additional-label {
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.reselect-btn {
+   margin-top: 5px;
+}
+
+.popup-layout {
+	display:none;
+	padding:4px;
+}
+
+.popup-message-box {
+	padding:8px !important;
+	background-color:#fff !important;
+}
+
+.popup-message-box > .popup-message {
+	border: 0px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	white-space: pre-wrap;
+}
+
+.select-image-button-label {
+	white-space: normal;
+}
+
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.attach_image > .button-grid {
+	display:flex !important;
+	align-items:center !important;
+}

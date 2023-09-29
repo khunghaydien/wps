@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`default() should return no. 1`] = `
+Array [
+  Object {
+    "type": "MOBILE-APP/ATTENDANCE/ATTENDANCE_REQUEST/WARNING/CLEAR",
+  },
+]
+`;
+
+exports[`default() should return yes. 1`] = `
+Array [
+  Object {
+    "type": "MOBILE-APP/ATTENDANCE/ATTENDANCE_REQUEST/WARNING/CLEAR",
+  },
+]
+`;

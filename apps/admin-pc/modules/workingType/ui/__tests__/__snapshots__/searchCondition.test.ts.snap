@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"targetDate\\": \\"\\",
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/SEARCH_CONDITION/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"targetDate\\": \\"2019-10-01\\",
++   \\"targetDate\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/SEARCH_CONDITION/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
++   \\"[object Object]\\": undefined,
+    \\"targetDate\\": \\"\\",
+  }"
+`;

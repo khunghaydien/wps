@@ -1,0 +1,260 @@
+@import 'mobile-global-imports.scss';
+@import '../../../../../../styles/exp/variables/colors';
+
+.ts-expenses-modal-receipt-library-image-display {
+  &__list {
+    display: grid;
+    overflow: auto;
+    padding: 20px 4px;
+    grid-gap: 15px;
+    grid-template-columns: 140px 140px 140px 140px 140px;
+  }
+
+  &__skeleton {
+    width: 755px;
+    margin-bottom: -20px;
+  }
+
+  &__status {
+    position: absolute;
+    z-index: 1;
+    width: 80px;
+    padding: 2px 8px;
+    margin: 8px;
+    background-color: #7d7d7d;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+
+    &-InProgress,
+    &-Queued {
+      background-color: #0e7aa7;
+    }
+
+    &-Completed {
+      background-color: #14763b;
+    }
+  }
+
+  &__ocrInfo {
+    position: absolute;
+    top: 34px;
+    left: 8px;
+    width: 100px;
+    font-size: 12px;
+    line-height: 14px;
+    word-break: break-all;
+  }
+
+  &__record-date {
+    width: 120px;
+  }
+
+  &__amount {
+    width: 120px;
+  }
+
+  &__scan-msg {
+    width: 105%;
+    margin-top: 8px;
+    cursor: pointer;
+    text-align: center;
+    word-break: normal;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__scan-spinner {
+    position: absolute;
+    top: 24px;
+    left: 8px;
+    width: 100px;
+
+    .commons-spinner {
+      position: absolute;
+    }
+  }
+
+  &__upload-date {
+    position: absolute;
+    bottom: 10px;
+    left: 8px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  &__input {
+    z-index: 9;
+    right: 8px;
+  }
+
+  &__msg {
+    overflow: auto;
+    height: 400px;
+    color: $color-text-secondary-gray;
+  }
+
+  &__img {
+    min-width: 100%;
+    height: 110px;
+    border-radius: 4px;
+
+    &.selected {
+      border: 2px solid #2782ed;
+    }
+  }
+
+  &__img-area {
+    height: 110px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px $color-gray-300;
+  }
+
+  &__first,
+  &__second {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+
+    input {
+      position: absolute;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    right: 8px;
+  }
+
+  &__labels {
+    position: relative;
+
+    .after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      visibility: hidden;
+      width: 100%;
+      height: 100%;
+      border-radius: 4px;
+      color: #fff;
+
+      .lightbox__modal {
+        visibility: visible;
+      }
+    }
+
+    .lightbox {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      width: 14px;
+      height: 14px;
+
+      .lightbox__thumbnail-container:hover::before {
+        opacity: 0;
+      }
+
+      .lightbox__thumbnail-container {
+        .receipt-library {
+          opacity: 0;
+
+          img {
+            max-width: 20px;
+            height: 20px;
+          }
+        }
+
+        .lightbox__thumbnail-hover {
+          opacity: 1;
+
+          .ts-icon__button-image {
+            position: absolute;
+          }
+
+          .lightbox__thumbnail-hover__msg {
+            display: none;
+          }
+
+          img {
+            max-width: 20px;
+            height: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  &__labels:hover {
+    .ts-expenses-modal-receipt-library-image-display__data-type-icon {
+      display: none;
+    }
+    .after {
+      display: block;
+      visibility: visible;
+      background: rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  &__first {
+    height: 110px;
+    overflow-y: hidden;
+  }
+
+  &__title {
+    width: 80%;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  &__delete {
+    position: absolute;
+    right: 12px;
+    bottom: 32px;
+    cursor: pointer;
+    fill: #fff;
+  }
+
+  &__loading {
+    position: relative;
+    top: 40%;
+    color: $color-text-info;
+    text-align: center;
+
+    .commons-spinner {
+      position: absolute;
+    }
+  }
+
+  &__data-type-icon {
+    color: #fff;
+    z-index: 9;
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    border-radius: 2px;
+  }
+
+  &__download-btn {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    width: 20px;
+    height: 20px;
+  }
+
+  &__pdf-preview {
+    position: absolute;
+    min-width: 100%;
+    height: 110px;
+    border-radius: 4px;
+
+    &.selected {
+      border: 2px solid #2782ed;
+    }
+  }
+}

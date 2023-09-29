@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"request\\": null,
++ }"
+`;
+
+exports[`reducer() MOBILE_APP/MODULES/ATTENDANCE/DAILY_REQUEST/UI/REQUESTS/EARLY_LEAVE_REQUEST/INITIALIZE should be executed with AttDailyRecord 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"request\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"\\",
++     \\"endTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": null,
++     \\"patternName\\": null,
++     \\"patternRestTimes\\": Array [],
++     \\"reason\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestTypeCode\\": \\"None\\",
++     \\"requestTypeName\\": \\"\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"\\",
++     \\"startTime\\": null,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"EarlyLeave\\",
++   },
+  }"
+`;
+
+exports[`reducer() MOBILE_APP/MODULES/ATTENDANCE/DAILY_REQUEST/UI/REQUESTS/EARLY_LEAVE_REQUEST/INITIALIZE should be executed without AttDailyRecord 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"request\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"\\",
++     \\"endTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": null,
++     \\"patternName\\": null,
++     \\"patternRestTimes\\": Array [],
++     \\"reason\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestTypeCode\\": \\"None\\",
++     \\"requestTypeName\\": \\"\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"\\",
++     \\"startTime\\": null,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"EarlyLeave\\",
++   },
+  }"
+`;
+
+exports[`reducer() MOBILE_APP/MODULES/ATTENDANCE/DAILY_REQUEST/UI/REQUESTS/EARLY_LEAVE_REQUEST/UPDATE should be executed  1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"request\\": undefined,
++   \\"request\\": Object {
++     \\"startTime\\": 540,
++   },
+  }"
+`;
+
+exports[`reducer() MOBILE_APP/MODULES/ATTENDANCE/DAILY_REQUEST/UI/REQUESTS/EARLY_LEAVE_REQUEST/UPDATE should not be executed if state is not initializing 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;

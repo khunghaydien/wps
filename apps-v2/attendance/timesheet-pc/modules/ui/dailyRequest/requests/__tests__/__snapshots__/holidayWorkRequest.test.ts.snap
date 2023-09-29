@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"request\\": null,
++   \\"selectedAttPattern\\": null,
++ }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/HOLIDAY_WORK_REQUEST/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"request\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"canDirectInputTimeRequest\\": false,
++     \\"directApplyRestTimes\\": Array [],
++     \\"enabledPatternApply\\": false,
++     \\"endDate\\": \\"\\",
++     \\"endTime\\": 1080,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isDirectInputTimeRequest\\": false,
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveDetailCode\\": null,
++     \\"leaveDetailName\\": null,
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": null,
++     \\"patternName\\": null,
++     \\"patternRestTimes\\": Array [],
++     \\"patterns\\": Array [],
++     \\"personalReason\\": false,
++     \\"reason\\": \\"\\",
++     \\"reasonCode\\": \\"\\",
++     \\"reasonId\\": \\"\\",
++     \\"reasonName\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestDayType\\": null,
++     \\"requestTypeCode\\": \\"HolidayWork\\",
++     \\"requestTypeName\\": \\"休日出勤\\",
++     \\"requestableDayType\\": \\"Holiday\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2020-04-05\\",
++     \\"startTime\\": 540,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": \\"None\\",
++     \\"substituteLeaveTypes\\": Array [
++       \\"None\\",
++       \\"CompensatoryStocked\\",
++       \\"Substitute\\",
++     ],
++     \\"type\\": \\"HolidayWork\\",
++     \\"useEarlyLeaveReason\\": false,
++     \\"useLateArrivalReason\\": false,
++     \\"useManagePersonalReason\\": false,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": null,
++   },
+    \\"selectedAttPattern\\": null,
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/HOLIDAY_WORK_REQUEST/UPDATE should not set. 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/HOLIDAY_WORK_REQUEST/UPDATE should set code 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -16,11 +16,11 @@
+      \\"leaveDetailName\\": null,
+      \\"leaveName\\": \\"\\",
+      \\"leaveRange\\": null,
+      \\"leaveType\\": null,
+      \\"originalRequestId\\": \\"\\",
+-     \\"patternCode\\": \\"DIRECT_INPUT\\",
++     \\"patternCode\\": \\"pattern1\\",
+      \\"patternName\\": null,
+      \\"patternRestTimes\\": Array [],
+      \\"patterns\\": Array [
+        Object {
+          \\"code\\": \\"DIRECT_INPUT\\",
+@@ -139,16 +139,62 @@
+      \\"useManagePersonalReason\\": false,
+      \\"withoutCoreTime\\": false,
+      \\"workSystem\\": null,
+    },
+    \\"selectedAttPattern\\": Object {
+-     \\"code\\": \\"DIRECT_INPUT\\",
+-     \\"endTime\\": null,
++     \\"code\\": \\"pattern1\\",
++     \\"endTime\\": 1320,
+      \\"flexEndTime\\": null,
+      \\"flexStartTime\\": null,
+-     \\"name\\": \\"Direct input\\",
+-     \\"restTimes\\": Array [],
+-     \\"startTime\\": null,
++     \\"name\\": \\"pattern1\\",
++     \\"restTimes\\": Array [
++       Object {
++         \\"endTime\\": 480,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 420,
++       },
++       Object {
++         \\"endTime\\": 660,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 600,
++       },
++       Object {
++         \\"endTime\\": 900,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 780,
++       },
++       Object {
++         \\"endTime\\": 1080,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 1020,
++       },
++       Object {
++         \\"endTime\\": 1260,
++         \\"restReason\\": Object {
++           \\"code\\": \\"001\\",
++           \\"id\\": \\"a0A2800000FmMQCEA1\\",
++           \\"name\\": \\"お昼休み\\",
++         },
++         \\"startTime\\": 1200,
++       },
++     ],
++     \\"startTime\\": 300,
+      \\"withoutCoreTime\\": false,
+-     \\"workSystem\\": null,
++     \\"workSystem\\": \\"JP:Modified\\",
+    },
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/HOLIDAY_WORK_REQUEST/UPDATE should set. 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -21,11 +21,11 @@
+      \\"patternCode\\": null,
+      \\"patternName\\": null,
+      \\"patternRestTimes\\": Array [],
+      \\"patterns\\": Array [],
+      \\"personalReason\\": false,
+-     \\"reason\\": \\"\\",
++     \\"reason\\": \\"testですtestです。\\",
+      \\"reasonCode\\": \\"\\",
+      \\"reasonId\\": \\"\\",
+      \\"reasonName\\": \\"\\",
+      \\"remarks\\": \\"\\",
+      \\"requestDayType\\": null,"
+`;

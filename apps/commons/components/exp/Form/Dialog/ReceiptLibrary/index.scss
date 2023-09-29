@@ -1,0 +1,26 @@
+.ts-expenses-modal-receipt-library {
+  &__dialog-frame {
+    width: 810px;
+
+    .commons-dialog-frame-footer__sub {
+      display: flex;
+    }
+
+    .commons-dialog-frame__contents {
+      position: relative;
+    }
+
+    .ts-progress-bar {
+      left: calc(50% - 270px);
+    }
+  }
+
+  &--overlay {
+    position: absolute;
+    z-index: 10001;
+    top: 0;
+    width: 100%;
+    height: 420px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}

@@ -1,0 +1,14 @@
+@import 'mobile-global-imports', 'buttons';
+
+.mobile-app-components-molecules-commons-buttons-next-button {
+  &__text {
+    @include centering();
+  }
+  :disabled {
+    .mobile-app-atoms-icon {
+      path {
+        fill: $color-blue-300;
+      }
+    }
+  }
+}

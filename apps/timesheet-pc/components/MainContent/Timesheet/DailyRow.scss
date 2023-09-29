@@ -1,0 +1,241 @@
+@import './variables';
+
+.timesheet-pc-main-content-timesheet-daily-row {
+  $this: &;
+
+  border-bottom: 1px solid #d8dde6;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  // 全セル共通の標準スタイル設定
+  > td {
+    position: relative;
+    overflow: hidden;
+    height: 32px;
+    text-align: center;
+    vertical-align: middle;
+
+    // 縦線：「border: solid 1px #ffffff」だと交点で横線が途切れて見えるため
+    &::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      width: 0;
+      height: 32px;
+      border-right: solid 1px #fff;
+      content: '';
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+  }
+
+  // thead, tbody, tfootに共通する設定の適用
+  @import 'shared-timesheet-rows';
+
+  // 各カラムごとのスタイル設定
+  > td#{$this}__col {
+    &-status {
+      position: relative;
+
+      &::after {
+        display: none;
+      }
+    }
+
+    &-date {
+      text-align: left;
+
+      > em {
+        display: inline-block;
+        width: 26px;
+        padding: 0 4px;
+        font-style: normal;
+        text-align: center;
+      }
+    }
+
+    &-man-hours-graph {
+      #{$this} > &::after {
+        display: none;
+      }
+    }
+
+    &-chart {
+      cursor: ew-resize;
+      user-select: none;
+
+      #{$this} > &::after {
+        display: none;
+      }
+    }
+  }
+
+  // 日タイプごとのスタイル設定
+  &#{$this}--day-type {
+    // 勤務日
+    &-workday {
+      background-color: $color-bg-daytype-workday;
+    }
+
+    // 所定休日・国民の休日
+    &-holiday {
+      background-color: $color-bg-daytype-holiday;
+    }
+
+    // 法定休日
+    &-legal-holiday {
+      background-color: $color-bg-daytype-legal-holiday;
+    }
+  }
+
+  // 休暇タイプごとのスタイル設定（行全体の着色）
+  &#{$this}--leave {
+    // 有給・年次有給休暇・代休
+    &-with-payment {
+      background: #fdd7af url('../../../../commons/images/bgHatchedLine.png');
+    }
+
+    // 無給
+    &-with-deduction {
+      background: #ccc url('../../../../commons/images/bgHatchedLine.png');
+    }
+  }
+
+  // 休職・休業の行表示
+  &#{$this}--leave-of-absence {
+    background: #ccc url('../../../../commons/images/bgHatchedLine.png');
+  }
+
+  // 産後パパ育休の表示
+  &#{$this}--paternity-leave-at-birth {
+    background: $color-bg-daytype-workday none;
+  }
+
+  // 欠勤の行表示
+  &#{$this}--absence {
+    background: #ccc url('../../../../commons/images/bgHatchedLine.png');
+  }
+
+  // いちばん左のカラムに表示されるアイコンの位置設定
+  &__status {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    &#{&}-info {
+      right: 91px;
+    }
+
+    &#{&}-apply {
+      right: 42px;
+    }
+
+    &#{&}-work-situation,
+    &#{&}-holiday {
+      right: 7px;
+    }
+  }
+
+  &__attentions-button {
+    cursor: pointer;
+  }
+
+  // 出勤・退勤時刻
+  &__input-time {
+    width: 4.5em;
+    height: 30px;
+    border-style: none;
+    background: transparent;
+    vertical-align: top;
+
+    &:hover {
+      border-style: solid;
+      background: $ts-button-default;
+    }
+  }
+
+  // 通勤回数
+  &__dropdown-commute-count-container {
+    display: inline-block;
+    width: 105px;
+  }
+
+  // 通勤回数
+  // styled-component で上書きされてしまうため important を指定した。
+  &__dropdown-commute-count {
+    height: 30px !important;
+    font-size: 12px !important;
+    color: #53688c !important;
+
+    &:focus {
+      border: 1px solid #d9d9d9 !important;
+    }
+  }
+
+  // Daily Summary
+  &__col-daily-summary-container {
+    width: 73px;
+  }
+
+  // Daily Summary
+  &__col-daily-summary {
+    display: flex;
+    justify-content: center;
+    width: 73px;
+    height: 100%;
+  }
+
+  // 工数グラフ
+  &__man-hours-graph {
+    width: 160px;
+    height: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  // 勤怠時刻チャート
+  &__chart-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: $WIDTH_PX_OF_ONE_HOUR * (1 + (24 * 2) + 1);
+    height: 32px;
+
+    // FIXME: セル内にスクロールバーが表示される事象の手当て。内容の高さを適正にして、不要にしたい
+    overflow-y: hidden;
+  }
+
+  // 備考欄
+  &__input-remarks {
+    // FIXME: ? 工数グラフを展開すると、theadとtbodyでカラム幅がズレてしまう不具合の手当て
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    overflow: hidden;
+    width: calc(100% - 10px);
+    height: 30px;
+    padding: 0 8px;
+    border: 1px solid $ts-button-default-dark;
+    background-color: $ts-button-default;
+    border-radius: 4px;
+    color: $color-text-modest;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: left;
+    text-overflow: ellipsis;
+    transition: background-color 0.2s ease-out;
+    white-space: nowrap;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background: #fff;
+    }
+  }
+}

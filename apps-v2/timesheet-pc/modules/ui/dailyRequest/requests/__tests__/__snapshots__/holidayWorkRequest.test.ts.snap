@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"request\\": null,
++   \\"substituteLeaveTypeList\\": Array [],
++ }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/HOLIDAY_WORK_REQUEST/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"request\\": null,
+-   \\"substituteLeaveTypeList\\": Array [],
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"\\",
++     \\"endTime\\": 1080,
++     \\"id\\": \\"\\",
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": null,
++     \\"patternName\\": null,
++     \\"patternRestTimes\\": Array [],
++     \\"reason\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestTypeCode\\": \\"HolidayWork\\",
++     \\"requestTypeName\\": \\"休日出勤\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2020-04-05\\",
++     \\"startTime\\": 540,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": \\"None\\",
++     \\"type\\": \\"HolidayWork\\",
++   },
++   \\"substituteLeaveTypeList\\": Array [
++     \\"None\\",
++     \\"CompensatoryStocked\\",
++     \\"Substitute\\",
++   ],
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/HOLIDAY_WORK_REQUEST/UPDATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -12,11 +12,11 @@
+      \\"leaveType\\": null,
+      \\"originalRequestId\\": \\"\\",
+      \\"patternCode\\": null,
+      \\"patternName\\": null,
+      \\"patternRestTimes\\": Array [],
+-     \\"reason\\": \\"\\",
++     \\"reason\\": \\"testですtestです。\\",
+      \\"remarks\\": \\"\\",
+      \\"requestTypeCode\\": \\"HolidayWork\\",
+      \\"requestTypeName\\": \\"休日出勤\\",
+      \\"requireReason\\": false,
+      \\"startDate\\": \\"2020-04-05\\","
+`;

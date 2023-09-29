@@ -1,0 +1,83 @@
+.admin-pc-contents-detail-pane__body {
+  padding: 12px;
+
+  .psa__setting__useExistingJobCode {
+    display: none;
+  }
+}
+
+.admin-pc-contents-detail-pane__body__item-list__base-item_dual_listbox,
+.exp-tax-type-config {
+  .ts-horizontal-layout__label {
+    margin-bottom: auto;
+  }
+
+  .ts-horizontal-layout__body {
+    position: relative;
+    flex: 1;
+  }
+}
+
+.admin-pc-contents-detail-pane__body__item-list__exp_config {
+  .ts-horizontal-layout__body {
+    position: relative;
+    flex: 1;
+  }
+}
+
+.admin-pc-contents-detail-pane__body__item-list__base-item_expense_type_grid {
+  .ts-horizontal-layout__label {
+    display: none;
+  }
+
+  .ts-horizontal-layout__body {
+    position: relative;
+    flex: 1;
+  }
+}
+
+.admin-pc-contents-detail-pane__body__item-list__base-item_fixed_allowance_option_list {
+  .ts-horizontal-layout__label {
+    margin-bottom: auto;
+  }
+
+  .ts-horizontal-layout__body {
+    flex: 1;
+  }
+}
+
+.admin-pc-contents-detail-pane__body__item-list__base-item_skillset_config {
+  .ts-horizontal-layout__body {
+    position: relative;
+    flex: 1;
+  }
+}
+
+.admin-pc-contents-detail-pane__body__item-list__base-item_skillset_grid {
+  .ts-horizontal-layout__label {
+    display: none;
+  }
+
+  .ts-horizontal-layout__body {
+    position: relative;
+    flex: 1;
+  }
+}
+
+.admin-pc-contents-detail-pane__body__item-list__base-item_employee-member_config {
+  .ts-horizontal-layout__body {
+    position: relative;
+    flex: 1;
+  }
+}
+
+.admin-pc-contents-detail-pane__body__item-list__base-item_employee-member_grid {
+  .ts-horizontal-layout__label {
+    display: none;
+  }
+
+  .ts-horizontal-layout__body {
+    position: relative;
+    flex: 1;
+  }
+}

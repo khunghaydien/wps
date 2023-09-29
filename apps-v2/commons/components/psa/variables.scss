@@ -1,0 +1,165 @@
+// Background Colors
+$color-container: #eee;
+$color-bg-white: #fff;
+$color-bg-black: #000;
+$color-bg-sidebar: linear-gradient(0deg, #fff, #fff), #46596b;
+$color-bg-active-header: #e6f4f8;
+$color-bg-form: #f8f8f8;
+$color-bg-heading: #f4f6f9;
+$color-bg-green: #bee9ab;
+$color-bg-dark-green: #51b460;
+$color-bg-light-blue: #ebf3f7;
+$color-bg-lighter-blue: #e7f1f5;
+$color-bg-dark-blue: #2782ed;
+$color-bg-hover: #f7f7f7;
+$color-bg-red: #ebb1b1;
+$color-bg-yellow: #ffdd81;
+$color-bg-grey: #e5e5e5;
+$color-bg-light-grey: #f6f6f6;
+$color-bg-blue: #3c8cb2;
+$color-bg-drop-zone: #e1f2f7;
+$color-bg-light-grey: #ecebea;
+$color-bg-lighter-grey: #b3b2b3;
+
+// Border Colors
+$color-border: solid 1px #d8dde6;
+// Brand Colors
+$color-psa-blue: #3d8db3;
+
+// Form Colors
+$color-form-error: #f00;
+
+// Buttons colors
+$color-btn-primary: #2782ed;
+$color-btn-hover: rgba(0, 0, 0, 0.05);
+$color-btn-active: #e5e5e5;
+$color-btn-save: #2782ed;
+$color-btn-focus: #f3f2f2;
+$color-btn-save-hover: #010202;
+$color-btn-remove: #c23934;
+
+$color-action-btn-primary-default: #2782ed;
+$color-action-btn-primary-hover: #1b59c9;
+$color-action-btn-primary-click: #144399;
+$color-action-btn-primary-disabled: #abbacd;
+
+// Icon colors
+$color-icon-grey: #999;
+$color-icon-light-grey: #c4c4c4;
+$color-icon-dark-grey: #666;
+
+// Links colors
+$color-sidebar-link-hover: #e6f4f8;
+$color-sidebar-link-active: #e6f4f8;
+$color-sidebar-link-text: #666;
+$color-sidebar-link-text-active: #2782ed;
+
+// Border colors
+$color-border-light-grey: #d9d9d9;
+$color-border-light-grey-2: #dadada;
+$color-border-light-grey-3: #ddd;
+$color-border-lighter-grey: #eaeaea;
+$color-border-lightest-grey: #ececec;
+$color-border-hover: #e6f4f8;
+$color-border-blue: #2782ed;
+
+// Text Colors
+$color-text-black: #000;
+$color-text-grey: #666;
+$color-text-dark-grey: #333;
+$color-text-label: #12386a;
+$color-text-label-dark-blue: #00386d;
+$color-text-blue: #2782ed;
+$color-text-red: #c23934;
+
+// Status Colors
+$color-status-completed: #7d7d7d;
+$color-status-progress: #51b460;
+$color-status-cancelled: #7d7d7d;
+$color-status-planning: #b3b2b3;
+$color-status-confirmed: #51b460;
+$color-status-non-project: #2d2d2d;
+
+// Legend colors
+$color-status-non-working-day: #afadab;
+$color-status-available: #d0e9b6;
+$color-status-fully-booked-off-day: #f9dc8d;
+$color-status-capacity-exceeded: #e2b3b2;
+
+// Status Role Colors
+$color-status-soft-booked: #008eb6;
+$color-status-requested: #ffc72e;
+$color-status-not-found: #ff2c35;
+
+// Font sizes
+// 8px
+$font-size-xs: 0.5rem;
+// 12px
+$font-size-s: 0.75rem;
+// 13px
+$font-size-m: 0.8125rem;
+// 16px
+$font-size-default: 1rem;
+// 18px
+$font-size-l: 1.125rem;
+// 24px
+$font-size-xl: 1.5rem;
+//32px
+$font-size-xxl: 2rem;
+
+// Font Colors
+$color-font-blue: #4082e6;
+$color-font-dark-blue: #576889;
+$color-font-dark-grey: #333;
+$color-font-grey: #666;
+$color-font-white: #fff;
+//
+// Spacing Units - used for paddings & margins
+//
+
+@function unit($scale, $base: 4px) {
+  @return $scale * $base;
+}
+
+// 2px
+$size-xxs: unit(0.5);
+
+// 4px
+$size-base: unit(1);
+
+// 8px
+$size-xs: unit(2);
+
+// 12px
+$size-s: unit(3);
+
+// 16px
+$size-m: unit(4);
+
+// 32px
+$size-l: unit(8);
+
+// 64px
+$size-xl: unit(16);
+
+// extra paddings
+$container-padding: 20px;
+
+// medium padding
+$size-m-padding: 12px;
+
+// small padding
+$size-s-padding: 10px;
+//
+// Shadow
+//
+
+$shadow-button-focus: 0 0 3px #0070d2;
+
+// Elements Width and Height
+$header-height: 56px;
+$sidebar-width: 250px;
+$sidebar-width--collapsed: 62px;
+
+// Transition timing
+$easing-function: cubic-bezier(0.4, 0, 0.2, 1);

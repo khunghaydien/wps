@@ -1,0 +1,1294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/AutoHoursAllocateResultDialog/AutoHoursAllocateResultDialogContainer Any Error Occurred 1`] = `
+Array [
+  .c14 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  width: 50px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.c15 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 50px;
+  width: 90px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+}
+
+.c16 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 140px;
+  width: 150px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+}
+
+.c17 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 290px;
+  width: 110px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+}
+
+.c18 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 400px;
+  width: 360px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+}
+
+.c19 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 760px;
+  width: 190px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+}
+
+.c20 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 950px;
+  width: 100px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+}
+
+.c21 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 1050px;
+  width: 150px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  line-height: 35px;
+  text-align: left;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  background: #f9f9f9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.c10 {
+  min-height: 32px;
+  border-radius: 4px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 16px;
+  font-size: 13px;
+  line-height: 17px;
+  background: #2782ed;
+  color: #fff;
+  border: none;
+}
+
+.c10:hover {
+  background: #1b59c9;
+}
+
+.c10:active {
+  background: #144399;
+}
+
+.c10:disabled {
+  background: #abbacd;
+}
+
+.c25 {
+  min-height: 32px;
+  border-radius: 4px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 16px;
+  font-size: 13px;
+  line-height: 17px;
+  background: #fff;
+  color: #2782ed;
+  border: 1px solid #d9d9d9;
+}
+
+.c25:hover {
+  background: #f3f2f2;
+}
+
+.c25:active {
+  background: #e5e5e5;
+}
+
+.c25:disabled {
+  background: #fff;
+  color: #d9d9d9;
+}
+
+.c1 {
+  background: transparent;
+}
+
+.c2 {
+  background: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c3 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0 0 12px 0;
+}
+
+.c3:hover {
+  cursor: pointer;
+}
+
+.c4 {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #fff;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.c6 {
+  height: 60px;
+  background: #f4f6f9;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 1px solid #d8dde6;
+}
+
+.c23 {
+  height: 60px;
+  background: #f4f6f9;
+  border-top: 1px solid #d8dde6;
+  border-radius: 0 0 4px 4px;
+}
+
+.c11 {
+  position: relative;
+  width: 100%;
+  height: calc(90vh - 200px);
+  min-height: 200px;
+  z-index: 0;
+}
+
+.c12 {
+  position: relative;
+  left: 0%;
+  top: 0px;
+  width: 100%;
+  min-width: 785px;
+  background-color: #fff;
+  height: 100%;
+}
+
+.c22 {
+  padding: 0;
+  inset: 35px 0 0;
+  position: absolute;
+  height: calc(100% - 35px) !important;
+  border-top: 1px solid #ddd;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.c24 {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+.c26 {
+  margin-right: 16px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  height: 60px;
+  padding: 0 16px;
+  border-bottom: solid 1px #d8dde6;
+  background: #f4f6f9;
+  border-radius: 4px 4px 0 0;
+}
+
+.c8 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  color: #53688c;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.c9 {
+  width: auto;
+  margin-right: 16px;
+}
+
+.c9 th {
+  text-align: left;
+  font-weight: normal;
+}
+
+.c9 td {
+  padding-left: 5px;
+}
+
+.c0 {
+  width: 1200px;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <button
+          className="c3"
+          onClick={[Function]}
+          type="button"
+        >
+          <test-file-stub
+            className="c4"
+          />
+        </button>
+      </div>
+      <div
+        className="c5"
+      >
+        <div
+          className="c6"
+        >
+          <div
+            className="c7"
+          >
+            <div
+              className="c8"
+            >
+              Automatic Working Hours Allocation
+            </div>
+            <table
+              className="c9"
+            >
+              <tbody>
+                <tr>
+                  <th>
+                    Clocked Hours
+                  </th>
+                  <td>
+                    : 01:40
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Tracked Total
+                  </th>
+                  <td>
+                    : aN:aN
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Automatic hours allocation(int./ext.)
+                  </th>
+                  <td>
+                    : /01:40
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <button
+              className="c10"
+              color="primary"
+              onClick={[Function]}
+            >
+              Open Time Tracking Dictionary
+            </button>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className="c11"
+          >
+            <div
+              className="c12"
+            >
+              <div
+                className="c13"
+              >
+                <div
+                  className="c14"
+                  width={50}
+                >
+                  <input
+                    onChange={[Function]}
+                    type="checkbox"
+                  />
+                </div>
+                <div
+                  className="c15"
+                  width={90}
+                >
+                  Result
+                </div>
+                <div
+                  className="c16"
+                  width={150}
+                >
+                  Schedule
+                </div>
+                <div
+                  className="c17"
+                  width={110}
+                >
+                  Start/End
+                </div>
+                <div
+                  className="c18"
+                  width={360}
+                >
+                  Job
+                </div>
+                <div
+                  className="c19"
+                  width={190}
+                >
+                  Work Category
+                </div>
+                <div
+                  className="c20"
+                  width={100}
+                >
+                  Hours
+                </div>
+                <div
+                  className="c21"
+                  width={150}
+                >
+                  Time Tracking Dict.
+                </div>
+              </div>
+              <div
+                className="c22"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="c23"
+        >
+          <div
+            className="c24"
+          >
+            <button
+              className="c25 c26"
+              onClick={[Function]}
+            >
+              Cancel
+            </button>
+            <button
+              className="c10"
+              color="primary"
+              onClick={[Function]}
+            >
+              Import
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c0 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0.75);
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease,visibility 0s;
+  transition: opacity 0.2s ease,visibility 0s;
+  -webkit-transition-delay: 0s,0.3s;
+  transition-delay: 0s,0.3s;
+  z-index: 50001;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-width: 142px;
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+<div
+    className="commons-toast commons-toast--error"
+  >
+    <div
+      className="commons-toast__content"
+    >
+      <div
+        className="commons-toast__icon"
+      >
+        <test-file-stub
+          height="24"
+          width="24"
+        />
+      </div>
+      <div
+        className="commons-toast__info"
+      >
+        <span
+          className="commons-toast__message"
+        />
+        <div
+          className="c0"
+        >
+          Any Error Message
+        </div>
+      </div>
+      <div
+        className="commons-toast__close_button_container"
+      >
+        <button
+          className="ts-icon-button"
+          onClick={[Function]}
+          type="button"
+        >
+          <test-file-stub
+            aria-hidden="true"
+            style={
+              Object {
+                "fill": "",
+              }
+            }
+          />
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div />,
+]
+`;
+
+exports[`Storyshots time-tracking/AutoHoursAllocateResultDialog/AutoHoursAllocateResultDialogContainer Standard 1`] = `
+Array [
+  .c14 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  width: 50px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.c15 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 50px;
+  width: 90px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+}
+
+.c16 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 140px;
+  width: 150px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+}
+
+.c17 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 290px;
+  width: 110px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+}
+
+.c18 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 400px;
+  width: 360px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+}
+
+.c19 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 760px;
+  width: 190px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+}
+
+.c20 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 950px;
+  width: 100px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+}
+
+.c21 {
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  left: 1050px;
+  width: 150px;
+  height: 35px;
+  background-color: #fafaf9;
+  color: #514f4d;
+  font-weight: 700;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  line-height: 35px;
+  text-align: left;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  background: #f9f9f9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.c10 {
+  min-height: 32px;
+  border-radius: 4px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 16px;
+  font-size: 13px;
+  line-height: 17px;
+  background: #2782ed;
+  color: #fff;
+  border: none;
+}
+
+.c10:hover {
+  background: #1b59c9;
+}
+
+.c10:active {
+  background: #144399;
+}
+
+.c10:disabled {
+  background: #abbacd;
+}
+
+.c25 {
+  min-height: 32px;
+  border-radius: 4px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 16px;
+  font-size: 13px;
+  line-height: 17px;
+  background: #fff;
+  color: #2782ed;
+  border: 1px solid #d9d9d9;
+}
+
+.c25:hover {
+  background: #f3f2f2;
+}
+
+.c25:active {
+  background: #e5e5e5;
+}
+
+.c25:disabled {
+  background: #fff;
+  color: #d9d9d9;
+}
+
+.c1 {
+  background: transparent;
+}
+
+.c2 {
+  background: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c3 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0 0 12px 0;
+}
+
+.c3:hover {
+  cursor: pointer;
+}
+
+.c4 {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #fff;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.c6 {
+  height: 60px;
+  background: #f4f6f9;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 1px solid #d8dde6;
+}
+
+.c23 {
+  height: 60px;
+  background: #f4f6f9;
+  border-top: 1px solid #d8dde6;
+  border-radius: 0 0 4px 4px;
+}
+
+.c11 {
+  position: relative;
+  width: 100%;
+  height: calc(90vh - 200px);
+  min-height: 200px;
+  z-index: 0;
+}
+
+.c12 {
+  position: relative;
+  left: 0%;
+  top: 0px;
+  width: 100%;
+  min-width: 785px;
+  background-color: #fff;
+  height: 100%;
+}
+
+.c22 {
+  padding: 0;
+  inset: 35px 0 0;
+  position: absolute;
+  height: calc(100% - 35px) !important;
+  border-top: 1px solid #ddd;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.c24 {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+.c26 {
+  margin-right: 16px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  height: 60px;
+  padding: 0 16px;
+  border-bottom: solid 1px #d8dde6;
+  background: #f4f6f9;
+  border-radius: 4px 4px 0 0;
+}
+
+.c8 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  color: #53688c;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.c9 {
+  width: auto;
+  margin-right: 16px;
+}
+
+.c9 th {
+  text-align: left;
+  font-weight: normal;
+}
+
+.c9 td {
+  padding-left: 5px;
+}
+
+.c0 {
+  width: 1200px;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <button
+          className="c3"
+          onClick={[Function]}
+          type="button"
+        >
+          <test-file-stub
+            className="c4"
+          />
+        </button>
+      </div>
+      <div
+        className="c5"
+      >
+        <div
+          className="c6"
+        >
+          <div
+            className="c7"
+          >
+            <div
+              className="c8"
+            >
+              Automatic Working Hours Allocation
+            </div>
+            <table
+              className="c9"
+            >
+              <tbody>
+                <tr>
+                  <th>
+                    Clocked Hours
+                  </th>
+                  <td>
+                    : 01:40
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Tracked Total
+                  </th>
+                  <td>
+                    : 05:00
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Automatic hours allocation(int./ext.)
+                  </th>
+                  <td>
+                    : 03:20/01:40
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <button
+              className="c10"
+              color="primary"
+              onClick={[Function]}
+            >
+              Open Time Tracking Dictionary
+            </button>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className="c11"
+          >
+            <div
+              className="c12"
+            >
+              <div
+                className="c13"
+              >
+                <div
+                  className="c14"
+                  width={50}
+                >
+                  <input
+                    onChange={[Function]}
+                    type="checkbox"
+                  />
+                </div>
+                <div
+                  className="c15"
+                  width={90}
+                >
+                  Result
+                </div>
+                <div
+                  className="c16"
+                  width={150}
+                >
+                  Schedule
+                </div>
+                <div
+                  className="c17"
+                  width={110}
+                >
+                  Start/End
+                </div>
+                <div
+                  className="c18"
+                  width={360}
+                >
+                  Job
+                </div>
+                <div
+                  className="c19"
+                  width={190}
+                >
+                  Work Category
+                </div>
+                <div
+                  className="c20"
+                  width={100}
+                >
+                  Hours
+                </div>
+                <div
+                  className="c21"
+                  width={150}
+                >
+                  Time Tracking Dict.
+                </div>
+              </div>
+              <div
+                className="c22"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="c23"
+        >
+          <div
+            className="c24"
+          >
+            <button
+              className="c25 c26"
+              onClick={[Function]}
+            >
+              Cancel
+            </button>
+            <button
+              className="c10"
+              color="primary"
+              onClick={[Function]}
+            >
+              Import
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c0 {
+  min-width: 142px;
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+<div
+    className="commons-toast commons-toast--success"
+  >
+    <div
+      className="commons-toast__content"
+    >
+      <div
+        className="commons-toast__icon"
+      >
+        <test-file-stub
+          height="24"
+          width="24"
+        />
+      </div>
+      <div
+        className="commons-toast__info"
+      >
+        <span
+          className="commons-toast__message"
+        />
+        <div
+          className="c0"
+        />
+      </div>
+      <div
+        className="commons-toast__close_button_container"
+      >
+        <button
+          className="ts-icon-button"
+          onClick={[Function]}
+          type="button"
+        >
+          <test-file-stub
+            aria-hidden="true"
+            style={
+              Object {
+                "fill": "",
+              }
+            }
+          />
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div />,
+]
+`;

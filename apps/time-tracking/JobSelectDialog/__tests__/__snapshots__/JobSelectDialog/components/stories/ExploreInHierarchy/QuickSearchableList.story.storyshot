@@ -1,0 +1,516 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/JobSelectDialog/ExploreInHierarchy/QuickSearchableList Basic 1`] = `
+.c4 {
+  fill: #999;
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 32px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 0 8px;
+}
+
+.c3:focus-within {
+  border: 1px solid #2782ed;
+  box-shadow: 0 0 3px #0070d2;
+}
+
+.c6 {
+  height: 100%;
+  width: 100%;
+  border: none;
+  margin-left: 8px;
+  outline: none;
+  font-size: 13px;
+  line-height: 19px;
+  color: #333;
+  background-color: transparent;
+}
+
+.c6::-webkit-input-placeholder {
+  color: #999;
+}
+
+.c6::-moz-placeholder {
+  color: #999;
+}
+
+.c6:-ms-input-placeholder {
+  color: #999;
+}
+
+.c6::placeholder {
+  color: #999;
+}
+
+.c5 {
+  height: 12px;
+  width: 12px;
+}
+
+.c7 {
+  width: 240px;
+  height: 346px;
+}
+
+.c1 {
+  height: 418px;
+  width: 240px;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+.c2 {
+  width: 100%;
+  height: 72px;
+  padding: 20px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.c8 {
+  height: 44px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        <test-file-stub
+          aria-hidden={true}
+          className="c4 c5"
+          color="disable"
+        />
+        <input
+          autoFocus={true}
+          className="c6"
+          maxLength={100}
+          onChange={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Search on Enter"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="c7"
+    >
+      <div
+        onScroll={[Function]}
+        style={
+          Object {
+            "WebkitOverflowScrolling": "touch",
+            "direction": "ltr",
+            "height": 346,
+            "overflow": "auto",
+            "overflowX": "hidden",
+            "position": "relative",
+            "width": "100%",
+            "willChange": "transform",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "height": 4400,
+              "pointerEvents": undefined,
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "height": 44,
+                "left": 0,
+                "position": "absolute",
+                "right": undefined,
+                "top": 0,
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className="c8"
+            >
+              Development
+               
+              0
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "height": 44,
+                "left": 0,
+                "position": "absolute",
+                "right": undefined,
+                "top": 44,
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className="c8"
+            >
+              Development
+               
+              1
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "height": 44,
+                "left": 0,
+                "position": "absolute",
+                "right": undefined,
+                "top": 88,
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className="c8"
+            >
+              Development
+               
+              2
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "height": 44,
+                "left": 0,
+                "position": "absolute",
+                "right": undefined,
+                "top": 132,
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className="c8"
+            >
+              Development
+               
+              3
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "height": 44,
+                "left": 0,
+                "position": "absolute",
+                "right": undefined,
+                "top": 176,
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className="c8"
+            >
+              Development
+               
+              4
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "height": 44,
+                "left": 0,
+                "position": "absolute",
+                "right": undefined,
+                "top": 220,
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className="c8"
+            >
+              Development
+               
+              5
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "height": 44,
+                "left": 0,
+                "position": "absolute",
+                "right": undefined,
+                "top": 264,
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className="c8"
+            >
+              Development
+               
+              6
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "height": 44,
+                "left": 0,
+                "position": "absolute",
+                "right": undefined,
+                "top": 308,
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className="c8"
+            >
+              Development
+               
+              7
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "height": 44,
+                "left": 0,
+                "position": "absolute",
+                "right": undefined,
+                "top": 352,
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className="c8"
+            >
+              Development
+               
+              8
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "height": 44,
+                "left": 0,
+                "position": "absolute",
+                "right": undefined,
+                "top": 396,
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className="c8"
+            >
+              Development
+               
+              9
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots time-tracking/JobSelectDialog/ExploreInHierarchy/QuickSearchableList Records Not Found 1`] = `
+.c4 {
+  fill: #999;
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 32px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 0 8px;
+}
+
+.c3:focus-within {
+  border: 1px solid #2782ed;
+  box-shadow: 0 0 3px #0070d2;
+}
+
+.c6 {
+  height: 100%;
+  width: 100%;
+  border: none;
+  margin-left: 8px;
+  outline: none;
+  font-size: 13px;
+  line-height: 19px;
+  color: #333;
+  background-color: transparent;
+}
+
+.c6::-webkit-input-placeholder {
+  color: #999;
+}
+
+.c6::-moz-placeholder {
+  color: #999;
+}
+
+.c6:-ms-input-placeholder {
+  color: #999;
+}
+
+.c6::placeholder {
+  color: #999;
+}
+
+.c5 {
+  height: 12px;
+  width: 12px;
+}
+
+.c1 {
+  height: 418px;
+  width: 240px;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+.c2 {
+  width: 100%;
+  height: 72px;
+  padding: 20px;
+}
+
+.c7 {
+  width: 100%;
+  height: calc(100% - 72px);
+  text-align: center;
+}
+
+.c7::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        <test-file-stub
+          aria-hidden={true}
+          className="c4 c5"
+          color="disable"
+        />
+        <input
+          autoFocus={true}
+          className="c6"
+          maxLength={100}
+          onChange={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Search on Enter"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="c7"
+    >
+      Job is not found
+    </div>
+  </div>
+</div>
+`;

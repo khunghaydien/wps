@@ -1,0 +1,9 @@
+.mobile-app-organisms-tracking-daily-task-graph-card {
+  &__footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 4px 0 0;
+    font-size: 13px;
+  }
+}

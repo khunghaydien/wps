@@ -1,0 +1,29 @@
+table.customObject, table.objectList, table.globalValueSetList, table.globalValueSet {
+	border-collapse: collapse;
+}
+table.customObject th, table.objectList th, table.globalValueSetList th, table.globalValueSet th  {
+	border: solid 1px;
+	background-color: #e0e0e0;
+}
+tr.deprecated  {
+	background-color: #f0f0f0;
+}
+table.customObject td, table.objectList td, table.globalValueSetList td, table.globalValueSet td  {
+	border: solid 1px;
+}
+td.formula {
+	width: 15%;
+	font-size: 70%;
+}
+.defaultPicklistValue {
+	text-decoration: underline;
+	text-underline-position: below;
+}
+.typeOption {
+	color: blue;
+	font-size: 80%;
+}
+.formulaMark {
+	color: green;
+	font-size: 80%;
+}

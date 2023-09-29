@@ -1,0 +1,123 @@
+@import 'mobile-global-imports.scss';
+@import '../../../../../../commons/styles/exp/variables/colors';
+
+.mobile-app-pages-approval-page-expense-report {
+  .main-content {
+    overflow: scroll;
+    height: 100vh;
+    padding-top: 48px;
+    padding-bottom: 122px + 8px + 24px; // footer height + wrapper top margin + offset;
+    -webkit-overflow-scrolling: touch;
+  }
+  &__tax-summary-amount-left {
+    justify-content: flex-start;
+  }
+  &__tax-summary-amount-right {
+    justify-content: flex-end;
+  }
+  &-no-footer .main-content {
+    padding-bottom: 8px + 24px;
+  }
+
+  &__section {
+    padding-top: $small-size;
+    padding-right: $small-size;
+    padding-left: $small-size;
+  }
+
+  &__custom-request {
+    &-name {
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      color: $color-text-anchor;
+    }
+
+    &-status {
+      border-radius: 3px;
+      font-size: 11px;
+      padding: 0 6px;
+      margin-right: 6px;
+      &.approved {
+        color: $ts-status-background-approved;
+        border: 1px $ts-status-background-approved solid;
+      }
+      &.pending {
+        color: $ts-status-background-pending-clamined;
+        border: 1px $ts-status-background-pending-clamined solid;
+      }
+      &.rejected {
+        color: $ts-status-background-rejected;
+        border: 1px $ts-status-background-rejected solid;
+      }
+      &.removed {
+        color: $ts-status-background-removed;
+        border: 1px $ts-status-background-removed solid;
+      }
+      &.canceled {
+        color: $ts-status-background-cancelled;
+        border: 1px $ts-status-background-cancelled solid;
+      }
+    }
+  }
+  &__title {
+    margin-bottom: $small-size;
+    color: $color-blue-800;
+    font-size: unit(5);
+    font-weight: $font-emphasis;
+    line-height: 1;
+  }
+
+  &__amount {
+    justify-content: flex-start;
+  }
+
+  &__pdf-download-link {
+    display: inline-block;
+    height: auto;
+    padding: 30px 60px;
+    margin-bottom: $extra-small-size;
+    border: 2px solid #d9d9d9;
+    background: $color-blue-100;
+    border-radius: 0;
+  }
+
+  &__sub-foreign-amount,
+  &__sub-base-amount {
+    color: $color-gray-500;
+    font-size: 13px;
+    font-weight: normal;
+  }
+
+  &__vendor-jct {
+    @media screen and (max-width: 375px) {
+      font-size: 14px;
+    }
+  }
+
+  &__vendor-detail {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8px;
+
+    path {
+      fill: currentcolor;
+    }
+  }
+}
+
+.mobile-app-pages-approval-page-expense-report-vendor-detail {
+  .main-content {
+    overflow: scroll;
+    height: 100vh;
+    padding: 48px 0;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  &__section {
+    padding-top: $small-size;
+    padding-right: $small-size;
+    padding-left: $small-size;
+  }
+}

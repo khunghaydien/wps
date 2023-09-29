@@ -1,0 +1,21 @@
+@import 'mixins/transition';
+
+.page-transition {
+  overflow: hidden;
+
+  &-appear,
+  &-enter {
+    opacity: 0;
+  }
+
+  &-appear-active,
+  &-enter-active {
+    opacity: 1;
+
+    @include transition(all, 1.5s);
+  }
+
+  &-exit {
+    opacity: 0;
+  }
+}

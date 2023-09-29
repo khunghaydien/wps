@@ -1,0 +1,1508 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RescheduleContainer Test it renders without crashing 1`] = `
+<div
+  className="ts-psa__resource-reschedule"
+>
+  <div
+    className="ts-psa-fixed-header"
+  >
+    <div
+      className="ts-psa__common-header"
+    >
+      <div
+        className="ts-psa__common-header-left"
+      >
+        <span
+          className="ts-psa__common-header-breadcrumb"
+        >
+          <span
+            className="ts-psa__common-header-breadcrumb-link"
+            data-testid="ts-psa__common-header-breadcrumb--0"
+            onClick={[Function]}
+          >
+            Projects
+          </span>
+          <span
+            className="ts-psa__common-header-breadcrumb-separator"
+          >
+            &gt;
+          </span>
+          <span
+            className="ts-psa__common-header-breadcrumb-link"
+            data-testid="ts-psa__common-header-breadcrumb--1"
+            onClick={[Function]}
+          >
+            TD QA Project
+          </span>
+          <span
+            className="ts-psa__common-header-breadcrumb-separator"
+          >
+            &gt;
+          </span>
+          <span
+            className="ts-psa__common-header-breadcrumb-link"
+            data-testid="ts-psa__common-header-breadcrumb--2"
+            onClick={[Function]}
+          >
+            AUT 04/18/2022-1650236699RM
+          </span>
+          <span
+            className="ts-psa__common-header-breadcrumb-separator"
+          >
+            &gt;
+          </span>
+          <span
+            className="value"
+            data-testid="ts-psa__common-header-breadcrumb--3"
+            onClick={null}
+          >
+            Scheduling
+          </span>
+        </span>
+        <span
+          className="ts-psa__common-header-title"
+        >
+          May 10, 2022
+  - May 21, 2022
+        </span>
+      </div>
+      <div
+        className="ts-psa__common-header__btn-area"
+      >
+        <div
+          className="ts-psa__resource-planner__view-selector"
+        >
+          <div
+            className="ts-psa__resource-planner__view-selector__select-view-mode"
+          >
+            <button
+              className="is-active ts-button ts-button--default"
+              data-testid="ts-psa__resource-planner__view-selector__btn--day"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  Day
+                </span>
+              </div>
+            </button>
+            <button
+              className="ts-button ts-button--default"
+              data-testid="ts-psa__resource-planner__view-selector__btn--week"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  Week
+                </span>
+              </div>
+            </button>
+            <button
+              className="ts-button ts-button--default"
+              data-testid="ts-psa__resource-planner__view-selector__btn--month"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  Month
+                </span>
+              </div>
+            </button>
+          </div>
+          <div
+            className="ts-psa__resource-planner__view-selector__extra-btn"
+          >
+            <button
+              className="ts-psa__resource-planner__view-selector__today-btn ts-button ts-button--default"
+              data-testid="ts-psa__resource-planner__view-selector__btn--today"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  Today
+                </span>
+              </div>
+            </button>
+          </div>
+          <div
+            className="ts-psa__resource-planner__view-selector__view-window"
+          >
+            <button
+              className="ts-button ts-button--default"
+              data-testid="ts-psa__resource-planner__view-selector__btn--prev"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  <test-file-stub />
+                </span>
+              </div>
+            </button>
+            <div
+              className="commons-fields-date-field"
+              data-testid=""
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <button
+                      className="ts-psa__resource-planner__view-selector__btn--calendar ts-button ts-button--default"
+                      data-testid="ts-psa__resource-planner__view-selector__btn--calendar"
+                      disabled={true}
+                      onClick={[Function]}
+                      type="button"
+                      value=""
+                    >
+                      <div
+                        className="ts-button__contents"
+                      >
+                        <span
+                          className="ts-button__text"
+                        >
+                          <test-file-stub
+                            className="ts-psa__resource-planner__view-selector__calendar-icon"
+                            onClick={[Function]}
+                          />
+                        </span>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              className="ts-button ts-button--default"
+              data-testid="ts-psa__resource-planner__view-selector__btn--next"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  <test-file-stub />
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ts-psa__resource-planner__filter-info"
+    >
+      <div
+        className="ts-psa__role-details__header-info js-is-expanded"
+      >
+        <button
+          className="ts-psa__role-details__header-info--buttons"
+          onClick={[Function]}
+        >
+          <span
+            className="ts-psa__role-details__header-info__toggle-icon-bg"
+          >
+            <test-file-stub
+              className="ts-psa__role-details__header-info__toggle-icon"
+            />
+          </span>
+          <span>
+            Close {$Psa_Clbl_ProjectRole} Request Details
+          </span>
+        </button>
+        <div
+          className="ts-psa__role-details__header-info__column"
+        >
+          <span
+            className="ts-psa__role-details__header-info-item"
+          >
+            <label
+              className="ts-psa__role-details__header-info-label"
+            >
+              Duration
+              :
+            </label>
+            04/18/2022 - 08/16/2022
+          </span>
+          <span
+            className="ts-psa__role-details__header-info-item"
+          >
+            <label
+              className="ts-psa__role-details__header-info-label"
+            >
+              {$Psa_Clbl_ProjectRole} Title
+              :
+            </label>
+            AUT 04/18/2022-1650236699RM
+          </span>
+          <span
+            className="ts-psa__role-details__header-info-item ts-psa__role-details__header-info-skills"
+          >
+            <label
+              className="ts-psa__role-details__header-info-label"
+            >
+              Skills
+              :
+            </label>
+            <div
+              className="ts-psa__role-details__header-info-remarks-content"
+            />
+          </span>
+        </div>
+        <div
+          className="ts-psa__role-details__header-info__column"
+        >
+          <span
+            className="ts-psa__role-details__header-info-item"
+          >
+            <label
+              className="ts-psa__role-details__header-info-label"
+            >
+              Required Effort
+              :
+            </label>
+            0.5 Hours
+          </span>
+          <span
+            className="ts-psa__role-details__header-info-item"
+          >
+            <label
+              className="ts-psa__role-details__header-info-label"
+            >
+              {$Psa_Clbl_JobGrade}
+              :
+            </label>
+          </span>
+          <span
+            className="ts-psa__role-details__header-info-item ts-psa__role-details__header-info-remarks"
+          >
+            <label
+              className="ts-psa__role-details__header-info-label"
+            >
+              Description
+              :
+            </label>
+            <div
+              className="ts-psa__role-details__header-info-remarks-content"
+            >
+              -
+            </div>
+          </span>
+        </div>
+      </div>
+      <div
+        className="ts-psa__resource-planner__filter-info__second-row"
+      />
+    </div>
+    <div
+      className="ts-psa__resource-reschedule__resource-header-container"
+    >
+      <div
+        className="ts-psa__resource-reschedule__resource-list-content"
+      >
+        <div
+          className="ts-psa__resource-reschedule__resource-list-header"
+        >
+          <div
+            className="ts-psa__resource-reschedule__resource-list-header__resources"
+          >
+            <div
+              className="ts-psa__legend"
+              data-testid="ts-psa__resource-reschedule__legend-testId"
+            >
+              <div
+                className="ts-psa__legend__label"
+              >
+                <div
+                  className="commons-tooltip "
+                  id="commons-tooltip"
+                >
+                  <div
+                    className="slds-tooltip-trigger"
+                    style={
+                      Object {
+                        "display": "block",
+                      }
+                    }
+                  >
+                    <test-file-stub
+                      aria-describedby="ts-psa__resource-reschedule__legend-testId"
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      style={Object {}}
+                      tabIndex={0}
+                    />
+                    <span />
+                  </div>
+                </div>
+              </div>
+            </div>
+            Selected Resource
+          </div>
+          <div
+            className="ts-psa__resource-reschedule__resource-list-header__values"
+          >
+            <span
+              className="ts-psa__resource-reschedule__resource-list-header__value "
+            >
+              <span
+                className="ts-psa__resource-reschedule__schedule-dayname"
+              >
+                Tue
+              </span>
+              <span
+                className="ts-psa__resource-reschedule__schedule-daynum"
+              >
+                10
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-reschedule__resource-list-header__value "
+            >
+              <span
+                className="ts-psa__resource-reschedule__schedule-dayname"
+              >
+                Wed
+              </span>
+              <span
+                className="ts-psa__resource-reschedule__schedule-daynum"
+              >
+                11
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-reschedule__resource-list-header__value "
+            >
+              <span
+                className="ts-psa__resource-reschedule__schedule-dayname"
+              >
+                Thu
+              </span>
+              <span
+                className="ts-psa__resource-reschedule__schedule-daynum"
+              >
+                12
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-reschedule__resource-list-header__value "
+            >
+              <span
+                className="ts-psa__resource-reschedule__schedule-dayname"
+              >
+                Fri
+              </span>
+              <span
+                className="ts-psa__resource-reschedule__schedule-daynum"
+              >
+                13
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-reschedule__resource-list-header__value js-is-sat"
+            >
+              <span
+                className="ts-psa__resource-reschedule__schedule-dayname"
+              >
+                Sat
+              </span>
+              <span
+                className="ts-psa__resource-reschedule__schedule-daynum"
+              >
+                14
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-reschedule__resource-list-header__value js-is-sun"
+            >
+              <span
+                className="ts-psa__resource-reschedule__schedule-dayname"
+              >
+                Sun
+              </span>
+              <span
+                className="ts-psa__resource-reschedule__schedule-daynum"
+              >
+                15
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-reschedule__resource-list-header__value "
+            >
+              <span
+                className="ts-psa__resource-reschedule__schedule-dayname"
+              >
+                Mon
+              </span>
+              <span
+                className="ts-psa__resource-reschedule__schedule-daynum"
+              >
+                16
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-reschedule__resource-list-header__value "
+            >
+              <span
+                className="ts-psa__resource-reschedule__schedule-dayname"
+              >
+                Tue
+              </span>
+              <span
+                className="ts-psa__resource-reschedule__schedule-daynum"
+              >
+                17
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-reschedule__resource-list-header__value "
+            >
+              <span
+                className="ts-psa__resource-reschedule__schedule-dayname"
+              >
+                Wed
+              </span>
+              <span
+                className="ts-psa__resource-reschedule__schedule-daynum"
+              >
+                18
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-reschedule__resource-list-header__value "
+            >
+              <span
+                className="ts-psa__resource-reschedule__schedule-dayname"
+              >
+                Thu
+              </span>
+              <span
+                className="ts-psa__resource-reschedule__schedule-daynum"
+              >
+                19
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-reschedule__resource-list-header__value "
+            >
+              <span
+                className="ts-psa__resource-reschedule__schedule-dayname"
+              >
+                Fri
+              </span>
+              <span
+                className="ts-psa__resource-reschedule__schedule-daynum"
+              >
+                20
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-reschedule__resource-list-header__value js-is-sat"
+            >
+              <span
+                className="ts-psa__resource-reschedule__schedule-dayname"
+              >
+                Sat
+              </span>
+              <span
+                className="ts-psa__resource-reschedule__schedule-daynum"
+              >
+                21
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ts-psa__resource-reschedule__content-container"
+  >
+    <div
+      className="ts-psa__resource-reschedule__resource-container"
+    >
+      <div
+        className="ts-psa__resource-reschedule__resource-list-content"
+      >
+        <div
+          className="ts-psa__resource-reschedule__reschedule-form"
+        >
+          <div
+            className="ts-psa__resource-reschedule__reschedule-current-header"
+          >
+            <div
+              className="ts-psa__resource-reschedule__reschedule-current-header__title"
+            >
+              Current Schedule
+               (April 18, 2022
+  - April 22, 2022)
+            </div>
+            <div
+              className="ts-psa__resource-reschedule__reschedule-current-header__effort"
+            >
+              Current Assigned Effort
+              : 
+              0.5
+               
+              Hours
+            </div>
+          </div>
+          <div
+            className="ts-psa__resource-reschedule__reschedule-form-body"
+          >
+            <div
+              className="ts-psa__resource-reschedule__reschedule-form-body__row"
+            >
+              <div
+                className="ts-psa__resource-planner__resource-list-item  undefined "
+                data-testid="ts-psa__resource-reschedule__resource-list-item---1"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "marginTop": 1,
+                  }
+                }
+              >
+                <div
+                  className="ts-psa__resource-planner__resource-list-item__resources is-non-daily-hour"
+                >
+                  <div
+                    className="ts-psa__resource-planner__resource-list-item__first-column"
+                  >
+                    <div
+                      className="ts-psa__resource-planner__resource-list-item__resources__photo"
+                    >
+                      <img
+                        className="ts-psa__resource-planner__resource-list-item__photo-onclick"
+                        onClick={[Function]}
+                        src="https://saas-customer-8469-dev-ed--c.documentforce.com/profilephoto/005/T"
+                      />
+                    </div>
+                    <div
+                      className="ts-psa__resource-planner__resource-list-item__resource-item-info"
+                    >
+                      <span
+                        className="ts-psa__resource-planner__resource-list-item__resource-item-info__first-row"
+                      >
+                        <a
+                          className="ts-psa__resource-planner__resource-list-item__name-onclick"
+                          onClick={[Function]}
+                        >
+                          Sista Aadmi - TDEMP000
+                        </a>
+                      </span>
+                      <span
+                        className="ts-psa__resource-planner__resource-list-item__resource-item-info__second-row"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ts-psa__resource-planner__resource-list-item__values"
+                >
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__value is-overBooked"
+                    >
+                      -2.5
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__value is-outOfRange is-available"
+                    >
+                      5.8
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__value is-outOfRange is-available"
+                    >
+                      5.8
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__value is-outOfRange is-available"
+                    >
+                      7.8
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__value is-outOfRange is-available"
+                    >
+                      7.8
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__value is-outOfRange"
+                    >
+                      0
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__value is-outOfRange"
+                    >
+                      0
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__value is-outOfRange is-available"
+                    >
+                      8
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__value is-outOfRange is-available"
+                    >
+                      8
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__value is-outOfRange is-available"
+                    >
+                      8
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__value is-outOfRange is-available"
+                    >
+                      8
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__value is-outOfRange"
+                    >
+                      0
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="ts-psa__resource-planner__resource-list-item"
+                data-testid="ts-psa__resource-reschedule__resource-list-item---1"
+              >
+                <div
+                  className="ts-psa__resource-planner__resource-list-item__resources"
+                >
+                  <div
+                    className="ts-psa__resource-planner__resource-list-item__first-column"
+                  >
+                    <div
+                      className="ts-psa__resource-planner__resource-list-item__resource-item-info"
+                    >
+                      <span
+                        className="ts-psa__resource-planner__resource-list-item__resource-item-info__first-row"
+                      />
+                      <span
+                        className="ts-psa__resource-planner__resource-list-item__resource-item-info__second-row"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ts-psa__resource-planner__resource-list-item__values"
+                >
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-confirmed"
+                    >
+                      0.1
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable is-confirmed"
+                    >
+                      0.1
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable is-confirmed"
+                    >
+                      0.1
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable is-confirmed"
+                    >
+                      0.1
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable is-confirmed"
+                    >
+                      0.1
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable is-confirmed"
+                    >
+                      -
+                    </span>
+                  </span>
+                  <span
+                    className="ts-psa__resource-planner__resource-list-item__background undefined"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable is-confirmed"
+                    >
+                      -
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ts-psa__resource-reschedule__reschedule-form"
+        >
+          <div
+            className="ts-psa__resource-reschedule__reschedule-form-header"
+          >
+            <div
+              className="ts-psa__resource-reschedule__reschedule-form-header__title"
+            >
+              New Schedule
+               (May 10, 2022
+  - May 14, 2022)
+            </div>
+            <div
+              className="ts-psa__resource-reschedule__reschedule-form-header__effort"
+            >
+              New Assigned Effort
+              : 
+              0.5
+               
+              Hours
+            </div>
+          </div>
+          <div
+            className="ts-psa__resource-reschedule__reschedule-form-body"
+          >
+            <div
+              className="ts-psa__resource-reschedule__reschedule-form-bulk-update__row"
+            >
+              <div
+                className="ts-psa__form-field  "
+                data-testid="ts-psa__resource-reschedule__start-date"
+              >
+                <div
+                  className="ts-psa__form-field__label"
+                >
+                   
+                  From
+                </div>
+                <div
+                  className="ts-psa__date-field__container"
+                >
+                  <div
+                    className="commons-fields-date-field"
+                    data-testid=""
+                  >
+                    <div>
+                      <div
+                        className="react-datepicker-wrapper"
+                      >
+                        <div
+                          className="react-datepicker__input-container"
+                        >
+                          <input
+                            className="ts-text-field slds-input slds-input"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onClick={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={false}
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="ts-psa__date-field__calendar-icon-wrapper"
+                  >
+                    <test-file-stub
+                      className="ts-psa__date-field__calendar-icon-body"
+                    />
+                  </div>
+                </div>
+              </div>
+              <span
+                className="ts-psa__resource-reschedule__reschedule-form-bulk-update__row__separator"
+              >
+                –
+              </span>
+              <div
+                className="ts-psa__form-field  "
+                data-testid="ts-psa__resource-reschedule__end-date"
+              >
+                <div
+                  className="ts-psa__form-field__label"
+                >
+                   
+                  To
+                </div>
+                <div
+                  className="ts-psa__date-field__container"
+                >
+                  <div
+                    className="commons-fields-date-field"
+                    data-testid=""
+                  >
+                    <div>
+                      <div
+                        className="react-datepicker-wrapper"
+                      >
+                        <div
+                          className="react-datepicker__input-container"
+                        >
+                          <input
+                            className="ts-text-field slds-input slds-input"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onClick={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            placeholder=""
+                            readOnly={false}
+                            required={false}
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="ts-psa__date-field__calendar-icon-wrapper"
+                  >
+                    <test-file-stub
+                      className="ts-psa__date-field__calendar-icon-body"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="ts-psa__form-field ts-psa__resource-reschedule__work-hours-per-day "
+                data-testid="ts-psa__resource-reschedule__work-hours-per-day"
+              >
+                <div
+                  className="ts-psa__form-field__label"
+                >
+                   
+                  Allocated Work Hours Per Day (100% = 8 Hours) 
+                </div>
+                <div
+                  className="ts-psa__resource-reschedule__work-hours-per-day__container"
+                >
+                  <input
+                    className="ts-text-field slds-input ts-psa__resource-reschedule__work-hours-per-day__input"
+                    data-testid="ts-psa__resource-reschedule__reschedule-form-bulk-update__work-hours-per-day"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder={null}
+                    readOnly={false}
+                    type="string"
+                    value={100}
+                  />
+                  <div
+                    className="commons-fields-dropdown ts-psa__resource-reschedule__work-hours-per-day__dropdown"
+                  >
+                    <div
+                      className="slds-dropdown-trigger slds-dropdown-trigger_click"
+                      id="commons-fields-dropdown ts-psa__resource-reschedule__work-hours-per-day__dropdown"
+                      onClick={[Function]}
+                      onFocus={null}
+                      onKeyDown={[Function]}
+                      onMouseEnter={null}
+                      onMouseLeave={null}
+                    >
+                      <button
+                        aria-expanded={false}
+                        aria-haspopup={true}
+                        className="slds-button slds-button_neutral"
+                        disabled={false}
+                        onClick={[Function]}
+                        tabIndex="0"
+                        type="button"
+                      >
+                        %
+                        <svg
+                          aria-hidden="true"
+                          className="slds-button__icon slds-button__icon_right"
+                        >
+                          <use />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="ts-psa__resource-reschedule__bulk-preview-button-container"
+              >
+                <button
+                  className="ts-psa__resource-reschedule__bulk-update-button ts-button ts-button--primary"
+                  data-testid="ts-psa__resource-reschedule__bulk-update-button"
+                  disabled={true}
+                  onClick={[Function]}
+                  type="button"
+                  value=""
+                >
+                  <div
+                    className="ts-button__contents"
+                  >
+                    <span
+                      className="ts-button__text"
+                    >
+                      Apply
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div
+              className="ts-psa__resource-reschedule__reschedule-form-body__row"
+            >
+              <div
+                className="ts-psa__resource-reschedule__resource-reschedule-content"
+              >
+                <div
+                  className="ts-psa__resource-planner__resource-list-item  undefined "
+                  data-testid="ts-psa__resource-reschedule__resource-list-item---1"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "marginTop": 1,
+                    }
+                  }
+                >
+                  <div
+                    className="ts-psa__resource-planner__resource-list-item__resources is-non-daily-hour"
+                  >
+                    <div
+                      className="ts-psa__resource-planner__resource-list-item__first-column"
+                    >
+                      <div
+                        className="ts-psa__resource-planner__resource-list-item__resources__photo"
+                      >
+                        <img
+                          className="ts-psa__resource-planner__resource-list-item__photo-onclick"
+                          onClick={[Function]}
+                          src="https://saas-customer-8469-dev-ed--c.documentforce.com/profilephoto/005/T"
+                        />
+                      </div>
+                      <div
+                        className="ts-psa__resource-planner__resource-list-item__resource-item-info"
+                      >
+                        <span
+                          className="ts-psa__resource-planner__resource-list-item__resource-item-info__first-row"
+                        >
+                          <a
+                            className="ts-psa__resource-planner__resource-list-item__name-onclick"
+                            onClick={[Function]}
+                          >
+                            Sista Aadmi - TDEMP000
+                          </a>
+                        </span>
+                        <span
+                          className="ts-psa__resource-planner__resource-list-item__resource-item-info__second-row"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="ts-psa__resource-planner__resource-list-item__values"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background undefined"
+                    >
+                      <span
+                        className="ts-psa__resource-planner__resource-list-item__value is-overBooked"
+                      >
+                        -2.5
+                      </span>
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background undefined"
+                    >
+                      <span
+                        className="ts-psa__resource-planner__resource-list-item__value is-outOfRange is-available"
+                      >
+                        5.8
+                      </span>
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background undefined"
+                    >
+                      <span
+                        className="ts-psa__resource-planner__resource-list-item__value is-outOfRange is-available"
+                      >
+                        5.8
+                      </span>
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background undefined"
+                    >
+                      <span
+                        className="ts-psa__resource-planner__resource-list-item__value is-outOfRange is-available"
+                      >
+                        7.8
+                      </span>
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background undefined"
+                    >
+                      <span
+                        className="ts-psa__resource-planner__resource-list-item__value is-outOfRange is-available"
+                      >
+                        7.8
+                      </span>
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background undefined"
+                    >
+                      <span
+                        className="ts-psa__resource-planner__resource-list-item__value is-outOfRange"
+                      >
+                        0
+                      </span>
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background undefined"
+                    >
+                      <span
+                        className="ts-psa__resource-planner__resource-list-item__value is-outOfRange"
+                      >
+                        0
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="ts-psa__resource-planner__resource-list-item"
+                  data-testid="ts-psa__resource-reschedule__resource-list-item---1"
+                >
+                  <div
+                    className="ts-psa__resource-planner__resource-list-item__resources"
+                  >
+                    <div
+                      className="ts-psa__resource-planner__resource-list-item__first-column"
+                    >
+                      <div
+                        className="ts-psa__resource-planner__resource-list-item__resource-item-info"
+                      >
+                        <span
+                          className="ts-psa__resource-planner__resource-list-item__resource-item-info__first-row"
+                        />
+                        <span
+                          className="ts-psa__resource-planner__resource-list-item__resource-item-info__second-row"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="ts-psa__resource-planner__resource-list-item__values"
+                  >
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background"
+                    >
+                      <input
+                        className="ts-text-field slds-input ts-psa__resource-planner__resource-list-item__custom-booked-hour-value "
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        placeholder={null}
+                        readOnly={false}
+                        type="text"
+                        value="0.1"
+                      />
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background"
+                    >
+                      <input
+                        className="ts-text-field slds-input ts-psa__resource-planner__resource-list-item__custom-booked-hour-value "
+                        disabled={true}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        placeholder={null}
+                        readOnly={false}
+                        type="text"
+                        value="0.1"
+                      />
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background"
+                    >
+                      <input
+                        className="ts-text-field slds-input ts-psa__resource-planner__resource-list-item__custom-booked-hour-value "
+                        disabled={true}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        placeholder={null}
+                        readOnly={false}
+                        type="text"
+                        value="0.1"
+                      />
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background"
+                    >
+                      <input
+                        className="ts-text-field slds-input ts-psa__resource-planner__resource-list-item__custom-booked-hour-value "
+                        disabled={true}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        placeholder={null}
+                        readOnly={false}
+                        type="text"
+                        value="0.1"
+                      />
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background"
+                    >
+                      <input
+                        className="ts-text-field slds-input ts-psa__resource-planner__resource-list-item__custom-booked-hour-value "
+                        disabled={true}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        placeholder={null}
+                        readOnly={false}
+                        type="text"
+                        value="0.1"
+                      />
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background"
+                    >
+                      <input
+                        className="ts-text-field slds-input ts-psa__resource-planner__resource-list-item__custom-booked-hour-value "
+                        disabled={true}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        placeholder={null}
+                        readOnly={false}
+                        type="text"
+                        value="0"
+                      />
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background"
+                    >
+                      <input
+                        className="ts-text-field slds-input ts-psa__resource-planner__resource-list-item__custom-booked-hour-value "
+                        disabled={true}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        placeholder={null}
+                        readOnly={false}
+                        type="text"
+                        value="0"
+                      />
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background"
+                    >
+                      <input
+                        className="ts-text-field slds-input ts-psa__resource-planner__resource-list-item__custom-booked-hour-value "
+                        disabled={true}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        placeholder={null}
+                        readOnly={false}
+                        type="text"
+                        value="undefined"
+                      />
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background"
+                    >
+                      <input
+                        className="ts-text-field slds-input ts-psa__resource-planner__resource-list-item__custom-booked-hour-value "
+                        disabled={true}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        placeholder={null}
+                        readOnly={false}
+                        type="text"
+                        value="undefined"
+                      />
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background"
+                    >
+                      <input
+                        className="ts-text-field slds-input ts-psa__resource-planner__resource-list-item__custom-booked-hour-value "
+                        disabled={true}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        placeholder={null}
+                        readOnly={false}
+                        type="text"
+                        value="undefined"
+                      />
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background"
+                    >
+                      <input
+                        className="ts-text-field slds-input ts-psa__resource-planner__resource-list-item__custom-booked-hour-value "
+                        disabled={true}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        placeholder={null}
+                        readOnly={false}
+                        type="text"
+                        value="undefined"
+                      />
+                    </span>
+                    <span
+                      className="ts-psa__resource-planner__resource-list-item__background"
+                    >
+                      <input
+                        className="ts-text-field slds-input ts-psa__resource-planner__resource-list-item__custom-booked-hour-value "
+                        disabled={true}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        placeholder={null}
+                        readOnly={false}
+                        type="text"
+                        value="undefined"
+                      />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ts-psa__resource-reschedule__reschedule-form-footer"
+          >
+            <button
+              className="ts-psa__resource-reschedule__reschedule-edit-schedule-button ts-button ts-button--default"
+              data-testid="ts-psa__resource-reschedule__reschedule-edit-schedule-button"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  Edit Schedule
+                </span>
+              </div>
+            </button>
+            <button
+              className="ts-psa__resource-reschedule__reschedule-reset-button ts-button ts-button--default"
+              data-testid="ts-psa__resource-reschedule__reschedule-reset-button"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  Reset
+                </span>
+              </div>
+            </button>
+            <button
+              className="ts-psa__resource-reschedule__reschedule-preview-button ts-button ts-button--primary"
+              data-testid="ts-psa__resource-reschedule__reschedule-preview-button"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  Continue to Preview
+                </span>
+              </div>
+            </button>
+            <button
+              className="ts-psa__resource-reschedule__reschedule-cancel-button ts-button ts-button--default"
+              data-testid="ts-psa__resource-reschedule__reschedule-cancel-button"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  Cancel
+                </span>
+              </div>
+            </button>
+            <button
+              className="ts-psa__resource-reschedule__reschedule-save-button ts-button ts-button--primary"
+              data-testid="ts-psa__resource-reschedule__reschedule-save-button"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  Save
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

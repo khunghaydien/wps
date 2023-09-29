@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"isShowDetail\\": false,
++   \\"isShowRevisionDialog\\": false,
++   \\"modeBase\\": \\"\\",
++   \\"modeHistory\\": \\"\\",
++ }"
+`;
+
+exports[`reducer() MODULES/BASE/DETAIL_PANE/UI/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"isShowDetail\\": false,
+    \\"isShowRevisionDialog\\": false,
+-   \\"modeBase\\": \\"edit\\",
+-   \\"modeHistory\\": \\"edit\\",
++   \\"modeBase\\": \\"\\",
++   \\"modeHistory\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"isShowDetail\\": false,
+    \\"isShowRevisionDialog\\": false,
+-   \\"modeBase\\": \\"\\",
++   \\"modeBase\\": \\"edit\\",
+    \\"modeHistory\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() MODULES/BASE/DETAIL_PANE/UI/SHOW_DETAIL_PANE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"isShowDetail\\": false,
++   \\"isShowDetail\\": true,
+    \\"isShowRevisionDialog\\": false,
+    \\"modeBase\\": \\"\\",
+    \\"modeHistory\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() MODULES/BASE/DETAIL_PANE/UI/SHOW_REVISION_DIALOG_PANE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"isShowDetail\\": false,
+-   \\"isShowRevisionDialog\\": false,
++   \\"isShowRevisionDialog\\": true,
+    \\"modeBase\\": \\"\\",
+    \\"modeHistory\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"isShowDetail\\": false,
+    \\"isShowRevisionDialog\\": false,
+    \\"modeBase\\": \\"\\",
+-   \\"modeHistory\\": \\"\\",
++   \\"modeHistory\\": \\"revision\\",
+  }"
+`;

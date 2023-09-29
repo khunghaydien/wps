@@ -1,0 +1,18 @@
+.ts-expenses__form-records__bulk-edit__grid-area-cell-detail {
+  &__input {
+    border: none;
+    width: 100%;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: #bdbdbd;
+    }
+
+    &:disabled {
+      background-color: unset;
+    }
+  }
+}

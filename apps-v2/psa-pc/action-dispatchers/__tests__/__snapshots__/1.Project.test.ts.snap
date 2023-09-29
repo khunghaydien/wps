@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project Page fetchProjectList() load project list fail 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Server not responded",
+      "problem": "Server not responded",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`Project Page fetchProjectList() should fetch list of existing projects 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "data": null,
+      "pageData": Array [
+        Object {
+          "clientId": null,
+          "clientName": null,
+          "companyId": "a0P6D000001sZhNUAU",
+          "currentDetailId": "a1Z6D000000TfoBUAS",
+          "endDate": "2020-10-20",
+          "name": "test",
+          "pmBaseId": "a0b6D0000017HOtQAM",
+          "pmName": "Sista Aadmi",
+          "projectId": "a1a6D000001REl8QAG",
+          "startDate": "2020-10-19",
+          "status": "Planning",
+          "workTimePerDay": 240,
+        },
+        Object {
+          "clientId": null,
+          "clientName": null,
+          "companyId": "a0P6D000001sZhNUAU",
+          "currentDetailId": "a1Z6D000000TfSbUAK",
+          "endDate": "2022-12-31",
+          "name": "Auto Project 1602682067U",
+          "pmBaseId": "a0b6D0000017HOtQAM",
+          "pmName": "Sista Aadmi",
+          "projectId": "a1a6D000001IXsRQAW",
+          "startDate": "2020-10-15",
+          "status": "Planning",
+          "workTimePerDay": 420,
+        },
+        Object {
+          "clientId": null,
+          "clientName": null,
+          "companyId": "a0P6D000001sZhNUAU",
+          "currentDetailId": "a1Z6D000000TfSMUA0",
+          "endDate": "2022-12-31",
+          "name": "Auto Project 1602681219U",
+          "pmBaseId": "a0b6D0000017HOtQAM",
+          "pmName": "Sista Aadmi",
+          "projectId": "a1a6D000001IXrnQAG",
+          "startDate": "2020-10-15",
+          "status": "Planning",
+          "workTimePerDay": 180,
+        },
+      ],
+      "pageNum": 1,
+      "pageSize": 50,
+      "totalPages": 1,
+      "totalRecords": 3,
+    },
+    "type": "MODULES/ENTITIES/PSA/PROJECT/LIST_SUCCESS",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;

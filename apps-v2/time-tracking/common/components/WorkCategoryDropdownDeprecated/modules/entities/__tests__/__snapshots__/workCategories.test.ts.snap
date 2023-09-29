@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() /DAILY-SUMMARY/ENTITIES/WORK_CATEGORIES/CLEAR 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"allIds\\": Array [
+-     \\"0\\",
+-     \\"1\\",
+-     \\"2\\",
+-   ],
+-   \\"byId\\": Object {
+-     \\"0\\": Object {
+-       \\"code\\": \\"0A\\",
+-       \\"id\\": \\"0\\",
+-       \\"name\\": \\"Task A\\",
+-     },
+-     \\"1\\": Object {
+-       \\"code\\": \\"1B\\",
+-       \\"id\\": \\"1\\",
+-       \\"name\\": \\"Task B\\",
+-     },
+-     \\"2\\": Object {
+-       \\"code\\": \\"2C\\",
+-       \\"id\\": \\"2\\",
+-       \\"name\\": \\"Task C\\",
+-     },
+-   },
++   \\"allIds\\": Array [],
++   \\"byId\\": Object {},
+  }"
+`;
+
+exports[`reducer() /DAILY-SUMMARY/ENTITIES/WORK_CATEGORIES/FETCH_SUCCESS 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"allIds\\": Array [],
+-   \\"byId\\": Object {},
++   \\"allIds\\": Array [
++     \\"0\\",
++     \\"1\\",
++     \\"2\\",
++   ],
++   \\"byId\\": Object {
++     \\"0\\": Object {
++       \\"code\\": \\"0A\\",
++       \\"id\\": \\"0\\",
++       \\"name\\": \\"Task A\\",
++     },
++     \\"1\\": Object {
++       \\"code\\": \\"1B\\",
++       \\"id\\": \\"1\\",
++       \\"name\\": \\"Task B\\",
++     },
++     \\"2\\": Object {
++       \\"code\\": \\"2C\\",
++       \\"id\\": \\"2\\",
++       \\"name\\": \\"Task C\\",
++     },
++   },
+  }"
+`;
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"allIds\\": Array [],
++   \\"byId\\": Object {},
++ }"
+`;

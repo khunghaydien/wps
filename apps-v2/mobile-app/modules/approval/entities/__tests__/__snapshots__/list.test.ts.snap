@@ -1,0 +1,750 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"checked\\": Array [],
++   \\"checkedAll\\": false,
++   \\"filterType\\": \\"all\\",
++   \\"filteredList\\": Array [],
++   \\"options\\": Object {
++     \\"canBulkApproveAttDailyRequest\\": false,
++     \\"canBulkApproveAttRequest\\": false,
++   },
++   \\"original\\": Array [],
++   \\"targetList\\": Array [],
++ }"
+`;
+
+exports[`reducer() MODULES/ENTITIES/APPROVAL/CHECK should do. 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,7 +1,9 @@
+  Object {
+-   \\"checked\\": Array [],
++   \\"checked\\": Array [
++     \\"00001\\",
++   ],
+    \\"checkedAll\\": false,
+    \\"filterType\\": \\"all\\",
+    \\"filteredList\\": Array [
+      Object {
+        \\"approverDepartmentName\\": \\"承認者部署名\\","
+`;
+
+exports[`reducer() MODULES/ENTITIES/APPROVAL/CHECK_ALL should do 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,8 +1,12 @@
+  Object {
+-   \\"checked\\": Array [],
+-   \\"checkedAll\\": false,
++   \\"checked\\": Array [
++     \\"00001\\",
++     \\"00002\\",
++     \\"00003\\",
++   ],
++   \\"checkedAll\\": true,
+    \\"filterType\\": \\"all\\",
+    \\"filteredList\\": Array [
+      Object {
+        \\"approverDepartmentName\\": \\"承認者部署名\\",
+        \\"approverName\\": \\"承認者名\\","
+`;
+
+exports[`reducer() MODULES/ENTITIES/APPROVAL/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -2,11 +2,11 @@
+    \\"checked\\": Array [],
+    \\"checkedAll\\": false,
+    \\"filterType\\": \\"all\\",
+    \\"filteredList\\": Array [],
+    \\"options\\": Object {
+-     \\"canBulkApproveAttDailyRequest\\": false,
+-     \\"canBulkApproveAttRequest\\": false,
++     \\"canBulkApproveAttDailyRequest\\": true,
++     \\"canBulkApproveAttRequest\\": true,
+    },
+    \\"original\\": Array [],
+    \\"targetList\\": Array [],
+  }"
+`;
+
+exports[`reducer() MODULES/ENTITIES/APPROVAL/SET_RECORDS checkedAll should be false from false 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"checked\\": Array [
+-     \\"00001\\",
+-   ],
++   \\"checked\\": Array [],
+    \\"checkedAll\\": false,
+    \\"filterType\\": \\"all\\",
+    \\"filteredList\\": Array [
+      Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"endDate\\": \\"2022-01-02\\",
+-       \\"originalRequestStatus\\": \\"\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-21 12:12\\",
+-       \\"requestId\\": \\"00001\\",
+-       \\"requestStatus\\": \\"\\",
+-       \\"requestType\\": \\"attendance_daily\\",
+-       \\"startDate\\": \\"2022-01-01\\",
+-       \\"subject\\": \\"各種勤怠申請 Y\\",
+-     },
+-     Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-22 22:22\\",
+-       \\"requestId\\": \\"00002\\",
+-       \\"requestType\\": \\"attendance_fix\\",
+-       \\"subject\\": \\"勤務確定申請\\",
+-       \\"targetMonth\\": \\"2022-01\\",
+-     },
+-     Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"endDate\\": \\"2022-01-02\\",
+-       \\"originalRequestStatus\\": \\"\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-23 03:04\\",
+-       \\"requestId\\": \\"00003\\",
+-       \\"requestStatus\\": \\"\\",
++       \\"requestId\\": \\"99999\\",
+        \\"requestType\\": \\"attendance_daily\\",
+-       \\"startDate\\": \\"2022-01-01\\",
+-       \\"subject\\": \\"各種勤怠申請 X\\",
+      },
+    ],
+    \\"options\\": Object {
+      \\"canBulkApproveAttDailyRequest\\": true,
+      \\"canBulkApproveAttRequest\\": true,
+    },
+    \\"original\\": Array [
+-     Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"endDate\\": \\"2022-01-02\\",
+-       \\"originalRequestStatus\\": \\"\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-21 12:12\\",
+-       \\"requestId\\": \\"00001\\",
+-       \\"requestStatus\\": \\"\\",
+-       \\"requestType\\": \\"attendance_daily\\",
+-       \\"startDate\\": \\"2022-01-01\\",
+-       \\"subject\\": \\"各種勤怠申請 Y\\",
+-     },
+      Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-22 22:22\\",
+-       \\"requestId\\": \\"00002\\",
+-       \\"requestType\\": \\"attendance_fix\\",
+-       \\"subject\\": \\"勤務確定申請\\",
+-       \\"targetMonth\\": \\"2022-01\\",
+-     },
+-     Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"endDate\\": \\"2022-01-02\\",
+-       \\"originalRequestStatus\\": \\"\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-23 03:04\\",
+-       \\"requestId\\": \\"00003\\",
+-       \\"requestStatus\\": \\"\\",
++       \\"requestId\\": \\"99999\\",
+        \\"requestType\\": \\"attendance_daily\\",
+-       \\"startDate\\": \\"2022-01-01\\",
+-       \\"subject\\": \\"各種勤怠申請 X\\",
+      },
+    ],
+    \\"targetList\\": Array [
+      Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"endDate\\": \\"2022-01-02\\",
+-       \\"originalRequestStatus\\": \\"\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-21 12:12\\",
+-       \\"requestId\\": \\"00001\\",
+-       \\"requestStatus\\": \\"\\",
+-       \\"requestType\\": \\"attendance_daily\\",
+-       \\"startDate\\": \\"2022-01-01\\",
+-       \\"subject\\": \\"各種勤怠申請 Y\\",
+-     },
+-     Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-22 22:22\\",
+-       \\"requestId\\": \\"00002\\",
+-       \\"requestType\\": \\"attendance_fix\\",
+-       \\"subject\\": \\"勤務確定申請\\",
+-       \\"targetMonth\\": \\"2022-01\\",
+-     },
+-     Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"endDate\\": \\"2022-01-02\\",
+-       \\"originalRequestStatus\\": \\"\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-23 03:04\\",
+-       \\"requestId\\": \\"00003\\",
+-       \\"requestStatus\\": \\"\\",
++       \\"requestId\\": \\"99999\\",
+        \\"requestType\\": \\"attendance_daily\\",
+-       \\"startDate\\": \\"2022-01-01\\",
+-       \\"subject\\": \\"各種勤怠申請 X\\",
+      },
+    ],
+  }"
+`;
+
+exports[`reducer() MODULES/ENTITIES/APPROVAL/SET_RECORDS checkedAll should be false from true 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -2,11 +2,11 @@
+    \\"checked\\": Array [
+      \\"00001\\",
+      \\"00002\\",
+      \\"00003\\",
+    ],
+-   \\"checkedAll\\": true,
++   \\"checkedAll\\": false,
+    \\"filterType\\": \\"all\\",
+    \\"filteredList\\": Array [
+      Object {
+        \\"approverDepartmentName\\": \\"承認者部署名\\",
+        \\"approverName\\": \\"承認者名\\",
+@@ -50,10 +50,14 @@
+        \\"requestStatus\\": \\"\\",
+        \\"requestType\\": \\"attendance_daily\\",
+        \\"startDate\\": \\"2022-01-01\\",
+        \\"subject\\": \\"各種勤怠申請 X\\",
+      },
++     Object {
++       \\"requestId\\": \\"99999\\",
++       \\"requestType\\": \\"attendance_daily\\",
++     },
+    ],
+    \\"options\\": Object {
+      \\"canBulkApproveAttDailyRequest\\": true,
+      \\"canBulkApproveAttRequest\\": true,
+    },
+@@ -100,10 +104,14 @@
+        \\"requestId\\": \\"00003\\",
+        \\"requestStatus\\": \\"\\",
+        \\"requestType\\": \\"attendance_daily\\",
+        \\"startDate\\": \\"2022-01-01\\",
+        \\"subject\\": \\"各種勤怠申請 X\\",
++     },
++     Object {
++       \\"requestId\\": \\"99999\\",
++       \\"requestType\\": \\"attendance_daily\\",
+      },
+    ],
+    \\"targetList\\": Array [
+      Object {
+        \\"approverDepartmentName\\": \\"承認者部署名\\",
+@@ -147,8 +155,12 @@
+        \\"requestId\\": \\"00003\\",
+        \\"requestStatus\\": \\"\\",
+        \\"requestType\\": \\"attendance_daily\\",
+        \\"startDate\\": \\"2022-01-01\\",
+        \\"subject\\": \\"各種勤怠申請 X\\",
++     },
++     Object {
++       \\"requestId\\": \\"99999\\",
++       \\"requestType\\": \\"attendance_daily\\",
+      },
+    ],
+  }"
+`;
+
+exports[`reducer() MODULES/ENTITIES/APPROVAL/SET_RECORDS checkedAll should be true from false 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,11 +1,11 @@
+  Object {
+    \\"checked\\": Array [
+      \\"00001\\",
+      \\"00002\\",
+    ],
+-   \\"checkedAll\\": false,
++   \\"checkedAll\\": true,
+    \\"filterType\\": \\"all\\",
+    \\"filteredList\\": Array [
+      Object {
+        \\"approverDepartmentName\\": \\"承認者部署名\\",
+        \\"approverName\\": \\"承認者名\\",
+@@ -33,26 +33,10 @@
+        \\"requestId\\": \\"00002\\",
+        \\"requestType\\": \\"attendance_fix\\",
+        \\"subject\\": \\"勤務確定申請\\",
+        \\"targetMonth\\": \\"2022-01\\",
+      },
+-     Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"endDate\\": \\"2022-01-02\\",
+-       \\"originalRequestStatus\\": \\"\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-23 03:04\\",
+-       \\"requestId\\": \\"00003\\",
+-       \\"requestStatus\\": \\"\\",
+-       \\"requestType\\": \\"attendance_daily\\",
+-       \\"startDate\\": \\"2022-01-01\\",
+-       \\"subject\\": \\"各種勤怠申請 X\\",
+-     },
+    ],
+    \\"options\\": Object {
+      \\"canBulkApproveAttDailyRequest\\": true,
+      \\"canBulkApproveAttRequest\\": true,
+    },
+@@ -83,26 +67,10 @@
+        \\"requestDate\\": \\"2022-02-22 22:22\\",
+        \\"requestId\\": \\"00002\\",
+        \\"requestType\\": \\"attendance_fix\\",
+        \\"subject\\": \\"勤務確定申請\\",
+        \\"targetMonth\\": \\"2022-01\\",
+-     },
+-     Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"endDate\\": \\"2022-01-02\\",
+-       \\"originalRequestStatus\\": \\"\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-23 03:04\\",
+-       \\"requestId\\": \\"00003\\",
+-       \\"requestStatus\\": \\"\\",
+-       \\"requestType\\": \\"attendance_daily\\",
+-       \\"startDate\\": \\"2022-01-01\\",
+-       \\"subject\\": \\"各種勤怠申請 X\\",
+      },
+    ],
+    \\"targetList\\": Array [
+      Object {
+        \\"approverDepartmentName\\": \\"承認者部署名\\",
+@@ -130,24 +98,8 @@
+        \\"requestDate\\": \\"2022-02-22 22:22\\",
+        \\"requestId\\": \\"00002\\",
+        \\"requestType\\": \\"attendance_fix\\",
+        \\"subject\\": \\"勤務確定申請\\",
+        \\"targetMonth\\": \\"2022-01\\",
+-     },
+-     Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"endDate\\": \\"2022-01-02\\",
+-       \\"originalRequestStatus\\": \\"\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-23 03:04\\",
+-       \\"requestId\\": \\"00003\\",
+-       \\"requestStatus\\": \\"\\",
+-       \\"requestType\\": \\"attendance_daily\\",
+-       \\"startDate\\": \\"2022-01-01\\",
+-       \\"subject\\": \\"各種勤怠申請 X\\",
+      },
+    ],
+  }"
+`;
+
+exports[`reducer() MODULES/ENTITIES/APPROVAL/SET_RECORDS checkedAll should be true from true 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,10 +1,8 @@
+  Object {
+    \\"checked\\": Array [
+      \\"00001\\",
+-     \\"00002\\",
+-     \\"00003\\",
+    ],
+    \\"checkedAll\\": true,
+    \\"filterType\\": \\"all\\",
+    \\"filteredList\\": Array [
+      Object {
+@@ -20,39 +18,10 @@
+        \\"requestId\\": \\"00001\\",
+        \\"requestStatus\\": \\"\\",
+        \\"requestType\\": \\"attendance_daily\\",
+        \\"startDate\\": \\"2022-01-01\\",
+        \\"subject\\": \\"各種勤怠申請 Y\\",
+-     },
+-     Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-22 22:22\\",
+-       \\"requestId\\": \\"00002\\",
+-       \\"requestType\\": \\"attendance_fix\\",
+-       \\"subject\\": \\"勤務確定申請\\",
+-       \\"targetMonth\\": \\"2022-01\\",
+-     },
+-     Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"endDate\\": \\"2022-01-02\\",
+-       \\"originalRequestStatus\\": \\"\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-23 03:04\\",
+-       \\"requestId\\": \\"00003\\",
+-       \\"requestStatus\\": \\"\\",
+-       \\"requestType\\": \\"attendance_daily\\",
+-       \\"startDate\\": \\"2022-01-01\\",
+-       \\"subject\\": \\"各種勤怠申請 X\\",
+      },
+    ],
+    \\"options\\": Object {
+      \\"canBulkApproveAttDailyRequest\\": true,
+      \\"canBulkApproveAttRequest\\": true,
+@@ -71,40 +40,11 @@
+        \\"requestId\\": \\"00001\\",
+        \\"requestStatus\\": \\"\\",
+        \\"requestType\\": \\"attendance_daily\\",
+        \\"startDate\\": \\"2022-01-01\\",
+        \\"subject\\": \\"各種勤怠申請 Y\\",
+-     },
+-     Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-22 22:22\\",
+-       \\"requestId\\": \\"00002\\",
+-       \\"requestType\\": \\"attendance_fix\\",
+-       \\"subject\\": \\"勤務確定申請\\",
+-       \\"targetMonth\\": \\"2022-01\\",
+      },
+-     Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"endDate\\": \\"2022-01-02\\",
+-       \\"originalRequestStatus\\": \\"\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-23 03:04\\",
+-       \\"requestId\\": \\"00003\\",
+-       \\"requestStatus\\": \\"\\",
+-       \\"requestType\\": \\"attendance_daily\\",
+-       \\"startDate\\": \\"2022-01-01\\",
+-       \\"subject\\": \\"各種勤怠申請 X\\",
+-     },
+    ],
+    \\"targetList\\": Array [
+      Object {
+        \\"approverDepartmentName\\": \\"承認者部署名\\",
+        \\"approverName\\": \\"承認者名\\",
+@@ -118,37 +58,8 @@
+        \\"requestId\\": \\"00001\\",
+        \\"requestStatus\\": \\"\\",
+        \\"requestType\\": \\"attendance_daily\\",
+        \\"startDate\\": \\"2022-01-01\\",
+        \\"subject\\": \\"各種勤怠申請 Y\\",
+-     },
+-     Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-22 22:22\\",
+-       \\"requestId\\": \\"00002\\",
+-       \\"requestType\\": \\"attendance_fix\\",
+-       \\"subject\\": \\"勤務確定申請\\",
+-       \\"targetMonth\\": \\"2022-01\\",
+-     },
+-     Object {
+-       \\"approverDepartmentName\\": \\"承認者部署名\\",
+-       \\"approverName\\": \\"承認者名\\",
+-       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
+-       \\"departmentName\\": \\"部署名\\",
+-       \\"employeeName\\": \\"社員名\\",
+-       \\"endDate\\": \\"2022-01-02\\",
+-       \\"originalRequestStatus\\": \\"\\",
+-       \\"photoUrl\\": \\"photoUrl\\",
+-       \\"requestDate\\": \\"2022-02-23 03:04\\",
+-       \\"requestId\\": \\"00003\\",
+-       \\"requestStatus\\": \\"\\",
+-       \\"requestType\\": \\"attendance_daily\\",
+-       \\"startDate\\": \\"2022-01-01\\",
+-       \\"subject\\": \\"各種勤怠申請 X\\",
+      },
+    ],
+  }"
+`;
+
+exports[`reducer() MODULES/ENTITIES/APPROVAL/SET_RECORDS should do 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"checked\\": Array [],
+    \\"checkedAll\\": false,
+    \\"filterType\\": \\"all\\",
+-   \\"filteredList\\": Array [],
++   \\"filteredList\\": Array [
++     Object {
++       \\"approverDepartmentName\\": \\"承認者部署名\\",
++       \\"approverName\\": \\"承認者名\\",
++       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
++       \\"departmentName\\": \\"部署名\\",
++       \\"employeeName\\": \\"社員名\\",
++       \\"endDate\\": \\"2022-01-02\\",
++       \\"originalRequestStatus\\": \\"\\",
++       \\"photoUrl\\": \\"photoUrl\\",
++       \\"requestDate\\": \\"2022-02-21 12:12\\",
++       \\"requestId\\": \\"00001\\",
++       \\"requestStatus\\": \\"\\",
++       \\"requestType\\": \\"attendance_daily\\",
++       \\"startDate\\": \\"2022-01-01\\",
++       \\"subject\\": \\"各種勤怠申請 Y\\",
++     },
++     Object {
++       \\"approverDepartmentName\\": \\"承認者部署名\\",
++       \\"approverName\\": \\"承認者名\\",
++       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
++       \\"departmentName\\": \\"部署名\\",
++       \\"employeeName\\": \\"社員名\\",
++       \\"photoUrl\\": \\"photoUrl\\",
++       \\"requestDate\\": \\"2022-02-22 22:22\\",
++       \\"requestId\\": \\"00002\\",
++       \\"requestType\\": \\"attendance_fix\\",
++       \\"subject\\": \\"勤務確定申請\\",
++       \\"targetMonth\\": \\"2022-01\\",
++     },
++     Object {
++       \\"approverDepartmentName\\": \\"承認者部署名\\",
++       \\"approverName\\": \\"承認者名\\",
++       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
++       \\"departmentName\\": \\"部署名\\",
++       \\"employeeName\\": \\"社員名\\",
++       \\"endDate\\": \\"2022-01-02\\",
++       \\"originalRequestStatus\\": \\"\\",
++       \\"photoUrl\\": \\"photoUrl\\",
++       \\"requestDate\\": \\"2022-02-23 03:04\\",
++       \\"requestId\\": \\"00003\\",
++       \\"requestStatus\\": \\"\\",
++       \\"requestType\\": \\"attendance_daily\\",
++       \\"startDate\\": \\"2022-01-01\\",
++       \\"subject\\": \\"各種勤怠申請 X\\",
++     },
++   ],
+    \\"options\\": Object {
+      \\"canBulkApproveAttDailyRequest\\": false,
+      \\"canBulkApproveAttRequest\\": false,
++   },
++   \\"original\\": Array [
++     Object {
++       \\"approverDepartmentName\\": \\"承認者部署名\\",
++       \\"approverName\\": \\"承認者名\\",
++       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
++       \\"departmentName\\": \\"部署名\\",
++       \\"employeeName\\": \\"社員名\\",
++       \\"endDate\\": \\"2022-01-02\\",
++       \\"originalRequestStatus\\": \\"\\",
++       \\"photoUrl\\": \\"photoUrl\\",
++       \\"requestDate\\": \\"2022-02-21 12:12\\",
++       \\"requestId\\": \\"00001\\",
++       \\"requestStatus\\": \\"\\",
++       \\"requestType\\": \\"attendance_daily\\",
++       \\"startDate\\": \\"2022-01-01\\",
++       \\"subject\\": \\"各種勤怠申請 Y\\",
+      },
+-   \\"original\\": Array [],
++     Object {
++       \\"approverDepartmentName\\": \\"承認者部署名\\",
++       \\"approverName\\": \\"承認者名\\",
++       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
++       \\"departmentName\\": \\"部署名\\",
++       \\"employeeName\\": \\"社員名\\",
++       \\"photoUrl\\": \\"photoUrl\\",
++       \\"requestDate\\": \\"2022-02-22 22:22\\",
++       \\"requestId\\": \\"00002\\",
++       \\"requestType\\": \\"attendance_fix\\",
++       \\"subject\\": \\"勤務確定申請\\",
++       \\"targetMonth\\": \\"2022-01\\",
++     },
++     Object {
++       \\"approverDepartmentName\\": \\"承認者部署名\\",
++       \\"approverName\\": \\"承認者名\\",
++       \\"approverPhotoUrl\\": \\"approverPhotoUrl\\",
++       \\"departmentName\\": \\"部署名\\",
++       \\"employeeName\\": \\"社員名\\",
++       \\"endDate\\": \\"2022-01-02\\",
++       \\"originalRequestStatus\\": \\"\\",
++       \\"photoUrl\\": \\"photoUrl\\",
++       \\"requestDate\\": \\"2022-02-23 03:04\\",
++       \\"requestId\\": \\"00003\\",
++       \\"requestStatus\\": \\"\\",
++       \\"requestType\\": \\"attendance_daily\\",
++       \\"startDate\\": \\"2022-01-01\\",
++       \\"subject\\": \\"各種勤怠申請 X\\",
++     },
++   ],
+    \\"targetList\\": Array [],
+  }"
+`;
+
+exports[`reducer() MODULES/ENTITIES/APPROVAL/SET_RECORDS should not update other state 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -35,10 +35,14 @@
+        \\"requestStatus\\": \\"\\",
+        \\"requestType\\": \\"attendance_daily\\",
+        \\"startDate\\": \\"2022-01-01\\",
+        \\"subject\\": \\"各種勤怠申請 X\\",
+      },
++     Object {
++       \\"requestId\\": \\"99999\\",
++       \\"requestType\\": \\"attendance_daily\\",
++     },
+    ],
+    \\"options\\": Object {
+      \\"canBulkApproveAttDailyRequest\\": true,
+      \\"canBulkApproveAttRequest\\": true,
+    },
+@@ -85,10 +89,14 @@
+        \\"requestId\\": \\"00003\\",
+        \\"requestStatus\\": \\"\\",
+        \\"requestType\\": \\"attendance_daily\\",
+        \\"startDate\\": \\"2022-01-01\\",
+        \\"subject\\": \\"各種勤怠申請 X\\",
++     },
++     Object {
++       \\"requestId\\": \\"99999\\",
++       \\"requestType\\": \\"attendance_daily\\",
+      },
+    ],
+    \\"targetList\\": Array [
+      Object {
+        \\"approverDepartmentName\\": \\"承認者部署名\\",
+@@ -119,8 +127,12 @@
+        \\"requestId\\": \\"00003\\",
+        \\"requestStatus\\": \\"\\",
+        \\"requestType\\": \\"attendance_daily\\",
+        \\"startDate\\": \\"2022-01-01\\",
+        \\"subject\\": \\"各種勤怠申請 X\\",
++     },
++     Object {
++       \\"requestId\\": \\"99999\\",
++       \\"requestType\\": \\"attendance_daily\\",
+      },
+    ],
+  }"
+`;
+
+exports[`reducer() MODULES/ENTITIES/APPROVAL/UNCHECK should do. 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,12 +1,11 @@
+  Object {
+    \\"checked\\": Array [
+-     \\"00001\\",
+      \\"00002\\",
+      \\"00003\\",
+    ],
+-   \\"checkedAll\\": true,
++   \\"checkedAll\\": false,
+    \\"filterType\\": \\"all\\",
+    \\"filteredList\\": Array [
+      Object {
+        \\"approverDepartmentName\\": \\"承認者部署名\\",
+        \\"approverName\\": \\"承認者名\\","
+`;
+
+exports[`reducer() MODULES/ENTITIES/APPROVAL/UNCHECK_ALL 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,12 +1,8 @@
+  Object {
+-   \\"checked\\": Array [
+-     \\"00001\\",
+-     \\"00002\\",
+-     \\"00003\\",
+-   ],
+-   \\"checkedAll\\": true,
++   \\"checked\\": Array [],
++   \\"checkedAll\\": false,
+    \\"filterType\\": \\"all\\",
+    \\"filteredList\\": Array [
+      Object {
+        \\"approverDepartmentName\\": \\"承認者部署名\\",
+        \\"approverName\\": \\"承認者名\\","
+`;

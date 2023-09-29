@@ -1,0 +1,88 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-psa__project {
+  height: 100vh;
+  overflow: auto;
+
+  &__btn-area {
+    white-space: nowrap;
+  }
+
+  &__btn--delete,
+  &__btn--cancel,
+  &__btn--save {
+    padding: $size-xs $container-padding;
+  }
+
+  &__btn--delete {
+    margin-right: $size-m;
+    background-color: $color-bg-white;
+    color: $color-btn-remove;
+  }
+
+  &__btn--cancel {
+    margin-right: $size-m;
+  }
+
+  &__btn--save {
+    background-color: $color-btn-save;
+    color: $color-bg-white;
+  }
+
+  &__content {
+    display: flex;
+    padding: $container-padding;
+  }
+
+  &__anchors {
+    position: relative;
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+  }
+
+  &__link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 60px;
+    border: none;
+    background: none;
+    outline: none;
+
+    &:hover,
+    &:focus {
+      background: none;
+      box-shadow: none;
+      outline: none;
+    }
+
+    &-icon {
+      margin-right: $size-xs;
+      fill: $color-icon-grey;
+    }
+
+    &::after {
+      position: absolute;
+      top: 29px;
+      left: 9px;
+      width: 2px;
+      height: 40px;
+      background-color: $color-icon-light-grey;
+      content: '';
+    }
+
+    &:last-child {
+      &::after {
+        content: none;
+      }
+    }
+  }
+
+  &__link.is-active {
+    .ts-psa__project__link-icon {
+      fill: $color-btn-save;
+    }
+  }
+}

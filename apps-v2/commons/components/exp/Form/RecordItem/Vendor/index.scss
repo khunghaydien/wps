@@ -1,0 +1,53 @@
+.ts-expenses__form-record-item__vendor {
+  &-input {
+    input {
+      height: unset;
+      padding: unset;
+      border: unset;
+    }
+  }
+
+  &-clear {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    background-color: #afadab;
+
+    svg {
+      width: 8px !important;
+      height: 8px !important;
+      fill: #fff !important;
+    }
+  }
+
+  &--info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-btn--viewDetail {
+    &,
+    &:focus {
+      padding: 0;
+      border: 0;
+      background: transparent !important;
+      box-shadow: none;
+    }
+
+    &:hover {
+      padding: 0;
+      border: 0;
+      background: transparent !important;
+      box-shadow: none;
+      text-decoration: underline;
+    }
+  }
+
+  &--jct-number {
+    line-height: 28px;
+  }
+}

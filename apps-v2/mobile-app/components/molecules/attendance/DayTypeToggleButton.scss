@@ -1,0 +1,25 @@
+.mobile-app-molecules-commons-switch-field{
+  &__item_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    line-height: 2;
+  }
+  &__item_wrapper_disabled {
+    padding: 5px;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #f0f7fa;
+    text-shadow: none;
+    color: #838388;
+    border-radius: 3px;
+    line-height: 2;
+  }
+  &__text {
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`normalized early leave request should normalized with incorrect code. 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -3,8 +3,9 @@
+    \\"earlyLeaveReasons\\": Array [
+      Object {
+        \\"code\\": \\"REASON_CODE_1\\",
+      },
+    ],
+-   \\"earlyLeaveRequestReasonCode\\": \\"REASON_CODE_2\\",
++   \\"earlyLeaveRequestReason\\": null,
++   \\"earlyLeaveRequestReasonCode\\": null,
+    \\"recordDate\\": \\"2023-01-01\\",
+  }"
+`;
+
+exports[`normalized late arrival request should normalized with incorrect code. 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -3,8 +3,9 @@
+    \\"lateArrivalReasons\\": Array [
+      Object {
+        \\"code\\": \\"REASON_CODE_1\\",
+      },
+    ],
+-   \\"lateArrivalRequestReasonCode\\": \\"REASON_CODE_2\\",
++   \\"lateArrivalRequestReason\\": null,
++   \\"lateArrivalRequestReasonCode\\": null,
+    \\"recordDate\\": \\"2023-01-01\\",
+  }"
+`;
+
+exports[`normalized leave request should normalized with incorrect code. 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,9 +1,10 @@
+  Object {
+    \\"appliedLeaveRequest1\\": true,
+-   \\"leaveRequest1Code\\": \\"LEAVE_CODE_2\\",
+-   \\"leaveRequest1Range\\": \\"Day\\",
++   \\"leaveRequest1Code\\": null,
++   \\"leaveRequest1Leave\\": null,
++   \\"leaveRequest1Range\\": null,
+    \\"leaveRequestLeaves\\": Array [
+      Object {
+        \\"code\\": \\"LEAVE_CODE_1\\",
+        \\"ranges\\": Array [
+          \\"Day\\","
+`;
+
+exports[`normalized leave request should normalized with incorrect range. 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,9 +1,15 @@
+  Object {
+    \\"appliedLeaveRequest1\\": true,
+    \\"leaveRequest1Code\\": \\"LEAVE_CODE_1\\",
+-   \\"leaveRequest1Range\\": \\"AM\\",
++   \\"leaveRequest1Leave\\": Object {
++     \\"code\\": \\"LEAVE_CODE_1\\",
++     \\"ranges\\": Array [
++       \\"Day\\",
++     ],
++   },
++   \\"leaveRequest1Range\\": null,
+    \\"leaveRequestLeaves\\": Array [
+      Object {
+        \\"code\\": \\"LEAVE_CODE_1\\",
+        \\"ranges\\": Array [
+          \\"Day\\","
+`;
+
+exports[`reducer() TIMESHEET-PC-IMPORTER/DAILY_RECORDS/SET_RECORD_VALUE_BY_RANGE should normalized. 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"endDate\\": \\"2023-01-01\\",
+    \\"records\\": Map {
+      \\"2023-01-01\\" => Object {
+        \\"appliedLeaveRequest1\\": false,
+-       \\"leaveRequest1Code\\": \\"LEAVE_CODE_1\\",
+-       \\"leaveRequest1Range\\": \\"Day\\",
++       \\"comment\\": \\"test\\",
++       \\"errors\\": Array [],
++       \\"leaveRequest1Code\\": null,
++       \\"leaveRequest1Leave\\": null,
++       \\"leaveRequest1Range\\": null,
+        \\"leaveRequestLeaves\\": Array [
+          Object {
+            \\"code\\": \\"LEAVE_CODE_1\\",
+            \\"ranges\\": Array [
+              \\"Day\\",
+            ],
+          },
+        ],
+        \\"recordDate\\": \\"2023-01-01\\",
++       \\"validationErrors\\": null,
+      },
+    },
+    \\"startDate\\": \\"2023-01-01\\",
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC-IMPORTER/DAILY_RECORDS/SET_RECORD_VALUE_BY_RANGE should set if records is initialized 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,10 +1,19 @@
+  Object {
+    \\"endDate\\": \\"2023-01-02\\",
+    \\"records\\": Map {
+      \\"2023-01-01\\" => Object {
++       \\"errors\\": Array [],
++       \\"leaveRequest1Code\\": null,
++       \\"leaveRequest1Leave\\": null,
++       \\"leaveRequest1Range\\": null,
++       \\"leaveRequestLeaves\\": Array [
++         \\"leave1\\",
++         \\"leave2\\",
++       ],
+        \\"recordDate\\": \\"2023-01-01\\",
++       \\"validationErrors\\": null,
+      },
+      \\"2023-01-02\\" => Object {
+        \\"key\\": \\"value\\",
+        \\"leaveRequestLeaves\\": \\"before\\",
+        \\"recordDate\\": \\"2023-01-02\\","
+`;
+
+exports[`reducer() TIMESHEET-PC-IMPORTER/DAILY_RECORDS/SET_RECORD_VALUE_BY_RECORD_DATE should normalized. 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"endDate\\": \\"2023-01-01\\",
+    \\"records\\": Map {
+      \\"2023-01-01\\" => Object {
+        \\"appliedLeaveRequest1\\": false,
+-       \\"leaveRequest1Code\\": \\"LEAVE_CODE_1\\",
+-       \\"leaveRequest1Range\\": \\"Day\\",
++       \\"comment\\": \\"test\\",
++       \\"errors\\": Array [],
++       \\"leaveRequest1Code\\": null,
++       \\"leaveRequest1Leave\\": null,
++       \\"leaveRequest1Range\\": null,
+        \\"leaveRequestLeaves\\": Array [
+          Object {
+            \\"code\\": \\"LEAVE_CODE_1\\",
+            \\"ranges\\": Array [
+              \\"Day\\",
+            ],
+          },
+        ],
+        \\"recordDate\\": \\"2023-01-01\\",
++       \\"validationErrors\\": null,
+      },
+    },
+    \\"startDate\\": \\"2023-01-01\\",
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC-IMPORTER/DAILY_RECORDS/SET_RECORD_VALUE_BY_RECORD_DATE should set if records is initialized 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,10 +1,19 @@
+  Object {
+    \\"endDate\\": \\"2023-01-02\\",
+    \\"records\\": Map {
+      \\"2023-01-01\\" => Object {
++       \\"errors\\": Array [],
++       \\"leaveRequest1Code\\": null,
++       \\"leaveRequest1Leave\\": null,
++       \\"leaveRequest1Range\\": null,
++       \\"leaveRequestLeaves\\": Array [
++         \\"leave1\\",
++         \\"leave2\\",
++       ],
+        \\"recordDate\\": \\"2023-01-01\\",
++       \\"validationErrors\\": null,
+      },
+      \\"2023-01-02\\" => Object {
+        \\"key\\": \\"value\\",
+        \\"leaveRequestLeaves\\": \\"before\\",
+        \\"recordDate\\": \\"2023-01-02\\","
+`;
+
+exports[`reducer() TIMESHEET-PC-IMPORTER/DAILY_RECORDS/SET_RECORD_VALUE_BY_RECORD_DATE should set if records is initialized 2`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -3,13 +3,21 @@
+    \\"records\\": Map {
+      \\"2023-01-01\\" => Object {
+        \\"recordDate\\": \\"2023-01-01\\",
+      },
+      \\"2023-01-02\\" => Object {
++       \\"errors\\": Array [],
+        \\"key\\": \\"value\\",
+-       \\"leaveRequestLeaves\\": \\"before\\",
++       \\"leaveRequest1Code\\": null,
++       \\"leaveRequest1Leave\\": null,
++       \\"leaveRequest1Range\\": null,
++       \\"leaveRequestLeaves\\": Array [
++         \\"leave1\\",
++         \\"leave2\\",
++       ],
+        \\"recordDate\\": \\"2023-01-02\\",
++       \\"validationErrors\\": null,
+      },
+      \\"2023-01-03\\" => Object {
+        \\"recordDate\\": \\"2023-01-03\\",
+      },
+    },"
+`;
+
+exports[`reducer() TIMESHEET-PC-IMPORTER/DAILY_RECORDS/SET_RECORD_VALUE_BY_RECORD_DATE should set if records is initialized 3`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -8,10 +8,19 @@
+        \\"key\\": \\"value\\",
+        \\"leaveRequestLeaves\\": \\"before\\",
+        \\"recordDate\\": \\"2023-01-02\\",
+      },
+      \\"2023-01-03\\" => Object {
++       \\"errors\\": Array [],
++       \\"leaveRequest1Code\\": null,
++       \\"leaveRequest1Leave\\": null,
++       \\"leaveRequest1Range\\": null,
++       \\"leaveRequestLeaves\\": Array [
++         \\"leave1\\",
++         \\"leave2\\",
++       ],
+        \\"recordDate\\": \\"2023-01-03\\",
++       \\"validationErrors\\": null,
+      },
+    },
+    \\"startDate\\": \\"2023-01-01\\",
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC-IMPORTER/DAILY_RECORDS/SET_RECORD_VALUE_BY_RECORD_DATE should set if records is initialized 4`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;

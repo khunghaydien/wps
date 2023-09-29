@@ -1,0 +1,99 @@
+.commons-grid {
+  position: relative;
+  height: 100%;
+
+  &::after {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    display: block;
+    width: 20px;
+    height: 33px;
+    background-color: $color-bg-heading;
+    content: '';
+  }
+
+  &__head {
+    border-top: 1px solid $color-border-default;
+    border-bottom: 1px solid $color-border-default;
+    background-color: $color-bg-heading;
+    font-size: $font-size-small;
+    overflow-y: scroll;
+  }
+
+  &__head-row {
+    display: flex;
+    height: 35px;
+    align-items: center;
+  }
+
+  &__filter-row {
+    display: flex;
+    align-items: center;
+  }
+
+  &__addon {
+    display: flex;
+    min-width: 1.5em;
+    height: 100%;
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  &__cell-head,
+  &__cell-filter {
+    padding-right: 5px;
+    padding-left: 5px;
+    color: $color-text-modest;
+  }
+
+  &__cell-filter {
+    input.slds-input,
+    select.slds-input {
+      padding: 0 0.4rem;
+    }
+  }
+
+  &__cell-filter {
+    padding-bottom: 5px;
+  }
+
+  &__cell-head--amount {
+    color: #2728ff;
+  }
+
+  &__cell-head--checkbox,
+  &__cell-filter--checkbox {
+    flex: 0 0 30px;
+  }
+
+  &__body {
+    $headerHeight: 35px + 2px;
+    $headerHeightWithFilter: $headerHeight + 37px;
+
+    height: calc(100% - #{$headerHeight});
+    overflow-y: scroll;
+
+    &--use-filter {
+      height: calc(100% - #{$headerHeightWithFilter});
+    }
+  }
+
+  &__input-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+
+    input {
+      height: 16px;
+      width: 16px;
+    }
+  }
+
+  &__checkbox-hide {
+    display: none;
+  }
+}

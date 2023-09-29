@@ -1,0 +1,95 @@
+.admin-pc-menu-pane {
+  position: absolute;
+  left: 0;
+  width: 250px;
+  height: calc(100vh - 42px);
+  background-color: $color-bg-pane-first;
+  transition: 0.3s;
+
+  &__header {
+    position: relative;
+    height: 34px;
+    background-color: $color-bg-pane-header-first;
+    color: $color-text-pane-header-first;
+    font-size: $font-size-x-large;
+  }
+
+  &__header-content {
+    padding-left: 72px;
+  }
+
+  &__header-content__title {
+    display: table-cell;
+    height: 36px;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  &__tree {
+    overflow: auto;
+    height: calc(100% - 125px);
+  }
+
+  &__tree-top {
+    border-bottom: 1px solid #8ea1b1;
+  }
+
+  &__tree-top > div {
+    width: 235px;
+    height: 54px;
+    padding-left: 5px;
+  }
+
+  &__tree-top-search,
+  &__no-menu,
+  &__tree-top__company-selector.slds-select {
+    width: 237px;
+    margin: 5px;
+  }
+
+  &__tree-menu-item {
+    .slds-tree__item {
+      align-items: center;
+      padding-top: 0.375rem;
+      padding-bottom: 0.375rem;
+    }
+
+    a {
+      line-height: 1rem;
+    }
+
+    &--group:not(:last-of-type) {
+      border-bottom: solid 1px $color-border-default;
+    }
+  }
+
+  & &__tree-container {
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  & &__tree-menu-item--selected,
+  & &__tree-menu-item--selected:focus,
+  & &__tree-menu-item--selected:hover {
+    background-color: $color-bg-active;
+  }
+
+  & &__tree-menu-item-text-link--selected,
+  & &__tree-menu-item-text-link--selected:focus,
+  & &__tree-menu-item-text-link--selected:hover {
+    color: $color-text-default;
+    text-decoration: none;
+  }
+
+  &__tree-menu-btn {
+    margin-right: 0.5rem;
+  }
+
+  & &__tree-title--caps {
+    padding: 6px 12px;
+    background-color: $color-gray-68;
+    color: $color-text-inverse;
+    font-size: 14px;
+  }
+}

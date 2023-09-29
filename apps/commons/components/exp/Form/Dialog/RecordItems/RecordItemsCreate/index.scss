@@ -1,0 +1,71 @@
+@import '../../../../../../styles/variables/colors';
+
+.ts-expenses-modal-record-items__create {
+  &__dialog-frame {
+    width: 764px;
+
+    .ts-exp-icon,
+    .ts-exp-icon-button {
+      path {
+        fill: #fff;
+      }
+    }
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $color-border-default;
+
+    &-name {
+      color: #333;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    &-amount {
+      color: $color-text-modest;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  &__body {
+    max-height: 300px;
+    padding: 24px 8px 0 2px;
+    overflow-y: auto;
+
+    &-title {
+      color: #333;
+      font-size: 13px;
+      font-weight: bold;
+    }
+  }
+
+  &__error {
+    margin-right: 100px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 15px;
+    text-align: right;
+  }
+
+  &__btn-add-row {
+    padding: 5px;
+    background-color: $color-bg-lighter;
+    color: $color-bg-primary;
+    font-weight: bold;
+    outline: none;
+    vertical-align: middle;
+
+    & .ts-icon-button__image {
+      width: 12px;
+      height: 12px;
+      margin: 0 6px 4px 0;
+    }
+  }
+
+  &__action {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,29 @@
+.approvals-pc-pane-expand-wrapper {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 42px);
+
+  &__list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48%;
+    height: 100%;
+  }
+
+  &__detail {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 52%;
+    height: 100%;
+    background-color: #f2f2f2;
+    box-shadow: -3px 10px 15px rgba(0, 0, 0, 0.25);
+    transition: width 0.25s ease;
+    will-change: width;
+  }
+
+  &__detail--is-expand {
+    width: calc(100% - 150px);
+  }
+}

@@ -1,0 +1,20 @@
+.record-access-target-privilege {
+  &__title {
+    margin: 0 0 5px;
+    color: $color-text-modest;
+    font-size: 1rem;
+  }
+
+  &__hint {
+    color: #92939a;
+    margin-left: 6px;
+  }
+
+  &__delete {
+    float: right;
+  }
+
+  > .data-grid {
+    margin-top: 20px;
+  }
+}

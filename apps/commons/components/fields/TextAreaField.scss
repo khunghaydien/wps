@@ -1,0 +1,23 @@
+.ts-textarea-field {
+  overflow: auto;
+  height: 78px;
+  padding: 0.5rem 1rem 0 0.75rem !important;
+  line-height: 20px !important;
+
+  // divに適応します。
+  &--readonly {
+    display: inline-block;
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 12px;
+    line-height: 28px;
+  }
+
+  &--no-resize {
+    resize: none;
+  }
+
+  &::placeholder {
+    color: #999;
+  }
+}

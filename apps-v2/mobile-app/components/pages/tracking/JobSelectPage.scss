@@ -1,0 +1,10 @@
+@import 'mobile-global-imports';
+
+.mobile-app-pages-tracking-job-select-page {
+  &__navigation {
+    border-bottom: 1px solid #c9c9c9;
+  }
+  &__body {
+    margin: 48px 0;
+  }
+}

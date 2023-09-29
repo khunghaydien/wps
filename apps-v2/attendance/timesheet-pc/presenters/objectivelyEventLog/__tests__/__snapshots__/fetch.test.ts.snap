@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reload complete() should do. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "TIMESHEET-PC/ENTITIES/DAILY_OBJECTIVELY_EVENT_LOG_DIALOG/SET",
+  },
+]
+`;
+
+exports[`reload error() should do. 1`] = `
+Array [
+  Object {
+    "type": "TIMESHEET-PC/ENTITIES/DAILY_OBJECTIVELY_EVENT_LOG_DIALOG/CLEAR",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`reload finally() should do. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`reload start() should do. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+]
+`;

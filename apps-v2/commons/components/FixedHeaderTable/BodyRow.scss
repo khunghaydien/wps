@@ -1,0 +1,9 @@
+.commons-fixed-header-table-body-row {
+  display: flex;
+  min-height: 50px;
+  align-items: center;
+
+  & + & {
+    border-top: 1px solid $color-border-default;
+  }
+}

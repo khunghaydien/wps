@@ -1,0 +1,15 @@
+.commons-story-collapse {
+  &__children {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: #fff;
+  }
+
+  &__summary-sample {
+    display: inline-block;
+  }
+}

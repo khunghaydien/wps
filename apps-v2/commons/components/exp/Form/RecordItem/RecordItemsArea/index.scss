@@ -1,0 +1,43 @@
+.ts-expenses-requests__record-items-area {
+  &-amount {
+    display: flex;
+    justify-content: flex-end;
+    padding: 3px 30px;
+    color: $color-text-modest;
+
+    &-text {
+      padding-top: 12px;
+      border-bottom: 1px solid #d8dde6;
+      font-weight: bold;
+    }
+
+    &-number {
+      padding-left: 70px;
+      border-bottom: 1px solid #d8dde6;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+
+  &-feedback {
+    padding: 4px 2px;
+    color: $ts-warning;
+  }
+
+  &-delete {
+    height: 32px;
+    margin-left: 10px;
+  }
+
+  &-buttons {
+    margin-bottom: 20px;
+  }
+
+  &-create {
+    height: 32px;
+  }
+
+  &-confirm {
+    height: 32px;
+  }
+}

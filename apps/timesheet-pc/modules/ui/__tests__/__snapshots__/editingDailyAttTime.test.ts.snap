@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected undefined but received null."
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/ADD_REST_TIME 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -20,9 +20,13 @@
+      },
+      Object {
+        \\"end\\": \\"17:00\\",
+        \\"start\\": \\"16:00\\",
+      },
++     Object {
++       \\"end\\": \\"\\",
++       \\"start\\": \\"\\",
++     },
+    ],
+    \\"startStampTime\\": \\"\\",
+    \\"startTime\\": \\"12:00\\",
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/DELETE_REST_TIME 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -16,13 +16,9 @@
+      },
+      Object {
+        \\"end\\": \\"15:00\\",
+        \\"start\\": \\"14:57\\",
+      },
+-     Object {
+-       \\"end\\": \\"17:00\\",
+-       \\"start\\": \\"16:00\\",
+-     },
+    ],
+    \\"startStampTime\\": \\"\\",
+    \\"startTime\\": \\"12:00\\",
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"endStampTime\\": \\"\\",
++   \\"endTime\\": \\"13:00\\",
++   \\"hasRestTime\\": false,
++   \\"insufficientRestTime\\": 0,
++   \\"recordDate\\": \\"2020-04-16\\",
++   \\"restHours\\": null,
++   \\"restTimes\\": Array [
++     Object {
++       \\"end\\": \\"13:00\\",
++       \\"start\\": \\"12:00\\",
++     },
++     Object {
++       \\"end\\": \\"14:56\\",
++       \\"start\\": \\"13:42\\",
++     },
++     Object {
++       \\"end\\": \\"15:00\\",
++       \\"start\\": \\"14:57\\",
++     },
++     Object {
++       \\"end\\": \\"17:00\\",
++       \\"start\\": \\"16:00\\",
++     },
++   ],
++   \\"startStampTime\\": \\"\\",
++   \\"startTime\\": \\"12:00\\",
++ }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/UNSET 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected object but received null."
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/UPDATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,8 +1,8 @@
+  Object {
+    \\"endStampTime\\": \\"\\",
+-   \\"endTime\\": \\"13:00\\",
++   \\"endTime\\": \\"24:00\\",
+    \\"hasRestTime\\": false,
+    \\"insufficientRestTime\\": 0,
+    \\"recordDate\\": \\"2020-04-16\\",
+    \\"restHours\\": null,
+    \\"restTimes\\": Array ["
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/UPDATE_REST_TIME 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -6,11 +6,11 @@
+    \\"recordDate\\": \\"2020-04-16\\",
+    \\"restHours\\": null,
+    \\"restTimes\\": Array [
+      Object {
+        \\"end\\": \\"13:00\\",
+-       \\"start\\": \\"12:00\\",
++       \\"start\\": \\"07:00\\",
+      },
+      Object {
+        \\"end\\": \\"14:56\\",
+        \\"start\\": \\"13:42\\",
+      },"
+`;

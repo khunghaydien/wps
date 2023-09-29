@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@INIT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"allIds\\": Array [],
++   \\"byId\\": Object {},
++ }"
+`;
+
+exports[`reducer() COMMON/APPROVER_EMPLOYEE_SEARCH/LIST/CLEAR 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"allIds\\": Array [
+-     \\"a0Y2v00000TTpa1EAD\\",
+-     \\"a0Y2v00000TTpa6EAD\\",
+-     \\"a0Y2v00000TTpaUEAT\\",
+-     \\"a0Y2v00000TTpfbEAD\\",
+-     \\"a0Y2v00000TTpZwEAL\\",
+-   ],
+-   \\"byId\\": Object {
+-     \\"a0Y2v00000TTpZwEAL\\": Object {
+-       \\"departmentCode\\": \\"somu\\",
+-       \\"departmentName\\": \\"総務\\",
+-       \\"employeeCode\\": \\"w_w\\",
+-       \\"employeeName\\": \\"渡邉 航\\",
+-       \\"employeePhotoUrl\\": \\"https://c.ap15.content.force.com/profilephoto/7292v000001JAVI/T\\",
+-       \\"id\\": \\"a0Y2v00000TTpZwEAL\\",
+-       \\"title\\": \\"\\",
+-     },
+-     \\"a0Y2v00000TTpa1EAD\\": Object {
+-       \\"departmentCode\\": \\"somu\\",
+-       \\"departmentName\\": \\"総務\\",
+-       \\"employeeCode\\": \\"add9-5\\",
+-       \\"employeeName\\": \\"add9家の -5さん\\",
+-       \\"employeePhotoUrl\\": \\"https://c.ap15.content.force.com/profilephoto/005/T\\",
+-       \\"id\\": \\"a0Y2v00000TTpa1EAD\\",
+-       \\"title\\": \\"\\",
+-     },
+-     \\"a0Y2v00000TTpa6EAD\\": Object {
+-       \\"departmentCode\\": \\"somu\\",
+-       \\"departmentName\\": \\"総務\\",
+-       \\"employeeCode\\": \\"em7-5\\",
+-       \\"employeeName\\": \\"em7家の -5さん\\",
+-       \\"employeePhotoUrl\\": \\"https://c.ap15.content.force.com/profilephoto/005/T\\",
+-       \\"id\\": \\"a0Y2v00000TTpa6EAD\\",
+-       \\"title\\": \\"\\",
+-     },
+-     \\"a0Y2v00000TTpaUEAT\\": Object {
+-       \\"departmentCode\\": \\"somu\\",
+-       \\"departmentName\\": \\"総務\\",
+-       \\"employeeCode\\": \\"oshimai\\",
+-       \\"employeeName\\": \\"途中で入ってくる 太郎\\",
+-       \\"employeePhotoUrl\\": \\"https://c.ap15.content.force.com/profilephoto/005/T\\",
+-       \\"id\\": \\"a0Y2v00000TTpaUEAT\\",
+-       \\"title\\": \\"\\",
+-     },
+-     \\"a0Y2v00000TTpfbEAD\\": Object {
+-       \\"departmentCode\\": \\"somu\\",
+-       \\"departmentName\\": \\"総務\\",
+-       \\"employeeCode\\": \\"totyunyusya\\",
+-       \\"employeeName\\": \\"途中 入社\\",
+-       \\"employeePhotoUrl\\": \\"https://c.ap15.content.force.com/profilephoto/005/T\\",
+-       \\"id\\": \\"a0Y2v00000TTpfbEAD\\",
+-       \\"title\\": \\"\\",
+-     },
+-   },
++   \\"allIds\\": Array [],
++   \\"byId\\": Object {},
+  }"
+`;
+
+exports[`reducer() COMMON/APPROVER_EMPLOYEE_SEARCH/LIST/SET_BY_REPOSITORY_RESPONSE_DATA 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"allIds\\": Array [],
+-   \\"byId\\": Object {},
++   \\"allIds\\": Array [
++     \\"a0Y2v00000TTpa1EAD\\",
++     \\"a0Y2v00000TTpa6EAD\\",
++     \\"a0Y2v00000TTpaUEAT\\",
++     \\"a0Y2v00000TTpfbEAD\\",
++   ],
++   \\"byId\\": Object {
++     \\"a0Y2v00000TTpa1EAD\\": Employee {
++       \\"departmentCode\\": \\"somu\\",
++       \\"departmentName\\": \\"総務\\",
++       \\"employeeCode\\": \\"add9-5\\",
++       \\"employeeName\\": \\"add9家の -5さん\\",
++       \\"employeePhotoUrl\\": \\"https://c.ap15.content.force.com/profilephoto/005/T\\",
++       \\"id\\": \\"a0Y2v00000TTpa1EAD\\",
++       \\"title\\": \\"\\",
++     },
++     \\"a0Y2v00000TTpa6EAD\\": Employee {
++       \\"departmentCode\\": \\"somu\\",
++       \\"departmentName\\": \\"総務\\",
++       \\"employeeCode\\": \\"em7-5\\",
++       \\"employeeName\\": \\"em7家の -5さん\\",
++       \\"employeePhotoUrl\\": \\"https://c.ap15.content.force.com/profilephoto/005/T\\",
++       \\"id\\": \\"a0Y2v00000TTpa6EAD\\",
++       \\"title\\": \\"\\",
++     },
++     \\"a0Y2v00000TTpaUEAT\\": Employee {
++       \\"departmentCode\\": \\"somu\\",
++       \\"departmentName\\": \\"総務\\",
++       \\"employeeCode\\": \\"oshimai\\",
++       \\"employeeName\\": \\"途中で入ってくる 太郎\\",
++       \\"employeePhotoUrl\\": \\"https://c.ap15.content.force.com/profilephoto/005/T\\",
++       \\"id\\": \\"a0Y2v00000TTpaUEAT\\",
++       \\"title\\": \\"\\",
++     },
++     \\"a0Y2v00000TTpfbEAD\\": Employee {
++       \\"departmentCode\\": \\"somu\\",
++       \\"departmentName\\": \\"総務\\",
++       \\"employeeCode\\": \\"totyunyusya\\",
++       \\"employeeName\\": \\"途中 入社\\",
++       \\"employeePhotoUrl\\": \\"https://c.ap15.content.force.com/profilephoto/005/T\\",
++       \\"id\\": \\"a0Y2v00000TTpfbEAD\\",
++       \\"title\\": \\"\\",
++     },
++   },
+  }"
+`;

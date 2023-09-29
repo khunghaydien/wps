@@ -1,0 +1,527 @@
+<apex:page controller="AttShiftCtl" action="{!load}" standardStylesheets="false" title="シフト管理" >
+<script type="text/javascript">
+djConfig={
+    parseOnLoad:true,
+    locale:({!lcidDojo}['{!JSENCODE(languageLocaleKey)}']||'{!JSENCODE(languageLocaleKey)}')
+};
+</script>
+<script type="text/javascript" src="/resource/{!prefixBar}AtkJS/dojo/dojo/dojo.js?{!dojoVer}"></script>
+<apex:includeScript value="{!URLFOR($Resource.TsfResource, 'lib/moment.min.js')}" />
+<link rel="stylesheet" type="text/css" href="/resource/{!prefixBar}AtkJS/dojo/dijit/themes/claro/claro.css?{!dojoVer}"></link>
+<apex:stylesheet value="{!URLFOR($Resource.AtkResource, 'css/AtkStyle.css')}"/>
+<apex:stylesheet value="{!URLFOR($Resource.TsfResource, 'css/tsShift.css')}"/>
+<script type="text/javascript" src="/resource/{!prefixBar}AtkResource/nls/ja/messages.js?{!currentTime}"></script>
+<apex:includeScript value="{!URLFOR($Resource.AtkPressJS)}" />
+<style type="text/css">
+    #bodyCell { padding : 0px !important; }
+    #big_area {
+        margin: 0px 0px 0px -10px;
+        text-align: center;
+    }
+    body {
+        margin: 0px;
+    }
+    input {
+        padding 			: 1px 6px;
+    }
+    table.searchArea {
+        border-collapse 	: collapse;
+        border-spacing		: 0px;
+        margin				: 0px;
+        border				: none;
+    }
+    table.searchArea tr td {
+        vertical-align		: middle;
+        padding 			: 4px;
+    }
+    #shiftTable {
+        user-select 		: none;
+        -moz-user-select	: none;
+        -khtml-user-select	: none;
+        -webkit-user-select : none;
+        -ms-user-select 	: none;
+    }
+    table.shiftTable {
+        border-collapse 	: collapse;
+        border-spacing		: 0px;
+        margin				: 0px;
+        border				: none;
+    }
+    table.shiftTable td.dayCell {
+        text-align			: center;
+        vertical-align		: middle;
+        border				: 1px solid #6393B7;
+    }
+    table.shiftTable td.cell {
+        border				: 1px solid #6393B7;
+    }
+    table.shiftTable td.name {
+        text-align			: left;
+        vertical-align		: middle;
+        border				: 1px solid #6393B7;
+    }
+    .selCell {
+        background-image	 : url({!URLFOR($Resource.AtkResource, 'image/net1.png')});
+        background-repeat	 : repeat;
+        border				 : 1px solid #888888;
+    }
+    .disableCell {
+        background-image	 : url({!URLFOR($Resource.AtkResource, 'image/net3.png')});
+        background-repeat	 : repeat;
+    }
+    .sumHoriz1Cell {
+        background-color	 : #80ACCA;
+        color				 : white;
+        text-align			 : center;
+        vertical-align		 : middle;
+        border				 : 1px solid #6393B7;
+    }
+    .sumHoriz2Cell {
+        background-color	 : #4F8AB6;
+        color				 : white;
+        text-align			 : center;
+        vertical-align		 : middle;
+        border				 : 1px solid #6393B7;
+    }
+    table.ts_a_frame div.edge_div table.stand_table td.left_s {
+        width: 140px;
+    }
+    table.ts_a_frame div.edge_div table.stand_table td.left_sx {
+        width				: 120px;
+        padding 			: 3px 12px;
+        font-weight 		: bold;
+        color				: #4A4A56;
+        text-align			: left;
+    }
+    table.searchcond_table {
+        border-collapse 	: collapse;
+        border-spacing		: 0px;
+        margin				: 0px;
+        border				: none;
+    }
+    table.searchcond_table tr td {
+        vertical-align		: middle;
+        text-align			: left;
+        padding 			: 2px;
+        font-size			: 12px;
+        white-space 		: nowrap;
+    }
+    table.explana {
+        border-collapse 	: collapse;
+        border-spacing		: 0px;
+        margin				: 0px 12px 0px 0px;
+        border				: none;
+        float				: left;
+    }
+    table.explana tr td {
+        vertical-align		: middle;
+        padding 			: 2px;
+        font-size			: 12px;
+        white-space 		: nowrap;
+    }
+    table.tooltip {
+        border-collapse 	: collapse;
+        border-spacing		: 0px;
+        margin				: 0px;
+        border				: none;
+    }
+    table.tooltip tr td {
+        vertical-align		: middle;
+        padding 			: 2px;
+        font-size			: 12px;
+        white-space 		: normal;
+        word-break			: break-all;
+    }
+    #tooltipEmpSelect:focus {
+        outline: none;
+    }
+    #tooltipEmpDay:focus {
+        outline: none;
+    }
+    .dayCell {
+        cursor : pointer;
+    }
+    .empCell {
+        cursor : pointer;
+    }
+    td.even {
+        background-color	: #FAFAFA;
+    }
+    td.odd {
+        background-color	: #F3F3F3;
+    }
+</style>
+<div id="big_area">
+<div id="shiftview_error_area" style="display:none;color:red;margin:10px;font-size:100%;">
+</div>
+<table class="pane_table" id="shiftview_area" style="display:none;width:100%;">
+<tr>
+    <td class="dci_back_test">
+    <div id="shiftTopView" style="width:100%;">
+    <table>
+        <tbody>
+            <tr>
+                <td class="ts-top-logo">
+                    <div class="work-list"></div>
+                </td>
+                <td class="ts-top-title">
+                    <div class="main-title">シフト管理</div>
+                </td>
+                <td class="ts-top-empinfo">
+                </td>
+                <td class="ts-top-button1"><a></a></td>
+                <td class="ts-top-button5"><a></a></td>
+                <td class="ts-top-button3"><a target="_blank"></a></td>
+                <td class="ts-top-last"></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    </td>
+</tr>
+<tr>
+    <td style="border:1px solid #A1B8B8;padding:8px;">
+        <div id="workArea">
+            <div id="searchCondition" style="background-color: #E0EEFA;padding:5px 10px;display:none;">
+                <table class="searchcond_table">
+                <tr>
+                    <td>
+                        <div id="searchCondRangeLabel" class="shift-label">期間</div>
+                    </td>
+                    <td>
+                        <div id="searchCondRange" class="shift-value"></div>
+                    </td>
+                    <td class="searchcond_normal">
+                        <table class="searchcond_table">
+                        <tr>
+                            <td>
+                                <div class="shift-label">部署</div>
+                            </td>
+                            <td>
+                                <div id="searchCondDept" class="shift-value" style="min-width:300px;max-width:400px;overflow-x:hidden;"></div>
+                            </td>
+                        </tr>
+                        <tr id="searchCondEmpRow" style="display:none;">
+                            <td>
+                                <div class="shift-label" id="searchCondEmpHead">ヘルプ社員</div>
+                            </td>
+                            <td>
+                                <div id="searchCondEmp" class="shift-value" style="min-width:300px;max-width:400px;overflow-x:hidden;"></div>
+                            </td>
+                        </tr>
+                        </table>
+                    </td>
+                    <td class="import_result_title" style="display:none;">
+                        <div style="width:250px;margin-left:30px;font-weight:bold;">インポート結果</div>
+                    </td>
+                    <td>
+                        <input type="button" class="normalbtn" id="changeSearch" value="表示範囲変更" style="margin-left:12px;" />
+                    </td>
+                    <td>
+                        <input type="button" class="normalbtn" id="shiftCsvOut" value="CSV出力" style="margin-left:12px;" />
+                    </td>
+                    <td>
+                        <input type="button" class="normalbtn" id="shiftCsvImport1" value="CSVインポート" style="margin-left:12px;" />
+                    </td>
+                </tr>
+                </table>
+            </div>
+            <div id="inputCondition" style="background-color: #E0EEFA;padding:5px 10px;">
+                <table class="pane_table">
+                <tr>
+                    <td>
+                        <table class="searchArea">
+                        <tr id="inputRangeType1">
+                            <td>
+                                <table class="searchcond_table">
+                                <tr>
+                                    <td>
+                                        <div class="shift-label">月度</div>
+                                    </td>
+                                    <td>
+                                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1900,max:2100,pattern:'####'}" id="monYear"  style="width:66px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                                        /
+                                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1,max:12,pattern:'00'}"		 id="monMonth" style="width:48px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                                    </td>
+                                    <td>
+                                        <div id="monYearMonth" class="shift-value"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colSpan="3">
+                                        <input type="button" id="changeRangeType1" class="cancelbtn" value="期間で指定する" style="margin-left:12px;" />
+                                    </td>
+                                </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr id="inputRangeType2" style="display:none;">
+                            <td>
+                                <table class="searchcond_table" style="margin-right:8px;">
+                                <tr>
+                                    <td>
+                                        <div class="shift-label">期間</div>
+                                    </td>
+                                    <td>
+                                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1900,max:2100,pattern:'####'}" id="startYear"  style="width:66px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                                        /
+                                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1,max:12,pattern:'00'}"		 id="startMonth" style="width:48px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                                        /
+                                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1,max:31,pattern:'00'}"		 id="startDate"  style="width:48px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                                    </td>
+                                    <td>
+                                        <div>～</div>
+                                    </td>
+                                    <td>
+                                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1900,max:2100,pattern:'####'}" id="endYear"  style="width:66px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                                        /
+                                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1,max:12,pattern:'00'}"		 id="endMonth" style="width:48px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                                        /
+                                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1,max:31,pattern:'00'}"		 id="endDate"  style="width:48px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colSpan="2">
+                                        <input type="button" id="changeRangeType2" class="cancelbtn" value="月度で指定する" style="margin-left:12px;" />
+                                    </td>
+                                </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table class="searchcond_table">
+                        <tr>
+                            <td>
+                                <div class="shift-label">部署</div>
+                            </td>
+                            <td style="text-align:left;">
+                                <select id="selectDepts" style="width:270px;">
+                                </select>
+                            </td>
+                            <td>
+                                <input type="button" id="browseDept" class="loupe" />
+                            </td>
+                        </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <input type="button" id="searchDo" class="normalbtn" value="この条件で表示" style="margin-left:18px;" />
+                    </td>
+                    <td>
+                        <input type="button" id="searchCancel" class="cancelbtn" value="キャンセル" style="margin-left:18px;display:none;" />
+                    </td>
+                    <td>
+                        <input type="button" class="normalbtn" id="shiftCsvImport2" value="CSVインポート" style="margin-left:12px;" />
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                </table>
+            </div>
+            <div>
+                <div id="error_area" style="text-align:left;"></div>
+                <div id="message" style="text-align:left;"></div>
+            </div>
+            <div style="margin:2px 0px;padding:2px;border:1px solid #E0EEFA;display:flex">
+                <input type="button" id="changeRealSave" class="normalbtn" value="仮登録を本登録に変える" style="margin-right:24px;display:none;" />
+                <label style="margin:4px 2px;font-size:0.9em;"><input type="checkbox" id="displayTime"	style="vertical-align:middle;" /> 時間を表示する</label>
+                <label style="margin:4px 2px;font-size:0.9em;"><input type="checkbox" id="displayEvent" style="vertical-align:middle;" /> イベントを表示する</label>
+                <label style="margin:4px 2px;font-size:0.9em;"><input type="checkbox" id="displayLegend" style="vertical-align:middle;" /> 凡例を表示する</label>
+                <input type="button" class="cancelbtn" id="shiftImportToolDL" style="margin-left:auto;margin-right:30px;" onclick="downloadShiftImportTool();" />
+            </div>
+            <div id="baseDiv">
+            </div>
+        </div>
+    </td>
+</tr>
+</table>
+<div style="display:none;">
+<div dojoType="dijit.Dialog" duration="100" closable="false" id="shiftCsvImportDialog">
+    <div class="dlg_content" style="padding:0px;">
+    <table style="border-collapse:collapse;width:100%;">
+        <tr>
+            <td style="vertical-align:top;">
+                <table class="searchcond_table" id="shiftImportRange1">
+                <tr>
+                    <td>
+                        <div class="shift-label">月度</div>
+                    </td>
+                    <td>
+                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1900,max:2100,pattern:'####'}" id="impYear"  style="width:66px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                        /
+                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1,max:12,pattern:'00'}"		 id="impMonth" style="width:48px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                    </td>
+                    <td>
+                        <div id="impYearMonth" style="margin-left:4px;"></div>
+                    </td>
+                </tr>
+                </table>
+                <table class="searchcond_table" id="shiftImportRange2">
+                <tr>
+                    <td>
+                        <div class="shift-label">期間</div>
+                    </td>
+                    <td>
+                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1900,max:2100,pattern:'####'}" id="impStartYear"  style="width:66px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                        /
+                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1,max:12,pattern:'00'}"		 id="impStartMonth" style="width:48px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                        /
+                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1,max:31,pattern:'00'}"		 id="impStartDate"  style="width:48px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                    </td>
+                    <td>
+                        <div>～</div>
+                    </td>
+                    <td>
+                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1900,max:2100,pattern:'####'}" id="impEndYear"  style="width:66px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                        /
+                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1,max:12,pattern:'00'}"		 id="impEndMonth" style="width:48px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                        /
+                        <input dojoType="dijit.form.NumberSpinner" value="" constraints="{min:1,max:31,pattern:'00'}"		 id="impEndDate"  style="width:48px;border:1px solid #539AC7;font-family:verdana;font-size:11px;" />
+                    </td>
+                </tr>
+                </table>
+                <table class="searchcond_table" style="width:100%;">
+                <tr>
+                    <td>
+                        <div class="shift-csv-upload" style="margin:0px;text-align:left;">
+                            <input type="button" class="cancelbtn" id="shiftImportChangeRange" value="期間で指定する" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div style="display:inline-block;vertical-align:middle;font-weight:bold;margin-right:2px;">
+                            ファイル
+                        </div>
+                        <div id="shiftFileHelp" class="pp_base pp_icon_help" style="display:inline-block;vertical-align:middle;"></div>
+                    </td>
+                </tr>
+                <tr class="shift-upload-area">
+                    <td>
+                        <div class="shift-csv-upload" style="margin:0px;padding:0px 12px;">
+                            <input type="file" accept="*" id="shiftCsvUpload" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="shiftFileName" style="width:550px;margin-left:12px;white-space:normal;word-break:break-all;">
+                        </div>
+                    </td>
+                </tr>
+                <tr class="shift-importing">
+                    <td>
+                        <div class="busywait2" style="display:inline-block;vertical-align:middle;">
+                        </div>
+                        <div style="margin:12px;display:inline-block;vertical-align:middle;">
+                            <span id="shiftImportingMsg"></span>ページを閉じないでください。
+                        </div>
+                    </td>
+                </tr>
+                <tr class="shift-import-end">
+                    <td>
+                        <div style="margin:12px;display:inline-block;vertical-align:middle;">
+                            インポート完了しました。
+                        </div>
+                    </td>
+                </tr>
+                <tr class="shift-import-error">
+                    <td>
+                        <div id="shiftImportError" style="margin:12px;max-width:550px;color:red;">
+                            エラー
+                        </div>
+                        <div id="shiftImportErrorLink" style="width:550px;margin-left:12px;white-space:normal;word-break:break-all;">
+                        </div>
+                    </td>
+                </tr>
+                </table>
+            </td>
+        </tr>
+        <tr id="shiftImportCommand">
+            <td style="padding:8px 0px;text-align:center;">
+                <input type="button" class="normalbtn" value="インポート開始" id="shiftImportStart" />
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="button" class="cancelbtn" value="キャンセル" id="shiftImportCancel" />
+            </td>
+        </tr>
+        <tr id="shiftImportEnd" style="display:none;">
+            <td style="padding:8px 0px;text-align:center;">
+                <input type="button" class="normalbtn" value="インポート結果を表示する" id="shiftImportResult" />
+            </td>
+        </tr>
+    </table>
+    </div>
+</div>
+</div>
+<span id="ruler1" style="font-size:13px;word-break:break-all;"></span>
+<table id="shiftDummy" style="display:none;">
+    <tbody style="overflow-y:scroll;overflow-x:hidden;display:block;height:80px;">
+        <tr><td>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</td></tr>
+        <tr><td>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</td></tr>
+        <tr><td>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</td></tr>
+        <tr><td>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</td></tr>
+        <tr><td>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</td></tr>
+        <tr><td>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</td></tr>
+        <tr><td>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</td></tr>
+        <tr><td>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</td></tr>
+    </tbody>
+</table>
+</div>
+<script type="text/javascript">
+    teasp.dojoRequire();
+    var tsCONST = {
+        API_UPDATE_SHIFT   : '{!$RemoteAction.AttShiftCtl.updateShift}'
+    };
+
+    dojo.addClass(document.body, "claro");
+    dojo.style(dojo.body(),{ fontSize:'13px' });
+
+    var globalLoadRes = teasp.jsondecode('{!JSENCODE(response)}');
+
+    teasp.prefixPt	= '{!prefixPt}';
+    teasp.prefixBar = '{!prefixBar}';
+    teasp.controlClass = {!prefixPt}AttShiftCtl;
+    teasp.message.setLanguageLocaleKey('{!JSENCODE(languageLocaleKey)}');
+    teasp.message.mergeLabels(globalMessages || {});
+    teasp.message.mergeLabels(teasp.jsondecode('{!JSENCODE(messageMap)}')[teasp.message.getLanguageLocaleKey()] || {});
+    teasp.util.date.sfTimeZoneOffset = {!timeZoneOffset};
+    teasp.setPageUrl('shiftPrintView', '');
+    teasp.setPageUrl('workTimeView'  , '');
+    teasp.setPageUrl('extCsvView'	 , '{!$Page.AttTempTxtFileView}');
+    teasp.adjustMarginTop('big_area');
+
+    if(globalLoadRes.result == 'NG'){
+        dojo.addOnLoad(function(){
+            var area = dojo.byId('shiftview_error_area');
+            if(area){
+                area.innerHTML = teasp.message.getErrorMessage(globalLoadRes.error);
+                area.style.display = '';
+            }
+        });
+    }else{
+        teasp.util.excludeNameSpace(globalLoadRes);
+
+        teasp.viewPoint = new teasp.view.Shift();
+
+        dojo.addOnLoad(function(){
+            dojo.byId('shiftview_area').style.display = '';
+            teasp.viewPoint.init();
+            window.onresize = dojo.hitch(teasp.viewPoint, teasp.viewPoint.resizeArea);
+        });
+        teasp.eval('{!JSENCODE(plugJavaScript)}');
+    }
+    function downloadShiftImportTool(){
+        var url;
+        if(globalLoadRes.enableShiftImportToolDownload){
+            if(globalLoadRes.shiftImportToolCustomURL){
+                url = globalLoadRes.shiftImportToolCustomURL;
+            }else{
+                url = '{!URLFOR($Resource.ShiftImportTool)}';
+            }
+            teasp.downloadHref(url);
+        }
+    };
+</script>
+</apex:page>

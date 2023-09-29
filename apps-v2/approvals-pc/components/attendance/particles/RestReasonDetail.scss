@@ -1,0 +1,149 @@
+.approvals-pc-restReason-detail-list-pane-detail-table-row {
+  display: flex;
+  min-height: 30px;
+  border-bottom: 1px solid $color-border-default;
+  background-color: #fff;
+
+  &__item {
+    &:last-child {
+      border-right: none;
+    }
+
+    border-right: 1px solid $color-border-default;
+  }
+
+  &__item-date-inner {
+    display: flex;
+    min-height: 29px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__content {
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+
+  &__empty-content {
+    display: flex;
+  }
+
+  &__restReason-wrapper {
+    position: relative;
+  }
+
+  &__restReason-wrapper::before {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      $color-border-default,
+      $color-border-default 2px,
+      transparent 2px
+    );
+    background-position: top;
+    background-repeat: repeat-x;
+    background-size: 4px 1px;
+    content: '';
+  }
+
+  &__restReason-wrapper:empty::before {
+    display: none;
+  }
+}
+
+.approvals-pc-restReason-detail-list-pane-detail-table-row-item {
+  display: flex;
+  min-height: 30px;
+
+  &__item {
+    display: flex;
+    min-height: 30px;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  &__item-comment {
+    min-width: 0;
+  }
+
+  &__item--name,
+  &__item--code {
+    padding-left: 0;
+    border-right: 1px solid $color-border-default;
+  }
+
+  &__item--startEndTime,
+  &__item--totalTime {
+    font-weight: normal;
+    border-right: 1px solid $color-border-default;
+  }
+
+  &__item:last-child {
+    border-right: none;
+  }
+
+  &__item--startEndTime,
+  &__item--totalTime {
+    justify-content: center;
+  }
+
+  &__restReason-name,
+  &__restReason-code {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+  }
+
+  &__restReason-index {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+
+  &__tracking-graph {
+    height: 13px;
+  }
+
+  &--is-ellipsis {
+    display: flex;
+    border-bottom: 1px dashed $color-border-default;
+  }
+
+  &--is-ellipsis &__item,
+  &--is-ellipsis &__restReason-name,
+  &--is-ellipsis &__restReason-code,
+  &--is-ellipsis &__position-adjust {
+    word-break: break-all;
+  }
+
+  &--is-ellipsis br {
+    display: none;
+  }
+
+  &--is-ellipsis:last-child{
+    border-bottom: none;
+  }
+}
+
+.approvals-pc-restReason-detail-list-pane-detail-table-column {
+  &--date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid $color-border-default;
+  }
+}

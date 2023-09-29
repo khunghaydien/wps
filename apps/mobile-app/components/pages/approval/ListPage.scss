@@ -1,0 +1,52 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-approval-page-list {
+  .main-content-appr {
+    padding-top: 48px;
+  }
+
+  &__select {
+    position: fixed;
+    z-index: 3;
+    border: 0;
+    border-bottom: 1px solid $color-border;
+    background-color: #fff;
+    border-radius: 0;
+    height: 48px;
+
+    &:focus-within {
+      border: 0;
+      border-bottom: 1px solid $color-border;
+      border-radius: 0;
+      box-shadow: 0 0 0 $color-border;
+    }
+  }
+
+  &__num {
+    overflow: hidden;
+    margin-top: $base-size;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__refresh {
+    margin-right: $base-size;
+
+    &.mobile-app-atoms-icon-button {
+      align-items: center;
+    }
+  }
+
+  &__empty {
+    margin-top: 150px;
+  }
+
+  &__list {
+    height: 100vh;
+    padding-top: 56px;
+    padding-bottom: 48px;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+  }
+}

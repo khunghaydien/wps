@@ -1,0 +1,21 @@
+.tracking-pc-list-header {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  border-bottom: 1px solid $color-border-default;
+  background-color: #f4f6f9;
+
+  &__item {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid $color-border-default;
+    color: $color-text-modest;
+  }
+
+  &__item:last-child {
+    flex: 1 0 auto;
+    border-right: none;
+  }
+}

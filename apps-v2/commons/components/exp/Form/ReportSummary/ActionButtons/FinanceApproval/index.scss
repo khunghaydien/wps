@@ -1,0 +1,64 @@
+@import '../../../../../../styles/variables/colors';
+
+.ts-expenses__form-report-summary__actions {
+  position: relative;
+
+  button[data-testid] {
+    border-color: #dddbda;
+    background-color: $color-bg-lighter;
+    color: #0070d2;
+    line-height: 1;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $color-bg-hover;
+    }
+  }
+
+  &__main {
+    display: flex;
+    height: 32px;
+  }
+
+  &__reject {
+    height: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 5px 0 0 5px;
+  }
+
+  &__edit {
+    height: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-left: 5px;
+    border-radius: 0;
+  }
+
+  &__approve {
+    height: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-left: 5px;
+    border-radius: 0;
+  }
+
+  &__toggle {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #dddbda;
+    border-left: 0;
+    border-radius: 0 5px 5px 0;
+
+    .ts-icon-button__image {
+      height: 12px;
+      transform: rotate(90deg);
+      transition: 0.3s ease-in-out;
+    }
+  }
+
+  // custom class for FA button to override specificity of common styles
+  &__save.is-fa {
+    border-radius: 0 5px 5px 0;
+  }
+}

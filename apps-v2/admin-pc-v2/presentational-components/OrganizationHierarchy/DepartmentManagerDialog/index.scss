@@ -1,0 +1,34 @@
+@import '@apps/commons/styles/wsp.scss';
+
+.admin-pc-v2-org-department-manager-dialog {
+  width: 900px;
+
+  &__body {
+    padding: 20px;
+  }
+
+  &__search-name {
+    margin: 0 0 12px 0;
+    color: #333;
+    font-weight: bold;
+  }
+
+  &__primary {
+    display: block;
+    margin-left: 10px;
+  }
+
+  .react-grid-Canvas {
+    overflow: auto !important;
+
+    .react-grid-Row {
+      cursor: pointer;
+    }
+  }
+
+  .rdg-last--frozen,
+  .react-grid-HeaderCell {
+    border-right: unset !important;
+    box-shadow: unset !important;
+  }
+}

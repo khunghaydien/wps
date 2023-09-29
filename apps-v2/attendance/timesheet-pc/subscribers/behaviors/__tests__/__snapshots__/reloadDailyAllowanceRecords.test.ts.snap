@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should do if employeeId is null. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      Object {
+        "workingTypeList": Array [
+          Object {
+            "useAllowanceManagement": true,
+          },
+        ],
+      },
+      undefined,
+    ],
+    "type": "LOAD_DAILY_ALLOWANCE_RECORDS",
+  },
+]
+`;
+
+exports[`should do if employeeId is undefined. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      Object {
+        "workingTypeList": Array [
+          Object {
+            "useAllowanceManagement": true,
+          },
+        ],
+      },
+      undefined,
+    ],
+    "type": "LOAD_DAILY_ALLOWANCE_RECORDS",
+  },
+]
+`;
+
+exports[`should do. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      Object {
+        "workingTypeList": Array [
+          Object {
+            "useAllowanceManagement": true,
+          },
+        ],
+      },
+      "employeeId",
+    ],
+    "type": "LOAD_DAILY_ALLOWANCE_RECORDS",
+  },
+]
+`;
+
+exports[`should not do if timesheet is migrated 1`] = `Array []`;
+
+exports[`should not do if timesheet is null 1`] = `Array []`;

@@ -1,0 +1,119 @@
+.ts-route-map {
+  margin: 24px 0 20px;
+
+  &-no-select-msg {
+    margin-top: 35px;
+    color: #999;
+  }
+
+  &--no-select {
+    height: 100px;
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  &-icon-area {
+    margin-bottom: 4px;
+  }
+
+  &-header-area {
+    display: inline-block;
+    width: 100%;
+    padding: 0 16px 0 4px;
+    margin-bottom: 6px;
+
+    &-distance {
+      float: right;
+      font-size: 15px;
+    }
+  }
+
+  &-station {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 4px 6px;
+    border: 1px solid #d8dde6;
+    background: white;
+
+    &--origin-arrival {
+      z-index: 2;
+      background: #e3e3e3;
+    }
+
+    img {
+      margin-left: 6px;
+    }
+
+    &-name {
+      padding-left: 4px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    &-icon {
+      z-index: 3;
+      width: 40px;
+      margin-left: 3px;
+    }
+  }
+
+  &-route-info {
+    position: relative;
+    padding: 6px 8px;
+
+    &-line {
+      position: absolute;
+      z-index: 1;
+      top: -15px;
+      bottom: 0;
+      left: 25px;
+      display: block;
+      overflow: hidden;
+      width: 3px;
+      height: calc(100% + 30px);
+      border-width: 3px;
+      border-color: #d9dde6;
+      border-left-style: solid;
+      text-indent: 100%;
+      white-space: nowrap;
+
+      &--commuter {
+        border-color: red;
+      }
+    }
+
+    &-line-info {
+      margin-left: 50px;
+
+      &-line-icon {
+        display: inline-block;
+        margin: 3px 0;
+
+        & > div {
+          display: inline-block;
+        }
+      }
+
+      &-name-fare-wrapper {
+        margin-top: 10px;
+      }
+
+      &-fare {
+        margin-right: 9px;
+        text-align: right;
+      }
+    }
+  }
+}
+
+.ts-route-map--mobile {
+  margin: 4px 0;
+  font-size: 13px;
+
+  .ts-route-map-route-info-line-info-name-fare-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}

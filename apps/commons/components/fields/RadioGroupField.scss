@@ -1,0 +1,24 @@
+.commons-fields-radio-group-fields {
+  $this: &;
+
+  margin-top: 10px;
+  margin-right: -15px;
+  margin-bottom: 10px;
+  color: #333;
+
+  &__radio-wrapper {
+    display: inline-block;
+    padding-left: 17px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+  }
+
+  &#{$this}--layout-vertical &__radio-wrapper {
+    display: block;
+  }
+
+  &__radio {
+    margin-right: 5px;
+    margin-left: -17px;
+  }
+}

@@ -1,0 +1,11 @@
+.admin-pc-v2-organization-hierarchy-detail-organization-tree-view-tree-view {
+  &__container {
+    display: flex;
+  }
+  &__action-button {
+    display: flex;
+    margin-left: 8px;
+    color: #006dcc;
+    cursor: pointer;
+  }
+}

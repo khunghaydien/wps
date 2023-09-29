@@ -1,0 +1,375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots attendance/timesheet-pc-allowance allowanceDetail 1`] = `
+Array [
+  <tr>
+    <td
+      className="timesheet-pc-allowance-detail-list__date"
+      rowSpan={4}
+    >
+      Dec 1, 2021
+    </td>
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-name"
+    >
+      高所作業
+    </td>
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-code"
+    >
+      AAA
+    </td>
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-total-time"
+    >
+      01:00
+    </td>
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-start-end-time"
+    >
+      09:00-10:00
+    </td>
+    <td
+      className="timesheet-pc-allowance-detail-list__quantity"
+    />
+  </tr>,
+  <tr>
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-name"
+    >
+      高温作業
+    </td>
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-code"
+    >
+      BBB
+    </td>
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-total-time"
+    >
+      01:00
+    </td>
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-start-end-time"
+    />
+    <td
+      className="timesheet-pc-allowance-detail-list__quantity"
+    />
+  </tr>,
+  <tr>
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-name"
+    >
+      ご飯手当
+    </td>
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-code"
+    >
+      003
+    </td>
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-total-time"
+    />
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-start-end-time"
+    />
+    <td
+      className="timesheet-pc-allowance-detail-list__quantity"
+    >
+      999999.999999
+    </td>
+  </tr>,
+  <tr>
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-name"
+    >
+      特別手当
+    </td>
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-code"
+    >
+      004
+    </td>
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-total-time"
+    />
+    <td
+      className="timesheet-pc-allowance-detail-list__allowance-start-end-time"
+    />
+    <td
+      className="timesheet-pc-allowance-detail-list__quantity"
+    />
+  </tr>,
+]
+`;
+
+exports[`Storyshots attendance/timesheet-pc-allowance allowanceDetailList 1`] = `
+<div
+  className="timesheet-pc-allowance-detail-list"
+>
+  <table
+    className="timesheet-pc-allowance-detail-list__table"
+  >
+    <caption>
+      Allowance Daily Details
+    </caption>
+    <thead>
+      <tr>
+        <th>
+          Date
+        </th>
+        <th>
+          Allowance Name
+        </th>
+        <th>
+          Code
+        </th>
+        <th>
+          Total Time
+        </th>
+        <th>
+          Start End Time
+        </th>
+        <th>
+          Quantity
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          className="timesheet-pc-allowance-detail-list__date"
+          rowSpan={4}
+        >
+          Dec 1, 2021
+        </td>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-name"
+        >
+          高所作業
+        </td>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-code"
+        >
+          AAA
+        </td>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-total-time"
+        >
+          01:00
+        </td>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-start-end-time"
+        >
+          09:00-10:00
+        </td>
+        <td
+          className="timesheet-pc-allowance-detail-list__quantity"
+        />
+      </tr>
+      <tr>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-name"
+        >
+          高温作業
+        </td>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-code"
+        >
+          BBB
+        </td>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-total-time"
+        >
+          01:00
+        </td>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-start-end-time"
+        />
+        <td
+          className="timesheet-pc-allowance-detail-list__quantity"
+        />
+      </tr>
+      <tr>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-name"
+        >
+          ご飯手当
+        </td>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-code"
+        >
+          003
+        </td>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-total-time"
+        />
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-start-end-time"
+        />
+        <td
+          className="timesheet-pc-allowance-detail-list__quantity"
+        >
+          999999.999999
+        </td>
+      </tr>
+      <tr>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-name"
+        >
+          特別手当
+        </td>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-code"
+        >
+          004
+        </td>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-total-time"
+        />
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-start-end-time"
+        />
+        <td
+          className="timesheet-pc-allowance-detail-list__quantity"
+        />
+      </tr>
+      <tr>
+        <td
+          className="timesheet-pc-allowance-detail-list__date"
+          rowSpan={1}
+        >
+          Dec 3, 2021
+        </td>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-name"
+        >
+          取材手当
+        </td>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-code"
+        >
+          CCC
+        </td>
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-total-time"
+        />
+        <td
+          className="timesheet-pc-allowance-detail-list__allowance-start-end-time"
+        />
+        <td
+          className="timesheet-pc-allowance-detail-list__quantity"
+        >
+          23
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Storyshots attendance/timesheet-pc-allowance allowanceHeader 1`] = `
+<div
+  className="timesheet-pc-allowance-header"
+>
+  <table
+    className="timesheet-pc-allowance-header__table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Target Month
+        </th>
+        <th>
+          Department Name
+        </th>
+        <th>
+          Work Scheme
+        </th>
+        <th>
+          Employee Code
+        </th>
+        <th>
+          Employee Name
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          className="timesheet-pc-allowance-header__target-month"
+        >
+          Dec 2021
+        </td>
+        <td
+          className="timesheet-pc-allowance-header__dept-name"
+        >
+          <div>
+            TEXエンジニアリング JP1サブチーム (Dec 1, 2021-Dec 15, 2021)
+          </div>
+          <div>
+            TEXT2 (Dec 16, 2021-Dec 31, 2021)
+          </div>
+        </td>
+        <td
+          className="timesheet-pc-allowance-header__work-scheme"
+        >
+          <div>
+            コアタイム(11:00～16:00) (Dec 1, 2021-Dec 15, 2021)
+          </div>
+          <div>
+            FIX02 (Dec 16, 2021-Dec 31, 2021)
+          </div>
+        </td>
+        <td
+          className="timesheet-pc-allowance-header__emp-code"
+        >
+          EMP_00
+        </td>
+        <td
+          className="timesheet-pc-allowance-header__emp-name"
+        >
+          EMP_00
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Storyshots attendance/timesheet-pc-allowance nullDetailList 1`] = `
+<div
+  className="timesheet-pc-allowance-detail-list"
+>
+  <table
+    className="timesheet-pc-allowance-detail-list__table"
+  >
+    <caption>
+      Allowance Daily Details
+    </caption>
+    <thead>
+      <tr>
+        <th>
+          Date
+        </th>
+        <th>
+          Allowance Name
+        </th>
+        <th>
+          Code
+        </th>
+        <th>
+          Total Time
+        </th>
+        <th>
+          Start End Time
+        </th>
+        <th>
+          Quantity
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;

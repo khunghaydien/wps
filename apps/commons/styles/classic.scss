@@ -1,0 +1,63 @@
+/**
+ * Salesforce Classic 表示時のみ有効となるスタイル
+ * ※このファイルのみ、他の.scssとは別に、静的リソース classic.resource としてデプロイされます
+ */
+
+// sldsのCSSにより background:#FFF が指定されてしまうため修正
+html {
+  background-color: transparent;
+}
+
+body.sfdcBody {
+  // ヘッダー部
+  #AppBodyHeader .phHeader td.left {
+    // NOTE: sldsのCSSによりロゴが表示されなくなってしまっていたため修正
+    img:first-child {
+      max-width: unset;
+    }
+    // NOTE: sldsのCSSによりヘッダのspacerが巨大化してしまうのを修正
+    img.spacer {
+      display: none;
+    }
+  }
+
+  // アプリ内部
+  #container {
+    // NOTE: アプリの高さ領域を確保 (各アプリの親にposition:absoluteが指定されているので、さらにその親にposition:relativeが必要)
+    position: relative;
+    height: 100vh;
+
+    // NOTE: 管理画面の h4 に display:inline; が掛かってしまうので修正
+    h4.admin-pc-menu-pane__tree-title--caps {
+      display: block;
+    }
+
+    // NOTE: 管理画面の li に margin-left が掛かってしまうので修正
+    ul li,
+    ol li {
+      margin-left: 0;
+    }
+
+    // NOTE: button要素に background-image と font-weight:bold が付与されてしまうので無効化
+    button {
+      background-image: none;
+      font-weight: normal;
+    }
+
+    // NOTE: プランナー予定表示欄のグリッド(30分単位)が上端に寄ってしまうため修正
+    .ts-calendar-weekly-event-list__events-border-td,
+    .planner-pc-daily-summary-dailog-calendar__event-table-row > td {
+      vertical-align: middle;
+    }
+
+    // NOTE: 勤務表の申請ボタン・日付表示に vertical-align:top が付与されてしまうので修正
+    .timesheet-pc-main-content-timesheet-daily-row > td {
+      vertical-align: middle;
+    }
+
+    // NOTE: タブ内の文字サイズが 12px にされてしまうため修正
+    .tab a {
+      font-size: 15px;
+    }
+  }
+}

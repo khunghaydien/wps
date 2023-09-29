@@ -1,0 +1,26 @@
+.ts-exp-icon-button {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background: none;
+  border-radius: 50%;
+  outline: none;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  justify-content: center;
+
+  &:active:not(&--disabled) {
+    background: #dceef5;
+  }
+
+  &__icon {
+    // Tweak space
+    margin: -1px 0 0 0;
+  }
+
+  path {
+    fill: #fff;
+  }
+}

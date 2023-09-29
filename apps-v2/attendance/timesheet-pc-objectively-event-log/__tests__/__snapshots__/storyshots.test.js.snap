@@ -1,0 +1,461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots attendance/timesheet-pc-objectively-event-log nullDetailList 1`] = `
+<div
+  className="timesheet-pc-objectively-event-log-detail-list"
+>
+  <table
+    className="timesheet-pc-objectively-event-log-detail-list__table"
+  >
+    <caption>
+      Objectively Event Log Details
+    </caption>
+    <thead>
+      <tr>
+        <th>
+          Date
+        </th>
+        <th>
+          Attendance
+        </th>
+        <th>
+          IN
+        </th>
+        <th>
+          Deviated Entering Time Reason
+        </th>
+        <th>
+          Clock-Out
+        </th>
+        <th>
+          OUT
+        </th>
+        <th>
+          Deviated Leaving Time Reason
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__record-date"
+        >
+          Tue, Feb 1
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-time"
+        />
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-detail"
+        />
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-reason"
+        >
+          <div />
+          <div />
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-time"
+        />
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-detail"
+        />
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-reason"
+        >
+          <div />
+          <div>
+             
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__record-date"
+        >
+          2 Wed
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-time"
+        />
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-detail"
+        />
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-reason"
+        >
+          <div />
+          <div />
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-time"
+        />
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-detail"
+        />
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-reason"
+        >
+          <div />
+          <div>
+             
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__record-date"
+        >
+          3 Thu
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-time"
+        />
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-detail"
+        />
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-reason"
+        >
+          <div />
+          <div />
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-time"
+        />
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-detail"
+        />
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-reason"
+        >
+          <div />
+          <div>
+             
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Storyshots attendance/timesheet-pc-objectively-event-log objectivelyEventLogDetail 1`] = `
+<tr>
+  <td
+    className="timesheet-pc-objectively-event-log-detail-list__record-date"
+  >
+    Wed, Dec 1
+  </td>
+  <td
+    className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-time"
+  >
+    09:00
+  </td>
+  <td
+    className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-detail"
+  >
+    <p
+      style={null}
+    >
+      Door 09:20(Deviated time is 20minute)
+    </p>
+    <p
+      style={null}
+    >
+       
+    </p>
+    <p
+      style={null}
+    >
+       
+    </p>
+  </td>
+  <td
+    className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-reason"
+  >
+    <div />
+    <div />
+  </td>
+  <td
+    className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-time"
+  >
+    15:20
+  </td>
+  <td
+    className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-detail"
+  >
+    <p
+      style={null}
+    >
+      Door 14:40(Deviated time is 40minute)
+    </p>
+    <p
+      style={null}
+    >
+       
+    </p>
+    <p
+      style={null}
+    >
+       
+    </p>
+  </td>
+  <td
+    className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-reason"
+  >
+    <div />
+    <div>
+       
+    </div>
+  </td>
+</tr>
+`;
+
+exports[`Storyshots attendance/timesheet-pc-objectively-event-log objectivelyEventLogDetailList 1`] = `
+<div
+  className="timesheet-pc-objectively-event-log-detail-list"
+>
+  <table
+    className="timesheet-pc-objectively-event-log-detail-list__table"
+  >
+    <caption>
+      Objectively Event Log Details
+    </caption>
+    <thead>
+      <tr>
+        <th>
+          Date
+        </th>
+        <th>
+          Attendance
+        </th>
+        <th>
+          IN
+        </th>
+        <th>
+          Deviated Entering Time Reason
+        </th>
+        <th>
+          Clock-Out
+        </th>
+        <th>
+          OUT
+        </th>
+        <th>
+          Deviated Leaving Time Reason
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__record-date"
+        >
+          Tue, Feb 1
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-time"
+        >
+          09:00
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-detail"
+        >
+          <p
+            style={null}
+          >
+            Door 09:20(Deviated time is 20minute)
+          </p>
+          <p
+            style={null}
+          >
+             
+          </p>
+          <p
+            style={null}
+          >
+             
+          </p>
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-reason"
+        >
+          <div />
+          <div />
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-time"
+        >
+          15:20
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-detail"
+        >
+          <p
+            style={null}
+          >
+            Door 14:40(Deviated time is 40minute)
+          </p>
+          <p
+            style={null}
+          >
+             
+          </p>
+          <p
+            style={null}
+          >
+             
+          </p>
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-reason"
+        >
+          <div />
+          <div>
+             
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__record-date"
+        >
+          2 Wed
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-time"
+        >
+          09:00
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-detail"
+        >
+          <p>
+            Door
+             
+            09:20
+          </p>
+          <p
+            style={null}
+          >
+             
+          </p>
+          <p
+            style={null}
+          >
+             
+          </p>
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-reason"
+        >
+          <div />
+          <div />
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-time"
+        >
+          15:20
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-detail"
+        >
+          <p>
+            Door
+             
+            14:40
+          </p>
+          <p
+            style={null}
+          >
+             
+          </p>
+          <p
+            style={null}
+          >
+             
+          </p>
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-detail-list__objectively-event-log-reason"
+        >
+          <div />
+          <div>
+             
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Storyshots attendance/timesheet-pc-objectively-event-log objectivelyEventLogHeader 1`] = `
+<div
+  className="timesheet-pc-objectively-event-log-header"
+>
+  <table
+    className="timesheet-pc-objectively-event-log-header__table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Target Month
+        </th>
+        <th>
+          Department Name
+        </th>
+        <th>
+          Work Scheme
+        </th>
+        <th>
+          Employee Code
+        </th>
+        <th>
+          Employee Name
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          className="timesheet-pc-objectively-event-log-header__target-month"
+        >
+          Dec 2021
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-header__dept-name"
+        >
+          <div>
+            TEXエンジニアリング JP1サブチーム (Dec 1, 2021-Dec 15, 2021)
+          </div>
+          <div>
+            TEXT2 (Dec 16, 2021-Dec 31, 2021)
+          </div>
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-header__work-scheme"
+        >
+          <div>
+            コアタイム(11:00～16:00) (Dec 1, 2021-Dec 15, 2021)
+          </div>
+          <div>
+            FIX02 (Dec 16, 2021-Dec 31, 2021)
+          </div>
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-header__emp-code"
+        >
+          EMP_00
+        </td>
+        <td
+          className="timesheet-pc-objectively-event-log-header__emp-name"
+        >
+          EMP_00
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

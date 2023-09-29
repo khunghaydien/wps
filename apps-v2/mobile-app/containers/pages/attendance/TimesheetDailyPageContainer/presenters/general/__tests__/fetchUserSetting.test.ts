@@ -1,0 +1,67 @@
+import configureMockStore from 'redux-mock-store';
+import thunk from 'redux-thunk';
+
+import presenter from '../fetchUserSetting';
+import { IOutputData } from '@attendance/domain/useCases/IUseCase';
+
+jest.mock('uuid/v4');
+
+const mockStore = configureMockStore([thunk]);
+
+beforeEach(() => {
+  jest.clearAllMocks();
+});
+
+describe('complete()', () => {
+  it('should do.', () => {
+    // Arrange
+    const store = mockStore({});
+
+    // Act
+    presenter(store)().complete('output' as unknown as IOutputData);
+
+    // Assert
+    expect(store.getActions()).toMatchSnapshot();
+  });
+});
+
+describe('error()', () => {
+  it('should do.', () => {
+    // Arrange
+    const store = mockStore({});
+
+    // Act
+    presenter(store)().error({
+      message: 'Error Test',
+    });
+
+    // Assert
+    expect(store.getActions()).toMatchSnapshot();
+  });
+});
+
+describe('start()', () => {
+  it('should do.', () => {
+    // Arrange
+    const store = mockStore({});
+
+    // Act
+    presenter(store)().start();
+
+    // Assert
+    expect(store.getActions()).toMatchSnapshot();
+  });
+});
+
+describe('finally()', () => {
+  it('should do.', () => {
+    // Arrange
+    const store = mockStore({});
+
+    // Act
+    presenter(store)().finally();
+
+    // Assert
+    expect(store.getActions()).toMatchSnapshot();
+  });
+});

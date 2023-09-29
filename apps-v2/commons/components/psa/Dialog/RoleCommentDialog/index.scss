@@ -1,0 +1,11 @@
+@import '../../../../components/psa/variables.scss';
+
+.ts-psa__comment-role-dialog {
+  &__dialog-frame {
+    width: 580px;
+  }
+
+  &__inner {
+    padding: $container-padding;
+  }
+}

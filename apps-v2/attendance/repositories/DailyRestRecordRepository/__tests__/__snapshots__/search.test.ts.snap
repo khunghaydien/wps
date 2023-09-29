@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return dailyRestList 1`] = `
+Array [
+  Object {
+    "recordDate": "2022-07-01",
+    "restRecords": Array [
+      Object {
+        "id": "XXXXXXXXXXXXXXX",
+        "outEndTime": 1200,
+        "outRestTime": 120,
+        "outStartTime": 1080,
+        "restReasonCode": "TestCode",
+        "restReasonId": "XXXXXXXXXXXXXXX",
+        "restReasonName": "TestName",
+      },
+    ],
+  },
+]
+`;

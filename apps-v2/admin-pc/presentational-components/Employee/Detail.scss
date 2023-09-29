@@ -1,0 +1,38 @@
+.admin-pc-employee-detail {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 35%;
+  display: inline-block;
+  width: 65%;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -3px 10px 15px rgba(0, 0, 0, 0.5);
+  color: #92939a;
+  text-align: left;
+
+  &__extra-area {
+    position: absolute;
+    top: 8px;
+    right: 110px;
+    color: #0070d2;
+    cursor: pointer;
+    font-size: 13px;
+
+    &-edit {
+      right: 210px;
+    }
+
+    &-new {
+      display: none;
+    }
+
+    :hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__delegate-applicant {
+    padding-right: 10px;
+  }
+}

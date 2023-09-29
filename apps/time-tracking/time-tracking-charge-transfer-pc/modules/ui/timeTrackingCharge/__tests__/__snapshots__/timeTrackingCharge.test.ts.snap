@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer action.RESET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,11 +1,10 @@
+  Object {
+    \\"destTask\\": Object {
+      \\"jobCode\\": \\"\\",
+      \\"jobId\\": \\"\\",
+      \\"jobName\\": \\"\\",
+-     \\"sourceJobId\\": \\"destination\\",
+      \\"validFrom\\": \\"\\",
+      \\"validTo\\": \\"\\",
+      \\"workCategoryCode\\": \\"\\",
+      \\"workCategoryId\\": \\"\\",
+      \\"workCategoryName\\": \\"\\",
+@@ -13,11 +12,10 @@
+    \\"endDate\\": 2021-01-31T14:59:59.999Z,
+    \\"srcTask\\": Object {
+      \\"jobCode\\": \\"\\",
+      \\"jobId\\": \\"\\",
+      \\"jobName\\": \\"\\",
+-     \\"sourceJobId\\": \\"source\\",
+      \\"workCategoryCode\\": \\"\\",
+      \\"workCategoryId\\": \\"\\",
+      \\"workCategoryName\\": \\"\\",
+    },
+    \\"startDate\\": 2020-12-31T15:00:00.000Z,"
+`;
+
+exports[`reducer action.SELECT_DEST_TASK 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,15 +1,15 @@
+  Object {
+    \\"destTask\\": Object {
+-     \\"jobCode\\": \\"\\",
+-     \\"jobId\\": \\"\\",
+-     \\"jobName\\": \\"\\",
+-     \\"validFrom\\": \\"\\",
+-     \\"validTo\\": \\"\\",
+-     \\"workCategoryCode\\": \\"\\",
+-     \\"workCategoryId\\": \\"\\",
+-     \\"workCategoryName\\": \\"\\",
++     \\"jobCode\\": \\"wpb-995\\",
++     \\"jobId\\": \\"1\\",
++     \\"jobName\\": \\"time tracking job transfer\\",
++     \\"validFrom\\": \\"2021-04-01\\",
++     \\"validTo\\": \\"2021-04-30\\",
++     \\"workCategoryCode\\": \\"wsp-testing\\",
++     \\"workCategoryId\\": \\"2\\",
++     \\"workCategoryName\\": \\"Testing\\",
+    },
+    \\"endDate\\": 2021-01-31T14:59:59.999Z,
+    \\"srcTask\\": Object {
+      \\"jobCode\\": \\"\\",
+      \\"jobId\\": \\"\\","
+`;
+
+exports[`reducer action.SELECT_END_DATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -7,11 +7,11 @@
+      \\"validTo\\": \\"\\",
+      \\"workCategoryCode\\": \\"\\",
+      \\"workCategoryId\\": \\"\\",
+      \\"workCategoryName\\": \\"\\",
+    },
+-   \\"endDate\\": 2021-01-31T14:59:59.999Z,
++   \\"endDate\\": 2020-12-30T15:00:00.000Z,
+    \\"srcTask\\": Object {
+      \\"jobCode\\": \\"\\",
+      \\"jobId\\": \\"\\",
+      \\"jobName\\": \\"\\",
+      \\"workCategoryCode\\": \\"\\","
+`;
+
+exports[`reducer action.SELECT_SRC_TASK 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -9,16 +9,16 @@
+      \\"workCategoryId\\": \\"\\",
+      \\"workCategoryName\\": \\"\\",
+    },
+    \\"endDate\\": 2021-01-31T14:59:59.999Z,
+    \\"srcTask\\": Object {
+-     \\"jobCode\\": \\"\\",
+-     \\"jobId\\": \\"\\",
+-     \\"jobName\\": \\"\\",
+-     \\"workCategoryCode\\": \\"\\",
+-     \\"workCategoryId\\": \\"\\",
+-     \\"workCategoryName\\": \\"\\",
++     \\"jobCode\\": \\"wpb-995\\",
++     \\"jobId\\": \\"1\\",
++     \\"jobName\\": \\"time tracking job transfer\\",
++     \\"workCategoryCode\\": \\"wsp-testing\\",
++     \\"workCategoryId\\": \\"2\\",
++     \\"workCategoryName\\": \\"Testing\\",
+    },
+    \\"startDate\\": 2020-12-31T15:00:00.000Z,
+    \\"summaryId\\": \\"\\",
+    \\"summaryPeriod\\": Object {
+      \\"endDate\\": 2021-01-31T14:59:59.999Z,"
+`;
+
+exports[`reducer action.SELECT_START_DATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -16,11 +16,11 @@
+      \\"jobName\\": \\"\\",
+      \\"workCategoryCode\\": \\"\\",
+      \\"workCategoryId\\": \\"\\",
+      \\"workCategoryName\\": \\"\\",
+    },
+-   \\"startDate\\": 2020-12-31T15:00:00.000Z,
++   \\"startDate\\": 2020-11-30T15:00:00.000Z,
+    \\"summaryId\\": \\"\\",
+    \\"summaryPeriod\\": Object {
+      \\"endDate\\": 2021-01-31T14:59:59.999Z,
+      \\"startDate\\": 2020-12-31T15:00:00.000Z,
+    },"
+`;
+
+exports[`reducer action.SELECT_SUMMARY 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -17,11 +17,11 @@
+      \\"workCategoryCode\\": \\"\\",
+      \\"workCategoryId\\": \\"\\",
+      \\"workCategoryName\\": \\"\\",
+    },
+    \\"startDate\\": 2020-12-31T15:00:00.000Z,
+-   \\"summaryId\\": \\"\\",
++   \\"summaryId\\": \\"id\\",
+    \\"summaryPeriod\\": Object {
+-     \\"endDate\\": 2021-01-31T14:59:59.999Z,
+-     \\"startDate\\": 2020-12-31T15:00:00.000Z,
++     \\"endDate\\": 2021-01-19T15:00:00.000Z,
++     \\"startDate\\": 2021-01-09T15:00:00.000Z,
+    },
+  }"
+`;

@@ -1,0 +1,61 @@
+import * as base from './base';
+
+const FUNC_NAME = 'att/late-arrival-early-leave-reason';
+export const SEARCH_LATE_ARRIVAL_EARLY_LEAVE_REASON =
+  'SEARCH_LATE_ARRIVAL_EARLY_LEAVE_REASON';
+export const CREATE_LATE_ARRIVAL_EARLY_LEAVE_REASON =
+  'CREATE_LATE_ARRIVAL_EARLY_LEAVE_REASON';
+export const DELETE_LATE_ARRIVAL_EARLY_LEAVE_REASON =
+  'DELETE_LATE_ARRIVAL_EARLY_LEAVE_REASON';
+export const UPDATE_LATE_ARRIVAL_EARLY_LEAVE_REASON =
+  'UPDATE_LATE_ARRIVAL_EARLY_LEAVE_REASON';
+export const SEARCH_LATE_ARRIVAL_EARLY_LEAVE_REASON_ERROR =
+  'SEARCH_LATE_ARRIVAL_EARLY_LEAVE_REASON_ERROR';
+export const CREATE_LATE_ARRIVAL_EARLY_LEAVE_REASON_ERROR =
+  'CREATE_LATE_ARRIVAL_EARLY_LEAVE_REASON_ERROR';
+export const DELETE_LATE_ARRIVAL_EARLY_LEAVE_REASON_ERROR =
+  'DELETE_LATE_ARRIVAL_EARLY_LEAVE_REASON_ERROR';
+export const UPDATE_LATE_ARRIVAL_EARLY_LEAVE_REASON_ERROR =
+  'UPDATE_LATE_ARRIVAL_EARLY_LEAVE_REASON_ERROR';
+export const GET_CONSTANTS_LATE_ARRIVAL_EARLY_LEAVE_REASON =
+  'GET_CONSTANTS_LATE_ARRIVAL_EARLY_LEAVE_REASON';
+
+export const searchLateArrivalEarlyLeaveReason = (param = {}) => {
+  return base.search(
+    FUNC_NAME,
+    param,
+    SEARCH_LATE_ARRIVAL_EARLY_LEAVE_REASON,
+    SEARCH_LATE_ARRIVAL_EARLY_LEAVE_REASON_ERROR
+  );
+};
+
+export const createLateArrivalEarlyLeaveReason = (param) => {
+  return base.create(
+    FUNC_NAME,
+    param,
+    CREATE_LATE_ARRIVAL_EARLY_LEAVE_REASON,
+    CREATE_LATE_ARRIVAL_EARLY_LEAVE_REASON_ERROR
+  );
+};
+
+export const deleteLateArrivalEarlyLeaveReason = (param) => {
+  return base.del(
+    FUNC_NAME,
+    param,
+    DELETE_LATE_ARRIVAL_EARLY_LEAVE_REASON,
+    DELETE_LATE_ARRIVAL_EARLY_LEAVE_REASON_ERROR
+  );
+};
+
+export const updateLateArrivalEarlyLeaveReason = (param) => {
+  return base.update(
+    FUNC_NAME,
+    param,
+    UPDATE_LATE_ARRIVAL_EARLY_LEAVE_REASON,
+    GET_CONSTANTS_LATE_ARRIVAL_EARLY_LEAVE_REASON
+  );
+};
+
+export const getConstantsLateArrivalEarlyLeaveReason = () => ({
+  type: GET_CONSTANTS_LATE_ARRIVAL_EARLY_LEAVE_REASON,
+});

@@ -1,0 +1,404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Event: initialized: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`Event: initialized: should subscribe 1`] = `
+Array [
+  Object {
+    "arguments": Array [
+      "fetchedTimesheet",
+    ],
+    "type": "METHOD: reloadTimeTrack",
+  },
+]
+`;
+
+exports[`Event: initialized: should subscribe after initialized 1`] = `
+Array [
+  Object {
+    "arguments": Array [
+      "fetchedTimesheet",
+    ],
+    "type": "METHOD: reloadTimeTrack",
+  },
+]
+`;
+
+exports[`Event: stampedTime: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`Event: stampedTime: should subscribe 1`] = `
+Array [
+  Object {
+    "arguments": Array [
+      undefined,
+    ],
+    "type": "METHOD: resetTimesheet",
+  },
+]
+`;
+
+exports[`Event: stampedTime: should subscribe after initialized 1`] = `
+Array [
+  Object {
+    "arguments": Array [
+      undefined,
+    ],
+    "type": "METHOD: resetTimesheet",
+  },
+]
+`;
+
+exports[`Event: updatedDailyRecord: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`Event: updatedDailyRecord: should subscribe 1`] = `
+Array [
+  Object {
+    "arguments": Array [],
+    "type": "METHOD: reloadTimesheet",
+  },
+  Object {
+    "arguments": Array [],
+    "type": "METHOD: reloadStampTime",
+  },
+]
+`;
+
+exports[`Event: updatedDailyRecord: should subscribe after initialized 1`] = `
+Array [
+  Object {
+    "arguments": Array [],
+    "type": "METHOD: reloadTimesheet",
+  },
+  Object {
+    "arguments": Array [],
+    "type": "METHOD: reloadStampTime",
+  },
+]
+`;
+
+exports[`UseCases: cancelApprovalFixDailyRequest: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: cancelApprovalFixDailyRequest: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: cancelApprovalFixDailyRequest: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: cancelApprovalLegalAgreementRequest: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: cancelApprovalLegalAgreementRequest: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: cancelApprovalLegalAgreementRequest: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: cancelRequestLegalAgreementRequest: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: cancelRequestLegalAgreementRequest: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: cancelRequestLegalAgreementRequest: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: cancelSubmittedFixDailyRequest: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: cancelSubmittedFixDailyRequest: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: cancelSubmittedFixDailyRequest: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: createObjectivelyEventLog: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: createObjectivelyEventLog: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: createObjectivelyEventLog: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: fetchDailyFieldLayoutTable: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: fetchDailyFieldLayoutTable: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: fetchDailyFieldLayoutTable: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: fetchDailyObjectivelyEventLogDeviationReasons: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: fetchDailyObjectivelyEventLogDeviationReasons: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: fetchDailyObjectivelyEventLogDeviationReasons: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: fetchListLegalAgreementRequest: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: fetchListLegalAgreementRequest: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: fetchListLegalAgreementRequest: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: fetchObjectivelyEventLogs: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: fetchObjectivelyEventLogs: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: fetchObjectivelyEventLogs: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: fetchOvertimeLegalAgreement: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: fetchOvertimeLegalAgreement: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: fetchOvertimeLegalAgreement: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: fetchRestTimeReasons: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: fetchRestTimeReasons: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: fetchRestTimeReasons: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: fetchTimesheet: is shown diff 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -21,6 +21,12 @@
+      \\"arguments\\": Array [
+        Object {},
+      ],
+      \\"type\\": \\"METHOD: fetchDailyFieldLayoutTable\\",
+    },
++   Object {
++     \\"arguments\\": Array [
++       Object {},
++     ],
++     \\"type\\": \\"METHOD: reloadTimeTrack\\",
++   },
+  ]"
+`;
+
+exports[`UseCases: fetchTimesheet: should subscribe 1`] = `
+Array [
+  Object {
+    "arguments": Array [
+      Object {},
+    ],
+    "type": "METHOD: reloadDailyObjectivelyEventLogs",
+  },
+  Object {
+    "arguments": Array [
+      Object {},
+    ],
+    "type": "METHOD: reloadDailyAllowanceRecords",
+  },
+  Object {
+    "arguments": Array [
+      Object {},
+    ],
+    "type": "METHOD: reloadListLegalAgreementRequest",
+  },
+  Object {
+    "arguments": Array [
+      Object {},
+    ],
+    "type": "METHOD: fetchDailyFieldLayoutTable",
+  },
+]
+`;
+
+exports[`UseCases: fetchTimesheet: should subscribe after initialized 1`] = `
+Array [
+  Object {
+    "arguments": Array [
+      Object {},
+    ],
+    "type": "METHOD: reloadDailyObjectivelyEventLogs",
+  },
+  Object {
+    "arguments": Array [
+      Object {},
+    ],
+    "type": "METHOD: reloadDailyAllowanceRecords",
+  },
+  Object {
+    "arguments": Array [
+      Object {},
+    ],
+    "type": "METHOD: reloadListLegalAgreementRequest",
+  },
+  Object {
+    "arguments": Array [
+      Object {},
+    ],
+    "type": "METHOD: fetchDailyFieldLayoutTable",
+  },
+  Object {
+    "arguments": Array [
+      Object {},
+    ],
+    "type": "METHOD: reloadTimeTrack",
+  },
+]
+`;
+
+exports[`UseCases: reapplyLegalAgreementRequest: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: reapplyLegalAgreementRequest: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: reapplyLegalAgreementRequest: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: reloadDailyObjectivelyEventLogs: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: reloadDailyObjectivelyEventLogs: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: reloadDailyObjectivelyEventLogs: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: reloadOneDailyObjectivelyEventLog: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: reloadOneDailyObjectivelyEventLog: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: reloadOneDailyObjectivelyEventLog: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: reloadTimesheetOnly: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: reloadTimesheetOnly: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: reloadTimesheetOnly: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: removeLegalAgreementRequest: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: removeLegalAgreementRequest: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: removeLegalAgreementRequest: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: removeObjectivelyEventLog: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: removeObjectivelyEventLog: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: removeObjectivelyEventLog: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: saveDailyObjectivelyEventLogDeviationReason: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: saveDailyObjectivelyEventLogDeviationReason: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: saveDailyObjectivelyEventLogDeviationReason: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: saveDailyRecord: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: saveDailyRecord: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: saveDailyRecord: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: saveFields: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: saveFields: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: saveFields: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: setToBeAppliedToDailyObjectivelyEventLog: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: setToBeAppliedToDailyObjectivelyEventLog: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: setToBeAppliedToDailyObjectivelyEventLog: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: stampTime: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: stampTime: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: stampTime: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: submitFixDailyRequest: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: submitFixDailyRequest: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: submitFixDailyRequest: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: submitFixDailyRequestAndSaveDailyRecord: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: submitFixDailyRequestAndSaveDailyRecord: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: submitFixDailyRequestAndSaveDailyRecord: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: submitFixDailyRequestWithClockOut: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: submitFixDailyRequestWithClockOut: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: submitFixDailyRequestWithClockOut: should subscribe after initialized 1`] = `Array []`;
+
+exports[`UseCases: submitLegalAgreementRequest: is shown diff 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`UseCases: submitLegalAgreementRequest: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: submitLegalAgreementRequest: should subscribe after initialized 1`] = `Array []`;

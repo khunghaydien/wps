@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should do. 1`] = `
+Array [
+  Object {
+    "param": Object {
+      "commuteCount": Object {
+        "backwardCount": 1,
+        "forwardCount": 0,
+      },
+      "dailyRestList": Array [
+        Object {
+          "restEndTime": 600,
+          "restReasonId": "a0A2800000FmMQCEA1",
+          "restStartTime": 590,
+        },
+        Object {
+          "restEndTime": 720,
+          "restReasonId": "a0A2800000FmMQCEA1",
+          "restStartTime": 710,
+        },
+        Object {
+          "restEndTime": 840,
+          "restReasonId": "a0A2800000FmMQCEA1",
+          "restStartTime": 830,
+        },
+        Object {
+          "restEndTime": 960,
+          "restReasonId": "a0A2800000FmMQCEA1",
+          "restStartTime": 950,
+        },
+        Object {
+          "restEndTime": 1080,
+          "restReasonId": "a0A2800000FmMQCEA1",
+          "restStartTime": 1070,
+        },
+      ],
+      "empId": "employeeId",
+      "endTime": 1200,
+      "otherRestReason": "a0A2800000FmMQCEA1",
+      "remarks": "remarks",
+      "restHours": 60,
+      "startTime": 540,
+      "targetDate": "2022-01-01",
+    },
+    "path": "/att/daily-time/save",
+  },
+]
+`;

@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@INIT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"departmentCode\\": \\"\\",
++   \\"departmentName\\": \\"\\",
++   \\"employeeCode\\": \\"\\",
++   \\"employeeName\\": \\"\\",
++   \\"isOverLimit\\": false,
++   \\"isSearchByQueriesExecuted\\": false,
++   \\"searchStrategy\\": 1,
++   \\"selectedEmployeeId\\": \\"\\",
++   \\"targetDate\\": \\"\\",
++   \\"title\\": \\"\\",
++ }"
+`;
+
+exports[`reducer() COMMON/APPROVER_EMPLOYEE/UI/OPERATION/CLEAR 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() COMMON/APPROVER_EMPLOYEE/UI/OPERATION/EDIT_DEPARTMENT_CODE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,7 +1,7 @@
+  Object {
+-   \\"departmentCode\\": \\"\\",
++   \\"departmentCode\\": \\"testDepartmentCode\\",
+    \\"departmentName\\": \\"\\",
+    \\"employeeCode\\": \\"\\",
+    \\"employeeName\\": \\"\\",
+    \\"isOverLimit\\": false,
+    \\"isSearchByQueriesExecuted\\": false,"
+`;
+
+exports[`reducer() COMMON/APPROVER_EMPLOYEE/UI/OPERATION/EDIT_DEPARTMENT_NAME 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,8 +1,8 @@
+  Object {
+    \\"departmentCode\\": \\"\\",
+-   \\"departmentName\\": \\"\\",
++   \\"departmentName\\": \\"testDepartmentName\\",
+    \\"employeeCode\\": \\"\\",
+    \\"employeeName\\": \\"\\",
+    \\"isOverLimit\\": false,
+    \\"isSearchByQueriesExecuted\\": false,
+    \\"searchStrategy\\": 1,"
+`;
+
+exports[`reducer() COMMON/APPROVER_EMPLOYEE/UI/OPERATION/EDIT_EMPLOYEE_CODE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,9 +1,9 @@
+  Object {
+    \\"departmentCode\\": \\"\\",
+    \\"departmentName\\": \\"\\",
+-   \\"employeeCode\\": \\"\\",
++   \\"employeeCode\\": \\"testEmployeeCode\\",
+    \\"employeeName\\": \\"\\",
+    \\"isOverLimit\\": false,
+    \\"isSearchByQueriesExecuted\\": false,
+    \\"searchStrategy\\": 1,
+    \\"selectedEmployeeId\\": \\"\\","
+`;
+
+exports[`reducer() COMMON/APPROVER_EMPLOYEE/UI/OPERATION/EDIT_EMPLOYEE_NAME 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,10 +1,10 @@
+  Object {
+    \\"departmentCode\\": \\"\\",
+    \\"departmentName\\": \\"\\",
+    \\"employeeCode\\": \\"\\",
+-   \\"employeeName\\": \\"\\",
++   \\"employeeName\\": \\"testEmployeeName\\",
+    \\"isOverLimit\\": false,
+    \\"isSearchByQueriesExecuted\\": false,
+    \\"searchStrategy\\": 1,
+    \\"selectedEmployeeId\\": \\"\\",
+    \\"targetDate\\": \\"\\","
+`;
+
+exports[`reducer() COMMON/APPROVER_EMPLOYEE/UI/OPERATION/EDIT_TITLE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -6,7 +6,7 @@
+    \\"isOverLimit\\": false,
+    \\"isSearchByQueriesExecuted\\": false,
+    \\"searchStrategy\\": 1,
+    \\"selectedEmployeeId\\": \\"\\",
+    \\"targetDate\\": \\"\\",
+-   \\"title\\": \\"\\",
++   \\"title\\": \\"testTitleName\\",
+  }"
+`;
+
+exports[`reducer() COMMON/APPROVER_EMPLOYEE/UI/OPERATION/EDIT_TITLE 2`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -4,9 +4,9 @@
+    \\"employeeCode\\": \\"\\",
+    \\"employeeName\\": \\"\\",
+    \\"isOverLimit\\": false,
+    \\"isSearchByQueriesExecuted\\": false,
+    \\"searchStrategy\\": 1,
+-   \\"selectedEmployeeId\\": \\"\\",
++   \\"selectedEmployeeId\\": \\"a0Y2v00000TTpa1EAD\\",
+    \\"targetDate\\": \\"\\",
+    \\"title\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() COMMON/APPROVER_EMPLOYEE/UI/OPERATION/OVER_LIMIT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,11 +1,11 @@
+  Object {
+    \\"departmentCode\\": \\"\\",
+    \\"departmentName\\": \\"\\",
+    \\"employeeCode\\": \\"\\",
+    \\"employeeName\\": \\"\\",
+-   \\"isOverLimit\\": false,
++   \\"isOverLimit\\": true,
+    \\"isSearchByQueriesExecuted\\": false,
+    \\"searchStrategy\\": 1,
+    \\"selectedEmployeeId\\": \\"\\",
+    \\"targetDate\\": \\"\\",
+    \\"title\\": \\"\\","
+`;
+
+exports[`reducer() COMMON/APPROVER_EMPLOYEE/UI/OPERATION/SET_TARGET_DATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -5,8 +5,8 @@
+    \\"employeeName\\": \\"\\",
+    \\"isOverLimit\\": false,
+    \\"isSearchByQueriesExecuted\\": false,
+    \\"searchStrategy\\": 1,
+    \\"selectedEmployeeId\\": \\"\\",
+-   \\"targetDate\\": \\"\\",
++   \\"targetDate\\": \\"2019-11-15\\",
+    \\"title\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() COMMON/APPROVER_EMPLOYEE/UI/OPERATION/SWITCH_SEARCH_STRATEGY 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -3,10 +3,10 @@
+    \\"departmentName\\": \\"\\",
+    \\"employeeCode\\": \\"\\",
+    \\"employeeName\\": \\"\\",
+    \\"isOverLimit\\": false,
+    \\"isSearchByQueriesExecuted\\": false,
+-   \\"searchStrategy\\": 1,
++   \\"searchStrategy\\": 2,
+    \\"selectedEmployeeId\\": \\"\\",
+    \\"targetDate\\": \\"\\",
+    \\"title\\": \\"\\",
+  }"
+`;

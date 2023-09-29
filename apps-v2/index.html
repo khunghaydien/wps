@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jsforce/1.8.5/jsforce.min.js"></script>
+  </head>
+
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Applications</h1>
+        <div class="tile is-ancestor">
+          <div class="tile is-vertical is-child">
+            <div class="tile">
+              <div class="tile is-parent is-vertical">
+                <article class="tile is-child notification is-info">
+                  <h2 class="title">
+                    <i class="fa fa-cogs" aria-hidden="true"></i>&#xA0;Developer
+                    Tools
+                  </h2>
+                  <a class="is-size-5" href="./test-api/index.html">Test API</a>
+                </article>
+              </div>
+            </div>
+            <div class="tile is-vertical">
+              <div class="tile is-parent is-vertical">
+                <article class="tile is-child is-parent box">
+                  <h2 class="title">
+                    <i class="fa fa-puzzle-piece" aria-hidden="true"></i
+                    >&#xA0;Sub Apps
+                  </h2>
+                  <section class="tile is-child">
+                    <a href="/time-tracking-subapps-debug/index.html">Time Tracking</a>
+                  </section>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="tile">
+            <div class="tile is-parent is-vertical is-6">
+              <article class="tile is-child box">
+                <h2 class="title">
+                  <i class="fa fa-desktop" aria-hidden="true"></i>&#xA0;PC
+                </h2>
+                <div class="list is-hoverable">
+                  <a class="list-item" href="./expenses-pc/index.html"
+                    >経費精算 Expenses（PC）</a
+                  >
+                  <a class="list-item" href="./requests-pc/index.html"
+                    >経費精算 Requests（PC）</a
+                  >
+                  <a class="list-item" href="./finance-approval-pc/index.html"
+                    >経理承認 Finance Approval (PC)</a
+                  >
+                  <a class="list-item" href="./team-pc/index.html"
+                    >チーム Team（PC）</a
+                  >
+                  <a class="list-item" href="./planner-pc/index.html"
+                    >プランナー Planner（PC）</a
+                  >
+                  <a
+                    class="list-item"
+                    href="./time-tracking-charge-transfer-pc/index.html"
+                    >工数振替 Time Tracking Charge Transfer（PC）</a
+                  >
+                  <a class="list-item" href="./psa-pc/index.html">PSA (PC）</a>
+                  <a class="list-item" href="./resource-pc/index.html"
+                    >Resource (PC）</a
+                  >
+                  <a class="list-item" href="./psa-pc-talent-profile/index.html"
+                    >PSA Talent Profile (PC）</a
+                  >
+                  <a class="list-item" href="./capacity-editor-bulk/index.html"
+                  >Bulk Capacity Editor</a
+                  >
+                  <a class="list-item" href="./capacity-editor-single/index.html"
+                  >Single Capacity Editor</a
+                  >
+                  <a class="list-item" href="./timesheet-pc/index.html"
+                    >勤務表 Timesheet (PC)</a
+                  >
+                  <a class="list-item" href="./timesheet-pc-importer/index.html"
+                    >勤務表インポート Timesheet import (PC)</a
+                  >
+                  <a class="list-item" href="./tracking-pc/index.html"
+                    >工数実績 Tracking (PC)</a
+                  >
+                  <a class="list-item" href="./database-tool-pc/index.html"
+                    >DB Tool (PC)</a
+                  >
+                  <a class="list-item" href="./approvals-pc/index.html"
+                    >承認 Approval（PC）</a
+                  >
+                  <a class="list-item" href="./admin-pc/index.html"
+                    >管理 Admin (PC)</a
+                  >
+                  <a class="list-item" href="./timestamp-widget-pc/index.html"
+                    >ホーム打刻ウィジェット</a
+                  >
+                  <a class="list-item" href="./custom-request-pc/index.html"
+                  >汎用稟議 Custom Request（PC）</a
+                  >
+                </div>
+              </article>
+            </div>
+            <div class="tile is-parent is-vertical is-6">
+              <article class="tile is-child is-white box">
+                <h2 class="title">
+                  <i class="fa fa-mobile" aria-hidden="true"></i>&#xA0;Mobile
+                </h2>
+                <div class="list is-hoverable">
+                  <a
+                    class="list-item"
+                    href="./mobile-app?r=attendance/timestamp"
+                    >勤怠打刻 Timestamp</a
+                  >
+                  <a
+                    class="list-item"
+                    href="./mobile-app?r=attendance/timesheet-monthly"
+                    >勤務表 Timesheet Monthly</a
+                  >
+                  <a
+                    class="list-item"
+                    href="./mobile-app?r=attendance/timesheet-daily"
+                    >勤務入力 Timesheet Daily</a
+                  >
+                  <a
+                    class="list-item"
+                    href="./mobile-app?r=tracking/tracking-monthly"
+                    >工数実績 Tracking Monthly</a
+                  >
+                  <a
+                    class="list-item"
+                    href="./mobile-app?r=tracking/tracking-daily"
+                    >工数入力 Tracking Daily</a
+                  >
+                  <a class="list-item" href="./mobile-app/expense"
+                    >経費 Expense（Mobile）</a
+                  >
+                  <a class="list-item" href="./mobile-app/request/report/list"
+                    >経費 Request（Mobile）</a
+                  >
+                  <a class="list-item" href="./mobile-app/approval/list"
+                    >承認 Approval（Mobile）</a
+                  >
+                  <a
+                    class="list-item"
+                    href="./mobile-app/approval/expenses/list"
+                    >経費承認 Expense Approval（Mobile）</a
+                  >
+                  <a
+                    class="list-item"
+                    href="./mobile-app/approval/custom-request/list"
+                    >稟議承認 Custom Request Approval（Mobile）</a
+                  >
+                  <a class="list-item" href="./mobile-app/sample/attendance"
+                    >Sample（Mobile）</a
+                  >
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script>
+    jsforce.browser.init({
+      clientId:
+        '3MVG9ZL0ppGP5UrC6hqPkDR0qRIqmxt0xhy2ESGQoOfI6CW5iiR19i438XsazeZDUctteu5qLyg==',
+      redirectUri: 'http://localhost:3000/',
+      proxyUrl: 'http://localhost:3123/proxy/',
+    });
+    jsforce.browser.on('connect', function (conn) {
+      this.connection = conn;
+      resolve(this.connection);
+    });
+    if (!jsforce.browser._getTokens()) {
+      jsforce.browser.login();
+    }
+  </script>
+</html>

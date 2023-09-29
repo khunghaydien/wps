@@ -1,0 +1,28 @@
+.commons-message-board {
+  width: 80%;
+  max-width: 500px;
+  padding: 60px 0 20px;
+  margin: 0 auto;
+  color: $color-text-modest;
+
+  &__message {
+    padding: 0 5px;
+    font-size: $font-size-x-large;
+  }
+
+  &__message--center {
+    text-align: center;
+  }
+
+  &__icon {
+    margin-bottom: 35px;
+    text-align: center;
+  }
+
+  &__description {
+    padding: 20px;
+    margin: 20px 0 0;
+    background: #e5e7f9;
+    border-radius: 4px;
+  }
+}

@@ -1,0 +1,201 @@
+﻿type,sp,id,message,use,note,author
+APP,単,zv00000100,{0}さん 休暇申請 {1},C,,
+APP,単,zv00000110,{0}さん 休暇申請 {1}～{2},C,,
+APP,単,zv00000120,{0}さん 休暇申請 {1} {3}の代休,C,,
+APP,単,zv00000200,{0}さん 勤務時間変更申請 {1},C,,
+APP,単,zv00000210,{0}さん 勤務時間変更申請 {1}～{2},C,,
+APP,単,zv00000300,{0}さん 長期時間変更申請 {1},C,,
+APP,単,zv00000310,{0}さん 長期時間変更申請 {1}～{2},C,,
+APP,単,zv00000400,{0}さん 直行申請 {1},C,,
+APP,単,zv00000410,{0}さん 直行申請 {1}～{2},C,,
+APP,単,zv00000500,{0}さん 直帰申請 {1},C,,
+APP,単,zv00000510,{0}さん 直帰申請 {1}～{2},C,,
+APP,単,zv00000600,{0}さん 直行・直帰申請 {1},C,,
+APP,単,zv00000610,{0}さん 直行・直帰申請 {1}～{2},C,,
+APP,単,zv00000700,{0}さん 勤怠時刻修正申請 {1},C,,
+APP,単,zv00000800,{0}さん 休日出勤申請 {1} {3}～{4},C,,
+APP,単,zv00000810,{0}さん 休日出勤申請 {1} {3}～{4}【事前申請】,C,,
+APP,単,zv00000820,{0}さん 休日出勤申請 {1} {3}～{4}【事後申請】,C,,
+APP,単,zv00000900,{0}さん 残業申請 {1} {3}～{4},C,,
+APP,単,zv00000910,{0}さん 残業申請 {1} {3}～{4}【事前申請】,C,,
+APP,単,zv00000920,{0}さん 残業申請 {1} {3}～{4}【事後申請】,C,,
+APP,単,zv00001000,{0}さん 早朝勤務申請 {1} {3}～{4},C,,
+APP,単,zv00001010,{0}さん 早朝勤務申請 {1} {3}～{4}【事前申請】,C,,
+APP,単,zv00001020,{0}さん 早朝勤務申請 {1} {3}～{4}【事後申請】,C,,
+APP,単,zv00001100,{0}さん 遅刻申請 {1} {3}～{4},C,,
+APP,単,zv00001200,{0}さん 早退申請 {1} {3}～{4},C,,
+APP,単,zv00001300,{0}さん 振替申請 {1}<->{3},C,,
+APP,単,zv00001310,{0}さん 振替申請 {1}<->{3},C,,
+APP,単,zv00001400,{0}さん 日次確定 {1},C,,
+APP,単,zv00001410,{0}さん 日次確定 {1}～{2},C,,
+APP,単,zv00001420,{0}さん 日次確定 {1} {3}～{4} 実働 {5},C,,
+APP,単,zv00001430,◆乖離◆{0}さん 日次確定 {1} {3}～{4} 実働 {5},C,,
+APP,単,zv00001500,{0}さん 勤務確定 {1},C,,
+APP,単,zv00001501,{0}さん 勤務確定 {1}({3}),C,,
+APP,単,zv00001600,{0}さん 工数申請 {1},C,,
+APP,単,zv00001601,{0}さん 工数申請 {1}({2}),C,,
+APP,単,zv00001700,{0}さん 月次残業申請 {1} {2},C,,
+APP,単,zv00010100,{1} {0}さん 経費精算申請 {2},C,,
+APP,単,zv00010101,{1} {0}さん 経費精算申請 {2} (添付),C,,
+APP,単,zv00010110,{1} {0}さん 経費精算申請 {2} (領収書),C,,
+APP,単,zv00010111,{1} {0}さん 経費精算申請 {2} (領収書・添付),C,,
+APP,単,zv00010120,{1} {0}さん 経費精算申請 {2} {3},C,,
+APP,単,zv00010121,{1} {0}さん 経費精算申請 {2} {3} (添付),C,,
+APP,単,zv00010130,{1} {0}さん 経費精算申請 {2} (領収書) {3},C,,
+APP,単,zv00010131,{1} {0}さん 経費精算申請 {2} (領収書・添付) {3},C,,
+APP,単,zv00011100,{1} {0}さん【出張・交通費】{2},C,,
+APP,単,zv00011101,{1} {0}さん【出張・交通費】{2} (添付),C,,
+APP,単,zv00011110,{1} {0}さん【会議・交際費】{2},C,,
+APP,単,zv00011111,{1} {0}さん【会議・交際費】{2} (添付),C,,
+APP,単,zv00011120,{1} {0}さん【一般経費】{2},C,,
+APP,単,zv00011121,{1} {0}さん【一般経費】{2} (添付),C,,
+APP,単,zv00011130,{1} {0}さん【仮払申請】{2} {3},C,,
+APP,単,zv00011131,{1} {0}さん【仮払申請】{2} {3} (添付),C,,
+APP,単,zv00012100,{1} {0}さん 《取消申請》経費精算申請 {2},C,,
+APP,単,zv00012110,{1} {0}さん 《取消申請》経費精算申請 {2} {3},C,,
+APP,単,zv00012120,{1} {0}さん 《取消申請》仮払申請 {2},C,,
+APP,単,zv00012130,{1} {0}さん 《取消申請》仮払申請 {2} {3},C,,
+APP,単,zv00020100,{0}さん 定期区間初期設定分,C,,
+APP,単,zv00020110,{0}さん 定期区間申請 {1},C,,
+APP,単,zv00100010,{0}定期付与分,C,,
+APP,単,zv00101110,休暇種類: {0}\r\n期間: {1}{2}\r\n{3}{4},C,,
+APP,単,zv00101120,有休残日数: {0}日{1}\r\n,C,,
+APP,単,zv00101130,+{0}時間,C,,
+APP,単,zv00101140,{0}時点の出勤率: {1}%\r\n,C,,
+APP,単,zv00101210,== 勤怠 ==\r\n出社時間: {0}\r\n退社時間: {1}\r\n労働時間: {2}\r\n実労働時間: {3}{7}\r\n\r\n== 工数 ==\r\n{4}{5}{6},C,,
+APP,単,zv00101220,{0} 合計\r\n,C,,
+APP,単,zv00101230,\r\n== 日報 ==\r\n{0},C,,
+APP,単,zv00101240,\r\n\r\n入館: {0} {1}\r\n退館: {3} {4}\r\n入館乖離理由: {2}\r\n退館乖離理由: {5},C,,
+APP,単,zv00101250,{0}分超乖離,C,,
+APP,単,zv00101260,ログなし,C,,
+APP,単,zv00101310,振替： {0}({1}) ⇔  {2}({3}),C,,
+APP,単,zv00101311,振替： {0}({1}) ⇔  {2}({3}),C,,
+APP,単,zv00101410,勤務パターン： {0}\r\n{1}期間:{2}\r\n{3},C,,
+APP,単,zv00101420,休日申請\r\n,C,,
+APP,単,zv00101430,勤務日申請\r\n,C,,
+APP,単,zv00101440,時間： {0}～{1}\r\n,C,,
+APP,単,zv00101510,期間: {0}\r\n時間: {1}～{2}\r\n当月時間外残業 : {3}\r\n当月法定時間外（状況）: {4}{5}\r\n上限超過回数（状況）: {6}{7}\r\n年間法定時間外（状況）: {8}{9}\r\n,C,,
+APP,単,zv00101520,({0}),C,,
+APP,単,zv00101530,月度: {0}\r\n見込み残業時間: {1}\r\n当月過不足時間: {2}\r\n,C,,
+APP,単,zv00102010,{0}の代休,C,,
+APP,単,zv00102020,{0}さん 代休{1} {2}日発生,C,,
+APP,単,zv00102030,{0}さん 代休{1} {2}日消費,C,,
+APP,単,zv00102110,勤務確定 {0},C,,
+APP,単,zv00102120,{0}勤務確定,C,,
+APP,単,zv00102130,{0}計画付与分,C,,
+APP,単,zv00102140,{0}・・{1} → {2},J,,
+APP,単,zv00102150,{0}・・{1},J,,
+APP,単,zv00102160,出社時刻,J,,
+APP,単,zv00102170,退社時刻,J,,
+APP,単,zv00102180,休憩時間,J,,
+APP,単,zv00102190,未入力,J,,
+APP,単,zv00102200,修正なし,J,,
+APP,単,zv00102210,入力なし,J,,
+APP,併,zw00000010,yyyy-MM-dd,C,,
+APP,併,zw00000020,yyyy-MM,C,,
+APP,併,zw00000021,yyyy-MM,C,,
+APP,併,zw00000022,MMM,C,,
+APP,併,zw00000023,MMM,C,,
+APP,併,zw00000025,{0}({1}),C,,
+APP,併,zw00000030,yyyy-MM-dd HH:mm,C,,
+APP,併,zw00000040,{0}-{1},C,日付範囲用 ,
+APP,併,zw00000050,{0}-{1},C,時刻範囲用,
+APP,併,zw00000060,日/Sun,C,,有本
+APP,併,zw00000061,月/Mon,C,,有本
+APP,併,zw00000062,火/Tue,C,,有本
+APP,併,zw00000063,水/Wed,C,,有本
+APP,併,zw00000064,木/Thu,C,,有本
+APP,併,zw00000065,金/Fri,C,,有本
+APP,併,zw00000066,土/Sat,C,,有本
+APP,併,zw00000100,{0} 休暇申請(Leave request) {1},C,,有本
+APP,併,zw00000110,{0} 休暇申請(Leave request) {1}-{2},C,,有本
+APP,併,zw00000120,{0} 休暇申請(Leave request) {1} 代休(as compensation for) {3},C,,有本
+APP,併,zw00000200,{0} 勤務時間変更申請(Change shift) {1},C,,有本
+APP,併,zw00000210,{0} 勤務時間変更申請(Change shift) {1}-{2},C,,有本
+APP,併,zw00000300,{0} 長期時間変更申請(Change shift) {1},C,,有本
+APP,併,zw00000310,{0} 長期時間変更申請(Change shift) {1}-{2},C,,有本
+APP,併,zw00000400,{0} 直行申請(Home to Off-site) {1},C,,有本
+APP,併,zw00000410,{0} 直行申請(Home to Off-site) {1}-{2},C,,有本
+APP,併,zw00000500,{0} 直帰申請(Off-site to Home) {1},C,,有本
+APP,併,zw00000510,{0} 直帰申請(Off-site to Home) {1}-{2},C,,有本
+APP,併,zw00000600,{0} 直行・直帰申請(Off-site to Off-site) {1},C,,有本
+APP,併,zw00000610,{0} 直行・直帰申請(Off-site to Off-site) {1}-{2},C,,有本
+APP,併,zw00000700,{0} 勤怠時刻修正申請(Modify logged work hours) {1},C,,有本
+APP,併,zw00000800,{0} 休日出勤申請(Work on off day) {1} {3}-{4},C,,有本
+APP,併,zw00000810,{0} 休日出勤申請(Work on off day) {1} {3}-{4} [事前(Prior)],C,,有本
+APP,併,zw00000820,{0} 休日出勤申請(Work on off day) {1} {3}-{4} [事後(Posterior)],C,,有本
+APP,併,zw00000900,{0} 残業申請(Overtime work) {1} {3}-{4},C,,有本
+APP,併,zw00000910,{0} 残業申請(Overtime work) {1} {3}-{4}[事前(Prior)],C,,有本
+APP,併,zw00000920,{0} 残業申請(Overtime work) {1} {3}-{4}[事後(Posterior)],C,,有本
+APP,併,zw00001000,{0} 早朝勤務申請(Early start) {1} {3}-{4},C,,有本
+APP,併,zw00001010,{0} 早朝勤務申請(Early start) {1} {3}-{4}[事前(Prior)],C,,有本
+APP,併,zw00001020,{0} 早朝勤務申請(Early start) {1} {3}-{4}[事後(Posterior)],C,,有本
+APP,併,zw00001100,{0} 遅刻申請(Late arrive) {1} {3}-{4},C,,有本
+APP,併,zw00001200,{0} 早退申請(Early leave) {1} {3}-{4},C,,有本
+APP,併,zw00001300,{0} 振替申請(Substitute work days) {1}<->{3},C,,有本
+APP,併,zw00001310,{0} 振替申請(Substitute work days) {1}<->{3},C,,有本
+APP,併,zw00001400,{0} 日次確定(Daily finalize) {1},C,,有本
+APP,併,zw00001410,{0} 日次確定(Daily finalize) {1}-{2},C,,有本
+APP,併,zw00001420,{0} 日次確定(Daily finalize) {1} {3}-{4} 実働(Actual) {5},C,,有本
+APP,併,zw00001430,◆乖離(Divergence)◆{0} 日次確定(Daily finalize) {1} {3}-{4} 実働(Actual) {5},C,,畑本
+APP,併,zw00001500,{0} 勤務確定(Monthly finalize work hours) {1},C,,有本
+APP,併,zw00001501,{0} 勤務確定(Monthly finalize work hours) {1}({3}),C,,有本
+APP,併,zw00001600,{0} 工数申請(Monthly finalize project workloads) {1},C,,有本
+APP,併,zw00001601,{0} 工数申請(Monthly finalize project workloads) {1}({2}),C,,有本
+APP,併,zw00001700,{0} 月次残業申請(Monthly Overtime work) {1} {2},C,,有本
+APP,併,zw00010100,{1} {0} 経費精算申請(Expense) {2},C,,有本
+APP,併,zw00010101,{1} {0} 経費精算申請(Expense) {2} [添付(Attachment)],C,,有本
+APP,併,zw00010110,{1} {0} 経費精算申請(Expense) {2} [領収書(Receipt)],C,,有本
+APP,併,zw00010111,{1} {0} 経費精算申請(Expense) {2} [領収書(Receipt) 添付(Attachment)],C,,有本
+APP,併,zw00010120,{1} {0} 経費精算申請(Expense) {2} {3},C,,有本
+APP,併,zw00010121,{1} {0} 経費精算申請(Expense) {2} {3} [添付(Attachment)],C,,有本
+APP,併,zw00010130,{1} {0} 経費精算申請(Expense) {2} [領収書(Receipt)] {3},C,,有本
+APP,併,zw00010131,{1} {0} 経費精算申請(Expense) {2} [領収書(Receipt) 添付(Attachment)] {3},C,,有本
+APP,併,zw00011100,{1} {0} [出張・交通費(Business trip)] {2},C,,有本
+APP,併,zw00011101,{1} {0} [出張・交通費(Business trip)] {2} [添付(Attachment)],C,,有本
+APP,併,zw00011110,{1} {0} [会議・交際費(Social expense)] {2},C,,有本
+APP,併,zw00011111,{1} {0} [会議・交際費(Social expense)] {2} [添付(Attachment)],C,,有本
+APP,併,zw00011120,{1} {0} [一般経費(General expense)] {2},C,,有本
+APP,併,zw00011121,{1} {0} [一般経費(General expense)] {2} [添付(Attachment)],C,,有本
+APP,併,zw00011130,{1} {0} [仮払申請(An advance)] {2} {3},C,,有本
+APP,併,zw00011131,{1} {0} [仮払申請(An advance)] {2} {3} [添付(Attachment)],C,,有本
+APP,併,zw00012100,{1} {0} [取り消し CANCEL]経費精算申請(Expense) {2},C,,有本
+APP,併,zw00012110,{1} {0} [取り消し CANCEL]経費精算申請(Expense) {2} {3},C,,有本
+APP,併,zw00012120,{1} {0} [取り消し CANCEL]仮払申請(An advance) {2},C,,有本
+APP,併,zw00012130,{1} {0} [取り消し CANCEL]仮払申請(An advance) {2} {3},C,,有本
+APP,併,zw00020100,{0} 定期区間初期設定分(Commuter pass route initial setup),C,,有本
+APP,併,zw00020110,{0} 定期区間申請(Commuter pass route) {1},C,,有本
+APP,併,zw00100010,{0}定期付与分(Scheduled Assignment),C,,有本
+APP,併,zw00101110,休暇種類(Type of Leave): {0}\r\n期間(Period): {1}{2}\r\n{3}{4},C,,有本
+APP,併,zw00101120,有休残日数(Available Paid Leave): {0}日(days){1}\r\n,C,,有本
+APP,併,zw00101130,+{0}時間(hours),C,,有本
+APP,併,zw00101140,{0}時点の出勤率(Attendance ratio): {1}%\r\n,C,,有本
+APP,併,zw00101210,== 勤怠(Attendance) ==\r\n出社時間(arrrive at): {0}\r\n退社時間(leave at): {1}\r\n労働時間(work hours): {2}\r\n実労働時間(actual work hours): {3}{7}\r\n\r\n== 工数(PRJ Working Hrs) ==\r\n{4}{5}{6},C,,有本
+APP,併,zw00101220,{0} 合計(Total)\r\n,C,,有本
+APP,併,zw00101230,\r\n== 日報(Daily Report) ==\r\n{0},C,,有本
+APP,併,zw00101240,\r\n\r\n入館(Entry): {0} {1}\r\n退館(Exit): {3} {4}\r\n入館乖離理由(Entry divergence reason): {2}\r\n退館乖離理由(Exit divergence reason): {5},C,,畑本
+APP,併,zw00101250,{0}分超乖離(Divergence minites),C,,畑本
+APP,併,zw00101260,ログなし(No log),C,,畑本
+APP,併,zw00101310,振替(Substitution)： {0}({1}) <->  {2}({3}),C,,有本
+APP,併,zw00101311,振替(Substitution)： {0}({1}) <->  {2}({3}),C,,有本
+APP,併,zw00101410,勤務パターン(Pattern)： {0}\r\n{1}期間(Period):{2}\r\n{3},C,,有本
+APP,併,zw00101420,休日申請(Off day request)\r\n,C,,有本
+APP,併,zw00101430,勤務日申請(Work day request)\r\n,C,,有本
+APP,併,zw00101440,時間(Work hours)： {0}～{1}\r\n,C,,有本
+APP,併,zw00101510,期間(Period): {0}\r\n時間(Hours): {1}-{2}\r\n当月時間外残業(Current Month OT Work) : {3}\r\n当月法定時間外(Current Month SWH in excess)[状況(Status)]: {4}{5}\r\n上限超過回数(Number of excesses limit)[状況(Status)]: {6}{7}\r\n年間法定時間外(Annual SWH in excess)[状況(Status)]: {8}{9}\r\n,C,,有本
+APP,併,zw00101520,[{0}],C,,有本
+APP,併,zw00101530,月度(Month): {0}\r\n見込み残業時間(Estimated overtime hours): {1}\r\n当月過不足時間(Over/Under working hours in this month): {2}\r\n,C,,有本
+APP,併,zw00102010,{0}の代休(compensation day for),C,,有本
+APP,併,zw00102020,{0} 代休(compensation day){1} {2}日発生(days obtained),C,,有本
+APP,併,zw00102030,{0} 代休(compensation day){1} {2}日消費(days taken),C,,有本
+APP,併,zw00102110,勤務確定(Finalize Shift) {0},C,,有本
+APP,併,zw00102120,{0}勤務確定(Finalize Shift),C,,有本
+APP,併,zw00102130,{0}計画付与分(Planned Paid Leave),C,,有本
+APP,併,zw00102140,{0} : {1} -> {2},J,,
+APP,併,zw00102150,{0} : {1},J,,
+APP,併,zw00102160,出社時刻(Clocked in),J,,小島
+APP,併,zw00102170,退社時刻(Clocked out),J,,小島
+APP,併,zw00102180,休憩時間(Break time),J,,小島
+APP,併,zw00102190,未入力(No entry),J,,小島
+APP,併,zw00102200,修正なし(No modification),J,,小島
+APP,併,zw00102210,入力なし(No entry),J,,小島

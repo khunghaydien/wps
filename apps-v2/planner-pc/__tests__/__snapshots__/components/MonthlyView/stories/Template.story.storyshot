@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots planner-pc/MonthlyView/parts Template 1`] = `
+<div
+  className="Template__Main-sc-11zhftv-0 guhWPY"
+  role="grid"
+>
+  <div
+    className="Template__Grid-sc-11zhftv-1 jLGggP"
+    role="row"
+  >
+    <div
+      className="Template__GridRow-sc-11zhftv-2 fdOdDM"
+      role="presentation"
+    >
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDay-sc-11zhftv-6 imObwB"
+      >
+        0
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDay-sc-11zhftv-6 imObwB"
+      >
+        1
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDay-sc-11zhftv-6 imObwB"
+      >
+        2
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDay-sc-11zhftv-6 imObwB"
+      >
+        3
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDay-sc-11zhftv-6 imObwB"
+      >
+        4
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDay-sc-11zhftv-6 imObwB"
+      >
+        5
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDay-sc-11zhftv-6 imObwB"
+      >
+        6
+      </div>
+    </div>
+  </div>
+  <div
+    className="Template__Grid-sc-11zhftv-1 FKplu"
+    role="presentation"
+  >
+    <div
+      className="Template__GridRow-sc-11zhftv-2 fdOdDM"
+      role="row"
+    >
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        27
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        28
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        29
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        30
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        31
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        1
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        2
+      </div>
+      <div
+        className="Template__Layer-sc-11zhftv-4 ddnNLL Template__GridCells-sc-11zhftv-3 gnOYqG"
+        role="presentation"
+      />
+    </div>
+    <div
+      className="Template__GridRow-sc-11zhftv-2 fdOdDM"
+      role="row"
+    >
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        3
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        4
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        5
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        6
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        7
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        8
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        9
+      </div>
+      <div
+        className="Template__Layer-sc-11zhftv-4 ddnNLL Template__GridCells-sc-11zhftv-3 gnOYqG"
+        role="presentation"
+      />
+    </div>
+    <div
+      className="Template__GridRow-sc-11zhftv-2 fdOdDM"
+      role="row"
+    >
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        10
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        11
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        12
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        13
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        14
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        15
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        16
+      </div>
+      <div
+        className="Template__Layer-sc-11zhftv-4 ddnNLL Template__GridCells-sc-11zhftv-3 gnOYqG"
+        role="presentation"
+      />
+    </div>
+    <div
+      className="Template__GridRow-sc-11zhftv-2 fdOdDM"
+      role="row"
+    >
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        17
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        18
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        19
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        20
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        21
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        22
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        23
+      </div>
+      <div
+        className="Template__Layer-sc-11zhftv-4 ddnNLL Template__GridCells-sc-11zhftv-3 gnOYqG"
+        role="presentation"
+      />
+    </div>
+    <div
+      className="Template__GridRow-sc-11zhftv-2 fdOdDM"
+      role="row"
+    >
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        24
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        25
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        26
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        27
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        28
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        29
+      </div>
+      <div
+        className="Template__DefaultBox-sc-11zhftv-5 Template__DefaultDate-sc-11zhftv-7 imObwB gyDUIk"
+      >
+        30
+      </div>
+      <div
+        className="Template__Layer-sc-11zhftv-4 ddnNLL Template__GridCells-sc-11zhftv-3 gnOYqG"
+        role="presentation"
+      />
+    </div>
+  </div>
+</div>
+`;

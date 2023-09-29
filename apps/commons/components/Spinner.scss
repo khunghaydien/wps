@@ -1,0 +1,51 @@
+@import '../styles/exp/variables/colors';
+
+.commons-spinner {
+  &.slds-spinner_container {
+    position: fixed;
+    z-index: 6000100;
+  }
+
+  &.slds-spinner_container_low {
+    position: fixed;
+    z-index: 10000;
+  }
+
+  &__hint {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 6000101;
+    transform: translate(-50%, 30px);
+    color: $color-text-weak;
+  }
+
+  // animation
+  // 規約からはずれた記述だが、transitionのために例外とする
+  &-appear {
+    opacity: 0.5;
+  }
+
+  &-appear#{&}-appear-active {
+    opacity: 1;
+    transition: opacity 0.1s ease-in;
+  }
+
+  &-enter {
+    opacity: 0.5;
+  }
+
+  &-enter#{&}-enter-active {
+    opacity: 1;
+    transition: opacity 0.1s ease-in;
+  }
+
+  &-exit {
+    opacity: 1;
+  }
+
+  &-exit#{&}-exit-active {
+    opacity: 0.01;
+    transition: opacity 0.1s ease-in;
+  }
+}

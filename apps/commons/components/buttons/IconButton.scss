@@ -1,0 +1,33 @@
+.ts-icon-button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  &__image {
+    transition: filter 0.2s ease-out;
+  }
+
+  &:hover > &__image,
+  &:focus > &__image {
+    filter: grayscale(50%);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &:disabled &__image {
+    filter: saturate(30%) brightness(110%);
+  }
+
+  &:disabled svg {
+    filter: saturate(30%) brightness(110%);
+  }
+
+  @at-root {
+    .planner-day-main-plan-tracking-table-row__btn-draggable#{&} {
+      cursor: move;
+    }
+  }
+}

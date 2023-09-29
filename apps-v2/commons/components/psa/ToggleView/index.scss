@@ -1,0 +1,46 @@
+@import '../variables.scss';
+
+.ts-psa__toggle-view {
+  display: flex;
+  &__select-view-mode {
+    display: flex;
+    margin-left: 5px;
+    button {
+      border-color: #dddbda;
+      background-color: $color-bg-lighter;
+      color: #0070d2;
+      line-height: 1;
+      text-decoration: none;
+      min-height: 33px;
+      min-width: 32px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 0;
+      border-right-width: 0;
+
+      &:disabled path {
+        fill: $color-border-light-grey-2;
+      }
+
+      &:hover {
+        background-color: $color-bg-hover;
+      }
+
+      &.is-active {
+        background-color: $color-action-btn-primary-default;
+        color: $color-bg-white;
+      }
+
+      &:first-child {
+        border-radius: 5px 0 0 5px;
+        border-right-width: 0;
+      }
+
+      &:last-child {
+        border-radius: 0 5px 5px 0;
+        border-left-width: 1px;
+        border-right-width: 1px;
+      }
+    }
+  }
+}

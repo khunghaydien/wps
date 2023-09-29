@@ -1,0 +1,24 @@
+.mobile-app-atoms-spinner {
+  // Reset spinner's color to be able to use any colors
+  .slds-spinner::after,
+  .slds-spinner::before,
+  .slds-spinner__dot-a::after,
+  .slds-spinner__dot-a::before,
+  .slds-spinner__dot-b::after,
+  .slds-spinner__dot-b::before {
+    background: inherit;
+  }
+
+  // Reset harmful absolute position
+  &,
+  .slds-spinner_container,
+  .slds-spinner {
+    position: relative;
+  }
+
+  &,
+  .slds-spinner_container {
+    padding: 2rem;
+    background: transparent;
+  }
+}

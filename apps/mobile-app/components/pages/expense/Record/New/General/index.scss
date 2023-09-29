@@ -1,0 +1,104 @@
+@import 'mobile-global-imports.scss';
+@import '../../../../../../../commons/styles/exp/variables/colors';
+
+.mobile-app-pages-expense-page-record-new-general {
+  width: 100%;
+
+  .main-content {
+    padding: 48px $small-size;
+    > :first-child {
+      margin-top: 12px;
+    }
+  }
+
+  .main-content > * {
+    padding-bottom: $extra-small-size;
+  }
+
+  &__actions-btn {
+    display: flex;
+    align-items: center;
+    width: 10px;
+    margin-right: 15px;
+  }
+
+  &-amount-area > * {
+    padding-bottom: $extra-small-size;
+  }
+
+  .input-feedback {
+    color: $color-alert;
+    font-size: $small-size;
+    &.ok {
+      border: 1px $color-bg-green-05 solid;
+      border-radius: 4px;
+      padding: 4px 8px;
+      color: $color-text-header-dark;
+      font-size: 11px;
+      margin-bottom: 8px;
+    }
+
+    &-icon-ok {
+      width: 18px;
+      padding-top: 3px;
+      path {
+        fill: #037b04;
+        transform: scale(0.6);
+      }
+    }
+  }
+
+  &-amount-area input {
+    text-align: right;
+  }
+
+  &-extended-item > * {
+    padding-bottom: $extra-small-size;
+  }
+
+  &__ic-link-btn {
+    text-align: center;
+    padding-top: 16px;
+    height: 64px;
+
+    & .mobile-app-atoms-text-button__button {
+      width: 160px;
+      height: 40px;
+      border-style: solid;
+      border-color: $color-green-500;
+      border-radius: unit(5);
+      color: $color-green-500;
+      font-size: unit(3);
+      font-weight: normal;
+    }
+
+    + .mobile-app-atoms-errors {
+      text-align: center;
+    }
+  }
+
+  & .mobile-app-molecules-commons-amount-input-field input {
+    text-align: right;
+  }
+
+  input:disabled,
+  select:disabled,
+  .mobile-app-atoms-input--disabled,
+  .mobile-app-molecules-common-like-input-button__button--disabled {
+    background: $ts-input-field-border-gray !important;
+    color: $color-text-header-dark !important;
+    opacity: 1; /* required on iOS */
+    -webkit-text-fill-color: $color-text-header-dark;
+    &::placeholder {
+      color: $color-text-header-dark;
+    }
+  }
+}
+
+.mobile-app-pages-expense-page-record-new-general-extended-item {
+  .mobile-app-molecules-commons-text-field,
+  .mobile-app-molecules-commons-sf-date-field,
+  .mobile-app-molecules-commons-select-field {
+    padding-bottom: 8px;
+  }
+}

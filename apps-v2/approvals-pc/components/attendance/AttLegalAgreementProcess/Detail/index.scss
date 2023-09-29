@@ -1,0 +1,93 @@
+.approvals-pc-att-legal-agreement-process-list-pane-detail {
+  height: 100%;
+
+  &__list-detail {
+    padding-left: 25px;
+    margin-bottom: 35px;
+  }
+
+  &__list-detail-item + &__list-detail-item {
+    padding-top: 1.5em;
+  }
+
+  &__line-feed-resolution {
+    overflow-wrap: break-word;
+  }
+
+  &__list-detail-item &__pre-wrap {
+    white-space: pre-wrap;
+  }
+
+  &__detail-lable-item {
+    overflow-wrap: break-word;
+  }
+
+  &__history-list {
+    margin-bottom: 20px;
+  }
+
+  &__scrollable {
+    height: calc(100% - 35px);
+    // TODO: Temporary fix
+    padding-top: 20px;
+    overflow-y: auto;
+  }
+
+  &__notification {
+    display: flex;
+    min-height: 3em;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5em;
+    margin: 0 1.5em 2em 0;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+
+  &__notification-icon {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-right: 1em;
+  }
+
+  &__notification-icon img {
+    width: 2em;
+  }
+
+  &__notification-text {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
+  &__tableDiv {
+    background-color: #fff;
+    margin: 5px 15px 55px 25px;
+    height: 120px;
+    padding-right: 8px;
+    padding-left: 18px;
+    padding-top: 9px;
+    padding-bottom: 18px;
+  }
+
+  &__tableList {
+    height: 90px;
+  }
+
+  &__tableTr {
+    border: 1px solid #d8dde6;
+    padding-left: 5px;
+    background-color: #f4f6f9;
+    vertical-align: middle;
+    color: #53688c;
+  }
+
+  &__tableTrDiv {
+    border: 1px solid #d8dde6;
+    text-align: right;
+    padding-right: 10px;
+    vertical-align: middle;
+  }
+}

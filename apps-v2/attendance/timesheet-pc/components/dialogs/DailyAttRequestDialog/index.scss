@@ -1,0 +1,56 @@
+.timesheet-pc-dialogs-daily-att-request-dialog {
+  width: 800px;
+  height: 80vh;
+
+  .commons-dialog-frame__header-sub::before {
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    content: '';
+    vertical-align: middle;
+  }
+
+  .commons-dialog-frame__contents {
+    display: flex;
+  }
+
+  .commons-dialog-frame__footer {
+    padding: 13px 20px;
+  }
+
+  &__menu {
+    flex: 0 0 200px;
+  }
+
+  &__content {
+    flex: 1;
+    background-color: #f8f8f8;
+    overflow-y: auto;
+  }
+
+  &__no-detail {
+    height: 100%;
+    text-align: center;
+
+    &::before {
+      display: inline-block;
+      width: 0;
+      height: 100%;
+      background: red;
+      content: '';
+      vertical-align: middle;
+    }
+
+    > p {
+      display: inline-block;
+      width: 60%;
+      color: $color-text-weak;
+      font-size: 24px;
+    }
+  }
+}
+
+.commons-dialog-frame__wrapper {
+  /* Dropdownコンポーネントのpopupを隠してしまうのでダイアログのz-indexを500000に固定 */
+  z-index: 500000 !important;
+}

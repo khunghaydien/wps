@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() PLANNER-PC/MODULES/ENTITIES/REQUEST_LIST/FETCH_SUCCESS 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"alert\\": false,
+-   \\"endDate\\": 2100-12-30T15:00:00.000Z,
+-   \\"id\\": \\"\\",
+-   \\"startDate\\": 2019-03-31T15:00:00.000Z,
++   \\"alert\\": true,
++   \\"endDate\\": 2021-02-27T15:00:00.000Z,
++   \\"id\\": \\"1\\",
++   \\"startDate\\": 2021-01-31T15:00:00.000Z,
+  }"
+`;

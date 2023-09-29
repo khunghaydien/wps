@@ -1,0 +1,42 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-atoms-comment {
+  position: relative;
+  width: calc(100% - 20px);
+  min-height: 60px;
+  padding: $base-size $extra-small-size;
+  background: $color-gray-100;
+  border-radius: $base-size;
+  font-size: 16px;
+  line-height: 26px;
+
+  &::before {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    border-style: solid;
+    content: '';
+  }
+
+  &--left {
+    margin-left: 20px;
+
+    &::before {
+      top: 7px;
+      left: -10px;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent $color-gray-100 transparent transparent;
+    }
+  }
+
+  &--right {
+    margin-right: 20px;
+
+    &::before {
+      top: 7px;
+      right: -10px;
+      border-width: 10px 0 10px 10px;
+      border-color: transparent transparent transparent $color-gray-100;
+    }
+  }
+}

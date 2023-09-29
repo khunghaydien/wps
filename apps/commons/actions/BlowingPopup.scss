@@ -1,0 +1,134 @@
+.blowing-popup {
+  &__wrap {
+    position: absolute;
+    z-index: 999;
+    display: block;
+    width: 180px;
+    margin-top: 16px;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+
+    &::before {
+      position: absolute;
+      top: -24px;
+      left: 10%;
+      border: 12px solid transparent;
+      border-bottom: 12px solid #99aec6;
+      content: '';
+    }
+
+    &-right {
+      right: 0;
+
+      &::before {
+        right: 0;
+        left: initial;
+        border-bottom: 12px solid #bfcddc;
+      }
+    }
+  }
+
+  &-none {
+    display: none;
+  }
+
+  &__header {
+    width: 100%;
+    height: 30px;
+    background: -webkit-gradient(
+      linear,
+      left center,
+      right center,
+      from(#99aec6),
+      to(#bfcddc)
+    );
+    background-color: #bfcddc;
+
+    &__row {
+      padding: 3px;
+      color: #fff;
+
+      img,
+      span {
+        display: inline-block;
+        align-self: center;
+        vertical-align: bottom;
+      }
+    }
+
+    &-title {
+      display: inline-block;
+      margin-left: 4px;
+      font-size: 14px;
+      vertical-align: text-top;
+    }
+  }
+
+  &__body {
+    border-right: solid 1px #d6d6d6;
+    border-bottom: solid 1px #d6d6d6;
+    border-left: solid 1px #d6d6d6;
+
+    &__title {
+      color: #99aec6;
+    }
+
+    &__item {
+      padding: 8px 6px;
+
+      > div {
+        display: inline-block;
+        font-size: 14px;
+        vertical-align: middle;
+      }
+    }
+
+    &__applications {
+      padding: 12px;
+    }
+
+    &__separate {
+      width: 88%;
+      margin: 0 auto;
+      border-bottom: solid 1px #d6d6d6;
+    }
+
+    &__others {
+      padding: 12px;
+    }
+  }
+
+  &__icon {
+    &-close {
+      position: absolute;
+      right: 0;
+      width: 20px;
+      margin-top: 2px;
+      margin-right: 4px;
+    }
+
+    &-baloon {
+      width: 20px;
+    }
+
+    &-question {
+      width: 16px;
+      vertical-align: sub;
+    }
+  }
+
+  &__overlay {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  &__pointer {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,174 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-receipt-library {
+  $footerHeight: 40px;
+
+  &__img-container {
+    height: 100%;
+    padding-top: 48px;
+    overflow-y: auto;
+  }
+
+  &__img {
+    position: relative;
+    width: 50%;
+    display: inline-block;
+    padding: 20px;
+    & img {
+      height: 110px;
+      width: 100%;
+      border-radius: 10px;
+    }
+    &.selected {
+      img {
+        border: 3px solid #2782ed;
+        border-radius: 10px;
+      }
+
+      .mobile-app-molecules-commons-file-sf-preview_large-file-msg-with-link {
+        border: 3px solid #2782ed;
+        border-radius: 10px;
+        height: 110px;
+      }
+    }
+    &-title {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: $color-text-info;
+      text-align: center;
+    }
+    &-radio {
+      position: absolute;
+      right: 17px;
+      top: 25px;
+      display: block;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 22px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+  }
+
+  & .select-btn {
+    bottom: 10px;
+    width: max-content;
+
+    & .mobile-app-atoms-button {
+      border-style: solid;
+      border-color: $color-green-500;
+      border-radius: unit(5);
+      color: $color-green-500;
+      font-size: unit(4);
+      background-color: #fff;
+    }
+  }
+
+  &__preview {
+    overflow-y: auto;
+    position: absolute;
+    padding: 60px 16px 20px 16px;
+    background-color: #fff;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+
+    &.mobile-app-molecules-commons-file-preview__img-container {
+      .mobile-app-molecules-commons-view-item__body {
+        // center small receipt
+        width: fit-content;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &__pdf-download-btn img {
+    padding: 15px 40px;
+  }
+
+  & .mobile-app-molecules-commons-view-item {
+    border-bottom: none;
+  }
+
+  .lightbox-img-thumbnail {
+    border: 1px solid grey;
+  }
+
+  .mobile-app-molecules-commons-file-sf-preview__area {
+    border-radius: 10px;
+    &.mobile-app-molecules-commons-file-sf-preview__expand {
+      border-radius: unset;
+    }
+  }
+
+  // /////////////////////////////////////////////////////////////////////
+  //
+  //  Customized radio button
+  //
+  // /////////////////////////////////////////////////////////////////////
+
+  /* Hide the browser's default checkbox */
+  .radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark {
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .radio-container input:checked ~ .checkmark {
+    background-color: #2782ed;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark::after {
+    content: '';
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .radio-container input:checked ~ .checkmark::after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .radio-container .checkmark::after {
+    left: 10px;
+    top: 5px;
+    width: 7px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  &__input {
+    visibility: hidden;
+  }
+
+  &__upload-icon {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+  }
+}

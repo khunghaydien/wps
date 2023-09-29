@@ -1,0 +1,423 @@
+@import '@commons/styles/wsp.scss';
+@import '@commons/styles/exp/variables/_colors.scss';
+
+.ts-expenses__form-records__bulk-edit__grid-area {
+  min-height: 200px;
+
+  &-loading {
+    height: calc(100% - 35px);
+  }
+
+  // grid css
+  &__date-error {
+    .react-datepicker-wrapper input {
+      &::first-line {
+        @extend .field-error;
+      }
+    }
+  }
+
+  &__expense-type {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    &-error-icon {
+      padding: 0 3px;
+
+      &__tooltipMsg {
+        white-space: pre-line;
+      }
+
+      svg {
+        path {
+          fill: $color-destructive;
+        }
+      }
+    }
+
+    &-field {
+      width: 100%;
+      height: 32px;
+
+      & > div {
+        // search field
+        & > :first-child {
+          width: 100%;
+          border: none;
+          padding: 0;
+          cursor: auto;
+
+          // remove icons
+          & > svg,
+          & > button {
+            display: none;
+          }
+
+          input {
+            text-overflow: ellipsis;
+            cursor: pointer;
+            padding: 0;
+          }
+
+          &:focus-within,
+          &:active {
+            border: none;
+            box-shadow: none;
+            text-overflow: ellipsis;
+          }
+        }
+        // list box container
+        & > :last-child {
+          overflow-wrap: break-word;
+          word-break: break-word;
+          margin: 0 -6px -6px -6px;
+        }
+      }
+    }
+
+    &-error {
+      input:not(:focus) {
+        &::first-line {
+          @extend .field-error;
+        }
+
+        &:focus {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  &__amount {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: transparent;
+    border: none;
+  }
+
+  &__thead {
+    background-color: color('background-2');
+
+    &__tr {
+      display: flex;
+      min-height: 35px;
+      border-top: 1px solid color('border-1');
+    }
+
+    &__th {
+      display: flex;
+      border-left: 1px solid color('border-1');
+      padding: 0 5px;
+      color: color('text-2');
+      font-weight: normal;
+      align-items: center;
+
+      // select all checkbox
+      &:first-child {
+        flex: 0 0 30px;
+        justify-content: center;
+        display: flex;
+      }
+    }
+  }
+
+  &__tbody {
+    &-tr {
+      display: flex;
+      border-top: 1px solid color('border-1');
+      min-height: 45px;
+
+      &:last-child {
+        border-bottom: 1px solid color('border-1');
+      }
+    }
+
+    &-td {
+      align-items: center;
+      display: flex;
+      border-left: 1px solid color('border-1');
+
+      // inactive or active
+      &-inactive {
+        background-color: #f0f0f0;
+        cursor: default;
+
+        // amount cell
+        button {
+          cursor: default;
+        }
+      }
+
+      &-active {
+        cursor: pointer;
+      }
+
+      // select checkbox
+      &:first-child {
+        flex: 0 0 30px;
+        justify-content: center;
+        display: flex;
+        padding: 0;
+      }
+
+      .react-datepicker-wrapper {
+        input {
+          border: none;
+          cursor: pointer;
+          padding: 0;
+          border-radius: 4px;
+          // remove date icon
+          background: none;
+        }
+
+        .slds-input:active:not([disabled]),
+        .slds-input:focus:not([disabled]) {
+          box-shadow: none;
+        }
+
+        .slds-input[disabled] {
+          cursor: default;
+        }
+      }
+    }
+  }
+
+  &-cell-detail {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    align-items: center;
+    color: #333;
+
+    &__clickable {
+      position: relative;
+      cursor: pointer;
+    }
+
+    &__autocomplete-container {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      height: 100%;
+      word-break: break-all;
+      background-color: transparent;
+      border: none;
+
+      &-lg {
+        width: 200%;
+        flex: 0 0 66.7%;
+      }
+      @extend .padding-sm;
+      @extend .cell-focused;
+    }
+
+    &__border-right {
+      border-right: 1px solid color('border-1');
+    }
+
+    &__destination-from-to {
+      display: flex;
+      height: 100%;
+    }
+
+    &__input-from {
+      width: 40px;
+    }
+
+    &__input-to {
+      width: 20px;
+    }
+
+    &__input-to-from {
+      &-error {
+        &::first-line {
+          @extend .field-error;
+        }
+      }
+
+      &-no-route-error {
+        @extend .field-error;
+      }
+    }
+
+    &__destinations-container {
+      margin-right: 11px;
+    }
+
+    &__route-block-container {
+      display: flex;
+      flex-grow: 1;
+      height: 100%;
+      align-items: center;
+      margin-right: 8px;
+      &-text {
+        background-color: $color-div-border-gray;
+        padding: 1px 4px;
+        border-radius: 2px;
+
+        p {
+          word-break: break-word;
+        }
+      }
+
+      &-round-trip-label {
+        padding: 1px 4px;
+        background: linear-gradient(0deg, #05ae06, #05ae06), #41a4ff;
+        border-radius: 2px;
+        margin-right: 8px;
+        color: #fff;
+      }
+    }
+
+    &__destination-input {
+      margin-bottom: 0;
+
+      input {
+        border: none;
+        padding: 2px;
+      }
+
+      .commons-autocomplete-input__input:focus-within {
+        border: none;
+        box-shadow: none;
+      }
+
+      &-error {
+        input {
+          &::first-line {
+            @extend .field-error;
+          }
+        }
+      }
+
+      &-no-route-error {
+        @extend .field-error;
+      }
+
+      &__autocomplete-input {
+        background-color: unset;
+      }
+    }
+
+    &__width-sub-sm {
+      width: calc(100% - 8px);
+    }
+
+    &__button-text {
+      color: $color-bg-primary !important;
+    }
+
+    &__hotel {
+      &-remarks {
+        display: flex;
+        flex-grow: 1;
+        height: 100%;
+        align-items: center;
+        @extend .padding-sm;
+        @extend .cell-focused;
+      }
+
+      &-record-items {
+        display: flex;
+        width: fit-content;
+        min-width: 136px;
+        height: 100%;
+        justify-content: center;
+        @extend .padding-sm;
+      }
+    }
+
+    &__remarks {
+      .ts-textarea-field {
+        border: none;
+        padding: 5px 0 !important;
+        word-break: break-word;
+
+        &::placeholder {
+          color: #bdbdbd;
+        }
+      }
+
+      .slds-input:active:not([disabled]),
+      .slds-input:focus:not([disabled]) {
+        border: none;
+        box-shadow: none;
+      }
+    }
+  }
+
+  &-cell-amount {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+
+    &-field {
+      width: 100%;
+
+      .slds-input {
+        border: none;
+        text-align: right;
+        padding: 0;
+      }
+      .slds-input:active:not([disabled]),
+      .slds-input:focus:not([disabled]) {
+        border: none;
+        box-shadow: none;
+      }
+    }
+
+    &-error {
+      .slds-input:not(:focus) {
+        &::first-line {
+          @extend .field-error;
+        }
+      }
+    }
+
+    &__clickable {
+      position: relative;
+
+      &:focus-visible {
+        outline: none;
+      }
+    }
+
+    &__modal {
+      &-left {
+        width: 155%;
+        left: -5px;
+      }
+    }
+  }
+
+  .field-error {
+    background-color: $color-bg-error;
+  }
+
+  .cell-focused:focus-within {
+    outline: 1px solid #1589ee;
+    box-shadow: 0 0 5px #0070d2;
+    z-index: 1;
+  }
+
+  p {
+    color: #333;
+  }
+
+  .cursor-default {
+    cursor: default;
+  }
+
+  .padding-sm {
+    padding: 0 5px;
+  }
+}

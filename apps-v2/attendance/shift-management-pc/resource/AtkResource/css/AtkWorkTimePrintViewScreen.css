@@ -1,0 +1,37 @@
+table.total_table {
+    border           : 1px solid #000000;
+}
+table.total_table tr.even {
+    background-color    : #FAFAFA;
+}
+table.total_table tr.odd {
+    background-color    : #EDEDED;
+}
+table.total_table td.column {
+    border-right        : 1px dashed #CCCCCC;
+}
+.prtv_table {
+    border              : 1px solid #74A3C5;
+}
+.prtv_head {
+    color               : #ffffff;
+    border-right        : 1px dashed #ffffff;
+    font-weight         : bold;
+}
+.prtv {
+    border-right        : 1px dashed #888888;
+}
+tfoot {
+    border              : 1px solid #CCCCCC;
+}
+.prtv_foot {
+    color               : black;
+    border-bottom       : 1px solid #74A3C5;
+    border-right        : 1px dashed #888888;
+}
+.prtv_foot_goke {
+    border-left         : 1px solid #74A3C5;
+}
+.prtv_foot_note {
+    border-right        : 1px solid #74A3C5;
+}

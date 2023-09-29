@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"tabValue\\": \\"all\\",
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/PATTERN/TAB/RESET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"tabValue\\": \\"chosen\\",
++   \\"tabValue\\": \\"all\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/PATTERN/TAB/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"tabValue\\": \\"all\\",
++   \\"tabValue\\": \\"chosen\\",
+  }"
+`;

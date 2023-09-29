@@ -1,0 +1,200 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-psa__employee-capability-dialog {
+  min-width: 540px;
+  max-width: 700px;
+  min-height: 600px;
+  color: $color-text-grey;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  // Override common dialog header
+  &--confidential {
+    float: right;
+    font-size: $font-size-m;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+  }
+
+  &__lock-icon {
+    margin-right: $font-size-xs;
+  }
+
+  &__dialog-frame {
+    height: calc(100vh - 80px);
+
+    .commons-dialog-frame__contents {
+      overflow: auto;
+      max-height: 100% !important;
+    }
+  }
+
+  &__vertical-divider {
+    height: 45px;
+    display: inline-block;
+    border: solid 1px $color-bg-grey;
+  }
+
+  &__horizontal-divider {
+    height: 0;
+    width: 100%;
+    display: inline-block;
+    border: solid 1px $color-bg-grey;
+    margin: 10px 0 10px 0;
+  }
+
+  &__avatar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $container-padding 0 0 0;
+
+    & > img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    &__emp-name {
+      font-weight: bold;
+      font-size: $font-size-xl;
+      color: $color-text-black;
+    }
+    &__emp-position {
+      font-size: $font-size-default;
+    }
+  }
+
+  &__project-activities-num-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-height: 100px;
+  }
+
+  &__activity-num,
+  &__project-num {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 $size-l 0 $size-l;
+  }
+
+  &__num-value {
+    font-size: $font-size-l;
+    color: $color-text-black;
+  }
+
+  &__details-container {
+    margin: 10px 0 10px 0;
+    padding: 0 $container-padding 0 $container-padding;
+  }
+
+  &__details-item {
+    display: flex;
+    flex-direction: row;
+    color: $color-text-grey;
+
+    + .ts-psa__employee-capability-dialog__details-item {
+      margin-top: $size-xs;
+    }
+  }
+
+  &__details-label {
+    width: 25%;
+    font-weight: bold;
+  }
+
+  &__details-divider {
+    margin-right: $size-xs;
+  }
+
+  &__activities-container,
+  &__skills-container {
+    margin: 10px 0 10px 0;
+  }
+
+  &__basic-info-header,
+  &__activity-session-header,
+  &__skills-header {
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    background-color: $color-bg-light-blue;
+    padding: $size-xs $container-padding $size-xs $container-padding;
+  }
+
+  &__skills-item {
+    display: flex;
+    flex-flow: wrap;
+    padding: $size-xs $container-padding $size-xs $container-padding;
+
+    &-category {
+      padding: 17px 0;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -4px;
+
+      &-title {
+        margin-left: 4px;
+        margin-bottom: 8px;
+        color: $color-sidebar-link-text;
+        font-size: 12px;
+        width: 100%;
+      }
+    }
+
+    &-category + .ts-psa__employee-capability-dialog__skills-item-category {
+      border-top: 1px solid $color-border-light-grey-3;
+    }
+
+    &-details {
+      padding: 4px 8px 4px 8px;
+      border: solid 1px $color-border-light-grey;
+      border-radius: 4px;
+      margin: 4px;
+      background-color: $color-container;
+      color: $color-text-grey;
+    }
+  }
+
+  &__activity-assignment,
+  &__activity-project,
+  &__activity-duration {
+    display: flex;
+  }
+
+  &__activity-project-name,
+  &__activity-pm-name {
+    overflow-wrap: break-word;
+    max-width: calc(15vw);
+  }
+
+  &__activity-project {
+    color: $color-text-black;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  &__activity-assignment-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $color-bg-grey;
+    margin: 5px 30px 5px 30px;
+  }
+
+  &__activity-project-indicator,
+  &__activity-duration-indicator {
+    height: 25px;
+    margin-left: 35px;
+    border-right: solid 1px $color-bg-grey;
+    margin-right: 35px;
+  }
+
+  &__activity-assignment {
+    margin-bottom: $size-xs;
+  }
+}

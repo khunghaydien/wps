@@ -1,0 +1,33 @@
+@import '../../commons/styles/global-imports';
+
+.commons-popup-window-navbar {
+  $height: 48px;
+
+  @include hide-when-print;
+
+  display: flex;
+  height: $height;
+  align-items: center;
+  padding: 0 32px;
+  border-bottom: 1px solid $color-border-default;
+  background: $color-bg-popup-window-navbar;
+
+  &__left {
+    height: $height;
+  }
+
+  &__title {
+    height: $height;
+    flex: 1;
+    color: $color-text-modest;
+    font-size: $font-size-x-large;
+    line-height: $height;
+  }
+
+  &__right {
+    display: flex;
+    height: $height;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

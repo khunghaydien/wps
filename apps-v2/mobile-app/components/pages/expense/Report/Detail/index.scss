@@ -1,0 +1,157 @@
+@import 'mobile-global-imports';
+@import '../../commons/theme/theme.scss';
+
+.mobile-app-pages-report-detail {
+  .main-content {
+    padding: 48px $small-size 60px;
+
+    .mobile-app-molecules-commons-alert {
+      position: sticky;
+      top: 0;
+      width: 100%;
+    }
+  }
+
+  &__headline {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    color: $color-blue-800;
+    margin-bottom: 12px;
+  }
+
+  &__headline &__title {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  &__headline &__amount-label {
+    margin-left: 12px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  &__subtitle {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  &__actions {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #fff;
+    height: 52px;
+    align-items: center;
+  }
+
+  &__dialog {
+    min-width: 240px;
+  }
+
+  $dialog-font-size: 16px;
+
+  &__item {
+    font-size: $dialog-font-size;
+    font-weight: bold;
+  }
+
+  &__sub-item {
+    overflow: hidden;
+    max-height: 200px;
+    margin-bottom: $extra-small-size;
+    font-size: $dialog-font-size;
+    word-break: break-word;
+  }
+
+  &__amount {
+    color: $color-gray-800;
+    font-size: $dialog-font-size;
+    font-weight: normal;
+    text-align: right;
+  }
+
+  &__report-no {
+    color: $color-text-base;
+    font-size: $medium-size;
+  }
+
+  &__custom-request-name {
+    color: $color-text-anchor;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+  }
+
+  &__amount-value {
+    margin-left: 12px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  &__sub-base-amount,
+  &__sub-foreign-amount {
+    color: $color-gray-500;
+    font-size: $medium-size;
+    font-weight: normal;
+  }
+
+  &__more {
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+  }
+
+  &__print {
+    // page width of a4 paper size;
+    width: 210mm;
+    padding-top: 50px;
+    position: absolute;
+    visibility: hidden;
+
+    // same as PC
+    &-title {
+      font-family: 'Salesforce Sans', Arial, sans-serif;
+      font-size: 14px;
+      text-align: center;
+      font-weight: bold;
+      height: 24px;
+    }
+
+    &-element {
+      width: 100%;
+      margin: auto;
+      margin-top: 8px;
+      border-top: 1px solid #000;
+    }
+  }
+
+  &__records {
+    margin-bottom: 12px;
+  }
+
+  &__vendor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__vendor-detail {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8px;
+
+    path {
+      fill: currentcolor;
+    }
+  }
+}

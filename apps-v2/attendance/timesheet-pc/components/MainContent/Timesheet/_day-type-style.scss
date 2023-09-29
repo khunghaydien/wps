@@ -1,0 +1,64 @@
+$this: &;
+// 日タイプごとのスタイル設定
+&#{$this}--day-type {
+  // 勤務日
+  &-workday--graph,
+  &-workday--table td {
+    background-color: $color-bg-daytype-workday;
+  }
+
+  // 所定休日・国民の休日
+  &-holiday--graph,
+  &-holiday--table td {
+    background-color: $color-bg-daytype-holiday;
+  }
+
+  // 法定休日
+  &-legal-holiday--graph,
+  &-legal-holiday--table td {
+    background-color: $color-bg-daytype-legal-holiday;
+  }
+}
+
+// 休暇タイプごとのスタイル設定（行全体の着色）
+&#{$this}--leave {
+  // 有給・年次有給休暇・代休
+  &-with-payment--graph,
+  &-with-payment--table td {
+    background: #fdd7af url('../../../../../commons/images/bgHatchedLine.png');
+  }
+
+  // 無給
+  &-with-deduction--graph,
+  &-with-deduction--table td {
+    background: #ccc url('../../../../../commons/images/bgHatchedLine.png');
+  }
+}
+
+// 休職・休業の行表示
+&#{$this}--leave-of-absence--graph,
+&#{$this}--leave-of-absence--table td {
+  background: #ccc url('../../../../../commons/images/bgHatchedLine.png');
+}
+
+// 休職休業中の就業の表示
+&#{$this}--work-during-leave-of-absence {
+  background: $color-bg-daytype-workday none;
+  // 有給・年次有給休暇・代休
+  &-with-payment--graph,
+  &-with-payment--table td {
+    background: #fdd7af url('../../../../../commons/images/bgHatchedLine.png');
+  }
+
+  // 無給
+  &-with-deduction--graph,
+  &-with-deduction--table td {
+    background: #ccc url('../../../../../commons/images/bgHatchedLine.png');
+  }
+}
+
+// 欠勤の行表示
+&#{$this}--absence--graph,
+&#{$this}--absence--table td {
+  background: #ccc url('../../../../../commons/images/bgHatchedLine.png');
+}

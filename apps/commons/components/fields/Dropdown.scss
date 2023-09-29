@@ -1,0 +1,64 @@
+.commons-fields-dropdown {
+  width: 100%;
+
+  // Content height
+  .empty-content::before,
+  &.slds-dropdown,
+  &.slds-dropdown .dropdown__list,
+  .slds-dropdown,
+  .slds-dropdown .dropdown__list,
+  .slds-button {
+    min-height: 34px;
+  }
+
+  // Enforce 100% width for selected empty label
+  .empty-content::before {
+    width: 100%;
+    content: ' ';
+  }
+
+  .slds-dropdown-trigger,
+  .slds-button {
+    min-width: 100%;
+    color: #16325c;
+  }
+
+  // Popup menu is up to front when Dropdown is interacted
+  &.slds-dropdown,
+  &.slds-dropdown .dropdown__list {
+    z-index: 5200000;
+  }
+
+  // Tweak spaces between a label and ▼ mark in Dropdown
+  .slds-button {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  // Style of ▼ mark at the right edge of Dropdown
+  .slds-button__icon {
+    min-width: 0.895rem;
+    max-width: 0.895rem;
+  }
+
+  // Label style
+  .slds-button,
+  .slds-truncate,
+  .slds-dropdown .slds-dropdown__item {
+    font-size: 13px;
+    line-height: 1.7em;
+  }
+
+  // Menu style
+  .slds-truncate,
+  .slds-dropdown .slds-dropdown__item {
+    min-height: 1rem;
+    white-space: pre-wrap;
+    word-break: normal;
+    word-wrap: normal;
+  }
+}

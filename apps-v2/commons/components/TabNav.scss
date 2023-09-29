@@ -1,0 +1,58 @@
+@import '../styles/exp/variables/colors';
+
+.ts-tabs-nav {
+  $header-hight: 56px;
+
+  top: 56px;
+  overflow: auto;
+  height: 100%;
+  margin-bottom: 20px;
+  background-color: $ts-field-background-gray;
+
+  &__header {
+    display: flex;
+    height: $header-hight;
+    align-items: flex-end;
+    padding: 0 20px;
+    border-bottom: 1px solid $color-border-default;
+    background-color: $ts-field-background-gray;
+  }
+
+  &__item {
+    position: relative;
+    height: 44px;
+    padding: 14px 28px;
+    margin-top: 10px;
+    margin-right: 8px;
+    border: none;
+    background: $color-div-border-gray;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+
+    &-inner-container {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+  }
+
+  &__item:focus {
+    outline: none;
+  }
+
+  &__item.active {
+    border-bottom: none;
+    background-color: $color-bg-lighter;
+    outline: none;
+  }
+
+  &__item.disabled {
+    pointer-events: none;
+  }
+
+  &__content {
+    height: calc(100% - #{$header-hight});
+    background-color: $color-bg-lighter;
+  }
+}

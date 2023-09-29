@@ -1,0 +1,8 @@
+.list-header-body {
+  display: flex;
+  margin-bottom: 1.5em;
+
+  &:last-child {
+    margin-bottom: auto;
+  }
+}

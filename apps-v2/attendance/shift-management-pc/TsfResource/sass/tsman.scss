@@ -1,0 +1,1743 @@
+@import "compass";
+
+@charset "UTF-8";
+
+$fontSize               : 13px;
+$imgDir                 : '../img/';
+$fontFamily             : Meiryo, "メイリオ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif;
+
+@mixin ts-std-button1 {
+    @include border-radius(3px);
+    padding             : 0px;
+    background          : #108dc5;
+    color               : white;
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    &:hover {
+        background-color    : lighten(#108dc5, 30%);
+    }
+    > div {
+        margin      : 5px 10px !important;
+    }
+}
+@mixin ts-std-button1-disabled {
+    @include border-radius(3px);
+    padding             : 0px;
+    background          : #D5D6D6;
+    color               : #FDFDFD;
+    cursor              : default;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    > div {
+        margin      : 5px 10px !important;
+    }
+}
+@mixin ts-std-button2 {
+    @include border-radius(3px);
+    padding             : 0px;
+    background          : transparent;
+    text-decoration     : underline;
+    color               : #4A4AFF;
+
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    > div {
+        margin          : 5px 10px !important;
+        text-decoration : underline;
+        color           : #4A4AFF;
+    }
+
+    &:hover {
+        background      : #DCE0F7;
+        color           : #0000FF;
+        > div {
+            color       : #0000FF;
+        }
+    }
+}
+@mixin ts-std-button2-disabled {
+    @include border-radius(3px);
+    padding             : 0px;
+    background          : #ffffff;
+    text-decoration     : underline;
+    color               : gray;
+
+    cursor              : default;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    > div {
+        margin              : 5px 10px !important;
+        text-decoration     : underline;
+        color               : gray;
+    }
+}
+@mixin ts-std-button3 {
+    @include border-radius(3px);
+    padding             : 0px;
+    background          : #adc929;
+    color               : white;
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    &:hover {
+        background-color    : lighten(#adc929, 10%);
+    }
+    > div {
+        margin              : 5px 10px !important;
+    }
+}
+
+@mixin ts-red-button1 {
+    @include border-radius(3px);
+    padding             : 0px;
+    background          : #f09199;
+    color               : white;
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    &:hover {
+        background-color    : #eebbcb;
+    }
+    > div {
+        margin      : 5px 10px !important;
+    }
+}
+@mixin ts-gry-button1 {
+    @include border-radius(3px);
+    padding             : 0px;
+    background          : #9897a5;
+    color               : white;
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    &:hover {
+        background-color    : lighten(#9897a5, 10%);
+    }
+    > div {
+        margin      : 5px 10px !important;
+    }
+}
+@mixin ts-red-button1-disabled {
+    @include border-radius(3px);
+    padding             : 0px;
+    background          : #D5D6D6;
+    color               : #FDFDFD;
+    cursor              : default;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    > div {
+        margin      : 5px 10px !important;
+    }
+}
+@mixin ts-red-button1-s {
+    @include border-radius(3px);
+    padding             : 2px 5px;
+    background          : #f09199;
+    color               : white;
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 4px;
+    margin-right        : 4px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    &:hover {
+        background-color    : #eebbcb;
+    }
+}
+@mixin ts-work-job-time {
+    @include border-radius(3px);
+    padding             : 0px;
+    background          : transparent;
+    text-decoration     : underline;
+    color               : #4A4AFF;
+
+    cursor              : pointer;
+    display             : table;
+    margin-left         : 0px;
+    margin-right        : 0px;
+    white-space         : nowrap;
+
+    border              : none;
+    font-size           : $fontSize;
+    font-weight         : normal;
+
+    &:hover {
+        background      : #DCE0F7;
+        color           : #0000FF;
+        > div {
+            color       : #0000FF;
+        }
+    }
+}
+
+//------------------------------------------------------------------------------
+button.std-button1 {
+    @include ts-std-button1;
+}
+button.std-button1-disabled {
+    @include ts-std-button1-disabled;
+}
+button.std-button2 {
+    @include ts-std-button2;
+}
+button.std-button2-disabled {
+    @include ts-std-button2-disabled;
+}
+button.std-button3 { // 承認/却下ボタン用
+    @include ts-std-button3;
+}
+button.red-button1 {
+    @include ts-red-button1;
+}
+button.red-button1-disabled {
+    @include ts-red-button1-disabled;
+}
+button.red-button1-s {
+    @include ts-red-button1-s;
+}
+button.gry-button1 {
+    @include ts-gry-button1;
+}
+input[type="button"].std-button1 {
+    @include ts-std-button1;
+}
+input[type="button"].std-button1-disabled {
+    @include ts-std-button1-disabled;
+}
+input[type="button"].std-button2 {
+    @include ts-std-button2;
+}
+input[type="button"].std-button3 { // 承認/却下ボタン用
+    @include ts-std-button3;
+}
+input[type="button"].red-button1-s {
+    @include ts-red-button1-s;
+}
+div.work-job-time {
+    @include ts-work-job-time;
+}
+
+td.statValue { // ステータス
+    > button {
+        @include ts-std-button2;
+        @include clearfix;
+        > div {
+            margin      : 5px 2px !important;
+            display     : inline-block;
+            vertical-align: middle;
+            padding     : 0px 2px;
+            white-space : nowrap;
+            &:first-child {
+                padding     : 0px;
+            }
+        }
+        > div:first-child {
+            margin      : 2px !important;
+        }
+    }
+}
+td.monthlyApply { // ステータス
+    > button {
+        @include ts-std-button2;
+        @include clearfix;
+        > div {
+            margin      : 5px 2px !important;
+            display     : inline-block;
+            vertical-align: middle;
+            padding     : 0px 2px;
+            white-space : nowrap;
+            &:first-child {
+                padding     : 0px;
+            }
+        }
+        > div:first-child {
+            margin      : 2px 0px 2px 2px !important;
+        }
+    }
+}
+
+button.infoButton {
+    @include ts-std-button2;
+    @include clearfix;
+    > div {
+        margin      : 5px 2px !important;
+        display     : inline-block;
+        vertical-align: middle;
+        padding     : 0px 2px;
+        white-space : nowrap;
+        &:first-child {
+            padding     : 0px;
+        }
+    }
+    > div:first-child {
+        margin      : 3px 1px 2px 2px !important;
+    }
+}
+
+tr.ts-buttons-row {
+    td {
+        > div {
+            display         : table;
+            margin-left     : auto;
+            margin-right    : auto;
+            @include clearfix;
+            button {
+                float   : left;
+            }
+        }
+    }
+}
+
+//------------------------------------------------------------------------------
+// AtkTimeView.css 5-118行目付近
+
+$borderColor1           : #e4e4e4;  // メインテーブルの外側の罫線の色
+//$headerColor1           : #797a76;  // メインテーブルヘッダ・フッタ部の文字色
+$headerColor1           : #2E5E7E;  // メインテーブルヘッダ・フッタ部の文字色
+
+/*
+table, thead, th, tbody, tr, td, div, input, textarea, select {
+    box-sizing          : border-box;
+    -moz-box-sizing     : border-box;
+    -webkit-box-sizing  : border-box;
+}
+*/
+
+.png-icon01, .png-icon02, .png-icon03, .png-icon04, .png-icon06, .png-icon07 {
+    width           : 18px;
+    height          : 18px;
+    margin-left     : auto;
+    margin-right    : auto;
+}
+
+table.month_frame {
+    table.emp_work_head {
+        background      : url('#{$imgDir}List_Hedda01.jpg') repeat-x;
+        color           : $headerColor1;
+        border          : 1px solid #728EA5 !important;
+    }
+}
+table.emp_work_sum_head {
+    background      : url('#{$imgDir}List_Hedda01.jpg') repeat-x;
+    color           : $headerColor1;
+    border          : 1px solid #728EA5 !important;
+}
+
+#graphTable {
+    border-collapse    : collapse;
+    tr.dayLine {
+        border-bottom   : 1px solid $borderColor1;
+        height          : 24px;
+    }
+    td.meter {
+        background      : url('#{$imgDir}List_Hedda01.jpg') repeat-x;
+        color           : $headerColor1;
+    }
+}
+#toggleWorkEnd {
+    position        : absolute;
+}
+#timeAreaL {
+    td.caption {
+        background  : url('#{$imgDir}List_Hedda01.jpg') repeat-x;
+        color       : $headerColor1;
+        border      : 1px solid #728EA5;
+    }
+    td.sche_title {
+        border      : 1px solid #728EA5;
+    }
+}
+#timeAreaR {
+    table.caption_margin {
+        background      : url('#{$imgDir}List_Hedda01.jpg') repeat-x;
+        color           : $headerColor1;
+        border          : 1px solid #728EA5;
+        div {
+            color       : $headerColor1;
+        }
+        td {
+            text-align  : left;
+        }
+        #empWork_label, #atkWorlInfo_label {
+            margin-left : 16px;
+            text-align  : left;
+            color       : $headerColor1;
+            font-size   : 13px;
+        }
+    }
+    table.emp_work_area {
+        table.emp_work_head {
+            border-left     : 1px solid #728EA5;
+            border-right    : 1px solid #728EA5;
+            td {
+                background  : #E3EBF1;
+                color       : $headerColor1;
+            }
+        }
+    }
+    #empWorkLocationArea {
+        td {
+            text-align: left;
+            vertical-align: middle;
+            > div {
+                min-height: 28px;
+                border-left: 1px solid #728EA5;
+                border-right: 1px solid #728EA5;
+                border-bottom: 1px solid #728EA5;
+                > div {
+                    display: table-cell;
+                    vertical-align: top;
+                    > div {
+                        display: inline-block;
+                        font-size: 12px;
+                        margin-top: 5px;
+                        &.field_name {
+                            color: #2E5E7E;
+                            font-weight: bold;
+                            margin-left: 16px;
+                            margin-right: 20px;
+                        }
+                    }
+                    &:first-child > div{
+                        white-space: nowrap;
+                    }
+                    &:nth-child(2) > div {
+                        word-break: break-all;
+                    }
+                }
+            }
+        }
+    }
+}
+table.comment-area {
+    background: url('#{$imgDir}fukidashi.png') no-repeat;
+}
+table.comment-area2 {
+    background: url('#{$imgDir}fukidashi2.png') no-repeat;
+}
+#endAndDayFixRow {
+    td {
+        position: relative;
+        padding-top: 3px;
+        height: 38px;
+        > div {
+            position: absolute;
+            top: 0px;
+            &:first-child {
+                left: 4px;
+                padding-top: 4px;
+            }
+            &:last-child{
+                right: 8px;
+                padding-top: 9px;
+            }
+        }
+    }
+    &.plus_top2 {
+        td > div {
+            top: 2px;
+            &:nth-child(2){ // 勤務場所入力欄
+                left: 70px;
+                padding-top: 6px;
+                > div {
+                    display: inline-block;
+                    vertical-align: middle;
+                    &:first-child { // ラベル
+                        margin-right: 10px;
+                    }
+                    &:last-child { // プルダウン
+                        > select {
+                            min-width: 200px;
+                            max-width: 270px;
+                            &.english {
+                                max-width: 220px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.pb_btn_pen2 {
+    background      : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: 0px -153px;
+    width           : 30px;
+    height          : 30px;
+    border          : none;
+    &:hover {
+        background-position: -31px -153px;
+    }
+}
+.pb_btn_pen2a_dis {
+    background      : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: 0px -184px;
+    width           : 30px;
+    height          : 30px;
+    border          : none;
+}
+.pb_btn_tomon2 {
+    background      : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: -62px -153px;
+    width           : 30px;
+    height          : 30px;
+    border          : none;
+    &:hover {
+        background-position: -93px -153px;
+    }
+}
+.pb_btn_schejob {
+    background      : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: -124px -153px;
+    width           : 30px;
+    height          : 30px;
+    border          : none;
+    &:hover {
+        background-position: -155px -153px;
+    }
+}
+.pb_btn_schejob_dis {
+    background      : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: -124px -184px;
+    width           : 30px;
+    height          : 30px;
+    border          : none;
+}
+.pb_btn_apply_open {
+    background      : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: -186px -153px;
+    width           : 30px;
+    height          : 30px;
+    border          : none;
+    &:hover {
+        background-position: -217px -153px;
+    }
+}
+.pb_btn_plusL {
+    background          : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: -509px -157px;
+    width               : 24px;
+    height              : 24px;
+    border              : none;
+    cursor              : pointer;
+    &:hover {
+        background-position: -534px -157px;
+    }
+}
+.pb_btn_plusL_dis {
+    background          : url('#{$imgDir}p_images.png') no-repeat;
+    background-position: -559px -157px;
+    width               : 24px;
+    height              : 24px;
+    border              : none;
+}
+//.pp_btn_caldrp2 {
+//    background      : url('#{$imgDir}dateCal1.png') no-repeat;
+//    width           : 26px;
+//    height          : 18px;
+//    border          : none !important;
+//    background-color    : transparent !important;
+//    &:hover {
+//        background      : url('#{$imgDir}dateCal1_on.png') no-repeat;
+//        background-color    : transparent !important;
+//    }
+//}
+
+//------------------------------------------------------------------------------
+#expItemDialogTargetArea {
+    width       : 350px;
+    height      : 200px;
+    overflow-x  : hidden;
+    overflow-y  : scroll;
+    border      : 1px solid gray;
+}
+#expItemDialogTargetHead {
+    border-collapse : collapse;
+    width           : 352px;
+    border-top      : 1px solid gray;
+    border-left     : 1px solid gray;
+    border-right    : 1px solid gray;
+    > thead {
+        > tr {
+            vertical-align  : middle;
+            > th {
+                text-align          : center;
+                padding             : 2px;
+                background-color    : #9FA0A6;
+                color               : #ffffff;
+            }
+            > th.ts-check {
+                width       : 30px;
+            }
+            > th.ts-name {
+                width       : 303px;
+            }
+            > th.ts-tail {
+                width       : 19px;
+            }
+        }
+    }
+}
+#expItemDialogTarget {
+    border-collapse    : collapse;
+    width               : 100%;
+    > tbody {
+        > tr {
+            vertical-align  : middle;
+            > td {
+                padding     : 2px;
+                font-weight : normal;
+            }
+            > td.ts-check {
+                width       : 30px;
+                text-align  : center;
+            }
+            > td.ts-name {
+                width       : 303px;
+                text-align  : left;
+            }
+        }
+        > tr.ts-odd {
+            background-color    : #EDEDED;
+        }
+        > tr.ts-even {
+            background-color    : #FAFAFA;
+        }
+    }
+}
+//------------------------------------------------------------------------------
+.common-set-help-on {
+    background  : url('#{$imgDir}p_images.png') no-repeat;
+    width       : 12px;
+    height      : 12px;
+    border      : none;
+    background-position: -13px -245px;
+    &:hover {
+        background-position: -0px -245px;
+    }
+}
+.common-set-help-off {
+    width       : 12px;
+    height      : 12px;
+}
+table.common-settings {
+    width               : 100%;
+    border-collapse     : collapse;
+    background-color    : #f8f8f8;
+    tr {
+        td {
+            padding             : 4px;
+            font-size           : 12px;
+            div.common-set-title-area {
+                font-size           : 1.2em;
+                font-weight         : bold;
+                margin              : 8px 2px;
+                position            : relative;
+                div.common-set-title {
+                    position        : absolute;
+                    left            : 20px;
+                }
+            }
+            div.common-set-buttons {
+                display             : table;
+                margin-left         : auto;
+                margin-right        : auto;
+                padding             : 8px 2px;
+                @include clearfix;
+                div {
+                    margin-left     : 20px;
+                    float           : left;
+                }
+                input[type="button"] {
+                    cursor          : pointer;
+                }
+            }
+        }
+        td.common-set-col {
+            text-align          : right;
+            vertical-align      : middle;
+            width               : 42%;
+            > div {
+                @include clearfix;
+                div {
+                    font-weight     : bold;
+                    color           : #4a4a56;
+                    float           : right;
+                }
+                div.common-set-help-on, div.common-set-help-off {
+                    margin-left     : 8px;
+                    margin-top      : 2px;
+                }
+            }
+        }
+        td.common-set-val {
+            vertical-align      : middle;
+        }
+    }
+    tr.common-set-sect {
+        background-color        : #e8ddf4;
+        td {
+            font-size           : 1.1em;
+            font-weight         : bold;
+            padding             : 4px 20px;
+        }
+    }
+}
+table.print-assist {
+    border-collapse     : collapse;
+    margin-right        : 1px;
+    width               : 100%;
+    td, th {
+        > div {
+            margin          : 1px 8px;
+        }
+    }
+    td {
+        border      : 1px solid #555;
+    }
+    td.print-col-c   {
+        white-space : nowrap;
+        text-align  : right;
+        width       : 10%;
+    }
+    td.print-val   {
+        text-align  : left;
+        width       : 40%;
+    }
+    th > div {
+        margin              : 1px -2px 0px -1px;
+        text-align          : left;
+        padding             : 2px 8px;
+        vertical-align      : middle;
+        background-color    : #74A3C5;
+        color               : #FFF;
+        font-size           : 12px !important;
+        font-weight         : bold;
+    }
+}
+table.print-attach {
+    border-collapse     : collapse;
+    margin-right        : 1px;
+    width               : 100%;
+    thead th div {
+        margin              : 1px -2px 0px -1px;
+        text-align          : left;
+        padding             : 1px 8px;
+        vertical-align      : middle;
+        background-color    : #74A3C5;
+        color               : #FFF;
+        font-size           : 12px !important;
+        font-weight         : bold;
+    }
+    td {
+        border      : 1px solid #555;
+        padding     : 1px 4px !important;
+    }
+}
+#applyImageArea {
+    div.attach-title {
+        margin      : 4px 5px 0px 5px;
+        font-size   : 11px;
+    }
+    div.attach-image {
+        margin      : 2px 5px;
+    }
+}
+table.exp_receipt {
+    margin-top      : 4px;
+}
+div.request-info-group {
+    margin          : 0px 0px 4px 10px !important;
+    display         : table;
+    div {
+        display         : table-cell;
+    }
+    div.request-info-c {
+        white-space     : nowrap;
+        color           : #667CAD;
+    }
+    div.request-info-v {
+        white-space     : nowrap;
+        margin-left     : 10px;
+        margin-right    : 10px;
+        min-width       : 80px;
+        color           : #222;
+        span {
+            margin-left     : 10px;
+            margin-right    : 10px;
+        }
+    }
+    div.request-info-btn {
+    }
+}
+
+table.ticket_exp_items {
+    width       : 100%;
+    table.exp_items_box {
+        border-collapse     : collapse;
+        tr > td > table {
+            border-collapse     : collapse;
+            margin-right        : 8px;
+        }
+    }
+    td.nest_left {
+        vertical-align  : bottom;
+        @include clearfix;
+        div {
+            float       : left;
+        }
+        input[type="button"] {
+            float           : left;
+            margin-left     : 10px;
+            padding         : 1px 8px;
+        }
+    }
+    td.exp_items_cell {
+        padding     : 0px !important;
+        div.exp_item_list {
+            select {
+                width       : 180px;
+                height      : 90px;
+            }
+        }
+    }
+}
+
+// 入退館管理・乖離理由入力ダイアログ
+table.diverge-reason {
+    border-collapse     : collapse;
+    margin              : -4px 4px 4px 4px;
+    td.diverge-head {
+        padding-bottom  : 4px;
+        table {
+            border-collapse : collapse;
+            td {
+                padding-left    : 4px;
+            }
+            td.diverge-date {
+                white-space     : nowrap;
+            }
+            td.diverge-event {
+                width           : 250px;
+                span {
+                    word-break  : break-all;
+                }
+            }
+        }
+    }
+    table.diverge-table1, table.diverge-table2 {
+        border-collapse     : collapse;
+        div.diverge-form {
+            font-weight     : bold;
+            font-size       : 13px;
+            margin-right    : 20px;
+            margin-bottom   : 8px;
+            max-width       : 140px;
+        }
+        select {
+            width           : 300px;
+            font-size       : 11px;
+            margin-bottom   : 3px;
+        }
+        td.diverge-info {
+            vertical-align  : top;
+            table {
+                border-collapse     : collapse;
+                td {
+                    font-size           : 11px;
+                }
+                td:nth-child(2) {
+                    text-align      : right;
+                    padding-left    : 8px;
+                }
+            }
+        }
+        textarea {
+            font-family : $fontFamily;
+            font-size   : 12px;
+            border      : 1px solid #539AC7;
+            width       : 296px;
+            height      : 84px;
+        }
+        textarea[readonly]:focus {
+            outline     : none;
+        }
+    }
+    table.diverge-table2 {
+        margin-top      : 4px;
+    }
+    tr.diverge-ctrl1, tr.diverge-ctrl2 {
+        td {
+            text-align      : center;
+            padding-top     : 10px;
+            > div {
+                display     : table;
+                margin      : auto;
+                @include clearfix;
+                > button {
+                    float   : left;
+                }
+            }
+        }
+    }
+}
+// 勤怠情報入力ダイアログの乖離理由タブ
+div.diverge-content {
+    padding-top     : 8px;
+    table.diverge-table1, table.diverge-table2 {
+        border-collapse     : separate;
+        div.diverge-form {
+            font-weight     : bold;
+            font-size       : 13px;
+            margin-right    : 4px;
+            margin-bottom   : 8px;
+            width           : 120px;
+        }
+        select {
+            width           : 270px;
+            margin-bottom   : 3px;
+            font-size       : 11px;
+        }
+        td.diverge-info {
+            vertical-align  : top;
+            table {
+                border-collapse     : collapse;
+                td {
+                    font-size           : 11px;
+                }
+                td:nth-child(2) {
+                    text-align      : right;
+                    padding-left    : 8px;
+                }
+            }
+        }
+        textarea {
+            font-family : $fontFamily;
+            font-size   : 12px;
+            border      : 1px solid #539AC7;
+            width       : 266px;
+            height      : 84px;
+        }
+        textarea[readonly]:focus {
+            outline     : none;
+        }
+    }
+    table.diverge-table2 {
+        margin-top      : 4px;
+    }
+}
+
+// 入退館管理ログ明細ダイアログ
+table.acclog-view {
+    border-collapse     : collapse;
+    td.acclog-head {
+        padding-bottom  : 4px;
+        table {
+            border-collapse : collapse;
+            td {
+                padding-left    : 4px;
+            }
+            td.acclog-date {
+                white-space     : nowrap;
+            }
+            td.acclog-event {
+                width           : 250px;
+                span {
+                    word-break  : break-all;
+                }
+            }
+        }
+    }
+    div.acclog-logs {
+        margin-left     : 8px;
+        margin-right    : 8px;
+        > div {
+            overflow-y      : scroll;
+            border          : 1px solid lighten(#3b7aa4, 30%);
+            height          : 222px;
+        }
+        table {
+            width               : 100%;
+            border-collapse     : collapse;
+            td > div {
+                margin  : 0px 4px;
+            }
+            thead {
+                tr {
+                    border-top      : 1px solid lighten(#3b7aa4, 30%);
+                }
+                th {
+                    border-left     : #e3ebf1;
+                    border-right    : #e3ebf1;
+                    background-color: #e3ebf1;
+                    text-align      : center;
+                    white-space     : normal;
+                    cursor          : pointer;
+                    > div {
+                        @include clearfix;
+                        margin      : auto;
+                        padding     : 0px;
+                        word-break  : break-all;
+                        display     : table;
+                        color       : #2e5e7e;
+                        background-color: transparent;
+                        div {
+                            padding     : 0px;
+                            float       : left;
+                            background-color: transparent;
+                        }
+                        div.pp_base {
+                            margin-top      : 4px;
+                            margin-left     : 2px;
+                        }
+                    }
+                }
+                th:first-child {
+                    border-left     : 1px solid lighten(#3b7aa4, 30%);
+                }
+                th:last-child {
+                    border-right    : 1px solid lighten(#3b7aa4, 30%);
+                }
+            }
+            tbody {
+                td {
+                    border-right    : 1px dashed lighten(#3b7aa4, 30%);
+                    padding         : 1px 0px;
+                }
+                tr:first-child td {
+                    border-top      : none;
+                }
+                tr:last-child td {
+                    border-bottom   : none;
+                }
+                tr {
+                    height          : 22px;
+                    td:first-child {
+                        border-left : none;
+                    }
+                    td:last-child {
+                        border-right : none;
+                    }
+                }
+            }
+        }
+    }
+    tr.acclog-ctrl {
+        td {
+            text-align      : center;
+            padding-top     : 10px;
+            > div {
+                display     : table;
+                margin      : auto;
+                @include clearfix;
+                > button {
+                    float   : left;
+                }
+            }
+        }
+    }
+}
+#largeTable td.ts-top-desktop {
+    padding:6px 16px;
+    @include clearfix;
+    > div:first-child {
+        float: left;
+    }
+    > div:last-child {
+        float: right;
+    }
+}
+#largeTable td.ts-top-mobile {
+    padding:0px;
+    > div {
+        padding-bottom: 4px;
+    }
+    > div:nth-child(2) {
+        table {
+            margin-left: auto;
+        }
+    }
+}
+$tblDate        :52px; // 日付
+$tblWeek        :24px; // 曜日
+$tblStatus      :35px; // 勤務状況
+$tblApply       :37px; // 申請
+$tblSt          :57px; // 出社
+$tblEt          :57px; // 退社
+$tblAcc         :45px; // 乖離状況
+$tblJob         :45px; // 工数
+$tblNote        :38px; // 備考
+$tblTelework    :87px; // 勤務場所
+#mainTable {
+	border-collapse 	: collapse;
+	border-spacing		: 0px;
+	margin				: 0px;
+	empty-cells 		: show;
+	font-size			: 12px;
+	border				: 1px solid #728EA5 !important;
+	margin-bottom: 8px;
+	tbody {
+		tr:first-child {
+			height: 43px;
+			border-bottom: 1px solid #ACC2E9;
+			td {
+				word-break: break-all;
+				> span {
+					display: block;
+				}
+				&.head {
+					height			: 42px;
+					text-align		: center;
+					font-weight 	: bold;
+					background		: url('#{$imgDir}List_Hedda01.jpg') repeat-x;
+					color			: $headerColor1;
+				}
+				&.hdate			{ width : $tblDate + $tblWeek; border-right : 1px dashed #b8b8c5; }
+				&.hstatus		{ width : $tblStatus + 2;      border-right : 1px dashed #b8b8c5;
+					div {
+						width: 28px;
+						margin: auto;
+						word-break: break-all;
+					}
+				}
+				&.happly		{ width : $tblApply;    border-right : 1px dashed #b8b8c5; }
+				&.hst			{ width : $tblSt;       border-right : 1px dashed #b8b8c5; }
+				&.het			{ width : $tblEt;       border-right : 1px dashed #b8b8c5; }
+				&.hacc			{ width : $tblAcc;      border-right : 1px dashed #b8b8c5; }
+				&.hjob			{ width : $tblJob;      border-right : 1px dashed #b8b8c5; }
+				&.graph_area	{ width : 302px; }
+				&.hnote			{ width : $tblNote;     border-left : 1px dashed #b8b8c5; border-right : 1px solid #728EA5; }
+				&.htelework 	{ width : $tblTelework; border-right : 1px dashed #b8b8c5; }
+			}
+		}
+		tr {
+			&.days {
+				vertical-align		: middle;
+				height				: 24px;
+				td.vbttn {
+					> div {
+						margin-left: auto;
+						margin-right: auto;
+					}
+				}
+			}
+			&.even {
+				background-color: #FFFFFF;
+			}
+			&.odd {
+				background-color: #FFFFFF;
+			}
+			&:last-child {
+				height: 41px;
+			}
+			td {
+				padding 			: 0px;
+				margin				: 0px;
+				vertical-align		: middle;
+				&.dval {
+					font-size		: 12px;
+					border-bottom	: 1px solid $borderColor1;
+				}
+				&.vdate		{ width : $tblDate - 6;    text-align : right; position : relative; }
+				&.vweek		{ width : $tblWeek;        text-align : center; border-right : 1px dashed #A3A4A3; }
+				&.vstatus	{ width : $tblStatus - 11; text-align : center; border-right : 1px dashed #A3A4A3; position : relative; }
+				&.vapply	{ width : $tblApply;       text-align : center; border-right : 1px dashed #A3A4A3; }
+				&.vst	 	{ width : $tblSt;          text-align : center; border-right : 1px dashed #A3A4A3; }
+				&.vet 		{ width : $tblEt;          text-align : center; border-right : 1px dashed #A3A4A3; }
+				&.vacc		{ width : $tblAcc - 8;     text-align : center; border-right : 1px dashed #A3A4A3; }
+				&.vjob		{ width : $tblJob - 8;     text-align : center; border-right : 1px dashed #A3A4A3; }
+				&.vbttn		{ width : $tblNote;        text-align : center; border-left  : 1px dashed #A3A4A3; cursor : pointer; }
+				&.vnote		{ width : 0px;	           text-align : left;	  border-right : 1px solid #728EA5; overflow: hidden; }
+				&.foot {
+					height			: 42px;
+					text-align		: center;
+					font-weight 	: bold;
+					background		: url('#{$imgDir}List_Hedda01.jpg') repeat-x;
+					color			: $headerColor1;
+				}
+				&.vtelework {
+					width : $tblTelework;
+					text-align : center;
+					border-right : 1px dashed #A3A4A3;
+					position: relative;
+					> div.tele {
+						height: 20px;
+						width: $tblTelework - 4;
+						overflow: hidden;
+						margin: 1px;
+						cursor: pointer;
+						> div {
+							margin: 0px;
+							white-space: nowrap;
+							overflow: hidden;
+							padding: 1px 4px;
+							text-align: left;
+						}
+					}
+					> div.tenten {
+						position: absolute;
+						bottom: 2px;
+						right: 2px;
+					}
+				}
+			}
+			div.statex	{ left : 27px; top: 3px; position : absolute; }
+			div.workng	{ left :  2px; top: 3px; position : absolute; }
+			div.dayFix	{ left :  1px; top: 0px; position : absolute; }
+		}
+	}
+	tfoot {
+		tr {
+			height: 1px;
+			background-color: #E0E0E0;
+			td {
+                > div { height: 1px; }
+				> div.fdate     { width:$tblDate;     }
+				> div.fweek     { width:$tblWeek;     }
+				> div.fstatus   { width:$tblStatus;   }
+				> div.fapply    { width:$tblApply;    }
+				> div.fst       { width:$tblSt;       }
+				> div.fet       { width:$tblEt;       }
+				> div.ftelework { width:$tblTelework; }
+				> div.facc      { width:$tblAcc;      }
+				> div.fjob      { width:$tblJob;      }
+				> div.fbttn     { width:$tblNote;     }
+			}
+		}
+	}
+}
+table.emp_apply_steps {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin: 0px;
+	border: none;
+	table.emp_apply_steps_head {
+		width: 100%;
+		border-collapse: collapse;
+		border-spacing: 0px;
+		border: 1px solid #74A3C5;
+		margin: 0px;
+		tbody {
+			td {
+				padding: 0px;
+				vertical-align: middle;
+				text-align: center;
+				background-color: #74A3C5;
+				color: #ffffff;
+				font-size: 12px;
+				font-weight: bold;
+				> div {
+					margin: 2px;
+				}
+			}
+			td.number   { width: 20px; }
+			td.datetime { width:126px; }
+			td.status   { width: 90px; }
+			td.actor    { width:160px; }
+			td.comment  { width:254px; }
+		}
+	}
+	div.emp_apply_steps_area {
+		border: 1px solid #74A3C5;
+		padding: 0px;
+		margin: 0px;
+		-moz-user-select: none;
+		-khtml-user-select: none;
+		user-select: none;
+		-webkit-overflow-scrolling: auto;
+	}
+	table.emp_apply_steps_body {
+		width: 100%;
+		border-collapse: collapse;
+		padding: 0px;
+		margin: 0px;
+		empty-cells: show;
+		-moz-user-select: none;
+		-khtml-user-select: none;
+		user-select: none;
+		tr.even {
+			background-color: #FAFAFA;
+		}
+		tr.odd {
+			background-color: #EDEDED;
+		}
+		tr.sele:hover {
+			background-color: #D3FFD3;
+		}
+		td {
+			padding: 0px;
+			height: 20px;
+			vertical-align: middle;
+			text-align: center;
+			> div {
+				margin: 1px 0px;
+				font-size: 12px;
+			}
+		}
+		td.number   { width: 20px; }
+		td.datetime { width:126px; }
+		td.status   { width: 90px; }
+		td.actor    { width:160px; }
+		td.comment  { width:254px;text-align:left;word-break:break-all; }
+	}
+}
+table#dialogInfoTable {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin: 0px;
+	border: none;
+	table {
+		border-collapse: collapse;
+		border-spacing: 0px;
+		margin: 0px;
+		border: none;
+	}
+	td#dialogInfoArea {
+		vertical-align: top;
+		table.info_table {
+			width: 100%;
+			table.info_head {
+				border: 1px solid #74A3C5;
+				width: 100%;
+				td {
+					padding: 0px;
+					vertical-align: middle;
+					text-align: center;
+					background-color: #74A3C5;
+					color: #ffffff;
+					font-size: 12px;
+					font-weight: bold;
+					> div {
+						margin: 1px;
+					}
+				}
+				td.date  { width: 80px; }
+				td.info  { width:518px; }
+				td.agree { width: 42px; }
+			}
+			div.info_area {
+				border: 1px solid #74A3C5;
+				padding: 0px;
+				margin: 0px;
+				-moz-user-select: none;
+				-khtml-user-select: none;
+				user-select: none;
+				-webkit-overflow-scrolling: auto;
+				table.info_body {
+					width: 100%;
+					empty-cells: show;
+					-moz-user-select: none;
+					-khtml-user-select: none;
+					user-select: none;
+					tr.even {
+						background-color: #FAFAFA;
+					}
+					tr.odd {
+						background-color: #EDEDED;
+					}
+					tr:hover {
+						background-color: #EFF9EF;
+					}
+					td {
+						padding: 0px;
+						height: 20px;
+						vertical-align: middle;
+						text-align: center;
+						> div {
+							margin: 1px 0px;
+							font-size: 12px;
+						}
+					}
+					td.date  { width: 80px; }
+					td.info  { width:518px;word-break:break-all;text-align:left; }
+					td.agree { width: 25px; }
+				}
+			}
+		}
+		table.info_small {
+			div {
+				font-size: 11px !important;
+			}
+            td.info  { width:448px !important; }
+		}
+	}
+	td#dialogInfoRight {
+		td:first-child {
+			text-align: center;
+			white-space: nowrap;
+			font-size: 11px;
+		}
+		td:last-child {
+			text-align: center;
+			padding-top: 10px;
+			button {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+	tr#dialogInfoBottom {
+		table {
+			margin-bottom: 4px;
+			width: 100%;
+			td:first-child {
+				width: 35%;
+			}
+			td:nth-child(2) {
+				text-align: center;
+				padding-top: 10px;
+				width: 30%;
+				button {
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+			td:last-child {
+				text-align: center;
+				white-space: nowrap;
+				width: 35%;
+				font-size: 12px;
+			}
+		}
+	}
+}
+table#messageBoxTable {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin: 0px;
+	border: none;
+	td.message_area {
+		vertical-align: top;
+		text-align: left;
+		height: 60px;
+		div#messageBoxMessage {
+			margin:4px 4px 4px 12px;
+		}
+		div#messageBoxCheck {
+			margin:16px 4px 4px 12px;
+			div.ts_message {
+				margin-left: 12px;
+				margin-bottom: 10px;
+			}
+			div.ts_check {
+				margin-bottom: 10px;
+				label {
+					margin-left: 12px;
+					vertical-align:middle;
+				}
+				div {
+					vertical-align:middle;
+				}
+			}
+		}
+	}
+	tr#messageBoxErrorRow {
+		td {
+			vertical-align: top;
+			text-align: center;
+			color: red;
+		}
+	}
+	tr.ts-buttons-row {
+		td {
+			text-align: center;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			button.std-button1 {
+				margin-right: 16px;
+			}
+			button.std-button2 {
+				margin-left: 16px;
+			}
+		}
+	}
+}
+table#dialogRestInputTable {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin: 0px;
+	border: none;
+	table {
+		border-collapse: collapse;
+		border-spacing: 0px;
+		margin: 0px;
+		border: none;
+	}
+	td.restInputTop {
+		vertical-align: top;
+		text-align: left;
+		font-size: 0.85em;
+		padding: 1px 4px;
+	}
+	td.restInputBody {
+		vertical-align: top;
+		text-align: center;
+		> table {
+			width: 100%;
+			div.restInputLabel {
+				font-weight: bold;
+				min-width: 60px;
+				margin: 4px 0px 0px 0px;
+				white-space: normal;
+			}
+			div.restInputArea {
+				width: 180px;
+				min-height: 24px;
+				padding: 0px;
+				margin: 0px;
+				border: 1px solid #539AC7;
+				overflow-x: hidden;
+				> table {
+					width: 100%;
+				}
+			}
+			td.restInputPlus {
+				padding-left: 8px;
+				vertical-align: bottom;
+			}
+		}
+	}
+	tr#dialogRestInputError {
+		> td {
+			text-align: center;
+			> div {
+				color: red;
+			}
+		}
+	}
+	tr#dialogRestInputNote {
+		> td {
+			text-align: left;
+			@include clearfix;
+			> div {
+				float: left;
+			}
+			> div:first-child {
+				margin: 4px 0px;
+				font-size: 90%;
+			}
+			> div:last-child {
+				width: 340px;
+				margin: 4px;
+				font-size: 90%;
+			}
+		}
+	}
+	tr.ts-buttons-row {
+		> td {
+			text-align: center;
+			padding: 10px;
+			button#dialogRestInputOk {
+				margin-right:16px;
+			}
+			button#dialogRestInputCancel {
+				margin-left:16px;
+			}
+		}
+	}
+}
+table#dialogBulkZangyoTable {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin: 0px;
+	border: none;
+	table {
+		border-collapse: collapse;
+		border-spacing: 0px;
+		margin: 0px;
+		border: none;
+	}
+	td.bulkZangyoTop {
+		vertical-align: top;
+		text-align: left;
+		font-size: 0.85em;
+		padding: 1px 4px;
+	}
+	td.bulkZangyoBody {
+		vertical-align: top;
+		> div {
+			margin: 0px 4px;
+		}
+		input {
+			margin: 2px;
+		}
+		div.empApply2CL {
+			margin-left: 4px;
+		}
+	}
+	#dialogBulkZangyoNote {
+		text-align: center;
+		> textarea {
+			width: 97%;
+			height: 42px;
+			margin: 2px;
+			padding: 2px;
+		}
+	}
+	tr#dialogBulkZangyoError {
+		> td {
+			text-align: center;
+			> div {
+				color: red;
+			}
+		}
+	}
+	tr#dialogBulkZangyoCtrl1 {
+		td {
+			text-align: center;
+			padding: 10px;
+		}
+		#dialogBulkZangyoOk {
+			margin-right: 16px;
+		}
+		#dialogBulkZangyoCancel {
+			margin-left: 16px;
+		}
+	}
+}
+// 以下の tsext-test-assist.. は勤務表と裏画面両方で使うため
+// tsext.scss と tsman.scss 両方に入れる
+.tsext-test-assist-dialog {
+	* {
+		font-size: 11px;
+	}
+}
+div.tsext-test-assist {
+	* {
+		font-size: 11px;
+	}
+	> table {
+		border-collapse: collapse;
+		margin: 0px;
+		border: none;
+		width: 100%;
+	}
+	textarea {
+		box-sizing			: border-box;
+		-moz-box-sizing		: border-box;
+		-webkit-box-sizing	: border-box;
+	}
+	input[type="button"] {
+		@include border-radius(3px);
+		padding 			: 5px 10px;
+		background			: #108dc5;
+		color				: white;
+		cursor				: pointer;
+		margin-left 		: 4px;
+		margin-right		: 4px;
+		white-space 		: nowrap;
+		border				: none;
+		font-weight 		: normal;
+		text-decoration 	: none;
+		&:hover {
+			background-color	: lighten(#108dc5, 30%);
+		}
+		&:active {
+			background: lighten(#108dc5, 50%);
+			color: #0070d2;
+		}
+	}
+	input[type="button"].cancel, input[type="button"].buttonw {
+		padding 			: 5px 10px;
+		background: transparent;
+		color: #0070d2;
+		text-decoration: underline;
+		&:hover {
+			background: #DCE0F7;
+		}
+		&:active {
+			background: #a7e1fb;
+		}
+	}
+	input[type="button"]:disabled {
+		background-color	: #c8cdd0 !important;
+		color				: white !important;
+		cursor				: default;
+		text-decoration		: none !important;
+		&:hover {
+			background-color: #c8cdd0 !important;
+		}
+		&:active {
+			background-color: #c8cdd0 !important;
+		}
+	}
+	.test-assist-links {
+		> div {
+			display: inline-block;
+			margin-right: 8px;
+		}
+	}
+	div.test-assist-buttons {
+		margin-top: 4px;
+		div {
+			margin : 0px auto;
+			display : table;
+			input[type="button"] {
+				margin : 0px 8px;
+			}
+		}
+	}
+}

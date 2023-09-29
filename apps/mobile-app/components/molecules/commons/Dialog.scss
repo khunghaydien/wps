@@ -1,0 +1,93 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-commons-dialog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+
+  button.close-button {
+    position: relative;
+    align-self: flex-end;
+    margin-right: 8%;
+  }
+
+  .content {
+    width: 80%;
+    padding: 0;
+    margin: 0 10%;
+    background-color: #fff;
+    border-radius: $base-size;
+  }
+
+  &__title {
+    margin: 6px 0;
+    color: #278cf0;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  &__content {
+    padding: 0 15px 20px;
+  }
+
+  &__buttons {
+    display: flex;
+  }
+
+  &__button-center {
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  &__button-left,
+  &__button-right {
+    width: 50%;
+    min-height: 40px;
+    border: none;
+    border-top: 1px solid $color-gray-700;
+    background-color: $color-brand;
+    color: #fff;
+
+    &:disabled {
+      background-color: $color-gray-200;
+      border-color: $color-gray-200;
+      color: $color-text-base;
+    }
+  }
+
+  &__button-left {
+    border-right: 1px solid $color-gray-700;
+    border-bottom-left-radius: $base-size;
+  }
+
+  &__button-right {
+    border-bottom-right-radius: $base-size;
+  }
+
+  // content styles
+  &__content-container {
+    font-size: $medium-size;
+  }
+
+  &__item {
+    font-weight: bold;
+  }
+
+  &__item--amount {
+    font-weight: bold;
+    text-align: right;
+  }
+
+  &__sub-item {
+    overflow: hidden;
+    max-height: 200px;
+    margin-bottom: $extra-small-size;
+    word-break: break-word;
+  }
+
+  .mobile-app-atoms-amount {
+    text-align: right;
+  }
+}

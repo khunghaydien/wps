@@ -1,0 +1,164 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-psa__sidebar {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  width: $sidebar-width;
+  background: $color-bg-sidebar;
+  box-shadow: 1px 0 $color-container;
+
+  svg[class^='ts-psa__sidebar__icon'] {
+    width: 30px !important;
+    margin-right: $size-s;
+    fill: $color-sidebar-link-text;
+
+    > path {
+      fill: $color-icon-dark-grey;
+    }
+  }
+
+  &__text {
+    color: $color-text-grey;
+    transition: opacity 1s $easing-function;
+  }
+
+  &__header {
+    padding: $size-m $container-padding;
+    color: $color-sidebar-link-text;
+    font-weight: normal;
+    height: $header-height;
+    align-items: center;
+    min-height: 29px;
+    display: inline-flex;
+  }
+
+  &__header-btn {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    fill: $color-sidebar-link-text;
+    margin-right: $size-s;
+    right: 5px;
+    display: flex;
+    align-items: center;
+    &-icon {
+      position: absolute;
+      left: 9px;
+    }
+
+    &:hover {
+      height: 32px;
+      width: 32px;
+      border-radius: 50%;
+      cursor: pointer;
+      background: $color-btn-hover;
+    }
+  }
+
+  &--collapsed {
+    width: $sidebar-width--collapsed;
+    animation: squashAndStretch 0.3s ease-in;
+    animation-iteration-count: 1;
+    transition: width 0.3s $easing-function;
+
+    .ts-psa__sidebar__text {
+      opacity: 0;
+      visibility: hidden;
+      text-indent: -9999px;
+    }
+  }
+
+  // alignments for svg
+  &__icon-project {
+    right: -3px;
+  }
+
+  &__icon-activity {
+    right: -3px;
+  }
+
+  &__icon-scrum {
+    right: -3px;
+  }
+
+  &__icon-assignment {
+    right: 9px;
+  }
+
+  &__icon-expense {
+    right: 8px;
+  }
+
+  &__icon-billing {
+    right: 10px;
+  }
+}
+
+.ts-psa__sidebar__list-items {
+  padding: $size-m $container-padding;
+  color: $color-sidebar-link-text;
+  font-weight: normal;
+  height: 48px;
+  transition: background-color 0.3s $easing-function;
+
+  &:hover {
+    background-color: $color-sidebar-link-hover;
+    cursor: pointer;
+  }
+
+  &.is-active {
+    background-color: $color-sidebar-link-active;
+    color: $color-bg-white;
+    font-weight: bold;
+
+    .ts-psa__sidebar__text {
+      color: $color-sidebar-link-text-active;
+    }
+
+    svg[class^='ts-psa__sidebar__icon'] > path {
+      fill: $color-sidebar-link-text-active;
+    }
+  }
+}
+
+.ts-psa__sidebar__list-items.ts-psa__sidebar__list-item--UPLOAD {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  background-color: $color-btn-primary !important;
+  width: 100%;
+
+  .ts-psa__sidebar__icon-upload {
+    width: auto !important;
+    // solve for svg without viewbox issue
+    transform: scale(0.5) !important;
+    margin-right: 0 !important;
+    min-width: 36px !important;
+
+    path {
+      fill: #fff !important;
+    }
+  }
+
+  .ts-psa__sidebar__text {
+    color: #fff !important;
+  }
+
+  &:hover {
+    background-color: $color-action-btn-primary-hover !important;
+  }
+}
+
+@keyframes squashAndStretch {
+  0% {
+    width: 250px;
+  }
+
+  100% {
+    width: 62px;
+  }
+}

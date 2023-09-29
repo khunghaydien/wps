@@ -1,0 +1,56 @@
+.approvals-pc-att-daily-process-list-pane-detail {
+  height: 100%;
+
+  &__list-detail {
+    padding-left: 25px;
+    margin-bottom: 35px;
+  }
+
+  &__list-detail-item + &__list-detail-item {
+    padding-top: 1.5em;
+  }
+
+  &__list-detail-item &__pre-wrap {
+    white-space: pre-wrap;
+  }
+
+  &__history-list {
+    margin-bottom: 20px;
+  }
+
+  &__scrollable {
+    height: calc(100% - 35px);
+    // TODO: Temporary fix
+    padding-top: 20px;
+    overflow-y: auto;
+  }
+
+  &__notification {
+    display: flex;
+    min-height: 3em;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5em;
+    margin: 0 1.5em 2em 0;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+
+  &__notification-icon {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-right: 1em;
+  }
+
+  &__notification-icon img {
+    width: 2em;
+  }
+
+  &__notification-text {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+}

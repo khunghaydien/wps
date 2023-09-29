@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileUploadContainer Test it renders without crashing 1`] = `
+<div
+  className="ts-psa__file-upload"
+>
+  <div
+    className="ts-psa__common-header"
+  >
+    <div
+      className="ts-psa__common-header-left"
+    >
+      <span
+        className="ts-psa__common-header-breadcrumb"
+      />
+      <span
+        className="ts-psa__common-header-title"
+      >
+        Project File Upload
+      </span>
+    </div>
+    <div
+      className="ts-psa__common-header__btn-area"
+    />
+  </div>
+  <div
+    className="ts-psa__file-upload__content"
+  >
+    <div
+      className="ts-psa__project-upload"
+    >
+      <div
+        className="ts-psa__project-upload__drop-zone-container"
+      >
+        <div
+          className="ts-psa__project-upload__drop-zone-header"
+        />
+        <div
+          className="ts-psa__project-upload__dropped-content"
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <div
+            className="ts-psa__project-upload__file-name"
+          >
+            <test-file-stub />
+          </div>
+          <div
+            className="ts-psa__project-upload__file-remove-btn"
+            onClick={[Function]}
+          >
+            <test-file-stub />
+            <span>
+              Remove
+            </span>
+          </div>
+          <div
+            className="ts-psa__project-upload__file-upload-btn"
+          >
+            <button
+              onClick={[Function]}
+            >
+              Upload
+            </button>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <div
+            className="commons-fields-dropzone ts-psa__project-upload__drop-zone"
+          >
+            <div
+              aria-disabled={false}
+              buttontext="Browse File"
+              className="commons-fields-dropzone__dropzone"
+              labeltext={
+                <div
+                  className="ts-psa__project-upload__label-text-container"
+                >
+                  <p
+                    className="ts-psa__project-upload__label-logo"
+                  >
+                    <test-file-stub />
+                  </p>
+                </div>
+              }
+              onClick={[Function]}
+              onDragEnter={[Function]}
+              onDragLeave={[Function]}
+              onDragOver={[Function]}
+              onDragStart={[Function]}
+              onDrop={[Function]}
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            >
+              <div
+                className="commons-fields-dropzone__file-label"
+              >
+                <div
+                  className="ts-psa__project-upload__label-text-container"
+                >
+                  <p
+                    className="ts-psa__project-upload__label-logo"
+                  >
+                    <test-file-stub />
+                  </p>
+                </div>
+                <button
+                  className="commons-fields-dropzone__button--file ts-button"
+                  disabled={false}
+                  type="button"
+                >
+                  Browse File
+                </button>
+              </div>
+              <input
+                accept=".csv"
+                autoComplete="off"
+                disabled={false}
+                multiple={false}
+                onChange={[Function]}
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 0.00001,
+                    "pointerEvents": "none",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                type="file"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="ts-psa__project-upload__drop-zone-footer"
+        >
+          <p>
+            Not sure what to upload? Download the template 
+            <a
+              onClick={[Function]}
+            >
+              here
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

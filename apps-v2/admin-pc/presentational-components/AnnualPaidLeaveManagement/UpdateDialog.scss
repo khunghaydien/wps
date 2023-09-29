@@ -1,0 +1,23 @@
+.admin-pc-annual-paid-leave-management-update-dialog {
+  width: 444px;
+
+  &__inner {
+    padding: 20px 0;
+  }
+
+  &__days-granted {
+    min-width: 92px;
+  }
+
+  &__days-granted-unit {
+    margin: 0 0 0 8px;
+  }
+
+  &__hours-granted-unit {
+    margin-left: 12px;
+  }
+
+  &__hours-granted-span {
+    margin-right: 4px;
+  }
+}

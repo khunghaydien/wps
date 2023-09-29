@@ -1,0 +1,18 @@
+.admin-pc-expense-type-link-config {
+  &__btn-group {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    width: 190px;
+  }
+
+  &__action-btn {
+    width: 88px;
+    font-weight: bold;
+  }
+
+  &__text {
+    display: inline-block;
+    margin-top: 5px;
+  }
+}

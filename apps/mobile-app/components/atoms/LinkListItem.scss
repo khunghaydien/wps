@@ -1,0 +1,27 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-atoms-link-list-item {
+  display: flex;
+  width: 100%;
+  min-height: 40px;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 12px;
+  margin: 0;
+  border-bottom: 1px solid $color-border;
+  font-size: $medium-size;
+
+  &__item {
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    align-items: center;
+    word-break: break-all;
+  }
+
+  &__icon {
+    width: $medium-size;
+    margin-left: $small-size;
+  }
+}

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Event: selectedEmployee: is shown diff 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected array but received undefined."
+`;
+
+exports[`Event: selectedEmployee: should subscribe 1`] = `
+Array [
+  Object {
+    "arguments": Array [
+      undefined,
+    ],
+    "type": "METHOD: cleanTimesheetRecords",
+  },
+]
+`;
+
+exports[`UseCases: checkTimesheet: is shown diff 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected array but received undefined."
+`;
+
+exports[`UseCases: checkTimesheet: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: fetchContractedWorkTimes: is shown diff 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected array but received undefined."
+`;
+
+exports[`UseCases: fetchContractedWorkTimes: should subscribe 1`] = `
+Array [
+  Object {
+    "arguments": Array [
+      Object {},
+    ],
+    "type": "METHOD: fetchRestTimesBulk",
+  },
+]
+`;
+
+exports[`UseCases: fetchEarlyLeaveReasons: is shown diff 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected array but received undefined."
+`;
+
+exports[`UseCases: fetchEarlyLeaveReasons: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: fetchLateArrivalReasons: is shown diff 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected array but received undefined."
+`;
+
+exports[`UseCases: fetchLateArrivalReasons: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: fetchLeaves: is shown diff 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected array but received undefined."
+`;
+
+exports[`UseCases: fetchLeaves: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: fetchRestTimeReasons: is shown diff 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected array but received undefined."
+`;
+
+exports[`UseCases: fetchRestTimeReasons: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: fetchRestTimeReasonsForBulk: is shown diff 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected array but received undefined."
+`;
+
+exports[`UseCases: fetchRestTimeReasonsForBulk: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: fetchUserSetting: is shown diff 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected array but received undefined."
+`;
+
+exports[`UseCases: fetchUserSetting: should subscribe 1`] = `Array []`;
+
+exports[`UseCases: saveTimesheet: is shown diff 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected array but received undefined."
+`;
+
+exports[`UseCases: saveTimesheet: should subscribe 1`] = `Array []`;

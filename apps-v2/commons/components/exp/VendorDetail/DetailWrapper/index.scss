@@ -1,0 +1,13 @@
+.ts-expenses-vendor-detail-wrapper {
+  position: absolute;
+  top: 0;
+  & .ts-expenses-vendor-detail-panel__drag-handle {
+    cursor: move;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .ts-expenses-vendor-detail-wrapper {
+    max-height: 440px !important;
+  }
+}

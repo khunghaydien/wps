@@ -1,0 +1,27 @@
+.approvals-pc-att-monthly-process-list-pane-detail-record-summary {
+  &__section{
+    padding: 0 15px;
+    margin-bottom: 32px;
+  }
+
+  &__table {
+    display: flex;
+    width: 1124px;
+    margin: 4px 0 32px;
+    page-break-inside: avoid;
+  }
+
+  &__col {
+    max-width: 340px;
+    flex: 1;
+    margin: 0 16px;
+  }
+
+  &__col--left {
+    margin-left: 0;
+  }
+
+  &__col--right {
+    margin-right: 0;
+  }
+}

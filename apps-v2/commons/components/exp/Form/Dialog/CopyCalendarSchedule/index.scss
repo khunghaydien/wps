@@ -1,0 +1,31 @@
+.commons-dialog-exp-copy-schedule-dialog {
+  height: 38%;
+  width: 50%;
+
+  &__close-btn {
+    float: right;
+    width: 18%;
+  }
+
+  &__content {
+    height: auto;
+    width: 100%;
+  }
+
+  &__label {
+    padding-bottom: 10px;
+
+    .key {
+      color: #000;
+    }
+  }
+
+  &__textarea {
+    resize: none;
+  }
+
+  .commons-dialog-frame__contents {
+    display: flex;
+    align-items: center;
+  }
+}

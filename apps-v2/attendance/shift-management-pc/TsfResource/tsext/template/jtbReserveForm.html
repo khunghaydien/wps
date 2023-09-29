@@ -1,0 +1,77 @@
+<div>
+	<div class="tsext-jtb-reserve">
+		<div>
+			<table>
+			<tbody>
+				<tr class="tsext-jtb-kinoucd">
+					<td>機能コード<font color="red"> *</font></td>
+					<td class="tsext-jtb-type">
+						<input type="text" value="" style="width:36px;" maxLength="2" />
+						<select>
+							<option value="1">交通機関</option>
+							<option value="2">宿泊</option>
+							<option value="3">レンタカー</option>
+							<option value="4">その他</option>
+						</select>
+					</td>
+				</tr>
+				<tr class="tsext-jtb-spymd">
+					<td>出発日</td>
+					<td>
+						<div><input type="text" class="tsext-jtb-date" value="" style="width:92px;" maxLength="10" /></div>
+						<div class="tsext-jtb-rightcol">出発時間</div>
+						<div class="tsext-jtb-rightval">
+							<input type="text" class="tsext-jtb-time"   value="" style="width:42px;" maxLength="5" />
+							<input type="text" class="tsext-jtb-number" value="" style="width:40px;" maxLength="5" />
+						</div>
+					</td>
+				</tr>
+				<tr class="tsext-jtb-tcymd">
+					<td>到着日</td>
+					<td>
+						<div><input type="text" class="tsext-jtb-date" value="" style="width:92px;" maxLength="10" /></div>
+						<div class="tsext-jtb-rightcol">到着時間</div>
+						<div class="tsext-jtb-rightval">
+							<input type="text" class="tsext-jtb-time"   value="" style="width:42px;" maxLength="5" />
+							<input type="text" class="tsext-jtb-number" value="" style="width:40px;" maxLength="5" />
+						</div>
+					</td>
+				</tr>
+				<tr class="tsext-jtb-ktsukknmei"  ><td>交通機関名    </td><td><input type="text" value="" style="width:120px;" maxLength="100" /></td></tr>
+				<tr class="tsext-jtb-spchi"       ><td>出発地        </td><td><input type="text" value="" style="width:120px;" maxLength="100" /></td></tr>
+				<tr class="tsext-jtb-tcchi"       ><td>到着地        </td><td><input type="text" value="" style="width:120px;" maxLength="100" /></td></tr>
+				<tr class="tsext-jtb-aishoubinmei"><td>愛称／便名    </td><td><input type="text" value="" style="width:120px;" maxLength="100" /></td></tr>
+				<tr class="tsext-jtb-clsmei"      ><td>クラス名      </td><td><input type="text" value="" style="width:120px;" maxLength="100" /></td></tr>
+				<tr class="tsext-jtb-unchnsbtmei" ><td>運賃種別名    </td><td><input type="text" value="" style="width:120px;" maxLength="100" /></td></tr>
+				<tr class="tsext-jtb-hcchukg"     ><td>金額          </td><td><input type="text" value="" style="width:120px;" maxLength="16" class="tsext-jtb-amount" /></td></tr>
+				<tr class="tsext-jtb-hyojists"    ><td>表示ステータス</td><td><input type="text" value="" style="width:100px;" maxLength="100" /></td></tr>
+				<tr class="tsext-jtb-bikou"       ><td>備考          </td><td><input type="text" value="" style="width:200px;" maxLength="400" /></td></tr>
+			</tbody>
+			</table>
+		</div>
+		<div>
+			<table>
+			<tbody>
+				<tr class="tsext-jtb-operationnumber"><td>処理番号<font color="red"> *</font></td><td><input type="text" value="" style="width:120px;" maxLength="12" /></td></tr>
+				<tr class="tsext-jtb-ryokouno"       ><td>旅行番号<font color="red"> *</font></td><td><input type="text" value="" style="width:120px;" maxLength="12" /></td></tr>
+				<tr class="tsext-jtb-subnumber"      ><td>副番号<font color="red"> *</font></td><td><input type="text" value="" style="width:30px;"  maxLength="2"  /></td></tr>
+				<tr class="tsext-jtb-keys"           ><td>キー項目<font color="red"> *</font></td><td><input type="text" value="" style="width:120px;" maxLength="12" /></td></tr>
+				<tr><td colspan="2"><hr style="border:1px dashed #80b0ea;" /></td></tr>
+				<tr class="tsext-jtb-seqno"          ><td>SEQNO   </td><td><input type="text" value="" style="width:120px;" maxLength="12" /></td></tr>
+				<tr class="tsext-jtb-userId"         ><td>ユーザID</td><td><input type="text" value="" style="width:120px;" maxLength="12" /></td></tr>
+			</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="tsext-error" style="display:none;">
+	</div>
+	<p>
+		<font color="red">* 新/旧インタフェース共通で必須</font><br>
+	</p>
+	<div class="tsext-form-bottom">
+		<div class="tsext-button-horiz2" style="margin:4px auto;">
+			<div><input type="button" class="tsext-ok" value="OK" /></div>
+			<div><input type="button" class="buttonw tsext-cancel" value="キャンセル" /></div>
+		</div>
+	</div>
+</div>

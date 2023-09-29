@@ -1,0 +1,17 @@
+.ts-expenses-requests__contents__form__amount {
+  padding: 4px 10px;
+  margin-top: 12px;
+  margin-bottom: 12px !important;
+  background-color: #dbeff9;
+
+  & .key.key--amount {
+    color: #2677a7;
+  }
+
+  & .value {
+    color: #1f089e;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+  }
+}

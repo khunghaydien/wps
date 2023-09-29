@@ -1,0 +1,26 @@
+.admin-pc-annual-paid-leave-management-grant-history-list {
+  margin: 24px 0 0;
+
+  &__title {
+    margin: 0 0 12px;
+  }
+
+  &__update-button {
+    min-width: 64px;
+  }
+
+  &__fraction-grant-div {
+    margin-right: 5px;
+  }
+
+  &__fraction-grant-button {
+    min-width: 64px;
+  }
+
+  &__empty-rows-view {
+    padding: 16px 32px;
+    color: $color-text-modest;
+    font-size: $font-size-x-large;
+    font-weight: bold;
+  }
+}

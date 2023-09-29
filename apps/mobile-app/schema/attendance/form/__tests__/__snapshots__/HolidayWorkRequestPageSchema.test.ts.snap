@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`return error when data is ''. 1`] = `
+Object {
+  "startDate": Array [
+    " Required",
+  ],
+}
+`;
+
+exports[`return error when data is empty. 1`] = `
+Object {
+  "endTime": Array [
+    " Required",
+  ],
+  "startDate": Array [
+    " Required",
+  ],
+  "startTime": Array [
+    " Required",
+  ],
+}
+`;
+
+exports[`return error when data is null. 1`] = `
+Object {
+  "endTime": Array [
+    " Required",
+  ],
+  "startDate": Array [
+    " Required",
+  ],
+  "startTime": Array [
+    " Required",
+  ],
+}
+`;
+
+exports[`return error when substituteDate is null. 1`] = `
+Object {
+  "substituteDate": Array [
+    " Required",
+  ],
+}
+`;

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"loading\\": false,
++   \\"opened\\": false,
++ }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/PAGE/CLOSE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"isOpen\\": true,
+    \\"loading\\": false,
+    \\"opened\\": false,
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/PAGE/FINISH_LOADING 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"loading\\": true,
++   \\"loading\\": false,
+    \\"opened\\": false,
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/PAGE/OPEN 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"loading\\": false,
+-   \\"opened\\": false,
++   \\"opened\\": true,
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/LEGAL-AGREEMENT-REQUEST/PAGE/START_LOADING 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"loading\\": false,
++   \\"loading\\": true,
+    \\"opened\\": false,
+  }"
+`;

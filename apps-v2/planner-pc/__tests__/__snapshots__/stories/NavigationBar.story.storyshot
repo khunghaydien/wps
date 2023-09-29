@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots planner-pc NavigationBar 1`] = `
+<nav
+  className="NavigationBar__Fixed-sc-1bqhnc6-0 dLKNbV"
+>
+  <div
+    className="NavigationBar__Flex-sc-1bqhnc6-1 hCInJ"
+  >
+    <div
+      className="NavigationBar__IconContainer-sc-1bqhnc6-2 kkEIDh"
+    >
+      <test-file-stub />
+    </div>
+    <div
+      className="ts-calendar__header"
+    >
+      <div>
+        <span
+          className="Text-sc-11kuzx6-0 kLeZhj"
+          color="secondary"
+          size="xxl"
+        >
+          Planning
+        </span>
+      </div>
+      <div
+        className="ts-calendar__header__personal-setting-button"
+      >
+        <div
+          className="slds-m-horizontal--xx-small commons-personal-menu-popover-button"
+        >
+          <button
+            className="slds-button slds-button--icon commons-personal-menu-popover-button__button"
+            onClick={[Function]}
+            title="Open Personal Menu"
+          >
+            <test-file-stub
+              aria-hidden={true}
+              className="slds-button__icon slds-button__icon--large slds-button__icon--hint"
+            />
+            <test-file-stub
+              aria-hidden={true}
+              className="slds-button__icon slds-button__icon--x-small slds-button__icon--hint"
+            />
+            <span
+              className="slds-assistive-text"
+            >
+              Open Personal Menu
+            </span>
+            <div
+              className="commons-personal-menu-popover-button__count"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;

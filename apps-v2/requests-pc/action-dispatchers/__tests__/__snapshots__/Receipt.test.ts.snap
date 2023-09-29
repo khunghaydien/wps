@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Receipt deleteReceipt() delete receipt success 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": "receiptId",
+    "type": "MODULES/ENTITIES/EXP/RECEIPT_LIBRARY/DELETE",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;

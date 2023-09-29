@@ -1,0 +1,47 @@
+@import '../../../../styles/exp/variables/colors';
+
+.ts-expenses__reports-icon {
+  &__info {
+    display: inline-block;
+  }
+
+  &__label {
+    width: 120px;
+    height: 20px;
+    padding-top: 1px;
+    border-radius: 2px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  &__notrequested,
+  &__approvedrequest {
+    background: $ts-status-background-not-requested;
+  }
+
+  &__pending {
+    background: $ts-status-background-pending-clamined;
+  }
+
+  &__approved {
+    background: $ts-status-background-approved;
+  }
+
+  &__rejected,
+  &__canceled {
+    background: $ts-status-background-rejected;
+  }
+
+  &__removed {
+    background: $ts-status-background-removed;
+  }
+
+  &__claimed {
+    background: $ts-status-background-pending-clamined;
+  }
+
+  &__expenseclaimed {
+    background: $ts-status-background-pending-clamined;
+  }
+}

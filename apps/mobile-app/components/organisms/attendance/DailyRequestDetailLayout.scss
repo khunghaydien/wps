@@ -1,0 +1,31 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-organisms-attendance-daily-request-detail-layout {
+  /* NOTE: Don't change to `position: fixed`.
+   * Because we have [GENIE-14578] that is iOS's bug.
+   * If you remove a lot of lines in textarea, Header is overlaping textarea.
+   */
+  &__navigation {
+    position: static;
+  }
+
+  &__container {
+    overflow: scroll;
+    height: calc(100vh - 48px);
+    -webkit-overflow-scrolling: touch;
+  }
+
+  &__container-inner {
+    margin: 20px $small-size;
+  }
+
+  &__history-list {
+    margin-bottom: unit(12);
+  }
+
+  &__apply-button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}

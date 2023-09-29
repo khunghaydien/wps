@@ -1,0 +1,26 @@
+@import '../variables.scss';
+
+.ts-psa__empty-screen {
+  display: flex;
+  height: 70vh;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  &__header {
+    height: 30px;
+    font-size: $font-size-xl;
+    line-height: 2.25rem;
+    color: $color-text-dark-grey;
+    clear: both;
+  }
+
+  &__body {
+    padding: $size-s;
+    height: 50px;
+    font-size: $font-size-default;
+    line-height: 2rem;
+    color: $color-text-grey;
+  }
+}

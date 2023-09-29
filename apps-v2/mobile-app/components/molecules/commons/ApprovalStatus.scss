@@ -1,0 +1,31 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-approval-status {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  > span {
+    margin-left: $base-size;
+  }
+
+  &__status--x-large {
+    font-size: $extra-large-size;
+  }
+
+  &__status--large {
+    font-size: $large-size;
+  }
+
+  &__status--medium {
+    font-size: $medium-size;
+  }
+
+  &__status--small {
+    font-size: $small-size;
+  }
+
+  &__status--x-small {
+    font-size: $extra-small-size;
+  }
+}

@@ -1,0 +1,46 @@
+.tracking-pc-list-item-task {
+  display: flex;
+  min-height: 30px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-right: 1px solid $color-border-default;
+  }
+
+  &__item:last-child {
+    border-right: none;
+  }
+
+  // nameだけpadding-leftを調整
+  &__item--name {
+    padding-left: 0;
+    word-break: break-all;
+  }
+
+  &__item--work-time {
+    align-content: flex-start;
+    justify-content: center;
+  }
+
+  &__item--comment {
+    word-break: break-all;
+  }
+
+  &__task-index {
+    display: flex;
+    flex: 0 0 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__task-name {
+    display: flex;
+    align-items: center;
+  }
+
+  &__tracking-graph {
+    height: 13px;
+  }
+}

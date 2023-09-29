@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/tracking-pc/NavigationBar Standard 1`] = `
+.c0 {
+  position: fixed;
+  width: 100%;
+  height: 56px;
+  background: #fff;
+  top: 0;
+  left: 0;
+  z-index: 10001;
+  border-bottom: 1px solid #eee;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.c2 {
+  width: 32px;
+  height: 32px;
+  margin: 12px 20px;
+}
+
+.c3 {
+  font-family: 'Salesforce Sans';
+  font-weight: bold;
+  font-size: 20px;
+  color: #666;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+<nav
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <test-file-stub />
+    </div>
+    <span
+      className="c3"
+      color="secondary"
+      size="xxl"
+    >
+      Time Tracking
+    </span>
+  </div>
+</nav>
+`;

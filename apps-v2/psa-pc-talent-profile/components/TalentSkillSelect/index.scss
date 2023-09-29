@@ -1,0 +1,82 @@
+@import '../../../commons/components/psa/variables.scss';
+
+.ts-talent-skill-select {
+  display: flex;
+
+  &__modal-content {
+    display: flex;
+    width: 720px;
+    height: 367px;
+  }
+
+  &__skill-category-filter {
+    margin: 8px;
+    width: 224px;
+  }
+
+  &__skill-list > .ts-talent-skill-select__skill-list__item {
+    height: 44px;
+    width: 478px;
+    &__disabled {
+      pointer-events: none;
+    }
+  }
+  &__skill-category-list > .ts-talent-skill-select__skill-category-list__item {
+    height: 44px;
+  }
+
+  &__skill-category-list,
+  &__skill-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    border-right: $color-border;
+
+    &__item {
+      border-bottom: $color-border;
+
+      div {
+        border-bottom: none;
+      }
+
+      &__check {
+        margin-right: 8px;
+        width: 16px;
+        height: 11.35px;
+      }
+
+      &__selected {
+        color: $color-text-blue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 17px;
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  &__selection-button {
+    height: 32px;
+    display: flex;
+    align-items: center;
+
+    &__icon {
+      width: 16px;
+      height: 16px;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.slds-modal__header {
+  padding: 0;
+  border-radius: 4px 4px 0 0;
+  background: #f4f6f9;
+}
+
+.slds-modal__content {
+  overflow-y: hidden;
+}

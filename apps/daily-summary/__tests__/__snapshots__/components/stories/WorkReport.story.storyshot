@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots daily-summary/WorkReportCard closed 1`] = `
+<div
+  className="WorkReportCard__Wrapper-sc-1bhczxv-0 kDukwh"
+>
+  <div
+    className="Card__Wrapper-sc-1xgkzj7-0 imIqed"
+  >
+    <div
+      className="WorkReportCard__Header-sc-1bhczxv-1 jbiKJx"
+    >
+      <span
+        className="Text-sc-11kuzx6-0 drbwaL"
+        color="primary"
+        size="xl"
+      >
+        Job Report
+      </span>
+      <div>
+        <button
+          className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb WorkReportCard__ToggleButton-sc-1bhczxv-2 hNLSbv"
+          onClick={[Function]}
+          type="button"
+        >
+          <div
+            className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+            size="large"
+          >
+            Open
+          </div>
+        </button>
+      </div>
+    </div>
+    <div
+      aria-hidden={true}
+      className="rah-static rah-static--height-zero"
+      style={
+        Object {
+          "height": 0,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <div
+        style={Object {}}
+      >
+        <hr
+          className="WorkReportCard__Divider-sc-1bhczxv-3 jWoFLw"
+        />
+        <div
+          className="WorkReportCard__Content-sc-1bhczxv-4 dNDtga"
+        >
+          <textarea
+            className="TextField__StyledTextArea-sc-41505i-0 kqQkrx"
+            onChange={[Function]}
+            readOnly={false}
+            resize="vertical"
+            style={
+              Object {
+                "height": 0,
+              }
+            }
+            value="TEST"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots daily-summary/WorkReportCard opened 1`] = `
+<div
+  className="WorkReportCard__Wrapper-sc-1bhczxv-0 kDukwh"
+>
+  <div
+    className="Card__Wrapper-sc-1xgkzj7-0 imIqed"
+  >
+    <div
+      className="WorkReportCard__Header-sc-1bhczxv-1 jbiKJx"
+    >
+      <span
+        className="Text-sc-11kuzx6-0 drbwaL"
+        color="primary"
+        size="xl"
+      >
+        Job Report
+      </span>
+      <div>
+        <button
+          className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb WorkReportCard__ToggleButton-sc-1bhczxv-2 hNLSbv"
+          onClick={[Function]}
+          type="button"
+        >
+          <div
+            className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+            size="large"
+          >
+            Close
+          </div>
+        </button>
+      </div>
+    </div>
+    <div
+      aria-hidden={false}
+      className="rah-static rah-static--height-auto"
+      style={
+        Object {
+          "height": "auto",
+          "overflow": "visible",
+        }
+      }
+    >
+      <div
+        style={Object {}}
+      >
+        <hr
+          className="WorkReportCard__Divider-sc-1bhczxv-3 jWoFLw"
+        />
+        <div
+          className="WorkReportCard__Content-sc-1bhczxv-4 dNDtga"
+        >
+          <textarea
+            className="TextField__StyledTextArea-sc-41505i-0 kqQkrx"
+            onChange={[Function]}
+            readOnly={false}
+            resize="vertical"
+            style={
+              Object {
+                "height": 0,
+              }
+            }
+            value="TEST"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots daily-summary/WorkReportCard readOnly 1`] = `
+<div
+  className="WorkReportCard__Wrapper-sc-1bhczxv-0 kDukwh"
+>
+  <div
+    className="Card__Wrapper-sc-1xgkzj7-0 imIqed"
+  >
+    <div
+      className="WorkReportCard__Header-sc-1bhczxv-1 jbiKJx"
+    >
+      <span
+        className="Text-sc-11kuzx6-0 drbwaL"
+        color="primary"
+        size="xl"
+      >
+        Job Report
+      </span>
+      <div>
+        <button
+          className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb WorkReportCard__ToggleButton-sc-1bhczxv-2 hNLSbv"
+          onClick={[Function]}
+          type="button"
+        >
+          <div
+            className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+            size="large"
+          >
+            Close
+          </div>
+        </button>
+      </div>
+    </div>
+    <div
+      aria-hidden={false}
+      className="rah-static rah-static--height-auto"
+      style={
+        Object {
+          "height": "auto",
+          "overflow": "visible",
+        }
+      }
+    >
+      <div
+        style={Object {}}
+      >
+        <hr
+          className="WorkReportCard__Divider-sc-1bhczxv-3 jWoFLw"
+        />
+        <div
+          className="WorkReportCard__Content-sc-1bhczxv-4 dNDtga"
+        >
+          <textarea
+            className="TextField__StyledTextArea-sc-41505i-0 kqQkrx"
+            onChange={[Function]}
+            readOnly={true}
+            resize="vertical"
+            style={
+              Object {
+                "height": 0,
+              }
+            }
+            value="TEST"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

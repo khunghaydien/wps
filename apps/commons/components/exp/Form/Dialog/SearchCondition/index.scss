@@ -1,0 +1,17 @@
+.ts-expenses-modal-approval {
+  &__dialog-frame {
+    width: 580px;
+  }
+
+  &__inner {
+    padding: 40px;
+  }
+
+  &__error {
+    margin-right: 100px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 15px;
+    text-align: right;
+  }
+}

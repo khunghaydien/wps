@@ -1,0 +1,33 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-approval-page-expense-record-ocr-message {
+  display: flex;
+  border: 1px solid $color-alert;
+  border-radius: 4px;
+  padding: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+
+  &__ok {
+    border: 1px solid #05ae06;
+  }
+
+  &__appear {
+    width: 32px;
+    path {
+      fill: $color-alert;
+    }
+  }
+
+  &__appear__ok {
+    path {
+      fill: #05ae06;
+    }
+  }
+
+  &__message {
+    font-size: 14px;
+    color: #333;
+    margin-left: 8px;
+  }
+}

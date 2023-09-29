@@ -1,0 +1,180 @@
+@import '../../../../commons/styles/wsp';
+@import '../../../../commons/styles/variables/fonts';
+
+$headerHeight: 35px;
+$headerPaginationHeight: 48px;
+$footerHeight: 55px; // No more footer is used
+$searchAreaHeight: 104px; // Search Area become two line when closed so changed to 104px
+
+.approvals-pc-expenses-request-list-pane-list {
+  height: inherit;
+
+  &__header {
+    height: $headerHeight;
+    padding-left: 65px;
+    background-color: $color-bg-pane-header-first;
+    display: flex;
+  }
+
+  &__header-page {
+    display: flex;
+    height: $headerPaginationHeight;
+    padding: 12px 20px;
+
+    &--bulk-approval {
+      @media screen and (max-width: 1440px) {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+
+      @media screen and (max-width: 1280px) {
+        padding-left: 6px;
+        padding-right: 6px;
+      }
+    }
+  }
+
+  &__header-body {
+    color: $color-text-header-heading;
+    font-size: $font-size-x-large;
+    line-height: 35px;
+  }
+
+  &__toolbar {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  &__table {
+    height: auto;
+    max-height: calc(
+      100% - #{($headerHeight + $headerPaginationHeight + $searchAreaHeight)}
+    );
+    overflow-y: auto;
+
+    .commons-grid {
+      &__head {
+        padding-right: 20px;
+        border-top: 1px solid color('border-2');
+        border-bottom: 1px solid color('border-2');
+        background: color('background-2');
+
+        &-row {
+          height: 38px;
+
+          & .commons-grid__cell-head {
+            color: color('text-2');
+            font-size: 12px;
+            line-height: 18px;
+
+            &:last-child {
+              text-align: right;
+            }
+          }
+        }
+      }
+
+      &__body {
+        color: color('text-1');
+        font-size: $font-size-default;
+        line-height: 19px;
+
+        & .commons-grid-body-row {
+          border-bottom: 1px solid color('border-2');
+          cursor: pointer;
+
+          &__cell {
+            border: none;
+          }
+
+          &__selection {
+            padding-right: 20px;
+
+            &:focus {
+              outline: none;
+            }
+
+            & .commons-grid-body-row__cell:last-child {
+              padding-right: 0;
+
+              & .commons-grid-body-row__cell-inner {
+                flex-direction: row-reverse;
+              }
+            }
+          }
+
+          &--is-browsing,
+          &--is-browsing:hover {
+            background-color: color('selected-2');
+          }
+        }
+      }
+    }
+
+    .commons-grid-formatters-employee {
+      &__cell-name-department {
+        color: color('text-3');
+      }
+    }
+  }
+
+  &__page-info {
+    display: inline-block;
+    padding-left: 4px;
+
+    &--bulk-approval {
+      @media screen and (max-width: 1440px) {
+        max-width: 35%;
+      }
+    }
+  }
+
+  &__refresh-btn {
+    display: inline-block;
+    margin-left: 14px;
+    background: none;
+  }
+
+  &__too-many-results {
+    margin-top: 12px;
+    color: #006dcc;
+    text-align: center;
+    padding-bottom: 12px;
+  }
+
+  .ts-pager {
+    margin-left: auto;
+  }
+
+  .ts-pager-info {
+    margin: 0;
+    color: color('text-1'); // In expense tab this is #000 color in design
+  }
+
+  &-item-wrapbox-icon {
+    margin-left: 4px;
+
+    &-hidden {
+      opacity: 0;
+    }
+
+    &-hidden,
+    &-appear {
+      path {
+        fill: color('error');
+      }
+    }
+
+    &-tooltip-msg {
+      white-space: pre-wrap;
+    }
+
+    &-tooltip {
+      display: inline-block;
+    }
+  }
+}

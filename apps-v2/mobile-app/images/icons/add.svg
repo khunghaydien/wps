@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #074b69;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="icons_utility_add" data-name="icons/utility/add" transform="translate(1 1)">
+    <path id="Mask" class="cls-1" d="M8.231,7.923h5.077a.473.473,0,0,0,.462-.462V6.538a.473.473,0,0,0-.462-.462H8.231a.291.291,0,0,1-.308-.308V.692A.473.473,0,0,0,7.462.231H6.538a.473.473,0,0,0-.462.462V5.769a.291.291,0,0,1-.308.308H.692a.473.473,0,0,0-.462.462v.923a.473.473,0,0,0,.462.462H5.769a.291.291,0,0,1,.308.308v5.077a.473.473,0,0,0,.462.462h.923a.473.473,0,0,0,.462-.462V8.231A.291.291,0,0,1,8.231,7.923Z"/>
+    <g id="_-icn-color" data-name="↳-icn-color">
+      <g id="color" transform="translate(-1 -1)">
+        <path id="パス_235" data-name="パス 235" class="cls-2" d="M0,0H16V16H0Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

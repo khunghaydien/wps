@@ -1,0 +1,66 @@
+&__table {
+  border-collapse: collapse;
+}
+
+&__table > caption {
+  font-size: $font-size-large;
+  line-height: 32px;
+}
+
+&__table > thead,
+&__table > tbody,
+&__table > tfoot {
+  > tr > th,
+  > tr > td {
+    padding: 2px 8px;
+    border: 1px solid $color-border-default;
+
+    @media print {
+      padding: 1px 4px;
+    }
+  }
+}
+
+&__table > tfoot {
+  > tr > th,
+  > tr > td {
+    border-top: 2px solid $color-border-default;
+  }
+}
+
+&__table > thead > tr > th,
+&__table > tfoot > tr > th {
+  background: $color-bg-heading;
+  color: $color-text-modest;
+  font-weight: normal;
+}
+&__table > thead > tr > th {
+  text-align: center;
+}
+&__table > tfoot > tr > th {
+  text-align: left;
+}
+
+&__table > tbody,
+&__table > tfoot {
+  border: 1px solid $color-border-default;
+}
+
+&__table > tbody > tr {
+  background: $color-bg-tbody-row-stripe-odd;
+}
+
+&__table > tbody > tr:nth-child(even) {
+  background: $color-bg-tbody-row-stripe-even;
+}
+
+&__table > tbody > tr > td,
+&__table > tfoot > tr > td {
+  border-right: 1px dashed $color-border-default;
+  border-left: 1px dashed $color-border-default;
+  text-align: center;
+
+  @media print {
+    border: 1px solid $color-border-default;
+  }
+}

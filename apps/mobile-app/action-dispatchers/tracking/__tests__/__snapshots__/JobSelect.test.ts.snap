@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`abort() should abort reading data from stream 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "parentJobId": "DEV-A000",
+    },
+    "type": "/MOBILE-APP/MODULES/TRACKING/ENTITY/JOBS/ABORT",
+  },
+]
+`;
+
+exports[`clear() should clear state 1`] = `
+Array [
+  Object {
+    "type": "/MOBILE-APP/MODULES/TRACKING/ENTITY/JOBS/CLEAR",
+  },
+]
+`;
+
+exports[`initialize() should dispatch proper actions to initialize 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "jobs": _AsyncGenerator {
+        "_invoke": [Function],
+      },
+      "parentJobId": null,
+    },
+    "type": "/MOBILE-APP/MODULES/TRACKING/ENTITY/JOBS/FETCH_SUCCESS",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`initialize() should handle thrown error 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": FatalError {
+      "errorCode": undefined,
+      "message": "Unexpected Error",
+      "name": "Error",
+      "stacktrace": "",
+      "type": "FatalError",
+    },
+    "type": "CATCH_UNEXPECTED_ERROR",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`resume() should resume reading data from aborted stream 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "parentJobId": "DEV-A000",
+    },
+    "type": "/MOBILE-APP/MODULES/TRACKING/ENTITY/JOBS/RESUME",
+  },
+  Object {
+    "payload": Object {
+      "evaluatedItems": Array [
+        Object {
+          "code": "DEV-004",
+          "id": "xa111010c",
+          "name": "WSP/Coding",
+        },
+        Object {
+          "code": "DEV-005",
+          "id": "xb111010d",
+          "name": "WSP/Estimate",
+        },
+        Object {
+          "code": "DEV-006",
+          "id": "xc121010e",
+          "name": "WSP/Testing",
+        },
+      ],
+      "parentJobId": "DEV-A000",
+      "rest": _AsyncGenerator {
+        "_invoke": [Function],
+      },
+    },
+    "type": "/MOBILE-APP/MODULES/TRACKING/ENTITY/JOBS/EVAL_STREAM",
+  },
+]
+`;

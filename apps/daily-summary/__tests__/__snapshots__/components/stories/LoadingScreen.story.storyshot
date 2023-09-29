@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots daily-summary LoadingScreen 1`] = `
+<div
+  className="LoadingScreenstory__Container-sc-ijla18-0 jFwogG"
+>
+  <div
+    className="LoadingScreen__Wrapper-sc-163mtqr-0 cZRrtj"
+  >
+    <div
+      className="Spinner__Container-sc-19dyv8s-0 jpPepG"
+    >
+      <div
+        className="Spinner-sc-19dyv8s-1 bLSdnE slds-spinner_container"
+      >
+        <div
+          aria-hidden="false"
+          className="slds-spinner slds-spinner_medium"
+          role="status"
+        >
+          <span
+            className="slds-assistive-text"
+          >
+            Loading...
+          </span>
+          <div
+            className="slds-spinner__dot-a"
+          />
+          <div
+            className="slds-spinner__dot-b"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

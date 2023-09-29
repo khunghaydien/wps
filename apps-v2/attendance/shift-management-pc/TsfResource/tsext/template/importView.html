@@ -1,0 +1,115 @@
+<div>
+	<ul class="tsext-pankz">
+		<li><a href="#!menu">メニュー</a></li>
+		<li class="tsext-pankz-div">＞</li>
+		<li>検証データインポート <span style="font-size:90%;color:#c71585;">(Chrome または Firefoxで実行すること)</span></li>
+	</ul>
+	<div class="tsext-error" style="display:none;">
+	</div>
+	<div class="tsext-form">
+		<div class="tsext-know" style="display:none;">
+			指定の社員に関連するデータのみインポートします。
+		</div>
+		<table>
+			<tr>
+				<td>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div>0.</div>
+							<div>AtkCommon__cのバックアップ</div>
+							<div class="tsext-tip" id="tsextImportBackup">?</div>
+						</div>
+						<div>
+							<input type="button" value="ダウンロード" id="tsextBackup" />
+						</div>
+					</div>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div>1.</div>
+							<div>ファイル選択→［解析］</div>
+						</div>
+						<div class="tsext-form-upload">
+							<input type="file" accept="*" id="tsextUpload" />
+						</div>
+						<div>
+							<input type="button" value="解析" id="tsextParse" />
+						</div>
+					</div>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div></div>
+							<div>コメント（読み取り専用：選択ファイル内のcomment.txtの内容）</div>
+						</div>
+						<div>
+							<textarea class="tsext-comment" readOnly="readOnly"></textarea>
+						</div>
+					</div>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div>2.</div>
+							<div>インポート対象の社員を選択してください</div>
+						</div>
+						<div class="tsext-form-emps">
+						</div>
+					</div>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div>3.</div>
+							<div>プレフィックス</div>
+							<div class="tsext-tip" id="tsextImportPrefix">?</div>
+						</div>
+						<div class="tsext-form-prefix">
+							<input type="text" value="" id="tsextPrefix" maxLength="5" />
+						</div>
+					</div>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div>4.</div>
+							<div>
+								<input type="button" value="インポート" id="tsextImport" />
+							</div>
+						</div>
+					</div>
+				</td>
+				<td>
+					<div class="tsext-import-option-block">
+						<div class="tsext-import-option-type">共通オプション</div>
+						<div class="tsext-import-option-item">
+							<label><input type="checkbox" id="tsextUpdateCommon" /><span>勤怠共通設定(AtkCommon__c)を上書きする</span><br/>
+							<span style="font-size:95%;margin-left:16px;">（システム設定、経費精算の設定、ジョブ管理の設定をインポートする場合はオン）</span></label>
+						</div>
+						<div class="tsext-import-option-item">
+							<label><input type="checkbox" id="tsextAllDept" /><span>部署をすべてインポートする</span></label>
+						</div>
+						<div class="tsext-import-option-item">
+							<label><input type="checkbox" id="tsextRawStatus" /><span>ステータスをそのままインポートする</span></label>
+						</div>
+						<div class="tsext-import-option-type">勤怠関連オプション</div>
+						<div class="tsext-import-option-item">
+							<label><input type="checkbox" id="tsextRawCalendar" /><span>カレンダーをそのままインポートする</span><br/>
+							<span style="font-size:95%;margin-left:16px;">（オフの場合は共通カレンダーを勤務体系別に変換する）</span></label>
+						</div>
+						<div class="tsext-import-option-type">経費関連オプション</div>
+						<div class="tsext-import-option-item">
+							<label><input type="checkbox" id="tsextAllExpItem" /><span>費目マスターをすべてインポートする</span></label>
+						</div>
+						<div class="tsext-import-option-item">
+							<label><input type="checkbox" id="tsextAllPayee"   /><span>支払先マスターをすべてインポートする</span></label>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<div class="tsext-form-log">
+			<div>
+				ログ
+			</div>
+			<textarea readOnly="readOnly" style="word-wrap:normal;"></textarea>
+		</div>
+		<div class="tsext-form-download" style="display:none;">
+			<a></a>
+		</div>
+		<div class="tsext-form-result">
+		</div>
+	</div>
+</div>

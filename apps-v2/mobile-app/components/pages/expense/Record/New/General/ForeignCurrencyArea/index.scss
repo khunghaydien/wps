@@ -1,0 +1,31 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-expense-page-record-new-general-foreign-currency-area {
+  &-exchange-rate {
+    border-bottom: none;
+
+    &__edit {
+      margin-left: 15px;
+      margin-bottom: 8px;
+    }
+
+    & .mobile-app-molecules-commons-view-item__body {
+      display: flex;
+      align-items: flex-end;
+    }
+
+    & .mobile-app-molecules-commons-text-field {
+      display: inline-block;
+      width: calc(100% - 35px);
+      outline: none;
+
+      &:disabled {
+        background: $color-gray-200;
+      }
+    }
+
+    & input {
+      text-align: right;
+    }
+  }
+}

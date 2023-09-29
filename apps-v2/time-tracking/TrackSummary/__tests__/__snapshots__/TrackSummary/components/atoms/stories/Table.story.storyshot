@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/TrackSummary Table 1`] = `
+.c1 {
+  padding: 0;
+  margin: 0;
+}
+
+.c2 {
+  white-space: nowrap;
+}
+
+.c3 {
+  text-align: right;
+  font-weight: normal;
+  padding: 4px 6px 5px 6px;
+}
+
+.c3:last-child {
+  padding: 0 0 0 6px;
+}
+
+.c3:first-child {
+  padding: 0 6px 0 0;
+}
+
+.c4 {
+  border-bottom: 1px solid undefined;
+  height: 24px;
+  font-weight: normal;
+}
+
+.c5 {
+  text-align: right;
+  padding: 4px 6px 5px 6px;
+}
+
+.c5:last-child {
+  padding: 0 0 0 6px;
+}
+
+.c5:first-child {
+  padding: 0 6px 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+}
+
+<div
+  className="c0"
+>
+  <table
+    className="c1"
+  >
+    <thead
+      className="c2"
+    >
+      <th
+        className="c3"
+      >
+        A
+      </th>
+      <th
+        className="c3"
+      >
+        B
+      </th>
+      <th
+        className="c3"
+      >
+        C
+      </th>
+    </thead>
+    <tbody
+      className=""
+    >
+      <tr
+        className="c4"
+      >
+        <td
+          className="c5"
+        >
+          1
+        </td>
+        <td
+          className="c5"
+        >
+          2
+        </td>
+        <td
+          className="c5"
+        >
+          3
+        </td>
+      </tr>
+      <tr
+        className="c4"
+      >
+        <td
+          className="c5"
+        >
+          4
+        </td>
+        <td
+          className="c5"
+        >
+          5
+        </td>
+        <td
+          className="c5"
+        >
+          6
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

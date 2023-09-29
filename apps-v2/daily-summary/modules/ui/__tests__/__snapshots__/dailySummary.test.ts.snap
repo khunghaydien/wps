@@ -1,0 +1,1188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() /DAILY-SUMMARY/UI/DAILY_SUMMARY/ADD_JOB_TO_TASK_LIST 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"isEnableEndStamp\\": false,
+    \\"isJobSelectDialogOpened\\": false,
+    \\"isTemporaryWorkTime\\": false,
+-   \\"note\\": \\"\\",
+-   \\"originalTaskList\\": Array [],
+-   \\"output\\": \\"\\",
++   \\"note\\": \\"TEST\\",
++   \\"originalTaskList\\": Array [
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"1\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE001\\",
++       \\"jobId\\": \\"001\\",
++       \\"jobName\\": \\"JOB0001\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE001\\",
++       \\"workCategoryId\\": \\"001\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC001\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"2\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE002\\",
++       \\"jobId\\": \\"002\\",
++       \\"jobName\\": \\"JOB0002\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE002\\",
++       \\"workCategoryId\\": \\"002\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC002\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"3\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE003\\",
++       \\"jobId\\": \\"003\\",
++       \\"jobName\\": \\"JOB0003\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE003\\",
++       \\"workCategoryId\\": \\"003\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC003\\",
++     },
++   ],
+    \\"realWorkTime\\": 0,
+-   \\"status\\": \\"NotRequested\\",
+-   \\"targetDate\\": \\"\\",
++   \\"targetDate\\": \\"2020-01-10\\",
+    \\"taskInputMode\\": \\"WORK_DURATION\\",
+-   \\"taskList\\": Array [],
+-   \\"timestampComment\\": \\"\\",
+-   \\"useTimeAutoWorkingHourAllocation\\": false,
+-   \\"useWorkReportByJob\\": false,
++   \\"taskList\\": Array [
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"1\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE001\\",
++       \\"jobId\\": \\"001\\",
++       \\"jobName\\": \\"JOB0001\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE001\\",
++       \\"workCategoryId\\": \\"001\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC001\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"2\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE002\\",
++       \\"jobId\\": \\"002\\",
++       \\"jobName\\": \\"JOB0002\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE002\\",
++       \\"workCategoryId\\": \\"002\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC002\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"3\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE003\\",
++       \\"jobId\\": \\"003\\",
++       \\"jobName\\": \\"JOB0003\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE003\\",
++       \\"workCategoryId\\": \\"003\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC003\\",
++     },
++     Object {
++       \\"color\\": Object {
++         \\"base\\": \\"#79cca6\\",
++         \\"linked\\": \\"#5d9d80\\",
++       },
++       \\"hasJobType\\": true,
++       \\"id\\": \\"testid#xxx\\",
++       \\"isDirectCharged\\": true,
++       \\"isDirectInput\\": true,
++       \\"isEditLocked\\": true,
++       \\"jobCode\\": \\"CODE002\\",
++       \\"jobId\\": \\"2\\",
++       \\"jobName\\": \\"JOB002\\",
++       \\"ratio\\": null,
++       \\"taskNote\\": \\"\\",
++       \\"taskTime\\": 0,
++       \\"volume\\": null,
++       \\"workCategoryCode\\": null,
++       \\"workCategoryId\\": null,
++       \\"workCategoryName\\": null,
++     },
++   ],
++   \\"timestampComment\\": \\"HOGE\\",
++   \\"useTimeAutoWorkingHourAllocation\\": true,
++   \\"useWorkReportByJob\\": true,
+  }"
+`;
+
+exports[`reducer() /DAILY-SUMMARY/UI/DAILY_SUMMARY/DELETE_TASK 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"isEnableEndStamp\\": false,
+    \\"isJobSelectDialogOpened\\": false,
+    \\"isTemporaryWorkTime\\": false,
+-   \\"note\\": \\"\\",
+-   \\"originalTaskList\\": Array [],
+-   \\"output\\": \\"\\",
++   \\"note\\": \\"TEST\\",
++   \\"originalTaskList\\": Array [
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"1\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE001\\",
++       \\"jobId\\": \\"001\\",
++       \\"jobName\\": \\"JOB0001\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE001\\",
++       \\"workCategoryId\\": \\"001\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC001\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"2\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE002\\",
++       \\"jobId\\": \\"002\\",
++       \\"jobName\\": \\"JOB0002\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE002\\",
++       \\"workCategoryId\\": \\"002\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC002\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"3\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE003\\",
++       \\"jobId\\": \\"003\\",
++       \\"jobName\\": \\"JOB0003\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE003\\",
++       \\"workCategoryId\\": \\"003\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC003\\",
++     },
++   ],
+    \\"realWorkTime\\": 0,
+-   \\"status\\": \\"NotRequested\\",
+-   \\"targetDate\\": \\"\\",
++   \\"targetDate\\": \\"2020-01-10\\",
+    \\"taskInputMode\\": \\"WORK_DURATION\\",
+-   \\"taskList\\": Array [],
+-   \\"timestampComment\\": \\"\\",
+-   \\"useTimeAutoWorkingHourAllocation\\": false,
+-   \\"useWorkReportByJob\\": false,
++   \\"taskList\\": Array [
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"1\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE001\\",
++       \\"jobId\\": \\"001\\",
++       \\"jobName\\": \\"JOB0001\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE001\\",
++       \\"workCategoryId\\": \\"001\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC001\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"2\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE002\\",
++       \\"jobId\\": \\"002\\",
++       \\"jobName\\": \\"JOB0002\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE002\\",
++       \\"workCategoryId\\": \\"002\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC002\\",
++     },
++   ],
++   \\"timestampComment\\": \\"HOGE\\",
++   \\"useTimeAutoWorkingHourAllocation\\": true,
++   \\"useWorkReportByJob\\": true,
+  }"
+`;
+
+exports[`reducer() /DAILY-SUMMARY/UI/DAILY_SUMMARY/FETCH_SUCCESS targetDate did not match 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() /DAILY-SUMMARY/UI/DAILY_SUMMARY/FETCH_SUCCESS targetDate matched 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"isEnableEndStamp\\": false,
+    \\"isJobSelectDialogOpened\\": false,
+    \\"isTemporaryWorkTime\\": false,
+-   \\"note\\": \\"\\",
+-   \\"originalTaskList\\": Array [],
+-   \\"output\\": \\"\\",
+-   \\"realWorkTime\\": 0,
++   \\"note\\": null,
++   \\"originalTaskList\\": Array [
++     Object {
++       \\"eventList\\": Array [],
++       \\"hasJobType\\": true,
++       \\"isDirectCharged\\": true,
++       \\"isDirectInput\\": false,
++       \\"isEditLocked\\": true,
++       \\"jobCode\\": \\"7\\",
++       \\"jobId\\": \\"a0h2v00000Xa3gRAAR\\",
++       \\"jobName\\": \\"7\\",
++       \\"ratio\\": 50,
++       \\"taskNote\\": null,
++       \\"taskTime\\": 240,
++       \\"volume\\": 260,
++       \\"workCategoryCode\\": \\"4\\",
++       \\"workCategoryId\\": \\"a1F2v00000CwPQJEA3\\",
++       \\"workCategoryList\\": Array [
++         Object {
++           \\"code\\": \\"1\\",
++           \\"id\\": \\"a1F2v00000CwPPzEAN\\",
++           \\"name\\": \\"ピザの上にペパロニを載せる\\",
++         },
++         Object {
++           \\"code\\": \\"2\\",
++           \\"id\\": \\"a1F2v00000CwPQ4EAN\\",
++           \\"name\\": \\"▲刺身の上にタンポポを乗せる\\",
++         },
++         Object {
++           \\"code\\": \\"3\\",
++           \\"id\\": \\"a1F2v00000CwPQEEA3\\",
++           \\"name\\": \\"親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れ\\",
++         },
++         Object {
++           \\"code\\": \\"4\\",
++           \\"id\\": \\"a1F2v00000CwPQJEA3\\",
++           \\"name\\": \\"吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。 何でも薄暗いじめじめした所でニャ\\",
++         },
++         Object {
++           \\"code\\": \\"7\\",
++           \\"id\\": \\"a1F2v00000CwZRHEA3\\",
++           \\"name\\": \\"7\\",
++         },
++       ],
++       \\"workCategoryName\\": \\"吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。 何でも薄暗いじめじめした所でニャ\\",
++     },
++     Object {
++       \\"eventList\\": Array [],
++       \\"hasJobType\\": true,
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": false,
++       \\"isEditLocked\\": true,
++       \\"jobCode\\": \\"6\\",
++       \\"jobId\\": \\"a0h2v00000XB8oWAAT\\",
++       \\"jobName\\": \\"とっくりセーターを半分だけかぶるモデルの仕事\\",
++       \\"ratio\\": 50,
++       \\"taskNote\\": null,
++       \\"taskTime\\": 240,
++       \\"volume\\": 260,
++       \\"workCategoryCode\\": null,
++       \\"workCategoryId\\": null,
++       \\"workCategoryList\\": Array [
++         Object {
++           \\"code\\": \\"1\\",
++           \\"id\\": \\"a1F2v00000CwPPzEAN\\",
++           \\"name\\": \\"ピザの上にペパロニを載せる\\",
++         },
++         Object {
++           \\"code\\": \\"2\\",
++           \\"id\\": \\"a1F2v00000CwPQ4EAN\\",
++           \\"name\\": \\"▲刺身の上にタンポポを乗せる\\",
++         },
++         Object {
++           \\"code\\": \\"3\\",
++           \\"id\\": \\"a1F2v00000CwPQEEA3\\",
++           \\"name\\": \\"親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れ\\",
++         },
++         Object {
++           \\"code\\": \\"4\\",
++           \\"id\\": \\"a1F2v00000CwPQJEA3\\",
++           \\"name\\": \\"吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。 何でも薄暗いじめじめした所でニャ\\",
++         },
++         Object {
++           \\"code\\": \\"7\\",
++           \\"id\\": \\"a1F2v00000CwZRHEA3\\",
++           \\"name\\": \\"7\\",
++         },
++       ],
++       \\"workCategoryName\\": null,
++     },
++     Object {
++       \\"eventList\\": Array [],
++       \\"hasJobType\\": false,
++       \\"isDirectCharged\\": true,
++       \\"isDirectInput\\": true,
++       \\"isEditLocked\\": true,
++       \\"jobCode\\": \\"TEST\\",
++       \\"jobId\\": \\"a0h2v00000c8mVQAAY\\",
++       \\"jobName\\": \\"TEST\\",
++       \\"ratio\\": null,
++       \\"taskNote\\": null,
++       \\"taskTime\\": 0,
++       \\"volume\\": null,
++       \\"workCategoryCode\\": null,
++       \\"workCategoryId\\": null,
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": null,
++     },
++   ],
++   \\"output\\": null,
++   \\"realWorkTime\\": 480,
+    \\"status\\": \\"NotRequested\\",
+    \\"targetDate\\": \\"2020-02-05\\",
+    \\"taskInputMode\\": \\"WORK_DURATION\\",
+-   \\"taskList\\": Array [],
++   \\"taskList\\": Array [
++     Object {
++       \\"eventList\\": Array [],
++       \\"hasJobType\\": true,
++       \\"isDirectCharged\\": true,
++       \\"isDirectInput\\": false,
++       \\"isEditLocked\\": true,
++       \\"jobCode\\": \\"7\\",
++       \\"jobId\\": \\"a0h2v00000Xa3gRAAR\\",
++       \\"jobName\\": \\"7\\",
++       \\"ratio\\": 50,
++       \\"taskNote\\": null,
++       \\"taskTime\\": 240,
++       \\"volume\\": 260,
++       \\"workCategoryCode\\": \\"4\\",
++       \\"workCategoryId\\": \\"a1F2v00000CwPQJEA3\\",
++       \\"workCategoryList\\": Array [
++         Object {
++           \\"code\\": \\"1\\",
++           \\"id\\": \\"a1F2v00000CwPPzEAN\\",
++           \\"name\\": \\"ピザの上にペパロニを載せる\\",
++         },
++         Object {
++           \\"code\\": \\"2\\",
++           \\"id\\": \\"a1F2v00000CwPQ4EAN\\",
++           \\"name\\": \\"▲刺身の上にタンポポを乗せる\\",
++         },
++         Object {
++           \\"code\\": \\"3\\",
++           \\"id\\": \\"a1F2v00000CwPQEEA3\\",
++           \\"name\\": \\"親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れ\\",
++         },
++         Object {
++           \\"code\\": \\"4\\",
++           \\"id\\": \\"a1F2v00000CwPQJEA3\\",
++           \\"name\\": \\"吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。 何でも薄暗いじめじめした所でニャ\\",
++         },
++         Object {
++           \\"code\\": \\"7\\",
++           \\"id\\": \\"a1F2v00000CwZRHEA3\\",
++           \\"name\\": \\"7\\",
++         },
++       ],
++       \\"workCategoryName\\": \\"吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。 何でも薄暗いじめじめした所でニャ\\",
++     },
++     Object {
++       \\"eventList\\": Array [],
++       \\"hasJobType\\": true,
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": false,
++       \\"isEditLocked\\": true,
++       \\"jobCode\\": \\"6\\",
++       \\"jobId\\": \\"a0h2v00000XB8oWAAT\\",
++       \\"jobName\\": \\"とっくりセーターを半分だけかぶるモデルの仕事\\",
++       \\"ratio\\": 50,
++       \\"taskNote\\": null,
++       \\"taskTime\\": 240,
++       \\"volume\\": 260,
++       \\"workCategoryCode\\": null,
++       \\"workCategoryId\\": null,
++       \\"workCategoryList\\": Array [
++         Object {
++           \\"code\\": \\"1\\",
++           \\"id\\": \\"a1F2v00000CwPPzEAN\\",
++           \\"name\\": \\"ピザの上にペパロニを載せる\\",
++         },
++         Object {
++           \\"code\\": \\"2\\",
++           \\"id\\": \\"a1F2v00000CwPQ4EAN\\",
++           \\"name\\": \\"▲刺身の上にタンポポを乗せる\\",
++         },
++         Object {
++           \\"code\\": \\"3\\",
++           \\"id\\": \\"a1F2v00000CwPQEEA3\\",
++           \\"name\\": \\"親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れ\\",
++         },
++         Object {
++           \\"code\\": \\"4\\",
++           \\"id\\": \\"a1F2v00000CwPQJEA3\\",
++           \\"name\\": \\"吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。 何でも薄暗いじめじめした所でニャ\\",
++         },
++         Object {
++           \\"code\\": \\"7\\",
++           \\"id\\": \\"a1F2v00000CwZRHEA3\\",
++           \\"name\\": \\"7\\",
++         },
++       ],
++       \\"workCategoryName\\": null,
++     },
++     Object {
++       \\"eventList\\": Array [],
++       \\"hasJobType\\": false,
++       \\"isDirectCharged\\": true,
++       \\"isDirectInput\\": true,
++       \\"isEditLocked\\": true,
++       \\"jobCode\\": \\"TEST\\",
++       \\"jobId\\": \\"a0h2v00000c8mVQAAY\\",
++       \\"jobName\\": \\"TEST\\",
++       \\"ratio\\": null,
++       \\"taskNote\\": null,
++       \\"taskTime\\": 0,
++       \\"volume\\": null,
++       \\"workCategoryCode\\": null,
++       \\"workCategoryId\\": null,
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": null,
++     },
++   ],
+    \\"timestampComment\\": \\"\\",
+-   \\"useTimeAutoWorkingHourAllocation\\": false,
+-   \\"useWorkReportByJob\\": false,
++   \\"useTimeAutoWorkingHourAllocation\\": true,
++   \\"useWorkReportByJob\\": true,
+  }"
+`;
+
+exports[`reducer() /DAILY-SUMMARY/UI/DAILY_SUMMARY/SET_IS_ENABLE_END_STAMP targetDate did not match 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() /DAILY-SUMMARY/UI/DAILY_SUMMARY/SET_IS_ENABLE_END_STAMP targetDate matched 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,7 +1,7 @@
+  Object {
+-   \\"isEnableEndStamp\\": false,
++   \\"isEnableEndStamp\\": true,
+    \\"isJobSelectDialogOpened\\": false,
+    \\"isTemporaryWorkTime\\": false,
+    \\"note\\": \\"\\",
+    \\"originalTaskList\\": Array [],
+    \\"output\\": \\"\\","
+`;
+
+exports[`reducer() /DAILY-SUMMARY/UI/DAILY_SUMMARY/TOGGLE_DIRECT_INPUT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"isEnableEndStamp\\": false,
+    \\"isJobSelectDialogOpened\\": false,
+    \\"isTemporaryWorkTime\\": false,
+-   \\"note\\": \\"\\",
+-   \\"originalTaskList\\": Array [],
+-   \\"output\\": \\"\\",
++   \\"note\\": \\"TEST\\",
++   \\"originalTaskList\\": Array [
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"1\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE001\\",
++       \\"jobId\\": \\"001\\",
++       \\"jobName\\": \\"JOB0001\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE001\\",
++       \\"workCategoryId\\": \\"001\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC001\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"2\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE002\\",
++       \\"jobId\\": \\"002\\",
++       \\"jobName\\": \\"JOB0002\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE002\\",
++       \\"workCategoryId\\": \\"002\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC002\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"3\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE003\\",
++       \\"jobId\\": \\"003\\",
++       \\"jobName\\": \\"JOB0003\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE003\\",
++       \\"workCategoryId\\": \\"003\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC003\\",
++     },
++   ],
+    \\"realWorkTime\\": 0,
+-   \\"status\\": \\"NotRequested\\",
+-   \\"targetDate\\": \\"\\",
++   \\"targetDate\\": \\"2020-01-10\\",
+    \\"taskInputMode\\": \\"WORK_DURATION\\",
+-   \\"taskList\\": Array [],
+-   \\"timestampComment\\": \\"\\",
+-   \\"useTimeAutoWorkingHourAllocation\\": false,
+-   \\"useWorkReportByJob\\": false,
++   \\"taskList\\": Array [
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"1\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE001\\",
++       \\"jobId\\": \\"001\\",
++       \\"jobName\\": \\"JOB0001\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE001\\",
++       \\"workCategoryId\\": \\"001\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC001\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"2\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE002\\",
++       \\"jobId\\": \\"002\\",
++       \\"jobName\\": \\"JOB0002\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE002\\",
++       \\"workCategoryId\\": \\"002\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC002\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"3\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": false,
++       \\"jobCode\\": \\"CODE003\\",
++       \\"jobId\\": \\"003\\",
++       \\"jobName\\": \\"JOB0003\\",
++       \\"ratio\\": 100,
++       \\"taskTime\\": 0,
++       \\"workCategoryCode\\": \\"WC_CODE003\\",
++       \\"workCategoryId\\": \\"003\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC003\\",
++     },
++   ],
++   \\"timestampComment\\": \\"HOGE\\",
++   \\"useTimeAutoWorkingHourAllocation\\": true,
++   \\"useWorkReportByJob\\": true,
+  }"
+`;
+
+exports[`reducer() /DAILY-SUMMARY/UI/DAILY_SUMMARY/UPDATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"isEnableEndStamp\\": false,
+    \\"isJobSelectDialogOpened\\": false,
+    \\"isTemporaryWorkTime\\": false,
+-   \\"note\\": \\"\\",
+-   \\"originalTaskList\\": Array [],
+-   \\"output\\": \\"\\",
+-   \\"realWorkTime\\": 0,
+-   \\"status\\": \\"NotRequested\\",
+-   \\"targetDate\\": \\"\\",
++   \\"note\\": \\"UPDATE NOTE\\",
++   \\"originalTaskList\\": Array [
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"1\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE001\\",
++       \\"jobId\\": \\"001\\",
++       \\"jobName\\": \\"JOB0001\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE001\\",
++       \\"workCategoryId\\": \\"001\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC001\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"2\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE002\\",
++       \\"jobId\\": \\"002\\",
++       \\"jobName\\": \\"JOB0002\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE002\\",
++       \\"workCategoryId\\": \\"002\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC002\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"3\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE003\\",
++       \\"jobId\\": \\"003\\",
++       \\"jobName\\": \\"JOB0003\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE003\\",
++       \\"workCategoryId\\": \\"003\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC003\\",
++     },
++   ],
++   \\"realWorkTime\\": 400,
++   \\"targetDate\\": \\"2019-10-10\\",
+    \\"taskInputMode\\": \\"WORK_DURATION\\",
+-   \\"taskList\\": Array [],
+-   \\"timestampComment\\": \\"\\",
+-   \\"useTimeAutoWorkingHourAllocation\\": false,
+-   \\"useWorkReportByJob\\": false,
++   \\"taskList\\": Array [
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"1\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE001\\",
++       \\"jobId\\": \\"001\\",
++       \\"jobName\\": \\"JOB0001\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE001\\",
++       \\"workCategoryId\\": \\"001\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC001\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"2\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE002\\",
++       \\"jobId\\": \\"002\\",
++       \\"jobName\\": \\"JOB0002\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE002\\",
++       \\"workCategoryId\\": \\"002\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC002\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"3\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE003\\",
++       \\"jobId\\": \\"003\\",
++       \\"jobName\\": \\"JOB0003\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE003\\",
++       \\"workCategoryId\\": \\"003\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC003\\",
++     },
++   ],
++   \\"timestampComment\\": \\"HOGE\\",
++   \\"useTimeAutoWorkingHourAllocation\\": true,
++   \\"useWorkReportByJob\\": true,
+  }"
+`;
+
+exports[`reducer() /DAILY-SUMMARY/UI/DAILY_SUMMARY/UPDATE_TASK - total ratio is not 100% 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -71,16 +71,16 @@
+      },
+      Object {
+        \\"hasJobType\\": false,
+        \\"id\\": \\"2\\",
+        \\"isDirectCharged\\": false,
+-       \\"isDirectInput\\": true,
++       \\"isDirectInput\\": false,
+        \\"jobCode\\": \\"CODE002\\",
+        \\"jobId\\": \\"002\\",
+        \\"jobName\\": \\"JOB0002\\",
+-       \\"ratio\\": null,
+-       \\"taskTime\\": 300,
++       \\"ratio\\": 100,
++       \\"taskTime\\": 0,
+        \\"workCategoryCode\\": \\"WC_CODE002\\",
+        \\"workCategoryId\\": \\"002\\",
+        \\"workCategoryList\\": Array [],
+        \\"workCategoryName\\": \\"WC002\\",
+      },
+@@ -106,11 +106,11 @@
+        \\"isDirectInput\\": false,
+        \\"jobCode\\": \\"CODE003\\",
+        \\"jobId\\": \\"003\\",
+        \\"jobName\\": \\"JOB0003\\",
+        \\"ratio\\": 100,
+-       \\"taskTime\\": 300,
++       \\"taskTime\\": 0,
+        \\"workCategoryCode\\": \\"WC_CODE003\\",
+        \\"workCategoryId\\": \\"003\\",
+        \\"workCategoryList\\": Array [],
+        \\"workCategoryName\\": \\"WC003\\",
+      },"
+`;
+
+exports[`reducer() /DAILY-SUMMARY/UI/DAILY_SUMMARY/UPDATE_TASK 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"isEnableEndStamp\\": false,
+    \\"isJobSelectDialogOpened\\": false,
+    \\"isTemporaryWorkTime\\": false,
+-   \\"note\\": \\"\\",
+-   \\"originalTaskList\\": Array [],
+-   \\"output\\": \\"\\",
++   \\"note\\": \\"TEST\\",
++   \\"originalTaskList\\": Array [
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"1\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE001\\",
++       \\"jobId\\": \\"001\\",
++       \\"jobName\\": \\"JOB0001\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE001\\",
++       \\"workCategoryId\\": \\"001\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC001\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"2\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE002\\",
++       \\"jobId\\": \\"002\\",
++       \\"jobName\\": \\"JOB0002\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE002\\",
++       \\"workCategoryId\\": \\"002\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC002\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"3\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE003\\",
++       \\"jobId\\": \\"003\\",
++       \\"jobName\\": \\"JOB0003\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE003\\",
++       \\"workCategoryId\\": \\"003\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC003\\",
++     },
++   ],
+    \\"realWorkTime\\": 0,
+-   \\"status\\": \\"NotRequested\\",
+-   \\"targetDate\\": \\"\\",
++   \\"targetDate\\": \\"2020-01-10\\",
+    \\"taskInputMode\\": \\"WORK_DURATION\\",
+-   \\"taskList\\": Array [],
+-   \\"timestampComment\\": \\"\\",
+-   \\"useTimeAutoWorkingHourAllocation\\": false,
+-   \\"useWorkReportByJob\\": false,
++   \\"taskList\\": Array [
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"1\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE001\\",
++       \\"jobId\\": \\"001\\",
++       \\"jobName\\": \\"JOB0001\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 300,
++       \\"workCategoryCode\\": \\"WC_CODE001\\",
++       \\"workCategoryId\\": \\"001\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC001\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"2\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": false,
++       \\"jobCode\\": \\"CODE002\\",
++       \\"jobId\\": \\"002\\",
++       \\"jobName\\": \\"JOB0002\\",
++       \\"ratio\\": 35,
++       \\"taskTime\\": 0,
++       \\"workCategoryCode\\": \\"WC_CODE002\\",
++       \\"workCategoryId\\": \\"002\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC002\\",
++     },
++     Object {
++       \\"hasJobType\\": false,
++       \\"id\\": \\"3\\",
++       \\"isDirectCharged\\": false,
++       \\"isDirectInput\\": true,
++       \\"jobCode\\": \\"CODE003\\",
++       \\"jobId\\": \\"003\\",
++       \\"jobName\\": \\"JOB0003\\",
++       \\"ratio\\": null,
++       \\"taskTime\\": 600,
++       \\"workCategoryCode\\": \\"WC_CODE003\\",
++       \\"workCategoryId\\": \\"003\\",
++       \\"workCategoryList\\": Array [],
++       \\"workCategoryName\\": \\"WC003\\",
++     },
++   ],
++   \\"timestampComment\\": \\"HOGE\\",
++   \\"useTimeAutoWorkingHourAllocation\\": true,
++   \\"useWorkReportByJob\\": true,
+  }"
+`;
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"isEnableEndStamp\\": false,
++   \\"isJobSelectDialogOpened\\": false,
++   \\"isTemporaryWorkTime\\": false,
++   \\"note\\": \\"\\",
++   \\"originalTaskList\\": Array [],
++   \\"output\\": \\"\\",
++   \\"realWorkTime\\": 0,
++   \\"status\\": \\"NotRequested\\",
++   \\"targetDate\\": \\"\\",
++   \\"taskInputMode\\": \\"WORK_DURATION\\",
++   \\"taskList\\": Array [],
++   \\"timestampComment\\": \\"\\",
++   \\"useTimeAutoWorkingHourAllocation\\": false,
++   \\"useWorkReportByJob\\": false,
++ }"
+`;
+
+exports[`reducer() DAILY-SUMMARY/UI/DAILY-SUMMARY/SORT - jobCode - asc 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -9,17 +9,17 @@
+    \\"status\\": \\"NotRequested\\",
+    \\"targetDate\\": \\"\\",
+    \\"taskInputMode\\": \\"WORK_DURATION\\",
+    \\"taskList\\": Array [
+      Object {
+-       \\"jobCode\\": 3,
+-     },
+-     Object {
+        \\"jobCode\\": 1,
+      },
+      Object {
+        \\"jobCode\\": 2,
++     },
++     Object {
++       \\"jobCode\\": 3,
+      },
+    ],
+    \\"timestampComment\\": \\"\\",
+    \\"useTimeAutoWorkingHourAllocation\\": false,
+    \\"useWorkReportByJob\\": false,"
+`;
+
+exports[`reducer() DAILY-SUMMARY/UI/DAILY-SUMMARY/SORT - jobCode - desc 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -12,14 +12,14 @@
+    \\"taskList\\": Array [
+      Object {
+        \\"jobCode\\": 3,
+      },
+      Object {
+-       \\"jobCode\\": 1,
++       \\"jobCode\\": 2,
+      },
+      Object {
+-       \\"jobCode\\": 2,
++       \\"jobCode\\": 1,
+      },
+    ],
+    \\"timestampComment\\": \\"\\",
+    \\"useTimeAutoWorkingHourAllocation\\": false,
+    \\"useWorkReportByJob\\": false,"
+`;
+
+exports[`reducer() DAILY-SUMMARY/UI/DAILY-SUMMARY/SORT - taskTime - asc 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -11,36 +11,36 @@
+    \\"taskInputMode\\": \\"WORK_DURATION\\",
+    \\"taskList\\": Array [
+      Object {
+        \\"isDirectInput\\": true,
+        \\"ratio\\": null,
+-       \\"taskTime\\": 180,
++       \\"taskTime\\": 60,
+      },
+      Object {
+        \\"isDirectInput\\": true,
+        \\"ratio\\": null,
+-       \\"taskTime\\": 60,
++       \\"taskTime\\": 120,
+      },
+      Object {
+        \\"isDirectInput\\": true,
+        \\"ratio\\": null,
+-       \\"taskTime\\": 200,
++       \\"taskTime\\": 180,
+      },
+      Object {
+        \\"isDirectInput\\": false,
+-       \\"ratio\\": 40,
++       \\"ratio\\": 30,
+        \\"taskTime\\": 190,
+      },
+      Object {
+        \\"isDirectInput\\": false,
+-       \\"ratio\\": 30,
++       \\"ratio\\": 40,
+        \\"taskTime\\": 190,
+      },
+      Object {
+        \\"isDirectInput\\": true,
+        \\"ratio\\": null,
+-       \\"taskTime\\": 120,
++       \\"taskTime\\": 200,
+      },
+    ],
+    \\"timestampComment\\": \\"\\",
+    \\"useTimeAutoWorkingHourAllocation\\": false,
+    \\"useWorkReportByJob\\": false,"
+`;
+
+exports[`reducer() DAILY-SUMMARY/UI/DAILY-SUMMARY/SORT - taskTime - desc 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -11,36 +11,36 @@
+    \\"taskInputMode\\": \\"WORK_DURATION\\",
+    \\"taskList\\": Array [
+      Object {
+        \\"isDirectInput\\": true,
+        \\"ratio\\": null,
+-       \\"taskTime\\": 180,
+-     },
+-     Object {
+-       \\"isDirectInput\\": true,
+-       \\"ratio\\": null,
+-       \\"taskTime\\": 60,
+-     },
+-     Object {
+-       \\"isDirectInput\\": true,
+-       \\"ratio\\": null,
+        \\"taskTime\\": 200,
+      },
+      Object {
+        \\"isDirectInput\\": false,
+-       \\"ratio\\": 30,
++       \\"ratio\\": 40,
+        \\"taskTime\\": 190,
+      },
+      Object {
+        \\"isDirectInput\\": false,
+-       \\"ratio\\": 40,
++       \\"ratio\\": 30,
+        \\"taskTime\\": 190,
+      },
+      Object {
+        \\"isDirectInput\\": true,
+        \\"ratio\\": null,
++       \\"taskTime\\": 180,
++     },
++     Object {
++       \\"isDirectInput\\": true,
++       \\"ratio\\": null,
+        \\"taskTime\\": 120,
++     },
++     Object {
++       \\"isDirectInput\\": true,
++       \\"ratio\\": null,
++       \\"taskTime\\": 60,
+      },
+    ],
+    \\"timestampComment\\": \\"\\",
+    \\"useTimeAutoWorkingHourAllocation\\": false,
+    \\"useWorkReportByJob\\": false,"
+`;
+
+exports[`reducer() DAILY-SUMMARY/UI/DAILY-SUMMARY/SORT - workCategoryCode - asc 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -9,24 +9,24 @@
+    \\"status\\": \\"NotRequested\\",
+    \\"targetDate\\": \\"\\",
+    \\"taskInputMode\\": \\"WORK_DURATION\\",
+    \\"taskList\\": Array [
+      Object {
+-       \\"workCategoryCode\\": 3,
++       \\"workCategoryCode\\": 1,
+      },
+      Object {
+-       \\"hasJobType\\": false,
+-       \\"workCategoryCode\\": 4,
++       \\"workCategoryCode\\": 2,
+      },
+      Object {
+-       \\"workCategoryCode\\": 1,
++       \\"workCategoryCode\\": 3,
+      },
+      Object {
+-       \\"workCategoryCode\\": 2,
++       \\"hasJobType\\": true,
++       \\"workCategoryCode\\": 4,
+      },
+      Object {
+-       \\"hasJobType\\": true,
++       \\"hasJobType\\": false,
+        \\"workCategoryCode\\": 4,
+      },
+    ],
+    \\"timestampComment\\": \\"\\",
+    \\"useTimeAutoWorkingHourAllocation\\": false,"
+`;
+
+exports[`reducer() DAILY-SUMMARY/UI/DAILY-SUMMARY/SORT - workCategoryCode - desc 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -9,25 +9,25 @@
+    \\"status\\": \\"NotRequested\\",
+    \\"targetDate\\": \\"\\",
+    \\"taskInputMode\\": \\"WORK_DURATION\\",
+    \\"taskList\\": Array [
+      Object {
+-       \\"workCategoryCode\\": 3,
++       \\"hasJobType\\": false,
++       \\"workCategoryCode\\": 4,
+      },
+      Object {
+-       \\"workCategoryCode\\": 1,
++       \\"hasJobType\\": true,
++       \\"workCategoryCode\\": 4,
+      },
+      Object {
+-       \\"workCategoryCode\\": 2,
++       \\"workCategoryCode\\": 3,
+      },
+      Object {
+-       \\"hasJobType\\": true,
+-       \\"workCategoryCode\\": 4,
++       \\"workCategoryCode\\": 2,
+      },
+      Object {
+-       \\"hasJobType\\": false,
+-       \\"workCategoryCode\\": 4,
++       \\"workCategoryCode\\": 1,
+      },
+    ],
+    \\"timestampComment\\": \\"\\",
+    \\"useTimeAutoWorkingHourAllocation\\": false,
+    \\"useWorkReportByJob\\": false,"
+`;

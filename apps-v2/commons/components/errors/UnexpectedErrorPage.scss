@@ -1,0 +1,64 @@
+.commons-errors-unexpected-error-page {
+  &__icon {
+    width: 86px !important;
+    height: 86px !important;
+  }
+
+  &__solution {
+    padding: 1rem 0;
+    border-radius: 4px;
+    color: $color-text-modest;
+    font-size: 1rem;
+  }
+
+  &__solution dl {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__solution dt {
+    flex: 0 0 15%;
+    padding: 0.3rem 0;
+  }
+
+  &__solution dd {
+    flex: 85% 0 0;
+    padding: 0.3rem 0;
+    border-bottom: 1px $color-border-default solid;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  &__solution dd:last-child {
+    border: none;
+  }
+
+  &__solution dt::after {
+    content: ': ';
+  }
+
+  &__solution-detail {
+    padding: 1rem 0.5rem 1rem 1.1rem;
+    margin-top: 0.5rem;
+    background: #fff;
+    border-radius: 4px;
+  }
+
+  &__solution-detail &__header {
+    margin: 0 0 0.5rem;
+    font-weight: 600;
+  }
+
+  &__solution-headline {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+  }
+
+  &__solution-headline &__cheveon {
+    padding: 0 0.4rem 0.2rem 0;
+  }
+}

@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @init @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"dailyRecord\\": null,
++   \\"earlyLeaveReasonList\\": Array [],
++   \\"request\\": null,
++   \\"selectedEarlyLeaveReason\\": null,
++   \\"useEarlyLeaveReason\\": false,
++ }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/EARLY_LEAVE_REQUEST/INITIALIZE INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"dailyRecord\\": null,
+-   \\"earlyLeaveReasonList\\": Array [],
+-   \\"request\\": null,
+-   \\"selectedEarlyLeaveReason\\": null,
++   \\"earlyLeaveReasonList\\": Array [
++     Object {
++       \\"code\\": null,
++       \\"earlyLeaveEndTime\\": 1140,
++       \\"id\\": null,
++       \\"name\\": null,
++     },
++   ],
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"Approver\\",
++     \\"canDirectInputTimeRequest\\": false,
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"2018-06-18\\",
++     \\"endTime\\": 1140,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isDirectInputTimeRequest\\": false,
++     \\"isFlexWithoutCore\\": false,
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveDetailCode\\": null,
++     \\"leaveDetailName\\": null,
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": null,
++     \\"patternName\\": null,
++     \\"patternRestTimes\\": Array [],
++     \\"personalReason\\": false,
++     \\"reason\\": \\"reason\\",
++     \\"reasonCode\\": null,
++     \\"reasonId\\": null,
++     \\"reasonName\\": null,
++     \\"remarks\\": null,
++     \\"requestDayType\\": null,
++     \\"requestTypeCode\\": \\"EarlyLeave\\",
++     \\"requestTypeName\\": \\"\\",
++     \\"requestableDayType\\": null,
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2018-06-18\\",
++     \\"startTime\\": null,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"EarlyLeave\\",
++     \\"useEarlyLeaveReason\\": false,
++     \\"useLateArrivalReason\\": false,
++     \\"useManagePersonalReason\\": false,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"\\",
++   },
++   \\"selectedEarlyLeaveReason\\": Object {
++     \\"code\\": null,
++     \\"earlyLeaveEndTime\\": 1140,
++     \\"id\\": null,
++     \\"name\\": null,
++   },
+    \\"useEarlyLeaveReason\\": false,
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/EARLY_LEAVE_REQUEST/UPDATE UPDATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"dailyRecord\\": null,
+    \\"earlyLeaveReasonList\\": Array [],
+-   \\"request\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"Approver\\",
++     \\"canDirectInputTimeRequest\\": false,
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"2018-06-18\\",
++     \\"endTime\\": 1140,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isDirectInputTimeRequest\\": false,
++     \\"isFlexWithoutCore\\": false,
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveDetailCode\\": null,
++     \\"leaveDetailName\\": null,
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": null,
++     \\"patternName\\": null,
++     \\"patternRestTimes\\": Array [],
++     \\"personalReason\\": false,
++     \\"reason\\": \\"testですtestです。\\",
++     \\"reasonCode\\": null,
++     \\"reasonId\\": null,
++     \\"reasonName\\": null,
++     \\"remarks\\": null,
++     \\"requestDayType\\": null,
++     \\"requestTypeCode\\": \\"EarlyLeave\\",
++     \\"requestTypeName\\": \\"\\",
++     \\"requestableDayType\\": null,
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2018-06-18\\",
++     \\"startTime\\": null,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"EarlyLeave\\",
++     \\"useEarlyLeaveReason\\": false,
++     \\"useLateArrivalReason\\": false,
++     \\"useManagePersonalReason\\": false,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"\\",
++   },
+    \\"selectedEarlyLeaveReason\\": null,
+    \\"useEarlyLeaveReason\\": false,
+  }"
+`;

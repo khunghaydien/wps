@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`complete() should do if result is false. 1`] = `Array []`;
+
+exports[`complete() should do if result is true. 1`] = `Array []`;
+
+exports[`confirmSubmittingWithoutErrorRecords() should call confirm with errors. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_END",
+  },
+  Object {
+    "payload": Array [
+      "There are the following notes.Are you sure to apply to the timesheet?
+・There is errors that you selected date.If you apply with this data, The data that has error will not applied.",
+    ],
+    "type": "TEST:CONFIRM",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+]
+`;
+
+exports[`confirmSubmittingWithoutErrorRecords() should return true if errors are nothing. 1`] = `Array []`;
+
+exports[`error() should do. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`finally() should do. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`start() should do. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+]
+`;

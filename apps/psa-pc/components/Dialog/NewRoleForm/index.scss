@@ -1,0 +1,219 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-psa__new-role-form {
+  display: flex;
+  max-width: 720px;
+  min-height: 25vh;
+  max-height: 50vh;
+  flex-wrap: wrap;
+  padding: 0 $container-padding;
+  overflow: auto;
+
+  &__error-box {
+    flex: 1;
+    margin: $container-padding 0 10px 0;
+  }
+
+  &__dialog-frame {
+    max-width: 720px;
+  }
+
+  &__textarea-countdown {
+    color: $color-text-grey;
+    font-size: 12px;
+  }
+
+  .separator {
+    margin-right: $size-xs;
+    margin-left: $size-xs;
+  }
+  .ts-psa__form-field__label {
+    margin-bottom: $size-xxs;
+  }
+  .ts-psa__form-field {
+    position: relative;
+    margin-bottom: $container-padding;
+  }
+
+  &__form-field-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    .ts-psa__form-field {
+      flex: 0 50%;
+      padding: 10px 10px 0 0;
+      &:nth-child(2n) {
+        padding: 10px 10px 0 10px;
+      }
+    }
+    .ts-psa__new-role-form__remark {
+      flex: 0 100%;
+    }
+    .ts-psa__new-role-form__job-grade-column {
+      &.is-hidden {
+        display: none;
+      }
+    }
+
+    &__actual-effort {
+      margin-top: 5px;
+    }
+
+    .ts-psa__new-role-form__comments {
+      flex: 0 100%;
+      > textarea {
+        min-width: 680px;
+        min-height: 150px;
+      }
+    }
+  }
+
+  &__effort-input-container {
+    .ts-text-field {
+      min-height: 32px;
+    }
+    .ts-psa__new-role-form__effort-dropdown {
+      position: relative;
+      right: -100%;
+      max-width: 100px;
+      margin-top: -31px;
+      transform: translateX(-100%);
+      border-right: 1px solid $color-border-light-grey;
+      border-radius: 0.25rem;
+      border-radius: 0 0.25rem 0.25rem 0;
+      .slds-button.slds-button_neutral {
+        right: 1px;
+        min-height: 30px;
+        border: 0;
+        border-radius: 0 0.25rem 0.25rem 0;
+        border-width: 0 0 0 1px;
+        border-left: 1px solid $color-border-light-grey;
+      }
+    }
+  }
+
+  &__combobox-wrapper .slds-combobox {
+    cursor: none;
+    user-select: none;
+    pointer-events: none;
+    background-color: #ecebea;
+    color: transparent;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+  }
+
+  .slds-listbox {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+
+  .slds-combobox__form-element > svg {
+    display: none;
+  }
+
+  &__skill-selection {
+    margin: $container-padding 0;
+  }
+
+  .ts-psa__new-role-form__date input,
+  .ts-psa__new-role-form__std-work-hours input,
+  .ts-psa__new-role-form__total-work-hours .ts-text-field {
+    max-width: 150px;
+  }
+
+  .ts-psa__new-role-form__num-work-days input,
+  .ts-psa__new-role-form__std-work-hours input,
+  .ts-psa__new-role-form__total-work-hours .ts-text-field {
+    text-align: right;
+  }
+
+  .ts-psa__new-role-form__total-work-hours .ts-text-field {
+    border: 1px solid #dddbda;
+    background-color: $color-container;
+    border-radius: 0.25rem;
+  }
+
+  &__sub-header {
+    display: flex;
+    height: 48px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $color-bg-heading;
+    padding: 0 16px;
+    border-bottom: $color-border;
+    color: $color-text-grey;
+    &-title {
+      white-space: nowrap;
+      font-weight: bold;
+    }
+
+    &-title-body {
+      margin-left: 4px;
+      word-break: break-all;
+    }
+
+    &__activity-title {
+      display: inline-flex;
+      height: auto;
+      align-items: center;
+    }
+    &__activity-duration {
+      margin-left: 4px;
+      white-space: nowrap;
+      display: inline-flex;
+      height: auto;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+  &__assignee-container {
+    display: flex;
+    justify-content: space-between;
+    padding: $container-padding;
+    background-color: $color-bg-form;
+  }
+
+  &__info {
+    width: 100%;
+    margin-top: $size-base;
+    color: $color-text-grey;
+    font-size: 12px;
+    text-align: right;
+  }
+
+  &__employee-photo {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+
+  &__btn-remove {
+    margin-right: $size-m;
+    color: $color-btn-remove;
+  }
+
+  &__btn-cancel {
+    color: $color-btn-save;
+  }
+
+  .commons-fields-att-time-field {
+    text-align: left;
+    width: 100%;
+  }
+
+  .commons-fields-date-field,
+  .react-datepicker-wrapper,
+  .react-datepicker__input-container {
+    width: 100%;
+  }
+
+  .amount-field-input-feedback {
+    display: none;
+  }
+}
+
+.has-error .ts-psa__new-role-form__assignee-container {
+  border: 1px solid $color-form-error;
+}

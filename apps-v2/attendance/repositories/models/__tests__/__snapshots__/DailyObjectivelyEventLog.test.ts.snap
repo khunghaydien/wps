@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`convert should do 1`] = `
+Array [
+  Object {
+    "deviatedEnteringTimeReason": Object {
+      "label": "deviatedEnteringTimeReasonSelectedLabel",
+      "text": "Deviated Entering Time Reason",
+      "value": "deviatedEnteringTimeReasonSelectedValue",
+    },
+    "deviatedLeavingTimeReason": Object {
+      "label": "deviatedLeavingTimeReasonSelectedLabel",
+      "text": "Deviated Leaving Time Reason",
+      "value": "deviatedLeavingTimeReasonSelectedValue",
+    },
+    "deviationReasonExtendedItemId": "deviationReasonExtendedItemId",
+    "id": "dailyObjectivelyEventLogId",
+    "inpEndTime": 1075,
+    "inpStartTime": 415,
+    "logs": Array [
+      Object {
+        "allowingDeviationTime": null,
+        "entering": Object {
+          "deviatedTime": 5,
+          "eventLogUpdatedBy": "Entering event log updated1 by",
+          "eventType": "Entering",
+          "id": "enteringEventLogId1",
+          "linked": "",
+          "time": 480,
+        },
+        "leaving": Object {
+          "deviatedTime": 6,
+          "eventLogUpdatedBy": "Leaving event log updated1 by",
+          "eventType": "Leaving",
+          "id": "leavingEventLogId1",
+          "linked": "",
+          "time": 1020,
+        },
+        "requireDeviationReason": "requireDeviationReason1",
+        "setting": Object {
+          "code": "CODE_NAME_1",
+          "id": "setting1",
+          "name": "name1",
+        },
+      },
+      Object {
+        "allowingDeviationTime": 5,
+        "entering": Object {
+          "deviatedTime": 10,
+          "eventLogUpdatedBy": "Entering event log updated2 by",
+          "eventType": "Entering",
+          "id": "enteringEventLogId2",
+          "linked": "",
+          "time": 470,
+        },
+        "leaving": Object {
+          "deviatedTime": 9,
+          "eventLogUpdatedBy": "Leaving event log updated2 by",
+          "eventType": "Leaving",
+          "id": "leavingEventLogId2",
+          "linked": "",
+          "time": 1011,
+        },
+        "requireDeviationReason": "requireDeviationReason2",
+        "setting": Object {
+          "code": "CODE_NAME_2",
+          "id": "setting2",
+          "name": "name2",
+        },
+      },
+      Object {
+        "allowingDeviationTime": 60,
+        "entering": Object {
+          "deviatedTime": 1,
+          "eventLogUpdatedBy": "Entering event log updated3 by",
+          "eventType": "Entering",
+          "id": "enteringEventLogId3",
+          "linked": "",
+          "time": 481,
+        },
+        "leaving": Object {
+          "deviatedTime": 3,
+          "eventLogUpdatedBy": "Leaving event log updated3 by",
+          "eventType": "Leaving",
+          "id": "leavingEventLogId3",
+          "linked": "",
+          "time": 1023,
+        },
+        "requireDeviationReason": "requireDeviationReason3",
+        "setting": Object {
+          "code": "CODE_NAME_3",
+          "id": "setting3",
+          "name": "name3",
+        },
+      },
+    ],
+    "recordDate": "2020-01-01",
+    "recordId": "recordId",
+  },
+]
+`;

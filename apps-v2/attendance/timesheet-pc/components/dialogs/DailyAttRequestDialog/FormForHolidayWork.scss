@@ -1,0 +1,15 @@
+.timesheet-pc-dialogs-daily-att-request-dialog-form-for-holiday {
+  &__time-range {
+    display: flex;
+  }
+
+  &__range-mark {
+    display: flex;
+    flex: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 11px;
+    margin-right: 11px;
+  }
+}

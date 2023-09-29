@@ -1,0 +1,30 @@
+<div>
+	<ul class="tsext-pankz">
+		<li><a href="#!menu">メニュー</a></li>
+		<li class="tsext-pankz-div">＞</li>
+		<li>定義情報ダウンロード</li>
+	</ul>
+	<div class="tsext-error" style="display:none;">
+	</div>
+	<div class="tsext-test-view">
+		<div style="margin-bottom:10px;">
+			<label>
+				<input type="checkbox" id="customFieldsAll" style="vertical-align:middle;" />
+				カスタムオブジェクト以外を含める
+			</label>
+		</div>
+		<input type="button" value="ダウンロード" id="customFieldsDL" />
+		<div class="tsext-monitor" style="margin-top:15px;">
+		</div>
+		<div style="margin-top:35px;">
+			下記のファイルを含むZIPファイルをダウンロードする。<br/>
+			・object_list.csv  ・・オブジェクトリスト<br/>
+			・object_fields.csv・・フィールド定義情報<br/>
+			・json_fields.txt  ・・検証データエクスポート・インポート用<br/><br/>
+			※ 3つ目のファイルは定義情報の更新時に TsfResource/tsext/tsobj/ の同名ファイルと差し替えること
+		</div>
+	</div>
+	<div style="display:none">
+		<a class="tsext-anchor" href="" target="_blank" >dummy</a>
+	</div>
+</div>

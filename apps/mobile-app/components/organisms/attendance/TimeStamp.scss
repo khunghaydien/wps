@@ -1,0 +1,32 @@
+.mobile-app-components-organisms-attendance-time-stamp {
+  &__refresh {
+    position: absolute;
+    top: 11px;
+    right: 18px;
+  }
+
+  &__content {
+    position: relative;
+    height: calc(100vh - 122px);
+    overflow: scroll;
+  }
+
+  &__send-location-toggle {
+    margin: 0 24px 0;
+  }
+
+  &__stamp-clock--not-showing-map {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__map {
+    overflow: visible;
+    height: 178px;
+    margin: 16px 24px 0 24px;
+  }
+}

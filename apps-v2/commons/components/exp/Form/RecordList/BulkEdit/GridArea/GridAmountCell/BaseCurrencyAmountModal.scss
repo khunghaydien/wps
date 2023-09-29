@@ -1,0 +1,15 @@
+.ts-expenses__modal-bulk-edit-base-currency-amount {
+  &__field-amount {
+    margin-top: 16px;
+
+    input {
+      text-align: right;
+    }
+  }
+
+  &__save-btn {
+    width: 58px;
+    height: 32px;
+    margin-top: 16px;
+  }
+}

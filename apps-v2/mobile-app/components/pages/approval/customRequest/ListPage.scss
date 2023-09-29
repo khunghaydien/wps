@@ -1,0 +1,45 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-approval-page-custom-request-list {
+  .main-content {
+    padding: 48px 0;
+    height: 100%;
+    overflow-y: hidden;
+  }
+
+  &__nav {
+    .heading-3 {
+      flex: none;
+    }
+  }
+
+  &__count {
+    display: flex;
+    padding-left: 16px;
+    background-color: #f3f2f2;
+  }
+
+  &__num {
+    overflow: hidden;
+    margin-top: $base-size;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__empty {
+    margin-top: 150px;
+  }
+
+  &__list {
+    height: 100vh;
+    padding-bottom: 100px;
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+
+    & .mobile-app-atoms-link-list-item {
+      &__item {
+        word-break: break-word;
+      }
+    }
+  }
+}

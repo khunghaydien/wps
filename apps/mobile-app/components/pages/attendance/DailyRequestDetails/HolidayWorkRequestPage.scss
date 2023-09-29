@@ -1,0 +1,25 @@
+.mobile-app-pages-attendance-daily-request-details-holiday-work-request-page {
+  &__item {
+    margin-bottom: 16px;
+
+    > * {
+      width: 100%;
+    }
+  }
+
+  &__date {
+    width: 100%;
+  }
+
+  &__time-range {
+    width: 100%;
+  }
+
+  &__type {
+    width: 100%;
+  }
+
+  &__remarks {
+    width: 100%;
+  }
+}

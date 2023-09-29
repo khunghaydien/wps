@@ -1,0 +1,56 @@
+.personal-vendor-list {
+  .react-grid-Main {
+    outline: none;
+  }
+
+  .react-grid-HeaderCell {
+    border: none;
+    background-color: #f4f6f9 !important;
+
+    .ts-exp-data-grid-filterable-header-cell.input {
+      height: 32px;
+    }
+
+    .form-group input {
+      border: 1px solid #ddd;
+      margin: 0;
+
+      :active {
+        outline: 0;
+        border-color: #1589ee;
+        background-color: #fff;
+        box-shadow: 0 0 3px #0070d2;
+      }
+    }
+  }
+
+  .react-grid-Row {
+    &:hover {
+      background-color: unset;
+    }
+  }
+
+  .react-grid-Cell {
+    .rdg-cell-action {
+      width: auto;
+    }
+
+    .rdg-cell-action-button {
+      display: flex;
+      width: 100%;
+      align-items: center;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:last-child:hover {
+      cursor: default;
+    }
+  }
+}

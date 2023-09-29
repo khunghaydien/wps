@@ -1,0 +1,51 @@
+@import '../../../../../commons/styles/wsp.scss';
+.admin-pc-job-job-assignment-dialogs-target-employees-selection-dialog {
+  overflow: visible;
+
+  &__body {
+    display: flex;
+    overflow: auto;
+    max-height: 30rem;
+    flex-flow: column nowrap;
+    padding: 0.5rem;
+
+    .rdg-selected {
+      border: none;
+    }
+
+    .react-grid-HeaderCell--frozen,
+    .rdg-last--frozen {
+      box-shadow: none !important;
+    }
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+  }
+
+  &__heading {
+    color: $color-text-modest;
+    font-size: 1.2rem;
+  }
+
+  &__search-form {
+    padding: 0.4rem 0 0.3rem;
+  }
+
+  &__selection-button {
+    min-width: 90px;
+    min-height: calc(1.875rem + (1px * 2));
+    margin: 1rem;
+    text-align: center;
+  }
+
+  &__selection-button button {
+    min-width: 90px;
+    min-height: calc(1.875rem + (1px * 2));
+  }
+
+  &__too-many-results {
+    color: color('error');
+  }
+}

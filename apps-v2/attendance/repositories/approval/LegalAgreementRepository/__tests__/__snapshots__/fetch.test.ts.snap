@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should do when monthly 1`] = `
+Object {
+  "historyList": Array [
+    Object {
+      "actorId": "actorId",
+      "actorName": "Actor Name",
+      "actorPhotoUrl": "actor-photo-url",
+      "approveTime": "2020-01-03 07:30",
+      "approverName": "Approver Name",
+      "comment": "History Comment",
+      "id": "historyId",
+      "isDelegated": false,
+      "isPending": false,
+      "status": "Approved",
+      "statusLabel": "Status Label",
+      "stepName": "Step Name",
+    },
+  ],
+  "legalAgreementWorkSystem": "Others",
+  "originalRequest": null,
+  "request": Object {
+    "changedOvertimeHoursLimit": 70,
+    "extensionCount": 1,
+    "extensionCountLimit": 6,
+    "id": "summaryId",
+    "measure": "残業",
+    "monthlyOvertimeHours": 60,
+    "monthlyOvertimeHours1MoAgo": 50,
+    "monthlyOvertimeHours2MoAgo": 30,
+    "overtimeHoursLimit": 100,
+    "reason": "忙しいから",
+    "requestableOvertimeHoursLimit": 120,
+    "specialMonthlyOvertimeHours": 70,
+    "specialMonthlyOvertimeHours1MoAgo": 80,
+    "specialMonthlyOvertimeHours2MoAgo": 90,
+    "status": "Pending",
+    "submitter": Object {
+      "delegator": Object {
+        "employee": Object {
+          "name": "Delegated Employee Name",
+        },
+      },
+      "employee": Object {
+        "code": "",
+        "department": Object {
+          "name": "",
+        },
+        "name": "Employee Name",
+        "photoUrl": "employee-photo-url",
+      },
+    },
+    "type": "Monthly",
+    "typeLabel": "月度",
+  },
+}
+`;
+
+exports[`should do when monthly with originRequest 1`] = `
+Object {
+  "historyList": Array [
+    Object {
+      "actorId": "actorId",
+      "actorName": "Actor Name",
+      "actorPhotoUrl": "actor-photo-url",
+      "approveTime": "2020-01-03 07:30",
+      "approverName": "Approver Name",
+      "comment": "History Comment",
+      "id": "historyId",
+      "isDelegated": false,
+      "isPending": false,
+      "status": "Approved",
+      "statusLabel": "Status Label",
+      "stepName": "Step Name",
+    },
+  ],
+  "legalAgreementWorkSystem": "Others",
+  "originalRequest": Object {
+    "changedOvertimeHoursLimit": 71,
+    "extensionCount": 2,
+    "extensionCountLimit": 7,
+    "id": "summaryIdOrg",
+    "measure": "残業Org",
+    "monthlyOvertimeHours": 61,
+    "monthlyOvertimeHours1MoAgo": 51,
+    "monthlyOvertimeHours2MoAgo": 31,
+    "overtimeHoursLimit": 101,
+    "reason": "忙しいからOrg",
+    "requestableOvertimeHoursLimit": 121,
+    "specialMonthlyOvertimeHours": 71,
+    "specialMonthlyOvertimeHours1MoAgo": 81,
+    "specialMonthlyOvertimeHours2MoAgo": 91,
+    "status": "Pending",
+    "submitter": Object {
+      "delegator": Object {
+        "employee": Object {
+          "name": "Delegated Employee Name Org",
+        },
+      },
+      "employee": Object {
+        "code": "",
+        "department": Object {
+          "name": "",
+        },
+        "name": "Employee Name Org",
+        "photoUrl": "employee-photo-url-org",
+      },
+    },
+    "type": "Monthly",
+    "typeLabel": "月度 Org",
+  },
+  "request": Object {
+    "changedOvertimeHoursLimit": 70,
+    "extensionCount": 1,
+    "extensionCountLimit": 6,
+    "id": "summaryId",
+    "measure": "残業",
+    "monthlyOvertimeHours": 60,
+    "monthlyOvertimeHours1MoAgo": 50,
+    "monthlyOvertimeHours2MoAgo": 30,
+    "overtimeHoursLimit": 100,
+    "reason": "忙しいから",
+    "requestableOvertimeHoursLimit": 120,
+    "specialMonthlyOvertimeHours": 70,
+    "specialMonthlyOvertimeHours1MoAgo": 80,
+    "specialMonthlyOvertimeHours2MoAgo": 90,
+    "status": "Pending",
+    "submitter": Object {
+      "delegator": Object {
+        "employee": Object {
+          "name": "Delegated Employee Name",
+        },
+      },
+      "employee": Object {
+        "code": "",
+        "department": Object {
+          "name": "",
+        },
+        "name": "Employee Name",
+        "photoUrl": "employee-photo-url",
+      },
+    },
+    "type": "Monthly",
+    "typeLabel": "月度",
+  },
+}
+`;
+
+exports[`should do when yearly 1`] = `
+Object {
+  "historyList": Array [
+    Object {
+      "actorId": "actorId",
+      "actorName": "Actor Name",
+      "actorPhotoUrl": "actor-photo-url",
+      "approveTime": "2020-01-03 07:30",
+      "approverName": "Approver Name",
+      "comment": "History Comment",
+      "id": "historyId",
+      "isDelegated": false,
+      "isPending": false,
+      "status": "Approved",
+      "statusLabel": "Status Label",
+      "stepName": "Step Name",
+    },
+  ],
+  "legalAgreementWorkSystem": "Others",
+  "originalRequest": null,
+  "request": Object {
+    "changedOvertimeHoursLimit": 70,
+    "id": "summaryId",
+    "measure": "残業",
+    "overtimeHoursLimit": 100,
+    "reason": "忙しいから",
+    "requestableOvertimeHoursLimit": 120,
+    "specialYearlyOvertimeHours": 70,
+    "specialYearlyOvertimeHours1YearAgo": 80,
+    "status": "Pending",
+    "submitter": Object {
+      "delegator": Object {
+        "employee": Object {
+          "name": "Delegated Employee Name",
+        },
+      },
+      "employee": Object {
+        "code": "",
+        "department": Object {
+          "name": "",
+        },
+        "name": "Employee Name",
+        "photoUrl": "employee-photo-url",
+      },
+    },
+    "type": "Yearly",
+    "typeLabel": "年度",
+    "yearlyOvertimeHours": 60,
+    "yearlyOvertimeHours1YearAgo": 50,
+  },
+}
+`;
+
+exports[`should do when yearly with originalRequest 1`] = `
+Object {
+  "historyList": Array [
+    Object {
+      "actorId": "actorId",
+      "actorName": "Actor Name",
+      "actorPhotoUrl": "actor-photo-url",
+      "approveTime": "2020-01-03 07:30",
+      "approverName": "Approver Name",
+      "comment": "History Comment",
+      "id": "historyId",
+      "isDelegated": false,
+      "isPending": false,
+      "status": "Approved",
+      "statusLabel": "Status Label",
+      "stepName": "Step Name",
+    },
+  ],
+  "legalAgreementWorkSystem": "Others",
+  "originalRequest": Object {
+    "changedOvertimeHoursLimit": 71,
+    "id": "summaryIdOrg",
+    "measure": "残業Org",
+    "overtimeHoursLimit": 101,
+    "reason": "忙しいからOrg",
+    "requestableOvertimeHoursLimit": 121,
+    "specialYearlyOvertimeHours": 71,
+    "specialYearlyOvertimeHours1YearAgo": 81,
+    "status": "Pending",
+    "submitter": Object {
+      "delegator": Object {
+        "employee": Object {
+          "name": "Delegated Employee Name Org",
+        },
+      },
+      "employee": Object {
+        "code": "",
+        "department": Object {
+          "name": "",
+        },
+        "name": "Employee Name Org",
+        "photoUrl": "employee-photo-url-org",
+      },
+    },
+    "type": "Yearly",
+    "typeLabel": "年度 Org",
+    "yearlyOvertimeHours": 61,
+    "yearlyOvertimeHours1YearAgo": 51,
+  },
+  "request": Object {
+    "changedOvertimeHoursLimit": 70,
+    "id": "summaryId",
+    "measure": "残業",
+    "overtimeHoursLimit": 100,
+    "reason": "忙しいから",
+    "requestableOvertimeHoursLimit": 120,
+    "specialYearlyOvertimeHours": 70,
+    "specialYearlyOvertimeHours1YearAgo": 80,
+    "status": "Pending",
+    "submitter": Object {
+      "delegator": Object {
+        "employee": Object {
+          "name": "Delegated Employee Name",
+        },
+      },
+      "employee": Object {
+        "code": "",
+        "department": Object {
+          "name": "",
+        },
+        "name": "Employee Name",
+        "photoUrl": "employee-photo-url",
+      },
+    },
+    "type": "Yearly",
+    "typeLabel": "年度",
+    "yearlyOvertimeHours": 60,
+    "yearlyOvertimeHours1YearAgo": 50,
+  },
+}
+`;

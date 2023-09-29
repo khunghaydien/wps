@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checkTimesheet should call 1`] = `Array []`;
+
+exports[`saveTimesheet should call 1`] = `Array []`;
+
+exports[`updateEndDate should call 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "endDate": "2023-01-31",
+      "startDate": "2023-01-01",
+    },
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/CREATE",
+  },
+]
+`;
+
+exports[`updateEndDate should calls with alert 1`] = `
+Array [
+  Object {
+    "payload": [Error: Error - The period must not exceed 1 month.
+If you want apply after Jan 31, 2023, please change the start date.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+  Object {
+    "payload": Object {
+      "endDate": "2023-02-28",
+      "startDate": "2023-01-01",
+    },
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/CREATE",
+  },
+]
+`;
+
+exports[`updateEndDate should calls with alert 2`] = `
+Array [
+  Object {
+    "payload": [Error: Error - The period must not exceed 1 month.
+If you want apply after Jan 31, 2023, please change the start date.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+  Object {
+    "payload": Object {
+      "endDate": "2022-12-31",
+      "startDate": "2023-01-01",
+    },
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/CREATE",
+  },
+]
+`;
+
+exports[`updateEndDate should calls with alert 3`] = `
+Array [
+  Object {
+    "payload": [Error: Error - The period must not exceed 1 month.
+If you want apply after Jan 31, 2023, please change the start date.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+  Object {
+    "payload": Object {
+      "endDate": "",
+      "startDate": "2023-01-01",
+    },
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/CREATE",
+  },
+]
+`;
+
+exports[`updateEndDate should calls with alert 4`] = `
+Array [
+  Object {
+    "payload": Object {
+      "endDate": null,
+      "startDate": "2023-01-01",
+    },
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/CREATE",
+  },
+]
+`;
+
+exports[`updateStartDate should call 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "endDate": "2023-01-31",
+      "startDate": "2023-01-01",
+    },
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/CREATE",
+  },
+]
+`;
+
+exports[`updateStartDate should calls with alert 1`] = `
+Array [
+  Object {
+    "payload": [Error: Error - The period must not exceed 1 month.
+If you want apply after Jan 31, 2023, please change the start date.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+  Object {
+    "payload": Object {
+      "endDate": "2023-02-28",
+      "startDate": "2023-01-01",
+    },
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/CREATE",
+  },
+]
+`;
+
+exports[`updateStartDate should calls with alert 2`] = `
+Array [
+  Object {
+    "payload": [Error: Error - The period must not exceed 1 month.
+If you want apply after Mar 31, 2023, please change the start date.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+  Object {
+    "payload": Object {
+      "endDate": "2023-02-28",
+      "startDate": "2023-03-01",
+    },
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/CREATE",
+  },
+]
+`;
+
+exports[`updateStartDate should calls with alert 3`] = `
+Array [
+  Object {
+    "payload": [Error: Error - The period must not exceed 1 month.
+If you want apply after , please change the start date.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+  Object {
+    "payload": Object {
+      "endDate": "2023-02-28",
+      "startDate": "",
+    },
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/CREATE",
+  },
+]
+`;
+
+exports[`updateStartDate should calls with alert 4`] = `
+Array [
+  Object {
+    "payload": [Error: Error - The period must not exceed 1 month.
+If you want apply after , please change the start date.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+  Object {
+    "payload": Object {
+      "endDate": "2023-02-28",
+      "startDate": null,
+    },
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/CREATE",
+  },
+]
+`;

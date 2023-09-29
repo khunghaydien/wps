@@ -1,0 +1,20 @@
+.mobile-app-components-molecules-commons-advsearch-date-filter {
+  &__option-item {
+    padding: 0 16px;
+    height: 48px;
+    background-color: #fff;
+  }
+
+  &__select-date {
+    margin-left: auto;
+
+    &-check-icon {
+      width: 18px;
+      height: 10px;
+      margin-left: 10px;
+      path {
+        fill: #0070d2;
+      }
+    }
+  }
+}

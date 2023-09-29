@@ -1,0 +1,12 @@
+@import '../../../../../commons/styles/wsp.scss';
+
+.admin-pc-job-type-detail-work-category-search-dialog {
+  &__body {
+    padding: 20px;
+  }
+
+  &__too-many-results {
+    margin-top: 5px;
+    color: color('error');
+  }
+}

@@ -1,0 +1,1450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectListContainer with Too Many Results it has TOO MANY RESULTS 1`] = `
+<div
+  className="ts-psa__first-screen"
+>
+  <div
+    className="ts-psa__first-screen__list-container"
+  >
+    <div
+      className="slds-grid ts-psa__list-header"
+    >
+      <div
+        className="slds-col slds-size--2-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__project-code"
+        >
+          {$Psa_Clbl_ProjectCode}
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--2-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__title"
+        >
+          Project Title
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__client"
+        >
+          Client
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--2-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__department"
+        >
+          Project Department
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--2-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__manager"
+        >
+          Project Manager
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__status"
+        >
+          Status
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__start-date"
+        >
+          Start Date
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__end-date"
+        >
+          End Date
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      className="ts-psa__list-body"
+    >
+      <div
+        className="ts-psa__list-item"
+        data-testid="ts-psa__list-item--0"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__code"
+            >
+              TDC
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__title"
+            >
+              TD QA Project
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__dept"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__manager"
+            >
+              Sista Aadmi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__status is-in-progress"
+            >
+              In Progress
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__start-date"
+            >
+              01/25/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__end-date"
+            >
+              01/25/2023
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ts-psa__first-screen-too-many-results"
+    >
+      Too many search results. Please refine your search criteria and try again.
+    </div>
+    <div
+      className="ts-pager ts-psa__first-screen__list-pager"
+    >
+      <div
+        className="ts-pager-cutom-page-size"
+      >
+        <select
+          onChange={[Function]}
+        >
+          <option
+            disabled={false}
+            value={10}
+          >
+            10
+          </option>
+          <option
+            disabled={false}
+            value={20}
+          >
+            20
+          </option>
+          <option
+            disabled={false}
+            value={30}
+          >
+            30
+          </option>
+          <option
+            disabled={false}
+            value={40}
+          >
+            40
+          </option>
+          <option
+            disabled={false}
+            value={50}
+          >
+            50
+          </option>
+        </select>
+      </div>
+      <div
+        className="ts-pager-info ts-pager-page-info"
+      >
+        Displaying 991 to 1000 of 90000 results
+      </div>
+      <div
+        className="ts-pager__page"
+      >
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item-arrow-prev"
+          >
+            <a
+              href={null}
+              onClick={[Function]}
+            >
+              <test-file-stub />
+            </a>
+          </div>
+        </div>
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item"
+          >
+            <a
+              href={null}
+              onClick={[Function]}
+            >
+              1
+            </a>
+          </div>
+        </div>
+        <div>
+          ...
+        </div>
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item"
+          >
+            <a
+              href={null}
+              onClick={[Function]}
+            >
+              96
+            </a>
+          </div>
+        </div>
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item"
+          >
+            <a
+              href={null}
+              onClick={[Function]}
+            >
+              97
+            </a>
+          </div>
+        </div>
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item"
+          >
+            <a
+              href={null}
+              onClick={[Function]}
+            >
+              98
+            </a>
+          </div>
+        </div>
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item"
+          >
+            <a
+              href={null}
+              onClick={[Function]}
+            >
+              99
+            </a>
+          </div>
+        </div>
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item-active"
+          >
+            100
+          </div>
+        </div>
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item-arrow"
+          >
+            <test-file-stub />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProjectListContainer with empty screen it has Zero RESULTS 1`] = `
+<div
+  className="ts-psa__first-screen"
+>
+  <div
+    className="ts-psa__empty-screen"
+  >
+    <div
+      className="ts-psa__empty-screen__header"
+    >
+      <span>
+        Looks like there are no projects here.
+      </span>
+    </div>
+    <div
+      className="ts-psa__empty-screen__body"
+    >
+      <span>
+        Create your project.
+        <br />
+      </span>
+      <span>
+        Once you do, this page will show the project list.
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProjectListScreenContainer Test it renders without crashing 1`] = `
+<div
+  className="ts-psa__first-screen"
+>
+  <div
+    className="ts-psa__first-screen__list-container"
+  >
+    <div
+      className="slds-grid ts-psa__list-header"
+    >
+      <div
+        className="slds-col slds-size--2-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__project-code"
+        >
+          {$Psa_Clbl_ProjectCode}
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--2-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__title"
+        >
+          Project Title
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__client"
+        >
+          Client
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--2-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__department"
+        >
+          Project Department
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--2-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__manager"
+        >
+          Project Manager
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__status"
+        >
+          Status
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__start-date"
+        >
+          Start Date
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-psa__list-header__end-date"
+        >
+          End Date
+           
+          <test-file-stub
+            className="ts-psa__list-header__sort-icon"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      className="ts-psa__list-body"
+    >
+      <div
+        className="ts-psa__list-item"
+        data-testid="ts-psa__list-item--0"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__code"
+            >
+              TDC
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__title"
+            >
+              TD QA Project
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__dept"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__manager"
+            >
+              Sista Aadmi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__status is-in-progress"
+            >
+              In Progress
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__start-date"
+            >
+              01/25/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__end-date"
+            >
+              01/25/2023
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__list-item"
+        data-testid="ts-psa__list-item--1"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__code"
+            >
+              TDC
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__title"
+            >
+              Auto Project 1644212831St
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__dept"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__manager"
+            >
+              Sista Aadmi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__status is-in-progress"
+            >
+              In Progress
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__start-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__end-date"
+            >
+              12/31/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__list-item"
+        data-testid="ts-psa__list-item--2"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__code"
+            >
+              TDC
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__title"
+            >
+              Auto Project 1644214630St
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__dept"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__manager"
+            >
+              Sista Aadmi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__status is-in-progress"
+            >
+              In Progress
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__start-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__end-date"
+            >
+              12/31/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__list-item"
+        data-testid="ts-psa__list-item--3"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__code"
+            >
+              TDC
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__title"
+            >
+              Auto Project 1644215151St
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__dept"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__manager"
+            >
+              Sista Aadmi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__status is-in-progress"
+            >
+              In Progress
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__start-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__end-date"
+            >
+              12/31/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__list-item"
+        data-testid="ts-psa__list-item--4"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__code"
+            >
+              TDJOB001
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__title"
+            >
+              Test -2561
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__dept"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__manager"
+            >
+              Sista Aadmi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__status is-in-progress"
+            >
+              In Progress
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__start-date"
+            >
+              02/04/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__end-date"
+            >
+              02/28/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__list-item"
+        data-testid="ts-psa__list-item--5"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__code"
+            >
+              TDJOB001
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__title"
+            >
+              Project Activity1644212960
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__dept"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__manager"
+            >
+              Sista Aadmi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__status is-in-progress"
+            >
+              In Progress
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__start-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__end-date"
+            >
+              07/07/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__list-item"
+        data-testid="ts-psa__list-item--6"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__code"
+            >
+              TDJOB001
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__title"
+            >
+              Scheduling 1644212999
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__dept"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__manager"
+            >
+              Sista Aadmi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__status is-in-progress"
+            >
+              In Progress
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__start-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__end-date"
+            >
+              03/07/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__list-item"
+        data-testid="ts-psa__list-item--7"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__code"
+            >
+              TDJOB001
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__title"
+            >
+              Rescheduling 1644213008
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__dept"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__manager"
+            >
+              Sista Aadmi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__status is-in-progress"
+            >
+              In Progress
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__start-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__end-date"
+            >
+              12/31/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__list-item"
+        data-testid="ts-psa__list-item--8"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__code"
+            >
+              TDJOB001
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__title"
+            >
+              COMMENT 1644213110
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__dept"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__manager"
+            >
+              Sista Aadmi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__status is-in-progress"
+            >
+              In Progress
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__start-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__end-date"
+            >
+              02/21/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__list-item"
+        data-testid="ts-psa__list-item--9"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__code"
+            >
+              TDJOB001
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__title"
+            >
+              Edit Schedule 1644213404
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__dept"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__manager"
+            >
+              Sista Aadmi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__status is-in-progress"
+            >
+              In Progress
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__start-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-psa__list-item__end-date"
+            >
+              04/07/2022
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ts-pager ts-psa__first-screen__list-pager"
+    >
+      <div
+        className="ts-pager-cutom-page-size"
+      >
+        <select
+          onChange={[Function]}
+        >
+          <option
+            disabled={false}
+            value={10}
+          >
+            10
+          </option>
+          <option
+            disabled={false}
+            value={20}
+          >
+            20
+          </option>
+          <option
+            disabled={false}
+            value={30}
+          >
+            30
+          </option>
+          <option
+            disabled={false}
+            value={40}
+          >
+            40
+          </option>
+          <option
+            disabled={false}
+            value={50}
+          >
+            50
+          </option>
+        </select>
+      </div>
+      <div
+        className="ts-pager-info ts-pager-page-info"
+      >
+        Displaying 21 to 24 of 24 results
+      </div>
+      <div
+        className="ts-pager__page"
+      >
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item-arrow-prev"
+          >
+            <a
+              href={null}
+              onClick={[Function]}
+            >
+              <test-file-stub />
+            </a>
+          </div>
+        </div>
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item"
+          >
+            <a
+              href={null}
+              onClick={[Function]}
+            >
+              1
+            </a>
+          </div>
+        </div>
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item"
+          >
+            <a
+              href={null}
+              onClick={[Function]}
+            >
+              2
+            </a>
+          </div>
+        </div>
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item-active"
+          >
+            3
+          </div>
+        </div>
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item-arrow"
+          >
+            <test-file-stub />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,56 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-expense-report-summary {
+  width: 100%;
+  padding-top: $extra-small-size;
+  padding-bottom: $extra-small-size;
+  font-size: $medium-size;
+
+  &__subject {
+    width: 100%;
+    text-align: left;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    color: $color-gray-600;
+    font-size: $small-size;
+    text-align: center;
+  }
+
+  &__bottom {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    &__date {
+      display: flex;
+      width: 260px;
+      align-items: center;
+      align-self: flex-end;
+      color: $color-blue-800;
+      font-size: $small-size;
+      line-height: 0;
+      min-width: fit-content;
+    }
+
+    &__date-title,
+    &__date-icon {
+      margin-right: $base-size;
+    }
+
+    &__amount {
+      width: calc(100% - 150px);
+      text-align: right;
+    }
+  }
+
+  &__status {
+    svg {
+      width: auto !important;
+      height: auto !important;
+    }
+  }
+}

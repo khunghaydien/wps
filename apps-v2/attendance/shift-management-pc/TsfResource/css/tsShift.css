@@ -1,0 +1,252 @@
+@charset "UTF-8";
+#big_area div, #big_area td, #big_area input, #big_area textarea, #big_area select {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+div.dijitArrowButtonInner, div.holyIcon, div.pattern {
+  box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  -webkit-box-sizing: content-box !important;
+}
+
+#shiftTopView {
+  position: relative;
+}
+#shiftTopView > table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #256499;
+}
+#shiftTopView > table > tbody > tr {
+  height: 30px;
+}
+#shiftTopView > table > tbody > tr > td {
+  padding: 0px;
+}
+#shiftTopView > table > tbody > tr > td.ts-top-logo {
+  width: 60px;
+}
+#shiftTopView > table > tbody > tr > td.ts-top-logo div {
+  background: url("../img/Icon_shift.png") no-repeat;
+  width: 31px;
+  height: 23px;
+  margin-left: 16px;
+}
+#shiftTopView > table > tbody > tr > td.ts-top-logo div.work-list {
+  background-position: 0pxpx;
+  position: relative;
+}
+#shiftTopView > table > tbody > tr > td.ts-top-title {
+  width: auto;
+  text-align: left;
+}
+#shiftTopView > table > tbody > tr > td.ts-top-title > div.main-title {
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 0px;
+  white-space: nowrap;
+  text-align: left;
+}
+#shiftTopView > table > tbody > tr > td.ts-top-title > div.sub-title {
+  color: #8aadc9;
+  font-size: 10px;
+  white-space: nowrap;
+  text-align: left;
+}
+#shiftTopView > table > tbody > tr > td.ts-top-button1 {
+  width: 69px;
+}
+#shiftTopView > table > tbody > tr > td.ts-top-button1 a {
+  display: block;
+  text-decoration: none;
+  background: url("../img/p_images.png") no-repeat;
+  background-position: -128px -262px;
+  margin: 0px 3px 1px 3px;
+  padding: 0px;
+  width: 63px;
+  height: 29px;
+}
+#shiftTopView > table > tbody > tr > td.ts-top-button5 {
+  width: 69px;
+}
+#shiftTopView > table > tbody > tr > td.ts-top-button5 a {
+  display: block;
+  text-decoration: none;
+  background: url("../img/p_images.png") no-repeat;
+  background-position: -192px -262px;
+  margin: 0px 3px 1px 3px;
+  padding: 0px;
+  width: 63px;
+  height: 29px;
+}
+#shiftTopView > table > tbody > tr > td.ts-top-button3 {
+  width: 69px;
+}
+#shiftTopView > table > tbody > tr > td.ts-top-button3 a {
+  display: block;
+  text-decoration: none;
+  background: url("../img/p_images.png") no-repeat;
+  background-position: -256px -262px;
+  margin: 0px 3px 1px 3px;
+  padding: 0px;
+  width: 63px;
+  height: 29px;
+}
+#shiftTopView > table > tbody > tr > td.ts-top-last {
+  width: 30px;
+}
+
+#workArea div.shift-label, #shiftCsvImportDialog div.shift-label, #shiftPrintMain div.shift-label {
+  margin-right: 8px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+#workArea div.shift-value, #shiftCsvImportDialog div.shift-value, #shiftPrintMain div.shift-value {
+  margin-right: 8px;
+}
+
+#big_area input[type="button"].normalbtn, div.dlg_content input[type="button"].normalbtn {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 4px 10px;
+  background: #108dc5;
+  color: white;
+  cursor: pointer;
+  margin-left: 4px;
+  margin-right: 4px;
+  white-space: nowrap;
+  border: none;
+  font-size: 12px;
+  font-weight: normal;
+}
+#big_area input[type="button"].normalbtn:hover, div.dlg_content input[type="button"].normalbtn:hover {
+  background-color: #7acef4;
+}
+#big_area input[type="button"].cancelbtn, div.dlg_content input[type="button"].cancelbtn {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 4px 10px;
+  background: transparent;
+  text-decoration: underline;
+  color: #004d8f;
+  cursor: pointer;
+  margin-left: 4px;
+  margin-right: 4px;
+  white-space: nowrap;
+  border: none;
+  font-size: 12px;
+  font-weight: normal;
+}
+#big_area input[type="button"].cancelbtn:hover, div.dlg_content input[type="button"].cancelbtn:hover {
+  background: #f1f5f8;
+  color: #2727e7;
+}
+#big_area input[type="button"].deletebtn, div.dlg_content input[type="button"].deletebtn {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 4px 10px;
+  background: #f09199;
+  color: white;
+  cursor: pointer;
+  margin-left: 4px;
+  margin-right: 4px;
+  white-space: nowrap;
+  border: none;
+  font-size: 12px;
+  font-weight: normal;
+}
+#big_area input[type="button"].deletebtn:hover, div.dlg_content input[type="button"].deletebtn:hover {
+  background: #eebbcb;
+}
+#big_area input[type="button"]:disabled, div.dlg_content input[type="button"]:disabled {
+  background-color: #c8cdd0 !important;
+  color: white !important;
+  cursor: default;
+  text-decoration: none !important;
+}
+#big_area input[type="button"]:disabled:hover, div.dlg_content input[type="button"]:disabled:hover {
+  background-color: #c8cdd0 !important;
+}
+#big_area input[type="button"]:disabled:active, div.dlg_content input[type="button"]:disabled:active {
+  background-color: #c8cdd0 !important;
+}
+#big_area input[type="button"].loupe, div.dlg_content input[type="button"].loupe {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 4px 10px;
+  background: #108dc5;
+  color: white;
+  cursor: pointer;
+  margin-left: 4px;
+  margin-right: 4px;
+  white-space: nowrap;
+  border: none;
+  font-size: 12px;
+  font-weight: normal;
+  width: 30px;
+  height: 22px;
+  background-image: url("../img/icon_search.png");
+  background-repeat: no-repeat;
+}
+#big_area input[type="button"].loupe:hover, div.dlg_content input[type="button"].loupe:hover {
+  background-color: #7acef4;
+}
+#big_area div, #big_area input, div.dlg_content div, div.dlg_content input {
+  font-family: Meiryo, "メイリオ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif !important;
+}
+
+div.dlg_content tr.shift_normal_day td > div, div.dlg_content tr.shift_day_type td > div {
+  display: inline-block;
+}
+div.dlg_content tr.shift_normal_day td *, div.dlg_content tr.shift_day_type td * {
+  vertical-align: middle;
+}
+
+#selectDeptTbody tr.ts-row-odd {
+  background-color: #f4f7fa;
+}
+#selectDeptTbody tr.ts-row-even {
+  background-color: #fefefe;
+}
+#selectDeptTbody tr td {
+  font-family: Meiryo, "メイリオ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif !important;
+}
+#selectDeptTbody tr:hover {
+  background-color: #dff1f4;
+}
+
+#empSelectTbody div {
+  word-break: break-all;
+}
+
+#shiftImportErrorLink a {
+  cursor: pointer;
+  color: red;
+  text-decoration: underline;
+}
+
+div.shift-csv-upload {
+  margin-bottom: 8px;
+}
+div.shift-csv-upload input[type="file"] {
+  font-family: Meiryo, "メイリオ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif !important;
+  font-size: 96%;
+  width: 300px;
+  padding: 0px;
+}
+
+div.shift-file-help {
+  margin: 0px 4px;
+  padding: 0px 4px;
+}
+div.shift-file-help > div {
+  white-space: nowrap;
+  font-family: Meiryo, "メイリオ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif !important;
+  font-size: 90%;
+}

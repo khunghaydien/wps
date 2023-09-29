@@ -1,0 +1,66 @@
+@import '../../../commons/styles/wsp';
+@import '../../../commons/styles/exp/variables/colors';
+
+.approvals-pc-expenses-request-pane-detail__records-area-record__body-mileage-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  &-map {
+    width: 90%;
+    height: 225px;
+    margin-bottom: 24px;
+  }
+
+  &-destination-list {
+    position: relative;
+    list-style: none;
+    z-index: 1;
+    padding-bottom: 16px;
+    border-bottom: 1px solid $color-div-border-gray;
+
+    &-item {
+      padding-bottom: 16px;
+      position: relative;
+      display: flex;
+      &::before {
+        content: '';
+        position: absolute;
+        border-left: 2px solid $color-text-secondary-gray;
+        z-index: 1;
+        top: 15px;
+        height: calc(100% - 10px);
+        left: 4.5px;
+      }
+
+      &-indicator {
+        border-radius: 50%;
+        border: 2px solid $color-text-secondary-gray;
+        min-width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        background: rgb(248, 248, 248);
+        margin-top: 5px;
+      }
+
+      &:last-child {
+        padding-bottom: 0;
+        &::before {
+          content: none;
+        }
+      }
+
+      &:last-child &-indicator {
+        border: 1px solid $ts-warning;
+        background-color: $ts-warning;
+        &::before {
+          content: none !important;
+        }
+      }
+    }
+  }
+
+  &-details {
+    padding: 16px 0;
+    border-bottom: 1px solid $color-div-border-gray;
+  }
+}

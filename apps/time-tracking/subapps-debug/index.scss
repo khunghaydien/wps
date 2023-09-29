@@ -1,0 +1,39 @@
+.subapps-debug {
+  padding: 20px;
+
+  h1.title {
+    font-size: 2.5em;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  &__section {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  &__menu {
+    width: 20em;
+  }
+
+  &__menu__section {
+    padding: 8px 0;
+  }
+
+  &__menu__items {
+    padding: 4px 12px;
+  }
+
+  &__menu__item {
+    display: block;
+    padding: 2px 0;
+    font-size: 1.25em;
+  }
+
+  &__content {
+    flex-grow: 1;
+    padding: 24px;
+  }
+}

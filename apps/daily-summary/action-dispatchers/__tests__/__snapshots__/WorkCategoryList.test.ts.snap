@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`clear() should clear state 1`] = `
+Array [
+  Object {
+    "type": "/DAILY-SUMMARY/ENTITIES/WORK_CATEGORIES/CLEAR",
+  },
+  Object {
+    "payload": undefined,
+    "type": "/DAILY-SUMMARY/UI/WORK_CATEGORY_LIST/CLEAR",
+  },
+]
+`;
+
+exports[`load() should load work categories over network 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "entities": Object {
+        "workCategories": Object {
+          "1": Object {
+            "code": "A1",
+            "id": "1",
+            "name": "WC1",
+          },
+          "2": Object {
+            "code": "B2",
+            "id": "2",
+            "name": "WC2",
+          },
+          "3": Object {
+            "code": "C3",
+            "id": "3",
+            "name": "WC3",
+          },
+        },
+      },
+      "result": Array [
+        "1",
+        "2",
+        "3",
+      ],
+    },
+    "type": "/DAILY-SUMMARY/ENTITIES/WORK_CATEGORIES/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "jobId": "abc",
+      "targetDate": "2019-10-10",
+      "workCategoryIds": Array [
+        "1",
+        "2",
+        "3",
+      ],
+    },
+    "type": "/DAILY-SUMMARY/UI/WORK_CATEGORY_LIST/ADD",
+  },
+]
+`;

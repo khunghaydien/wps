@@ -1,0 +1,21 @@
+.commons-fixed-header-table {
+  font-size: $font-size-small;
+
+  &__fixed {
+    position: relative;
+  }
+
+  &__fixed::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: calc(100% - 1px);
+    background-color: $color-bg-heading;
+    content: '';
+  }
+
+  &__scrollable {
+    overflow-y: scroll;
+  }
+}

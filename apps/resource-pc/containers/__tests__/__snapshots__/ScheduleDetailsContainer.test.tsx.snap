@@ -1,0 +1,770 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScheduleDetailsContainer Test it renders without crashing 1`] = `
+<div
+  className="ts-psa__schedule-details"
+>
+  <div
+    className="ts-psa__common-header"
+  >
+    <div
+      className="ts-psa__common-header-left"
+    >
+      <span
+        className="ts-psa__common-header-breadcrumb"
+      >
+        <span
+          className="ts-psa__common-header-breadcrumb-link"
+          data-testid="ts-psa__common-header-breadcrumb--0"
+          onClick={[Function]}
+        >
+          Resource Requests
+        </span>
+        <span
+          className="ts-psa__common-header-breadcrumb-separator"
+        >
+          &gt;
+        </span>
+        <span
+          className="ts-psa__common-header-breadcrumb-link"
+          data-testid="ts-psa__common-header-breadcrumb--1"
+          onClick={[Function]}
+        >
+          Copy of Copy of role 1
+        </span>
+        <span
+          className="ts-psa__common-header-breadcrumb-separator"
+        >
+          &gt;
+        </span>
+        <span
+          className="value"
+          data-testid="ts-psa__common-header-breadcrumb--2"
+          onClick={null}
+        >
+          Resource Selection
+        </span>
+      </span>
+      <span
+        className="ts-psa__common-header-title"
+      >
+        25 Jan 2022
+  - 05 Feb 2022
+      </span>
+    </div>
+    <div
+      className="ts-psa__common-header__btn-area"
+    >
+      <div
+        className="ts-psa__resource-planner__view-selector"
+      >
+        <div
+          className="ts-psa__resource-planner__view-selector__select-view-mode"
+        >
+          <button
+            className="is-active ts-button ts-button--default"
+            data-testid="ts-psa__resource-planner__view-selector__btn--day"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                Day
+              </span>
+            </div>
+          </button>
+          <button
+            className="ts-button ts-button--default"
+            data-testid="ts-psa__resource-planner__view-selector__btn--week"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                Week
+              </span>
+            </div>
+          </button>
+          <button
+            className="ts-button ts-button--default"
+            data-testid="ts-psa__resource-planner__view-selector__btn--month"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                Month
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          className="ts-psa__resource-planner__view-selector__extra-btn"
+        >
+          <button
+            className="ts-psa__resource-planner__view-selector__today-btn ts-button ts-button--default"
+            data-testid="ts-psa__resource-planner__view-selector__btn--today"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                Today
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          className="ts-psa__resource-planner__view-selector__view-window"
+        >
+          <button
+            className="ts-button ts-button--default"
+            data-testid="ts-psa__resource-planner__view-selector__btn--prev"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                <test-file-stub />
+              </span>
+            </div>
+          </button>
+          <div
+            className="commons-fields-date-field"
+            data-testid=""
+          >
+            <div>
+              <div
+                className="react-datepicker-wrapper"
+              >
+                <div
+                  className="react-datepicker__input-container"
+                >
+                  <button
+                    className="ts-psa__resource-planner__view-selector__btn--calendar ts-button ts-button--default"
+                    data-testid="ts-psa__resource-planner__view-selector__btn--calendar"
+                    disabled={true}
+                    onClick={[Function]}
+                    type="button"
+                    value=""
+                  >
+                    <div
+                      className="ts-button__contents"
+                    >
+                      <span
+                        className="ts-button__text"
+                      >
+                        <test-file-stub
+                          className="ts-psa__resource-planner__view-selector__calendar-icon"
+                          onClick={[Function]}
+                        />
+                      </span>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            className="ts-button ts-button--default"
+            data-testid="ts-psa__resource-planner__view-selector__btn--next"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                <test-file-stub />
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ts-psa__role-details__header-info js-is-expanded"
+  >
+    <button
+      className="ts-psa__role-details__header-info--buttons"
+      onClick={[Function]}
+    >
+      <span
+        className="ts-psa__role-details__header-info__toggle-icon-bg"
+      >
+        <test-file-stub
+          className="ts-psa__role-details__header-info__toggle-icon"
+        />
+      </span>
+      <span>
+        Close {$Psa_Clbl_ProjectRole} Request Details
+      </span>
+    </button>
+    <div
+      className="ts-psa__role-details__header-info__column"
+    >
+      <span
+        className="ts-psa__role-details__header-info-item"
+      >
+        <label
+          className="ts-psa__role-details__header-info-label"
+        >
+          Duration
+          :
+        </label>
+        01/25/2022 - 02/24/2022
+      </span>
+      <span
+        className="ts-psa__role-details__header-info-item"
+      >
+        <label
+          className="ts-psa__role-details__header-info-label"
+        >
+          {$Psa_Clbl_ProjectRole} Title
+          :
+        </label>
+        Copy of Copy of role 1
+      </span>
+      <span
+        className="ts-psa__role-details__header-info-item ts-psa__role-details__header-info-skills"
+      >
+        <label
+          className="ts-psa__role-details__header-info-label"
+        >
+          Skills
+          :
+        </label>
+        <div
+          className="ts-psa__role-details__header-info-remarks-content"
+        />
+      </span>
+    </div>
+    <div
+      className="ts-psa__role-details__header-info__column"
+    >
+      <span
+        className="ts-psa__role-details__header-info-item"
+      >
+        <label
+          className="ts-psa__role-details__header-info-label"
+        >
+          Required Effort
+          :
+        </label>
+        18 Hours
+      </span>
+      <span
+        className="ts-psa__role-details__header-info-item"
+      >
+        <label
+          className="ts-psa__role-details__header-info-label"
+        >
+          {$Psa_Clbl_JobGrade}
+          :
+        </label>
+        TD Job Grade Level 1/  1000
+      </span>
+      <span
+        className="ts-psa__role-details__header-info-item ts-psa__role-details__header-info-remarks"
+      >
+        <label
+          className="ts-psa__role-details__header-info-label"
+        >
+          Description
+          :
+        </label>
+        <div
+          className="ts-psa__role-details__header-info-remarks-content"
+        >
+          -
+        </div>
+      </span>
+    </div>
+  </div>
+  <div
+    className="ts-psa__schedule-details__content-container"
+  >
+    <div
+      className="ts-psa__schedule-details__schedule-container"
+    >
+      <div
+        className="ts-psa__schedule-details__schedule-header"
+      >
+        <div
+          className="ts-psa__schedule-details__schedule-header__first-column"
+        />
+        <div
+          className="ts-psa__schedule-details__schedule-header__values"
+        >
+          <div
+            className="ts-psa__schedule-details__schedule-header__total-hours"
+          >
+            Total Hours
+          </div>
+          <span
+            className="ts-psa__schedule-details__schedule-header__value "
+          >
+            <span
+              className="ts-psa__schedule-details__schedule-dayname"
+            >
+              Tue
+            </span>
+            <span
+              className="ts-psa__schedule-details__schedule-daynum"
+            >
+              25
+            </span>
+          </span>
+          <span
+            className="ts-psa__schedule-details__schedule-header__value "
+          >
+            <span
+              className="ts-psa__schedule-details__schedule-dayname"
+            >
+              Wed
+            </span>
+            <span
+              className="ts-psa__schedule-details__schedule-daynum"
+            >
+              26
+            </span>
+          </span>
+          <span
+            className="ts-psa__schedule-details__schedule-header__value "
+          >
+            <span
+              className="ts-psa__schedule-details__schedule-dayname"
+            >
+              Thu
+            </span>
+            <span
+              className="ts-psa__schedule-details__schedule-daynum"
+            >
+              27
+            </span>
+          </span>
+          <span
+            className="ts-psa__schedule-details__schedule-header__value "
+          >
+            <span
+              className="ts-psa__schedule-details__schedule-dayname"
+            >
+              Fri
+            </span>
+            <span
+              className="ts-psa__schedule-details__schedule-daynum"
+            >
+              28
+            </span>
+          </span>
+          <span
+            className="ts-psa__schedule-details__schedule-header__value js-is-sat"
+          >
+            <span
+              className="ts-psa__schedule-details__schedule-dayname"
+            >
+              Sat
+            </span>
+            <span
+              className="ts-psa__schedule-details__schedule-daynum"
+            >
+              29
+            </span>
+          </span>
+          <span
+            className="ts-psa__schedule-details__schedule-header__value js-is-sun"
+          >
+            <span
+              className="ts-psa__schedule-details__schedule-dayname"
+            >
+              Sun
+            </span>
+            <span
+              className="ts-psa__schedule-details__schedule-daynum"
+            >
+              30
+            </span>
+          </span>
+          <span
+            className="ts-psa__schedule-details__schedule-header__value "
+          >
+            <span
+              className="ts-psa__schedule-details__schedule-dayname"
+            >
+              Mon
+            </span>
+            <span
+              className="ts-psa__schedule-details__schedule-daynum"
+            >
+              31
+            </span>
+          </span>
+          <span
+            className="ts-psa__schedule-details__schedule-header__value "
+          >
+            <span
+              className="ts-psa__schedule-details__schedule-dayname"
+            >
+              Tue
+            </span>
+            <span
+              className="ts-psa__schedule-details__schedule-daynum"
+            >
+              1
+            </span>
+          </span>
+          <span
+            className="ts-psa__schedule-details__schedule-header__value "
+          >
+            <span
+              className="ts-psa__schedule-details__schedule-dayname"
+            >
+              Wed
+            </span>
+            <span
+              className="ts-psa__schedule-details__schedule-daynum"
+            >
+              2
+            </span>
+          </span>
+          <span
+            className="ts-psa__schedule-details__schedule-header__value "
+          >
+            <span
+              className="ts-psa__schedule-details__schedule-dayname"
+            >
+              Thu
+            </span>
+            <span
+              className="ts-psa__schedule-details__schedule-daynum"
+            >
+              3
+            </span>
+          </span>
+          <span
+            className="ts-psa__schedule-details__schedule-header__value "
+          >
+            <span
+              className="ts-psa__schedule-details__schedule-dayname"
+            >
+              Fri
+            </span>
+            <span
+              className="ts-psa__schedule-details__schedule-daynum"
+            >
+              4
+            </span>
+          </span>
+          <span
+            className="ts-psa__schedule-details__schedule-header__value js-is-sat"
+          >
+            <span
+              className="ts-psa__schedule-details__schedule-dayname"
+            >
+              Sat
+            </span>
+            <span
+              className="ts-psa__schedule-details__schedule-daynum"
+            >
+              5
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        className="ts-psa__schedule-details__schedule-body"
+      >
+        <div
+          className="ts-psa__resource-planner__resource-list-item"
+          data-testid="ts-psa__schedule-details__booked-schedule"
+        >
+          <div
+            className="ts-psa__resource-planner__resource-list-item__resources"
+          >
+            <div
+              className="ts-psa__resource-planner__resource-list-item__first-column"
+            >
+              <div
+                className="ts-psa__resource-planner__resource-list-item__resource-item-info"
+              >
+                <span
+                  className="ts-psa__resource-planner__resource-list-item__resource-item-info__first-row"
+                />
+                <span
+                  className="ts-psa__resource-planner__resource-list-item__resource-item-info__second-row"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="ts-psa__resource-planner__resource-list-item__values"
+          >
+            <div
+              className="ts-psa__resource-planner__resource-list-item__total-hours"
+            >
+              0
+            </div>
+            <span
+              className="ts-psa__resource-planner__resource-list-item__background undefined"
+            >
+              <span
+                className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable"
+              >
+                8
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-planner__resource-list-item__background undefined"
+            >
+              <span
+                className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable"
+              >
+                8
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-planner__resource-list-item__background undefined"
+            >
+              <span
+                className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable"
+              >
+                8
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-planner__resource-list-item__background undefined"
+            >
+              <span
+                className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable"
+              >
+                8
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-planner__resource-list-item__background undefined"
+            >
+              <span
+                className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable"
+              >
+                -
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-planner__resource-list-item__background undefined"
+            >
+              <span
+                className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable"
+              >
+                -
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-planner__resource-list-item__background undefined"
+            >
+              <span
+                className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable"
+              >
+                8
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-planner__resource-list-item__background undefined"
+            >
+              <span
+                className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable"
+              >
+                8
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-planner__resource-list-item__background undefined"
+            >
+              <span
+                className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable"
+              >
+                8
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-planner__resource-list-item__background undefined"
+            >
+              <span
+                className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable"
+              >
+                8
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-planner__resource-list-item__background undefined"
+            >
+              <span
+                className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable"
+              >
+                8
+              </span>
+            </span>
+            <span
+              className="ts-psa__resource-planner__resource-list-item__background undefined"
+            >
+              <span
+                className="ts-psa__resource-planner__resource-list-item__booked-hour-value is-notAvailable"
+              >
+                -
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ts-psa__schedule-details__strategy-details__schedule-strategy-form"
+    >
+      <div
+        className="ts-psa__schedule-details__strategy-details__schedule-strategy-form-header"
+      >
+        Scheduling Details
+      </div>
+      <div
+        className="ts-psa__schedule-details__strategy-details__schedule-strategy-form-body"
+      >
+        <div
+          className="ts-psa__schedule-details__strategy-details__schedule-strategy-form-body__row"
+        >
+          <div
+            className="ts-psa__schedule-details__strategy-details__schedule-strategy-form-body__dropdown"
+          >
+            <span
+              className="label"
+            >
+              Strategy
+            </span>
+            <input
+              className="value"
+              data-testid="ts-psa__schedule-details__strategy-details__schedule-strategy-details__strategy"
+              disabled={true}
+              value={Array []}
+            />
+          </div>
+          <div
+            className="ts-psa__schedule-details__strategy-details__schedule-strategy-form-body__dropdown"
+          >
+            <span
+              className="label"
+            >
+              Allocated Work Hours Per Day
+            </span>
+            <input
+              className="value"
+              data-testid="ts-psa__schedule-details__strategy-details__schedule-strategy-details__work-hours-per-day"
+              disabled={true}
+              value="NaN Hours/Day"
+            />
+          </div>
+        </div>
+        <div
+          className="ts-psa__schedule-details__strategy-details__schedule-strategy-form-body__row"
+        >
+          <div
+            className="ts-psa__schedule-details__strategy-details__schedule-strategy-form-body__field"
+          >
+            <span
+              className="label"
+            >
+              Required Effort
+            </span>
+            <input
+              className="value"
+              data-testid="ts-psa__schedule-details__strategy-details__schedule-strategy-details__required-effort"
+              disabled={true}
+              value="18 Hours"
+            />
+          </div>
+          <div
+            className="ts-psa__schedule-details__strategy-details__schedule-strategy-form-body__field changed"
+          >
+            <span
+              className="label"
+            >
+              Start Date
+            </span>
+            <input
+              className="value"
+              data-testid="ts-psa__schedule-details__strategy-details__schedule-strategy-details__field__scheduled-start-date"
+              disabled={true}
+              value="01/25/2022"
+            />
+          </div>
+          <div
+            className="ts-psa__schedule-details__strategy-details__schedule-strategy-form-body__field changed"
+          >
+            <span
+              className="label"
+            >
+              End Date
+            </span>
+            <input
+              className="value"
+              data-testid="ts-psa__schedule-details__strategy-details__schedule-strategy-details__field__scheduled-end-date"
+              disabled={true}
+              value="02/24/2022"
+            />
+          </div>
+          <div
+            className="ts-psa__schedule-details__strategy-details__schedule-strategy-form-body__field changed"
+          >
+            <span
+              className="label"
+            >
+              Assigned Effort
+            </span>
+            <input
+              className="value"
+              data-testid="ts-psa__schedule-details__strategy-details__schedule-strategy-details__field__booked-effort"
+              disabled={true}
+              value="NaN Hours"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__schedule-details__strategy-details__schedule-strategy-form-footer"
+      />
+    </div>
+  </div>
+</div>
+`;

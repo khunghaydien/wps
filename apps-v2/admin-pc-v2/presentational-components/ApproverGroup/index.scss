@@ -1,0 +1,36 @@
+.approver-group {
+  &__approvers {
+    padding-top: 5%;
+    padding-bottom: 1%;
+
+    .ts-horizontal-layout__label {
+      &::after {
+        content: '';
+      }
+    }
+  }
+
+  &__last-updated {
+    font-size: 12px;
+  }
+
+  &-grid {
+    &__btn-group {
+      margin-bottom: 10px;
+      .ts-button {
+        padding: 8px 20px;
+
+        &:focus {
+          background-color: #58cdff;
+          box-shadow: none;
+        }
+      }
+    }
+
+    &__tab {
+      &-selected {
+        background-color: #58cdff;
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.approvals-pc-expenses-pre-approval-pane-detail-side-file-preview {
+  @keyframes fadeIn {
+    99% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+
+  padding: 60px 20px;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  flex: 1;
+
+  &-pdf {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    z-index: 0;
+  }
+
+  &-img {
+    display: block;
+    transition: all 0.2s ease-in-out;
+    height: max-content;
+  }
+
+  &-controls {
+    background-color: #000;
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    width: 200px;
+    &-btn:disabled {
+      path {
+        fill: $color-gray-600;
+      }
+    }
+  }
+
+  &-hide {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  &-alt {
+    position: absolute;
+    text-align: center;
+    bottom: 200px;
+    width: 200px;
+    color: #fff;
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+
+  object {
+    transition: all 0.2s ease-in-out;
+  }
+}

@@ -1,0 +1,35 @@
+.timesheet-pc-main-content-timesheet-daily-summary-button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  width: 100%; // width is intentionally 100% in order to enable the whole cell of the table clickable
+
+  &__mark--alert {
+    position: absolute;
+    left: 7px;
+    top: 13.5px;
+
+    $r: 6px;
+
+    width: $r;
+    height: $r;
+    border: 1px $color-destructive solid;
+    background: $color-destructive;
+    border-radius: 50%;
+  }
+
+  &--alert {
+    color: $color-destructive;
+  }
+
+  &--ok {
+    color: #006dcc;
+  }
+
+  &__total-task-time {
+    font-size: 13px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

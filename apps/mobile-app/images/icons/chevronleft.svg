@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.031 13.547">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #074b69;
+      }
+    </style>
+  </defs>
+  <g id="icons_utility_chevronleft" data-name="icons/utility/chevronleft" transform="translate(-0.308 -0.23)">
+    <path id="Mask" class="cls-1" d="M6.846,13.662.446,7.354a.483.483,0,0,1,0-.677L6.846.369a.483.483,0,0,1,.677,0l.677.677a.483.483,0,0,1,0,.677L3.123,6.677a.483.483,0,0,0,0,.677l5.015,4.954a.483.483,0,0,1,0,.677l-.677.677a.468.468,0,0,1-.615,0Z"/>
+  </g>
+</svg>

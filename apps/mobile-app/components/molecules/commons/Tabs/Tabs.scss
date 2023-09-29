@@ -1,0 +1,21 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-commons-tabs-tabs {
+  width: 100%;
+  border-top: 1px solid $color-border;
+
+  &--top {
+    position: fixed;
+    top: 0;
+  }
+
+  &--bottom {
+    position: fixed;
+    bottom: 0;
+  }
+
+  &__link-wrapper {
+    display: flex;
+    background: $color-blue-100;
+  }
+}

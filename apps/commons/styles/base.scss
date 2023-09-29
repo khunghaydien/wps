@@ -1,0 +1,108 @@
+/**
+ * Base
+ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: $color-text-default;
+}
+
+textarea {
+  border-radius: 0.25rem;
+}
+
+.icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+/**
+ * Common Component
+ */
+.ts-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  min-width: 1024px;
+  background: rgb(235, 238, 243);
+}
+
+.button--back {
+  height: 40px;
+  padding-left: 20px;
+  border: none;
+  background: transparent;
+  color: #7f7f89;
+}
+
+.button--back::before {
+  position: absolute;
+  top: calc(20px - 6px);
+  left: 0;
+  border: 6px solid transparent;
+  border-right: 6px solid rgb(127, 127, 137);
+  content: '';
+}
+
+.button--default {
+  height: 24px;
+  padding: 0 15px;
+  margin: 8px 0;
+  background: rgb(17, 114, 207);
+  border-radius: 3px;
+  color: #fff;
+  line-height: 24px;
+}
+
+/**
+ * Override LDS
+ */
+input.slds-input,
+select.slds-input,
+textarea.slds-input {
+  color: $color-text-default;
+}
+
+div.slds-popover--tooltip,
+div.slds-popover_tooltip {
+  // dialogよりも前面にいる必要がある。 ただしloadingより前には出ては行けない。
+  z-index: 5200000;
+  // PostCSS が -moz-max-content に対応してない。
+  width: max-content;
+  width: -moz-max-content;
+  max-width: 30em;
+}
+
+div.slds-popover--tooltip,
+div.slds-popover_tooltip {
+  // PostCSS が -moz-max-content に対応してない。
+  width: max-content;
+  width: -moz-max-content;
+  max-width: 30em;
+}
+
+/**
+ * 印刷用の設定
+ */
+@media print {
+  .ts-container {
+    position: static;
+  }
+}

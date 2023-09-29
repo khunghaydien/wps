@@ -1,0 +1,3662 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots daily-summary/TaskCard/Row default 1`] = `
+<div
+  className="TaskRow__Wrapper-sc-kefadh-1 kkLkAn"
+>
+  <div
+    aria-describedby="rbd-hidden-text-0-hidden-text-0"
+    className="TaskRow__DragHandlerWrapper-sc-kefadh-2 gvizMA"
+    data-rbd-drag-handle-context-id="0"
+    data-rbd-drag-handle-draggable-id="f7b95240-98fc-4af8-b9c8-c94576e33e2a"
+    draggable={false}
+    onDragStart={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <test-file-stub />
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__JobWrapper-sc-kefadh-3 jwgOWC ksVXml"
+  >
+    <div
+      className="commons-tooltip "
+      id="commons-tooltip"
+    >
+      <div
+        className="slds-tooltip-trigger"
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <div
+          aria-describedby="a0h2v00000Ys7ypAAB"
+          className="TaskRow__Job-sc-kefadh-4 gGuBrH"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={Object {}}
+          tabIndex={0}
+        >
+          <span
+            className="Text-sc-11kuzx6-0 TaskRow__Text-sc-kefadh-16 huIJOL gJIGID"
+            size="small"
+          >
+            PD-2
+          </span>
+          <span
+            className="Text-sc-11kuzx6-0 TaskRow__Text-sc-kefadh-16 NTmDY gJIGID"
+            size="large"
+          >
+            開発2
+          </span>
+        </div>
+        <span />
+      </div>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__WorkCategory-sc-kefadh-5 jwgOWC kLGvsM"
+  >
+    <div
+      className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+    >
+      <button
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        aria-readonly={false}
+        className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+        onClick={[Function]}
+        placeholder="Select"
+        readOnly={false}
+        value="a1G2v000003yt6tEAA"
+      >
+        <div
+          className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+        >
+          <div
+            className="WorkCategoryDropdown__OptionLabel-sc-w84k5q-0 ddzQyx"
+          >
+            <span
+              className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-w84k5q-1 hlQlOc jKJNnc"
+              color="secondary"
+              size="medium"
+            >
+              2
+            </span>
+            <span
+              className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-w84k5q-2 NTmDY gbguTF"
+              color="primary"
+              size="large"
+            >
+              ミーティング
+            </span>
+          </div>
+        </div>
+        <div
+          className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__Attribute-sc-kefadh-6 jwgOWC fyIvNG"
+  />
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__Toggle-sc-kefadh-8 jwgOWC lNIpG"
+  >
+    <div
+      className="ToggleSwitchButton__Wrapper-sc-ez0qhy-0 hBbaUe"
+      role="radiogroup"
+    >
+      <button
+        aria-checked={true}
+        aria-labelledby="4"
+        className="ToggleSwitchButton__Button-sc-ez0qhy-1 eqxXAZ ToggleSwitchButton__Left-sc-ez0qhy-4 hNbyyw"
+        disabled={false}
+        onClick={[Function]}
+        role="radio"
+      >
+        <test-file-stub
+          aria-hidden={true}
+          className="Icons__Icon-sc-cal846-0 kTRlpK ToggleSwitchButton__Icon-sc-ez0qhy-2 izlZId"
+        />
+      </button>
+      <button
+        aria-checked={false}
+        aria-labelledby="5"
+        className="ToggleSwitchButton__Button-sc-ez0qhy-1 eqxXAZ ToggleSwitchButton__Right-sc-ez0qhy-5 bRjpny"
+        disabled={false}
+        onClick={[Function]}
+        role="radio"
+      >
+        <test-file-stub
+          aria-hidden={true}
+          className="Icons__Icon-sc-cal846-0 kTRlpK ToggleSwitchButton__Icon-sc-ez0qhy-2 izlZId"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__TaskTime-sc-kefadh-9 jwgOWC kLflGu"
+  >
+    <div
+      className="Combobox__Dropdown-sc-1g4f8gj-0 fRAOHM"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        aria-owns="54"
+        className="Combobox-sc-1g4f8gj-1 hyLZnz"
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="combobox"
+      >
+        <input
+          aria-autocomplete="list"
+          aria-controls="54"
+          className="Combobox__Input-sc-1g4f8gj-2 hTaKuy"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onSelect={[Function]}
+          placeholder="0"
+          readOnly={false}
+          type="text"
+          value="03:25"
+        />
+      </div>
+      <ul
+        className="Combobox__ListBox-sc-1g4f8gj-3 fwZcGu"
+        id="54"
+        readOnly={false}
+        role="listbox"
+      >
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="6"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            00:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="7"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            01:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="8"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            01:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="9"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            02:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="10"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            02:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="11"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            03:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="12"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            03:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="13"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            04:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="14"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            04:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="15"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            05:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="16"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            05:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="17"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            06:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="18"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            06:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="19"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            07:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="20"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            07:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="21"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            08:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="22"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            08:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="23"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            09:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="24"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            09:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="25"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            10:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="26"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            10:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="27"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            11:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="28"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            11:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="29"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            12:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="30"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            12:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="31"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            13:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="32"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            13:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="33"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            14:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="34"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            14:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="35"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            15:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="36"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            15:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="37"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            16:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="38"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            16:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="39"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            17:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="40"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            17:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="41"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            18:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="42"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            18:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="43"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            19:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="44"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            19:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="45"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            20:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="46"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            20:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="47"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            21:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="48"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            21:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="49"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            22:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="50"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            22:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="51"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            23:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="52"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            23:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="53"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            24:00
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="TaskRow__Time-sc-kefadh-10 fpixyh"
+    />
+  </div>
+  <div
+    className="TaskRow__DeleteButton-sc-kefadh-13 gkeDZy"
+    onClick={[Function]}
+  >
+    <button
+      className="IconButton__Button-sc-10k5axt-1 giXGgm TaskRow__IconButton-sc-kefadh-15 hlLWBE"
+      color="#000"
+    >
+      <test-file-stub
+        aria-hidden={true}
+        className="Icons__Icon-sc-cal846-0 hgAhyG IconButton__Icon-sc-10k5axt-0 djRZTt TaskRow__IconButton-sc-kefadh-15 hlLWBE"
+        color="#000"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots daily-summary/TaskCard/Row edit locked 1`] = `
+<div
+  className="TaskRow__Wrapper-sc-kefadh-1 kkLkAn"
+>
+  <div
+    aria-describedby="rbd-hidden-text-0-hidden-text-0"
+    className="TaskRow__DragHandlerWrapper-sc-kefadh-2 gvizMA"
+    data-rbd-drag-handle-context-id="0"
+    data-rbd-drag-handle-draggable-id="f7b95240-98fc-4af8-b9c8-c94576e33e2a"
+    draggable={false}
+    onDragStart={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <test-file-stub />
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__JobWrapper-sc-kefadh-3 jwgOWC ksVXml"
+  >
+    <div
+      className="commons-tooltip "
+      id="commons-tooltip"
+    >
+      <div
+        className="slds-tooltip-trigger"
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <div
+          aria-describedby="a0h2v00000Ys7ypAAB"
+          className="TaskRow__Job-sc-kefadh-4 gGuBrH"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={Object {}}
+          tabIndex={0}
+        >
+          <span
+            className="Text-sc-11kuzx6-0 TaskRow__Text-sc-kefadh-16 huIJOL gJIGID"
+            size="small"
+          >
+            PD-2
+          </span>
+          <span
+            className="Text-sc-11kuzx6-0 TaskRow__Text-sc-kefadh-16 NTmDY gJIGID"
+            size="large"
+          >
+            開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2
+          </span>
+        </div>
+        <span />
+      </div>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__WorkCategory-sc-kefadh-5 jwgOWC kLGvsM"
+  >
+    <div
+      className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+    >
+      <button
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        aria-readonly={true}
+        className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+        onClick={[Function]}
+        placeholder="Select"
+        readOnly={true}
+      >
+        <div
+          className="DropdownButton__Label-sc-8ghard-3 bogwxN"
+        >
+          Select
+        </div>
+        <div
+          className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__Attribute-sc-kefadh-6 jwgOWC fyIvNG"
+  >
+    <div
+      className="commons-tooltip "
+      id="commons-tooltip"
+    >
+      <div
+        className="slds-tooltip-trigger"
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <test-file-stub
+          aria-describedby="a0h2v00000Ys7ypAAB-null"
+          aria-hidden={true}
+          className="Icons__Icon-sc-cal846-0 kTRlpK TaskRow__LockedIcon-sc-kefadh-7 bSLCrx"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          size="medium"
+          style={Object {}}
+          tabIndex={0}
+        />
+        <span />
+      </div>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__Toggle-sc-kefadh-8 jwgOWC lNIpG"
+  >
+    <div
+      className="ToggleSwitchButton__Wrapper-sc-ez0qhy-0 hBbaUe"
+      role="radiogroup"
+    >
+      <button
+        aria-checked={true}
+        aria-labelledby="3"
+        className="ToggleSwitchButton__Button-sc-ez0qhy-1 eqxXAZ ToggleSwitchButton__Left-sc-ez0qhy-4 hNbyyw"
+        disabled={true}
+        onClick={[Function]}
+        role="radio"
+      >
+        <test-file-stub
+          aria-hidden={true}
+          className="Icons__Icon-sc-cal846-0 kTRlpK ToggleSwitchButton__Icon-sc-ez0qhy-2 izlZId"
+        />
+      </button>
+      <button
+        aria-checked={false}
+        aria-labelledby="4"
+        className="ToggleSwitchButton__Button-sc-ez0qhy-1 eqxXAZ ToggleSwitchButton__Right-sc-ez0qhy-5 bRjpny"
+        disabled={true}
+        onClick={[Function]}
+        role="radio"
+      >
+        <test-file-stub
+          aria-hidden={true}
+          className="Icons__Icon-sc-cal846-0 kTRlpK ToggleSwitchButton__Icon-sc-ez0qhy-2 izlZId"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__TaskTime-sc-kefadh-9 jwgOWC kLflGu"
+  >
+    <div
+      className="Combobox__Dropdown-sc-1g4f8gj-0 fRAOHM"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        aria-owns="53"
+        className="Combobox-sc-1g4f8gj-1 hyLZnz"
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="combobox"
+      >
+        <input
+          aria-activedescendant="01:00"
+          aria-autocomplete="list"
+          aria-controls="53"
+          className="Combobox__Input-sc-1g4f8gj-2 hTaKuy"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onSelect={[Function]}
+          placeholder="0"
+          readOnly={true}
+          type="text"
+          value="01:00"
+        />
+      </div>
+      <ul
+        className="Combobox__ListBox-sc-1g4f8gj-3 fwZcGu"
+        id="53"
+        readOnly={true}
+        role="listbox"
+      >
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="5"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            00:30
+          </a>
+        </li>
+        <li
+          aria-selected={true}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="6"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 iSbJgO"
+            href="#"
+            selected={true}
+          >
+            01:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="7"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            01:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="8"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            02:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="9"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            02:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="10"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            03:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="11"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            03:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="12"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            04:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="13"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            04:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="14"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            05:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="15"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            05:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="16"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            06:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="17"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            06:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="18"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            07:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="19"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            07:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="20"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            08:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="21"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            08:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="22"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            09:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="23"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            09:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="24"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            10:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="25"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            10:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="26"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            11:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="27"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            11:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="28"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            12:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="29"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            12:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="30"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            13:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="31"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            13:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="32"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            14:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="33"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            14:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="34"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            15:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="35"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            15:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="36"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            16:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="37"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            16:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="38"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            17:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="39"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            17:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="40"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            18:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="41"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            18:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="42"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            19:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="43"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            19:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="44"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            20:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="45"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            20:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="46"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            21:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="47"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            21:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="48"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            22:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="49"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            22:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="50"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            23:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="51"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            23:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="52"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            24:00
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="TaskRow__Time-sc-kefadh-10 fpixyh"
+    />
+  </div>
+  <div
+    className="TaskRow__DeleteButton-sc-kefadh-13 gkeDZy"
+    onClick={[Function]}
+  >
+    <button
+      className="IconButton__Button-sc-10k5axt-1 giXGgm TaskRow__IconButton-sc-kefadh-15 hlLWBE"
+      color="#000"
+    >
+      <test-file-stub
+        aria-hidden={true}
+        className="Icons__Icon-sc-cal846-0 hgAhyG IconButton__Icon-sc-10k5axt-0 djRZTt TaskRow__IconButton-sc-kefadh-15 hlLWBE"
+        color="#000"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots daily-summary/TaskCard/Row no job type 1`] = `
+<div
+  className="TaskRow__Wrapper-sc-kefadh-1 kkLkAn"
+>
+  <div
+    aria-describedby="rbd-hidden-text-0-hidden-text-0"
+    className="TaskRow__DragHandlerWrapper-sc-kefadh-2 gvizMA"
+    data-rbd-drag-handle-context-id="0"
+    data-rbd-drag-handle-draggable-id="f7b95240-98fc-4af8-b9c8-c94576e33e2a"
+    draggable={false}
+    onDragStart={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <test-file-stub />
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__JobWrapper-sc-kefadh-3 jwgOWC ksVXml"
+  >
+    <div
+      className="commons-tooltip "
+      id="commons-tooltip"
+    >
+      <div
+        className="slds-tooltip-trigger"
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <div
+          aria-describedby="a0h2v00000a4y2zAAA"
+          className="TaskRow__Job-sc-kefadh-4 gGuBrH"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={Object {}}
+          tabIndex={0}
+        >
+          <span
+            className="Text-sc-11kuzx6-0 TaskRow__Text-sc-kefadh-16 huIJOL gJIGID"
+            size="small"
+          >
+            3
+          </span>
+          <span
+            className="Text-sc-11kuzx6-0 TaskRow__Text-sc-kefadh-16 NTmDY gJIGID"
+            size="large"
+          >
+            No work categories
+          </span>
+        </div>
+        <span />
+      </div>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__WorkCategory-sc-kefadh-5 jwgOWC kLGvsM"
+  />
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__Attribute-sc-kefadh-6 jwgOWC fyIvNG"
+  />
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__Toggle-sc-kefadh-8 jwgOWC lNIpG"
+  >
+    <div
+      className="ToggleSwitchButton__Wrapper-sc-ez0qhy-0 hBbaUe"
+      role="radiogroup"
+    >
+      <button
+        aria-checked={false}
+        aria-labelledby="2"
+        className="ToggleSwitchButton__Button-sc-ez0qhy-1 eqxXAZ ToggleSwitchButton__Left-sc-ez0qhy-4 hNbyyw"
+        disabled={false}
+        onClick={[Function]}
+        role="radio"
+      >
+        <test-file-stub
+          aria-hidden={true}
+          className="Icons__Icon-sc-cal846-0 kTRlpK ToggleSwitchButton__Icon-sc-ez0qhy-2 izlZId"
+        />
+      </button>
+      <button
+        aria-checked={true}
+        aria-labelledby="3"
+        className="ToggleSwitchButton__Button-sc-ez0qhy-1 eqxXAZ ToggleSwitchButton__Right-sc-ez0qhy-5 bRjpny"
+        disabled={false}
+        onClick={[Function]}
+        role="radio"
+      >
+        <test-file-stub
+          aria-hidden={true}
+          className="Icons__Icon-sc-cal846-0 kTRlpK ToggleSwitchButton__Icon-sc-ez0qhy-2 izlZId"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__TaskTime-sc-kefadh-9 jwgOWC kLflGu"
+  >
+    <div
+      className="Combobox__Dropdown-sc-1g4f8gj-0 fRAOHM"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        aria-owns="14"
+        className="Combobox-sc-1g4f8gj-1 hyLZnz"
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="combobox"
+      >
+        <input
+          aria-activedescendant="30"
+          aria-autocomplete="list"
+          aria-controls="14"
+          className="Combobox__Input-sc-1g4f8gj-2 hTaKuy"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onSelect={[Function]}
+          placeholder="0"
+          readOnly={false}
+          type="text"
+          value="30"
+        />
+        <span
+          className="Combobox__AssistiveInfo-sc-1g4f8gj-6 bZGfqe"
+        >
+          %
+        </span>
+      </div>
+      <ul
+        className="Combobox__ListBox-sc-1g4f8gj-3 fwZcGu"
+        id="14"
+        readOnly={false}
+        role="listbox"
+      >
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="4"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            10
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="5"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            20
+          </a>
+        </li>
+        <li
+          aria-selected={true}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="6"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 iSbJgO"
+            href="#"
+            selected={true}
+          >
+            30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="7"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            40
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="8"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            50
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="9"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            60
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="10"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            70
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="11"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            80
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="12"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            90
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="13"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            100
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="TaskRow__Time-sc-kefadh-10 fpixyh"
+    >
+      <span
+        className="Text-sc-11kuzx6-0 NTmDY"
+        size="large"
+      >
+        01:50
+      </span>
+    </div>
+  </div>
+  <div
+    className="TaskRow__DeleteButton-sc-kefadh-13 gkeDZy"
+    onClick={[Function]}
+  >
+    <button
+      className="IconButton__Button-sc-10k5axt-1 giXGgm TaskRow__IconButton-sc-kefadh-15 hlLWBE"
+      color="#000"
+    >
+      <test-file-stub
+        aria-hidden={true}
+        className="Icons__Icon-sc-cal846-0 hgAhyG IconButton__Icon-sc-10k5axt-0 djRZTt TaskRow__IconButton-sc-kefadh-15 hlLWBE"
+        color="#000"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots daily-summary/TaskCard/Row no work category 1`] = `
+<div
+  className="TaskRow__Wrapper-sc-kefadh-1 kkLkAn"
+>
+  <div
+    aria-describedby="rbd-hidden-text-0-hidden-text-0"
+    className="TaskRow__DragHandlerWrapper-sc-kefadh-2 gvizMA"
+    data-rbd-drag-handle-context-id="0"
+    data-rbd-drag-handle-draggable-id="f7b95240-98fc-4af8-b9c8-c94576e33e2a"
+    draggable={false}
+    onDragStart={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <test-file-stub />
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__JobWrapper-sc-kefadh-3 jwgOWC ksVXml"
+  >
+    <div
+      className="commons-tooltip "
+      id="commons-tooltip"
+    >
+      <div
+        className="slds-tooltip-trigger"
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <div
+          aria-describedby="a0h2v00000Ys7ypAAB"
+          className="TaskRow__Job-sc-kefadh-4 gGuBrH"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={Object {}}
+          tabIndex={0}
+        >
+          <span
+            className="Text-sc-11kuzx6-0 TaskRow__Text-sc-kefadh-16 huIJOL gJIGID"
+            size="small"
+          >
+            PD-2
+          </span>
+          <span
+            className="Text-sc-11kuzx6-0 TaskRow__Text-sc-kefadh-16 NTmDY gJIGID"
+            size="large"
+          >
+            開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2開発2
+          </span>
+        </div>
+        <span />
+      </div>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__WorkCategory-sc-kefadh-5 jwgOWC kLGvsM"
+  >
+    <div
+      className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+    >
+      <button
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        aria-readonly={false}
+        className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+        onClick={[Function]}
+        placeholder="Select"
+        readOnly={false}
+      >
+        <div
+          className="DropdownButton__Label-sc-8ghard-3 bogwxN"
+        >
+          Select
+        </div>
+        <div
+          className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__Attribute-sc-kefadh-6 jwgOWC fyIvNG"
+  />
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__Toggle-sc-kefadh-8 jwgOWC lNIpG"
+  >
+    <div
+      className="ToggleSwitchButton__Wrapper-sc-ez0qhy-0 hBbaUe"
+      role="radiogroup"
+    >
+      <button
+        aria-checked={true}
+        aria-labelledby="3"
+        className="ToggleSwitchButton__Button-sc-ez0qhy-1 eqxXAZ ToggleSwitchButton__Left-sc-ez0qhy-4 hNbyyw"
+        disabled={false}
+        onClick={[Function]}
+        role="radio"
+      >
+        <test-file-stub
+          aria-hidden={true}
+          className="Icons__Icon-sc-cal846-0 kTRlpK ToggleSwitchButton__Icon-sc-ez0qhy-2 izlZId"
+        />
+      </button>
+      <button
+        aria-checked={false}
+        aria-labelledby="4"
+        className="ToggleSwitchButton__Button-sc-ez0qhy-1 eqxXAZ ToggleSwitchButton__Right-sc-ez0qhy-5 bRjpny"
+        disabled={false}
+        onClick={[Function]}
+        role="radio"
+      >
+        <test-file-stub
+          aria-hidden={true}
+          className="Icons__Icon-sc-cal846-0 kTRlpK ToggleSwitchButton__Icon-sc-ez0qhy-2 izlZId"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__TaskTime-sc-kefadh-9 jwgOWC kLflGu"
+  >
+    <div
+      className="Combobox__Dropdown-sc-1g4f8gj-0 fRAOHM"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        aria-owns="53"
+        className="Combobox-sc-1g4f8gj-1 hyLZnz"
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="combobox"
+      >
+        <input
+          aria-activedescendant="01:00"
+          aria-autocomplete="list"
+          aria-controls="53"
+          className="Combobox__Input-sc-1g4f8gj-2 hTaKuy"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onSelect={[Function]}
+          placeholder="0"
+          readOnly={false}
+          type="text"
+          value="01:00"
+        />
+      </div>
+      <ul
+        className="Combobox__ListBox-sc-1g4f8gj-3 fwZcGu"
+        id="53"
+        readOnly={false}
+        role="listbox"
+      >
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="5"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            00:30
+          </a>
+        </li>
+        <li
+          aria-selected={true}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="6"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 iSbJgO"
+            href="#"
+            selected={true}
+          >
+            01:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="7"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            01:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="8"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            02:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="9"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            02:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="10"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            03:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="11"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            03:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="12"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            04:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="13"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            04:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="14"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            05:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="15"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            05:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="16"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            06:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="17"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            06:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="18"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            07:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="19"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            07:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="20"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            08:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="21"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            08:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="22"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            09:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="23"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            09:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="24"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            10:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="25"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            10:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="26"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            11:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="27"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            11:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="28"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            12:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="29"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            12:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="30"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            13:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="31"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            13:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="32"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            14:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="33"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            14:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="34"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            15:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="35"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            15:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="36"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            16:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="37"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            16:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="38"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            17:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="39"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            17:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="40"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            18:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="41"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            18:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="42"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            19:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="43"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            19:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="44"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            20:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="45"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            20:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="46"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            21:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="47"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            21:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="48"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            22:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="49"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            22:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="50"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            23:00
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="51"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            23:30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="52"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            24:00
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="TaskRow__Time-sc-kefadh-10 fpixyh"
+    />
+  </div>
+  <div
+    className="TaskRow__DeleteButton-sc-kefadh-13 gkeDZy"
+    onClick={[Function]}
+  >
+    <button
+      className="IconButton__Button-sc-10k5axt-1 giXGgm TaskRow__IconButton-sc-kefadh-15 hlLWBE"
+      color="#000"
+    >
+      <test-file-stub
+        aria-hidden={true}
+        className="Icons__Icon-sc-cal846-0 hgAhyG IconButton__Icon-sc-10k5axt-0 djRZTt TaskRow__IconButton-sc-kefadh-15 hlLWBE"
+        color="#000"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots daily-summary/TaskCard/Row ratio input 1`] = `
+<div
+  className="TaskRow__Wrapper-sc-kefadh-1 kkLkAn"
+>
+  <div
+    aria-describedby="rbd-hidden-text-0-hidden-text-0"
+    className="TaskRow__DragHandlerWrapper-sc-kefadh-2 gvizMA"
+    data-rbd-drag-handle-context-id="0"
+    data-rbd-drag-handle-draggable-id="f7b95240-98fc-4af8-b9c8-c94576e33e2a"
+    draggable={false}
+    onDragStart={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <test-file-stub />
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__JobWrapper-sc-kefadh-3 jwgOWC ksVXml"
+  >
+    <div
+      className="commons-tooltip "
+      id="commons-tooltip"
+    >
+      <div
+        className="slds-tooltip-trigger"
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <div
+          aria-describedby="a0h2v00000a4y2zAAA"
+          className="TaskRow__Job-sc-kefadh-4 gGuBrH"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={Object {}}
+          tabIndex={0}
+        >
+          <span
+            className="Text-sc-11kuzx6-0 TaskRow__Text-sc-kefadh-16 huIJOL gJIGID"
+            size="small"
+          >
+            2
+          </span>
+          <span
+            className="Text-sc-11kuzx6-0 TaskRow__Text-sc-kefadh-16 NTmDY gJIGID"
+            size="large"
+          >
+            その他
+          </span>
+        </div>
+        <span />
+      </div>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__WorkCategory-sc-kefadh-5 jwgOWC kLGvsM"
+  >
+    <div
+      className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+    >
+      <button
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        aria-readonly={false}
+        className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+        onClick={[Function]}
+        placeholder="Select"
+        readOnly={false}
+        value="a1G2v000003yt73EAA"
+      >
+        <div
+          className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+        >
+          <div
+            className="WorkCategoryDropdown__OptionLabel-sc-w84k5q-0 ddzQyx"
+          >
+            <span
+              className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-w84k5q-1 hlQlOc jKJNnc"
+              color="secondary"
+              size="medium"
+            >
+              4
+            </span>
+            <span
+              className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-w84k5q-2 NTmDY gbguTF"
+              color="primary"
+              size="large"
+            >
+              研修
+            </span>
+          </div>
+        </div>
+        <div
+          className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__Attribute-sc-kefadh-6 jwgOWC fyIvNG"
+  />
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__Toggle-sc-kefadh-8 jwgOWC lNIpG"
+  >
+    <div
+      className="ToggleSwitchButton__Wrapper-sc-ez0qhy-0 hBbaUe"
+      role="radiogroup"
+    >
+      <button
+        aria-checked={false}
+        aria-labelledby="4"
+        className="ToggleSwitchButton__Button-sc-ez0qhy-1 eqxXAZ ToggleSwitchButton__Left-sc-ez0qhy-4 hNbyyw"
+        disabled={false}
+        onClick={[Function]}
+        role="radio"
+      >
+        <test-file-stub
+          aria-hidden={true}
+          className="Icons__Icon-sc-cal846-0 kTRlpK ToggleSwitchButton__Icon-sc-ez0qhy-2 izlZId"
+        />
+      </button>
+      <button
+        aria-checked={true}
+        aria-labelledby="5"
+        className="ToggleSwitchButton__Button-sc-ez0qhy-1 eqxXAZ ToggleSwitchButton__Right-sc-ez0qhy-5 bRjpny"
+        disabled={false}
+        onClick={[Function]}
+        role="radio"
+      >
+        <test-file-stub
+          aria-hidden={true}
+          className="Icons__Icon-sc-cal846-0 kTRlpK ToggleSwitchButton__Icon-sc-ez0qhy-2 izlZId"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__TaskTime-sc-kefadh-9 jwgOWC kLflGu"
+  >
+    <div
+      className="Combobox__Dropdown-sc-1g4f8gj-0 fRAOHM"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        aria-owns="16"
+        className="Combobox-sc-1g4f8gj-1 hyLZnz"
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="combobox"
+      >
+        <input
+          aria-activedescendant="30"
+          aria-autocomplete="list"
+          aria-controls="16"
+          className="Combobox__Input-sc-1g4f8gj-2 hTaKuy"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onSelect={[Function]}
+          placeholder="0"
+          readOnly={false}
+          type="text"
+          value="30"
+        />
+        <span
+          className="Combobox__AssistiveInfo-sc-1g4f8gj-6 bZGfqe"
+        >
+          %
+        </span>
+      </div>
+      <ul
+        className="Combobox__ListBox-sc-1g4f8gj-3 fwZcGu"
+        id="16"
+        readOnly={false}
+        role="listbox"
+      >
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="6"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            10
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="7"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            20
+          </a>
+        </li>
+        <li
+          aria-selected={true}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="8"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 iSbJgO"
+            href="#"
+            selected={true}
+          >
+            30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="9"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            40
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="10"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            50
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="11"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            60
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="12"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            70
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="13"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            80
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="14"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            90
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="15"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            100
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="TaskRow__Time-sc-kefadh-10 fpixyh"
+    >
+      <span
+        className="Text-sc-11kuzx6-0 NTmDY"
+        size="large"
+      >
+        01:50
+      </span>
+    </div>
+  </div>
+  <div
+    className="TaskRow__DeleteButton-sc-kefadh-13 gkeDZy"
+    onClick={[Function]}
+  >
+    <button
+      className="IconButton__Button-sc-10k5axt-1 giXGgm TaskRow__IconButton-sc-kefadh-15 hlLWBE"
+      color="#000"
+    >
+      <test-file-stub
+        aria-hidden={true}
+        className="Icons__Icon-sc-cal846-0 hgAhyG IconButton__Icon-sc-10k5axt-0 djRZTt TaskRow__IconButton-sc-kefadh-15 hlLWBE"
+        color="#000"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots daily-summary/TaskCard/Row readOnly 1`] = `
+<div
+  className="TaskRow__Wrapper-sc-kefadh-1 kkLkAn"
+>
+  <div
+    aria-describedby="rbd-hidden-text-0-hidden-text-0"
+    className="TaskRow__DragHandlerWrapper-sc-kefadh-2 gvizMA"
+    data-rbd-drag-handle-context-id="0"
+    data-rbd-drag-handle-draggable-id="f7b95240-98fc-4af8-b9c8-c94576e33e2a"
+    draggable={false}
+    onDragStart={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <test-file-stub />
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__JobWrapper-sc-kefadh-3 jwgOWC ksVXml"
+  >
+    <div
+      className="commons-tooltip "
+      id="commons-tooltip"
+    >
+      <div
+        className="slds-tooltip-trigger"
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <div
+          aria-describedby="a0h2v00000a4y2zAAA"
+          className="TaskRow__Job-sc-kefadh-4 gGuBrH"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={Object {}}
+          tabIndex={0}
+        >
+          <span
+            className="Text-sc-11kuzx6-0 TaskRow__Text-sc-kefadh-16 huIJOL gJIGID"
+            size="small"
+          >
+            3
+          </span>
+          <span
+            className="Text-sc-11kuzx6-0 TaskRow__Text-sc-kefadh-16 NTmDY gJIGID"
+            size="large"
+          >
+            No work categories
+          </span>
+        </div>
+        <span />
+      </div>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__WorkCategory-sc-kefadh-5 jwgOWC kLGvsM"
+  />
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__Attribute-sc-kefadh-6 jwgOWC fyIvNG"
+  />
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__Toggle-sc-kefadh-8 jwgOWC lNIpG"
+  >
+    <div
+      className="ToggleSwitchButton__Wrapper-sc-ez0qhy-0 hBbaUe"
+      role="radiogroup"
+    >
+      <button
+        aria-checked={false}
+        aria-labelledby="2"
+        className="ToggleSwitchButton__Button-sc-ez0qhy-1 eqxXAZ ToggleSwitchButton__Left-sc-ez0qhy-4 hNbyyw"
+        disabled={true}
+        onClick={[Function]}
+        role="radio"
+      >
+        <test-file-stub
+          aria-hidden={true}
+          className="Icons__Icon-sc-cal846-0 kTRlpK ToggleSwitchButton__Icon-sc-ez0qhy-2 izlZId"
+        />
+      </button>
+      <button
+        aria-checked={true}
+        aria-labelledby="3"
+        className="ToggleSwitchButton__Button-sc-ez0qhy-1 eqxXAZ ToggleSwitchButton__Right-sc-ez0qhy-5 bRjpny"
+        disabled={true}
+        onClick={[Function]}
+        role="radio"
+      >
+        <test-file-stub
+          aria-hidden={true}
+          className="Icons__Icon-sc-cal846-0 kTRlpK ToggleSwitchButton__Icon-sc-ez0qhy-2 izlZId"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__TaskTime-sc-kefadh-9 jwgOWC kLflGu"
+  >
+    <div
+      className="Combobox__Dropdown-sc-1g4f8gj-0 fRAOHM"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        aria-owns="14"
+        className="Combobox-sc-1g4f8gj-1 hyLZnz"
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="combobox"
+      >
+        <input
+          aria-activedescendant="30"
+          aria-autocomplete="list"
+          aria-controls="14"
+          className="Combobox__Input-sc-1g4f8gj-2 hTaKuy"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onSelect={[Function]}
+          placeholder="0"
+          readOnly={true}
+          type="text"
+          value="30"
+        />
+        <span
+          className="Combobox__AssistiveInfo-sc-1g4f8gj-6 bZGfqe"
+        >
+          %
+        </span>
+      </div>
+      <ul
+        className="Combobox__ListBox-sc-1g4f8gj-3 fwZcGu"
+        id="14"
+        readOnly={true}
+        role="listbox"
+      >
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="4"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            10
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="5"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            20
+          </a>
+        </li>
+        <li
+          aria-selected={true}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="6"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 iSbJgO"
+            href="#"
+            selected={true}
+          >
+            30
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="7"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            40
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="8"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            50
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="9"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            60
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="10"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            70
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="11"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            80
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="12"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            90
+          </a>
+        </li>
+        <li
+          aria-selected={false}
+          className="Combobox__Option-sc-1g4f8gj-4 gzMpDN"
+          id="13"
+          onMouseDown={[Function]}
+        >
+          <a
+            className="Combobox__A-sc-1g4f8gj-5 snDqw"
+            href="#"
+            selected={false}
+          >
+            100
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="TaskRow__Time-sc-kefadh-10 fpixyh"
+    >
+      <span
+        className="Text-sc-11kuzx6-0 NTmDY"
+        size="large"
+      >
+        01:50
+      </span>
+    </div>
+  </div>
+  <div
+    className="TaskRow__DeleteButtonSpacer-sc-kefadh-14 fXUkmz"
+  />
+</div>
+`;
+
+exports[`Storyshots daily-summary/TaskCard/Row work report input 1`] = `
+<div
+  className="TaskRow__Wrapper-sc-kefadh-1 kkLkAn"
+>
+  <div
+    aria-describedby="rbd-hidden-text-0-hidden-text-0"
+    className="TaskRow__DragHandlerWrapper-sc-kefadh-2 gvizMA"
+    data-rbd-drag-handle-context-id="0"
+    data-rbd-drag-handle-draggable-id="f7b95240-98fc-4af8-b9c8-c94576e33e2a"
+    draggable={false}
+    onDragStart={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <test-file-stub />
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__JobWrapper-sc-kefadh-3 jwgOWC ksVXml"
+  >
+    <div
+      className="commons-tooltip "
+      id="commons-tooltip"
+    >
+      <div
+        className="slds-tooltip-trigger"
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <div
+          aria-describedby="a0h2v00000a4y2zAAA"
+          className="TaskRow__Job-sc-kefadh-4 gGuBrH"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={Object {}}
+          tabIndex={0}
+        >
+          <span
+            className="Text-sc-11kuzx6-0 TaskRow__Text-sc-kefadh-16 huIJOL gJIGID"
+            size="small"
+          >
+            2
+          </span>
+          <span
+            className="Text-sc-11kuzx6-0 TaskRow__Text-sc-kefadh-16 NTmDY gJIGID"
+            size="large"
+          >
+            その他
+          </span>
+        </div>
+        <span />
+      </div>
+    </div>
+  </div>
+  <div
+    className="TaskRow__ColumnCommon-sc-kefadh-0 TaskRow__WorkReport-sc-kefadh-11 jwgOWC fVLxKb"
+  >
+    <textarea
+      className="TextField__StyledTextArea-sc-41505i-0 kqQkrx TaskRow__WorkReportTextField-sc-kefadh-12 dCxkMq"
+      onChange={[Function]}
+      readOnly={false}
+      resize="vertical"
+      style={
+        Object {
+          "height": 0,
+        }
+      }
+      value="ジョブ別作業報告"
+    />
+  </div>
+  <div
+    className="TaskRow__DeleteButton-sc-kefadh-13 gkeDZy"
+    onClick={[Function]}
+  >
+    <button
+      className="IconButton__Button-sc-10k5axt-1 giXGgm TaskRow__IconButton-sc-kefadh-15 hlLWBE"
+      color="#000"
+    >
+      <test-file-stub
+        aria-hidden={true}
+        className="Icons__Icon-sc-cal846-0 hgAhyG IconButton__Icon-sc-10k5axt-0 djRZTt TaskRow__IconButton-sc-kefadh-15 hlLWBE"
+        color="#000"
+      />
+    </button>
+  </div>
+</div>
+`;

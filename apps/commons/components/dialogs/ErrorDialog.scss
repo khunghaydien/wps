@@ -1,0 +1,47 @@
+.commons-dialogs-error-dialog {
+  &.commons-dialog-frame {
+    width: 40vw;
+    min-width: 400px;
+  }
+
+  .commons-dialog-frame__header-title {
+    // FIXME: $color-bg-...を使うのはおかしいはず…
+    color: $color-bg-destructive;
+  }
+
+  .commons-dialog-frame__contents {
+    padding: 15px;
+  }
+
+  &__problem {
+    display: flex;
+    margin: 10px 0;
+  }
+
+  &__icon {
+    align-self: center;
+    padding: 0 10px;
+  }
+
+  &__icon > img {
+    width: 35px;
+    max-width: 35px;
+    height: 35px;
+  }
+
+  &__content {
+    align-self: center;
+    padding-left: 10px;
+    white-space: pre-wrap;
+    max-width: calc(100% - 55px);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  &__solution {
+    padding: 15px;
+    margin-top: 25px;
+    background: #e5e7f9;
+    border-radius: 4px;
+  }
+}

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivityContainer renders without crashing it renders without crashing 1`] = `
+<div
+  className="ts-psa__activity"
+>
+  <div
+    className="ts-psa__common-header"
+  >
+    <div
+      className="ts-psa__common-header-left"
+    >
+      <span
+        className="ts-psa__common-header-breadcrumb"
+      />
+      <span
+        className="ts-psa__common-header-title"
+      >
+        {$Psa_Clbl_Activity}
+      </span>
+    </div>
+    <div
+      className="ts-psa__common-header__btn-area"
+    >
+      <button
+        className="ts-psa__activity__refresh-btn ts-button ts-button--default"
+        data-testid="ts-psa__activity__refresh-btn"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+        value=""
+      >
+        <div
+          className="ts-button__contents"
+        >
+          <span
+            className="ts-button__text"
+          >
+            <test-file-stub />
+          </span>
+        </div>
+      </button>
+      <button
+        className="ts-psa__activity__btn--new ts-button ts-button--primary"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+        value=""
+      >
+        <div
+          className="ts-button__contents"
+        >
+          <span
+            className="ts-button__text"
+          >
+            New {$Psa_Clbl_Activity}
+          </span>
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="ts-psa__activity__content"
+  >
+    <div
+      className="ts-psa__empty-screen"
+    >
+      <div
+        className="ts-psa__empty-screen__header"
+      >
+        <span>
+          Looks like there is no {$Psa_Clbl_Activity} here.
+        </span>
+      </div>
+      <div
+        className="ts-psa__empty-screen__body"
+      >
+        <span>
+          Create your {$Psa_Clbl_Activity}.
+          <br />
+        </span>
+        <span>
+          Once you do, this page will show the {$Psa_Clbl_Activity} list.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

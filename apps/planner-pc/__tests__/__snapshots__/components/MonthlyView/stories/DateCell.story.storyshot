@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots planner-pc/MonthlyView/parts/DateCell Saturday 1`] = `
+<div
+  className="DateCellstory__Box-sc-2nruo6-0 drPnux"
+>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 eWfOPu"
+    data-testid="20190921"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR iTrtHY"
+      onClick={[Function]}
+      size="medium"
+    >
+      21
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots planner-pc/MonthlyView/parts/DateCell Start Date of Month 1`] = `
+<div
+  className="DateCellstory__Box-sc-2nruo6-0 drPnux"
+>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 dNsRRi"
+    data-testid="20191101"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR cXmowY"
+      onClick={[Function]}
+      size="medium"
+    >
+      Nov 1
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots planner-pc/MonthlyView/parts/DateCell Sunday 1`] = `
+<div
+  className="DateCellstory__Box-sc-2nruo6-0 drPnux"
+>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 fNOyrI"
+    data-testid="20190908"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR hDNKii"
+      onClick={[Function]}
+      size="medium"
+    >
+      8
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots planner-pc/MonthlyView/parts/DateCell Today 1`] = `
+<div
+  className="DateCellstory__Box-sc-2nruo6-0 drPnux"
+>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 jVDqpM"
+    data-testid="20190915"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR hYNmFa"
+      onClick={[Function]}
+      size="medium"
+    >
+      15
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots planner-pc/MonthlyView/parts/DateCell default 1`] = `
+<div
+  className="DateCellstory__Box-sc-2nruo6-0 drPnux"
+>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 dNsRRi"
+    data-testid="20190904"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR cXmowY"
+      onClick={[Function]}
+      size="medium"
+    >
+      4
+    </span>
+  </div>
+</div>
+`;

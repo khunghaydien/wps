@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CostCenter getCostCenterList() getCostCenterList success 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Array [
+      Object {
+        "baseId": "a0O2v00001jrayLEAQ",
+        "code": "34523",
+        "hasChildren": false,
+        "id": "a0P2v00001LQaDWEA1",
+        "name": "Parent cost center",
+      },
+    ],
+    "type": "MODULES/ENTITIES/EXP/COST_CENTER/LIST_SUCCESS",
+  },
+  Object {
+    "payload": Array [
+      Array [
+        Object {
+          "baseId": "a0O2v00001jrayLEAQ",
+          "code": "34523",
+          "hasChildren": false,
+          "id": "a0P2v00001LQaDWEA1",
+          "name": "Parent cost center",
+        },
+      ],
+    ],
+    "type": "COMMONS/COST_CENTER_DIALOG/LIST/SET",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`CostCenter getCostCenterSearchResult() getCostCenterSearchResult success 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Array [
+      Object {
+        "baseId": "a0O2v00001jrayLEAQ",
+        "code": "34523",
+        "hasChildren": false,
+        "id": "a0P2v00001LQaDWEA1",
+        "name": "Parent cost center",
+      },
+    ],
+    "type": "MODULES/ENTITIES/EXP/COST_CENTER/LIST_SUCCESS",
+  },
+  Object {
+    "payload": Array [
+      Object {
+        "baseId": "a0P2v00001LQaDWEA1",
+        "code": "34523",
+        "hasChildren": false,
+        "id": undefined,
+        "name": "Parent cost center",
+      },
+    ],
+    "type": "COMMONS/COST_CENTER_DIALOG/UI/LIST/SET_SEARCH",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`CostCenter getNextCostCenterList() get next level of cost center list success 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Array [
+      Object {
+        "baseId": "a0O2v00001jrayLEAQ",
+        "code": "34523",
+        "hasChildren": false,
+        "id": "a0P2v00001LQaDWEA1",
+        "name": "Parent cost center",
+      },
+    ],
+    "type": "MODULES/ENTITIES/EXP/COST_CENTER/LIST_SUCCESS",
+  },
+  Object {
+    "payload": Array [
+      Array [
+        Object {
+          "baseId": "a0O2v00001jrayLEAQ",
+          "code": "34523",
+          "hasChildren": false,
+          "id": "a0P2v00001LQaDWEA1",
+          "name": "Parent cost center",
+        },
+      ],
+    ],
+    "type": "COMMONS/COST_CENTER_DIALOG/LIST/SET",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;

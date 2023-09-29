@@ -1,0 +1,180 @@
+@import '@apps/commons/components/psa/variables.scss';
+
+.ts-psa__finance {
+  height: 100vh;
+  background: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  &.scrollDisable {
+    overflow-y: hidden;
+  }
+
+  &__finance-overview {
+    width: 98%;
+    min-height: fit-content;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 18px 15px 18px 18px;
+    display: inline-flex;
+  }
+  &__revenue-overview__column-item {
+    width: 30%;
+  }
+  &__revenue-amt-amount {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  &__left {
+    width: 14%;
+    min-width: 240px;
+    height: 100%;
+    &-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  &__right {
+    border-left: 1px solid #ddd;
+    width: 7%;
+    min-width: 120px;
+    height: 100%;
+  }
+
+  &__select-view-mode {
+    display: flex;
+    margin-left: 5px;
+    button {
+      border-color: #dddbda;
+      background-color: $color-bg-lighter;
+      color: #0070d2;
+      line-height: 1;
+      text-decoration: none;
+      min-height: 33px;
+      min-width: 32px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 0;
+      border-right-width: 0;
+
+      &:disabled path {
+        fill: $color-border-light-grey-2;
+      }
+
+      &:hover {
+        background-color: $color-bg-hover;
+      }
+
+      &.is-active {
+        background-color: $color-action-btn-primary-default;
+        color: $color-bg-white;
+      }
+
+      &:first-child {
+        border-radius: 5px 0 0 5px;
+        border-right-width: 0;
+      }
+
+      &:last-child {
+        border-radius: 0 5px 5px 0;
+        border-left-width: 1px;
+        border-right-width: 1px;
+      }
+    }
+  }
+  &__revenue-overview {
+    margin: 18px 20px 0;
+    gap: 16px;
+    display: flex;
+    &__column {
+      display: flex;
+      flex: 1;
+      gap: 36px;
+      padding: 32px;
+      border: 1px solid #dddbda;
+      border-radius: 4px;
+    }
+  }
+  &__revenue-amt {
+    display: flex;
+    flex-direction: column;
+    &-label {
+      color: #7d7d7d;
+      font-size: 14px;
+    }
+    &-amount {
+      font-size: 26px;
+      font-weight: bold;
+    }
+  }
+  &__exclamation-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > svg {
+      width: 50px !important;
+      height: 50px !important;
+      path {
+        transform: scale(0.7);
+      }
+    }
+  }
+  &__correct-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > svg {
+      width: 50px !important;
+      height: 50px !important;
+      path {
+        transform: scale(0.7);
+        fill: #5fb561;
+      }
+    }
+  }
+  &__main-grid {
+    width: 79%;
+    height: 100%;
+    overflow-x: auto;
+    display: grid;
+    background: #ddd;
+    &.scrollDisable {
+      overflow-x: hidden;
+    }
+  }
+  &__main-grid-header-container {
+    display: inline-flex;
+    height: auto;
+  }
+
+  &__main-grid-content-row {
+    display: flex;
+  }
+
+  &__main-grid-header-cells {
+    height: 75px;
+    width: 120px;
+  }
+
+  &__download-btn {
+    margin-right: 8px;
+  }
+
+  &__download-icon path {
+    fill: $color-btn-primary;
+  }
+
+ &__execute-btn {
+    align-self: center;
+    margin-right:  8px;
+    width: 163px;
+    height: 33px;
+    line-height: 1.0;
+  }
+
+  &__execute-time {
+    align-self: center;
+    font-size: x-small;
+  }
+}

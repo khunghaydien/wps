@@ -1,0 +1,50 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-psa__first-screen-header {
+  margin-bottom: $container-padding;
+  color: $color-text-grey;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.ts-psa__list-header {
+  position: fixed;
+  width: calc(100% - 40px);
+  background: $color-container;
+  padding: $size-m;
+
+  @media screen and (max-width: 1280px) {
+    width: 1240px;
+  }
+
+  span[class^='ts-psa__list-header'] {
+    display: flex;
+    align-items: center;
+    color: $color-text-grey;
+  }
+
+  &__cost,
+  &__revenue {
+    display: inline-block;
+    width: 80%;
+    justify-content: flex-end;
+  }
+
+  &__sort-icon {
+    // hide sort icon as it's not in scope for mvp
+    display: none;
+    margin-left: $size-base;
+    fill: $color-bg-black;
+  }
+
+  &__start-date,
+  &__end-date {
+    display: inline-block !important;
+    text-align: right;
+    width: 100%;
+  }
+
+  &__end-date {
+    width: 100%;
+  }
+}

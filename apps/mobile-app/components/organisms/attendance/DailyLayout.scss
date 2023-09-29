@@ -1,0 +1,25 @@
+@import 'mobile-global-imports';
+
+.mobile-app-components-organisms-attendance-daily-layout {
+  &__header {
+    > div {
+      /* NOTE
+      * Don't change to `position: fixed`
+      * We have [GENIE-14734]([GENIE-14578]) that is iOS's bug.
+      * (If you remove a lot of lines in textarea, Header is overlaping textarea.)
+      */
+      position: static;
+    }
+  }
+
+  &__container {
+    overflow: scroll;
+    height: calc(100vh - 48px - 48px);
+    padding-bottom: 64px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  &__refresh {
+    padding: 0 8px;
+  }
+}

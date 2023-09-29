@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`complete() should do with result { result: false, reason: 'userInduced' }. 1`] = `Array []`;
+
+exports[`complete() should do with result { result: true }. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "message": "Canceled approved fix daily request",
+      "options": undefined,
+      "variant": "success",
+    },
+    "type": "COMMONS/MODULES/TOAST/SHOW",
+  },
+  Object {
+    "type": "ATTENDANCE/TIME_STAMP/UI/CLEAR_COMMENT",
+  },
+]
+`;
+
+exports[`confirm() should do if return value is false. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+  Object {
+    "payload": "Are you sure to cancel approved this request? This operation can not be undone.",
+    "type": "confirm",
+  },
+  Object {
+    "payload": "1",
+    "type": "START_LOADING",
+  },
+]
+`;
+
+exports[`confirm() should do if return value is true. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+  Object {
+    "payload": "Are you sure to cancel approved this request? This operation can not be undone.",
+    "type": "confirm",
+  },
+  Object {
+    "payload": "1",
+    "type": "START_LOADING",
+  },
+]
+`;
+
+exports[`error() should do. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`finally() should do. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`start() should do. 1`] = `
+Array [
+  Object {
+    "payload": "1",
+    "type": "START_LOADING",
+  },
+]
+`;

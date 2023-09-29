@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return RestTimeReasonList 1`] = `
+Array [
+  Object {
+    "code": "001",
+    "id": "a0A2800000FmMQCEA1",
+    "name": "お昼休み",
+  },
+  Object {
+    "code": "002",
+    "id": "a0A2800000FmMQCEA2",
+    "name": "ランチ",
+  },
+]
+`;

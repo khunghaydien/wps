@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"comment\\": \\"\\",
++   \\"performableActionForFix\\": \\"None\\",
++   \\"requestId\\": \\"\\",
++   \\"status\\": \\"NotRequested\\",
++   \\"summaryId\\": \\"\\",
++ }"
+`;
+
+exports[`reducer() MOBILE-APP/ATTENDANCE/ATTENDANCE_REQUEST/REQUEST/CLEAR 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"comment\\": \\"Old Comment\\",
+-   \\"performableActionForFix\\": \\"Submit\\",
+-   \\"requestId\\": \\"0002\\",
+-   \\"status\\": \\"Approved\\",
+-   \\"summaryId\\": \\"0001\\",
++   \\"comment\\": \\"\\",
++   \\"performableActionForFix\\": \\"None\\",
++   \\"requestId\\": \\"\\",
++   \\"status\\": \\"NotRequested\\",
++   \\"summaryId\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() MOBILE-APP/ATTENDANCE/ATTENDANCE_REQUEST/REQUEST/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"comment\\": \\"\\",
+-   \\"performableActionForFix\\": \\"None\\",
+-   \\"requestId\\": \\"\\",
++   \\"performableActionForFix\\": \\"Submit\\",
++   \\"requestId\\": \\"ABC00\\",
+    \\"status\\": \\"NotRequested\\",
+-   \\"summaryId\\": \\"\\",
++   \\"summaryId\\": \\"A0101bbbddd\\",
+  }"
+`;
+
+exports[`reducer() MOBILE-APP/ATTENDANCE/ATTENDANCE_REQUEST/REQUEST/SET_COMMENT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"comment\\": \\"\\",
++   \\"comment\\": \\"New Comment\\",
+    \\"performableActionForFix\\": \\"None\\",
+    \\"requestId\\": \\"\\",
+    \\"status\\": \\"NotRequested\\",
+    \\"summaryId\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() MOBILE-APP/ATTENDANCE/ATTENDANCE_REQUEST/REQUEST/UNSET_COMMENT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"comment\\": \\"Old Comment\\",
++   \\"comment\\": \\"\\",
+    \\"performableActionForFix\\": \\"None\\",
+    \\"requestId\\": \\"\\",
+    \\"status\\": \\"NotRequested\\",
+    \\"summaryId\\": \\"\\",
+  }"
+`;

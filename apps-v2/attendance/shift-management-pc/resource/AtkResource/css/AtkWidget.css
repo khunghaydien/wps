@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/*------------------------------------------------------------------*/
+/* 背景 */
+.dash-table {
+    border-collapse : collapse;
+    border-spacing  : 0px;
+    border          : none;
+    margin          : 0px;
+}
+.dash-table td{
+    padding: 0px;
+}
+/*------------------------------------------------------------------*/
+/* 時刻表示エリア */
+.clock_area {
+    border-collapse : collapse;
+    border-spacing  : 0px;
+    border          : none;
+    margin          : 0px;
+    padding         : 0px;
+    white-space     : nowrap;
+}
+.clock_area tr td {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    vertical-align: middle;
+}
+#clockArea2   {
+    position: absolute;
+    left:  12px;
+    top: 60px;
+    width: 112px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
+#clockArea2 table.clock_area  {
+    margin: 0px auto;
+}
+#clockArea2 td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px;
+}
+#clock_date {
+    font-size: 13px;
+}
+#clock_time {
+    font-size: 28px;
+    margin: -1px;
+}
+#clock_week {
+    font-size: 13px;
+}
+/*------------------------------------------------------------------*/
+/* 直近のコメントエリア */
+#recentArea   { position: absolute; left: 134px; top: 64px; width:312px; height: 13px;  } /* 直近のツイート */
+.recentTable {
+    border-collapse : collapse;
+    border-spacing  : 0px;
+    border          : none;
+    margin          : 0px;
+    width           : 100%;
+}
+#recentTable tr td span {
+    font-size:11px;
+    font-family:verdana;
+}
+#recentUser {
+    font-size:11px;
+    font-family:verdana;
+    font-weight: bold;
+    color: #ECFFFF;
+}
+#recentComment {
+    font-size:11px;
+    font-family:verdana;
+    color: #FFFFFF;
+}
+#recentTime {
+    font-size:11px;
+    font-family:verdana;
+    color: #E9FFFF;
+}
+#recentDel {
+    font-size       : 11px;
+    font-family     : verdana;
+    color           : #0059A5;
+    cursor          : pointer;
+    text-decoration : none;
+}
+/*------------------------------------------------------------------*/
+#infoError    { position: absolute; left: 140px; top: 36px; width:290px; height: 24px; display:none;  } /* エラーメッセージ */
+#errorMessage {
+    font-family     : verdana;
+    font-size       : 12px;
+    color           : red;
+}
+/*------------------------------------------------------------------*/
+/* コメント入力エリア */
+#inputArea        {background-position:  -1px -137px;position:absolute;width:355px;height: 53px;left:127px;top: 78px;}
+#comment {
+    position: absolute;
+    left   : 7px;
+    top    : 6px;
+    width  : 428px;
+    height :  32px;
+    padding : 1px 2px;
+    border  : none;
+    font-size : 12px;
+    font-family : "lucida grande",tahoma,verdana,arial,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+    resize : none;
+}
+#comment:focus {
+    outline: none;
+}
+/*------------------------------------*/
+.clockNone { width: 0px; height: 24px; }
+/*------------------------------------*/
+.dijitDialogPaneContent:focus {
+    outline: none;
+}
+.dijitDialog:focus {
+    outline: none;
+}
+/*------------------------------------*/

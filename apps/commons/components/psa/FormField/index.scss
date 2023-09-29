@@ -1,0 +1,28 @@
+@import '../variables.scss';
+
+.ts-psa__form-field {
+  &.has-error input,
+  &.has-error .ts-textarea-field {
+    border: 1px solid $color-form-error;
+  }
+  &.has-error .ts-select {
+    border: 1px solid $color-form-error;
+  }
+  input::placeholder {
+    color: $color-icon-grey;
+  }
+
+  &__error {
+    color: $color-form-error;
+  }
+
+  &__label {
+    margin-bottom: $size-xs;
+    color: $color-text-grey;
+  }
+
+  #commons-tooltip {
+    display: inline-block;
+    margin-left: $size-base;
+  }
+}

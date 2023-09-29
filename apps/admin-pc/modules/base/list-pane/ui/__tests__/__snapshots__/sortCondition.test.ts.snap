@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"field\\": \\"\\",
++   \\"order\\": \\"ASC\\",
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/BASE/LIST-PANE/UI/SORT_CONDITION/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"field\\": \\"\\",
++   \\"field\\": \\"name\\",
+    \\"order\\": \\"ASC\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/BASE/LIST-PANE/UI/SORT_CONDITION/SET change to ASC 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"field\\": \\"name\\",
+-   \\"order\\": \\"DESC\\",
++   \\"order\\": \\"ASC\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/BASE/LIST-PANE/UI/SORT_CONDITION/SET change to DESC 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"field\\": \\"name\\",
+-   \\"order\\": \\"ASC\\",
++   \\"order\\": \\"DESC\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/BASE/LIST-PANE/UI/SORT_CONDITION/SET change to other field (ASC -> ASC) 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"field\\": \\"name\\",
++   \\"field\\": \\"code\\",
+    \\"order\\": \\"ASC\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/BASE/LIST-PANE/UI/SORT_CONDITION/SET change to other field (DESC -> ASC) 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"field\\": \\"name\\",
+-   \\"order\\": \\"DESC\\",
++   \\"field\\": \\"code\\",
++   \\"order\\": \\"ASC\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/BASE/LIST-PANE/UI/SORT_CONDITION/SET with order 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"field\\": \\"\\",
+-   \\"order\\": \\"ASC\\",
++   \\"field\\": \\"name\\",
++   \\"order\\": \\"DESC\\",
+  }"
+`;

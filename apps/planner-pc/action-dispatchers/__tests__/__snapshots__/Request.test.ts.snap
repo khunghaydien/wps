@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App fetchAlert() should dispatch actions to fetch state while blocking user interaction 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "alert": true,
+      "endDate": 2021-03-30T15:00:00.000Z,
+      "id": "",
+      "startDate": 2021-02-28T15:00:00.000Z,
+    },
+    "type": "PLANNER-PC/MODULES/ENTITIES/REQUEST_LIST/FETCH_SUCCESS",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`App fetchAlert() throws API errors, then it should catch API errors 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Server not responded",
+      "problem": "Server not responded",
+      "stackTrace": "aaaa",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;

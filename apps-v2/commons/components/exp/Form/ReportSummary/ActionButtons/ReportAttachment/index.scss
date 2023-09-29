@@ -1,0 +1,41 @@
+@import '../../../../../../styles/variables/colors';
+@import '../../../../../../styles/exp/variables/colors';
+.ts-expenses__form-report-summary__actions {
+  &__attachment {
+    position: relative;
+  }
+
+  &__attach {
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    margin-right: 16px;
+    border: 1px solid #dddbda;
+    border-radius: 5px;
+
+    &-count {
+      position: absolute;
+      top: -5px;
+      width: 15px;
+      height: 15px;
+      line-height: 15px;
+      margin-left: 23px;
+      background-color: $color-bg-notice;
+      color: $color-bg-lighter;
+      border-radius: 50%;
+      font-size: 10px;
+      padding-top: 1px;
+    }
+
+    &:disabled {
+      svg {
+        path {
+          fill: $color-bg-gray;
+        }
+      }
+    }
+  }
+  & .lightbox__modal__image-controls > .ts-icon-button {
+    background-color: transparent !important;
+  }
+}

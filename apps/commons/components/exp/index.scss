@@ -1,0 +1,451 @@
+@import '../../styles/wsp';
+@import '../../styles/exp/variables/colors';
+
+.ts-expenses {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-color: color('background-1');
+
+  &-sub-header {
+    position: relative;
+    z-index: 10001;
+    display: flex;
+    width: calc(100% - 124px);
+    min-height: 56px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 27px 0 72px;
+    font-size: 15px;
+
+    &__title {
+      min-width: 240px;
+      margin-right: 12px;
+    }
+
+    &__backToList {
+      float: right;
+
+      & .ts-finance-approval-sub-header-pager {
+        padding: 0;
+      }
+    }
+  }
+
+  &-switch-employee {
+    text-decoration: underline;
+    cursor: pointer;
+    color: color('default');
+  }
+
+  &-delegate-applicant {
+    font-size: 13px;
+    padding: 3px 10px;
+    height: 30px;
+    background: repeating-linear-gradient(
+      45deg,
+      #53688ce3,
+      #53688ce3 10px,
+      color('default') 10px,
+      color('default') 20px
+    );
+    color: #fff;
+    left: 50%;
+    top: 0;
+    border-radius: 0 0 5px 5px;
+    transform: translate(-50%, 0);
+    box-shadow: -3px 10px 15px rgba(0, 0, 0, 0.25);
+    min-width: 300px;
+    text-align: center;
+    position: absolute;
+
+    &-exit {
+      margin-left: 20px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  &-switch-employee {
+    min-width: 200px;
+    text-align: center;
+    font-size: 13px;
+    padding: 3px 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .input-feedback {
+    color: color('required');
+  }
+
+  input,
+  select {
+    height: 32px;
+    color: color('text-1');
+  }
+
+  textarea {
+    color: color('text-1');
+  }
+
+  select.ts-select-input {
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('../../images/iconArrowDown.png') no-repeat
+      color('background-1');
+    background-position: right 10px center;
+  }
+
+  .ts-text-field {
+    color: color('text-1');
+  }
+
+  .key {
+    display: block;
+    margin-bottom: 4px;
+    color: color('text-2');
+    font-size: 13px;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+  // When in FA read only mode or when tax rate is read only Text Field
+  .ts-text-field-container {
+    &--textValue {
+      margin-top: 10px;
+    }
+  }
+
+  // fix for vfp css
+  [class*='slds-size_'],
+  [class*='slds-size--'] {
+    flex: none;
+  }
+
+  .ts-textarea-field {
+    padding: 5px 10px !important;
+    border: 1px solid color('border-1');
+  }
+
+  // custom styles for form inputs inside exp
+  .ts-textarea-field[disabled] {
+    background-color: color('disabled-1');
+  }
+
+  .ts-text-field {
+    &::placeholder {
+      color: $ts-input-field-dashed-gray;
+    }
+  }
+
+  // /////////////////////////////////////////////////////////////////////
+  //
+  // Dialog
+  //
+  // /////////////////////////////////////////////////////////////////////
+
+  .ts-modal {
+    & .ts-multi-column-finder__header,
+    & .ts-multi-column-finder__footer {
+      border-color: color('border-2');
+      background-color: $color-bg-heading;
+    }
+  }
+
+  .commons-dialog-frame {
+    &__contents {
+      padding: 20px;
+    }
+  }
+
+  // /////////////////////////////////////////////////////////////////////
+  //
+  // Progress Bar
+  //
+  // /////////////////////////////////////////////////////////////////////
+
+  .ts-progress-bar {
+    & .selected,
+    & .active {
+      color: $color-text-selected;
+      font-size: 10px;
+    }
+
+    & .active {
+      font-weight: bold;
+    }
+
+    & .inactive {
+      color: color('text-3');
+      font-size: 10px;
+    }
+  }
+
+  // /////////////////////////////////////////////////////////////////////
+  //
+  // FixedHeaderTable
+  //
+  // /////////////////////////////////////////////////////////////////////
+
+  & .commons-fixed-header-table {
+    &__scrollable {
+      overflow-y: auto;
+    }
+  }
+
+  // /////////////////////////////////////////////////////////////////////
+  //
+  // Multicolumn Finder
+  //
+  // /////////////////////////////////////////////////////////////////////
+
+  & .ts-multi-column-finder {
+    &__search {
+      &-field-label,
+      &-result-label {
+        color: color('text-2');
+      }
+    }
+
+    &__contents,
+    .ts-multi-column-finder__scrollable {
+      border-radius: 4px;
+    }
+
+    & .slds-grid .ts-multi-column-finder__column,
+    & .ts-multi-column-finder__scrollable {
+      overflow-y: auto;
+    }
+
+    &__text {
+      & > .ts-multi-column-finder__text-main,
+      & > .ts-multi-column-finder__text-code {
+        color: color('text-2');
+        font-size: 10px;
+      }
+    }
+
+    &__show-child-btn.slds-col {
+      padding-right: 12px;
+
+      svg {
+        width: 20px;
+        height: 20px;
+        padding: 4px;
+      }
+    }
+
+    > .ts-multi-column-finder__btn-grp {
+      padding: 20px;
+    }
+
+    & .ts-multi-column-finder {
+      &__item,
+      &__contents,
+      &__column,
+      &__scrollable {
+        border-color: color('border-2');
+      }
+    }
+  }
+
+  // /////////////////////////////////////////////////////////////////////
+  //
+  // Date Picker
+  //
+  // /////////////////////////////////////////////////////////////////////
+
+  .react-datepicker-wrapper {
+    width: 100%;
+
+    & input {
+      position: relative;
+      padding: 5px 10px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background: url('../../images/iconCalendar.png') no-repeat
+        color('background-1');
+      background-position: right 10px center;
+      color: color('text-1');
+    }
+  }
+
+  & .ts-tabs-nav {
+    & .ts-tabs-nav__item {
+      > span {
+        font-weight: bold;
+      }
+
+      &:hover {
+        background: color('background-3');
+      }
+    }
+
+    & .active:hover {
+      background-color: color('background-1');
+    }
+  }
+
+  // TODO Remove after wsp design update is consistent and Button.scss is updated
+  // Try to overwrite common/components/Button.scss
+  // When wsp is updated new design this can be using Button.scss some color code are not defined because if new design change this color code will be there
+  .ts-button {
+    background-color: color('background-1');
+    color: color('exp-primary');
+
+    &:active {
+      background-color: $ts-button-default-dark;
+    }
+
+    &:focus:not(:hover, :active) {
+      background-color: #e6e6e6;
+      box-shadow: none;
+      outline: none;
+    }
+
+    &:hover {
+      // hoverはfocusと同じ表現を使う(枠線はなし)
+      background-color: color('hover');
+    }
+
+    &[disabled],
+    &[disabled]:hover,
+    &[disabled]:active,
+    &[disabled]:focus {
+      background-color: color('background-1');
+      color: color('disabled');
+    }
+
+    &.ts-button {
+      &--primary {
+        border-color: color('exp-primary');
+        background-color: color('exp-primary');
+        color: color('background-1');
+      }
+
+      &--primary:hover,
+      &--primary:active {
+        border-color: #1b59c9;
+        background-color: #1b59c9;
+      }
+
+      &--primary:focus {
+        border-color: #144399;
+        background-color: #144399;
+        outline: none;
+      }
+
+      &--primary[disabled],
+      &--primary[disabled]:hover,
+      &--primary[disabled]:active,
+      &--primary[disabled]:focus {
+        border-color: #abbacd;
+        background-color: #abbacd;
+        color: #fff;
+        cursor: not-allowed;
+      }
+
+      &--secondary {
+        border-color: color('secondary');
+        background-color: color('secondary');
+        color: #fff;
+      }
+
+      &--secondary:hover,
+      &--secondary:active {
+        border-color: #037b04;
+        background-color: #037b04;
+      }
+
+      &--secondary:focus {
+        border-color: #025703;
+        background-color: #025703;
+      }
+
+      &--secondary[disabled],
+      &--secondary[disabled]:hover,
+      &--secondary[disabled]:active,
+      &--secondary[disabled]:focus {
+        border-color: #92af92;
+        background-color: #92af92;
+        color: #fff;
+        cursor: not-allowed;
+      }
+
+      &--destructive {
+        border-color: color('error');
+        background-color: color('error');
+        color: #fff;
+      }
+
+      &--destructive:hover,
+      &--destructive:active {
+        border-color: #8e2724;
+        background-color: #8e2724;
+      }
+
+      &--destructive:focus {
+        border-color: #6b1d1b;
+        background-color: #6b1d1b;
+      }
+
+      &--destructive[disabled],
+      &--destructive[disabled]:hover,
+      &--destructive[disabled]:active,
+      &--destructive[disabled]:focus {
+        border-color: #bfa8a7;
+        background-color: #bfa8a7;
+        color: #fff;
+        cursor: not-allowed;
+      }
+    }
+
+    &--text {
+      background-color: transparent;
+      color: $color-text-anchor;
+    }
+
+    &--text:hover,
+    &--text:active,
+    &--text:focus {
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    &--text[disabled],
+    &--text[disabled]:hover,
+    &--text[disabled]:active,
+    &--text[disabled]:focus {
+      color: darken($color-text-anchor, 15%);
+      text-decoration: none;
+    }
+  }
+  // TODO End of - Remove after wsp design update is consistent and Button.scss is updated
+}
+
+.ts-text-field-container {
+  width: 100%;
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid color('border-1');
+    background-color: color('background-1');
+    border-radius: 5px;
+  }
+
+  input[disabled],
+  select[disabled],
+  textarea[disabled] {
+    border: 1px solid color('border-1');
+    background-color: color('disabled-1');
+  }
+
+  .commons-fields-date-field {
+    width: 100%;
+  }
+}

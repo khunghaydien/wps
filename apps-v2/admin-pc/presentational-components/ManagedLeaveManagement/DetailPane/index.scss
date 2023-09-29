@@ -1,0 +1,36 @@
+.admin-pc-managed-leave-management-detail-pane {
+  overflow: auto;
+  height: 100%;
+  background: $color-bg-pane-third;
+
+  &__header {
+    height: 34px;
+    padding: 0 12px 0 20px;
+    background: $color-bg-pane-header-third;
+    color: $color-text-pane-header-third;
+  }
+
+  &__header-title {
+    font-size: $font-size-x-large;
+    line-height: 34px;
+  }
+
+  &__header-side-content {
+    margin: 0 0 0 32px;
+    font-weight: bold;
+  }
+
+  &__header-side-text {
+    &--emphasis {
+      color: $color-text-pane-header-label;
+    }
+  }
+
+  &__header-close-button {
+    min-width: 80px;
+  }
+
+  &__content {
+    padding: 12px 16px;
+  }
+}

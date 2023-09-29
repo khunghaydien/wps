@@ -1,0 +1,157 @@
+<div>
+	<ul class="tsext-pankz">
+		<li><a href="#!menu">メニュー</a></li>
+		<li class="tsext-pankz-div">＞</li>
+		<li>工数の起算日変更</li>
+	</ul>
+	<div class="tsext-error-top" style="display:none;">
+	</div>
+	<div class="tsext-form">
+		<div class="tsext-know">
+		</div>
+		<table>
+			<tr>
+				<td>
+					<div class="tsext-section tsext-settings">
+						<div class="tsext-description">
+							<div>現在の設定</div>
+						</div>
+						<div class="tsext-changesd-settings">
+							<div class="tsext-changesd-box">
+								<div>
+									<table>
+									<tr>
+										<td>起算日</td>
+										<td class="tsext-changesd-current-date">
+										</td>
+										<td>月度の表記</td>
+										<td class="tsext-changesd-current-mark">
+										</td>
+										<td class="tsext-changesd-current-link">
+										</td>
+									</tr>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tsext-section tsext-settings">
+						<div class="tsext-description">
+							<div>1.</div>
+							<div>切替日と変更先を設定してください</div>
+						</div>
+						<div class="tsext-changesd-settings">
+							<div class="tsext-changesd-xday">
+								<div class="tsext-changesd-label">切替日</div>
+								<div class="tsext-changesd-value"><input type="text" id="tsextChangeSdDate" /></div>
+							</div>
+							<div class="tsext-changesd-box">
+								<div>
+									<table>
+									<tr>
+										<td>起算日</td>
+										<td>
+											<select class="tsext-changesd-date">
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+												<option value="6">6</option>
+												<option value="7">7</option>
+												<option value="8">8</option>
+												<option value="9">9</option>
+												<option value="10">10</option>
+												<option value="11">11</option>
+												<option value="12">12</option>
+												<option value="13">13</option>
+												<option value="14">14</option>
+												<option value="15">15</option>
+												<option value="16">16</option>
+												<option value="17">17</option>
+												<option value="18">18</option>
+												<option value="19">19</option>
+												<option value="20">20</option>
+												<option value="21">21</option>
+												<option value="22">22</option>
+												<option value="23">23</option>
+												<option value="24">24</option>
+												<option value="25">25</option>
+												<option value="26">26</option>
+												<option value="27">27</option>
+												<option value="28">28</option>
+											</select>
+										</td>
+										<td>月度の表記</td>
+										<td>
+											<label><input type="radio" name="displayMonth" /> <span>起算日に合わせる</span></label>
+											<label><input type="radio" name="displayMonth" /> <span>締め日に合わせる</span></label>
+										</td>
+									</tr>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div>2.</div>
+							<div>
+								<input type="button" value="変更内容を確認する" id="tsextChangeInitDateJobConfirm" />
+							</div>
+						</div>
+					</div>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div>3.</div>
+							<div>
+								<input type="button" value="起算日変更実行" id="tsextChangeInitDateJob" />
+								&nbsp;&nbsp;&nbsp;
+								<input type="button" value="キャンセル" id="tsextChangeInitDateJobCancel" class="cancel" />
+							</div>
+						</div>
+					</div>
+					<div class="tsext-busy-caution" style="display:none;">
+						<div>
+							<div>
+								起算日変更実行中です。<br/>
+								実行が完了するまではページを閉じないでください。
+							</div>
+						</div>
+					</div>
+					<div class="tsext-finish-ok" style="display:none;">
+						<div>
+							<div>
+								起算日変更完了しました。
+							</div>
+							<div class="tsext-finish-button">
+								×
+							</div>
+						</div>
+					</div>
+					<div class="tsext-finish-error" style="display:none;">
+						<div>
+							<div style="max-width:800px;">
+							</div>
+							<div class="tsext-finish-button">
+								×
+							</div>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<div class="tsext-section tsext-changesd-log">
+			<div>
+				ログ    <a>(download)</a>
+			</div>
+			<textarea wrap="off" readOnly="readOnly"></textarea>
+		</div>
+		<div class="tsext-form-download" style="display:none;">
+			<a></a>
+		</div>
+	</div>
+	<div class="tsext-error-top" style="display:none;">
+	</div>
+	<div class="tsext-bottom"></div>
+</div>

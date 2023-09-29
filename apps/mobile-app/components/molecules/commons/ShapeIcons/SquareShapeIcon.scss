@@ -1,0 +1,13 @@
+@import 'mobile-global-imports', 'ShapeIcon';
+
+.mobile-app-molecules-commons-icons-square-shape-icon {
+  @include shape-icon();
+  @include size-set();
+
+  &__container {
+    @include container-centering();
+
+    width: 500px;
+    height: 500px;
+  }
+}

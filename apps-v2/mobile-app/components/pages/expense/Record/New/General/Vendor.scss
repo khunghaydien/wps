@@ -1,0 +1,31 @@
+.mobile-app-pages-expense-page-record-new-general__vendor {
+  &--read-only {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #c9c9c9;
+    margin-bottom: 4px;
+    padding-left: 0;
+    font-size: 13px;
+    background-color: #f3f2f2;
+
+    &__vendor-name {
+      padding-bottom: 4px;
+      padding-left: 8px;
+      color: #666;
+      font-weight: 300;
+      word-break: break-all;
+      text-align: left;
+    }
+  }
+
+  &__vendor-jct {
+    color: #666;
+    font-weight: 300;
+    padding-left: 8px;
+  }
+}

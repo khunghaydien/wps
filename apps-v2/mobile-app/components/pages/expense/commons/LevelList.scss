@@ -1,0 +1,41 @@
+@import 'mobile-global-imports.scss';
+@import '../../../../../commons/styles/wsp.scss';
+
+.mobile-app-pages-level-list {
+  background-color: color('background-1');
+
+  .main-content {
+    padding: 48px $small-size;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  &__input {
+    margin-top: 10px;
+  }
+
+  &__label {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+
+  &__result {
+    width: 100%;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+
+  &__item {
+    width: 100%;
+    min-height: 48px;
+    margin: 0 auto;
+  }
+
+  &__hasMore,
+  &__has-zero {
+    font-size: 13px;
+    color: $color-red-800;
+    text-align: center;
+  }
+}

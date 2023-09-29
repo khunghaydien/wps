@@ -1,0 +1,54 @@
+@import '../../../../../styles/wsp';
+
+.ts-expenses__form-records__header {
+  display: table;
+  width: 100%;
+  padding: 12px;
+  border: solid 1px #d8dde6;
+  background-color: #f4f6f9;
+  font-size: 16px;
+  text-align: left;
+
+  &-checkbox {
+    display: table-cell;
+    width: 2%;
+  }
+
+  &-icon {
+    display: table-cell;
+    width: 2%;
+  }
+
+  &-date {
+    display: table-cell;
+    width: 10%;
+    text-align: center;
+  }
+
+  &-exptype {
+    display: table-cell;
+    width: 15%;
+    text-align: center;
+  }
+
+  &-amount {
+    display: table-cell;
+    width: 15%;
+  }
+
+  &-evidence {
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+  }
+
+  &-detail {
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+  }
+
+  & .active {
+    color: #619bd0;
+  }
+}

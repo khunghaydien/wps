@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots planner-pc/MonthlyView/parts/DateRow Boundary 1`] = `
+<div
+  className="DateRowstory__Box-sc-h3txhe-0 lhCBWZ"
+>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 fNOyrI"
+    data-testid="20190929"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR hDNKii"
+      size="medium"
+    >
+      29
+    </span>
+  </div>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 dNsRRi"
+    data-testid="20190930"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR cXmowY"
+      size="medium"
+    >
+      30
+    </span>
+  </div>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 chrgXE"
+    data-testid="20191001"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR kryAZq"
+      size="medium"
+    >
+      Oct 1
+    </span>
+  </div>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 ifOHXs"
+    data-testid="20191002"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR la-diAG"
+      size="medium"
+    >
+      2
+    </span>
+  </div>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 chrgXE"
+    data-testid="20191003"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR kryAZq"
+      size="medium"
+    >
+      3
+    </span>
+  </div>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 chrgXE"
+    data-testid="20191004"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR kryAZq"
+      size="medium"
+    >
+      4
+    </span>
+  </div>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 lbxOE"
+    data-testid="20191005"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR cNJGmG"
+      size="medium"
+    >
+      5
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots planner-pc/MonthlyView/parts/DateRow default 1`] = `
+<div
+  className="DateRowstory__Box-sc-h3txhe-0 lhCBWZ"
+>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 fNOyrI"
+    data-testid="20190901"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR hDNKii"
+      size="medium"
+    >
+      Sep 1
+    </span>
+  </div>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 dNsRRi"
+    data-testid="20190902"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR cXmowY"
+      size="medium"
+    >
+      2
+    </span>
+  </div>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 dNsRRi"
+    data-testid="20190903"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR cXmowY"
+      size="medium"
+    >
+      3
+    </span>
+  </div>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 fVRAxe"
+    data-testid="20190904"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR btjaOo"
+      size="medium"
+    >
+      4
+    </span>
+  </div>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 dNsRRi"
+    data-testid="20190905"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR cXmowY"
+      size="medium"
+    >
+      5
+    </span>
+  </div>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 dNsRRi"
+    data-testid="20190906"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR cXmowY"
+      size="medium"
+    >
+      6
+    </span>
+  </div>
+  <div
+    className="DailySummaryTriggerButton-sc-1siynpt-0 hUCrsk DateCell__Block-sc-622kyw-0 eWfOPu"
+    data-testid="20190907"
+    onClick={[Function]}
+  >
+    <span
+      className="Text-sc-11kuzx6-0 DateCell__TextDate-sc-622kyw-1 bqmfRR iTrtHY"
+      size="medium"
+    >
+      7
+    </span>
+  </div>
+</div>
+`;

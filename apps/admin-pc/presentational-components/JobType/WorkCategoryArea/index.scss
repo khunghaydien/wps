@@ -1,0 +1,24 @@
+.admin-pc-job-type-detail-work-category-area {
+  border-top: solid 1px #d8dde6;
+  margin-top: 20px;
+  padding-top: 16px;
+
+  &__title {
+    margin: 0 0 5px;
+    color: $color-text-modest;
+    font-size: 1rem;
+  }
+
+  &__hint {
+    color: #92939a;
+    margin-left: 6px;
+  }
+
+  &__delete {
+    float: right;
+  }
+
+  > .data-grid {
+    margin-top: 20px;
+  }
+}

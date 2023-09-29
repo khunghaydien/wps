@@ -1,0 +1,138 @@
+.test-api-root {
+  background: #fff;
+
+  &__container {
+    padding: 24px;
+    font-size: 16px;
+    transition: margin-left 0.4s;
+  }
+
+  &__container--active {
+    margin-left: 300px;
+  }
+
+  &__header {
+    margin: 12px 0;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  &__content {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    padding: 12px;
+    border-color: #333;
+    background-color: #fff;
+    border-radius: 12px;
+  }
+
+  &__call-api-btn {
+    min-width: 200px;
+    padding: 12px;
+    margin: 12px 0;
+    border: none;
+    background-color: #f32c52;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.4s;
+
+    &:hover {
+      background-color: #b5233f;
+    }
+  }
+
+  &__toggle-btn {
+    border: 0;
+    background-color: transparent;
+    color: #00e;
+    outline: 0;
+
+    &:hover {
+      color: #e74c3c;
+    }
+  }
+
+  &__toggle-icon {
+    display: inline-block;
+    transition: all 0.4s;
+
+    &--active {
+      transform: rotate(180deg);
+    }
+  }
+
+  // Sidebar
+  &__sidebar {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100vh;
+    padding-top: 60px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  &__sidebar--active {
+    width: 300px;
+  }
+
+  &__search-container {
+    width: 100%;
+    padding: 0 12px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  &__search {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #383535;
+    border-radius: 12px;
+    color: white;
+    outline: none;
+  }
+
+  &__link {
+    display: block;
+    padding: 8px 8px 8px 32px;
+    border: none;
+    background-color: transparent;
+    color: #818181;
+    cursor: pointer;
+    font-size: 12px;
+    outline: none;
+    transition: 0.3s;
+
+    &:hover {
+      color: #f1f1f1;
+    }
+  }
+
+  &__link-header {
+    padding-left: 24px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  &__close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 36px;
+    outline: none;
+    text-align: center;
+  }
+}

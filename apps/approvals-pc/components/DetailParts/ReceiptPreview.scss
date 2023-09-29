@@ -1,0 +1,63 @@
+.approvals-pc-detail-parts-receipt-preview {
+  padding: 0 0 25px 25px;
+
+  &-label {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    padding-right: 14px;
+    padding-left: 10px;
+    color: #53688c;
+    vertical-align: top;
+
+    &::after {
+      position: absolute;
+      top: 0;
+      right: 5px;
+      display: inline-block;
+      content: ':';
+    }
+  }
+
+  &-body {
+    display: inline-block;
+
+    .lightbox-img-thumbnail {
+      height: 100%;
+      object-fit: fill;
+    }
+  }
+
+  &__loading-placeholder {
+    position: relative;
+    top: 40%;
+    color: #c5c5c5;
+    text-align: center;
+
+    & .commons-spinner {
+      position: relative;
+      margin-top: -8px;
+    }
+  }
+
+  .ts-expenses-sf-file-preview_large-file-msg-with-link {
+    padding: 10px;
+    width: unset;
+  }
+
+  .ts-expenses-sf-file-preview__msg-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    > div {
+      margin-bottom: 10px;
+    }
+  }
+
+  .ts-expenses-sf-file-preview__download-link {
+    border: unset;
+    padding: 28px;
+  }
+}

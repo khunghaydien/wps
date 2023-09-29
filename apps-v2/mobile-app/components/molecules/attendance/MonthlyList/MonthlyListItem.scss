@@ -1,0 +1,152 @@
+@import 'mobile-global-imports.scss';
+
+// FIXME: Violated the color rule of design pattern reluctantly :(
+// 他の部分と色調をあわせるため、PC版の色よりもやや明るめです
+$color-leave-paid: #fde0bf;
+$color-leave-unpaid: #dedede;
+
+$halfday-leave-border: calc(66.666% - 16px);
+
+.mobile-app-molecules-attendance-monthly-list-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  &__fix-daily-request-status-tag {
+    border-bottom: 1px solid $color-border;
+  }
+
+  &__link-list-item {
+    height: 48px;
+    box-sizing: border-box;
+  }
+
+  &__status {
+    min-width: $medium-size;
+    margin-right: $extra-small-size;
+  }
+
+  &__status-top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__request-approval-status {
+    svg {
+      margin-bottom: 4px;
+    }
+  }
+
+  &__date,
+  &__startTime,
+  &__endTime {
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  &__date {
+    display: flex;
+    // NOTE: Here is not multiples of 4 by designer's order.
+    // https://teamspiritdev.atlassian.net/browse/GENIE-10356
+    min-width: 135px - 36px;
+  }
+
+  &__month-day {
+    width: 100%;
+    text-align: right;
+  }
+
+  &__weekday {
+    width: 100%;
+    padding-left: $small-size;
+    text-align: left;
+  }
+
+  &__startTime--placeholder,
+  &__endTime--placeholder {
+    color: $color-gray-300;
+  }
+
+  &--workday {
+    background-color: #fff;
+  }
+
+  &--holiday {
+    background-color: $color-blue-100;
+  }
+
+  &--legal-holiday {
+    background-color: $color-red-100;
+  }
+
+  &--all-day-paid-leave {
+    background: url('../../../../../commons/images/bgHatchedLine.png')
+      $color-leave-paid;
+  }
+
+  &--all-day-unpaid-leave {
+    background: url('../../../../../commons/images/bgHatchedLine.png')
+      $color-leave-unpaid;
+  }
+
+  &--am-paid-leave {
+    background: url('../../../../../commons/images/bgHatchedLine.png'),
+      linear-gradient(
+        135deg,
+        $color-leave-paid,
+        $color-leave-paid $halfday-leave-border,
+        #fff $halfday-leave-border
+      );
+  }
+
+  &--am-unpaid-leave {
+    background: url('../../../../../commons/images/bgHatchedLine.png'),
+      linear-gradient(
+        135deg,
+        $color-leave-unpaid,
+        $color-leave-unpaid $halfday-leave-border,
+        #fff $halfday-leave-border
+      );
+  }
+
+  &--pm-paid-leave {
+    background: url('../../../../../commons/images/bgHatchedLine.png'),
+      linear-gradient(
+        135deg,
+        #fff,
+        #fff $halfday-leave-border,
+        $color-leave-paid $halfday-leave-border
+      );
+  }
+
+  &--pm-unpaid-leave {
+    background: url('../../../../../commons/images/bgHatchedLine.png'),
+      linear-gradient(
+        135deg,
+        #fff,
+        #fff $halfday-leave-border,
+        $color-leave-unpaid $halfday-leave-border
+      );
+  }
+
+  &--am-paid-leave-pm-unpaid-leave {
+    background: url('../../../../../commons/images/bgHatchedLine.png'),
+      linear-gradient(
+        135deg,
+        $color-leave-paid,
+        $color-leave-paid $halfday-leave-border,
+        $color-leave-unpaid $halfday-leave-border
+      );
+  }
+
+  &--am-unpaid-leave-pm-paid-leave {
+    background: url('../../../../../commons/images/bgHatchedLine.png'),
+      linear-gradient(
+        135deg,
+        $color-leave-unpaid,
+        $color-leave-unpaid $halfday-leave-border,
+        $color-leave-paid $halfday-leave-border
+      );
+  }
+}

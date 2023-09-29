@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectScreenContainer Test it renders without crashing 1`] = `
+<div
+  className="ts-psa__second-screen"
+>
+  <div
+    className="ts-psa__sidebar"
+  >
+    <div
+      className="ts-psa__sidebar__header"
+    >
+      <div
+        className="ts-psa__sidebar__header-btn"
+        data-testid="ts-psa__sidebar__header-btn"
+        onClick={[Function]}
+      >
+        <test-file-stub
+          className="ts-psa__sidebar__header-btn-icon"
+          onClick={[Function]}
+        />
+      </div>
+      <span
+        className="ts-psa__sidebar__text"
+      >
+        MENU
+      </span>
+    </div>
+    <ul
+      className="ts-psa__sidebar__nav"
+    >
+      <li
+        className="ts-psa__sidebar__list-items is-active ts-psa__sidebar__list-item--ACTIVITY"
+        data-testId="ts-psa__sidebar__list-item--ACTIVITY"
+        onClick={[Function]}
+      >
+        <test-file-stub
+          className="ts-psa__sidebar__icon-activity"
+        />
+        <span
+          className="ts-psa__sidebar__text"
+        >
+          {$Psa_Clbl_Activity}
+        </span>
+      </li>
+      <li
+        className="ts-psa__sidebar__list-items ts-psa__sidebar__list-item--PROJECT"
+        data-testId="ts-psa__sidebar__list-item--PROJECT"
+        onClick={[Function]}
+      >
+        <test-file-stub
+          className="ts-psa__sidebar__icon-project"
+        />
+        <span
+          className="ts-psa__sidebar__text"
+        >
+          Project Details
+        </span>
+      </li>
+      <li
+        className="ts-psa__sidebar__list-items ts-psa__sidebar__list-item--UPLOAD"
+        data-testId="ts-psa__sidebar__list-item--UPLOAD"
+        onClick={[Function]}
+      >
+        <test-file-stub
+          className="ts-psa__sidebar__icon-upload"
+          fill="#000"
+        />
+        <span
+          className="ts-psa__sidebar__text"
+        >
+          Upload File
+        </span>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="ts-psa__second-screen__content"
+  >
+    <div
+      className="ts-psa__activity"
+    >
+      <div
+        className="ts-psa__common-header"
+      >
+        <div
+          className="ts-psa__common-header-left"
+        >
+          <span
+            className="ts-psa__common-header-breadcrumb"
+          />
+          <span
+            className="ts-psa__common-header-title"
+          >
+            {$Psa_Clbl_Activity}
+          </span>
+        </div>
+        <div
+          className="ts-psa__common-header__btn-area"
+        >
+          <button
+            className="ts-psa__activity__refresh-btn ts-button ts-button--default"
+            data-testid="ts-psa__activity__refresh-btn"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                <test-file-stub />
+              </span>
+            </div>
+          </button>
+          <button
+            className="ts-psa__activity__btn--new ts-button ts-button--default"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                New {$Psa_Clbl_Activity}
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        className="ts-psa__activity__content"
+      >
+        <div
+          className="ts-psa__empty-screen"
+        >
+          <div
+            className="ts-psa__empty-screen__header"
+          >
+            <span>
+              Looks like there is no {$Psa_Clbl_Activity} here.
+            </span>
+          </div>
+          <div
+            className="ts-psa__empty-screen__body"
+          >
+            <span>
+              Create your {$Psa_Clbl_Activity}.
+              <br />
+            </span>
+            <span>
+              Once you do, this page will show the {$Psa_Clbl_Activity} list.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

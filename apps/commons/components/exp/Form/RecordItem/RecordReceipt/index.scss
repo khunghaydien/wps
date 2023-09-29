@@ -1,0 +1,101 @@
+@import 'mobile-global-imports.scss';
+@import '../../../../../styles/exp/variables/colors';
+
+.record-receipt {
+  margin-bottom: 20px;
+
+  &__input {
+    position: relative;
+    margin-bottom: 15px;
+  }
+
+  &__input-action {
+    display: flex;
+  }
+
+  &__file {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed $ts-input-field-dashed-gray;
+    text-align: center;
+  }
+
+  &__button {
+    &--file {
+      height: 32px;
+      padding: 0 unit(5);
+      margin-top: 12px;
+      margin-right: 10px;
+      color: $color-bg-primary;
+    }
+
+    &--delete {
+      position: relative;
+      display: flex;
+      width: 28px;
+      height: 28px;
+      margin-top: 14px;
+      border-radius: 50%;
+      color: $color-bg-primary;
+      align-items: center;
+
+      &:active {
+        background-color: $color-bg-gray;
+      }
+
+      &:focus {
+        box-shadow: none;
+      }
+
+      & svg {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &__metadata {
+    margin-top: 12px;
+    color: $color-text-header-dark;
+  }
+
+  &__metadata-warning {
+    margin-top: 8px;
+    border: 1px solid #df8e2f;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+
+    &-svg {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      overflow: visible !important;
+    }
+
+    &-msg {
+      color: $color-text-header-dark;
+      margin-left: 10px;
+    }
+  }
+
+  &__loading-placeholder {
+    height: 40px;
+    color: #c5c5c5;
+    text-align: center;
+
+    & .commons-spinner {
+      position: relative;
+      margin-top: -8px;
+    }
+  }
+
+  .ts-expenses-sf-file-preview_preview-area {
+    img {
+      border: 1px solid #808080;
+    }
+  }
+}

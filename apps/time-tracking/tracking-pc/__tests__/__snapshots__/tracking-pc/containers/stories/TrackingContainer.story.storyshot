@@ -1,0 +1,1061 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/tracking-pc/TrackingContainer Standard 1`] = `
+Array [
+  .c10 {
+  width: 12px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  fill: #000;
+}
+
+.c12 {
+  width: 12px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  fill: #2782ed;
+}
+
+.c9 {
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 28px;
+  width: 28px;
+  padding: 0;
+}
+
+.c9:hover {
+  background: #f3f2f2;
+}
+
+.c9:active {
+  background: #e5e5e5;
+}
+
+.c9:disabled,
+.c9:disabled:active,
+.c9:disabled:hover {
+  color: #d9d9d9;
+  background: none;
+}
+
+.c11 {
+  width: 12px;
+  height: 14px;
+}
+
+.c7 {
+  min-height: 32px;
+  border-radius: 4px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 16px;
+  font-size: 13px;
+  line-height: 17px;
+  background: #fff;
+  color: #2782ed;
+  border: 1px solid #d9d9d9;
+}
+
+.c7:hover {
+  background: #f3f2f2;
+}
+
+.c7:active {
+  background: #e5e5e5;
+}
+
+.c7:disabled {
+  background: #fff;
+  color: #d9d9d9;
+}
+
+.c0 {
+  position: fixed;
+  width: 100%;
+  height: 56px;
+  background: #fff;
+  top: 0;
+  left: 0;
+  z-index: 10001;
+  border-bottom: 1px solid #eee;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.c2 {
+  width: 32px;
+  height: 32px;
+  margin: 12px 20px;
+}
+
+.c3 {
+  font-family: 'Salesforce Sans';
+  font-weight: bold;
+  font-size: 20px;
+  color: #666;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c5 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 12px;
+  color: #333;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c6 {
+  min-width: 260px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 17px;
+  color: #666;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  height: auto;
+  max-width: 482px;
+}
+
+.c8 {
+  color: #53688c;
+  margin: 0 16px 0 20px;
+  padding: 7px 17px 6px 17px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+<div
+    className="ts-container"
+  >
+    <nav
+      className="c0"
+    >
+      <div
+        className="c1"
+      >
+        <div
+          className="c2"
+        >
+          <test-file-stub />
+        </div>
+        <span
+          className="c3"
+          color="secondary"
+          size="xxl"
+        >
+          Time Tracking
+        </span>
+      </div>
+    </nav>
+    <div
+      className="tracking-pc__body"
+    >
+      <div
+        className="tracking-pc__nav"
+      >
+        <div
+          className="c4"
+        >
+          <span
+            className="c5 c6"
+          >
+            April 29, 2022 - May 3, 2022
+          </span>
+          <button
+            className="c7 c8"
+            onClick={[Function]}
+          >
+            Current Period
+          </button>
+          <button
+            className="c9"
+            color="#000"
+            onClick={[Function]}
+          >
+            <test-file-stub
+              className="c10"
+              color="#000"
+            />
+          </button>
+          <button
+            className="c9"
+            color="#2782ed"
+            onClick={[Function]}
+          >
+            <test-file-stub
+              className="c11 c12"
+              color="#2782ed"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        className="tracking-pc-list"
+      >
+        <header
+          className="tracking-pc-list-header"
+        >
+          <div
+            className="tracking-pc-list-header__item tracking-pc-list-column--date"
+          >
+            Date
+          </div>
+          <div
+            className="tracking-pc-list-header__item tracking-pc-list-column--name"
+          >
+            Job
+            /
+            Work Category
+          </div>
+          <div
+            className="tracking-pc-list-header__item tracking-pc-list-column--tracking-graph"
+          >
+            Chart
+          </div>
+          <div
+            className="tracking-pc-list-header__item tracking-pc-list-column--work-time"
+          >
+            Hours
+          </div>
+          <div
+            className="tracking-pc-list-header__item tracking-pc-list-column--comment"
+          >
+            Comments
+          </div>
+        </header>
+        <div
+          className="tracking-pc-list__item-container"
+        >
+          <div
+            className="tracking-pc-list-empty-item"
+          >
+            <header
+              className="tracking-pc-list-empty-item__item--date tracking-pc-list-column--date"
+            >
+              <div
+                className="tracking-pc-list-empty-item__item-date-inner"
+              >
+                4/29 Fr
+              </div>
+            </header>
+            <div
+              className="tracking-pc-list-empty-item__item tracking-pc-list-column--name"
+            />
+            <div
+              className="tracking-pc-list-empty-item__item tracking-pc-list-column--tracking-graph"
+            />
+            <div
+              className="tracking-pc-list-empty-item__item tracking-pc-list-column--work-time"
+            />
+            <div
+              className="tracking-pc-list-empty-item__item tracking-pc-list-column--comment"
+            />
+          </div>
+          <section
+            className="tracking-pc-list-item"
+          >
+            <header
+              className="tracking-pc-list-item__item tracking-pc-list-column--date"
+            >
+              <div
+                className="tracking-pc-list-item__item-date-inner"
+              >
+                30 Sa
+              </div>
+            </header>
+            <div
+              className="tracking-pc-list-item__content"
+            >
+              <div
+                className="tracking-pc-list-item__task-wrapper"
+              >
+                <div
+                  className="tracking-pc-list-item-task"
+                >
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--name tracking-pc-list-column--name"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__task-index"
+                    >
+                      1
+                    </div>
+                    <div
+                      className="tracking-pc-list-item-task__task-name"
+                    >
+                      ジョブ1-A / 作業分類1-A
+                    </div>
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-column--tracking-graph"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__item tracking-pc-list-item-task__tracking-graph"
+                      style={
+                        Object {
+                          "backgroundColor": "#00a3df",
+                          "width": "37%",
+                        }
+                      }
+                    />
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--work-time tracking-pc-list-column--work-time"
+                  >
+                    03:00
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--comment tracking-pc-list-column--comment"
+                  >
+                    <p>
+                      <span>
+                        ジョブ別作業報告テキスト
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="tracking-pc-list-item-summary"
+              >
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--name tracking-pc-list-column--name"
+                />
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--label-summary tracking-pc-list-column--label-summary"
+                >
+                  Total
+                </div>
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--work-time tracking-pc-list-column--work-time"
+                >
+                  08:00
+                </div>
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--comment tracking-pc-list-column--comment"
+                >
+                  <p>
+                    <span>
+                      作業報告
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+            className="tracking-pc-list-item"
+          >
+            <header
+              className="tracking-pc-list-item__item tracking-pc-list-column--date"
+            >
+              <div
+                className="tracking-pc-list-item__item-date-inner"
+              >
+                5/1 Su
+              </div>
+            </header>
+            <div
+              className="tracking-pc-list-item__content"
+            >
+              <div
+                className="tracking-pc-list-item__task-wrapper"
+              >
+                <div
+                  className="tracking-pc-list-item-task"
+                >
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--name tracking-pc-list-column--name"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__task-index"
+                    >
+                      1
+                    </div>
+                    <div
+                      className="tracking-pc-list-item-task__task-name"
+                    >
+                      ジョブ1-A / 作業分類1-A
+                    </div>
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-column--tracking-graph"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__item tracking-pc-list-item-task__tracking-graph"
+                      style={
+                        Object {
+                          "backgroundColor": "#00a3df",
+                          "width": "37%",
+                        }
+                      }
+                    />
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--work-time tracking-pc-list-column--work-time"
+                  >
+                    03:00
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--comment tracking-pc-list-column--comment"
+                  >
+                    <p>
+                      <span>
+                        ジョブ別作業報告テキスト
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="tracking-pc-list-item__task-wrapper"
+              >
+                <div
+                  className="tracking-pc-list-item-task"
+                >
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--name tracking-pc-list-column--name"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__task-index"
+                    >
+                      2
+                    </div>
+                    <div
+                      className="tracking-pc-list-item-task__task-name"
+                    >
+                      ジョブ2-A / 作業分類2-A
+                    </div>
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-column--tracking-graph"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__item tracking-pc-list-item-task__tracking-graph"
+                      style={
+                        Object {
+                          "backgroundColor": "#6fbeda",
+                          "width": "25%",
+                        }
+                      }
+                    />
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--work-time tracking-pc-list-column--work-time"
+                  >
+                    02:00
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--comment tracking-pc-list-column--comment"
+                  >
+                    <p>
+                      <span>
+                        ジョブ別作業報告テキスト
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="tracking-pc-list-item__task-wrapper"
+              >
+                <div
+                  className="tracking-pc-list-item-task"
+                >
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--name tracking-pc-list-column--name"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__task-index"
+                    >
+                      3
+                    </div>
+                    <div
+                      className="tracking-pc-list-item-task__task-name"
+                    >
+                      ジョブ3-A
+                    </div>
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-column--tracking-graph"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__item tracking-pc-list-item-task__tracking-graph"
+                      style={
+                        Object {
+                          "backgroundColor": "#79cca6",
+                          "width": "12%",
+                        }
+                      }
+                    />
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--work-time tracking-pc-list-column--work-time"
+                  >
+                    01:00
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--comment tracking-pc-list-column--comment"
+                  >
+                    <p>
+                      <span>
+                        ジョブ別作業報告テキスト
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="tracking-pc-list-item-summary"
+              >
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--name tracking-pc-list-column--name"
+                />
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--label-summary tracking-pc-list-column--label-summary"
+                >
+                  Total
+                </div>
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--work-time tracking-pc-list-column--work-time"
+                >
+                  06:00
+                </div>
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--comment tracking-pc-list-column--comment"
+                >
+                  <p>
+                    <span>
+                      作業報告
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+            className="tracking-pc-list-item"
+          >
+            <header
+              className="tracking-pc-list-item__item tracking-pc-list-column--date"
+            >
+              <div
+                className="tracking-pc-list-item__item-date-inner"
+              >
+                2 Mo
+              </div>
+            </header>
+            <div
+              className="tracking-pc-list-item__content"
+            >
+              <div
+                className="tracking-pc-list-item__task-wrapper"
+              >
+                <div
+                  className="tracking-pc-list-item-task"
+                >
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--name tracking-pc-list-column--name"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__task-index"
+                    >
+                      1
+                    </div>
+                    <div
+                      className="tracking-pc-list-item-task__task-name"
+                    >
+                      ジョブ1-A・・・長いテキスト・・・長いテキスト・・・長いテキスト・・・長いテキスト・・・LongLongLongLongLongLongLongLongLongLongLongLongLongLongLong / 作業分類1-A
+                    </div>
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-column--tracking-graph"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__item tracking-pc-list-item-task__tracking-graph"
+                      style={
+                        Object {
+                          "backgroundColor": "#00a3df",
+                          "width": "37%",
+                        }
+                      }
+                    />
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--work-time tracking-pc-list-column--work-time"
+                  >
+                    03:00
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--comment tracking-pc-list-column--comment"
+                  >
+                    <p>
+                      <span>
+                        ジョブ別作業報告テキスト
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="tracking-pc-list-item__task-wrapper"
+              >
+                <div
+                  className="tracking-pc-list-item-task"
+                >
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--name tracking-pc-list-column--name"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__task-index"
+                    >
+                      2
+                    </div>
+                    <div
+                      className="tracking-pc-list-item-task__task-name"
+                    >
+                      ジョブ2-A / 作業分類2-A・・・長いテキスト・・・長いテキスト・・・長いテキスト・・・長いテキスト・・・LongLongLongLongLongLongLongLongLongLongLongLongLongLongLong
+                    </div>
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-column--tracking-graph"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__item tracking-pc-list-item-task__tracking-graph"
+                      style={
+                        Object {
+                          "backgroundColor": "#6fbeda",
+                          "width": "25%",
+                        }
+                      }
+                    />
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--work-time tracking-pc-list-column--work-time"
+                  >
+                    02:00
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--comment tracking-pc-list-column--comment"
+                  >
+                    <p>
+                      <span>
+                        ジョブ別作業報告テキスト
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="tracking-pc-list-item__task-wrapper"
+              >
+                <div
+                  className="tracking-pc-list-item-task"
+                >
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--name tracking-pc-list-column--name"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__task-index"
+                    >
+                      3
+                    </div>
+                    <div
+                      className="tracking-pc-list-item-task__task-name"
+                    >
+                      ジョブ3-A
+                    </div>
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-column--tracking-graph"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__item tracking-pc-list-item-task__tracking-graph"
+                      style={
+                        Object {
+                          "backgroundColor": "#79cca6",
+                          "width": "12%",
+                        }
+                      }
+                    />
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--work-time tracking-pc-list-column--work-time"
+                  >
+                    01:00
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--comment tracking-pc-list-column--comment"
+                  >
+                    <p>
+                      <span>
+                        ジョブ別作業報告テキスト・・・長いテキスト・・・長いテキスト・・・長いテキスト・・・長いテキスト・・・LongLongLongLongLongLongLongLongLongLongLongLongLongLongLong
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="tracking-pc-list-item-summary"
+              >
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--name tracking-pc-list-column--name"
+                />
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--label-summary tracking-pc-list-column--label-summary"
+                >
+                  Total
+                </div>
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--work-time tracking-pc-list-column--work-time"
+                >
+                  06:00
+                </div>
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--comment tracking-pc-list-column--comment"
+                >
+                  <p>
+                    <span>
+                      作業報告・・・長いテキスト・・・長いテキスト・・・長いテキスト・・・長いテキスト・・・LongLongLongLongLongLongLongLongLongLongLongLongLongLongLong
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+            className="tracking-pc-list-item"
+          >
+            <header
+              className="tracking-pc-list-item__item tracking-pc-list-column--date"
+            >
+              <div
+                className="tracking-pc-list-item__item-date-inner"
+              >
+                3 Tu
+              </div>
+            </header>
+            <div
+              className="tracking-pc-list-item__content"
+            >
+              <div
+                className="tracking-pc-list-item__task-wrapper"
+              >
+                <div
+                  className="tracking-pc-list-item-task"
+                >
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--name tracking-pc-list-column--name"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__task-index"
+                    >
+                      1
+                    </div>
+                    <div
+                      className="tracking-pc-list-item-task__task-name"
+                    >
+                      ジョブ2-A
+                    </div>
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-column--tracking-graph"
+                  >
+                    <div
+                      className="tracking-pc-list-item-task__item tracking-pc-list-item-task__tracking-graph"
+                      style={
+                        Object {
+                          "backgroundColor": "#0083b6",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--work-time tracking-pc-list-column--work-time"
+                  >
+                    08:00
+                  </div>
+                  <div
+                    className="tracking-pc-list-item-task__item tracking-pc-list-item-task__item--comment tracking-pc-list-column--comment"
+                  >
+                    <p>
+                      <span>
+                        ジョブ別作業報告テキスト
+                        <br />
+                      </span>
+                      <span>
+                        改行して、
+                        <br />
+                      </span>
+                      <span>
+                        <br />
+                      </span>
+                      <span>
+                        テキストの続き
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="tracking-pc-list-item-summary"
+              >
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--name tracking-pc-list-column--name"
+                />
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--label-summary tracking-pc-list-column--label-summary"
+                >
+                  Total
+                </div>
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--work-time tracking-pc-list-column--work-time"
+                >
+                  08:00
+                </div>
+                <div
+                  className="tracking-pc-list-item-summary__item tracking-pc-list-item-summary__item--comment tracking-pc-list-column--comment"
+                >
+                  <p>
+                    <span>
+                      作業報告テキスト
+                      <br />
+                    </span>
+                    <span>
+                      改行して、
+                      <br />
+                    </span>
+                    <span>
+                      <br />
+                    </span>
+                    <span>
+                      テキストの続き
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div
+            className="tracking-pc-list__summary-wrapper"
+          >
+            <section
+              className="tracking-pc-list-summary"
+            >
+              <header
+                className="tracking-pc-list-summary__header"
+              >
+                <div
+                  className="tracking-pc-list-summary__header-item tracking-pc-list-column--name"
+                >
+                  Job
+                  /
+                  Work Category
+                </div>
+                <div
+                  className="tracking-pc-list-summary__header-item tracking-pc-list-column--tracking-graph"
+                >
+                  Chart
+                </div>
+                <div
+                  className="tracking-pc-list-summary__header-item tracking-pc-list-column--work-time"
+                >
+                  Hours
+                </div>
+              </header>
+              <div
+                className="tracking-pc-list-summary-item"
+              >
+                <div
+                  className="tracking-pc-list-summary-item__subitem tracking-pc-list-summary-item__subitem--name tracking-pc-list-column--name"
+                >
+                  ジョブ2-A
+                </div>
+                <div
+                  className="tracking-pc-list-summary-item__subitem tracking-pc-list-column--tracking-graph"
+                >
+                  <div
+                    className="tracking-pc-list-summary-item__graph"
+                    style={
+                      Object {
+                        "backgroundColor": "#0083b6",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="tracking-pc-list-summary-item__subitem tracking-pc-list-summary-item__subitem--work-time tracking-pc-list-column--work-time"
+                >
+                  08:00
+                </div>
+              </div>
+              <div
+                className="tracking-pc-list-summary-item"
+              >
+                <div
+                  className="tracking-pc-list-summary-item__subitem tracking-pc-list-summary-item__subitem--name tracking-pc-list-column--name"
+                >
+                  ジョブ1-A / 作業分類1-A
+                </div>
+                <div
+                  className="tracking-pc-list-summary-item__subitem tracking-pc-list-column--tracking-graph"
+                >
+                  <div
+                    className="tracking-pc-list-summary-item__graph"
+                    style={
+                      Object {
+                        "backgroundColor": "#00a3df",
+                        "width": "37%",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="tracking-pc-list-summary-item__subitem tracking-pc-list-summary-item__subitem--work-time tracking-pc-list-column--work-time"
+                >
+                  03:00
+                </div>
+              </div>
+              <div
+                className="tracking-pc-list-summary-item"
+              >
+                <div
+                  className="tracking-pc-list-summary-item__subitem tracking-pc-list-summary-item__subitem--name tracking-pc-list-column--name"
+                >
+                  ジョブ2-A / 作業分類2-A
+                </div>
+                <div
+                  className="tracking-pc-list-summary-item__subitem tracking-pc-list-column--tracking-graph"
+                >
+                  <div
+                    className="tracking-pc-list-summary-item__graph"
+                    style={
+                      Object {
+                        "backgroundColor": "#6fbeda",
+                        "width": "25%",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="tracking-pc-list-summary-item__subitem tracking-pc-list-summary-item__subitem--work-time tracking-pc-list-column--work-time"
+                >
+                  02:00
+                </div>
+              </div>
+              <div
+                className="tracking-pc-list-summary-item"
+              >
+                <div
+                  className="tracking-pc-list-summary-item__subitem tracking-pc-list-summary-item__subitem--name tracking-pc-list-column--name"
+                >
+                  ジョブ3-A
+                </div>
+                <div
+                  className="tracking-pc-list-summary-item__subitem tracking-pc-list-column--tracking-graph"
+                >
+                  <div
+                    className="tracking-pc-list-summary-item__graph"
+                    style={
+                      Object {
+                        "backgroundColor": "#79cca6",
+                        "width": "12%",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="tracking-pc-list-summary-item__subitem tracking-pc-list-summary-item__subitem--work-time tracking-pc-list-column--work-time"
+                >
+                  01:00
+                </div>
+              </div>
+              <footer
+                className="tracking-pc-list-summary__footer"
+              >
+                <div
+                  className="tracking-pc-list-summary__footer-item tracking-pc-list-column--name"
+                />
+                <div
+                  className="tracking-pc-list-summary__footer-item tracking-pc-list-summary__sum-label tracking-pc-list-column--tracking-graph"
+                  id="tracking-pc-list-summary__sum-label"
+                >
+                  Total
+                </div>
+                <div
+                  aria-labelledby="tracking-pc-list-summary__sum-label"
+                  className="tracking-pc-list-summary__footer-item tracking-pc-list-summary__sum-value tracking-pc-list-column--work-time"
+                >
+                  14:00
+                </div>
+              </footer>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div />,
+]
+`;

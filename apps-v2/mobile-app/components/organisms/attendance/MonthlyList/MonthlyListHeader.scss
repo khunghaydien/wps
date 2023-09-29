@@ -1,0 +1,39 @@
+@import 'mobile-global-imports.scss';
+
+@mixin fixed-width($size) {
+  min-width: $size;
+  max-width: $size;
+}
+
+.mobile-app-organisms-attendance-monthly-list-header {
+  display: flex;
+  width: 100%;
+
+  &__item {
+    display: flex;
+    width: 100%;
+  }
+
+  &__status {
+    // Icon width + Left margin + Right margin
+    @include fixed-width($medium-size + $small-size + $extra-small-size);
+  }
+
+  &__icon-space {
+    // Icon width + Left margin + Right margin
+    @include fixed-width($medium-size + $small-size + $small-size);
+  }
+
+  &__date,
+  &__startTime,
+  &__endTime {
+    width: 100%;
+    text-align: center;
+  }
+
+  &__date {
+    // NOTE: Here is not multiples of 4 by designer's order.
+    // https://teamspiritdev.atlassian.net/browse/GENIE-10356
+    min-width: 135px - 36px;
+  }
+}

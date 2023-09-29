@@ -1,0 +1,65 @@
+.timesheet-pc-main-content-timesheet {
+  $this: &;
+
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+
+  &--graph {
+    padding: 35px 0;
+  }
+
+  &__table-wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+  }
+
+  &__table--graph {
+    display: block;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    thead,
+    tbody,
+    tfoot {
+      display: block;
+      width: 100%;
+    }
+
+    thead,
+    tfoot {
+      position: absolute;
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+
+    thead {
+      top: 0;
+      border-bottom: 1px solid #d8dde6;
+    }
+
+    tfoot {
+      bottom: 0;
+      border-top: 1px solid #d8dde6;
+    }
+
+    tr {
+      display: table;
+      width: 100%;
+    }
+  }
+
+  &__table--table {
+    border-collapse: separate;
+    border-spacing: 0;
+    height: 100%;
+
+    th,
+    td {
+      border-bottom: 1px solid #d8dde6;
+    }
+  }
+
+}

@@ -1,0 +1,54 @@
+@import '../../../../../../styles/wsp';
+@import '../../../../../../styles/variables/colors';
+
+.ts-expenses__form-report-summary__actions-custom-request {
+  margin-right: 16px;
+  border-radius: 5px;
+  display: flex;
+
+  &__error-message {
+    color: color('required');
+  }
+
+  &__select-btn {
+    height: 32px;
+  }
+
+  &__status {
+    white-space: nowrap;
+    line-height: 32px;
+    margin-left: 4px;
+    color: color('text-3');
+    font-size: 12px;
+  }
+
+  &__text {
+    display: inline-block;
+    line-height: 32px;
+    color: $color-text-anchor;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 12px;
+  }
+
+  &__clear.slds-button__icon {
+    margin-left: 12px;
+    cursor: pointer;
+    height: 32px;
+    width: 16px;
+    padding-top: 6px;
+
+    & g {
+      fill: #afadab;
+    }
+
+    & path {
+      fill: #fff;
+    }
+  }
+}

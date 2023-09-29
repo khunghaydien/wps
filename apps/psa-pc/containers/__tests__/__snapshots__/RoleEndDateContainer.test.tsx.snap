@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoleEndDateContainer Test it renders without crashing 1`] = `
+<div
+  className="commons-dialog-frame__wrapper"
+  style={
+    Object {
+      "zIndex": 5100000,
+    }
+  }
+>
+  <div
+    className="commons-dialog-frame__overlay"
+    onClick={[Function]}
+  />
+  <div
+    className="commons-dialog-frame slds ts-psa__end-date-role-dialog__dialog-frame"
+    role="dialog"
+  >
+    <div
+      className="slds-grid slds-grid--vertical-align-center commons-dialog-frame__header"
+    >
+      <div
+        className="slds-grow commons-dialog-frame__header-title"
+      >
+        Reschedule End Date
+      </div>
+    </div>
+    <div
+      className="commons-dialog-frame__wrap"
+    >
+      <div
+        className="commons-dialog-frame__contents"
+      >
+        <div
+          className="ts-psa__end-date-role-dialog__inner"
+        >
+          <div
+            className="ts-psa__end-date-role-dialog"
+          >
+            <div
+              className="ts-psa__form-field  "
+              data-testid="ts-psa__end-date-role-dialog__end-date"
+            >
+              <div
+                className="ts-psa__form-field__label"
+              >
+                <span
+                  className="is-required"
+                >
+                  *
+                </span>
+                 
+                Assignment End Date
+              </div>
+              <div
+                className="ts-psa__date-field__container"
+              >
+                <div
+                  className="commons-fields-date-field"
+                  data-testid=""
+                >
+                  <div>
+                    <div
+                      className="react-datepicker-wrapper"
+                    >
+                      <div
+                        className="react-datepicker__input-container"
+                      >
+                        <input
+                          className="ts-text-field slds-input slds-input"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          placeholder="Select End Date"
+                          readOnly={false}
+                          required={false}
+                          type="text"
+                          value="02/21/2022"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ts-psa__date-field__calendar-icon-wrapper"
+                >
+                  <test-file-stub
+                    className="ts-psa__date-field__calendar-icon-body"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="ts-psa__form-field ts-psa__end-date-role-dialog__comment "
+              data-testid="ts-psa__end-date-role-dialog__comment"
+            >
+              <div
+                className="ts-psa__form-field__label"
+              >
+                 
+                Comment
+              </div>
+              <textarea
+                className="ts-textarea-field slds-input ts-textarea-field--no-resize"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                placeholder="Please enter your comments here"
+                value=""
+              />
+              <span
+                className="ts-psa__end-date-role-dialog__textarea-countdown"
+              >
+                0/1000
+              </span>
+            </div>
+            <div
+              className="ts-psa__end-date-role-dialog__info"
+            >
+              <test-file-stub
+                className="ts-psa__end-date-role-dialog__info-icon"
+              />
+              <div
+                className="ts-psa__end-date-role-dialog__info-text "
+              >
+                <p>
+                  Once the {$Psa_Clbl_ProjectRole} is marked as completed, you will not be able to make any further changes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="commons-dialog-frame__footer"
+    >
+      <div
+        className="slds-grid commons-dialog-frame-footer"
+      >
+        <div
+          className="slds-grow commons-dialog-frame-footer__sub"
+        />
+        <div
+          className="commons-dialog-frame-footer__inner"
+        >
+          <button
+            className="ts-button ts-button--default"
+            data-testid="ts-psa__end-date-role-dialog__btn--cancel"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                Cancel
+              </span>
+            </div>
+          </button>
+          <button
+            className="ts-button ts-button--primary"
+            data-testid="ts-psa__end-date-role-dialog__btn--save"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                Save
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

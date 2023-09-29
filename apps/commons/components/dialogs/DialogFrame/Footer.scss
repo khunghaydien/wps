@@ -1,0 +1,9 @@
+.commons-dialog-frame-footer {
+  .ts-button {
+    min-width: 90px;
+
+    &:not(:last-of-type) {
+      margin: 0 8px 0 0;
+    }
+  }
+}

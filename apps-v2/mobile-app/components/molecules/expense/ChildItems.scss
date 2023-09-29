@@ -1,0 +1,116 @@
+@import 'mobile-global-imports.scss';
+@import '../../../../commons/styles/exp/variables/colors';
+
+.mobile-app-pages-approval-page-expense-record-child-items {
+  $side-padding: 0;
+
+  .mobile-app-atoms-link-list-item {
+    border-bottom: none;
+  }
+
+  &__header {
+    & .base-amount {
+      color: $color-text-base;
+      font-size: 22px;
+      font-weight: $font-emphasis;
+      justify-content: flex-start;
+    }
+
+    & .local-amount {
+      font-size: 14px;
+      color: $color-text-info;
+      font-weight: $font-normal;
+      justify-content: flex-start;
+    }
+  }
+
+  &__header {
+    padding: 12px $side-padding;
+    &:not(.is-first-item) {
+      // don't show top border for first item of the same date
+      border-top: 1px solid $ts-input-field-border-gray;
+    }
+  }
+
+  &__content {
+    padding-top: 12px;
+    margin-left: $side-padding;
+    margin-right: $side-padding;
+    border-top: 1px solid $ts-input-field-border-gray;
+  }
+
+  &__local-amount,
+  &__without-tax,
+  &__tax {
+    color: $color-text-base;
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  &__date {
+    color: $color-text-info;
+    font-size: 14px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+
+  &__expTypes {
+    font-size: 14px;
+    font-weight: $font-emphasis;
+    color: $color-text-base;
+  }
+
+  // /////////////////////////////////////////////////////////////////////
+  //
+  // Customize style for view item
+  //
+  // /////////////////////////////////////////////////////////////////////
+  & .mobile-app-molecules-commons-view-item {
+    border: none;
+
+    &__body {
+      font-size: 14px;
+    }
+
+    & .mobile-app-atoms-label {
+      display: flex;
+      justify-content: space-between;
+
+      &__text {
+        color: $color-text-info;
+        font-size: 14px;
+        margin-bottom: 0;
+      }
+    }
+
+    &.block .mobile-app-atoms-label {
+      flex-direction: column;
+    }
+  }
+
+  // /////////////////////////////////////////////////////////////////////
+  //
+  // Styling for hotel fee items
+  //
+  // /////////////////////////////////////////////////////////////////////
+
+  & .sticky {
+    padding: 0 $side-padding;
+    border-top: 1px solid $ts-input-field-border-gray;
+    border-bottom: 1px solid $ts-input-field-border-gray;
+    font-size: 13px;
+    height: 49px;
+    line-height: 49px;
+    background-color: $color-list-view-bg-hover;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+  .rate-edited {
+    color: $color-text-weak;
+    font-size: 12px;
+    line-height: 22px;
+    margin-left: 4px;
+  }
+}

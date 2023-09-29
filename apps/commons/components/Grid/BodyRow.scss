@@ -1,0 +1,85 @@
+.commons-grid-body-row {
+  font-size: $font-size-small;
+
+  &:hover {
+    background-color: $color-bg-hover;
+  }
+
+  &--is-browsing,
+  &--is-browsing:hover {
+    background-color: $color-bg-active;
+  }
+
+  &__selection {
+    display: flex;
+    min-height: 50px;
+    align-content: center;
+  }
+
+  &__cell {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-bottom: 1px solid $color-border-default;
+    word-break: break-all;
+  }
+
+  &__cell--addon {
+    padding: 0;
+  }
+
+  &__cell--select {
+    flex: 0 0 30px;
+
+    input {
+      height: 16px;
+      width: 16px;
+
+      &:disabled {
+        background: #aaa;
+        border-radius: 2px;
+        outline: none;
+        appearance: none;
+        pointer-events: none;
+      }
+    }
+  }
+
+  &__cell-inner {
+    display: flex;
+    height: 100%;
+    flex-grow: 1;
+    align-items: center;
+  }
+
+  &__input-wrapper {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    outline: none;
+    display: inline-flex;
+  }
+
+  &__cell-name-body {
+    display: inline-flex;
+  }
+
+  &__cell-name-icon {
+    width: 40px;
+    height: 40px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    background-color: #333;
+    border-radius: 50%;
+  }
+
+  &__cell-name-department {
+    color: $color-text-modest;
+  }
+
+  &__checkbox-hide {
+    display: none;
+  }
+}

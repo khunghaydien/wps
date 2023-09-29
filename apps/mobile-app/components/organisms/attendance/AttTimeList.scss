@@ -1,0 +1,15 @@
+.mobile-app-components-organisms-attendance-att-time-list {
+  &__item {
+    display: flex;
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  &__times {
+    width: 100%;
+  }
+
+  &__other-rest-time {
+    width: 100%;
+  }
+}

@@ -1,0 +1,94 @@
+.timesheet-pc-objectively-event-log-detail-list {
+  $this: &;
+
+  margin: 0 0 15px;
+
+  @import 'shared-table';
+
+  &__table {
+    border-collapse: collapse;
+  }
+
+  &__table > caption {
+    font-size: $font-size-x-large;
+    line-height: 32px;
+  }
+
+  &__table > thead > tr > th,
+  &__table > tbody > tr > td {
+    padding: 2px 8px;
+
+    @media print {
+      padding: 1px 4px;
+    }
+  }
+
+  &__table > thead > tr > th {
+    border: 1px solid $color-border-default;
+    background: $color-bg-heading;
+    color: $color-text-modest;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  &__table > tbody {
+    border: 1px solid $color-border-default;
+  }
+
+  &__table > tbody > tr {
+    background: $color-bg-tbody-row-stripe-odd;
+  }
+
+  &__table > tbody > tr:nth-child(even) {
+    background: $color-bg-tbody-row-stripe-odd;
+  }
+
+  &__table > tbody > tr > td {
+    border-right: 1px dashed $color-border-default;
+    border-left: 1px dashed $color-border-default;
+
+    @media print {
+      border: 1px solid $color-border-default;
+    }
+  }
+
+  td#{$this}__date,
+  td#{$this}__objectively-event-log-time,
+  td#{$this}__start-end-time {
+    text-align: center;
+  }
+
+  td#{$this}__objectively-event-log-detail,
+  td#{$this}__objectively-event-log-reason {
+    text-align: left;
+    word-wrap:break-word;
+    word-break:break-all;
+    &:empty {
+      height: 24.5px;
+    }
+  }
+
+  &__date {
+    width: 160px;
+  }
+
+  &__record-date {
+    width: 100px;
+  }
+
+  &__objectively-event-log-name {
+    white-space: nowrap;
+
+    &:empty {
+      height: 24.5px;
+    }
+  }
+
+  &__objectively-event-log-time {
+    width: 80px;
+  }
+
+  &__objectively-event-log-detail {
+    width: 300px;
+  }
+}

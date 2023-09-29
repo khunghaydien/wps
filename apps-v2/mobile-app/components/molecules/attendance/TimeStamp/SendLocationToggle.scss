@@ -1,0 +1,19 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-components-molecules-attendance-time-stamp-send-location-toggle {
+  &__result-status--success {
+    // Show Status and FetchTime at a line, only on success
+    display: flex;
+    justify-content: space-between;
+    margin-top: unit(1);
+    color: $color-green-600;
+  }
+
+  &__result-status--fetching {
+    color: $color-gray-600;
+  }
+
+  &__result-status--failure {
+    color: $color-red-600;
+  }
+}

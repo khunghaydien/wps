@@ -1,0 +1,25 @@
+@import 'mobile-global-imports';
+
+.mobile-app-organisms-tracking-quick-searchable-list {
+  &__quick-search-field {
+    background: #f8f8f8;
+    padding: 12px;
+    border-bottom: solid 1px #c9c9c9;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 48px;
+  }
+  &__breadcrumbs {
+    padding: 0 0 12px 0;
+  }
+  &__item-list {
+    margin: 117px 0;
+  }
+  &__item-list--with-breadcrumbs {
+    margin: 146px 0;
+  }
+  &__toast {
+    bottom: 26px;
+  }
+}

@@ -1,0 +1,86 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-transactions-card {
+  display: flex;
+  flex: 1;
+  padding: $small-size $medium-size;
+  justify-content: space-between;
+
+  &__left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: $small-size;
+    max-width: calc(75% - 20px);
+  }
+
+  &__right {
+    padding-left: $small-size;
+    max-width: 35%;
+  }
+
+  &__card-name-container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  &__card-name {
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+  }
+
+  &__card-detail {
+    width: 100%;
+    color: #9e9f9f;
+    font-size: 14px;
+    margin-top: $base-size;
+    margin-bottom: $base-size;
+    text-overflow: ellipsis;
+    word-break: break-all;
+  }
+
+  &__card-amount {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  &__card-payment-date {
+    font-size: 14px;
+    color: #9e9f9f;
+  }
+
+  &-archived {
+    background-color: transparent;
+    border: 1px solid#4c96ec;
+    border-radius: $base-size;
+    width: 150px;
+    color: $color-text-info;
+  }
+
+  &-claimed {
+    width: fit-content;
+    background-color: $color-gray-700;
+    color: $color-text-reverse;
+    border-radius: $base-size;
+    padding: 2px $extra-small-size;
+  }
+
+  &-visible-icon-btn {
+    align-items: center;
+    margin-right: $base-size;
+
+    .ts-exp-icon {
+      min-width: 21px;
+      min-height: 21px;
+    }
+
+    path {
+      transform: scale(0.32);
+      fill: #4c96ec;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.commons-errors-error-page-frame {
+  position: fixed;
+  z-index: 9999999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 100vh;
+  background-color: rgb(235, 238, 243);
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  &__container {
+    min-width: 512px;
+    max-width: 750px;
+    padding: 60px 0 20px;
+    margin: 0 auto;
+  }
+
+  &__header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: $color-text-modest;
+  }
+
+  &__header &__title {
+    font-size: 1.5rem;
+  }
+
+  &__header &__icon {
+    display: flex;
+    width: 128px;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 128px;
+  }
+
+  &__solution {
+    padding: 1.3rem 1rem;
+    margin: 2.5rem 0 0;
+    background-color: #fff;
+    border-radius: 4px;
+    color: $color-text-modest;
+    font-size: 2rem;
+    text-align: center;
+  }
+}

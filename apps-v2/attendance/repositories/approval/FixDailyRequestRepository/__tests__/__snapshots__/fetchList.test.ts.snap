@@ -1,0 +1,419 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should do 1`] = `
+Array [
+  Object {
+    "attention": Object {
+      "ineffectiveWorkingTime": 0,
+      "insufficientRestTime": 0,
+    },
+    "dailyAllowanceRecords": null,
+    "dailyObjectiveEventLogRecords": null,
+    "dailyRestRecords": null,
+    "displayFieldLayout": null,
+    "dividedSummaries": Array [
+      Object {
+        "endDate": "2020-01-15",
+        "name": "summary 1",
+        "startDate": "2020-01-01",
+        "summaries": Array [
+          Object {
+            "items": Array [
+              Object {
+                "daysAndHours": undefined,
+                "name": "ContractualWorkDays",
+                "unit": undefined,
+                "value": "string",
+              },
+              Object {
+                "daysAndHours": undefined,
+                "name": "RealWorkDays",
+                "unit": undefined,
+                "value": 101,
+              },
+              Object {
+                "daysAndHours": undefined,
+                "name": "CommuteCount",
+                "unit": undefined,
+                "value": null,
+              },
+              Object {
+                "daysAndHours": undefined,
+                "name": "LegalHolidayWorkCount",
+                "unit": "daysAndHours",
+                "value": 101,
+              },
+              Object {
+                "daysAndHours": Object {
+                  "days": 1,
+                  "hours": 2,
+                  "unit": "unit",
+                },
+                "name": "HolidayWorkCount",
+                "unit": "daysAndHours",
+                "value": null,
+              },
+            ],
+            "name": "AbsenceSummary",
+          },
+          Object {
+            "items": Array [
+              Object {
+                "closingDate": "2020-01-02",
+                "daysAndHours": Object {
+                  "days": 1,
+                  "hours": 2,
+                  "unit": "unit",
+                },
+                "name": "AnnualPaidLeaveDays",
+                "unit": "count",
+                "value": 201,
+              },
+            ],
+            "name": "AnnualPaidLeaveLeftSummary",
+          },
+          Object {
+            "items": Array [
+              Object {
+                "daysAndHours": Object {
+                  "days": 1,
+                  "hours": 2,
+                  "unit": "unit",
+                },
+                "items": Array [
+                  Object {
+                    "name": "item1",
+                    "value": "value",
+                  },
+                  Object {
+                    "name": "item2",
+                    "value": "value",
+                  },
+                ],
+                "name": "GeneralPaidLeaveDays",
+                "unit": "count",
+                "value": 201,
+              },
+              Object {
+                "daysAndHours": Object {
+                  "days": 1,
+                  "hours": 2,
+                  "unit": "unit",
+                },
+                "items": Array [],
+                "name": "UnpaidLeaveDays",
+                "unit": "count",
+                "value": 201,
+              },
+            ],
+            "name": "AnnualPaidLeaveLeftSummary",
+          },
+        ],
+      },
+      Object {
+        "endDate": "2020-01-31",
+        "name": "summary 2",
+        "startDate": "2020-01-16",
+        "summaries": Array [
+          Object {
+            "items": Array [
+              Object {
+                "daysAndHours": undefined,
+                "name": "ContractualWorkDays",
+                "unit": undefined,
+                "value": "string",
+              },
+              Object {
+                "daysAndHours": undefined,
+                "name": "RealWorkDays",
+                "unit": undefined,
+                "value": 101,
+              },
+              Object {
+                "daysAndHours": undefined,
+                "name": "CommuteCount",
+                "unit": undefined,
+                "value": null,
+              },
+              Object {
+                "daysAndHours": undefined,
+                "name": "LegalHolidayWorkCount",
+                "unit": "daysAndHours",
+                "value": 101,
+              },
+              Object {
+                "daysAndHours": Object {
+                  "days": 1,
+                  "hours": 2,
+                  "unit": "unit",
+                },
+                "name": "HolidayWorkCount",
+                "unit": "daysAndHours",
+                "value": null,
+              },
+            ],
+            "name": "AbsenceSummary",
+          },
+          Object {
+            "items": Array [
+              Object {
+                "closingDate": "2020-01-02",
+                "daysAndHours": Object {
+                  "days": 1,
+                  "hours": 2,
+                  "unit": "unit",
+                },
+                "name": "AnnualPaidLeaveDays",
+                "unit": "count",
+                "value": 201,
+              },
+            ],
+            "name": "AnnualPaidLeaveLeftSummary",
+          },
+          Object {
+            "items": Array [
+              Object {
+                "daysAndHours": Object {
+                  "days": 1,
+                  "hours": 2,
+                  "unit": "unit",
+                },
+                "items": Array [
+                  Object {
+                    "name": "item1",
+                    "value": "value",
+                  },
+                  Object {
+                    "name": "item2",
+                    "value": "value",
+                  },
+                ],
+                "name": "GeneralPaidLeaveDays",
+                "unit": "count",
+                "value": 201,
+              },
+              Object {
+                "daysAndHours": Object {
+                  "days": 1,
+                  "hours": 2,
+                  "unit": "unit",
+                },
+                "items": Array [],
+                "name": "UnpaidLeaveDays",
+                "unit": "count",
+                "value": 201,
+              },
+            ],
+            "name": "AnnualPaidLeaveLeftSummary",
+          },
+        ],
+      },
+    ],
+    "endDate": null,
+    "id": "summaryId",
+    "ownerInfos": Array [
+      Object {
+        "department": Object {
+          "name": "Department Name",
+        },
+        "employee": Object {
+          "code": "Employee Code",
+          "name": "Employee Name",
+        },
+        "endDate": "2022-02-28",
+        "startDate": "2022-02-01",
+        "workingType": Object {
+          "name": "WorkingType Name",
+        },
+      },
+    ],
+    "recordTotal": Object {
+      "holidayWorkTime": 7,
+      "lostTime": 5,
+      "nightTime": 4,
+      "overTime": 3,
+      "realWorkTime": 2,
+      "restTime": 1,
+      "virtualWorkTime": 6,
+    },
+    "records": Array [
+      Object {
+        "allowanceDailyRecordCount": null,
+        "attentions": Array [],
+        "commuteState": "BothWays",
+        "dailyObjectiveEventLog": null,
+        "dayType": "Workday",
+        "endStampTime": 1385,
+        "endTime": 1380,
+        "endTimeModified": true,
+        "event": "Event",
+        "holidayWorkTime": null,
+        "insufficientRestTime": null,
+        "isHolLegalHoliday": false,
+        "lostTime": 10,
+        "nightTime": 60,
+        "outEndTime": 1380,
+        "outInsufficientMinimumWorkHours": 0,
+        "outStartTime": 420,
+        "overTime": 60,
+        "realWorkTime": 900,
+        "recordDate": "2020-01-02",
+        "remarks": "remarks",
+        "restTime": 60,
+        "shift": "Shift",
+        "startStampTime": 410,
+        "startTime": 420,
+        "startTimeModified": true,
+        "virtualWorkTime": 480,
+      },
+    ],
+    "requestDate": "2022-02-28",
+    "startDate": null,
+    "submitter": Object {
+      "delegator": Object {
+        "employee": Object {
+          "name": "Delegated Employee Name",
+        },
+      },
+      "employee": Object {
+        "code": "Employee Code",
+        "department": Object {
+          "name": "Department Name",
+        },
+        "name": "Employee Name",
+        "photoUrl": "employee-photo-url",
+      },
+    },
+    "summaries": Array [
+      Object {
+        "items": Array [
+          Object {
+            "daysAndHours": undefined,
+            "name": "ContractualWorkDays",
+            "unit": undefined,
+            "value": "string",
+          },
+          Object {
+            "daysAndHours": undefined,
+            "name": "RealWorkDays",
+            "unit": undefined,
+            "value": 101,
+          },
+          Object {
+            "daysAndHours": undefined,
+            "name": "CommuteCount",
+            "unit": undefined,
+            "value": null,
+          },
+          Object {
+            "daysAndHours": undefined,
+            "name": "LegalHolidayWorkCount",
+            "unit": "daysAndHours",
+            "value": 101,
+          },
+          Object {
+            "daysAndHours": Object {
+              "days": 1,
+              "hours": 2,
+              "unit": "unit",
+            },
+            "name": "HolidayWorkCount",
+            "unit": "daysAndHours",
+            "value": null,
+          },
+        ],
+        "name": "AbsenceSummary",
+      },
+      Object {
+        "items": Array [
+          Object {
+            "closingDate": "2020-01-02",
+            "daysAndHours": Object {
+              "days": 1,
+              "hours": 2,
+              "unit": "unit",
+            },
+            "name": "AnnualPaidLeaveDays",
+            "unit": "count",
+            "value": 201,
+          },
+        ],
+        "name": "AnnualPaidLeaveLeftSummary",
+      },
+      Object {
+        "items": Array [
+          Object {
+            "daysAndHours": Object {
+              "days": 1,
+              "hours": 2,
+              "unit": "unit",
+            },
+            "items": Array [
+              Object {
+                "name": "item1",
+                "value": "value",
+              },
+              Object {
+                "name": "item2",
+                "value": "value",
+              },
+            ],
+            "name": "GeneralPaidLeaveDays",
+            "unit": "count",
+            "value": 201,
+          },
+          Object {
+            "daysAndHours": Object {
+              "days": 1,
+              "hours": 2,
+              "unit": "unit",
+            },
+            "items": Array [],
+            "name": "UnpaidLeaveDays",
+            "unit": "count",
+            "value": 201,
+          },
+        ],
+        "name": "AnnualPaidLeaveLeftSummary",
+      },
+    ],
+    "targetDate": "2022-02-22",
+    "targetRecord": Object {
+      "allowanceDailyRecordCount": null,
+      "attentions": Array [],
+      "commuteState": "BothWays",
+      "dailyObjectiveEventLog": null,
+      "dayType": "Workday",
+      "endStampTime": 1385,
+      "endTime": 1380,
+      "endTimeModified": true,
+      "event": "Event",
+      "holidayWorkTime": null,
+      "insufficientRestTime": null,
+      "isHolLegalHoliday": false,
+      "lostTime": 10,
+      "nightTime": 60,
+      "outEndTime": 1380,
+      "outInsufficientMinimumWorkHours": 0,
+      "outStartTime": 420,
+      "overTime": 60,
+      "realWorkTime": 900,
+      "recordDate": "2020-01-02",
+      "remarks": "remarks",
+      "restTime": 60,
+      "shift": "Shift",
+      "startStampTime": 410,
+      "startTime": 420,
+      "startTimeModified": true,
+      "virtualWorkTime": 480,
+    },
+    "useRestReason": false,
+    "workingType": Object {
+      "useAllowanceManagement": false,
+      "useManageCommuteCount": true,
+      "useObjectivelyEventLog": false,
+      "useRestReason": false,
+    },
+  },
+]
+`;

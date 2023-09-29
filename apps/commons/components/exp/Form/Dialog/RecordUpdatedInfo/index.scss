@@ -1,0 +1,16 @@
+.ts-expenses-modal-record-update {
+  &__dialog-frame {
+    width: 764px;
+  }
+
+  &__inner {
+    padding-top: 24px;
+    margin: 0 24px 24px;
+  }
+
+  &__list {
+    li {
+      margin: 8px;
+    }
+  }
+}

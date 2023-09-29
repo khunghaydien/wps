@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return leaves 1`] = `
+Map {
+  "TEST" => Object {
+    "code": "TEST",
+    "daysLeft": 14,
+    "details": Map {
+      "TEST_DETAIL" => Object {
+        "code": "TEST_DETAIL",
+        "name": "Test Detail",
+        "ranges": Array [
+          "AM",
+          "PM",
+        ],
+      },
+    },
+    "hoursLeft": 6,
+    "name": "Test",
+    "ranges": Array [
+      "AM",
+      "PM",
+    ],
+    "requireReason": true,
+    "timeLeaveDaysLeft": 3,
+    "timeLeaveHoursLeft": 2,
+    "type": "Annual",
+  },
+}
+`;

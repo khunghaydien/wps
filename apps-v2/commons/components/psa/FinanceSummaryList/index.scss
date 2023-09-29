@@ -1,0 +1,93 @@
+@import '../variables';
+
+.ts-psa__finance-summary {
+  overflow: auto;
+  scroll-behavior: smooth;
+  margin: $size-base * 6 42px;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    padding: 8px 20px;
+    background-color: $color-bg-lighter-blue;
+    border-top-right-radius: $size-base;
+    border-top-left-radius: $size-base;
+    font-size: $font-size-m;
+    font-weight: bold;
+    color: $color-text-grey;
+    border: 1px solid $color-border-light-grey;
+    border-bottom: 0;
+  }
+
+  &__body {
+    flex-direction: column;
+    background-color: $color-bg-white;
+    border: 1px solid $color-border-light-grey;
+    margin-bottom: $size-base * 2;
+    border-bottom-left-radius: $size-base;
+    border-bottom-right-radius: $size-base;
+  }
+
+  &__header {
+    height: $size-base * 8;
+    padding: $size-base * 2 $size-base * 5;
+    background-color: $color-container;
+    font-size: $font-size-s;
+    font-weight: bold;
+    color: $color-text-grey;
+  }
+
+  &__total {
+    display: flex;
+    align-items: center;
+    height: $size-base * 12;
+    padding: $size-base * 4 $size-base * 5;
+    background-color: $color-bg-heading;
+    font-size: $font-size-m;
+    font-weight: bold;
+    color: $color-text-dark-grey;
+  }
+
+  &__divider {
+    height: 10px;
+    background-color: $color-container;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    height: $size-base * 12;
+    padding: $size-base * 4 $size-base * 5;
+    background-color: $color-bg-white;
+    font-size: $font-size-m;
+    color: $color-text-dark-grey;
+    cursor: pointer;
+    border-bottom: 1px solid $color-border-light-grey;
+    margin-bottom: -1px;
+    margin-top: 1px;
+  }
+  .finance-label {
+    text-align: left;
+
+    &.is-data-row {
+      font-weight: bold;
+      color: $color-text-blue;
+    }
+  }
+
+  .finance-planned,
+  .finance-actual,
+  .finance-diff {
+    text-align: right;
+    &.default {
+      color: $color-text-dark-grey;
+    }
+    &.is-danger {
+      color: $color-status-not-found;
+    }
+
+    &.is-success {
+      color: $color-status-progress;
+    }
+  }
+}

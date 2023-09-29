@@ -1,0 +1,57 @@
+.approvals-pc-restReason-detail-list-pane-detail-table {
+  position: relative;
+
+  &__table {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    min-width: 600px;
+  }
+
+  &__scrollable {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
+.approvals-pc-restReason-detail-list-pane-detail-table-header {
+  display: flex;
+  height: 35px;
+
+  &__cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid $color-border-default;
+    background-color: $color-bg-heading;
+    color: $color-text-modest;
+    font-size: $font-size-small;
+    border-right: 1px solid $color-border-default;
+  }
+
+  &__cell:last-child{
+    border-right: none;
+  }
+}
+
+.approvals-pc-restReason-detail-list-pane-detail-table-column {
+  &--date {
+    flex: 0 0 90px;
+  }
+
+  &--name{
+    flex: 1 1 200px;
+  }
+
+  &--code {
+    flex: 1 1 200px;
+  }
+  &--startEndTime,
+  &--totalTime {
+    flex: 0 0 120px;
+    text-align: center;
+  }
+}

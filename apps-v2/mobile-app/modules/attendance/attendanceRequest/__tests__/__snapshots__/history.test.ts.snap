@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected object but received array."
+`;
+
+exports[`reducer() MOBILE-APP/ATTENDANCE/ATTENDANCE_REQUEST/HISTORY/CLEAR 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array [
+-   Object {
+-     \\"actorName\\": \\"Actor Name0\\",
+-     \\"actorPhotoUrl\\": \\"Actor Photo URL0\\",
+-     \\"approveTime\\": \\"Approve Time0\\",
+-     \\"approverName\\": \\"Approver Name0\\",
+-     \\"comment\\": \\"Comment0\\",
+-     \\"id\\": \\"0000\\",
+-     \\"isDelegated\\": false,
+-     \\"status\\": \\"Status\\",
+-     \\"statusLabel\\": \\"Status Label0\\",
+-     \\"stepName\\": \\"Step Name0\\",
+-   },
+-   Object {
+-     \\"actorName\\": \\"Actor Name1\\",
+-     \\"actorPhotoUrl\\": \\"Actor Photo URL1\\",
+-     \\"approveTime\\": \\"Approve Time1\\",
+-     \\"approverName\\": \\"Approver Name1\\",
+-     \\"comment\\": \\"Comment1\\",
+-     \\"id\\": \\"0001\\",
+-     \\"isDelegated\\": false,
+-     \\"status\\": \\"Status\\",
+-     \\"statusLabel\\": \\"Status Label1\\",
+-     \\"stepName\\": \\"Step Name1\\",
+-   },
+-   Object {
+-     \\"actorName\\": \\"Actor Name2\\",
+-     \\"actorPhotoUrl\\": \\"Actor Photo URL2\\",
+-     \\"approveTime\\": \\"Approve Time2\\",
+-     \\"approverName\\": \\"Approver Name2\\",
+-     \\"comment\\": \\"Comment2\\",
+-     \\"id\\": \\"0002\\",
+-     \\"isDelegated\\": false,
+-     \\"status\\": \\"Status\\",
+-     \\"statusLabel\\": \\"Status Label2\\",
+-     \\"stepName\\": \\"Step Name2\\",
+-   },
+- ]
++ Array []"
+`;
+
+exports[`reducer() MOBILE-APP/ATTENDANCE/ATTENDANCE_REQUEST/HISTORY/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"actorName\\": \\"Actor Name0\\",
++     \\"actorPhotoUrl\\": \\"Actor Photo URL0\\",
++     \\"approveTime\\": \\"Approve Time0\\",
++     \\"approverName\\": \\"Approver Name0\\",
++     \\"comment\\": \\"Comment0\\",
++     \\"id\\": \\"0000\\",
++     \\"isDelegated\\": false,
++     \\"status\\": \\"Status\\",
++     \\"statusLabel\\": \\"Status Label0\\",
++     \\"stepName\\": \\"Step Name0\\",
++   },
++   Object {
++     \\"actorName\\": \\"Actor Name1\\",
++     \\"actorPhotoUrl\\": \\"Actor Photo URL1\\",
++     \\"approveTime\\": \\"Approve Time1\\",
++     \\"approverName\\": \\"Approver Name1\\",
++     \\"comment\\": \\"Comment1\\",
++     \\"id\\": \\"0001\\",
++     \\"isDelegated\\": false,
++     \\"status\\": \\"Status\\",
++     \\"statusLabel\\": \\"Status Label1\\",
++     \\"stepName\\": \\"Step Name1\\",
++   },
++   Object {
++     \\"actorName\\": \\"Actor Name2\\",
++     \\"actorPhotoUrl\\": \\"Actor Photo URL2\\",
++     \\"approveTime\\": \\"Approve Time2\\",
++     \\"approverName\\": \\"Approver Name2\\",
++     \\"comment\\": \\"Comment2\\",
++     \\"id\\": \\"0002\\",
++     \\"isDelegated\\": false,
++     \\"status\\": \\"Status\\",
++     \\"statusLabel\\": \\"Status Label2\\",
++     \\"stepName\\": \\"Step Name2\\",
++   },
++ ]"
+`;

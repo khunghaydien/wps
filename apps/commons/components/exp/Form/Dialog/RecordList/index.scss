@@ -1,0 +1,207 @@
+@import '../../../../../../commons/styles/wsp.scss';
+
+.ts-expenses-modal-record-link {
+  &__dialog-frame {
+    width: 900px;
+    height: 525px;
+
+    & .commons-dialog-frame__wrap .commons-dialog-frame__contents {
+      padding: 0;
+    }
+  }
+
+  &__skeleton {
+    padding: 10px 20px 20px 20px;
+  }
+
+  &__search-area {
+    display: flex;
+    padding: 22px;
+
+    & .ts-date-range-field {
+      padding: 0 5px;
+    }
+
+    & .commons-fields-dropdown-custom__value {
+      padding: 5px;
+      height: 32px;
+      border: 1px solid #dddbda;
+    }
+
+    & .commons-fields-filterable-checkbox__input-checkbox {
+      height: 12px;
+    }
+
+    & .commons-fields-filterable-checkbox {
+      width: 180px;
+      height: 256px;
+    }
+
+    & .commons-fields-dropdown-amount {
+      display: flex;
+      width: 180px;
+
+      .commons-fields-dropdown-amount__input1,
+      .commons-fields-dropdown-amount__input2 {
+        margin: 0;
+      }
+
+      .commons-fields-dropdown-amount__separation {
+        text-align: center;
+      }
+    }
+  }
+
+  &__table {
+    height: 304px;
+
+    &__header-row {
+      display: inline-flex;
+      width: 100%;
+      padding: 0 20px;
+      border-top: solid 1px #ddd;
+      border-bottom: solid 1px #ddd;
+      background-color: #f8f8f8;
+      height: 38px;
+      font-size: 12px;
+      text-align: left;
+      align-items: center;
+    }
+
+    &__records {
+      height: 265px;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    &__item-row {
+      display: inline-flex;
+      width: 100%;
+      padding: 0 20px;
+      height: 44px;
+      border-bottom: 1px solid #ddd;
+      font-size: 13px;
+      text-align: left;
+      align-items: center;
+
+      &.selected {
+        background-color: #f3f2f2;
+      }
+    }
+
+    & .checkbox {
+      display: inline-flex;
+      width: 5%;
+
+      input {
+        width: 16px;
+      }
+    }
+
+    & .date {
+      display: inline-block;
+      width: 20%;
+
+      .date-invalid {
+        font-size: 10px;
+        color: $ts-warning;
+        line-height: 1;
+      }
+    }
+
+    & .expense-type {
+      display: inline-block;
+      width: 25%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      padding-right: 20px;
+    }
+
+    & .amount {
+      display: inline-block;
+      width: 20%;
+      text-align: right;
+      padding-right: 40px;
+
+      .foreign-amount {
+        font-size: 10px;
+        color: #666;
+      }
+    }
+
+    & .detail {
+      width: 30%;
+      display: -webkit-box;
+      overflow: hidden;
+      height: auto;
+      max-height: 25px * 2;
+      word-break: break-word;
+
+      /* autoprefixer: ignore next */
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2; /* number of lines to show */
+      line-height: 25px; /* fallback */
+      text-overflow: ellipsis;
+    }
+
+    & .remark {
+      display: inline-flex;
+      width: 30%;
+    }
+
+    & .cell-amount {
+      width: 100%;
+      text-align: right;
+      padding-right: 20px;
+    }
+
+    & .commons-grid::after {
+      display: none;
+    }
+
+    & .commons-grid-body-row {
+      cursor: pointer;
+    }
+
+    & .commons-grid-body-row__input-wrapper {
+      cursor: pointer;
+      display: flex;
+    }
+
+    & .commons-grid__body {
+      height: auto;
+      height: 304px;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    & .commons-grid-body-row__cell--select,
+    & .commons-grid__cell-head--checkbox {
+      flex: 0 0 70px;
+    }
+
+    & .commons-grid-body-row__cell--select {
+      border-bottom: 1px solid #d8dde6;
+    }
+
+    // description max 2 lines
+    & .commons-grid-body-row__selection {
+      outline: none;
+
+      & > :last-child > .commons-grid-body-row__cell-inner {
+        display: -webkit-box;
+        overflow: hidden;
+        height: auto;
+        max-height: 25px * 2;
+        padding-right: 20px;
+
+        /* autoprefixer: ignore next */
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2; /* number of lines to show */
+        line-height: 25px; /* fallback */
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

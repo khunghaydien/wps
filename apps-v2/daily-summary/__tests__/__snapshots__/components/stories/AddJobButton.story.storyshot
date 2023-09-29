@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots daily-summary/TaskCard/AddJobButton default 1`] = `
+<button
+  className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+  onClick={[Function]}
+  type="button"
+>
+  <test-file-stub
+    aria-hidden={true}
+    className="Icons__Icon-sc-cal846-0 kTRlpK LinkButton__Icon-sc-1fk5ge7-2 kEGlhx"
+  />
+  <div
+    className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+    size="large"
+  >
+    Add a Job
+  </div>
+</button>
+`;
+
+exports[`Storyshots daily-summary/TaskCard/AddJobButton disabled 1`] = `null`;

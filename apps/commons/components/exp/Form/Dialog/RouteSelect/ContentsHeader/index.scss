@@ -1,0 +1,37 @@
+.ts-expenses-modal-route-contents__header {
+  padding: 8px 16px;
+  border-bottom: 1px solid #d9dde6;
+
+  &-title {
+    margin-right: 10px;
+  }
+
+  & > div {
+    display: inline-block;
+  }
+
+  &-station {
+    margin-left: 10px;
+
+    & > * {
+      display: inline-block;
+    }
+
+    &-item {
+      max-width: 200px;
+      padding: 4px 8px;
+      border: 1px solid #d9dde6;
+      background-color: #d9dde6;
+      font-size: 13px;
+    }
+
+    &-item--via {
+      background-color: #fff;
+    }
+
+    &-hr {
+      width: 20px;
+      margin: 0 5px;
+    }
+  }
+}

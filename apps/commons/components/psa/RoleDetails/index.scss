@@ -1,0 +1,175 @@
+@import '../variables';
+
+.ts-psa__role-details {
+  height: 100vh;
+  overflow: auto;
+  scroll-behavior: smooth;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-bg-white;
+    padding: $container-padding;
+    min-height: calc(100vh - 56px);
+  }
+
+  &__field {
+    display: inline-flex;
+    width: 50%;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    & > .label {
+      font-size: 10px;
+      font-weight: bold;
+      line-height: 13px;
+      margin-bottom: 4px;
+      color: #666;
+    }
+
+    > p {
+      white-space: pre-wrap;
+    }
+    & > .value {
+      font-size: 13px;
+      color: #333;
+      line-height: 17px;
+    }
+  }
+
+  &__booking-decline-button,
+  &__booking-confirm-button {
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: 80px;
+  }
+
+  &__project,
+  &__memo,
+  &__history,
+  &__assignment {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  &__memo--no-remarks {
+    color: $color-icon-grey;
+    font-style: italic;
+  }
+
+  &__memo-content {
+    white-space: pre-line;
+  }
+
+  &__history {
+    padding: 0;
+  }
+
+  &__booking-confirmation {
+    width: 100%;
+    padding: 10px $container-padding;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: $color-text-black;
+    background-color: $color-container;
+  }
+
+  &__header--assignment,
+  &__header--project,
+  &__header--memo,
+  &__header--history,
+  &__history-content-header {
+    padding: 8px 20px;
+    background-color: #e7f1f5;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #666;
+    border: 1px solid #d9d9d9;
+    border-bottom: 0;
+  }
+
+  &__memo {
+    display: flex;
+    flex-wrap: wrap;
+
+    &-label {
+      font-size: 10px;
+    }
+
+    &-label,
+    &-content {
+      margin-bottom: 4px;
+    }
+
+    &-icon {
+      margin-right: 8px;
+    }
+
+    &-field--all,
+    &-field--managers,
+    &-field--managers {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__history-content-header {
+    background-color: $color-container;
+  }
+
+  &__history-content-item {
+    padding: 16px 20px;
+    border-bottom: 1px solid $color-border-light-grey;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__status-item {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    padding: $size-xxs;
+    text-align: center;
+    margin-right: 10px;
+
+    &.is-completed {
+      background: $color-status-completed;
+    }
+
+    &.is-confirmed,
+    &.is-in-progress {
+      background: $color-status-progress;
+    }
+
+    &.is-cancelled {
+      background: $color-status-cancelled;
+    }
+
+    &.is-in-planning {
+      background: $color-status-planning;
+    }
+
+    &.is-soft-booked {
+      background: $color-status-soft-booked;
+    }
+
+    &.is-requested,
+    &.is-scheduling {
+      background: $color-status-requested;
+    }
+
+    &.is-not-found {
+      background: $color-status-not-found;
+    }
+  }
+}

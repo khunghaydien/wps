@@ -1,0 +1,72 @@
+.admin-pc-contents-list-pane {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: $color-bg-pane-second;
+  text-align: left;
+
+  &__header {
+    position: relative;
+    height: 34px;
+    background-color: $color-bg-pane-header-second;
+    color: $color-text-pane-header-second;
+    font-size: $font-size-x-large;
+  }
+
+  &__header-content {
+    padding-left: 18px;
+  }
+
+  &__header-content__title {
+    display: table-cell;
+    height: 36px;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  &__header-area {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+  }
+
+  // TODO:ボタンの種類毎に名前をつけるか検討
+  &__header-area button {
+    width: 86px;
+    font-size: 13px;
+  }
+
+  &__header-area__history {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  &__header-area__history-label {
+    display: inline-block;
+  }
+
+  &__header-area__history-date_field {
+    display: inline-block;
+  }
+
+  &__header-area__history-search_button {
+    width: 86px;
+    margin-left: 5px;
+  }
+
+  &__react-data-grid-wrapper {
+    height: 100%;
+    padding: 14px;
+  }
+
+  // FIXME: 高さはかなりハッキーに調整している。ReactDataGridが対応次第、正式なやり方に変えたほうがよい。
+  // https://github.com/adazzle/react-data-grid/issues/736
+  &__react-data-grid {
+    width: 100%;
+    height: calc(100% - 130px);
+  }
+
+  .react-grid-Row {
+    cursor: pointer;
+  }
+}

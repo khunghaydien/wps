@@ -1,0 +1,51 @@
+// This style file customizes the default display of react-super-treeview component
+
+.ts-tree-view {
+  background: #fff;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #333;
+
+  .super-treeview-node {
+    padding-top: 4px;
+  }
+
+  .super-treeview-triangle-btn-down,
+  .super-treeview-triangle-btn-right {
+    width: 12px !important;
+    height: 12px !important;
+    border: unset !important;
+    margin-top: 3px !important;
+    margin-left: unset !important;
+    background-size: contain;
+  }
+
+  .super-treeview-children-container {
+    border-left: 1px solid #666;
+    border-left-style: dotted !important;
+
+    .super-treeview-node-content::before {
+      content: '';
+      display: block;
+      transform: translateX(-145%);
+      position: absolute;
+      width: 15px;
+      border-top: 1px solid #666;
+      margin-top: 8px;
+      border-top-style: dotted;
+    }
+  }
+
+  .super-treeview-triangle-btn-down {
+    background-image: url('../../commons/images/checkBoxMinus.png');
+  }
+
+  .super-treeview-triangle-btn-right {
+    background-image: url('../../commons/images/checkBoxPlus.png');
+  }
+
+  .super-treeview-text {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.77 9.232">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #074b69;
+      }
+    </style>
+  </defs>
+  <g id="icons_utility_picklist" data-name="icons/utility/picklist" transform="translate(-0.615 -0.691)">
+    <path id="Mask" class="cls-1" d="M14.769,9.923a.617.617,0,0,0,.615-.615v-8a.617.617,0,0,0-.615-.615H1.231a.617.617,0,0,0-.615.615v8a.617.617,0,0,0,.615.615ZM1.846,8.692V1.923H14.154V8.692ZM10,4.385h2.862a.086.086,0,0,1,.062.154L11.508,6.169a.149.149,0,0,1-.215,0L9.877,4.538c-.031-.062.031-.154.123-.154Z"/>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+.grid-detail-jorudan-search-modal-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+
+  &__add-via-button {
+    width: fit-content;
+  }
+
+  &__options-container {
+    display: flex;
+
+    ul {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+    }
+  }
+
+  &__input {
+    flex: 9;
+  }
+
+  &__destinations-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &__via-input {
+      &-container {
+        display: flex;
+      }
+
+      &-clear-button {
+        width: 16px;
+        margin-left: 8px;
+        & path {
+          fill: #666;
+        }
+      }
+    }
+  }
+}

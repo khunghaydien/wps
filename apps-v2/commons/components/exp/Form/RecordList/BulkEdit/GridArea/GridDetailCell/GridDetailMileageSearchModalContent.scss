@@ -1,0 +1,45 @@
+@import '../../../../../../../../commons/styles/exp/variables/colors';
+
+.grid-detail-mileage-search-modal-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+
+  &-error-message {
+    color: $ts-warning;
+  }
+
+  &__options-container {
+    display: flex;
+
+    ul {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+    }
+  }
+
+  &__input {
+    flex: 9;
+  }
+
+  &__destinations-container {
+    display: flex;
+    flex-direction: column;
+
+    &__via-input {
+      &-container {
+        display: flex;
+      }
+
+      &-clear-button {
+        width: 16px;
+        margin-left: 8px;
+        & path {
+          fill: #666;
+        }
+      }
+    }
+  }
+}

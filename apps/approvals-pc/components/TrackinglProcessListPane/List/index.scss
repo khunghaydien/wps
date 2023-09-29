@@ -1,0 +1,28 @@
+.approvals-pc-tracking-process-list-pane-list {
+  height: inherit;
+
+  &__header {
+    display: flex;
+    height: 35px;
+    padding-left: 65px;
+    background-color: $color-bg-pane-header-first;
+  }
+
+  &__header-body {
+    color: $color-text-header-heading;
+    font-size: $font-size-x-large;
+    line-height: 35px;
+  }
+
+  &__toolbar {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+
+  &__table {
+    height: calc(100% - 35px);
+  }
+}

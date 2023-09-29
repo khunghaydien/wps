@@ -1,0 +1,77 @@
+@import 'mobile-global-imports.scss';
+
+$headerHeight: 48px;
+$footerHeight: 85px;
+
+.mobile-app-pages-ocr-detail-confirm {
+  .main-content {
+    height: calc(100vh - #{($headerHeight + $footerHeight)});
+    margin-top: $headerHeight;
+    padding: 16px;
+
+    & .mobile-app-molecules-commons-amount-input-field,
+    & .mobile-app-molecules-commons-sf-date-field {
+      margin-bottom: 18px;
+    }
+
+    & .mobile-app-molecules-commons-text-field {
+      margin-bottom: 36px;
+    }
+
+    .mobile-app-atoms-input {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-radius: 0;
+      padding-left: 0;
+      &:focus-within {
+        box-shadow: 0 2px 2px -2px #0070d2;
+      }
+    }
+  }
+
+  &__metadata {
+    padding: 8px 0;
+  }
+
+  &__feedback {
+    margin-bottom: 18px;
+    border: 1px solid #df8e2f;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+
+    &-svg {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      overflow: visible !important;
+    }
+
+    &-msg {
+      color: #333;
+      margin-left: 10px;
+    }
+  }
+
+  &__apply {
+    height: $footerHeight;
+    box-shadow: 0 0 16px $color-box-shadow;
+    padding-top: 5px;
+    .mobile-app-atoms-button__container {
+      height: 60px;
+      button {
+        background-color: $color-primary;
+        border-color: $color-primary;
+      }
+
+      button,
+      button:disabled,
+      button::after {
+        border-radius: 4px;
+        width: 300px;
+        height: 44px;
+      }
+    }
+  }
+}

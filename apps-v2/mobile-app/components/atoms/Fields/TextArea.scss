@@ -1,0 +1,68 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-atoms-textarea {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 40px;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 8px;
+  margin: 0;
+  border: 1px solid $color-border;
+  background: #fff;
+  border-radius: 4px;
+  font-size: $medium-size;
+
+  &__textarea {
+    width: 100%;
+    padding: 4px 0;
+    border: none;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 4px;
+    color: $color-text-base;
+    font-weight: 300;
+    line-height: 26px;
+    outline: none;
+    overflow-y: auto;
+    resize: none;
+  }
+
+  &__textarea:disabled {
+    background-color: transparent;
+  }
+
+  &__textarea::placeholder {
+    color: $color-gray-300;
+    font-size: $medium-size;
+    font-weight: 300;
+  }
+
+  @mixin focus($color) {
+    border: 1px solid $color;
+    box-shadow: 0 0 3px $color;
+  }
+
+  &:focus-within {
+    @include focus($color-blue-400);
+  }
+
+  &--error:focus-within {
+    @include focus($color-alert);
+  }
+
+  &--error {
+    border: 1px solid $color-alert;
+  }
+
+  &--disabled {
+    background-color: $color-gray-200;
+  }
+
+  &--read-only {
+    border: 1px solid $color-blue-100;
+    background-color: $color-blue-100;
+  }
+}

@@ -1,0 +1,21 @@
+.record-access-hierarchy-refr {
+  display: flex;
+  flex: 1;
+  align-items: center;
+
+  &__icon-help {
+    right: 13px;
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin-left: 7px;
+    background-image: url('../../../../commons/images/iconTooltip.png');
+    background-size: 19px;
+  }
+
+  &__last-executed-time {
+    width: 50% !important;
+    padding-left: 10px;
+    color: #53688c;
+  }
+}

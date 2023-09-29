@@ -1,0 +1,20 @@
+.approvals-pc-tracking-detail-name-comment {
+  display: flex;
+  margin: 20px;
+
+  &__icon {
+    height: 50px;
+    flex: 0 0 50px;
+    margin-right: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  &__body {
+    position: relative;
+    width: calc(100% - 250px);
+    flex: 1 1 auto;
+    padding: 4px 8px;
+    word-wrap: break-word;
+  }
+}

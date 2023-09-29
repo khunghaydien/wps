@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected undefined but received null."
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_FIX_SUMMARY_REQUEST/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"comment\\": \\"\\",
++   \\"performableActionForFix\\": \\"Submit\\",
++   \\"requestId\\": null,
++   \\"status\\": \\"NotRequested\\",
++   \\"summaryId\\": \\"a0H2v00000jYHwNEAW\\",
++ }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_FIX_SUMMARY_REQUEST/UNSET 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected object but received null."
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/EDITING_FIX_SUMMARY_REQUEST/UPDATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"comment\\": \\"\\",
++   \\"comment\\": \\"勤務確定申請します。\\",
+    \\"performableActionForFix\\": \\"Submit\\",
+    \\"requestId\\": null,
+    \\"status\\": \\"NotRequested\\",
+    \\"summaryId\\": \\"a0H2v00000jYHwNEAW\\",
+  }"
+`;

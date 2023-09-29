@@ -1,0 +1,40 @@
+@import '../../commons/styles/global-imports';
+
+.timesheet-pc-summary-timesheet-summary-header {
+  margin: 0 0 16px;
+
+  &__table {
+    border-collapse: collapse;
+  }
+
+  &__table > caption {
+    font-size: $font-size-x-large;
+    line-height: 32px;
+  }
+
+  &__table > thead > tr > th,
+  &__table > tbody > tr > td,
+  &__table > tfoot > tr > td {
+    padding: 2px 8px;
+    border: 1px solid $color-border-default;
+
+    @media print {
+      padding: 1px 4px;
+    }
+  }
+
+  &__table > thead > tr > th {
+    background: $color-bg-heading;
+    color: $color-text-modest;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  &__col--period {
+    text-align: center;
+  }
+
+  &__col--status {
+    text-align: center;
+  }
+}

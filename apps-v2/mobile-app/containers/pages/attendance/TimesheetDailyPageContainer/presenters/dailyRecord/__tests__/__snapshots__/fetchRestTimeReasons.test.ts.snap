@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`complete() should do. 1`] = `
+Array [
+  Object {
+    "payload": "restReasons",
+    "type": "MOBILE-APP/ATTENDANCE/TIMESHEET/UI/DAILY/REST_REASONS/SET",
+  },
+]
+`;
+
+exports[`error() should do 1`] = `
+Array [
+  Object {
+    "type": "MOBILE-APP/ATTENDANCE/TIMESHEET/UI/DAILY/REST_REASONS/CLEAR",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - undefined",
+      "problem": undefined,
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`error() should do if Error is Array 1`] = `
+Array [
+  Object {
+    "type": "MOBILE-APP/ATTENDANCE/TIMESHEET/UI/DAILY/REST_REASONS/CLEAR",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`finally() should do. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`should do with loadingId. 1`] = `
+Array [
+  Object {
+    "payload": "1",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": "1",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`start() should do. 1`] = `
+Array [
+  Object {
+    "payload": "1",
+    "type": "START_LOADING",
+  },
+]
+`;

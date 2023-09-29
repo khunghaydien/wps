@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`complete() should do with isMigratedSummary. 1`] = `
+Array [
+  Object {
+    "payload": [Error: Error - Can't display before using],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+]
+`;
+
+exports[`complete() should do. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "entities": Object {
+        "workingType": Object {
+          "useObjectivelyEventLog": true,
+        },
+      },
+      "targetEmployeeId": "employeeId",
+    },
+    "type": "TIMESHEET-PC/ENTITIES/TIMESHEET/SET_TIMESHEET_ITEMS",
+  },
+  Object {
+    "payload": undefined,
+    "type": "TIMESHEET-PC/CLIENT/SELECTED_PERIOD_START_DATE/SET",
+  },
+]
+`;
+
+exports[`error() should do catchApiError if error is not occurred 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`error() should not do catchApiError if error is occurred 1`] = `Array []`;

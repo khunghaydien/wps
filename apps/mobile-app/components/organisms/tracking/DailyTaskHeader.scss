@@ -1,0 +1,68 @@
+@import 'mobile-global-imports';
+
+.mobile-app-organisms-tracking-daily-task-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  overflow: hidden;
+  padding: 8px 12px;
+  border-top: 1px $color-gray-300 solid;
+  border-bottom: 1px $color-gray-300 solid;
+  background: #fff;
+
+  &__time {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    height: 100%;
+  }
+
+  &__percentage {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    height: 100%;
+  }
+
+  &__label {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    &:first-of-type {
+      margin-bottom: 2px;
+    }
+  }
+
+  &__text {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    &--fix {
+      width: 40px;
+    }
+    &--strong {
+      font-weight: bold;
+      font-size: 14px;
+    }
+    &--primary {
+      color: $color-text-base;
+    }
+    &--error {
+      color: #c23934;
+    }
+    &--disable {
+      color: #999;
+    }
+  }
+
+  &__icon-text {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,176 @@
+@charset "UTF-8";
+body {
+  margin: 0px;
+  font-size: 100%;
+}
+
+#tsfArea {
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  color: #000;
+  line-height: 140%;
+}
+
+div.error-area {
+  color: red;
+}
+
+div.verify-tabs {
+  background-color: gray;
+  width: 100%;
+  margin: 0px;
+  overflow: hidden;
+  *zoom: 1;
+}
+div.verify-tabs > div {
+  float: left;
+  padding: 1px 8px;
+  margin: 2px 0px 0px 4px;
+  background-color: white;
+  cursor: pointer;
+}
+div.verify-tabs > div.blur {
+  border-bottom: 1px solid gray;
+}
+div.verify-tabs > div.focus {
+  border-bottom: 1px solid white;
+}
+
+div.main-area {
+  margin: 8px 12px;
+}
+
+div.verify-description {
+  margin: 8px;
+  font-size: 98%;
+}
+
+div.verify-bold {
+  font-weight: bold;
+}
+
+table.verify-table {
+  border-collapse: collapse;
+}
+table.verify-table thead > tr {
+  background-color: #E7F1FF;
+}
+table.verify-table th {
+  border: 1px solid #AAA;
+  padding: 0px 4px;
+}
+table.verify-table td {
+  border: 1px solid #AAA;
+  padding: 0px 4px;
+}
+table.verify-table td span {
+  margin-left: 4px;
+}
+table.verify-table td span.check-result {
+  margin-right: -2px;
+}
+table.verify-table td.field-label {
+  width: 160px;
+  white-space: nowrap;
+}
+table.verify-table td.field-value {
+  width: 140px;
+  word-break: break-all;
+  padding: 0px 4px;
+}
+table.verify-table td.day-value {
+  white-space: nowrap;
+  word-break: normal;
+  padding: 0px 4px;
+}
+table.verify-table td.span-ng > span {
+  color: red;
+}
+table.verify-table td.span-ng > span.check-result {
+  font-weight: bold;
+}
+table.verify-table td.span-ok > span, table.verify-table td.span-wa > span {
+  color: gray;
+}
+table.verify-table td.field-check {
+  width: 16px;
+  text-align: center;
+  font-family: sans-serif;
+}
+table.verify-table td.align-left {
+  text-align: left;
+}
+table.verify-table td.align-right {
+  text-align: right;
+}
+table.verify-table td.align-center {
+  text-align: center;
+}
+table.verify-table tr.verify-even {
+  background-color: #ffffff;
+}
+table.verify-table tr.verify-odd {
+  background-color: #f3f3f3;
+}
+table.verify-table tr.empty-row {
+  height: 8px;
+}
+table.verify-table tr.empty-row td {
+  border-left: none;
+  border-right: none;
+}
+
+div.verify-option {
+  padding: 8px;
+}
+div.verify-option input[type="button"] {
+  padding: 2px 12px;
+}
+
+table.verify-stock {
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+table.verify-stock thead > tr {
+  background-color: #E7F1FF;
+}
+table.verify-stock th {
+  border: 1px solid #AAA;
+  padding: 0px 4px;
+  white-space: nowrap;
+}
+table.verify-stock td {
+  border: 1px solid #AAA;
+  padding: 0px 4px;
+  white-space: nowrap;
+}
+table.verify-stock td.align-tag {
+  text-align: center;
+  padding: 0px 1px;
+  font-size: 90%;
+  color: #0000cd;
+}
+table.verify-stock td.align-tag-ng {
+  text-align: center;
+  padding: 0px 1px;
+  font-size: 90%;
+  color: red;
+}
+table.verify-stock td.tag-folk {
+  font-weight: bold;
+}
+table.verify-stock td.align-left {
+  text-align: left;
+}
+table.verify-stock td.align-right {
+  text-align: right;
+}
+table.verify-stock td.align-center {
+  text-align: center;
+}
+table.verify-stock tr.stock-even {
+  background-color: #ffffff;
+}
+table.verify-stock tr.stock-odd {
+  background-color: #f3f3f3;
+}

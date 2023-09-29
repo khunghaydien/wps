@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectEmployee should call 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "departmentCode": "departmentCode",
+      "departmentName": "departmentName",
+      "employeeCode": "employeeCode",
+      "employeeName": "employeeName",
+      "employeePhotoUrl": "employeePhotoUrl",
+      "id": "employeeId",
+      "title": "title",
+    },
+    "type": "COMMONS/MODULES/PROXY_EMP_INFO/SET",
+  },
+]
+`;

@@ -1,0 +1,576 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/WorkCategoryDropdown no selected item 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.c3 {
+  content: ' ';
+  width: 8px;
+  height: 5px;
+  border: 5px solid transparent;
+  border-color: #666 transparent transparent transparent;
+  margin: 5px 0 0 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  outline: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 32px;
+  color: #333;
+  font-size: 13px;
+  line-height: normal;
+  padding: 0 13px 0 17px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.c1:hover {
+  background: #f3f2f2;
+}
+
+.c1:active,
+.c1:focus {
+  border: 1px solid #2782ed;
+  box-shadow: 0 0 3px #0070d2;
+}
+
+.c1[readonly] {
+  background: #eee;
+}
+
+.c2 {
+  width: 100%;
+  color: #999;
+}
+
+.c2,
+.c2 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0 4px 0 0;
+}
+
+<div
+  className="c0"
+>
+  <button
+    aria-expanded={false}
+    aria-haspopup="listbox"
+    className="c1"
+    onClick={[Function]}
+    placeholder="Select"
+    type="button"
+  >
+    <div
+      className="c2"
+    >
+      Select
+    </div>
+    <div
+      className="c3"
+    />
+  </button>
+</div>
+`;
+
+exports[`Storyshots time-tracking/WorkCategoryDropdown readOnly 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.c8 {
+  content: ' ';
+  width: 8px;
+  height: 5px;
+  border: 5px solid transparent;
+  border-color: #666 transparent transparent transparent;
+  margin: 5px 0 0 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  outline: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 32px;
+  color: #333;
+  font-size: 13px;
+  line-height: normal;
+  padding: 0 13px 0 17px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.c1:hover {
+  background: #f3f2f2;
+}
+
+.c1:active,
+.c1:focus {
+  border: 1px solid #2782ed;
+  box-shadow: 0 0 3px #0070d2;
+}
+
+.c1[readonly] {
+  background: #eee;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c2,
+.c2 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0 4px 0 0;
+}
+
+.c4 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 12px;
+  color: #666;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c6 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 13px;
+  color: #333;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5 {
+  line-height: 1;
+}
+
+.c7 {
+  line-height: 1.2;
+}
+
+<div
+  className="c0"
+>
+  <button
+    aria-expanded={false}
+    aria-haspopup="listbox"
+    aria-readonly={true}
+    className="c1"
+    onClick={[Function]}
+    placeholder="Select"
+    readOnly={true}
+    type="button"
+    value="#2"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        <span
+          className="c4 c5"
+          color="secondary"
+          size="medium"
+        >
+          WC2
+        </span>
+        <span
+          className="c6 c7"
+          color="primary"
+          size="large"
+        >
+          WorkCategory B
+        </span>
+      </div>
+    </div>
+    <div
+      className="c8"
+    />
+  </button>
+</div>
+`;
+
+exports[`Storyshots time-tracking/WorkCategoryDropdown selected item 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.c8 {
+  content: ' ';
+  width: 8px;
+  height: 5px;
+  border: 5px solid transparent;
+  border-color: #666 transparent transparent transparent;
+  margin: 5px 0 0 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  outline: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 32px;
+  color: #333;
+  font-size: 13px;
+  line-height: normal;
+  padding: 0 13px 0 17px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.c1:hover {
+  background: #f3f2f2;
+}
+
+.c1:active,
+.c1:focus {
+  border: 1px solid #2782ed;
+  box-shadow: 0 0 3px #0070d2;
+}
+
+.c1[readonly] {
+  background: #eee;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c2,
+.c2 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0 4px 0 0;
+}
+
+.c4 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 12px;
+  color: #666;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c6 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 13px;
+  color: #333;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5 {
+  line-height: 1;
+}
+
+.c7 {
+  line-height: 1.2;
+}
+
+<div
+  className="c0"
+>
+  <button
+    aria-expanded={false}
+    aria-haspopup="listbox"
+    className="c1"
+    onClick={[Function]}
+    placeholder="Select"
+    type="button"
+    value="#2"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        <span
+          className="c4 c5"
+          color="secondary"
+          size="medium"
+        >
+          WC2
+        </span>
+        <span
+          className="c6 c7"
+          color="primary"
+          size="large"
+        >
+          WorkCategory B
+        </span>
+      </div>
+    </div>
+    <div
+      className="c8"
+    />
+  </button>
+</div>
+`;
+
+exports[`Storyshots time-tracking/WorkCategoryDropdown while loading work categories 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.c8 {
+  content: ' ';
+  width: 8px;
+  height: 5px;
+  border: 5px solid transparent;
+  border-color: #666 transparent transparent transparent;
+  margin: 5px 0 0 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  outline: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 32px;
+  color: #333;
+  font-size: 13px;
+  line-height: normal;
+  padding: 0 13px 0 17px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.c1:hover {
+  background: #f3f2f2;
+}
+
+.c1:active,
+.c1:focus {
+  border: 1px solid #2782ed;
+  box-shadow: 0 0 3px #0070d2;
+}
+
+.c1[readonly] {
+  background: #eee;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c2,
+.c2 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0 4px 0 0;
+}
+
+.c4 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 12px;
+  color: #666;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c6 {
+  font-family: 'Salesforce Sans';
+  font-weight: normal;
+  font-size: 13px;
+  color: #333;
+  line-height: 1.5;
+  overflow: inherit;
+  white-space: inherit;
+  text-overflow: inherit;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5 {
+  line-height: 1;
+}
+
+.c7 {
+  line-height: 1.2;
+}
+
+<div
+  className="c0"
+>
+  <button
+    aria-expanded={false}
+    aria-haspopup="listbox"
+    aria-readonly={true}
+    className="c1"
+    onClick={[Function]}
+    placeholder="Select"
+    readOnly={true}
+    type="button"
+    value="#2"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        <span
+          className="c4 c5"
+          color="secondary"
+          size="medium"
+        >
+          WC2
+        </span>
+        <span
+          className="c6 c7"
+          color="primary"
+          size="large"
+        >
+          WorkCategory B
+        </span>
+      </div>
+    </div>
+    <div
+      className="c8"
+    />
+  </button>
+</div>
+`;

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.547 8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #074b69;
+      }
+    </style>
+  </defs>
+  <g id="icons_utility_chevronup" data-name="icons/utility/chevronup" transform="translate(-0.23 -0.309)">
+    <path id="Mask" class="cls-1" d="M.346,6.815,6.654.446a.483.483,0,0,1,.677,0l6.308,6.369a.483.483,0,0,1,0,.677l-.677.677a.483.483,0,0,1-.677,0L7.331,3.123a.483.483,0,0,0-.677,0L1.7,8.138a.483.483,0,0,1-.677,0L.346,7.462a.51.51,0,0,1,0-.646Z"/>
+  </g>
+</svg>

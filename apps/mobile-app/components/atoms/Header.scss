@@ -1,0 +1,25 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-atoms-header {
+  display: flex;
+  overflow: hidden;
+  height: 48px;
+  align-items: center;
+
+  &--level-1 {
+    position: fixed;
+    z-index: $zindex-header;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: $color-blue-100;
+    font-size: $medium-size;
+  }
+
+  &--level-2 {
+    padding: 0 8px;
+    color: $color-blue-600;
+    font-size: $medium-size;
+    font-weight: $font-emphasis;
+  }
+}

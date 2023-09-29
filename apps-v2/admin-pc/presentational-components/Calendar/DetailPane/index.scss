@@ -1,0 +1,9 @@
+.admin-pc-calendar-detail-pane {
+  overflow: auto;
+  height: 100%;
+  background: $color-bg-pane-third;
+
+  &__body {
+    padding: 12px;
+  }
+}

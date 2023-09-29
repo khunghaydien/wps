@@ -1,0 +1,22 @@
+teasp.view.MonthlySummary.prototype.show = function(){
+    this.monSum = this.pouch.getMonthSummary();
+    // 法定時間内残業
+    this.monSum.o.legalOverTime.col     = '法定時間内残業';
+    this.monSum.o.legalOverTime.val     = this.pouch.getDisplayTime(this.pouch.getObj().month.disc.weekEndDayLegalTime + this.pouch.getObj().month.disc.weekEndNightLegalTime);
+    // 法定時間外残業
+    this.monSum.o.legalOutOverTime.col  = '法定時間外残業';
+    this.monSum.o.legalOutOverTime.val  = this.pouch.getDisplayTime(this.pouch.getObj().month.disc.weekEndDayLegalOutTime + this.pouch.getObj().month.disc.weekEndNightLegalOutTime);
+
+    this.showMain();
+};
+
+teasp.view.MonthlySummary.prototype.showSummaryDsp = function(){
+    if(this.pouch.getWorkSystem() == teasp.constant.WORK_SYSTEM_MANAGER || this.monSum.o.workRealTimeNoDiscretion.flag){ // 労働時間制が管理監督者か「裁量労働」＝「採用する」
+        this.styleDisplay('monthlyWorkWholeTimeRow', false);
+        this.styleDisplay('monthlyWeekWholeTimeRow', false);
+        this.styleDisplay('monthlyRealTimeRow'     , false);
+        this.styleDisplay('realRealTimeRow'        , true);
+    }else{
+        this.styleDisplay('realRealTimeRow', false);
+    }
+};

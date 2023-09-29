@@ -1,0 +1,88 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-psa__new-activity-form {
+  padding: $container-padding;
+  width: 720px;
+
+  &__error-box {
+    margin: 0 0 $container-padding 0;
+  }
+
+  &__date-field-container {
+    position: relative;
+  }
+
+  &__dialog-frame {
+    width: 720px;
+  }
+
+  &__sub-header {
+    display: flex;
+    min-height: 48px;
+    flex-direction: row;
+    background-color: $color-bg-heading;
+    padding: 4px 16px;
+    border-bottom: $color-border;
+    color: $color-text-grey;
+    &__title {
+      display: inline-flex;
+      align-items: center;
+      &-header {
+        font-weight: bold;
+        white-space: nowrap;
+      }
+      &-header-body {
+        margin-left: 4px;
+      }
+    }
+    &__duration {
+      flex: auto;
+      display: inline-flex;
+      align-items: center;
+      justify-content: flex-end;
+      white-space: nowrap;
+      &-header {
+        font-weight: bold;
+      }
+    }
+  }
+
+  &__activity-duration-warning {
+    color: $color-form-error;
+  }
+
+  &__form-field-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .ts-psa__form-field {
+    margin-bottom: $container-padding;
+    width: 330px;
+  }
+
+  .commons-fields-date-field,
+  .react-datepicker-wrapper,
+  .react-datepicker__input-container {
+    width: 100%;
+  }
+
+  &--delete {
+    background-color: transparent;
+    border: none;
+    color: $color-btn-remove;
+  }
+
+  // Needed to show the entire icon
+  .admin-pc-common-clearable-field__clear {
+    width: auto;
+    height: auto;
+  }
+}

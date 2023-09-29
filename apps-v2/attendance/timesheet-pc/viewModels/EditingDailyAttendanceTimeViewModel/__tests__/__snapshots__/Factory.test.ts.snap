@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createByAttRecord should execute 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"dailyRestList\\": Array [],
++   \\"commuteCount\\": null,
++   \\"dailyObjectivelyEventLog\\": Object {
++     \\"deviatedEnteringTimeReason\\": Object {
++       \\"text\\": \\"deviatedEnteringTimeReason\\",
++       \\"value\\": null,
++     },
++     \\"deviatedLeavingTimeReason\\": Object {
++       \\"text\\": \\"deviatedLeavingTimeReason\\",
++       \\"value\\": null,
++     },
++   },
+    \\"endTime\\": \\"endTime\\",
+    \\"hasRestTime\\": \\"hasRestTime\\",
+-   \\"id\\": \\"id\\",
++   \\"maxRestTimesCount\\": 5,
+    \\"otherRestReason\\": \\"otherRestReason\\",
+    \\"recordDate\\": \\"recordDate\\",
++   \\"recordId\\": \\"id\\",
+    \\"remarks\\": \\"remarks\\",
+    \\"restHours\\": \\"restHours\\",
++   \\"restTimes\\": Array [
++     Object {
++       \\"endTime\\": null,
++       \\"id\\": \\"test-nanoid\\",
++       \\"restReason\\": null,
++       \\"startTime\\": null,
++     },
++   ],
+    \\"startTime\\": \\"startTime\\",
+  }"
+`;

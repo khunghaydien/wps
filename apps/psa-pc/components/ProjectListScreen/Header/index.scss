@@ -1,0 +1,57 @@
+@import '../../../../commons/components/psa/variables.scss';
+@import '../../../../commons/components/psa/ParentHeader/index.scss';
+
+// Styles specific to PSA Tab
+.ts-psa__common-parent-header {
+  &--left svg > path:last-child {
+    fill: $color-bg-white;
+  }
+
+  &-project {
+    margin-left: 20px;
+
+    &-label {
+      color: $color-text-grey;
+      font-size: 12px;
+    }
+
+    &-title {
+      color: $color-text-grey;
+      font-size: 20px;
+    }
+  }
+
+  &-btn {
+    padding: $size-xs $size-m;
+    border: 1px solid #ddd;
+    background-color: $color-btn-primary;
+    border-radius: $size-base;
+    color: $color-bg-white;
+    width: auto;
+
+    &:focus {
+      background-color: $color-btn-primary;
+      box-shadow: none;
+    }
+  }
+  &__btn-resources {
+    padding: $size-xs $container-padding;
+    color: $color-btn-primary;
+    margin-right: 8px;
+    width: 177px;
+  }
+  &__option-group {
+    width: 152px !important;
+    margin-right: 8px;
+    height: 36px !important;
+    padding: 5px;
+  }
+
+  &__option-group-label {
+    align-items: center;
+    margin-right: 8px;
+    display: inline-flex;
+    color: #144177;
+    font-weight: bold;
+  }
+}

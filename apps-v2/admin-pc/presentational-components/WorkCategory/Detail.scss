@@ -1,0 +1,5 @@
+@import '../Employee/Detail.scss';
+
+.admin-pc-work-category-detail {
+  @extend .admin-pc-employee-detail;
+}

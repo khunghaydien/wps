@@ -1,0 +1,22 @@
+@import '@commons/styles/exp/variables/_colors.scss';
+
+.ts-expenses__form-records__bulk-edit__upload-area {
+  height: 100%;
+
+  .commons-fields-dropzone {
+    border: 1px dashed $color-text-weak;
+
+    &__button--file {
+      display: none;
+    }
+
+    &__file-label {
+      color: $color-text-weak;
+      font-size: 18px;
+    }
+
+    &__dropzone {
+      padding: 0;
+    }
+  }
+}

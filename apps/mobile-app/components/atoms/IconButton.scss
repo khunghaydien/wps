@@ -1,0 +1,24 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-atoms-icon-button {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background: none;
+  border-radius: 50%;
+  outline: none;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  justify-content: center;
+
+  &:active:not(&--disabled) {
+    background: $color-blue-200;
+  }
+
+  &__icon {
+    // Tweak space
+    margin: -1px 0 0 0;
+  }
+}

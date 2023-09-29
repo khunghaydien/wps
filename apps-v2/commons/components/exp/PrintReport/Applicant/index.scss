@@ -1,0 +1,22 @@
+.expenses-pc-print-print-report-applicant {
+  &__column {
+    margin-right: 10px;
+  }
+
+  &__label {
+    margin-bottom: 4px;
+    font-size: 8px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  &__value {
+    font-size: 11px;
+    word-wrap: break-word;
+  }
+
+  &__code {
+    font-size: 8px;
+    word-wrap: break-word;
+  }
+}

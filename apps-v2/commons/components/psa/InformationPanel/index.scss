@@ -1,0 +1,55 @@
+@import '../variables';
+
+.ts-psa__info-panel {
+  overflow: auto;
+  scroll-behavior: smooth;
+  margin: $size-base * 6 42px;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    padding: $size-base * 2 $size-base * 5;
+    background-color: $color-bg-lighter-blue;
+    border-top-right-radius: $size-base;
+    border-top-left-radius: $size-base;
+    font-size: $font-size-m;
+    font-weight: bold;
+    color: $color-font-grey;
+    border: 1px solid $color-border-light-grey;
+    border-bottom: 0;
+  }
+
+  &__body {
+    flex-direction: column;
+    background-color: $color-bg-white;
+    padding: $container-padding;
+    border: 1px solid $color-border-light-grey;
+    margin-bottom: 10px;
+    border-bottom-left-radius: $size-base;
+    border-bottom-right-radius: $size-base;
+  }
+
+  &__field {
+    display: inline-flex;
+    width: 50%;
+    flex-direction: column;
+    margin-bottom: $size-base * 5;
+
+    & > .label {
+      font-size: 10px;
+      font-weight: bold;
+      line-height: 13px;
+      margin-bottom: $size-base;
+      color: $color-font-grey;
+    }
+
+    > p {
+      white-space: pre-wrap;
+    }
+    & > .value {
+      font-size: $font-size-m;
+      color: $color-text-dark-grey;
+      line-height: 17px;
+    }
+  }
+}

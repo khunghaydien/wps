@@ -1,0 +1,116 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-expense-page-receipt-upload-preview {
+  position: relative;
+  height: 300px;
+  margin: unit(4);
+
+  &__main {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border: 1px;
+    border-style: solid;
+    border-color: $color-gray-300;
+  }
+
+  &__count {
+    position: absolute;
+    top: unit(2);
+    right: unit(2);
+    min-width: 30px;
+    padding: 5px;
+    background-color: $color-green-500;
+    border-radius: 50%;
+    color: $color-text-reverse;
+    text-align: center;
+  }
+
+  &__image-landscape {
+    width: 100%;
+    height: auto;
+    align-items: center;
+
+    img {
+      height: auto;
+      widows: 100%;
+    }
+  }
+
+  &__image-portrait {
+    width: auto;
+    height: 100%;
+    align-items: center;
+
+    img {
+      height: 100%;
+      widows: auto;
+    }
+  }
+
+  &__non-image-file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    svg {
+      transform: scale(2);
+    }
+    span {
+      width: 80%;
+      overflow-wrap: break-word;
+      padding: 16px 16px 0 16px;
+    }
+  }
+
+  &__remove,
+  &__nav-left,
+  &__nav-right {
+    position: absolute;
+    background-color: #707070;
+    opacity: 0.9;
+    text-align: center;
+
+    .mobile-app-atoms-icon {
+      fill: white;
+    }
+  }
+
+  &__remove {
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;
+    align-items: center;
+  }
+
+  &__nav-left,
+  &__nav-right {
+    display: flex;
+    height: 64px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+  }
+
+  &__nav-left {
+    left: 0;
+    border-radius: 0 unit(1) unit(1) 0;
+  }
+
+  &__nav-right {
+    right: 0;
+    border-radius: unit(1) 0 0 unit(1);
+  }
+
+  .ts-icon-button:disabled {
+    background-color: $color-gray-400;
+  }
+
+  .mobile-app-atoms-icon-button svg path {
+    fill: #fff;
+  }
+}

@@ -1,0 +1,15 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-expense-page-record-new-general-amount-area {
+  &__amount-area {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  &_edit {
+    margin: 32px 4px 0 16px;
+  }
+  &_input {
+    width: 100%;
+  }
+}

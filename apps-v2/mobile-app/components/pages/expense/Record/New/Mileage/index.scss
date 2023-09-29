@@ -1,0 +1,127 @@
+@import 'mobile-global-imports.scss';
+@import '../../../../../../../commons/styles/exp/variables/colors';
+
+.mobile-app-pages-expense-page-record-new-mileage {
+  .mileage-form {
+    padding: 48px $small-size;
+  }
+
+  &__icon {
+    zoom: 1 !important;
+    overflow: visible !important;
+  }
+
+  &-error-message {
+    display: flex;
+    flex: 1;
+    color: $ts-warning;
+  }
+
+  &__divider {
+    border-bottom: 1px solid #ddd;
+    padding-top: 8px;
+  }
+
+  &__trip-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  &__destinations-container {
+    display: flex;
+    flex-direction: column;
+    flex: 9;
+    padding-right: 8px;
+  }
+
+  &__button-add-container {
+    display: flex;
+    width: fit-content;
+
+    &-button {
+      margin-top: 4px;
+      background-color: $color-bg-primary;
+      border-radius: 8px;
+      padding: 2px;
+
+      & path {
+        fill: $color-bg-lighter;
+      }
+    }
+
+    &-label {
+      color: $color-bg-primary;
+      padding-left: 16px;
+      margin-top: 3px;
+    }
+  }
+
+  &__destinations-reversal-container {
+    display: flex;
+    flex: 1;
+  }
+
+  &__reversal-icon {
+    align-items: center;
+
+    & path {
+      fill: $color-bg-primary !important;
+    }
+  }
+
+  &__generate-preview.mobile-app-atoms-button__container {
+    border-radius: 0;
+    margin-top: 8px;
+    width: 100%;
+
+    button {
+      background-color: $color-primary;
+      border-color: $color-primary;
+    }
+
+    button,
+    button:disabled,
+    button::after {
+      border-radius: 4px;
+      width: 102%;
+      height: 32px;
+    }
+  }
+
+  &__destinations-reset-container {
+    display: flex;
+
+    &-map {
+      display: flex;
+      flex: 1;
+      align-items: center;
+
+      &-icon {
+        & path {
+          fill: $color-bg-primary !important;
+        }
+
+        margin-right: 8px;
+        margin-bottom: 4px;
+      }
+    }
+
+    &-reset {
+      display: flex;
+      flex: 1;
+      justify-content: flex-end;
+    }
+
+    &-label {
+      color: $color-bg-primary;
+      margin-left: 8px;
+    }
+  }
+
+  &__destination-details {
+    display: flex;
+    flex-direction: column;
+  }
+}

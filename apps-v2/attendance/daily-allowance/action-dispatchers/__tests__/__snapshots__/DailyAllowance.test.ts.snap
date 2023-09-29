@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DailyAllowance loadDailyAllowanceAllRecords() should dispatch actions not to leave if targetDate is not today 1`] = `
+Array [
+  Object {
+    "type": "TIMESHEET-PC/ENTITIES/DAILYDAILOGALLOWANCR/CLEAR",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "dailyRecordAllList": Array [
+        Object {
+          "allowanceCode": "12345678901234567890",
+          "allowanceId": "a2a1y000000AAFLAA4",
+          "allowanceName": "1234567890123456789",
+          "endTime": null,
+          "isSelected": false,
+          "managementType": "Hours",
+          "order": 0,
+          "quantity": null,
+          "startTime": null,
+          "totalTime": null,
+        },
+        Object {
+          "allowanceCode": "wjm3",
+          "allowanceId": "a2a1y000000A8OZAA0",
+          "allowanceName": "wjm3",
+          "endTime": null,
+          "isSelected": false,
+          "managementType": "Hours",
+          "order": 0,
+          "quantity": null,
+          "startTime": null,
+          "totalTime": null,
+        },
+        Object {
+          "allowanceCode": "wjm44",
+          "allowanceId": "a2a1y000000A8PwAAK",
+          "allowanceName": "e",
+          "endTime": null,
+          "isSelected": false,
+          "managementType": "None",
+          "order": 0,
+          "quantity": null,
+          "startTime": null,
+          "totalTime": null,
+        },
+      ],
+    },
+    "type": "TIMESHEET-PC/ENTITIES/DAILYDAILOGALLOWANCR/FETCH_SUCCESS",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`DailyAllowance loadDailyAllowanceAllRecords() should dispatch actions to leave if targetDate is today 1`] = `
+Array [
+  Object {
+    "type": "TIMESHEET-PC/ENTITIES/DAILYDAILOGALLOWANCR/CLEAR",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "dailyRecordAllList": Array [
+        Object {
+          "allowanceCode": "12345678901234567890",
+          "allowanceId": "a2a1y000000AAFLAA4",
+          "allowanceName": "1234567890123456789",
+          "endTime": null,
+          "isSelected": false,
+          "managementType": "Hours",
+          "order": 0,
+          "quantity": null,
+          "startTime": null,
+          "totalTime": null,
+        },
+        Object {
+          "allowanceCode": "wjm3",
+          "allowanceId": "a2a1y000000A8OZAA0",
+          "allowanceName": "wjm3",
+          "endTime": null,
+          "isSelected": false,
+          "managementType": "Hours",
+          "order": 0,
+          "quantity": null,
+          "startTime": null,
+          "totalTime": null,
+        },
+        Object {
+          "allowanceCode": "wjm44",
+          "allowanceId": "a2a1y000000A8PwAAK",
+          "allowanceName": "e",
+          "endTime": null,
+          "isSelected": false,
+          "managementType": "None",
+          "order": 0,
+          "quantity": null,
+          "startTime": null,
+          "totalTime": null,
+        },
+      ],
+    },
+    "type": "TIMESHEET-PC/ENTITIES/DAILYDAILOGALLOWANCR/FETCH_SUCCESS",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`DailyAllowance loadDailyAllowanceAllRecords() should dispatch actions to notify error if api throws error 1`] = `
+Array [
+  Object {
+    "type": "TIMESHEET-PC/ENTITIES/DAILYDAILOGALLOWANCR/CLEAR",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/UI/BLOCKING/ENABLE",
+  },
+  Object {
+    "payload": Object {
+      "message": "Server not responded",
+      "options": undefined,
+      "variant": "error",
+    },
+    "type": "COMMONS/MODULES/TOAST/SHOW",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`DailyAllowance saveDailyAllowanceRecord() should dispatch actions to notify error if api throws error 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "/DAILY-SUMMARY/UI/BLOCKING/ENABLE",
+  },
+  Object {
+    "payload": Object {
+      "message": "Server not responded",
+      "options": undefined,
+      "variant": "error",
+    },
+    "type": "COMMONS/MODULES/TOAST/SHOW",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`DailyAllowance saveDailyAllowanceRecord() should dispatch to notify error if ratio total is not 100% 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`DailyAllowance saveDailyAllowanceRecord() should dispatch to save daily summary 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;

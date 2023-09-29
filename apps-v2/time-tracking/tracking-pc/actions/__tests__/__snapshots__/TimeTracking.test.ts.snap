@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loadCurrentPeriod should dispatch actions to display time tracking at current period 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "IME_TRACK_MONTHLY_CLEAR",
+  },
+  Object {
+    "payload": Object {
+      "allIds": Array [],
+      "byId": Object {},
+    },
+    "type": "TIME_TRACK_MONTHLY_SET_SUMMARY_TASK",
+  },
+  Object {
+    "payload": 0,
+    "type": "TIME_TRACK_MONTHLY_SET_SUMMARY_SUM_TASK_TIME",
+  },
+  Object {
+    "payload": Object {
+      "2019-12-23": Object {
+        "note": null,
+        "recordDate": "2019-12-23",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-24": Object {
+        "note": null,
+        "recordDate": "2019-12-24",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-25": Object {
+        "note": null,
+        "recordDate": "2019-12-25",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-26": Object {
+        "note": null,
+        "recordDate": "2019-12-26",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-27": Object {
+        "note": null,
+        "recordDate": "2019-12-27",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-28": Object {
+        "note": null,
+        "recordDate": "2019-12-28",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-29": Object {
+        "note": null,
+        "recordDate": "2019-12-29",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+    },
+    "type": "TIME_TRACK_MONTHLY_SET_DAILY_LIST",
+  },
+  Object {
+    "payload": Object {
+      "endDate": "2019-12-29",
+      "startDate": "2019-12-23",
+      "status": "NotRequested",
+    },
+    "type": "TIME_TRACK_MONTHLY_SET_OVERVIEW",
+  },
+  Object {
+    "payload": "",
+    "type": "TIME_TRACK_MONTHLY_SET_REQUEST",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`loadNextPeriod should dispatch actions to display time tracking at next period 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "IME_TRACK_MONTHLY_CLEAR",
+  },
+  Object {
+    "payload": Object {
+      "allIds": Array [],
+      "byId": Object {},
+    },
+    "type": "TIME_TRACK_MONTHLY_SET_SUMMARY_TASK",
+  },
+  Object {
+    "payload": 0,
+    "type": "TIME_TRACK_MONTHLY_SET_SUMMARY_SUM_TASK_TIME",
+  },
+  Object {
+    "payload": Object {
+      "2019-12-23": Object {
+        "note": null,
+        "recordDate": "2019-12-23",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-24": Object {
+        "note": null,
+        "recordDate": "2019-12-24",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-25": Object {
+        "note": null,
+        "recordDate": "2019-12-25",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-26": Object {
+        "note": null,
+        "recordDate": "2019-12-26",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-27": Object {
+        "note": null,
+        "recordDate": "2019-12-27",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-28": Object {
+        "note": null,
+        "recordDate": "2019-12-28",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-29": Object {
+        "note": null,
+        "recordDate": "2019-12-29",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+    },
+    "type": "TIME_TRACK_MONTHLY_SET_DAILY_LIST",
+  },
+  Object {
+    "payload": Object {
+      "endDate": "2019-12-29",
+      "startDate": "2019-12-23",
+      "status": "NotRequested",
+    },
+    "type": "TIME_TRACK_MONTHLY_SET_OVERVIEW",
+  },
+  Object {
+    "payload": "",
+    "type": "TIME_TRACK_MONTHLY_SET_REQUEST",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`loadPrevPeriod should dispatch actions to display time tracking at prev period 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "IME_TRACK_MONTHLY_CLEAR",
+  },
+  Object {
+    "payload": Object {
+      "allIds": Array [],
+      "byId": Object {},
+    },
+    "type": "TIME_TRACK_MONTHLY_SET_SUMMARY_TASK",
+  },
+  Object {
+    "payload": 0,
+    "type": "TIME_TRACK_MONTHLY_SET_SUMMARY_SUM_TASK_TIME",
+  },
+  Object {
+    "payload": Object {
+      "2019-12-23": Object {
+        "note": null,
+        "recordDate": "2019-12-23",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-24": Object {
+        "note": null,
+        "recordDate": "2019-12-24",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-25": Object {
+        "note": null,
+        "recordDate": "2019-12-25",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-26": Object {
+        "note": null,
+        "recordDate": "2019-12-26",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-27": Object {
+        "note": null,
+        "recordDate": "2019-12-27",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-28": Object {
+        "note": null,
+        "recordDate": "2019-12-28",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+      "2019-12-29": Object {
+        "note": null,
+        "recordDate": "2019-12-29",
+        "recordItemList": Array [],
+        "sumTaskTime": 0,
+      },
+    },
+    "type": "TIME_TRACK_MONTHLY_SET_DAILY_LIST",
+  },
+  Object {
+    "payload": Object {
+      "endDate": "2019-12-29",
+      "startDate": "2019-12-23",
+      "status": "NotRequested",
+    },
+    "type": "TIME_TRACK_MONTHLY_SET_OVERVIEW",
+  },
+  Object {
+    "payload": "",
+    "type": "TIME_TRACK_MONTHLY_SET_REQUEST",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;

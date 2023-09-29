@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots planner-pc CalendarHeader 1`] = `
+<header
+  className="CalendarHeader__Container-sc-gkyt0v-0 XEJqq"
+>
+  <div
+    className="CalendarHeader__Content-sc-gkyt0v-1 glGeda"
+  >
+    <div
+      className="CalendarHeader__MonthSelectContainer-sc-gkyt0v-2 fAefyW"
+    >
+      <div
+        className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+      >
+        <button
+          aria-expanded={false}
+          aria-haspopup="listbox"
+          className="DropdownButton__Button-sc-8ghard-2 fQhkab CalendarHeader__MonthSelect-sc-gkyt0v-3 bZBgWL"
+          data-testid="navigating-month"
+          onClick={[Function]}
+          onSelect={[Function]}
+          type="button"
+          value="2018/05"
+        >
+          <div
+            className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+            data-testid="navigating-month__label"
+          >
+            2018/05
+          </div>
+          <div
+            className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+          />
+        </button>
+      </div>
+    </div>
+    <button
+      className="Button-sc-w4yovf-0 CalendarHeader__TodayButton-sc-gkyt0v-4 ePsLmL homdIM"
+      data-testid="navigating-today"
+      onClick={[Function]}
+    >
+      Today
+    </button>
+    <div
+      className="CalendarHeader__DropdownWrapper-sc-gkyt0v-5 gpnyWS"
+    >
+      <div
+        className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+      >
+        <button
+          aria-expanded={false}
+          aria-haspopup="listbox"
+          className="DropdownButton__Button-sc-8ghard-2 fQhkab CalendarHeader__Switching-sc-gkyt0v-6 kZfsCX"
+          data-testid="switching-calendar"
+          onClick={[Function]}
+          onSelect={[Function]}
+          type="button"
+          value="week"
+        >
+          <div
+            className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+            data-testid="switching-calendar__label"
+          >
+            Week
+          </div>
+          <div
+            className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      className="CalendarHeader__Previous-sc-gkyt0v-7 egfNGf"
+    >
+      <button
+        className="IconButton__Button-sc-10k5axt-1 giXGgm"
+        color="#000"
+        data-testid="navigating-prev"
+        onClick={[Function]}
+      >
+        <test-file-stub
+          className="IconButton__Icon-sc-10k5axt-0 djRZTt"
+          color="#000"
+          data-testid="navigating-prev__icon"
+        />
+      </button>
+    </div>
+    <div
+      className="CalendarHeader__Next-sc-gkyt0v-8 gEkjfg"
+    >
+      <button
+        className="IconButton__Button-sc-10k5axt-1 giXGgm"
+        color="#2782ed"
+        data-testid="navigating-next"
+        onClick={[Function]}
+      >
+        <test-file-stub
+          className="ArrowRightButton__Icon-sc-1dgl0nf-0 dLOhLH IconButton__Icon-sc-10k5axt-0 cjZlAH"
+          color="#2782ed"
+          data-testid="navigating-next__icon"
+        />
+      </button>
+    </div>
+  </div>
+</header>
+`;

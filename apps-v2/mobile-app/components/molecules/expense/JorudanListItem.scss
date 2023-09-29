@@ -1,0 +1,67 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-expense-jorudan-list-item {
+  min-height: 72px;
+  padding: $small-size;
+  background: #fff;
+
+  &__header {
+    display: flex;
+    max-width: 80%;
+    flex-flow: column wrap;
+  }
+
+  &__amount {
+    margin-right: $small-size;
+    color: $color-blue-800;
+    font-weight: bold;
+  }
+
+  &__return-amount {
+    color: $color-gray-600;
+  }
+
+  &__line-name-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__line-name-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2px 0;
+  }
+
+  &__line-name {
+    padding: $base-size;
+    border: 1px solid $color-border;
+  }
+
+  &__line-name-to-icon {
+    margin-left: 2px;
+  }
+
+  &__route {
+    color: $color-text-base;
+  }
+
+  &__labels {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__labels div {
+    padding: 2px 6px;
+    margin-bottom: 4px;
+    margin-left: 0;
+    border-radius: 3px;
+    font-weight: 100;
+  }
+
+  .mobile-app-atoms-link-list-item__item {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1em;
+  }
+}

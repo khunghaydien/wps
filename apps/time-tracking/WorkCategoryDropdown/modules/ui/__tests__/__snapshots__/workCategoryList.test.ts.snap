@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() /DAILY-SUMMARY/UI/WORK_CATEGORY_LIST/ADD 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"2019-10-10\\": Object {
++     \\"0a0a0a0a0a\\": Array [
++       \\"a\\",
++       \\"b\\",
++       \\"c\\",
++     ],
++   },
++ }"
+`;
+
+exports[`reducer() /DAILY-SUMMARY/UI/WORK_CATEGORY_LIST/CLEAR 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;

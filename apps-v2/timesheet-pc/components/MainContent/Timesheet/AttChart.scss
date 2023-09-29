@@ -1,0 +1,162 @@
+@import './variables';
+
+.timesheet-pc-main-content-timesheet-att-chart {
+  $this: &;
+
+  position: relative;
+  width: ($WIDTH_PX_OF_ONE_HOUR * 48) + ($WIDTH_PX_OF_SIDE_GUTTER * 2); // 48時間＋左右の余白
+  height: 32px;
+  text-align: left;
+
+  // 日タイプによるエリア全体（レイヤー群のコンテナ）の背景
+  &--day-type-workday {
+    background: #f9f9f9;
+  }
+  &--day-type-holiday {
+    background: #eff2f6;
+  }
+  &--day-type-legal-holiday {
+    background: #f2ebe9;
+  }
+
+  &__grid,
+  &__late-night,
+  &__contracted-working-hours,
+  &__actual-working-hours,
+  &__clocked-times,
+  &__effectual-leave,
+  &__leave-of-absence,
+  &__absence {
+    position: absolute;
+    top: 0;
+    height: 100%;
+  }
+
+  &__grid,
+  &__late-night,
+  &__leave-of-absence,
+  &__absence {
+    left: 0;
+    width: 100%;
+  }
+
+  &__contracted-working-hours,
+  &__actual-working-hours,
+  &__clocked-times {
+    left: $WIDTH_PX_OF_SIDE_GUTTER;
+    width: $WIDTH_PX_OF_ONE_HOUR * 48;
+  }
+
+  // 時刻を表す縦の罫線
+  &__grid {
+    $color-border-grid: #fff;
+
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0,
+        transparent ($WIDTH_PX_OF_ONE_HOUR * 2 - 1px),
+        $color-border-grid ($WIDTH_PX_OF_ONE_HOUR * 2 - 1px),
+        $color-border-grid ($WIDTH_PX_OF_ONE_HOUR * 2)
+      )
+      ($WIDTH_PX_OF_SIDE_GUTTER * -1) 0;
+  }
+
+  // 深夜労働時間帯
+  // - 0時〜5時／22時〜24時（22時〜29時）
+  &__late-night {
+    @mixin backgroundByDayTypeColor($dayTypeColor) {
+      background: linear-gradient(
+            to right,
+            $dayTypeColor 0,
+            $dayTypeColor $WIDTH_PX_OF_ONE_HOUR,
+            transparent $WIDTH_PX_OF_ONE_HOUR
+          )
+          no-repeat,
+        repeating-linear-gradient(
+            to right,
+            $dayTypeColor 0,
+            $dayTypeColor ($WIDTH_PX_OF_ONE_HOUR * 5),
+            transparent ($WIDTH_PX_OF_ONE_HOUR * 5 + 1px),
+            transparent ($WIDTH_PX_OF_ONE_HOUR * 22),
+            $dayTypeColor ($WIDTH_PX_OF_ONE_HOUR * 22),
+            $dayTypeColor ($WIDTH_PX_OF_ONE_HOUR * 24)
+          )
+          $WIDTH_PX_OF_SIDE_GUTTER 0;
+    }
+
+    #{$this}--day-type-workday & {
+      @include backgroundByDayTypeColor(#edeff2);
+    }
+
+    #{$this}--day-type-holiday & {
+      @include backgroundByDayTypeColor(#e4e8ed);
+    }
+
+    #{$this}--day-type-legal-holiday & {
+      @include backgroundByDayTypeColor(#e8e2e1);
+    }
+  }
+
+  // 所定勤務時間・実労働時間
+  &__contracted-working-hours,
+  &__actual-working-hours {
+    &::before {
+      display: inline-block;
+      width: 0;
+      height: 100%;
+      content: '';
+      vertical-align: middle;
+    }
+  }
+
+  &__contracted-working-hours {
+    // NOTE: スクロール操作などの応答性に影響するようなら透過指定を削除する
+    opacity: 0.7;
+  }
+
+  // 所定勤務時間・実労働時間のバー部分
+  &__bar-graph {
+    width: $WIDTH_PX_OF_ONE_HOUR * 48;
+    height: 16px;
+    border-radius: 3px;
+  }
+
+  // 出退勤時刻
+  &__clocked-time-marker {
+    position: absolute;
+    top: ((32px - 16px) * 0.5) - 6px; // グラフ上側の余白から画像自体の高さを除いた距離
+    margin-left: -3px; // 矢印の先端をあわせる
+  }
+
+  // 休暇
+  &__effectual-leave {
+    box-sizing: content-box;
+    background: url('../../../../commons/images/bgHatchedLine.png');
+    opacity: 0.5;
+
+    &--with-payment {
+      background-color: #fdd7af;
+    }
+
+    &--with-deduction {
+      background-color: #ccc;
+    }
+  }
+
+  // 休職・休業
+  // NOTE: Summer'18時点では休職マスタの設定にかかわらず無給休暇と同じ表示
+  &__leave-of-absence {
+    box-sizing: content-box;
+    background: url('../../../../commons/images/bgHatchedLine.png');
+    background-color: #ccc;
+    opacity: 0.5;
+  }
+
+  // 欠勤
+  &__absence {
+    box-sizing: content-box;
+    background: url('../../../../commons/images/bgHatchedLine.png');
+    background-color: #ccc;
+    opacity: 0.5;
+  }
+}

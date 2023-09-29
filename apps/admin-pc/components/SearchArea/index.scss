@@ -1,0 +1,33 @@
+.admin-pc-search-area {
+  padding-bottom: 20px;
+  display: flex;
+  &__control {
+    display: inline-block;
+
+    &:first-child {
+      .slds-input {
+        border-radius: 4px 0 0 4px;
+      }
+    }
+
+    &:nth-child(2) {
+      .slds-input {
+        border-left: none;
+        border-radius: 0 4px 4px 0;
+      }
+    }
+  }
+
+  &__control &__label {
+    color: $color-text-modest;
+  }
+
+  &__search-button {
+    min-width: 32px;
+    min-height: 32px;
+    border: 1px solid #dddbda;
+    border-radius: 4px;
+    margin-left: 10px;
+    align-self: flex-end;
+  }
+}

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`complete() should do with result { result: false, reason: 'unexpected' }. 1`] = `Array []`;
+
+exports[`complete() should do with result { result: true, value: undefined }. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "message": "Clock out and fix daily request are requested",
+      "options": undefined,
+      "variant": "success",
+    },
+    "type": "COMMONS/MODULES/TOAST/SHOW",
+  },
+]
+`;
+
+exports[`error() should do. 1`] = `Array []`;
+
+exports[`finally() should do. 1`] = `Array []`;
+
+exports[`start() should do. 1`] = `Array []`;

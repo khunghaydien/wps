@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @init @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"insufficientRestTime\\": 0,
++   \\"isShowModal\\": false,
++ }"
+`;
+
+exports[`reducer() TIMESTAMP_WIDGET_CLOSE_MODAL CLOSE_MODAL 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"insufficientRestTime\\": \\"45\\",
+-   \\"isShowModal\\": true,
++   \\"insufficientRestTime\\": 0,
++   \\"isShowModal\\": false,
+  }"
+`;
+
+exports[`reducer() TIMESTAMP_WIDGET_SHOW_MODAL SHOW_MODAL 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"insufficientRestTime\\": 0,
+-   \\"isShowModal\\": false,
++   \\"insufficientRestTime\\": 45,
++   \\"isShowModal\\": true,
+  }"
+`;

@@ -1,0 +1,56 @@
+.commons-company-switch {
+  display: flex;
+  margin: auto;
+  margin-left: 5px;
+
+  &__selection {
+    min-width: 200px;
+  }
+
+  &__company-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+
+    &.withCount {
+      width: 190px;
+    }
+  }
+
+  .count {
+    margin-left: auto;
+    color: $color-bg-primary;
+    padding-right: 7px;
+  }
+
+  .count-icon {
+    background-color: $color-bg-notice;
+    border-radius: 9px;
+    color: $color-bg-lighter;
+    min-width: 18px;
+    height: 18px;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .sub-count {
+    margin-left: auto;
+  }
+
+  .selected-count {
+    position: relative;
+    right: 52px;
+    top: 4px;
+  }
+
+  .others-count {
+    position: relative;
+    right: 28px;
+    bottom: 5px;
+  }
+
+  .check-icon {
+    margin-right: 6px;
+  }
+}

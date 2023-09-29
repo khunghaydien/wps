@@ -1,0 +1,24 @@
+.commons-proxy-indicator {
+  $height: 41px;
+
+  width: 320px;
+  height: $height;
+  border-radius: $height 0 0 $height;
+
+  &__employee-icon-container {
+    border-radius: 100% 0 0 100%;
+  }
+
+  &__employee-icon-bg {
+    background: $color-bg-lighter;
+    border-radius: 100%;
+  }
+
+  &__employee-icon {
+    border-radius: 100%;
+  }
+
+  &__message {
+    line-height: 1.35;
+  }
+}

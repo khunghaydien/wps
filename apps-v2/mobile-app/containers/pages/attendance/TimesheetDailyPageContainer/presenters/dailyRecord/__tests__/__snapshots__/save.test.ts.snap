@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`noCompleteMessage complete() should do. 1`] = `Array []`;
+
+exports[`noCompleteMessage confirmToComplementInsufficientingRestTime() should do when answer is no. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+  Object {
+    "payload": Array [
+      "The rest time input is 60 minutes short. Do you want to automatically register the required rest time?
+If you do not wish to register it automatically, click the “cancel” button and input it manually in the attendance sheet.
+{$Att_Help_ExcessRestTimeBeDeducted}",
+    ],
+    "type": "TEST/ASK",
+  },
+  Object {
+    "payload": undefined,
+    "type": "START_LOADING",
+  },
+]
+`;
+
+exports[`noCompleteMessage confirmToComplementInsufficientingRestTime() should do when answer is yes. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+  Object {
+    "payload": Array [
+      "The rest time input is 60 minutes short. Do you want to automatically register the required rest time?
+If you do not wish to register it automatically, click the “cancel” button and input it manually in the attendance sheet.
+{$Att_Help_ExcessRestTimeBeDeducted}",
+    ],
+    "type": "TEST/ASK",
+  },
+  Object {
+    "payload": undefined,
+    "type": "START_LOADING",
+  },
+]
+`;
+
+exports[`noCompleteMessage error() should do 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test 2",
+      "problem": "Error Test 2",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test 1",
+      "problem": "Error Test 1",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`noCompleteMessage error() should do if Error is Array 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`noCompleteMessage finally() should do. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`noCompleteMessage start() should do. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "START_LOADING",
+  },
+]
+`;
+
+exports[`normal complete() should do. 1`] = `
+Array [
+  Object {
+    "payload": "Saved",
+    "type": "TEST/TOAST",
+  },
+]
+`;
+
+exports[`normal confirmToComplementInsufficientingRestTime() should do when answer is no. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+  Object {
+    "payload": Array [
+      "The rest time input is 60 minutes short. Do you want to automatically register the required rest time?
+If you do not wish to register it automatically, click the “cancel” button and input it manually in the attendance sheet.
+{$Att_Help_ExcessRestTimeBeDeducted}",
+    ],
+    "type": "TEST/ASK",
+  },
+  Object {
+    "payload": undefined,
+    "type": "START_LOADING",
+  },
+]
+`;
+
+exports[`normal confirmToComplementInsufficientingRestTime() should do when answer is yes. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+  Object {
+    "payload": Array [
+      "The rest time input is 60 minutes short. Do you want to automatically register the required rest time?
+If you do not wish to register it automatically, click the “cancel” button and input it manually in the attendance sheet.
+{$Att_Help_ExcessRestTimeBeDeducted}",
+    ],
+    "type": "TEST/ASK",
+  },
+  Object {
+    "payload": undefined,
+    "type": "START_LOADING",
+  },
+]
+`;
+
+exports[`normal error() should do 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test 2",
+      "problem": "Error Test 2",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test 1",
+      "problem": "Error Test 1",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`normal error() should do if Error is Array 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`normal finally() should do. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`normal start() should do. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "START_LOADING",
+  },
+]
+`;

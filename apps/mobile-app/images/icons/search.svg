@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.758 14.784">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #074b69;
+      }
+    </style>
+  </defs>
+  <g id="icons_utility_search" data-name="icons/utility/search" transform="translate(-0.615 -0.615)">
+    <path id="Mask" class="cls-1" d="M15.261,13.938,11.138,9.846A5.814,5.814,0,1,0,.646,7.015a5.819,5.819,0,0,0,9.2,4.154l4.092,4.092a.446.446,0,0,0,.646,0l.646-.646a.516.516,0,0,0,.031-.677ZM2.461,6.43A3.969,3.969,0,1,1,6.43,10.4,3.979,3.979,0,0,1,2.461,6.43Z"/>
+  </g>
+</svg>

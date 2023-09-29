@@ -1,0 +1,8 @@
+.commons-fixed-header-table-header-row {
+  display: flex;
+  min-height: 40px;
+  align-items: center;
+  border-bottom: 1px solid $color-border-default;
+  background-color: $color-bg-heading;
+  overflow-y: scroll;
+}

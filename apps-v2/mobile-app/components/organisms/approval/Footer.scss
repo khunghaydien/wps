@@ -1,0 +1,28 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-organisms-approval-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: $small-size;
+  border-top: 2px solid $color-border;
+  background: #fff;
+
+  &__comment-area {
+    padding-bottom: $medium-size;
+  }
+
+  &__button-area {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__reject-button {
+    margin-right: 20px;
+  }
+
+  .mobile-app-atoms-button {
+    padding: 0;
+    width: 100%;
+  }
+}

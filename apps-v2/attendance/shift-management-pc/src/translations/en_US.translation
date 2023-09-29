@@ -1,0 +1,4142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+  <customApplications>
+    <label>TeamSpirit</label>
+    <name>AttokinmuApp</name>
+  </customApplications>
+  <customLabels>
+    <label>Actual Project Hours Worked</label>
+    <name>Actual_Project_Hours_Worked</name>
+  </customLabels>
+  <customLabels>
+    <label>Export Actual Project Hours Worked Data</label>
+    <name>Actual_Project_Hours_Worked_Output</name>
+  </customLabels>
+  <customLabels>
+    <label>Advance Approval</label>
+    <name>Advance_Expenses_Request</name>
+  </customLabels>
+  <customLabels>
+    <label>Attendance Calendar</label>
+    <name>Attendance_Calendar</name>
+  </customLabels>
+  <customLabels>
+    <label>Export Attendance Data</label>
+    <name>Attendance_Data</name>
+  </customLabels>
+  <customLabels>
+    <label>Attendance Settings</label>
+    <name>Attendance_Settings</name>
+  </customLabels>
+  <customLabels>
+    <label>Timesheet</label>
+    <name>Attendance_Sheet</name>
+  </customLabels>
+  <customLabels>
+    <label>Annual Paid Leave Taken Information Settings</label>
+    <name>AutomaticProcess_Settings</name>
+  </customLabels>
+  <customLabels>
+    <label>Click to display the map</label>
+    <name>ClickToDisplayTheMap</name>
+  </customLabels>
+  <customLabels>
+    <label>Fri</label>
+    <name>Day_Of_The_Week_Friday</name>
+  </customLabels>
+  <customLabels>
+    <label>Mon</label>
+    <name>Day_Of_The_Week_Monday</name>
+  </customLabels>
+  <customLabels>
+    <label>Sat</label>
+    <name>Day_Of_The_Week_Saturday</name>
+  </customLabels>
+  <customLabels>
+    <label>Sun</label>
+    <name>Day_Of_The_Week_Sunday</name>
+  </customLabels>
+  <customLabels>
+    <label>Thu</label>
+    <name>Day_Of_The_Week_Thursday</name>
+  </customLabels>
+  <customLabels>
+    <label>Tue</label>
+    <name>Day_Of_The_Week_Tuesday</name>
+  </customLabels>
+  <customLabels>
+    <label>Wed</label>
+    <name>Day_Of_The_Week_Wednesday</name>
+  </customLabels>
+  <customLabels>
+    <label>Legal Holiday</label>
+    <name>Day_Type_Legal_Holiday</name>
+  </customLabels>
+  <customLabels>
+    <label>Public Holiday</label>
+    <name>Day_Type_Public_Holiday</name>
+  </customLabels>
+  <customLabels>
+    <label>Regular Holiday</label>
+    <name>Day_Type_Regular_Holiday</name>
+  </customLabels>
+  <customLabels>
+    <label>Weekday</label>
+    <name>Day_Type_Weekday</name>
+  </customLabels>
+  <customLabels>
+    <label>Department List</label>
+    <name>Department_List</name>
+  </customLabels>
+  <customLabels>
+    <label>Department Settings</label>
+    <name>Department_Settings</name>
+  </customLabels>
+  <customLabels>
+    <label>Employee Actual Project Hours Worked Data</label>
+    <name>Employee_Actual_Project_Hours_Worked_Data</name>
+  </customLabels>
+  <customLabels>
+    <label>Employee Attendance Data</label>
+    <name>Employee_Attendance_Data</name>
+  </customLabels>
+  <customLabels>
+    <label>Employee Expense Data</label>
+    <name>Employee_Expense_Data_List</name>
+  </customLabels>
+  <customLabels>
+    <label>Employee information</label>
+    <name>Employee_Information</name>
+  </customLabels>
+  <customLabels>
+    <label>Employee Registration</label>
+    <name>Employee_Registration</name>
+  </customLabels>
+  <customLabels>
+    <label>Employee Settings</label>
+    <name>Employee_Settings</name>
+  </customLabels>
+  <customLabels>
+    <label>Employees List</label>
+    <name>Employees_List</name>
+  </customLabels>
+  <customLabels>
+    <label>Error</label>
+    <name>Error</name>
+  </customLabels>
+  <customLabels>
+    <label>Expense Reimbursement</label>
+    <name>Expense_Reimbursement</name>
+  </customLabels>
+  <customLabels>
+    <label>HR Process Navigator</label>
+    <name>HRM_Navi</name>
+  </customLabels>
+  <customLabels>
+    <label>Image display</label>
+    <name>Image_Display</name>
+  </customLabels>
+  <customLabels>
+    <label>Job List</label>
+    <name>Job_List</name>
+  </customLabels>
+  <customLabels>
+    <label>Job Settings</label>
+    <name>Job_Settings</name>
+  </customLabels>
+  <customLabels>
+    <label>Billing data of travel booking</label>
+    <name>JsNavi_Invoice</name>
+  </customLabels>
+  <customLabels>
+    <label>Management Menu</label>
+    <name>Management_Menu</name>
+  </customLabels>
+  <customLabels>
+    <label>Monthly Actual Project Hours Worked</label>
+    <name>Monthly_Actual_Project_Hours_Worked</name>
+  </customLabels>
+  <customLabels>
+    <label>Export Expense Data</label>
+    <name>Output_Expense_Data</name>
+  </customLabels>
+  <customLabels>
+    <label>Personal Settings</label>
+    <name>Personal_Settings</name>
+  </customLabels>
+  <customLabels>
+    <label>Personal holiday information</label>
+    <name>Personal_holiday_information</name>
+  </customLabels>
+  <customLabels>
+    <label>Reconciliation of Reimbursement</label>
+    <name>Reconciliation_of_Reimbursement</name>
+  </customLabels>
+  <customLabels>
+    <label>Expense Reimbursement Settings</label>
+    <name>Set_Up_Expense_Reimbursement</name>
+  </customLabels>
+  <customLabels>
+    <label>Job Management Settings</label>
+    <name>Set_Up_Job_Management</name>
+  </customLabels>
+  <customLabels>
+    <label>Shift Supervisor</label>
+    <name>Shift_Supervisor</name>
+  </customLabels>
+  <customLabels>
+    <label>Show the Monthly Summary</label>
+    <name>Show_The_Monthly_Summary</name>
+  </customLabels>
+  <customLabels>
+    <label>Show the Timesheet</label>
+    <name>Show_The_Timesheet</name>
+  </customLabels>
+  <customLabels>
+    <label>System Settings</label>
+    <name>System_Settings</name>
+  </customLabels>
+  <customLabels>
+    <label>TeamSpirit Employee Master configuration</label>
+    <name>TemSetting_Setting</name>
+  </customLabels>
+  <customLabels>
+    <label>Travel Booking Settings</label>
+    <name>Ticket_Config</name>
+  </customLabels>
+  <customLabels>
+    <label>Time Report</label>
+    <name>Time_Report</name>
+  </customLabels>
+  <customLabels>
+    <label>Click here to view the Actual Project Hours Worked</label>
+    <name>View_Actual_Project_Hours_Worked</name>
+  </customLabels>
+  <customTabs>
+    <label>Reimbursement</label>
+    <name>AtkEmpExpTab</name>
+  </customTabs>
+  <customTabs>
+    <label>Project Hours</label>
+    <name>AtkEmpJobTab</name>
+  </customTabs>
+  <customTabs>
+    <label>Grant a compensatory holiday</label>
+    <name>AtkExchangeProvideTab</name>
+  </customTabs>
+  <customTabs>
+    <label>Advance Approval</label>
+    <name>AtkExpPreApplyTab</name>
+  </customTabs>
+  <customTabs>
+    <label>Management Menu</label>
+    <name>AtkManageTab</name>
+  </customTabs>
+  <customTabs>
+    <label>Shift Supervisor</label>
+    <name>AtkShiftTab</name>
+  </customTabs>
+  <customTabs>
+    <label>Grant an accrued leave</label>
+    <name>AtkStockProvideTab</name>
+  </customTabs>
+  <customTabs>
+    <label>Time Report</label>
+    <name>AtkTimeReportTab</name>
+  </customTabs>
+  <customTabs>
+    <label>Timesheet</label>
+    <name>AtkWorkTimeTab</name>
+  </customTabs>
+  <customTabs>
+    <label>Employee Information</label>
+    <name>TemEmployeeTab</name>
+  </customTabs>
+  <customTabs>
+    <label>HR Process Navigator</label>
+    <name>TemNaviTab</name>
+  </customTabs>
+  <customTabs>
+    <label>Individual number register</label>
+    <name>Ts1MyNumberRegisterTab</name>
+  </customTabs>
+  <customTabs>
+    <label/>
+    <name>Ts1RegistrationReceiptTab</name>
+  </customTabs>
+  <quickActions>
+    <label>Expense registration</label>
+    <name>Ts1EmpExpAction</name>
+  </quickActions>
+  <quickActions>
+    <label/>
+    <name>Ts1EmpJobAction</name>
+  </quickActions>
+  <quickActions>
+    <label>Time Stamp</label>
+    <name>Ts1PushTimeAction</name>
+  </quickActions>
+  <quickActions>
+    <label/>
+    <name>Ts1WorkApplyAction</name>
+  </quickActions>
+  <reportTypes>
+    <label>Attendance Approval Request(ver. 4.0)</label>
+    <name>AtkEmpApply01CustomReportType4000</name>
+    <sections>
+      <columns>
+        <label>Leave Types</label>
+        <name>休暇名</name>
+      </columns>
+      <columns>
+        <label>Type of Leave</label>
+        <name>休暇種類</name>
+      </columns>
+      <columns>
+        <label>Range of leaves</label>
+        <name>休暇範囲</name>
+      </columns>
+      <columns>
+        <label>Work attendance</label>
+        <name>出勤判定</name>
+      </columns>
+      <columns>
+        <label>Manage the number of days of XX.</label>
+        <name>日数管理する</name>
+      </columns>
+      <columns>
+        <label>Deduct paid leave</label>
+        <name>有休消化</name>
+      </columns>
+      <columns>
+        <label>Notes</label>
+        <name>説明</name>
+      </columns>
+      <label>Leave </label>
+      <name>休暇</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>User</label>
+        <name>ユーザ</name>
+      </columns>
+      <columns>
+        <label>User Alternative Name </label>
+        <name>ユーザ別名</name>
+      </columns>
+      <columns>
+        <label>Manager</label>
+        <name>上長</name>
+      </columns>
+      <columns>
+        <label>Start Date</label>
+        <name>入社日</name>
+      </columns>
+      <columns>
+        <label>Target Flag</label>
+        <name>対象者フラグ</name>
+      </columns>
+      <columns>
+        <label>Title</label>
+        <name>役職</name>
+      </columns>
+      <columns>
+        <label>Approver</label>
+        <name>承認者</name>
+      </columns>
+      <columns>
+        <label>Employee code requested</label>
+        <name>申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Employee name requested</label>
+        <name>申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Requested By</label>
+        <name>申請者</name>
+      </columns>
+      <columns>
+        <label>Parent Department Code</label>
+        <name>親部署コード</name>
+      </columns>
+      <columns>
+        <label>Parent Department Signature </label>
+        <name>親部署名</name>
+      </columns>
+      <columns>
+        <label>End Date</label>
+        <name>退社日</name>
+      </columns>
+      <columns>
+        <label>Department Code</label>
+        <name>部署コード</name>
+      </columns>
+      <columns>
+        <label>Department Name</label>
+        <name>部署名</name>
+      </columns>
+      <label>Request work attendance</label>
+      <name>勤怠申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Manager</label>
+        <name>上長</name>
+      </columns>
+      <columns>
+        <label>Approver 1</label>
+        <name>承認者1</name>
+      </columns>
+      <columns>
+        <label>Approver 10</label>
+        <name>承認者10</name>
+      </columns>
+      <columns>
+        <label>Approver 2</label>
+        <name>承認者2</name>
+      </columns>
+      <columns>
+        <label>Approver 3</label>
+        <name>承認者3</name>
+      </columns>
+      <columns>
+        <label>Approver 4</label>
+        <name>承認者4</name>
+      </columns>
+      <columns>
+        <label>Approver 5</label>
+        <name>承認者5</name>
+      </columns>
+      <columns>
+        <label>Approver 6</label>
+        <name>承認者6</name>
+      </columns>
+      <columns>
+        <label>Approver 7</label>
+        <name>承認者7</name>
+      </columns>
+      <columns>
+        <label>Approver 8</label>
+        <name>承認者8</name>
+      </columns>
+      <columns>
+        <label>Approver 9</label>
+        <name>承認者9</name>
+      </columns>
+      <label>Approver</label>
+      <name>承認者</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Prior Night Travel Time</label>
+        <name>前泊移動時間</name>
+      </columns>
+      <columns>
+        <label>Prior night travel time (Min.) </label>
+        <name>前泊移動時間(分)</name>
+      </columns>
+      <columns>
+        <label>Work Shift Name</label>
+        <name>勤務パターン名</name>
+      </columns>
+      <label>Details columns </label>
+      <name>詳細項目</name>
+    </sections>
+  </reportTypes>
+  <reportTypes>
+    <label>Work Attendance Monthly Link </label>
+    <name>AtkEmpCoodinate01CustomReportType4000</name>
+    <sections>
+      <label>Work Attendance Monthly Link </label>
+      <name>勤怠月次連携</name>
+    </sections>
+    <sections>
+      <label>Days</label>
+      <name>日数</name>
+    </sections>
+    <sections>
+      <label>Details </label>
+      <name>詳細</name>
+    </sections>
+    <sections>
+      <label>Tardiness and Early Departure </label>
+      <name>遅刻・早退</name>
+    </sections>
+  </reportTypes>
+  <reportTypes>
+    <label>Daily Attendance (ver. 4.0)</label>
+    <name>AtkEmpDay01CustomReportType4000</name>
+    <sections>
+      <columns>
+        <label>Holiday Work Request:Status</label>
+        <name>休日出勤申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Remarks</label>
+        <name>休日出勤申請:備考</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Details</label>
+        <name>休日出勤申請:内容</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Disapproval comment</label>
+        <name>休日出勤申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Approval Date</label>
+        <name>休日出勤申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Approved By</label>
+        <name>休日出勤申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Employee code requested</label>
+        <name>休日出勤申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Employee name requested</label>
+        <name>休日出勤申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Request Date</label>
+        <name>休日出勤申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Request Type</label>
+        <name>休日出勤申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Requested By</label>
+        <name>休日出勤申請:申請者</name>
+      </columns>
+      <label>Holiday Worked</label>
+      <name>休日出勤</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Leave1:Status</label>
+        <name>休暇1:ステータス</name>
+      </columns>
+      <columns>
+        <label>Leave1:Leave Category</label>
+        <name>休暇1:休暇名</name>
+      </columns>
+      <columns>
+        <label>Leave1:Type of Leave</label>
+        <name>休暇1:休暇種類</name>
+      </columns>
+      <columns>
+        <label>Leave1:Range of leaves</label>
+        <name>休暇1:休暇範囲</name>
+      </columns>
+      <columns>
+        <label>Leave1:Remarks</label>
+        <name>休暇1:備考</name>
+      </columns>
+      <columns>
+        <label>Leave1:Details</label>
+        <name>休暇1:内容</name>
+      </columns>
+      <columns>
+        <label>Leave1:Disapproval comment</label>
+        <name>休暇1:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Leave1:Approval Date</label>
+        <name>休暇1:承認日時</name>
+      </columns>
+      <columns>
+        <label>Leave1:Approved By</label>
+        <name>休暇1:承認者</name>
+      </columns>
+      <columns>
+        <label>Leave1:Paid Leave</label>
+        <name>休暇1:有給休暇</name>
+      </columns>
+      <columns>
+        <label>Leave1:Period</label>
+        <name>休暇1:期間</name>
+      </columns>
+      <columns>
+        <label>Leave1:Employee code requested</label>
+        <name>休暇1:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Leave1:Employee name requested</label>
+        <name>休暇1:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Leave1:Request Date</label>
+        <name>休暇1:申請日時</name>
+      </columns>
+      <columns>
+        <label>Leave1:Request Type</label>
+        <name>休暇1:申請種類</name>
+      </columns>
+      <columns>
+        <label>Leave1:Requested By</label>
+        <name>休暇1:申請者</name>
+      </columns>
+      <columns>
+        <label>Leave1:Notes</label>
+        <name>休暇1:説明</name>
+      </columns>
+      <label>Leave 1 </label>
+      <name>休暇1</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Leave2:Status</label>
+        <name>休暇2:ステータス</name>
+      </columns>
+      <columns>
+        <label>Leave2:Leave Category</label>
+        <name>休暇2:休暇名</name>
+      </columns>
+      <columns>
+        <label>Leave2:Type of Leave</label>
+        <name>休暇2:休暇種類</name>
+      </columns>
+      <columns>
+        <label>Leave2:Range of leaves</label>
+        <name>休暇2:休暇範囲</name>
+      </columns>
+      <columns>
+        <label>Leave2:Remarks</label>
+        <name>休暇2:備考</name>
+      </columns>
+      <columns>
+        <label>Leave2:Details</label>
+        <name>休暇2:内容</name>
+      </columns>
+      <columns>
+        <label>Leave2:Disapproval comment</label>
+        <name>休暇2:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Leave2:Approval Date</label>
+        <name>休暇2:承認日時</name>
+      </columns>
+      <columns>
+        <label>Leave2:Approved By</label>
+        <name>休暇2:承認者</name>
+      </columns>
+      <columns>
+        <label>Leave2:Paid Leave</label>
+        <name>休暇2:有給休暇</name>
+      </columns>
+      <columns>
+        <label>Leave2:Period</label>
+        <name>休暇2:期間</name>
+      </columns>
+      <columns>
+        <label>Leave2:Employee code requested</label>
+        <name>休暇2:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Leave2:Employee name requested</label>
+        <name>休暇2:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Leave2:Request Date</label>
+        <name>休暇2:申請日時</name>
+      </columns>
+      <columns>
+        <label>Leave2:Request Type</label>
+        <name>休暇2:申請種類</name>
+      </columns>
+      <columns>
+        <label>Leave2:Requested By</label>
+        <name>休暇2:申請者</name>
+      </columns>
+      <columns>
+        <label>Leave2:Notes</label>
+        <name>休暇2:説明</name>
+      </columns>
+      <label>Leave 2 </label>
+      <name>休暇2</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Work Hour Change Request:Status</label>
+        <name>勤務時間変更申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Remarks</label>
+        <name>勤務時間変更申請:備考</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Details</label>
+        <name>勤務時間変更申請:内容</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Work Shift Name</label>
+        <name>勤務時間変更申請:勤務パターン名</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Disapproval comment</label>
+        <name>勤務時間変更申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Approval Date</label>
+        <name>勤務時間変更申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Approved By</label>
+        <name>勤務時間変更申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Period</label>
+        <name>勤務時間変更申請:期間</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Employee code requested</label>
+        <name>勤務時間変更申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Employee name requested</label>
+        <name>勤務時間変更申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Request Date</label>
+        <name>勤務時間変更申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Request Type</label>
+        <name>勤務時間変更申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Requested By</label>
+        <name>勤務時間変更申請:申請者</name>
+      </columns>
+      <label>Work Hour Change Request</label>
+      <name>勤務時間変更申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Net working hours</label>
+        <name>ネット労働時間</name>
+      </columns>
+      <columns>
+        <label>Net work time (Min.) </label>
+        <name>ネット労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>User</label>
+        <name>ユーザ</name>
+      </columns>
+      <columns>
+        <label>User Alternative Name </label>
+        <name>ユーザ別名</name>
+      </columns>
+      <columns>
+        <label>Manager</label>
+        <name>上長</name>
+      </columns>
+      <columns>
+        <label>Break Time</label>
+        <name>休憩時間</name>
+      </columns>
+      <columns>
+        <label>Break time (Min.) </label>
+        <name>休憩時間(分)</name>
+      </columns>
+      <columns>
+        <label>Start Date</label>
+        <name>入社日</name>
+      </columns>
+      <columns>
+        <label>Arrival Time</label>
+        <name>出社時刻</name>
+      </columns>
+      <columns>
+        <label>Time of arrival (HH:MM) </label>
+        <name>出社時刻(HH:MM)</name>
+      </columns>
+      <columns>
+        <label>Clocked in (button; no rounding off)</label>
+        <name>出社時刻(ボタン丸めなし)</name>
+      </columns>
+      <columns>
+        <label>Time of arrival (Button, no rounding) (HH:MM) </label>
+        <name>出社時刻(ボタン丸めなし)(HH:MM)</name>
+      </columns>
+      <columns>
+        <label>Time of arrival (Button, no rounding) (Min.) </label>
+        <name>出社時刻(ボタン丸めなし)(分)</name>
+      </columns>
+      <columns>
+        <label>Time of arrival (Min.) </label>
+        <name>出社時刻(分)</name>
+      </columns>
+      <columns>
+        <label>Clocked in (button)</label>
+        <name>出社時刻（ボタン）</name>
+      </columns>
+      <columns>
+        <label>Time of arrival (Button) (HH:MM) </label>
+        <name>出社時刻（ボタン）(HH:MM)</name>
+      </columns>
+      <columns>
+        <label>Time of arrival (Button) (Min.) </label>
+        <name>出社時刻（ボタン）(分)</name>
+      </columns>
+      <columns>
+        <label>Employee Type Code</label>
+        <name>勤務体系コード</name>
+      </columns>
+      <columns>
+        <label>Employee type Name</label>
+        <name>勤務体系名</name>
+      </columns>
+      <columns>
+        <label>Monthly Attendance Name </label>
+        <name>勤怠月次名</name>
+      </columns>
+      <columns>
+        <label>Actual Hours Worked</label>
+        <name>実労働時間</name>
+      </columns>
+      <columns>
+        <label>Actual work time (Min.) </label>
+        <name>実労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Target Flag</label>
+        <name>対象者フラグ</name>
+      </columns>
+      <columns>
+        <label>Title</label>
+        <name>役職</name>
+      </columns>
+      <columns>
+        <label>Regular Work Hours</label>
+        <name>所定労働時間</name>
+      </columns>
+      <columns>
+        <label>Regular work time (Min.) </label>
+        <name>所定労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Month</label>
+        <name>月度</name>
+      </columns>
+      <columns>
+        <label>Legal work hours</label>
+        <name>法定内労働時間</name>
+      </columns>
+      <columns>
+        <label>Work time within legal work hours (Min.) </label>
+        <name>法定内労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Employee Code</label>
+        <name>社員コード</name>
+      </columns>
+      <columns>
+        <label>Employee Name</label>
+        <name>社員名</name>
+      </columns>
+      <columns>
+        <label>Total Work Hours</label>
+        <name>総労働時間</name>
+      </columns>
+      <columns>
+        <label>Total work time (Min.) </label>
+        <name>総労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Parent Department Code</label>
+        <name>親部署コード</name>
+      </columns>
+      <columns>
+        <label>Parent Department Signature </label>
+        <name>親部署名</name>
+      </columns>
+      <columns>
+        <label>End Date</label>
+        <name>退社日</name>
+      </columns>
+      <columns>
+        <label>Departure Time</label>
+        <name>退社時刻</name>
+      </columns>
+      <columns>
+        <label>Time of departure (HH:MM) </label>
+        <name>退社時刻(HH:MM)</name>
+      </columns>
+      <columns>
+        <label>Clocked out (button; no rounding off)</label>
+        <name>退社時刻(ボタン丸めなし)</name>
+      </columns>
+      <columns>
+        <label>Time of departure (Button, no rounding) (HH:MM) </label>
+        <name>退社時刻(ボタン丸めなし)(HH:MM)</name>
+      </columns>
+      <columns>
+        <label>Time of departure (Button, no rounding) (Min.) </label>
+        <name>退社時刻(ボタン丸めなし)(分)</name>
+      </columns>
+      <columns>
+        <label>Time of departure (Min.) </label>
+        <name>退社時刻(分)</name>
+      </columns>
+      <columns>
+        <label>Clocked out (button)</label>
+        <name>退社時刻（ボタン）</name>
+      </columns>
+      <columns>
+        <label>Time of departure (Button) (HH:MM) </label>
+        <name>退社時刻（ボタン）(HH:MM)</name>
+      </columns>
+      <columns>
+        <label>Time of departure (Button) (Min.) </label>
+        <name>退社時刻（ボタン）(分)</name>
+      </columns>
+      <columns>
+        <label>Department Code</label>
+        <name>部署コード</name>
+      </columns>
+      <columns>
+        <label>Department Name</label>
+        <name>部署名</name>
+      </columns>
+      <label>Daily work attendance</label>
+      <name>勤怠日次</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>First substitute holiday request date </label>
+        <name>初回振替申請日</name>
+      </columns>
+      <columns>
+        <label>From</label>
+        <name>振替元日付</name>
+      </columns>
+      <columns>
+        <label>To</label>
+        <name>振替先日付</name>
+      </columns>
+      <label>Substitute Holiday Request</label>
+      <name>振替申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Substitute Request (original):Status</label>
+        <name>振替申請(元):ステータス</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Remarks</label>
+        <name>振替申請(元):備考</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Details</label>
+        <name>振替申請(元):内容</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Disapproval comment</label>
+        <name>振替申請(元):承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Approval Date</label>
+        <name>振替申請(元):承認日時</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Approved By</label>
+        <name>振替申請(元):承認者</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Employee code requested</label>
+        <name>振替申請(元):申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Employee name requested</label>
+        <name>振替申請(元):申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Request Date</label>
+        <name>振替申請(元):申請日時</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Request Type</label>
+        <name>振替申請(元):申請種類</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Requested By</label>
+        <name>振替申請(元):申請者</name>
+      </columns>
+      <label>Substitute Holiday Request (From) </label>
+      <name>振替申請(元)</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Substitute Request (target):Status</label>
+        <name>振替申請(先):ステータス</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Remarks</label>
+        <name>振替申請(先):備考</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Details</label>
+        <name>振替申請(先):内容</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Disapproval comment</label>
+        <name>振替申請(先):承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Approval Date</label>
+        <name>振替申請(先):承認日時</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Approved By</label>
+        <name>振替申請(先):承認者</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Employee code requested</label>
+        <name>振替申請(先):申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Employee name requested</label>
+        <name>振替申請(先):申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Request Date</label>
+        <name>振替申請(先):申請日時</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Request Type</label>
+        <name>振替申請(先):申請種類</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Requested By</label>
+        <name>振替申請(先):申請者</name>
+      </columns>
+      <label>Substitute Holiday Request (To) </label>
+      <name>振替申請(先)</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Daily Finalization Request :Status</label>
+        <name>日次申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Remarks</label>
+        <name>日次申請:備考</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Details</label>
+        <name>日次申請:内容</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Disapproval comment</label>
+        <name>日次申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Approval Date</label>
+        <name>日次申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Approved By</label>
+        <name>日次申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Employee code requested</label>
+        <name>日次申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Employee name requested</label>
+        <name>日次申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Request Date</label>
+        <name>日次申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Request Type</label>
+        <name>日次申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Requested By</label>
+        <name>日次申請:申請者</name>
+      </columns>
+      <label>Daily Confirmation Request</label>
+      <name>日次確定申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Early Morning Work Request:Status</label>
+        <name>早朝勤務申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Remarks</label>
+        <name>早朝勤務申請:備考</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Details</label>
+        <name>早朝勤務申請:内容</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Disapproval comment</label>
+        <name>早朝勤務申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Approval Date</label>
+        <name>早朝勤務申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Approved By</label>
+        <name>早朝勤務申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Employee code requested</label>
+        <name>早朝勤務申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Employee name requested</label>
+        <name>早朝勤務申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Request Date</label>
+        <name>早朝勤務申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Request Type</label>
+        <name>早朝勤務申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Requested By</label>
+        <name>早朝勤務申請:申請者</name>
+      </columns>
+      <label>Early Morning Work Request</label>
+      <name>早朝勤務申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Early Departure Request:Status</label>
+        <name>早退申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Remarks</label>
+        <name>早退申請:備考</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Details</label>
+        <name>早退申請:内容</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Disapproval comment</label>
+        <name>早退申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Approval Date</label>
+        <name>早退申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Approved By</label>
+        <name>早退申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Employee code requested</label>
+        <name>早退申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Employee name requested</label>
+        <name>早退申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Request Date</label>
+        <name>早退申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Request Type</label>
+        <name>早退申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Requested By</label>
+        <name>早退申請:申請者</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:For personal reasons</label>
+        <name>早退申請:自己都合</name>
+      </columns>
+      <label>Early Departure Request</label>
+      <name>早退申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Overtime</label>
+        <name>残業時間</name>
+      </columns>
+      <columns>
+        <label>Overtime work time (Min.) </label>
+        <name>残業時間(分)</name>
+      </columns>
+      <columns>
+        <label>Hours Worked during Legal Holiday</label>
+        <name>法定休日労働時間</name>
+      </columns>
+      <columns>
+        <label>Legal holiday work time (Min.)  </label>
+        <name>法定休日労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Overtime within Legal Work Hours</label>
+        <name>法定時間内残業</name>
+      </columns>
+      <columns>
+        <label>Overtime work within legal work hours (Min.) </label>
+        <name>法定時間内残業(分)</name>
+      </columns>
+      <columns>
+        <label>Extra Legal Work Hours</label>
+        <name>法定時間外割増</name>
+      </columns>
+      <columns>
+        <label>extra legal work hours (Min.) </label>
+        <name>法定時間外割増(分)</name>
+      </columns>
+      <columns>
+        <label>Overtime in excess of Legal Work Hours</label>
+        <name>法定時間外残業</name>
+      </columns>
+      <columns>
+        <label>Overtime work in excess of legal work hours (Min.)  </label>
+        <name>法定時間外残業(分)</name>
+      </columns>
+      <columns>
+        <label>Late-Night Work Hours</label>
+        <name>深夜労働時間</name>
+      </columns>
+      <columns>
+        <label>Late-night work time (Min.) </label>
+        <name>深夜労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Late night work increment</label>
+        <name>深夜勤務割増</name>
+      </columns>
+      <columns>
+        <label>Late-night work additional (Min.) </label>
+        <name>深夜勤務割増(分)</name>
+      </columns>
+      <label>Overtime Work</label>
+      <name>残業</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Overtime Work Request:Status</label>
+        <name>残業申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Remarks</label>
+        <name>残業申請:備考</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Details</label>
+        <name>残業申請:内容</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Disapproval comment</label>
+        <name>残業申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Approval Date</label>
+        <name>残業申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Approved By</label>
+        <name>残業申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Employee code requested</label>
+        <name>残業申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Employee name requested</label>
+        <name>残業申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Request Date</label>
+        <name>残業申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Request Type</label>
+        <name>残業申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Requested By</label>
+        <name>残業申請:申請者</name>
+      </columns>
+      <label>Overtime Work Request</label>
+      <name>残業申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label/>
+        <name>勤務インターバル時間</name>
+      </columns>
+      <columns>
+        <label/>
+        <name>勤務インターバル時間(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime regular work within legal work hours </label>
+        <name>平日日中法定内所定内労働</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime regular work within legal work hours (Min.) </label>
+        <name>平日日中法定内所定内労働(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime overtime within SWH</label>
+        <name>平日日中法定内残業</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime overtime work within legal work hours (Min.)</label>
+        <name>平日日中法定内残業(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime OT in excess of legal work hrs</label>
+        <name>平日日中法定外残業</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime overtime work in excess of legal work hours (Min.) </label>
+        <name>平日日中法定外残業(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night regular work within legal work hours </label>
+        <name>平日深夜法定内所定内労働</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night regular work within legal work hours (Min.) </label>
+        <name>平日深夜法定内所定内労働(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night OT within legal work hrs</label>
+        <name>平日深夜法定内残業</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night overtime work within legal work hours (Min.) </label>
+        <name>平日深夜法定内残業(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night OT in excess of legal work hrs</label>
+        <name>平日深夜法定外残業</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night overtime work in excess of legal work hours (Min.) </label>
+        <name>平日深夜法定外残業(分)</name>
+      </columns>
+      <columns>
+        <label>Regular Break Time</label>
+        <name>所定休憩時間</name>
+      </columns>
+      <columns>
+        <label>Regular break time (Min.) </label>
+        <name>所定休憩時間(分)</name>
+      </columns>
+      <columns>
+        <label>Regular holiday daytime overtime work within legal work hours </label>
+        <name>所定休日日中法定内残業</name>
+      </columns>
+      <columns>
+        <label>Regular holiday daytime overtime work within legal work hours (Min.) </label>
+        <name>所定休日日中法定内残業(分)</name>
+      </columns>
+      <columns>
+        <label>Regular holiday daytime overtime work in excess of legal work hours </label>
+        <name>所定休日日中法定外残業</name>
+      </columns>
+      <columns>
+        <label>Regular holiday daytime overtime work in excess of legal work hours (Min.) </label>
+        <name>所定休日日中法定外残業(分)</name>
+      </columns>
+      <columns>
+        <label>Regular holiday late-night overtime work within legal work hours </label>
+        <name>所定休日深夜法定内残業</name>
+      </columns>
+      <columns>
+        <label>Regular holiday late-night overtime work within legal work hours (Min.) </label>
+        <name>所定休日深夜法定内残業(分)</name>
+      </columns>
+      <columns>
+        <label>Regular holiday late-night overtime work in excess of legal work hours </label>
+        <name>所定休日深夜法定外残業</name>
+      </columns>
+      <columns>
+        <label>Regular holiday late-night overtime work in excess of legal work hours (Min.) </label>
+        <name>所定休日深夜法定外残業(分)</name>
+      </columns>
+      <columns>
+        <label>Daytime work on a legal holiday </label>
+        <name>法定休日日中労働</name>
+      </columns>
+      <columns>
+        <label>Daytime work on legal holiday (Min.) </label>
+        <name>法定休日日中労働(分)</name>
+      </columns>
+      <columns>
+        <label>Late-night work on legal holiday </label>
+        <name>法定休日深夜労働</name>
+      </columns>
+      <columns>
+        <label>Late-night work on legal holiday (Min.) </label>
+        <name>法定休日深夜労働(分)</name>
+      </columns>
+      <columns>
+        <label>Duration of unpaid breaks</label>
+        <name>無給休憩時間</name>
+      </columns>
+      <columns>
+        <label>Unpaid break time (Min.) </label>
+        <name>無給休憩時間(分)</name>
+      </columns>
+      <columns>
+        <label>Hourly paid vacation taken </label>
+        <name>時間単位有給休暇取得時間</name>
+      </columns>
+      <columns>
+        <label>Hourly paid vacation taken (Min.) </label>
+        <name>時間単位有給休暇取得時間(分)</name>
+      </columns>
+      <label>Details columns </label>
+      <name>詳細項目</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Time away on personal errands (work hrs.)</label>
+        <name>勤務時間内私用外出時間</name>
+      </columns>
+      <columns>
+        <label>Time away from workplace on personal business during work hours (Min.) </label>
+        <name>勤務時間内私用外出時間(分)</name>
+      </columns>
+      <columns>
+        <label>Time of Early Departures</label>
+        <name>早退時間</name>
+      </columns>
+      <columns>
+        <label>Early departure time (Min.) </label>
+        <name>早退時間(分)</name>
+      </columns>
+      <columns>
+        <label>Early departure time (deduction) </label>
+        <name>早退時間(控除対象)</name>
+      </columns>
+      <columns>
+        <label>Early departure time (deduction) (Min.) </label>
+        <name>早退時間(控除対象)(分)</name>
+      </columns>
+      <columns>
+        <label>Period of absence</label>
+        <name>欠勤時間</name>
+      </columns>
+      <columns>
+        <label>Time absent (Min.) </label>
+        <name>欠勤時間(分)</name>
+      </columns>
+      <columns>
+        <label>Time away from workplace on personal business (deduction) </label>
+        <name>私用外出時間(控除対象)</name>
+      </columns>
+      <columns>
+        <label>Time away from workplace on personal business (deduction) (Min.) </label>
+        <name>私用外出時間(控除対象)(分)</name>
+      </columns>
+      <columns>
+        <label>Hours of Late Start</label>
+        <name>遅刻時間</name>
+      </columns>
+      <columns>
+        <label>Time tardy (Min.) </label>
+        <name>遅刻時間(分)</name>
+      </columns>
+      <columns>
+        <label>Time tardy (deduction) </label>
+        <name>遅刻時間(控除対象)</name>
+      </columns>
+      <columns>
+        <label>Time tardy (deduction) (Min.) </label>
+        <name>遅刻時間(控除対象)(分)</name>
+      </columns>
+      <label>Tardiness and Early Departure </label>
+      <name>遅刻・早退</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Late Start Request:Status</label>
+        <name>遅刻申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Remarks</label>
+        <name>遅刻申請:備考</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Details</label>
+        <name>遅刻申請:内容</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Disapproval comment</label>
+        <name>遅刻申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Approval Date</label>
+        <name>遅刻申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Approved By</label>
+        <name>遅刻申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Employee code requested</label>
+        <name>遅刻申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Employee name requested</label>
+        <name>遅刻申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Request Date</label>
+        <name>遅刻申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Request Type</label>
+        <name>遅刻申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Requested By</label>
+        <name>遅刻申請:申請者</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:For personal reasons</label>
+        <name>遅刻申請:自己都合</name>
+      </columns>
+      <label>Late Start Request</label>
+      <name>遅刻申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Long-term Time Change Request:Status</label>
+        <name>長期時間変更申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Remarks</label>
+        <name>長期時間変更申請:備考</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Details</label>
+        <name>長期時間変更申請:内容</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Work Shift Name</label>
+        <name>長期時間変更申請:勤務パターン名</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Disapproval comment</label>
+        <name>長期時間変更申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Approval Date</label>
+        <name>長期時間変更申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Approved By</label>
+        <name>長期時間変更申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Period</label>
+        <name>長期時間変更申請:期間</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Employee code requested</label>
+        <name>長期時間変更申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Employee name requested</label>
+        <name>長期時間変更申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Request Date</label>
+        <name>長期時間変更申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Request Type</label>
+        <name>長期時間変更申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Requested By</label>
+        <name>長期時間変更申請:申請者</name>
+      </columns>
+      <label>Long-term Time Change Request</label>
+      <name>長期時間変更申請</name>
+    </sections>
+  </reportTypes>
+  <reportTypes>
+    <label>Expense Reimbursement (ver. 4.0)</label>
+    <name>AtkEmpExp01CustomReportType4000</name>
+    <sections>
+      <columns>
+        <label>Job Code</label>
+        <name>ジョブコード</name>
+      </columns>
+      <columns>
+        <label>Job leader employee name </label>
+        <name>ジョブリーダー社員名</name>
+      </columns>
+      <columns>
+        <label>Job Name</label>
+        <name>ジョブ名</name>
+      </columns>
+      <columns>
+        <label>Customer division </label>
+        <name>取引先 部門</name>
+      </columns>
+      <columns>
+        <label>Client Name</label>
+        <name>取引先名</name>
+      </columns>
+      <label>Job</label>
+      <name>ジョブ</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Status</label>
+        <name>ステータス</name>
+      </columns>
+      <columns>
+        <label>Remarks</label>
+        <name>備考</name>
+      </columns>
+      <columns>
+        <label>Disapproval comment</label>
+        <name>承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Approval Date</label>
+        <name>承認日時</name>
+      </columns>
+      <columns>
+        <label>Approver</label>
+        <name>承認者</name>
+      </columns>
+      <columns>
+        <label>Employee code requested</label>
+        <name>申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Employee name requested</label>
+        <name>申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Request Date</label>
+        <name>申請日時</name>
+      </columns>
+      <columns>
+        <label>Request No.</label>
+        <name>申請番号</name>
+      </columns>
+      <columns>
+        <label>Requested By</label>
+        <name>申請者</name>
+      </columns>
+      <label>Request Approval</label>
+      <name>承認申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>User</label>
+        <name>ユーザ</name>
+      </columns>
+      <columns>
+        <label>User Alternative Name </label>
+        <name>ユーザ別名</name>
+      </columns>
+      <columns>
+        <label>Manager</label>
+        <name>上長</name>
+      </columns>
+      <columns>
+        <label>Start Date</label>
+        <name>入社日</name>
+      </columns>
+      <columns>
+        <label>Target Flag</label>
+        <name>対象者フラグ</name>
+      </columns>
+      <columns>
+        <label>Title</label>
+        <name>役職</name>
+      </columns>
+      <columns>
+        <label>Employee Code</label>
+        <name>社員コード</name>
+      </columns>
+      <columns>
+        <label>Employee Name</label>
+        <name>社員名</name>
+      </columns>
+      <columns>
+        <label>End Date</label>
+        <name>退社日</name>
+      </columns>
+      <label>Employee</label>
+      <name>社員</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Parent Department Code</label>
+        <name>親部署コード</name>
+      </columns>
+      <columns>
+        <label>Parent Department Signature </label>
+        <name>親部署名</name>
+      </columns>
+      <columns>
+        <label>Department Code</label>
+        <name>部署コード</name>
+      </columns>
+      <columns>
+        <label>Department Name</label>
+        <name>部署名</name>
+      </columns>
+      <label>Department</label>
+      <name>部署</name>
+    </sections>
+  </reportTypes>
+  <reportTypes>
+    <label>Expense Approval Request(ver. 4.0)</label>
+    <name>AtkEmpExpApply01CustomReportType4000</name>
+    <sections>
+      <columns>
+        <label>Manager</label>
+        <name>上長</name>
+      </columns>
+      <columns>
+        <label>Approver 1</label>
+        <name>承認者1</name>
+      </columns>
+      <columns>
+        <label>Approver 10</label>
+        <name>承認者10</name>
+      </columns>
+      <columns>
+        <label>Approver 2</label>
+        <name>承認者2</name>
+      </columns>
+      <columns>
+        <label>Approver 3</label>
+        <name>承認者3</name>
+      </columns>
+      <columns>
+        <label>Approver 4</label>
+        <name>承認者4</name>
+      </columns>
+      <columns>
+        <label>Approver 5</label>
+        <name>承認者5</name>
+      </columns>
+      <columns>
+        <label>Approver 6</label>
+        <name>承認者6</name>
+      </columns>
+      <columns>
+        <label>Approver 7</label>
+        <name>承認者7</name>
+      </columns>
+      <columns>
+        <label>Approver 8</label>
+        <name>承認者8</name>
+      </columns>
+      <columns>
+        <label>Approver 9</label>
+        <name>承認者9</name>
+      </columns>
+      <label>Approver</label>
+      <name>承認者</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>User</label>
+        <name>ユーザ</name>
+      </columns>
+      <columns>
+        <label>User Alternative Name </label>
+        <name>ユーザ別名</name>
+      </columns>
+      <columns>
+        <label>Manager</label>
+        <name>上長</name>
+      </columns>
+      <columns>
+        <label>Start Date</label>
+        <name>入社日</name>
+      </columns>
+      <columns>
+        <label>Target Flag</label>
+        <name>対象者フラグ</name>
+      </columns>
+      <columns>
+        <label>Title</label>
+        <name>役職</name>
+      </columns>
+      <columns>
+        <label>Approver</label>
+        <name>承認者</name>
+      </columns>
+      <columns>
+        <label>Employee code requested</label>
+        <name>申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Employee name requested</label>
+        <name>申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Requested By</label>
+        <name>申請者</name>
+      </columns>
+      <columns>
+        <label>Parent Department Code</label>
+        <name>親部署コード</name>
+      </columns>
+      <columns>
+        <label>Parent Department Signature </label>
+        <name>親部署名</name>
+      </columns>
+      <columns>
+        <label>End Date</label>
+        <name>退社日</name>
+      </columns>
+      <columns>
+        <label>Department Code</label>
+        <name>部署コード</name>
+      </columns>
+      <columns>
+        <label>Department Name</label>
+        <name>部署名</name>
+      </columns>
+      <label>Request expenses</label>
+      <name>経費申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Expense reimbursement account</label>
+        <name>精算費目</name>
+      </columns>
+      <label>Details columns </label>
+      <name>詳細項目</name>
+    </sections>
+  </reportTypes>
+  <reportTypes>
+    <label>Monthly Attendance (ver. 4.0)</label>
+    <name>AtkEmpMonth01CustomReportType4000</name>
+    <sections>
+      <columns>
+        <label>Unused compensatory/substitute holidays </label>
+        <name>代替休暇失効日数</name>
+      </columns>
+      <columns>
+        <label>Unused compensatory/substitute holidays (Regular holidays) </label>
+        <name>代替休暇失効日数(所定休日)</name>
+      </columns>
+      <columns>
+        <label>Unused compensatory/substitute holidays (Legal Holidays) </label>
+        <name>代替休暇失効日数(法定休日)</name>
+      </columns>
+      <columns>
+        <label>Remaining compensatory/substitute holidays </label>
+        <name>代替休暇残日数</name>
+      </columns>
+      <columns>
+        <label>Remaining compensatory/substitute holidays (Regular holidays) </label>
+        <name>代替休暇残日数(所定休日)</name>
+      </columns>
+      <columns>
+        <label>Remaining compensatory/substitute holidays (Legal holidays) </label>
+        <name>代替休暇残日数(法定休日)</name>
+      </columns>
+      <columns>
+        <label>Compensatory/substitute holidays taken </label>
+        <name>代替休暇消化日数</name>
+      </columns>
+      <columns>
+        <label>Compensatory/substitute holidays taken (Regular holidays) </label>
+        <name>代替休暇消化日数(所定休日)</name>
+      </columns>
+      <columns>
+        <label>Compensatory/substitute holidays taken (Legal holidays) </label>
+        <name>代替休暇消化日数(法定休日)</name>
+      </columns>
+      <columns>
+        <label>Days entitling compensatory/substitute day off</label>
+        <name>代替休暇発生日数</name>
+      </columns>
+      <columns>
+        <label>Days entitling compensatory/substitute day off (Regular holidays) </label>
+        <name>代替休暇発生日数(所定休日)</name>
+      </columns>
+      <columns>
+        <label>Days entitling compensatory/substitute day off (Legal holidays) </label>
+        <name>代替休暇発生日数(法定休日)</name>
+      </columns>
+      <columns>
+        <label>Hourly paid vacation taken </label>
+        <name>時間単位有給休暇取得時間</name>
+      </columns>
+      <columns>
+        <label>Hourly paid vacation taken (Min.) </label>
+        <name>時間単位有給休暇取得時間(分)</name>
+      </columns>
+      <columns>
+        <label>Vacation day entitlement </label>
+        <name>有給休暇付与日数</name>
+      </columns>
+      <columns>
+        <label>Vacation days taken </label>
+        <name>有給休暇取得日数</name>
+      </columns>
+      <columns>
+        <label>Unused vacation days </label>
+        <name>有給休暇失効日数</name>
+      </columns>
+      <columns>
+        <label>Remaining vacation days </label>
+        <name>有給休暇残日数</name>
+      </columns>
+      <columns>
+        <label>Remaining vacation hours </label>
+        <name>有給休暇残時間</name>
+      </columns>
+      <columns>
+        <label>Programmed vacation days taken </label>
+        <name>計画付与有給休暇取得日数</name>
+      </columns>
+      <label>Leave </label>
+      <name>休暇</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Flextime regular holiday work time </label>
+        <name>フレックスにおける所定休日の労働時間</name>
+      </columns>
+      <columns>
+        <label>Flextime regular holiday work time (Min.)  </label>
+        <name>フレックスにおける所定休日の労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Flextime regular holiday late-night work time </label>
+        <name>フレックスにおける所定休日の深夜労働時間</name>
+      </columns>
+      <columns>
+        <label>Flextime regular holiday late-night work time (Min.) </label>
+        <name>フレックスにおける所定休日の深夜労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Break Time</label>
+        <name>休憩時間</name>
+      </columns>
+      <columns>
+        <label>Break time (Min.) </label>
+        <name>休憩時間(分)</name>
+      </columns>
+      <columns>
+        <label>Employee Type Code</label>
+        <name>勤務体系コード</name>
+      </columns>
+      <columns>
+        <label>Employee type Name</label>
+        <name>勤務体系名</name>
+      </columns>
+      <columns>
+        <label>Work time within legal work hours under variable work hour system  </label>
+        <name>変形期間における法定労働時間</name>
+      </columns>
+      <columns>
+        <label>Work time within legal work hours under variable work hour system (Min.) </label>
+        <name>変形期間における法定労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Work hours within legal work hours under variable work hour system</label>
+        <name>変形期間内法定時間内労働時間</name>
+      </columns>
+      <columns>
+        <label>Work time within legal work hours under variable work hour system (Min.) </label>
+        <name>変形期間内法定時間内労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Overtime within irregular period</label>
+        <name>変形期間内超過時間</name>
+      </columns>
+      <columns>
+        <label>Excess time under variable work hour system (Min.) </label>
+        <name>変形期間内超過時間(分)</name>
+      </columns>
+      <columns>
+        <label>Actual work time (Deemed work hours not inc. paid vacation) </label>
+        <name>実労働時間(みなし労働時間、有給休暇を含めない)</name>
+      </columns>
+      <columns>
+        <label>Actual work time (Deemed work hours not inc. paid vacation) (Min.)  </label>
+        <name>実労働時間(みなし労働時間、有給休暇を含めない)(分)</name>
+      </columns>
+      <columns>
+        <label>Actual work time (not inc. paid vacation) </label>
+        <name>実労働時間(有給休暇を含めない)</name>
+      </columns>
+      <columns>
+        <label>Actual work time (not inc. paid vacation) (Min.) </label>
+        <name>実労働時間(有給休暇を含めない)(分)</name>
+      </columns>
+      <columns>
+        <label>Actual work time - Legal holiday work (not inc. paid vacation) </label>
+        <name>実労働時間－法定休日労働(有給休暇を含めない)</name>
+      </columns>
+      <columns>
+        <label>Actual work time - Legal holiday work (not inc. paid vacation) (Min.) </label>
+        <name>実労働時間－法定休日労働(有給休暇を含めない)(分)</name>
+      </columns>
+      <columns>
+        <label>Average Arrival Time</label>
+        <name>平均出社時刻</name>
+      </columns>
+      <columns>
+        <label>Average time of arrival (HH:MM) </label>
+        <name>平均出社時刻(HH:MM)</name>
+      </columns>
+      <columns>
+        <label>Average time of arrival (Min.) </label>
+        <name>平均出社時刻(分)</name>
+      </columns>
+      <columns>
+        <label>Average Departure Time</label>
+        <name>平均退社時刻</name>
+      </columns>
+      <columns>
+        <label>Average time of departure (HH:MM) </label>
+        <name>平均退社時刻(HH:MM)</name>
+      </columns>
+      <columns>
+        <label>Average time of departure (Min.) </label>
+        <name>平均退社時刻(分)</name>
+      </columns>
+      <columns>
+        <label>Regular Work Hours</label>
+        <name>所定労働時間</name>
+      </columns>
+      <columns>
+        <label>Regular work time (Min.) </label>
+        <name>所定労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Legal Work Hours</label>
+        <name>法定労働時間</name>
+      </columns>
+      <columns>
+        <label>Work time within legal work hours (Min.) </label>
+        <name>法定労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Total work hours (including paid leave)</label>
+        <name>総労働時間(有給休暇を含む)</name>
+      </columns>
+      <columns>
+        <label>Total work time (inc. paid vacation) (Min.) </label>
+        <name>総労働時間(有給休暇を含む)(分)</name>
+      </columns>
+      <columns>
+        <label>Total work time - Legal holiday work (inc. paid vacation) </label>
+        <name>総労働時間－法定休日労働(有給休暇を含む)</name>
+      </columns>
+      <columns>
+        <label>Total work time - Legal holiday work (inc. paid vacation) (Min.) </label>
+        <name>総労働時間－法定休日労働(有給休暇を含む)(分)</name>
+      </columns>
+      <columns>
+        <label>Over/Under Working Hours</label>
+        <name>過不足時間</name>
+      </columns>
+      <columns>
+        <label>Over/under working hours (Min.) </label>
+        <name>過不足時間(分)</name>
+      </columns>
+      <label>Monthly work attendance</label>
+      <name>勤怠月次</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Status</label>
+        <name>ステータス</name>
+      </columns>
+      <columns>
+        <label>Details</label>
+        <name>内容</name>
+      </columns>
+      <columns>
+        <label>Disapproval comment</label>
+        <name>承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Approval Date</label>
+        <name>承認日時</name>
+      </columns>
+      <columns>
+        <label>Approver</label>
+        <name>承認者</name>
+      </columns>
+      <columns>
+        <label>Employee code requested</label>
+        <name>申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Employee name requested</label>
+        <name>申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Request Date</label>
+        <name>申請日時</name>
+      </columns>
+      <columns>
+        <label>Request Type</label>
+        <name>申請種類</name>
+      </columns>
+      <columns>
+        <label>Requested By</label>
+        <name>申請者</name>
+      </columns>
+      <label>Request Approval</label>
+      <name>承認申請</name>
+    </sections>
+    <sections>
+      <label>Days</label>
+      <name>日数</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Time in excess of safety considerations</label>
+        <name>安全配慮上の超過時間</name>
+      </columns>
+      <columns>
+        <label>Time in excess of safety considerations (Min.) </label>
+        <name>安全配慮上の超過時間(分)</name>
+      </columns>
+      <columns>
+        <label>Frequency of excess overtime work in current quarter </label>
+        <name>当四半期度の超過回数</name>
+      </columns>
+      <columns>
+        <label>Excess time in current quarter </label>
+        <name>当四半期度の超過時間</name>
+      </columns>
+      <columns>
+        <label>Excess time in current quarter (Min.) </label>
+        <name>当四半期度の超過時間(分)</name>
+      </columns>
+      <columns>
+        <label>Frequency of excess time in current year</label>
+        <name>当年度の超過回数</name>
+      </columns>
+      <columns>
+        <label>Excess time in current year</label>
+        <name>当年度の超過時間</name>
+      </columns>
+      <columns>
+        <label>Excess time in current year (Min.) </label>
+        <name>当年度の超過時間(分)</name>
+      </columns>
+      <columns>
+        <label>Frequency excess overtime work in current month </label>
+        <name>当月度の超過回数</name>
+      </columns>
+      <columns>
+        <label>Excess time in current month</label>
+        <name>当月度の超過時間</name>
+      </columns>
+      <columns>
+        <label>Excess time in current month (Min.) </label>
+        <name>当月度の超過時間(分)</name>
+      </columns>
+      <columns>
+        <label>Hours worked on regular holidays</label>
+        <name>所定休日労働時間</name>
+      </columns>
+      <columns>
+        <label>Regular holiday work time (Min.) </label>
+        <name>所定休日労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Overtime</label>
+        <name>残業時間</name>
+      </columns>
+      <columns>
+        <label>Overtime work time (Min.) </label>
+        <name>残業時間(分)</name>
+      </columns>
+      <columns>
+        <label>Hours Worked during Legal Holiday</label>
+        <name>法定休日労働時間</name>
+      </columns>
+      <columns>
+        <label>Legal holiday work time (Min.)  </label>
+        <name>法定休日労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Overtime within Legal Work Hours</label>
+        <name>法定時間内残業</name>
+      </columns>
+      <columns>
+        <label>Overtime work within legal work hours (Min.) </label>
+        <name>法定時間内残業(分)</name>
+      </columns>
+      <columns>
+        <label>Extra Legal Work Hours</label>
+        <name>法定時間外割増</name>
+      </columns>
+      <columns>
+        <label>extra legal work hours (Min.) </label>
+        <name>法定時間外割増(分)</name>
+      </columns>
+      <columns>
+        <label>Overtime in excess of Legal Work Hours</label>
+        <name>法定時間外残業</name>
+      </columns>
+      <columns>
+        <label>Overtime work in excess of legal work hours (Min.)  </label>
+        <name>法定時間外残業(分)</name>
+      </columns>
+      <columns>
+        <label>Late-Night Work Hours</label>
+        <name>深夜労働時間</name>
+      </columns>
+      <columns>
+        <label>Late-night work time (Min.) </label>
+        <name>深夜労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Late night work increment</label>
+        <name>深夜勤務割増</name>
+      </columns>
+      <columns>
+        <label>Late-night work additional (Min.) </label>
+        <name>深夜勤務割増(分)</name>
+      </columns>
+      <columns>
+        <label>Limitation of Overtime</label>
+        <name>限度超過時間</name>
+      </columns>
+      <columns>
+        <label>Excess time (Min.) </label>
+        <name>限度超過時間(分)</name>
+      </columns>
+      <columns>
+        <label>Overtime work over 45 hours </label>
+        <name>４５時間を超える時間外労働</name>
+      </columns>
+      <columns>
+        <label>Overtime work over 45 hours (Min.) </label>
+        <name>４５時間を超える時間外労働(分)</name>
+      </columns>
+      <columns>
+        <label>Overtime work over 60 hours </label>
+        <name>６０時間を超える時間外労働</name>
+      </columns>
+      <columns>
+        <label>Overtime work over 60 hours (Min.) </label>
+        <name>６０時間を超える時間外労働(分)</name>
+      </columns>
+      <label>Overtime Work</label>
+      <name>残業</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>User</label>
+        <name>ユーザ</name>
+      </columns>
+      <columns>
+        <label>User Alternative Name </label>
+        <name>ユーザ別名</name>
+      </columns>
+      <columns>
+        <label>Manager</label>
+        <name>上長</name>
+      </columns>
+      <columns>
+        <label>Start Date</label>
+        <name>入社日</name>
+      </columns>
+      <columns>
+        <label>Target Flag</label>
+        <name>対象者フラグ</name>
+      </columns>
+      <columns>
+        <label>Title</label>
+        <name>役職</name>
+      </columns>
+      <columns>
+        <label>Employee Code</label>
+        <name>社員コード</name>
+      </columns>
+      <columns>
+        <label>Employee Name</label>
+        <name>社員名</name>
+      </columns>
+      <columns>
+        <label>End Date</label>
+        <name>退社日</name>
+      </columns>
+      <label>Employee</label>
+      <name>社員</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Weekday daytime regular work within legal work hours </label>
+        <name>平日日中法定内所定内労働</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime regular work within legal work hours (Min.) </label>
+        <name>平日日中法定内所定内労働(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime overtime within SWH</label>
+        <name>平日日中法定内残業</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime overtime work within legal work hours (Min.)</label>
+        <name>平日日中法定内残業(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime OT in excess of legal work hrs</label>
+        <name>平日日中法定外残業</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime overtime work in excess of legal work hours (Min.) </label>
+        <name>平日日中法定外残業(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night regular work within legal work hours </label>
+        <name>平日深夜法定内所定内労働</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night regular work within legal work hours (Min.) </label>
+        <name>平日深夜法定内所定内労働(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night OT within legal work hrs</label>
+        <name>平日深夜法定内残業</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night overtime work within legal work hours (Min.) </label>
+        <name>平日深夜法定内残業(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night OT in excess of legal work hrs</label>
+        <name>平日深夜法定外残業</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night overtime work in excess of legal work hours (Min.) </label>
+        <name>平日深夜法定外残業(分)</name>
+      </columns>
+      <columns>
+        <label>Regular holiday daytime overtime work within legal work hours </label>
+        <name>所定休日日中法定内残業</name>
+      </columns>
+      <columns>
+        <label>Regular holiday daytime overtime work within legal work hours (Min.) </label>
+        <name>所定休日日中法定内残業(分)</name>
+      </columns>
+      <columns>
+        <label>Regular holiday daytime overtime work in excess of legal work hours </label>
+        <name>所定休日日中法定外残業</name>
+      </columns>
+      <columns>
+        <label>Regular holiday daytime overtime work in excess of legal work hours (Min.) </label>
+        <name>所定休日日中法定外残業(分)</name>
+      </columns>
+      <columns>
+        <label>Regular holiday late-night overtime work within legal work hours </label>
+        <name>所定休日深夜法定内残業</name>
+      </columns>
+      <columns>
+        <label>Regular holiday late-night overtime work within legal work hours (Min.) </label>
+        <name>所定休日深夜法定内残業(分)</name>
+      </columns>
+      <columns>
+        <label>Regular holiday late-night overtime work in excess of legal work hours </label>
+        <name>所定休日深夜法定外残業</name>
+      </columns>
+      <columns>
+        <label>Regular holiday late-night overtime work in excess of legal work hours (Min.) </label>
+        <name>所定休日深夜法定外残業(分)</name>
+      </columns>
+      <columns>
+        <label>Daytime work on a legal holiday </label>
+        <name>法定休日日中労働</name>
+      </columns>
+      <columns>
+        <label>Daytime work on legal holiday (Min.) </label>
+        <name>法定休日日中労働(分)</name>
+      </columns>
+      <columns>
+        <label>Late-night work on legal holiday </label>
+        <name>法定休日深夜労働</name>
+      </columns>
+      <columns>
+        <label>Late-night work on legal holiday (Min.) </label>
+        <name>法定休日深夜労働(分)</name>
+      </columns>
+      <label>Details columns </label>
+      <name>詳細項目</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Time away on personal errands (work hrs.)</label>
+        <name>勤務時間内私用外出時間</name>
+      </columns>
+      <columns>
+        <label>Time away from workplace on personal business during work hours (Min.) </label>
+        <name>勤務時間内私用外出時間(分)</name>
+      </columns>
+      <columns>
+        <label>Deductions</label>
+        <name>控除時間</name>
+      </columns>
+      <columns>
+        <label>Deducted time (Min.) </label>
+        <name>控除時間(分)</name>
+      </columns>
+      <columns>
+        <label>Time of Early Departures</label>
+        <name>早退時間</name>
+      </columns>
+      <columns>
+        <label>Early departure time (Min.) </label>
+        <name>早退時間(分)</name>
+      </columns>
+      <columns>
+        <label>Early departure time (deduction) </label>
+        <name>早退時間(控除対象)</name>
+      </columns>
+      <columns>
+        <label>Early departure time (deduction) (Min.) </label>
+        <name>早退時間(控除対象)(分)</name>
+      </columns>
+      <columns>
+        <label>Time away from workplace on personal business (deduction) </label>
+        <name>私用外出時間(控除対象)</name>
+      </columns>
+      <columns>
+        <label>Time away from workplace on personal business (deduction) (Min.) </label>
+        <name>私用外出時間(控除対象)(分)</name>
+      </columns>
+      <columns>
+        <label>Hours of Late Start</label>
+        <name>遅刻時間</name>
+      </columns>
+      <columns>
+        <label>Time tardy (Min.) </label>
+        <name>遅刻時間(分)</name>
+      </columns>
+      <columns>
+        <label>Time tardy (deduction) </label>
+        <name>遅刻時間(控除対象)</name>
+      </columns>
+      <columns>
+        <label>Time tardy (deduction) (Min.) </label>
+        <name>遅刻時間(控除対象)(分)</name>
+      </columns>
+      <label>Tardiness and Early Departure </label>
+      <name>遅刻・早退</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Parent Department Code</label>
+        <name>親部署コード</name>
+      </columns>
+      <columns>
+        <label>Parent Department Signature </label>
+        <name>親部署名</name>
+      </columns>
+      <columns>
+        <label>Department Code</label>
+        <name>部署コード</name>
+      </columns>
+      <columns>
+        <label>Department Name</label>
+        <name>部署名</name>
+      </columns>
+      <label>Department</label>
+      <name>部署</name>
+    </sections>
+  </reportTypes>
+  <reportTypes>
+    <label>Attendance - Accruable Leave (ver. 4.5)</label>
+    <name>AtkEmpStock01CustomReportType4500</name>
+    <sections>
+      <label>Work attendance and accrued leaves</label>
+      <name>勤怠積休</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>User</label>
+        <name>ユーザ</name>
+      </columns>
+      <columns>
+        <label>User Alternative Name </label>
+        <name>ユーザ別名</name>
+      </columns>
+      <columns>
+        <label>Manager</label>
+        <name>上長</name>
+      </columns>
+      <columns>
+        <label>Start Date</label>
+        <name>入社日</name>
+      </columns>
+      <columns>
+        <label>Target Flag</label>
+        <name>対象者フラグ</name>
+      </columns>
+      <columns>
+        <label>Title</label>
+        <name>役職</name>
+      </columns>
+      <columns>
+        <label>Employee Code</label>
+        <name>社員コード</name>
+      </columns>
+      <columns>
+        <label>Employee Name</label>
+        <name>社員名</name>
+      </columns>
+      <columns>
+        <label>End Date</label>
+        <name>退社日</name>
+      </columns>
+      <label>Employee</label>
+      <name>社員</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Parent Department Code</label>
+        <name>親部署コード</name>
+      </columns>
+      <columns>
+        <label>Parent Department Signature </label>
+        <name>親部署名</name>
+      </columns>
+      <columns>
+        <label>Department Code</label>
+        <name>部署コード</name>
+      </columns>
+      <columns>
+        <label>Department Name</label>
+        <name>部署名</name>
+      </columns>
+      <label>Department</label>
+      <name>部署</name>
+    </sections>
+  </reportTypes>
+  <reportTypes>
+    <label>Actual Project Hours Worked (ver. 4.0)</label>
+    <name>AtkEmpWork01CustomReportType4000</name>
+    <sections>
+      <columns>
+        <label>Active</label>
+        <name>アクティブ</name>
+      </columns>
+      <columns>
+        <label>Number assigned</label>
+        <name>アサイン数</name>
+      </columns>
+      <columns>
+        <label>Keyword</label>
+        <name>キーワード</name>
+      </columns>
+      <columns>
+        <label>Job Code</label>
+        <name>ジョブコード</name>
+      </columns>
+      <columns>
+        <label>Job leader employee name </label>
+        <name>ジョブリーダー社員名</name>
+      </columns>
+      <columns>
+        <label>Job Name</label>
+        <name>ジョブ名</name>
+      </columns>
+      <columns>
+        <label>Responsible Department</label>
+        <name>主担当部署</name>
+      </columns>
+      <columns>
+        <label>Customer division </label>
+        <name>取引先 部門</name>
+      </columns>
+      <columns>
+        <label>Client Name</label>
+        <name>取引先名</name>
+      </columns>
+      <columns>
+        <label>Direct Department</label>
+        <name>直課</name>
+      </columns>
+      <label>Job</label>
+      <name>ジョブ</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Job Category</label>
+        <name>作業分類</name>
+      </columns>
+      <columns>
+        <label>Month</label>
+        <name>月度</name>
+      </columns>
+      <label>Actual Project Hours Worked</label>
+      <name>工数実績</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Status</label>
+        <name>ステータス</name>
+      </columns>
+      <columns>
+        <label>Remarks</label>
+        <name>備考</name>
+      </columns>
+      <columns>
+        <label>Disapproval comment</label>
+        <name>承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Employee code requested</label>
+        <name>申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Employee name requested</label>
+        <name>申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Request Date</label>
+        <name>申請日時</name>
+      </columns>
+      <label>Request Approval</label>
+      <name>承認申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Status</label>
+        <name>ステータス</name>
+      </columns>
+      <columns>
+        <label>Remarks</label>
+        <name>備考</name>
+      </columns>
+      <columns>
+        <label>Details</label>
+        <name>内容</name>
+      </columns>
+      <columns>
+        <label>Disapproval comment</label>
+        <name>承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Approval Date</label>
+        <name>承認日時</name>
+      </columns>
+      <columns>
+        <label>Approver</label>
+        <name>承認者</name>
+      </columns>
+      <columns>
+        <label>Request Date</label>
+        <name>申請日時</name>
+      </columns>
+      <columns>
+        <label>Requested By</label>
+        <name>申請者</name>
+      </columns>
+      <label>Daily Confirmation Request</label>
+      <name>日次確定申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>User</label>
+        <name>ユーザ</name>
+      </columns>
+      <columns>
+        <label>User Alternative Name </label>
+        <name>ユーザ別名</name>
+      </columns>
+      <columns>
+        <label>Manager</label>
+        <name>上長</name>
+      </columns>
+      <columns>
+        <label>Start Date</label>
+        <name>入社日</name>
+      </columns>
+      <columns>
+        <label>Target Flag</label>
+        <name>対象者フラグ</name>
+      </columns>
+      <columns>
+        <label>Title</label>
+        <name>役職</name>
+      </columns>
+      <columns>
+        <label>Employee Code</label>
+        <name>社員コード</name>
+      </columns>
+      <columns>
+        <label>Employee Name</label>
+        <name>社員名</name>
+      </columns>
+      <columns>
+        <label>End Date</label>
+        <name>退社日</name>
+      </columns>
+      <label>Employee</label>
+      <name>社員</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Closing Date</label>
+        <name>締め日</name>
+      </columns>
+      <columns>
+        <label>Start Date</label>
+        <name>起算日</name>
+      </columns>
+      <label>Details columns </label>
+      <name>詳細項目</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Parent Department Code</label>
+        <name>親部署コード</name>
+      </columns>
+      <columns>
+        <label>Parent Department Signature </label>
+        <name>親部署名</name>
+      </columns>
+      <columns>
+        <label>Department Code</label>
+        <name>部署コード</name>
+      </columns>
+      <columns>
+        <label>Department Name</label>
+        <name>部署名</name>
+      </columns>
+      <label>Department</label>
+      <name>部署</name>
+    </sections>
+  </reportTypes>
+  <reportTypes>
+    <label>Actual Project Hours Worked Approval Request (ver. 4.0)</label>
+    <name>AtkEmpWorkApply01CustomReportType4000</name>
+    <sections>
+      <columns>
+        <label>User</label>
+        <name>ユーザ</name>
+      </columns>
+      <columns>
+        <label>User Alternative Name </label>
+        <name>ユーザ別名</name>
+      </columns>
+      <columns>
+        <label>Manager</label>
+        <name>上長</name>
+      </columns>
+      <columns>
+        <label>Start Date</label>
+        <name>入社日</name>
+      </columns>
+      <columns>
+        <label>Target Flag</label>
+        <name>対象者フラグ</name>
+      </columns>
+      <columns>
+        <label>Title</label>
+        <name>役職</name>
+      </columns>
+      <columns>
+        <label>Employee code requested</label>
+        <name>申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Employee name requested</label>
+        <name>申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Requested By</label>
+        <name>申請者</name>
+      </columns>
+      <columns>
+        <label>Parent Department Code</label>
+        <name>親部署コード</name>
+      </columns>
+      <columns>
+        <label>Parent Department Signature </label>
+        <name>親部署名</name>
+      </columns>
+      <columns>
+        <label>End Date</label>
+        <name>退社日</name>
+      </columns>
+      <columns>
+        <label>Department Code</label>
+        <name>部署コード</name>
+      </columns>
+      <columns>
+        <label>Department Name</label>
+        <name>部署名</name>
+      </columns>
+      <label>Actual Project Hours Worked Request </label>
+      <name>工数実績申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Manager</label>
+        <name>上長</name>
+      </columns>
+      <columns>
+        <label>Approver 1</label>
+        <name>承認者1</name>
+      </columns>
+      <columns>
+        <label>Approver 10</label>
+        <name>承認者10</name>
+      </columns>
+      <columns>
+        <label>Approver 2</label>
+        <name>承認者2</name>
+      </columns>
+      <columns>
+        <label>Approver 3</label>
+        <name>承認者3</name>
+      </columns>
+      <columns>
+        <label>Approver 4</label>
+        <name>承認者4</name>
+      </columns>
+      <columns>
+        <label>Approver 5</label>
+        <name>承認者5</name>
+      </columns>
+      <columns>
+        <label>Approver 6</label>
+        <name>承認者6</name>
+      </columns>
+      <columns>
+        <label>Approver 7</label>
+        <name>承認者7</name>
+      </columns>
+      <columns>
+        <label>Approver 8</label>
+        <name>承認者8</name>
+      </columns>
+      <columns>
+        <label>Approver 9</label>
+        <name>承認者9</name>
+      </columns>
+      <label>Approver</label>
+      <name>承認者</name>
+    </sections>
+    <sections>
+      <label>Details columns </label>
+      <name>詳細項目</name>
+    </sections>
+  </reportTypes>
+  <reportTypes>
+    <label>Paid Leave (ver. 4.0)</label>
+    <name>AtkEmpYuq01CustomReportType4000</name>
+    <sections>
+      <columns>
+        <label>Notes</label>
+        <name>説明</name>
+      </columns>
+      <label>Paid Leave </label>
+      <name>有給休暇</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>User</label>
+        <name>ユーザ</name>
+      </columns>
+      <columns>
+        <label>User Alternative Name </label>
+        <name>ユーザ別名</name>
+      </columns>
+      <columns>
+        <label>Manager</label>
+        <name>上長</name>
+      </columns>
+      <columns>
+        <label>Start Date</label>
+        <name>入社日</name>
+      </columns>
+      <columns>
+        <label>Target Flag</label>
+        <name>対象者フラグ</name>
+      </columns>
+      <columns>
+        <label>Title</label>
+        <name>役職</name>
+      </columns>
+      <columns>
+        <label>Employee Code</label>
+        <name>社員コード</name>
+      </columns>
+      <columns>
+        <label>Employee Name</label>
+        <name>社員名</name>
+      </columns>
+      <columns>
+        <label>End Date</label>
+        <name>退社日</name>
+      </columns>
+      <label>Employee</label>
+      <name>社員</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Parent Department Code</label>
+        <name>親部署コード</name>
+      </columns>
+      <columns>
+        <label>Parent Department Signature </label>
+        <name>親部署名</name>
+      </columns>
+      <columns>
+        <label>Department Code</label>
+        <name>部署コード</name>
+      </columns>
+      <columns>
+        <label>Department Name</label>
+        <name>部署名</name>
+      </columns>
+      <label>Department</label>
+      <name>部署</name>
+    </sections>
+  </reportTypes>
+  <reportTypes>
+    <description/>
+    <label/>
+    <name>AtkEnterExitDivergenceListCustomReportType</name>
+    <sections>
+      <columns>
+        <label/>
+        <name>入館時刻</name>
+      </columns>
+      <columns>
+        <label/>
+        <name>入館時刻(HH:MM)</name>
+      </columns>
+      <columns>
+        <label/>
+        <name>入館時刻(分)</name>
+      </columns>
+      <columns>
+        <label/>
+        <name>退館時刻</name>
+      </columns>
+      <columns>
+        <label/>
+        <name>退館時刻(HH:MM)</name>
+      </columns>
+      <columns>
+        <label/>
+        <name>退館時刻(分)</name>
+      </columns>
+      <label>Divergence situation</label>
+      <name>乖離状況</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Holiday Work Request:Status</label>
+        <name>休日出勤申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Remarks</label>
+        <name>休日出勤申請:備考</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Details</label>
+        <name>休日出勤申請:内容</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Disapproval comment</label>
+        <name>休日出勤申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Approval Date</label>
+        <name>休日出勤申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Approved By</label>
+        <name>休日出勤申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Employee code requested</label>
+        <name>休日出勤申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Employee name requested</label>
+        <name>休日出勤申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Request Date</label>
+        <name>休日出勤申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Request Type</label>
+        <name>休日出勤申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Holiday Work Request:Requested By</label>
+        <name>休日出勤申請:申請者</name>
+      </columns>
+      <label>Holiday Worked</label>
+      <name>休日出勤</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Leave1:Status</label>
+        <name>休暇1:ステータス</name>
+      </columns>
+      <columns>
+        <label>Leave1:Leave Category</label>
+        <name>休暇1:休暇名</name>
+      </columns>
+      <columns>
+        <label>Leave1:Type of Leave</label>
+        <name>休暇1:休暇種類</name>
+      </columns>
+      <columns>
+        <label>Leave1:Range of leaves</label>
+        <name>休暇1:休暇範囲</name>
+      </columns>
+      <columns>
+        <label>Leave1:Remarks</label>
+        <name>休暇1:備考</name>
+      </columns>
+      <columns>
+        <label>Leave1:Details</label>
+        <name>休暇1:内容</name>
+      </columns>
+      <columns>
+        <label>Leave1:Disapproval comment</label>
+        <name>休暇1:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Leave1:Approval Date</label>
+        <name>休暇1:承認日時</name>
+      </columns>
+      <columns>
+        <label>Leave1:Approved By</label>
+        <name>休暇1:承認者</name>
+      </columns>
+      <columns>
+        <label>Leave1:Paid Leave</label>
+        <name>休暇1:有給休暇</name>
+      </columns>
+      <columns>
+        <label>Leave1:Period</label>
+        <name>休暇1:期間</name>
+      </columns>
+      <columns>
+        <label>Leave1:Employee code requested</label>
+        <name>休暇1:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Leave1:Employee name requested</label>
+        <name>休暇1:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Leave1:Request Date</label>
+        <name>休暇1:申請日時</name>
+      </columns>
+      <columns>
+        <label>Leave1:Request Type</label>
+        <name>休暇1:申請種類</name>
+      </columns>
+      <columns>
+        <label>Leave1:Requested By</label>
+        <name>休暇1:申請者</name>
+      </columns>
+      <columns>
+        <label>Leave1:Notes</label>
+        <name>休暇1:説明</name>
+      </columns>
+      <label>Leave 1 </label>
+      <name>休暇1</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Leave2:Status</label>
+        <name>休暇2:ステータス</name>
+      </columns>
+      <columns>
+        <label>Leave2:Leave Category</label>
+        <name>休暇2:休暇名</name>
+      </columns>
+      <columns>
+        <label>Leave2:Type of Leave</label>
+        <name>休暇2:休暇種類</name>
+      </columns>
+      <columns>
+        <label>Leave2:Range of leaves</label>
+        <name>休暇2:休暇範囲</name>
+      </columns>
+      <columns>
+        <label>Leave2:Remarks</label>
+        <name>休暇2:備考</name>
+      </columns>
+      <columns>
+        <label>Leave2:Details</label>
+        <name>休暇2:内容</name>
+      </columns>
+      <columns>
+        <label>Leave2:Disapproval comment</label>
+        <name>休暇2:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Leave2:Approval Date</label>
+        <name>休暇2:承認日時</name>
+      </columns>
+      <columns>
+        <label>Leave2:Approved By</label>
+        <name>休暇2:承認者</name>
+      </columns>
+      <columns>
+        <label>Leave2:Paid Leave</label>
+        <name>休暇2:有給休暇</name>
+      </columns>
+      <columns>
+        <label>Leave2:Period</label>
+        <name>休暇2:期間</name>
+      </columns>
+      <columns>
+        <label>Leave2:Employee code requested</label>
+        <name>休暇2:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Leave2:Employee name requested</label>
+        <name>休暇2:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Leave2:Request Date</label>
+        <name>休暇2:申請日時</name>
+      </columns>
+      <columns>
+        <label>Leave2:Request Type</label>
+        <name>休暇2:申請種類</name>
+      </columns>
+      <columns>
+        <label>Leave2:Requested By</label>
+        <name>休暇2:申請者</name>
+      </columns>
+      <columns>
+        <label>Leave2:Notes</label>
+        <name>休暇2:説明</name>
+      </columns>
+      <label>Leave 2 </label>
+      <name>休暇2</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Work Hour Change Request:Status</label>
+        <name>勤務時間変更申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Remarks</label>
+        <name>勤務時間変更申請:備考</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Details</label>
+        <name>勤務時間変更申請:内容</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Work Shift Name</label>
+        <name>勤務時間変更申請:勤務パターン名</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Disapproval comment</label>
+        <name>勤務時間変更申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Approval Date</label>
+        <name>勤務時間変更申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Approved By</label>
+        <name>勤務時間変更申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Period</label>
+        <name>勤務時間変更申請:期間</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Employee code requested</label>
+        <name>勤務時間変更申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Employee name requested</label>
+        <name>勤務時間変更申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Request Date</label>
+        <name>勤務時間変更申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Request Type</label>
+        <name>勤務時間変更申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Work Hour Change Request:Requested By</label>
+        <name>勤務時間変更申請:申請者</name>
+      </columns>
+      <label>Work Hour Change Request</label>
+      <name>勤務時間変更申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Net working hours</label>
+        <name>ネット労働時間</name>
+      </columns>
+      <columns>
+        <label>Net work time (Min.) </label>
+        <name>ネット労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>User</label>
+        <name>ユーザ</name>
+      </columns>
+      <columns>
+        <label>User Alternative Name </label>
+        <name>ユーザ別名</name>
+      </columns>
+      <columns>
+        <label>Manager</label>
+        <name>上長</name>
+      </columns>
+      <columns>
+        <label>Break Time</label>
+        <name>休憩時間</name>
+      </columns>
+      <columns>
+        <label>Break time (Min.) </label>
+        <name>休憩時間(分)</name>
+      </columns>
+      <columns>
+        <label>Start Date</label>
+        <name>入社日</name>
+      </columns>
+      <columns>
+        <label>Arrival Time</label>
+        <name>出社時刻</name>
+      </columns>
+      <columns>
+        <label>Time of arrival (HH:MM) </label>
+        <name>出社時刻(HH:MM)</name>
+      </columns>
+      <columns>
+        <label>Clocked in (button; no rounding off)</label>
+        <name>出社時刻(ボタン丸めなし)</name>
+      </columns>
+      <columns>
+        <label>Time of arrival (Button, no rounding) (HH:MM) </label>
+        <name>出社時刻(ボタン丸めなし)(HH:MM)</name>
+      </columns>
+      <columns>
+        <label>Time of arrival (Button, no rounding) (Min.) </label>
+        <name>出社時刻(ボタン丸めなし)(分)</name>
+      </columns>
+      <columns>
+        <label>Time of arrival (Min.) </label>
+        <name>出社時刻(分)</name>
+      </columns>
+      <columns>
+        <label>Clocked in (button)</label>
+        <name>出社時刻（ボタン）</name>
+      </columns>
+      <columns>
+        <label>Time of arrival (Button) (HH:MM) </label>
+        <name>出社時刻（ボタン）(HH:MM)</name>
+      </columns>
+      <columns>
+        <label>Time of arrival (Button) (Min.) </label>
+        <name>出社時刻（ボタン）(分)</name>
+      </columns>
+      <columns>
+        <label>Employee Type Code</label>
+        <name>勤務体系コード</name>
+      </columns>
+      <columns>
+        <label>Employee type Name</label>
+        <name>勤務体系名</name>
+      </columns>
+      <columns>
+        <label>Monthly Attendance Name </label>
+        <name>勤怠月次名</name>
+      </columns>
+      <columns>
+        <label>Actual Hours Worked</label>
+        <name>実労働時間</name>
+      </columns>
+      <columns>
+        <label>Actual work time (Min.) </label>
+        <name>実労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Target Flag</label>
+        <name>対象者フラグ</name>
+      </columns>
+      <columns>
+        <label>Title</label>
+        <name>役職</name>
+      </columns>
+      <columns>
+        <label>Regular Work Hours</label>
+        <name>所定労働時間</name>
+      </columns>
+      <columns>
+        <label>Regular work time (Min.) </label>
+        <name>所定労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Month</label>
+        <name>月度</name>
+      </columns>
+      <columns>
+        <label>Legal work hours</label>
+        <name>法定内労働時間</name>
+      </columns>
+      <columns>
+        <label>Work time within legal work hours (Min.) </label>
+        <name>法定内労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Employee Code</label>
+        <name>社員コード</name>
+      </columns>
+      <columns>
+        <label>Employee Name</label>
+        <name>社員名</name>
+      </columns>
+      <columns>
+        <label>Total Work Hours</label>
+        <name>総労働時間</name>
+      </columns>
+      <columns>
+        <label>Total work time (Min.) </label>
+        <name>総労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Parent Department Code</label>
+        <name>親部署コード</name>
+      </columns>
+      <columns>
+        <label>Parent Department Signature </label>
+        <name>親部署名</name>
+      </columns>
+      <columns>
+        <label>End Date</label>
+        <name>退社日</name>
+      </columns>
+      <columns>
+        <label>Departure Time</label>
+        <name>退社時刻</name>
+      </columns>
+      <columns>
+        <label>Time of departure (HH:MM) </label>
+        <name>退社時刻(HH:MM)</name>
+      </columns>
+      <columns>
+        <label>Clocked out (button; no rounding off)</label>
+        <name>退社時刻(ボタン丸めなし)</name>
+      </columns>
+      <columns>
+        <label>Time of departure (Button, no rounding) (HH:MM) </label>
+        <name>退社時刻(ボタン丸めなし)(HH:MM)</name>
+      </columns>
+      <columns>
+        <label>Time of departure (Button, no rounding) (Min.) </label>
+        <name>退社時刻(ボタン丸めなし)(分)</name>
+      </columns>
+      <columns>
+        <label>Time of departure (Min.) </label>
+        <name>退社時刻(分)</name>
+      </columns>
+      <columns>
+        <label>Clocked out (button)</label>
+        <name>退社時刻（ボタン）</name>
+      </columns>
+      <columns>
+        <label>Time of departure (Button) (HH:MM) </label>
+        <name>退社時刻（ボタン）(HH:MM)</name>
+      </columns>
+      <columns>
+        <label>Time of departure (Button) (Min.) </label>
+        <name>退社時刻（ボタン）(分)</name>
+      </columns>
+      <columns>
+        <label>Department Code</label>
+        <name>部署コード</name>
+      </columns>
+      <columns>
+        <label>Department Name</label>
+        <name>部署名</name>
+      </columns>
+      <label>Daily work attendance</label>
+      <name>勤怠日次</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>First substitute holiday request date </label>
+        <name>初回振替申請日</name>
+      </columns>
+      <columns>
+        <label>From</label>
+        <name>振替元日付</name>
+      </columns>
+      <columns>
+        <label>To</label>
+        <name>振替先日付</name>
+      </columns>
+      <label>Substitute Holiday Request</label>
+      <name>振替申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Substitute Request (original):Status</label>
+        <name>振替申請(元):ステータス</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Remarks</label>
+        <name>振替申請(元):備考</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Details</label>
+        <name>振替申請(元):内容</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Disapproval comment</label>
+        <name>振替申請(元):承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Approval Date</label>
+        <name>振替申請(元):承認日時</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Approved By</label>
+        <name>振替申請(元):承認者</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Employee code requested</label>
+        <name>振替申請(元):申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Employee name requested</label>
+        <name>振替申請(元):申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Request Date</label>
+        <name>振替申請(元):申請日時</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Request Type</label>
+        <name>振替申請(元):申請種類</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (original):Requested By</label>
+        <name>振替申請(元):申請者</name>
+      </columns>
+      <label>Substitute Holiday Request (From) </label>
+      <name>振替申請(元)</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Substitute Request (target):Status</label>
+        <name>振替申請(先):ステータス</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Remarks</label>
+        <name>振替申請(先):備考</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Details</label>
+        <name>振替申請(先):内容</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Disapproval comment</label>
+        <name>振替申請(先):承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Approval Date</label>
+        <name>振替申請(先):承認日時</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Approved By</label>
+        <name>振替申請(先):承認者</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Employee code requested</label>
+        <name>振替申請(先):申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Employee name requested</label>
+        <name>振替申請(先):申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Request Date</label>
+        <name>振替申請(先):申請日時</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Request Type</label>
+        <name>振替申請(先):申請種類</name>
+      </columns>
+      <columns>
+        <label>Substitute Request (target):Requested By</label>
+        <name>振替申請(先):申請者</name>
+      </columns>
+      <label>Substitute Holiday Request (To) </label>
+      <name>振替申請(先)</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Daily Finalization Request :Status</label>
+        <name>日次申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Remarks</label>
+        <name>日次申請:備考</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Details</label>
+        <name>日次申請:内容</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Disapproval comment</label>
+        <name>日次申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Approval Date</label>
+        <name>日次申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Approved By</label>
+        <name>日次申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Employee code requested</label>
+        <name>日次申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Employee name requested</label>
+        <name>日次申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Request Date</label>
+        <name>日次申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Request Type</label>
+        <name>日次申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Daily Finalization Request :Requested By</label>
+        <name>日次申請:申請者</name>
+      </columns>
+      <label>Daily Confirmation Request</label>
+      <name>日次確定申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Early Morning Work Request:Status</label>
+        <name>早朝勤務申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Remarks</label>
+        <name>早朝勤務申請:備考</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Details</label>
+        <name>早朝勤務申請:内容</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Disapproval comment</label>
+        <name>早朝勤務申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Approval Date</label>
+        <name>早朝勤務申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Approved By</label>
+        <name>早朝勤務申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Employee code requested</label>
+        <name>早朝勤務申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Employee name requested</label>
+        <name>早朝勤務申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Request Date</label>
+        <name>早朝勤務申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Request Type</label>
+        <name>早朝勤務申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Early Morning Work Request:Requested By</label>
+        <name>早朝勤務申請:申請者</name>
+      </columns>
+      <label>Early Morning Work Request</label>
+      <name>早朝勤務申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Early Departure Request:Status</label>
+        <name>早退申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Remarks</label>
+        <name>早退申請:備考</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Details</label>
+        <name>早退申請:内容</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Disapproval comment</label>
+        <name>早退申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Approval Date</label>
+        <name>早退申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Approved By</label>
+        <name>早退申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Employee code requested</label>
+        <name>早退申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Employee name requested</label>
+        <name>早退申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Request Date</label>
+        <name>早退申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Request Type</label>
+        <name>早退申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:Requested By</label>
+        <name>早退申請:申請者</name>
+      </columns>
+      <columns>
+        <label>Early Departure Request:For personal reasons</label>
+        <name>早退申請:自己都合</name>
+      </columns>
+      <label>Early Departure Request</label>
+      <name>早退申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Overtime</label>
+        <name>残業時間</name>
+      </columns>
+      <columns>
+        <label>Overtime work time (Min.) </label>
+        <name>残業時間(分)</name>
+      </columns>
+      <columns>
+        <label>Hours Worked during Legal Holiday</label>
+        <name>法定休日労働時間</name>
+      </columns>
+      <columns>
+        <label>Legal holiday work time (Min.)  </label>
+        <name>法定休日労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Overtime within Legal Work Hours</label>
+        <name>法定時間内残業</name>
+      </columns>
+      <columns>
+        <label>Overtime work within legal work hours (Min.) </label>
+        <name>法定時間内残業(分)</name>
+      </columns>
+      <columns>
+        <label>Extra Legal Work Hours</label>
+        <name>法定時間外割増</name>
+      </columns>
+      <columns>
+        <label>extra legal work hours (Min.) </label>
+        <name>法定時間外割増(分)</name>
+      </columns>
+      <columns>
+        <label>Overtime in excess of Legal Work Hours</label>
+        <name>法定時間外残業</name>
+      </columns>
+      <columns>
+        <label>Overtime work in excess of legal work hours (Min.)  </label>
+        <name>法定時間外残業(分)</name>
+      </columns>
+      <columns>
+        <label>Late-Night Work Hours</label>
+        <name>深夜労働時間</name>
+      </columns>
+      <columns>
+        <label>Late-night work time (Min.) </label>
+        <name>深夜労働時間(分)</name>
+      </columns>
+      <columns>
+        <label>Late night work increment</label>
+        <name>深夜勤務割増</name>
+      </columns>
+      <columns>
+        <label>Late-night work additional (Min.) </label>
+        <name>深夜勤務割増(分)</name>
+      </columns>
+      <label>Overtime Work</label>
+      <name>残業</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Overtime Work Request:Status</label>
+        <name>残業申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Remarks</label>
+        <name>残業申請:備考</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Details</label>
+        <name>残業申請:内容</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Disapproval comment</label>
+        <name>残業申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Approval Date</label>
+        <name>残業申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Approved By</label>
+        <name>残業申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Employee code requested</label>
+        <name>残業申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Employee name requested</label>
+        <name>残業申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Request Date</label>
+        <name>残業申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Request Type</label>
+        <name>残業申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Overtime Work Request:Requested By</label>
+        <name>残業申請:申請者</name>
+      </columns>
+      <label>Overtime Work Request</label>
+      <name>残業申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Weekday daytime regular work within legal work hours </label>
+        <name>平日日中法定内所定内労働</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime regular work within legal work hours (Min.) </label>
+        <name>平日日中法定内所定内労働(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime overtime within SWH</label>
+        <name>平日日中法定内残業</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime overtime work within legal work hours (Min.)</label>
+        <name>平日日中法定内残業(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime OT in excess of legal work hrs</label>
+        <name>平日日中法定外残業</name>
+      </columns>
+      <columns>
+        <label>Weekday daytime overtime work in excess of legal work hours (Min.) </label>
+        <name>平日日中法定外残業(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night regular work within legal work hours </label>
+        <name>平日深夜法定内所定内労働</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night regular work within legal work hours (Min.) </label>
+        <name>平日深夜法定内所定内労働(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night OT within legal work hrs</label>
+        <name>平日深夜法定内残業</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night overtime work within legal work hours (Min.) </label>
+        <name>平日深夜法定内残業(分)</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night OT in excess of legal work hrs</label>
+        <name>平日深夜法定外残業</name>
+      </columns>
+      <columns>
+        <label>Weekday late-night overtime work in excess of legal work hours (Min.) </label>
+        <name>平日深夜法定外残業(分)</name>
+      </columns>
+      <columns>
+        <label>Regular Break Time</label>
+        <name>所定休憩時間</name>
+      </columns>
+      <columns>
+        <label>Regular break time (Min.) </label>
+        <name>所定休憩時間(分)</name>
+      </columns>
+      <columns>
+        <label>Regular holiday daytime overtime work within legal work hours </label>
+        <name>所定休日日中法定内残業</name>
+      </columns>
+      <columns>
+        <label>Regular holiday daytime overtime work within legal work hours (Min.) </label>
+        <name>所定休日日中法定内残業(分)</name>
+      </columns>
+      <columns>
+        <label>Regular holiday daytime overtime work in excess of legal work hours </label>
+        <name>所定休日日中法定外残業</name>
+      </columns>
+      <columns>
+        <label>Regular holiday daytime overtime work in excess of legal work hours (Min.) </label>
+        <name>所定休日日中法定外残業(分)</name>
+      </columns>
+      <columns>
+        <label>Regular holiday late-night overtime work within legal work hours </label>
+        <name>所定休日深夜法定内残業</name>
+      </columns>
+      <columns>
+        <label>Regular holiday late-night overtime work within legal work hours (Min.) </label>
+        <name>所定休日深夜法定内残業(分)</name>
+      </columns>
+      <columns>
+        <label>Regular holiday late-night overtime work in excess of legal work hours </label>
+        <name>所定休日深夜法定外残業</name>
+      </columns>
+      <columns>
+        <label>Regular holiday late-night overtime work in excess of legal work hours (Min.) </label>
+        <name>所定休日深夜法定外残業(分)</name>
+      </columns>
+      <columns>
+        <label>Daytime work on a legal holiday </label>
+        <name>法定休日日中労働</name>
+      </columns>
+      <columns>
+        <label>Daytime work on legal holiday (Min.) </label>
+        <name>法定休日日中労働(分)</name>
+      </columns>
+      <columns>
+        <label>Late-night work on legal holiday </label>
+        <name>法定休日深夜労働</name>
+      </columns>
+      <columns>
+        <label>Late-night work on legal holiday (Min.) </label>
+        <name>法定休日深夜労働(分)</name>
+      </columns>
+      <columns>
+        <label>Duration of unpaid breaks</label>
+        <name>無給休憩時間</name>
+      </columns>
+      <columns>
+        <label>Unpaid break time (Min.) </label>
+        <name>無給休憩時間(分)</name>
+      </columns>
+      <label>Details columns </label>
+      <name>詳細項目</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Time away on personal errands (work hrs.)</label>
+        <name>勤務時間内私用外出時間</name>
+      </columns>
+      <columns>
+        <label>Time away from workplace on personal business during work hours (Min.) </label>
+        <name>勤務時間内私用外出時間(分)</name>
+      </columns>
+      <columns>
+        <label>Time of Early Departures</label>
+        <name>早退時間</name>
+      </columns>
+      <columns>
+        <label>Early departure time (Min.) </label>
+        <name>早退時間(分)</name>
+      </columns>
+      <columns>
+        <label>Early departure time (deduction) </label>
+        <name>早退時間(控除対象)</name>
+      </columns>
+      <columns>
+        <label>Early departure time (deduction) (Min.) </label>
+        <name>早退時間(控除対象)(分)</name>
+      </columns>
+      <columns>
+        <label>Hourly paid vacation taken </label>
+        <name>時間単位有給休暇取得時間</name>
+      </columns>
+      <columns>
+        <label>Hourly paid vacation taken (Min.) </label>
+        <name>時間単位有給休暇取得時間(分)</name>
+      </columns>
+      <columns>
+        <label>Period of absence</label>
+        <name>欠勤時間</name>
+      </columns>
+      <columns>
+        <label>Time absent (Min.) </label>
+        <name>欠勤時間(分)</name>
+      </columns>
+      <columns>
+        <label>Time away from workplace on personal business (deduction) </label>
+        <name>私用外出時間(控除対象)</name>
+      </columns>
+      <columns>
+        <label>Time away from workplace on personal business (deduction) (Min.) </label>
+        <name>私用外出時間(控除対象)(分)</name>
+      </columns>
+      <columns>
+        <label>Hours of Late Start</label>
+        <name>遅刻時間</name>
+      </columns>
+      <columns>
+        <label>Time tardy (Min.) </label>
+        <name>遅刻時間(分)</name>
+      </columns>
+      <columns>
+        <label>Time tardy (deduction) </label>
+        <name>遅刻時間(控除対象)</name>
+      </columns>
+      <columns>
+        <label>Time tardy (deduction) (Min.) </label>
+        <name>遅刻時間(控除対象)(分)</name>
+      </columns>
+      <label>Tardiness and Early Departure </label>
+      <name>遅刻・早退</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Late Start Request:Status</label>
+        <name>遅刻申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Remarks</label>
+        <name>遅刻申請:備考</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Details</label>
+        <name>遅刻申請:内容</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Disapproval comment</label>
+        <name>遅刻申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Approval Date</label>
+        <name>遅刻申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Approved By</label>
+        <name>遅刻申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Employee code requested</label>
+        <name>遅刻申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Employee name requested</label>
+        <name>遅刻申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Request Date</label>
+        <name>遅刻申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Request Type</label>
+        <name>遅刻申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:Requested By</label>
+        <name>遅刻申請:申請者</name>
+      </columns>
+      <columns>
+        <label>Late Start Request:For personal reasons</label>
+        <name>遅刻申請:自己都合</name>
+      </columns>
+      <label>Late Start Request</label>
+      <name>遅刻申請</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Long-term Time Change Request:Status</label>
+        <name>長期時間変更申請:ステータス</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Remarks</label>
+        <name>長期時間変更申請:備考</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Details</label>
+        <name>長期時間変更申請:内容</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Work Shift Name</label>
+        <name>長期時間変更申請:勤務パターン名</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Disapproval comment</label>
+        <name>長期時間変更申請:承認却下コメント</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Approval Date</label>
+        <name>長期時間変更申請:承認日時</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Approved By</label>
+        <name>長期時間変更申請:承認者</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Period</label>
+        <name>長期時間変更申請:期間</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Employee code requested</label>
+        <name>長期時間変更申請:申請対象社員コード</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Employee name requested</label>
+        <name>長期時間変更申請:申請対象社員名</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Request Date</label>
+        <name>長期時間変更申請:申請日時</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Request Type</label>
+        <name>長期時間変更申請:申請種類</name>
+      </columns>
+      <columns>
+        <label>Long-term Time Change Request:Requested By</label>
+        <name>長期時間変更申請:申請者</name>
+      </columns>
+      <label>Long-term Time Change Request</label>
+      <name>長期時間変更申請</name>
+    </sections>
+  </reportTypes>
+  <reportTypes>
+    <description/>
+    <label/>
+    <name>ExternalAttendanceListCustomReportType</name>
+    <sections>
+      <columns>
+        <label/>
+        <name>位置情報（経度）</name>
+      </columns>
+      <columns>
+        <label/>
+        <name>位置情報（緯度）</name>
+      </columns>
+      <columns>
+        <label/>
+        <name>社員コード（データ）</name>
+      </columns>
+      <label/>
+      <name>勤怠連携</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Employee Code</label>
+        <name>社員コード</name>
+      </columns>
+      <columns>
+        <label>Employee Name</label>
+        <name>社員名</name>
+      </columns>
+      <label>Employee</label>
+      <name>社員</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Department Code</label>
+        <name>部署コード</name>
+      </columns>
+      <columns>
+        <label>Department Name</label>
+        <name>部署名</name>
+      </columns>
+      <label>Department</label>
+      <name>部署</name>
+    </sections>
+  </reportTypes>
+  <reportTypes>
+    <description/>
+    <label/>
+    <name>ExternalICExpenseListCustomReportType</name>
+    <sections>
+      <columns>
+        <label/>
+        <name>社員コード（データ）</name>
+      </columns>
+      <label/>
+      <name>IC経費連携</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Employee Code</label>
+        <name>社員コード</name>
+      </columns>
+      <columns>
+        <label>Employee Name</label>
+        <name>社員名</name>
+      </columns>
+      <label>Employee</label>
+      <name>社員</name>
+    </sections>
+    <sections>
+      <columns>
+        <label>Department Code</label>
+        <name>部署コード</name>
+      </columns>
+      <columns>
+        <label>Department Name</label>
+        <name>部署名</name>
+      </columns>
+      <label>Department</label>
+      <name>部署</name>
+    </sections>
+  </reportTypes>
+</Translations>

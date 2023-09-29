@@ -1,0 +1,20 @@
+.ts-expenses-modal-route-contents-route-list__header {
+  width: 100px;
+  height: 60px;
+  padding: 5px 10px;
+  text-align: center;
+
+  &-amount {
+    width: 100px;
+    margin: 0 auto;
+    color: #1f089e;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+  }
+
+  &-amount-round-trip {
+    width: 100px;
+    margin: 0 auto;
+  }
+}

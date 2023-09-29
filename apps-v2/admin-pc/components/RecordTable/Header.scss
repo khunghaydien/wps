@@ -1,0 +1,84 @@
+.admin-pc-record-table-header {
+  background-color: #f8f8f8;
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+
+  &__cell-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &__label {
+    display: inline-block;
+  }
+
+  &__cell-container.asc &__label,
+  &__cell-container.desc &__label {
+    color: #333;
+    font-weight: bold;
+  }
+
+  &__icon {
+    display: inline-block;
+    margin-left: 4px;
+  }
+
+  &__icon-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__cell-container &__icon-wrapper {
+    svg path {
+      height: 3px;
+      fill: #666;
+    }
+  }
+
+  &__cell-container.asc &__icon-wrapper {
+    &.icon-up svg path {
+      fill: #0090b9;
+    }
+
+    &.icon-down svg path {
+      fill: transparent;
+    }
+  }
+
+  &__cell-container.desc &__icon-wrapper {
+    &.icon-up svg path {
+      fill: transparent;
+    }
+
+    &.icon-down svg path {
+      fill: #0090b9;
+    }
+  }
+
+  &__icon-wrapper {
+    line-height: 0;
+
+    &.icon-up {
+      margin-bottom: 2px;
+    }
+
+    &.icon-down {
+      margin-top: 2px;
+    }
+  }
+
+  &__icon-image {
+    visibility: hidden;
+
+    &.show {
+      visibility: visible;
+    }
+  }
+
+  &__cell:hover &__icon-image {
+    visibility: visible;
+  }
+}

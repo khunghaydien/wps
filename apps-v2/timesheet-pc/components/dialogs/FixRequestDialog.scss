@@ -1,0 +1,21 @@
+.timesheet-pc-fix-request-dialog {
+  &__dialog-frame {
+    width: 580px;
+  }
+
+  &__inner {
+    padding: 40px 40px 20px;
+  }
+
+  &__approver-employee {
+    display: flex;
+    align-items: center;
+  }
+
+  &__approver-employee-name {
+    width: 100px;
+    max-width: 100px;
+    font-weight: bold;
+    word-wrap: break-word;
+  }
+}

@@ -1,0 +1,9 @@
+@import '../Employee/index.scss';
+
+.admin-pc-job {
+  @extend .admin-pc-employee;
+
+  .admin-pc-record-table {
+    height: calc(100% - 80px);
+  }
+}

@@ -1,0 +1,19 @@
+.ts-expenses__form-records__bulk-edit__grid-area-cell-detail__icon-label-button {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  cursor: pointer;
+
+  &__button {
+    width: 16px;
+
+    & svg {
+      background-color: $color-bg-primary;
+      border-radius: 8px;
+      padding: 2px;
+    }
+    & path {
+      fill: $color-bg-lighter;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots planner-pc/Notifications TimeTrackAlert 1`] = `
+<div
+  className="commons-tooltip "
+  id="commons-tooltip"
+>
+  <div
+    className="slds-tooltip-trigger"
+    style={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <test-file-stub
+      aria-describedby="test"
+      aria-hidden={true}
+      className="Icons__Icon-sc-cal846-0 iVjUlc"
+      color="attention"
+      data-testid="planner-pc__time-track-alert"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={Object {}}
+      tabIndex={0}
+    />
+    <span />
+  </div>
+</div>
+`;

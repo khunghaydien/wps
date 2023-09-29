@@ -1,0 +1,93 @@
+@import '../../../../styles/exp/variables/colors';
+
+.ts-expenses__form-report-status {
+  &__info {
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    margin-top: 6px;
+  }
+
+  &__applicant {
+    padding-top: 4px;
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  &__report-no {
+    padding-top: 4px;
+    margin-left: auto;
+  }
+
+  &__label {
+    width: 120px;
+    height: 20px;
+    border-radius: 2px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  &__notrequested,
+  &__approvedprerequest {
+    background: $ts-status-background-not-requested;
+  }
+
+  &__pending {
+    background: $ts-status-background-pending-clamined;
+  }
+
+  &__approved {
+    background: $ts-status-background-approved;
+  }
+
+  &__rejected,
+  &__discarded,
+  &__canceled {
+    background: $ts-status-background-rejected;
+  }
+
+  &__removed {
+    background: $ts-status-background-removed;
+  }
+
+  &__claimed {
+    background: $ts-status-background-pending-clamined;
+  }
+
+  &__accountingrejected {
+    width: auto;
+    padding: 0 14px;
+    border: 1px solid #c23934;
+    background: white;
+    border-radius: 2px;
+    color: #c23934;
+  }
+
+  &__accountingauthorized {
+    width: auto;
+    padding: 0 14px;
+    border: 1px solid #14763b;
+    background: white;
+    border-radius: 2px;
+    color: #14763b;
+  }
+
+  &__journalcreated {
+    width: auto;
+    padding: 0 14px;
+    border: 1px solid #0e7aa7;
+    background: white;
+    border-radius: 2px;
+    color: #0e7aa7;
+  }
+
+  &__fullypaid {
+    width: auto;
+    padding: 0 14px;
+    background: #ddd;
+    border-radius: 2px;
+    color: black;
+  }
+}

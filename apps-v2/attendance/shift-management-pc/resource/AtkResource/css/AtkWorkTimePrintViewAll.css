@@ -1,0 +1,259 @@
+/*----------------------------------------------------------------------------*/
+input {
+    margin         : 0px;
+    padding        : 1px;
+    vertical-align : middle;
+}
+select {
+    margin  : 0px;
+    padding : 1px;
+}
+label {
+    vertical-align : middle;
+}
+/*----------------------------------------------------------------------------*/
+#monsumMean {
+    font-family    : 'MS UI Gothic', 'MS PGothic', 'Hiragino Kaku Gothic Pro', 'Osaka', 'Arial', 'Helvetica', sans-serif !important;
+}
+/*----------------------------------------------------------------------------*/
+table.colla_table {
+    border-collapse : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+}
+/*----------------------------------------------------------------------------*/
+table.total_table {
+    border-collapse : collapse;
+    margin          : 1px 0px;
+    border          : 1px solid #888888;
+    width           : 100%;
+}
+table.total_table td.column {
+    text-align     : left;
+    vertical-align : middle;
+    color          : black;
+    font-size      : 12px;
+    font-family    : "lucida grande",tahoma,verdana,arial,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+    border-right   : 1px dashed #CCCCCC;
+}
+table.total_table td.column div {
+    margin         : 2px 4px;
+}
+table.total_table td.value {
+    text-align     : right;
+    vertical-align : middle;
+    color          : black;
+    font-size      : 12px;
+    font-family    : "lucida grande",tahoma,verdana,arial,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+    white-space    : nowrap;
+    width          : 60px;
+}
+table.total_table td.value div {
+    margin         : 2px 4px;
+    white-space    : nowrap;
+}
+.detail_area {
+    padding        : 2px 2px 2px 4px;
+    color          : black;
+    font-size      : 12px;
+    border         : 1px solid #888888;
+}
+.holy_item_table {
+    width          : 100%;
+}
+.holy_item_col1 {
+    width          : 38px;
+    text-align     : left;
+    vertical-align : top;
+}
+.holy_item_col2 {
+    text-align     : left;
+    padding-right  : 4px;
+}
+.holy_item_col3 {
+    text-align     : right;
+    font-size      : 12px;
+    padding-left   : 2px;
+    padding-right  : 3px;
+    font-family    : "lucida grande",tahoma,verdana,arial,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+}
+.holy_item_col4 {
+    width          : 18px;
+    text-align     : right;
+    padding-right  : 3px;
+}
+/*----------------------------------------------------------------------------*/
+.prtv_table {
+    border-collapse  : collapse;
+    font-size        : 12px;
+}
+.prtv_table tr {
+    height           : 17px;
+}
+/*
+.prtv_table tr td {
+    padding          : 1px;
+}
+*/
+.prtv_head {
+    text-align       : center;
+    vertical-align   : middle;
+    background-color : #74A3C5;
+    padding          : 2px;
+    font-family    : "lucida grande",tahoma,verdana,arial,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+}
+.prtv_head_date { width: 86px; }
+.prtv_head_info { width:100px; }
+.prtv_head_entr { width: 42px; } /* ì¸äŸ */
+.prtv_head_begt { width: 42px; }
+.prtv_head_endt { width: 42px; }
+.prtv_head_exit { width: 42px; } /* ëﬁäŸ */
+.prtv_head_dive { width: 84px; } /* ò®ó£èÛãµ */
+.prtv_head_rest { width: 42px; }
+.prtv_head_work { width: 42px; }
+.prtv_head_over { width: 42px; }
+.prtv_head_holy { width: 42px; }
+.prtv_head_nigh { width: 42px; }
+.prtv_head_note { width: 149px; border-right: none; }
+.prtv_row_even {
+    background-color : #FAFAFA;
+}
+.prtv_row_odd {
+    background-color : #EDEDED;
+}
+.prtv {
+    vertical-align  : middle;
+    color:black     ;
+    padding         : 2px 2px 1px 2px;
+    font-size       : 12px;
+    font-family    : "lucida grande",tahoma,verdana,arial,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+    word-break      : break-all;
+}
+.prtv_date {
+    width          : 36px;
+    text-align     : right;
+    white-space    : nowrap;
+}
+.prtv_week {
+    width          : 21px;
+    text-align     : center;
+    white-space    : nowrap;
+}
+.prtv_sign {
+    width          : 21px;
+    text-align     : center;
+    white-space    : nowrap;
+    font-family    : 'MS UI Gothic', 'MS PGothic', 'Hiragino Kaku Gothic Pro', 'Osaka', 'Arial', 'Helvetica', sans-serif !important;
+}
+.prtv_info {
+    width          : 100px;
+    text-align     : left;
+/*    font-size      : 0.9em; */
+}
+.prtv_entr { // ì¸äŸ
+    width          : 40px;
+    padding-right : 4px;
+    text-align    : right;
+    white-space   : nowrap;
+}
+.prtv_begt {
+    width          : 40px;
+    padding-right : 4px;
+    text-align    : right;
+    white-space   : nowrap;
+}
+.prtv_endt {
+    width          : 40px;
+    padding-right : 4px;
+    text-align    : right;
+    white-space   : nowrap;
+}
+.prtv_exit { // ëﬁäŸ
+    width          : 40px;
+    padding-right : 4px;
+    text-align    : right;
+    white-space   : nowrap;
+}
+.prtv_dive { // ò®ó£èÛãµ
+    width         : 110px;
+    padding-right : 4px;
+    text-align    : left;
+    white-space   : nowrap;
+    font-size     : 0.9em;
+}
+.prtv_rest {
+    width          : 40px;
+    padding-right : 4px;
+    text-align    : right;
+    white-space   : nowrap;
+}
+.prtv_work {
+    width          : 40px;
+    padding-right : 4px;
+    text-align    : right;
+    white-space   : nowrap;
+}
+.prtv_over {
+    width          : 40px;
+    padding-right : 4px;
+    text-align    : right;
+    white-space   : nowrap;
+}
+.prtv_holy {
+    width          : 40px;
+    padding-right : 4px;
+    text-align    : right;
+    white-space   : nowrap;
+}
+.prtv_nigh {
+    width          : 40px;
+    padding-right : 4px;
+    text-align    : right;
+    white-space   : nowrap;
+}
+.prtv_note {
+    text-align    : left;
+    width         : 149px;
+    border-right  : none;
+}
+.prtv_foot {
+    vertical-align : middle;
+    padding       : 4px 2px;
+    font-size     : 12px;
+    font-family    : "lucida grande",tahoma,verdana,arial,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+    white-space   : nowrap;
+    border-top    : 1px solid #888888;
+}
+.prtv_foot_goke {
+    text-align    : left;
+    padding-left  : 10px;
+}
+.prtv_foot_rest {
+    width          : 40px;
+    padding-right : 4px;
+    text-align    : right;
+}
+.prtv_foot_work {
+    width          : 40px;
+    padding-right : 4px;
+    text-align    : right;
+}
+.prtv_foot_over {
+    width          : 40px;
+    padding-right : 4px;
+    text-align    : right;
+}
+.prtv_foot_holy {
+    width          : 40px;
+    padding-right : 4px;
+    text-align    : right;
+}
+.prtv_foot_nigh {
+    width          : 40px;
+    padding-right : 4px;
+    text-align    : right;
+}
+.prtv_foot_note {
+    width         : 149px;
+    text-align    : right;
+}

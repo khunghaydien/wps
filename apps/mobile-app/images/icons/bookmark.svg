@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 14.766">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #074b69;
+      }
+    </style>
+  </defs>
+  <g id="icons_utility_bookmark" data-name="icons/utility/bookmark" transform="translate(-0.308 -0.615)">
+    <path id="Mask" class="cls-1" d="M7.785,15.262,4.738,12.215a.446.446,0,0,0-.646,0L.831,15.292a.3.3,0,0,1-.523-.215V1.846A1.234,1.234,0,0,1,1.538.615H7.077A1.234,1.234,0,0,1,8.308,1.846v13.2A.3.3,0,0,1,7.785,15.262Z"/>
+  </g>
+</svg>

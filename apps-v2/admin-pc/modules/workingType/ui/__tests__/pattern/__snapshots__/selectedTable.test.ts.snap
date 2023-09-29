@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"selectedTable\\": Array [],
++   \\"sortOrder\\": Object {
++     \\"field\\": \\"code\\",
++     \\"order\\": \\"ASC\\",
++   },
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/PATTERN/SELECTED_TABLE/ADD_SELECTED_PATTERN 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"selectedTable\\": Array [],
++   \\"selectedTable\\": Array [
++     Object {
++       \\"code\\": \\"pattern01\\",
++       \\"name\\": \\"pattern01\\",
++       \\"validDateFrom\\": \\"2023-03-20\\",
++       \\"validDateTo\\": \\"2100-03-20\\",
++     },
++     Object {
++       \\"code\\": \\"pattern02\\",
++       \\"name\\": \\"pattern02\\",
++       \\"validDateFrom\\": \\"2023-03-20\\",
++       \\"validDateTo\\": \\"2100-03-20\\",
++     },
++   ],
+    \\"sortOrder\\": Object {
+      \\"field\\": \\"code\\",
+      \\"order\\": \\"ASC\\",
+    },
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/PATTERN/SELECTED_TABLE/DELETE_SELECTED_PATTERN 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"selectedTable\\": Array [],
++   \\"selectedTable\\": Array [
++     Object {
++       \\"code\\": \\"pattern02\\",
++       \\"name\\": \\"pattern02\\",
++       \\"validDateFrom\\": \\"2023-03-20\\",
++       \\"validDateTo\\": \\"2100-03-20\\",
++     },
++   ],
+    \\"sortOrder\\": Object {
+      \\"field\\": \\"code\\",
+      \\"order\\": \\"ASC\\",
+    },
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/PATTERN/SELECTED_TABLE/RESET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"selectedTable\\": Array [
+-     Object {
+-       \\"code\\": \\"pattern01\\",
+-       \\"name\\": \\"pattern01\\",
+-       \\"validDateFrom\\": \\"2023-03-20\\",
+-       \\"validDateTo\\": \\"2100-03-20\\",
+-     },
+-     Object {
+-       \\"code\\": \\"pattern02\\",
+-       \\"name\\": \\"pattern02\\",
+-       \\"validDateFrom\\": \\"2023-03-20\\",
+-       \\"validDateTo\\": \\"2100-03-20\\",
+-     },
+-   ],
++   \\"selectedTable\\": Array [],
+    \\"sortOrder\\": Object {
+      \\"field\\": \\"code\\",
+-     \\"order\\": \\"DESC\\",
++     \\"order\\": \\"ASC\\",
+    },
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/PATTERN/SELECTED_TABLE/SET_SELECTED_PATTERN 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"selectedTable\\": Array [],
++   \\"selectedTable\\": Array [
++     Object {
++       \\"code\\": \\"pattern01\\",
++       \\"name\\": \\"pattern01\\",
++       \\"validDateFrom\\": \\"2023-03-20\\",
++       \\"validDateTo\\": \\"2100-03-20\\",
++     },
++   ],
+    \\"sortOrder\\": Object {
+      \\"field\\": \\"code\\",
+      \\"order\\": \\"ASC\\",
+    },
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/PATTERN/SELECTED_TABLE/SET_SORT_ORDER 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"selectedTable\\": Array [],
+    \\"sortOrder\\": Object {
+      \\"field\\": \\"code\\",
+-     \\"order\\": \\"ASC\\",
++     \\"order\\": \\"DESC\\",
+    },
+  }"
+`;

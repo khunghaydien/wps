@@ -1,0 +1,30 @@
+.admin-pc-main-contents-detail-pane-detail-section-header {
+  margin: 12px 6px;
+  background-image: url('../../../images/11.png');
+  background-position-y: 49%;
+  background-repeat: repeat-x;
+
+  .ts-icon-button:focus {
+    outline: none !important;
+  }
+
+  &__toggle-button {
+    display: inline-block;
+    width: 24px;
+    vertical-align: top;
+  }
+
+  &__title {
+    display: inline-block;
+    padding: 2px 8px;
+    background: $color-bg-pane-third;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    word-break: break-word;
+
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+}

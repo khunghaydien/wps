@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots attendance/pc/particles/RequestStatusChip Default 1`] = `
+.c1 {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.c2 {
+  background-color: #7d7d7d !important;
+  color: #fff !important;
+}
+
+.c3 {
+  background-color: #0e7aa7 !important;
+  color: #fff !important;
+}
+
+.c4 {
+  background-color: #14763B !important;
+  color: #fff !important;
+}
+
+.c5 {
+  background-color: #c23934 !important;
+  color: #fff !important;
+}
+
+.c0 {
+  margin: 4px 0px;
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <span
+      className="c1 c2"
+    >
+      Not Submitted
+    </span>
+  </div>
+  <div
+    className="c0"
+  >
+    <span
+      className="c1 c3"
+    >
+      Pending
+    </span>
+  </div>
+  <div
+    className="c0"
+  >
+    <span
+      className="c1 c4"
+    >
+      Approved
+    </span>
+  </div>
+  <div
+    className="c0"
+  >
+    <span
+      className="c1 c5"
+    >
+      Rejected
+    </span>
+  </div>
+  <div
+    className="c0"
+  >
+    <span
+      className="c1 c5"
+    >
+      Recalled
+    </span>
+  </div>
+  <div
+    className="c0"
+  >
+    <span
+      className="c1 c5"
+    >
+      Canceled
+    </span>
+  </div>
+</div>
+`;

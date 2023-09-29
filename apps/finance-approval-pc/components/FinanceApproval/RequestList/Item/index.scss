@@ -1,0 +1,44 @@
+@import '../../../../../commons/styles/wsp';
+
+.ts-finance-approval__requests-item {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-bottom: 1px solid color('border-2');
+  background-color: color('background-1');
+  color: color('text-1');
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: left;
+
+  &-icon {
+    text-align: center;
+  }
+
+  &:hover {
+    background-color: color('hover');
+  }
+
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
+
+  &--active {
+    background-color: color('selected-2');
+    color: #000;
+  }
+
+  &-amount {
+    margin-right: 12px;
+    text-align: right;
+  }
+
+  &-cell {
+    overflow: auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

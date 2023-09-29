@@ -1,0 +1,32 @@
+.admin-pc-record-table {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  background-color: #fff;
+
+  &__cell {
+    overflow: hidden;
+    word-break: break-word;
+  }
+
+  &__empty {
+    height: 100%;
+    padding-top: 300px;
+    background-image: url('../../../commons/images/iconbackGround.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    color: #53688c;
+    font-size: 15px;
+    overflow-y: hidden;
+    text-align: center;
+  }
+
+  &__row:first-child {
+    border-top: 0;
+  }
+
+  &__body-container {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+}

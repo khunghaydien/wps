@@ -1,0 +1,40 @@
+.ts-expenses__search-area {
+  width: 100%;
+
+  &-search-button {
+    width: 100px;
+    height: 32px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .slds-button--icon-border-filled {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  &-field {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .commons-fields-dropdown-custom:first-child {
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0;
+  }
+
+  .commons-fields-dropdown-custom__value {
+    height: 32px;
+    padding: 5px;
+    border: 1px solid #d9d9d9;
+  }
+
+  .commons-fields-dropdown-amount {
+    display: block;
+  }
+
+  .commons-fields-filterable-checkbox__input-label {
+    align-items: center;
+  }
+}

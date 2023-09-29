@@ -1,0 +1,106 @@
+@import '../../../commons/components/psa/variables.scss';
+
+.ts-psa__talent-profile__link-edit {
+  width: 100%;
+  height: fit-content;
+  background: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 16px;
+
+  .has-error {
+    border: 1px solid $color-form-error;
+  }
+  &__error {
+    color: $color-form-error;
+  }
+
+  &__header {
+    height: 62px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #666;
+    background: #ebf3f7;
+    padding: 16px 20px;
+    justify-content: space-between;
+  }
+  &__add-button {
+    height: 32px;
+    display: flex;
+    align-items: center;
+
+    &__icon {
+      width: 16px;
+      height: 16px;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__subheader {
+    height: 48px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #666;
+    background: linear-gradient(0deg, #f3f2f2, #f3f2f2), #e6f4f8;
+    padding: 16px 20px;
+  }
+  &__row {
+    padding: 8px 20px;
+    min-height: 48px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
+  &__link-item-delete {
+    text-align: end;
+  }
+  &__link-item-column {
+    margin: 0 20px 0 0;
+  }
+  &__row__remarks {
+    height: 96px;
+    display: inline-flex;
+    width: 100%;
+  }
+  &__text-remarks {
+    resize: none;
+    padding: 5px 8px !important;
+    height: 80px;
+    width: 600px;
+  }
+  &__label {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    color: #666;
+  }
+  &__value {
+    width: 640px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #666;
+  }
+  &__link-divider {
+    height: 16px;
+    background: #fff;
+  }
+}

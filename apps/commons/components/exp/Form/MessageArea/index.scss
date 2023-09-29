@@ -1,0 +1,68 @@
+@import '../../../../styles/variables/colors';
+@import '../../../../styles/wsp.scss';
+
+.ts-expenses__form-message-area {
+  padding: 18px 20px 18px;
+  background-color: #fff;
+
+  &__main {
+    border: 1px solid #b7423a;
+    border-radius: 4px;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    background-color: #f8edec;
+    border-radius: 3px;
+    color: color('error');
+    cursor: pointer;
+  }
+
+  &__header--button:hover {
+    background-color: #e2c9c7;
+  }
+
+  &__header--text {
+    pointer-events: none;
+  }
+
+  &__header--open {
+    border-radius: 3px 3px 0 0;
+  }
+
+  &__body {
+    padding: 5px 12px;
+    background: #fff;
+    border-radius: 0 0 3px 3px;
+  }
+
+  &__title-button {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 5px 12px;
+    outline: none;
+  }
+
+  // TODO Should not be use element name directly.
+  &__title-button svg {
+    width: 12px;
+    height: 12px;
+    margin-right: 12px;
+    margin-left: 3px;
+
+    path {
+      fill: $color-destructive;
+    }
+  }
+
+  &__title-button--open svg {
+    transform: none;
+    transform: rotate(-180deg);
+  }
+
+  &__title-button--hide-icon svg {
+    display: none;
+  }
+}

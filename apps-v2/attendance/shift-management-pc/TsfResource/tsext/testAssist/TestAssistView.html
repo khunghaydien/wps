@@ -1,0 +1,35 @@
+<div class="tsext-test">
+	<ul class="tsext-pankz">
+		<li>テスト支援ツール V0.9.1</li>
+	</ul>
+	<div class="tsext-error" style="display:none;">
+	</div>
+	<div class="tsext-test-view">
+		<input type="button" value="テストデータ入力" id="testAssistInput" />
+		<div class="tsext-test-data" style="margin-top:10px;margin-left:20px;">
+		</div>
+		<div class="tsext-test-control">
+			<div style="display:inline-block;">
+				<input type="button" id="testAssistOption"  class="tsext-c-option"  style="font-size:11px;display:none;" value="補助" />
+				<input type="button" id="testAssistShowLog" class="tsext-c-log"     style="font-size:11px;display:none;" value="ログ" />
+				<input type="button" id="testAssistStart"   class="tsext-c-execute" style="font-size:14px;" value="開始" />
+				<input type="button" id="testAssistPause"   class="tsext-c-pause"   style="font-size:12px;" value="一時停止" />
+			</div>
+			<div style="display:inline-block;margin-left:40px;" id="testAssistDeleteLink">
+			</div>
+		</div>
+		<div class="tsext-test-message">
+		</div>
+		<div class="tsext-test-meter">
+			<div class="meter-item">実行</div><div class="meter-value" id="testAssistCount"  ></div>
+			<div class="meter-item">NG  </div><div class="meter-value" id="testAssistNgCount"></div>
+			<div class="meter-option"><label><input type="checkbox" id="testAssistAutoScroll" /><span style="font-size:90%;">オートスクロール</span></label></div>
+		</div>
+		<div class="tsext-test-logs" style="display:none;">
+			<table>
+				<tbody id="testAssistListBody" style="max-height:400px;">
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

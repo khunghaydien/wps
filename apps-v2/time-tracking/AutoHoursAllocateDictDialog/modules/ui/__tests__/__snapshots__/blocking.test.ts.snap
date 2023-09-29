@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() /TIME-TRACKING/AUTO-TRACK-RESULT-DIALOG/UI/BLOCKING/DISABLE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"enabled\\": true,
++   \\"enabled\\": false,
+  }"
+`;
+
+exports[`reducer() /TIME-TRACKING/AUTO-TRACK-RESULT-DIALOG/UI/BLOCKING/ENABLE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"enabled\\": false,
++   \\"enabled\\": true,
+  }"
+`;
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"enabled\\": false,
++ }"
+`;

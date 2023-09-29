@@ -1,0 +1,226 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-psa__new-activity-form {
+  padding: $container-padding;
+  width: 720px;
+
+  &__error-box {
+    margin: 0 0 $container-padding 0;
+  }
+
+  &__date-field-container {
+    position: relative;
+  }
+
+  &__dialog-frame {
+    width: 720px;
+  }
+
+  &__sub-header {
+    display: flex;
+    min-height: 48px;
+    flex-direction: row;
+    background-color: $color-bg-heading;
+    padding: 4px 16px;
+    border-bottom: $color-border;
+    color: $color-text-grey;
+    &__title {
+      display: inline-flex;
+      align-items: center;
+      &-header {
+        font-weight: bold;
+        white-space: nowrap;
+      }
+      &-header-body {
+        margin-left: 4px;
+      }
+    }
+    &__duration {
+      flex: auto;
+      display: inline-flex;
+      align-items: center;
+      justify-content: flex-end;
+      white-space: nowrap;
+      &-header {
+        font-weight: bold;
+      }
+    }
+  }
+
+  &__activity-duration-warning {
+    color: $color-form-error;
+    margin-bottom: 6px;
+    line-height: 16px;
+  }
+
+  &__form-field-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__x {
+    display: flex;
+  }
+  .ts-psa__form-field {
+    margin-bottom: $container-padding;
+    width: 330px;
+  }
+  &--start-date,
+  &--end-date {
+    margin-bottom: 4px !important;
+
+    &--progress {
+      width: auto !important;
+    }
+  }
+
+  .commons-fields-date-field,
+  .react-datepicker-wrapper,
+  .react-datepicker__input-container {
+    width: 100%;
+  }
+
+  &--delete {
+    background-color: transparent;
+    border: none;
+    color: $color-btn-remove;
+  }
+
+  // Needed to show the entire icon
+  .admin-pc-common-clearable-field__clear {
+    width: auto;
+    height: auto;
+  }
+  &__progress-input {
+    display: flex;
+    border-radius: 4px;
+    flex-direction: column;
+    border: 1px solid $color-border-light-grey;
+    width: 100%;
+    &__title {
+      padding: 8px;
+      font-weight: bold;
+      border-bottom: 1px solid $color-border-light-grey;
+      background-color: $color-bg-light-blue;
+      color: $color-icon-dark-grey;
+    }
+    &__header-container {
+      padding: 8px 0;
+      border-bottom: 1px solid $color-border-light-grey;
+      background-color: $color-container;
+    }
+    &__header_item {
+      color: $color-font-grey;
+      font-weight: 700;
+      margin: 0 10px;
+    }
+    &__list-container {
+      overflow-y: scroll;
+      overflow-x: hidden;
+      max-height: 141px;
+    }
+
+    &__list-item {
+      margin: 0 10px;
+    }
+    &__list-item-container {
+      padding: 2px 0;
+      border-bottom: 1px solid #d9d9d9;
+    }
+    &__text-area {
+      resize: vertical;
+      margin-top: 5px;
+      padding: 5px 8px !important;
+      height: 30px;
+    }
+    &__progress-level {
+      display: flex;
+      align-items: center;
+      &__text {
+        border-radius: 4px 0 0 4px !important;
+        padding: 0 4px !important;
+        text-align: right;
+        height: 32px;
+      }
+    }
+    &__progress-percentage {
+      border-radius: 0 4px 4px 0;
+      border: 1px solid #d9d9d9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-left: 0;
+      height: 32px;
+      padding: 0 8px;
+    }
+    &__progress-percentage__disabled {
+      border-radius: 0 4px 4px 0;
+      border: 1px solid #c9c7c5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-left: 0;
+      height: 32px;
+      padding: 0 8px;
+      background-color: #ecebea;
+      cursor: not-allowed;
+    }
+  }
+  &__dates-container {
+    height: 100px;
+  }
+  &__dates {
+    display: flex;
+    flex: 1;
+    gap: 16px;
+  }
+  &__status-container {
+    display: flex;
+    flex: 1;
+  }
+  &__date-status-container {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    gap: 20px;
+  }
+  &__progress-input-date {
+    margin-left: -10px;
+    min-width: 120px;
+  }
+  &__add-progress-btn {
+    & > svg {
+      border-radius: 50%;
+      margin-left: 5px;
+      width: 20px;
+      height: 20px;
+      padding: 2px;
+      &:hover {
+        cursor: pointer;
+        background-color: $color-bg-lighter-grey;
+      }
+    }
+  }
+  &__progress-delete-btn {
+    & > svg {
+      border-radius: 50%;
+      margin-left: 5px;
+      width: 20px;
+      height: 20px;
+      padding: 2px;
+      path {
+        fill: $color-text-blue;
+      }
+      &:hover {
+        cursor: pointer;
+        background-color: $color-bg-lighter-grey;
+      }
+    }
+  }
+}

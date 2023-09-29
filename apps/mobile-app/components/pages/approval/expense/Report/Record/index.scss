@@ -1,0 +1,248 @@
+@import 'mobile-global-imports.scss';
+@import '../../../../../../../commons/styles/exp/variables/colors';
+
+.mobile-app-pages-approval-page-expense-record {
+  $side-padding: 16px;
+
+  .main-content {
+    padding-top: 52px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__receipt.mobile-app-molecules-commons-view-item.block {
+    .mobile-app-atoms-label {
+      &__text {
+        font-size: 13px;
+        padding-left: $side-padding;
+        text-transform: uppercase;
+        height: 49px;
+        line-height: 49px;
+        background-color: $color-list-view-bg-hover;
+        border-top: 1px solid $ts-input-field-border-gray;
+        border-bottom: 1px solid $ts-input-field-border-gray;
+      }
+      &__control {
+        padding: 14px $side-padding 0 $side-padding;
+      }
+
+      .mobile-app-molecules-commons-view-item__body {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__header,
+  &-child-items__header {
+    & .base-amount {
+      color: $color-text-base;
+      font-size: 22px;
+      font-weight: $font-emphasis;
+      justify-content: flex-start;
+    }
+
+    & .local-amount {
+      font-size: 14px;
+      color: $color-text-info;
+      font-weight: $font-normal;
+      justify-content: flex-start;
+    }
+  }
+
+  &__merchant-info {
+    padding: 16px;
+    padding-top: 0;
+  }
+
+  &__jct-number-info {
+    padding: 16px;
+    padding-top: 0;
+  }
+
+  &__header {
+    margin: 0 $side-padding;
+    padding-bottom: 12px;
+    margin-bottom: -1px; // hide border when item date stick to top
+    border-bottom: 1px solid $ts-input-field-border-gray;
+  }
+
+  &-child-items__header {
+    padding: 12px $side-padding;
+    &:not(.is-first-item) {
+      // don't show top border for first item of the same date
+      border-top: 1px solid $ts-input-field-border-gray;
+    }
+  }
+
+  &__content {
+    overflow-y: auto;
+
+    &-parent {
+      padding: 0 $side-padding;
+      padding-top: 14px;
+      &:empty {
+        padding-top: 0;
+      }
+    }
+  }
+
+  &-child-items__content {
+    padding-top: 12px;
+    margin-left: $side-padding;
+    margin-right: $side-padding;
+    border-top: 1px solid $ts-input-field-border-gray;
+  }
+
+  &__pdf-download-link {
+    display: inline-block;
+    height: auto;
+    padding: 30px 60px;
+    margin-bottom: $extra-small-size;
+    border: 2px solid #d9d9d9;
+    background: $color-blue-100;
+    border-radius: 0;
+  }
+
+  &__amount-field-feedback {
+    color: $color-text-base;
+    font-size: 14px;
+    margin: 4px 0 16px 0;
+    padding: 8px;
+    border: 1px solid $color-attention;
+    border-radius: 5px;
+
+    &-msg {
+      margin-left: 8px;
+    }
+
+    & path {
+      fill: $color-attention;
+    }
+  }
+
+  &-general {
+    &__exchange-rate {
+      & .ts-text-field {
+        padding-right: 0;
+      }
+
+      & .mobile-app-molecules-commons-view-item__body {
+        display: flex;
+      }
+
+      & svg {
+        padding-bottom: 6px;
+        margin-left: 10px;
+
+        & path {
+          fill: rgb(185, 223, 239);
+        }
+      }
+    }
+  }
+
+  &-general,
+  &-child-items {
+    &__local-amount,
+    &__without-tax,
+    &__tax {
+      color: $color-text-base;
+      font-weight: normal;
+      font-size: 14px;
+    }
+  }
+
+  &__date,
+  &-child-items__date {
+    color: $color-text-info;
+    font-size: 14px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+
+  &__exp-type,
+  &-child-items__expTypes {
+    font-size: 14px;
+    font-weight: $font-emphasis;
+    color: $color-text-base;
+  }
+
+  .rate-edited {
+    color: $color-text-weak;
+    font-size: 12px;
+    line-height: 22px;
+    margin-left: 4px;
+  }
+
+  &__metadata {
+    padding: 8px 16px;
+  }
+
+  &__metadata-warning {
+    margin: 0 16px 8px;
+    border: 1px solid #df8e2f;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+
+    &-svg {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      overflow: visible !important;
+    }
+
+    &-msg {
+      color: #333;
+      margin-left: 10px;
+    }
+  }
+
+  // /////////////////////////////////////////////////////////////////////
+  //
+  // Customize style for view item
+  //
+  // /////////////////////////////////////////////////////////////////////
+  & .mobile-app-molecules-commons-view-item {
+    border: none;
+
+    &__body {
+      font-size: 14px;
+    }
+
+    & .mobile-app-atoms-label {
+      display: flex;
+      justify-content: space-between;
+
+      &__text {
+        color: $color-text-info;
+        font-size: 14px;
+        margin-bottom: 0;
+      }
+    }
+
+    &.block .mobile-app-atoms-label {
+      flex-direction: column;
+    }
+  }
+
+  // /////////////////////////////////////////////////////////////////////
+  //
+  // Styling for hotel fee items
+  //
+  // /////////////////////////////////////////////////////////////////////
+
+  & .sticky {
+    padding: 0 $side-padding;
+    border-top: 1px solid $ts-input-field-border-gray;
+    border-bottom: 1px solid $ts-input-field-border-gray;
+    font-size: 13px;
+    height: 49px;
+    line-height: 49px;
+    background-color: $color-list-view-bg-hover;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+}

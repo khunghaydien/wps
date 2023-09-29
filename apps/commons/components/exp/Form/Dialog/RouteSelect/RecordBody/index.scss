@@ -1,0 +1,56 @@
+.ts-expenses-modal-route-contents-route-list__body {
+  padding: 6px;
+  text-align: center;
+
+  &-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &-box {
+    display: flex;
+    align-items: center;
+
+    &-station {
+      max-width: 200px;
+      padding: 4px 8px;
+      border: 1px solid #d9dde6;
+      background-color: #d9dde6;
+      font-size: 13px;
+    }
+
+    &-station--via {
+      background-color: #fff;
+    }
+
+    &-transportation {
+      &-title {
+        max-width: 200px;
+      }
+
+      img {
+        height: 18px;
+        margin-right: 4px;
+      }
+
+      .iconTransportationAirplane,
+      .iconTransportationBulletTrain,
+      .iconTransportationBus,
+      .iconTransportationShip,
+      .iconTransportationCar {
+        width: 20px;
+        height: 10px;
+      }
+    }
+
+    &-hr {
+      width: 20px;
+      margin: 0 5px;
+
+      &--commuter {
+        border-color: red;
+      }
+    }
+  }
+}

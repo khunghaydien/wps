@@ -1,0 +1,21 @@
+.ts-route-form-via-list {
+  &-point-delete {
+    position: relative;
+
+    .ts-route-form__condition {
+      width: calc(100% - 32px);
+    }
+  }
+
+  .ts-route-form__condition-key {
+    border: 1px solid #d9dde6;
+    background-color: #fff;
+  }
+
+  .ts-route-form-via-list-delete {
+    position: absolute;
+    top: 4px;
+    right: 12px;
+    border: #fff;
+  }
+}

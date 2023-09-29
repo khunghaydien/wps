@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.8 13.569">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #074b69;
+      }
+    </style>
+  </defs>
+  <g id="icons_utility_share_post-copy" data-name="icons/utility/share_post-copy" transform="translate(-0.615 -0.23)">
+    <path id="Mask" class="cls-1" d="M8,.231C3.908.231.615,3.246.615,7a6.586,6.586,0,0,0,.923,3.323.615.615,0,0,1,.062.4L.923,12.846a.5.5,0,0,0,.646.615l2.154-.738a.432.432,0,0,1,.431.062A7.828,7.828,0,0,0,8.031,13.8c4.092,0,7.385-3.015,7.385-6.769A7.209,7.209,0,0,0,8,.231Z"/>
+  </g>
+</svg>

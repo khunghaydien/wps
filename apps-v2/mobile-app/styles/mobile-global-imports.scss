@@ -1,0 +1,9 @@
+//
+// Sass Loaderで読み込まれるすべてのファイルへ変数とmixinを提供する
+// このファイルからはvariablesやmixinのみimportすること
+//
+@import './variables/colors';
+@import './variables/unit';
+@import './variables/zindex';
+@import './variables/fonts';
+@import './mixins/transition.scss';

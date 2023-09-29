@@ -1,0 +1,16 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-attendance-timesheet-monthly-page {
+  .mobile-app-molecules-attendance-monthly-list-header {
+    position: fixed;
+    z-index: $zindex-header;
+    top: 48px + 48px;
+  }
+
+  &__container {
+    overflow: scroll;
+    height: 100vh;
+    padding-top: 48px + 48px + 32px;
+    -webkit-overflow-scrolling: touch;
+  }
+}

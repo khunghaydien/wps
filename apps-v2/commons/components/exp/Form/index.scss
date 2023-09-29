@@ -1,0 +1,275 @@
+@import '@commons/styles/variables/colors';
+@import '@commons/styles/exp/variables/colors';
+@import '../../../styles/wsp';
+
+.ts-expenses__form {
+  overflow: scroll;
+  width: 100%;
+  height: calc(
+    100% - 56px
+  ); // -moz-avaliable is not working in mozilla and fill-avaliable is not working in Edge so the height is calculated like this
+
+  margin-top: 56px;
+  background-color: color('clicked');
+  z-index: 1;
+
+  &-records__list__record-header {
+    padding: 10px 0 10px 60px;
+    background-color: color('background-2');
+    font-size: 16px;
+  }
+
+  .slds-input:active:not([disabled]),
+  .slds-input:focus:not([disabled]) {
+    outline: 0;
+    border-color: #1589ee !important;
+    background-color: #fff;
+    box-shadow: 0 0 3px #0070d2;
+  }
+
+  &-FA {
+    height: calc(100% - 20px);
+
+    .ts-expenses__form-records-button-area__btn-new,
+    .ts-expenses__form-records-button-area__btn-edit {
+      display: none;
+    }
+
+    .ts-text-field-container {
+      width: 100%;
+      margin-bottom: 8px;
+
+      .slds-input,
+      .ts-select-input {
+        width: 100%;
+        padding: 5px 10px;
+        border: 1px solid color('border-1');
+        background-color: color('background-1');
+        border-radius: 5px;
+      }
+
+      .slds-input[disabled],
+      .ts-select-input[disabled],
+      .ts-textarea-field[disabled] {
+        border-color: color('border-1');
+        background-color: color('disabled-1');
+      }
+
+      .highlight-bg[disabled] {
+        background-color: $color-text-highlight;
+      }
+
+      .react-datepicker-wrapper {
+        width: 100%;
+
+        & input {
+          position: relative;
+          padding: 5px 10px;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          background: url('@commons/images/iconCalendar.png') no-repeat
+            color('background-1');
+          background-position: right 10px center;
+          color: color('text-1');
+        }
+      }
+
+      .commons-fields-date-field {
+        width: 100%;
+      }
+    }
+
+    .ts-expenses__form-record-item-summary textarea {
+      min-height: 78px !important;
+    }
+
+    .record_item__contents__amount_selection {
+      select {
+        width: 220px;
+        height: 32px;
+        background-color: color('background-1');
+      }
+
+      select:disabled {
+        background-color: color('disabled-1');
+        cursor: default;
+      }
+    }
+
+    &-apex-page {
+      padding-top: 36px;
+
+      &__header {
+        span {
+          font-weight: bold;
+        }
+      }
+
+      // css for common expenses + requests
+      .input-feedback {
+        color: color('required');
+      }
+
+      .slds-input,
+      .ts-select-input {
+        height: 32px;
+        border-color: color('border-1');
+        color: color('text-1');
+      }
+
+      // key is too generic, but because it is already widely used in our system, we cannot change it now. To change during the next refactor
+      .key {
+        display: block;
+        color: color('text-2');
+        font-size: 13px;
+        text-overflow: ellipsis;
+        white-space: normal;
+      }
+
+      // fix for vfp css
+      [class*='slds-size_'],
+      [class*='slds-size--'] {
+        flex: none;
+      }
+
+      // custom styles for form inputs inside exp
+      .ts-textarea-field[disabled] {
+        border-color: color('border-1');
+        background-color: color('disabled-1');
+      }
+
+      .ts-button {
+        background-color: color('background-1');
+        color: color('exp-primary');
+
+        &:active {
+          background-color: $ts-button-default-dark;
+        }
+
+        &:focus:not(:hover, :active) {
+          box-shadow: none;
+          outline: none;
+        }
+
+        &:hover {
+          // hoverはfocusと同じ表現を使う(枠線はなし)
+          background-color: color('hover');
+        }
+
+        &[disabled],
+        &[disabled]:hover,
+        &[disabled]:active,
+        &[disabled]:focus {
+          background-color: color('background-1');
+          color: color('disabled');
+        }
+
+        &--primary {
+          border-color: color('exp-primary');
+          background-color: color('exp-primary');
+          color: color('background-1');
+        }
+
+        &--primary:hover,
+        &--primary:active {
+          border-color: #1b59c9;
+          background-color: #1b59c9;
+        }
+
+        &--primary[disabled],
+        &--primary[disabled]:hover,
+        &--primary[disabled]:active,
+        &--primary[disabled]:focus {
+          border-color: #abbacd;
+          background-color: #abbacd;
+          color: #fff;
+          cursor: not-allowed;
+        }
+
+        &--secondary {
+          border-color: color('secondary');
+          background-color: color('secondary');
+          color: #fff;
+        }
+
+        &--secondary:hover,
+        &--secondary:active {
+          border-color: #037b04;
+          background-color: #037b04;
+        }
+
+        &--secondary:focus {
+          border-color: #025703;
+          background-color: #025703;
+        }
+
+        &--secondary[disabled],
+        &--secondary[disabled]:hover,
+        &--secondary[disabled]:active,
+        &--secondary[disabled]:focus {
+          border-color: #92af92;
+          background-color: #92af92;
+          color: #fff;
+          cursor: not-allowed;
+        }
+
+        &--destructive {
+          border-color: color('error');
+          background-color: color('error');
+          color: #fff;
+        }
+
+        &--destructive:hover,
+        &--destructive:active {
+          border-color: #8e2724;
+          background-color: #8e2724;
+        }
+
+        &--destructive:focus {
+          border-color: #6b1d1b;
+          background-color: #6b1d1b;
+        }
+
+        &--destructive[disabled],
+        &--destructive[disabled]:hover,
+        &--destructive[disabled]:active,
+        &--destructive[disabled]:focus {
+          border-color: #bfa8a7;
+          background-color: #bfa8a7;
+          color: #fff;
+          cursor: not-allowed;
+        }
+
+        &--text {
+          background-color: transparent;
+          color: $color-text-anchor;
+        }
+
+        &--text:hover,
+        &--text:active,
+        &--text:focus {
+          background-color: transparent;
+          text-decoration: underline;
+        }
+
+        &--text[disabled],
+        &--text[disabled]:hover,
+        &--text[disabled]:active,
+        &--text[disabled]:focus {
+          color: darken($color-text-anchor, 15%);
+          text-decoration: none;
+        }
+      }
+
+      .commons-dialog-frame {
+        &__contents {
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+
+.ts-expenses-unreported-records__contents__recordslist {
+  background-color: color('background-1');
+}

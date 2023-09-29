@@ -1,0 +1,17 @@
+.approver-setting {
+  &__mapping-source {
+    color: #000;
+  }
+
+  &__request-field {
+    label {
+      color: #000;
+    }
+
+    .ts-horizontal-layout__label {
+      &::after {
+        content: '';
+      }
+    }
+  }
+}

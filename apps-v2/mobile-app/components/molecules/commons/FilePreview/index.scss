@@ -1,0 +1,157 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-commons-file-preview {
+  border-bottom: none;
+
+  &__loading {
+    position: relative;
+    height: 80px;
+    color: $color-text-info;
+    text-align: center;
+
+    &-hint {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    & .mobile-app-atoms-spinner {
+      position: relative;
+      margin-top: -15px;
+    }
+  }
+
+  &__img-preview-container {
+    position: relative;
+  }
+
+  &__img {
+    min-width: 40px;
+    min-height: 40px;
+  }
+
+  &__img-container {
+    // for image only
+    .mobile-app-molecules-commons-view-item__body {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      z-index: 2;
+    }
+  }
+
+  &__status {
+    position: absolute;
+    z-index: 1;
+    width: 80px;
+    padding: 2px 8px;
+    margin: 8px 0 0 4px;
+    background-color: $color-gray-600;
+    border-radius: 2px;
+    color: $color-text-reverse;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+
+    &-InProgress,
+    &-Queued {
+      background-color: $color-blue-600;
+    }
+
+    &-Completed {
+      background-color: $color-green-600;
+    }
+  }
+  &__overlay {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    border-radius: 4px;
+    color: $color-text-reverse;
+  }
+  &__ocrInfo {
+    position: absolute;
+    top: 34px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  &__record-date,
+  &__amount {
+    padding-left: 8px;
+  }
+
+  &__upload-date {
+    position: absolute;
+    right: 8px;
+    font-size: 10px;
+    line-height: 15px;
+    bottom: 25px;
+  }
+
+  &__full-record-date,
+  &__full-amount {
+    border-bottom: 1px solid $color-gray-300 !important;
+    width: 100%;
+
+    .mobile-app-molecules-commons-view-item__body {
+      float: left;
+    }
+  }
+
+  &__amount-container {
+    display: flex;
+    justify-content: flex-end;
+    color: $color-blue-800;
+    font-weight: bold;
+    &__symbol {
+      margin-right: $base-size;
+    }
+  }
+
+  &__full-amount {
+    margin-bottom: 50px;
+    .mobile-app-molecules-commons-view-item__body {
+      float: right;
+    }
+  }
+
+  .mobile-app-molecules-commons-view-item__body {
+    position: relative;
+  }
+
+  &__inner-spinner {
+    .commons-spinner {
+      top: 64px !important;
+    }
+
+    .slds-spinner_container {
+      top: unset;
+      right: unset;
+      bottom: unset;
+      left: unset;
+    }
+
+    .commons-spinner.slds-spinner_container_low {
+      position: relative;
+    }
+
+    .mobile-app-atoms-label__control {
+      min-height: 110px;
+    }
+  }
+}
+
+.mobile-app-molecules-commons-file-preview__icon {
+  transform: translate(30%, -140%);
+  float: left;
+
+  &-absolute {
+    float: unset;
+    position: absolute;
+    left: 4px;
+    bottom: 6px;
+    transform: unset;
+  }
+}

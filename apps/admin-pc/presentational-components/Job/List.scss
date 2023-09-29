@@ -1,0 +1,34 @@
+@import '../Employee/List.scss';
+
+.admin-pc-job-list {
+  @extend .admin-pc-employee-list;
+
+  &__header-area {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+  }
+
+  &__header-area button {
+    width: 86px;
+    font-size: 13px;
+  }
+
+  &__header-area__history {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  &__header-area__history-label {
+    display: inline-block;
+  }
+
+  &__header-area__history-date_field {
+    display: inline-block;
+  }
+
+  &__header-area__history-search_button {
+    width: 86px;
+    margin-left: 5px;
+  }
+}

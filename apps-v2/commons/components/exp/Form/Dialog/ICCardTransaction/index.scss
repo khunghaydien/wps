@@ -1,0 +1,182 @@
+@import '../../../../../styles/wsp';
+
+.ts-expenses-modal-ic-card-transaction {
+  &__dialog-frame {
+    width: 900px;
+    height: 563px;
+
+    & .commons-dialog-frame__wrap .commons-dialog-frame__contents {
+      padding: 0;
+    }
+
+    &.is-link-dialog .commons-grid__body {
+      height: 304px;
+    }
+  }
+
+  &__skeleton {
+    padding: 10px 20px 20px 20px;
+  }
+
+  &__check-area {
+    display: flex;
+    padding: 10px 22px;
+    flex-wrap: wrap;
+    &-hidden-claimed {
+      padding-right: 16px;
+    }
+  }
+
+  &__search-area {
+    display: flex;
+    padding: 22px 22px 10px 22px;
+
+    &-card {
+      padding: 0 16px;
+
+      // hide card search area now because max has 3 cards
+      & .commons-fields-filterable-checkbox {
+        &__list-area {
+          min-width: 180px;
+        }
+
+        &__search-container {
+          display: none;
+        }
+      }
+    }
+
+    &-detail {
+      z-index: 1;
+    }
+
+    &-search-button {
+      width: 86px;
+      margin-left: 14px;
+    }
+
+    & .commons-fields-dropdown-custom__value {
+      padding: 5px;
+      height: 32px;
+    }
+
+    & .commons-fields-filterable-checkbox__input-checkbox {
+      height: 18px;
+    }
+  }
+
+  &__search-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 9.5%;
+    margin-right: 2%;
+    width: 10%;
+  }
+
+  &__hint {
+    padding: 0 0 10px 22px;
+    color: color('text-2');
+    font-size: 12px;
+  }
+
+  &__table {
+    .ts-exp-icon-button {
+      &:active:not(&--disabled) {
+        background: #eeecec;
+      }
+    }
+
+    &-claimed {
+      background: #afadab;
+      color: #fff;
+      padding: 3px 8px;
+      border-radius: 3px;
+    }
+
+    &-visible-icon-btn {
+      align-items: center;
+
+      .ts-exp-icon {
+        min-width: 21px;
+        min-height: 21px;
+      }
+
+      path {
+        transform: scale(0.4);
+      }
+    }
+
+    & .cell-amount {
+      width: 100%;
+      text-align: right;
+      padding-right: 20px;
+    }
+
+    & .commons-grid::after {
+      display: none;
+    }
+
+    & .commons-grid-body-row {
+      cursor: pointer;
+    }
+
+    & .commons-grid-body-row__input-wrapper {
+      cursor: pointer;
+      display: flex;
+    }
+
+    & .commons-grid__head {
+      overflow: hidden;
+      background-color: #f8f8f8;
+
+      // hide select all checkbox
+      .commons-grid__input-wrapper {
+        display: none;
+      }
+    }
+
+    & .commons-grid__body {
+      height: 276px;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    & .commons-grid__cell-head {
+      color: #666;
+
+      &:nth-child(4) {
+        text-align: right;
+        padding-right: 20px;
+      }
+    }
+
+    & .commons-grid-body-row__cell--select,
+    & .commons-grid__cell-head--checkbox {
+      flex: 0 0 70px;
+    }
+
+    & .commons-grid-body-row__cell--select {
+      border-bottom: 1px solid #d8dde6;
+    }
+
+    // description max 2 lines
+    & .commons-grid-body-row__selection {
+      outline: none;
+
+      & > :nth-last-child(2) > .commons-grid-body-row__cell-inner {
+        display: -webkit-box;
+        overflow: hidden;
+        height: auto;
+        max-height: 25px * 2;
+        padding-right: 20px;
+
+        /* autoprefixer: ignore next */
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2; /* number of lines to show */
+        line-height: 25px; /* fallback */
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots daily-summary/Footer hasLeave 1`] = `
+<div
+  className="Footer__Wrapper-sc-1ucuv06-0 dHIkeH"
+>
+  <button
+    className="Button-sc-w4yovf-0 Footer__Button-sc-1ucuv06-1 ePsLmL BZesP"
+    onClick={[Function]}
+  >
+    Cancel
+  </button>
+  <button
+    className="Button-sc-w4yovf-0 Footer__Button-sc-1ucuv06-1 ccvjrW BZesP"
+    color="primary"
+    onClick={[Function]}
+  >
+    Save
+  </button>
+  <button
+    className="Button-sc-w4yovf-0 Footer__Button-sc-1ucuv06-1 ccvjrW BZesP"
+    color="primary"
+    onClick={[Function]}
+  >
+    Save and Clock-Out
+  </button>
+</div>
+`;
+
+exports[`Storyshots daily-summary/Footer hasNoLeave 1`] = `
+<div
+  className="Footer__Wrapper-sc-1ucuv06-0 dHIkeH"
+>
+  <button
+    className="Button-sc-w4yovf-0 Footer__Button-sc-1ucuv06-1 ePsLmL BZesP"
+    onClick={[Function]}
+  >
+    Cancel
+  </button>
+  <button
+    className="Button-sc-w4yovf-0 Footer__Button-sc-1ucuv06-1 ccvjrW BZesP"
+    color="primary"
+    onClick={[Function]}
+  >
+    Save
+  </button>
+</div>
+`;
+
+exports[`Storyshots daily-summary/Footer is delegated 1`] = `
+<div
+  className="Footer__Wrapper-sc-1ucuv06-0 dHIkeH"
+>
+  <button
+    className="Button-sc-w4yovf-0 Footer__Button-sc-1ucuv06-1 ePsLmL BZesP"
+    onClick={[Function]}
+  >
+    Cancel
+  </button>
+  <button
+    className="Button-sc-w4yovf-0 Footer__Button-sc-1ucuv06-1 ccvjrW BZesP"
+    color="primary"
+    onClick={[Function]}
+  >
+    Save
+  </button>
+</div>
+`;
+
+exports[`Storyshots daily-summary/Footer read only 1`] = `
+<div
+  className="Footer__Wrapper-sc-1ucuv06-0 dHIkeH"
+>
+  <button
+    className="Button-sc-w4yovf-0 Footer__Button-sc-1ucuv06-1 ePsLmL BZesP"
+    onClick={[Function]}
+  >
+    Cancel
+  </button>
+</div>
+`;
+
+exports[`Storyshots daily-summary/Footer while loading 1`] = `
+<div
+  className="Footer__Wrapper-sc-1ucuv06-0 dHIkeH"
+/>
+`;

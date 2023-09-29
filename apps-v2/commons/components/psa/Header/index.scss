@@ -1,0 +1,56 @@
+@import '../variables.scss';
+
+.ts-psa__common-header {
+  align-items: center;
+  background-color: $color-bg-white;
+  border-bottom: 1px solid $color-border-lightest-grey;
+  display: flex;
+  height: 76px;
+  justify-content: space-between;
+  padding: 5px $container-padding;
+  right: 0;
+  left: 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  &-left {
+    color: $color-text-dark-grey;
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+    flex:4;
+    padding-right: 20px;
+  }
+
+  &__btn-area {
+    display: flex;
+  }
+
+  &-breadcrumb-link {
+    cursor: pointer;
+    color: $color-sidebar-link-text-active;
+  }
+
+  &-breadcrumb-separator {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+
+  &-breadcrumb {
+    display: block;
+    position: relative;
+    top: 2px;
+    color: $color-text-dark-grey;
+    font-size: $font-size-s + 0.0625;
+  }
+
+  &-title {
+    display: block;
+    position: relative;
+    bottom: 2px;
+    color: $color-text-dark-grey;
+    font-size: $font-size-default + 0.125;
+    font-weight: bold;
+  }
+}

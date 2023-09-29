@@ -1,0 +1,69 @@
+.ts-exp-data-grid {
+  .react-grid-Main {
+    height: 100%;
+  }
+
+  .react-grid-Container {
+    position: relative;
+    height: 100%;
+  }
+
+  .react-grid-Grid {
+    height: 100% !important;
+  }
+
+  .react-grid-Canvas {
+    height: 100% !important;
+  }
+
+  .react-grid-HeaderCell {
+    color: #53688c;
+    font-weight: normal;
+    text-align: left;
+  }
+
+  .react-grid-HeaderRow:last-child .react-grid-HeaderCell {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .react-grid-HeaderRow,
+  .react-grid-HeaderCell {
+    border: none;
+  }
+
+  .react-grid-Cell {
+    padding: 0 10px;
+    border-right: none;
+    font-weight: normal;
+    text-align: left;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .react-grid-Cell:last-child,
+  .react-grid-HeaderCell {
+    border-right: 1px solid #ddd;
+  }
+
+  &-filterable-header-cell.input {
+    border: 1px solid #dddbda;
+    border-radius: 0.25rem;
+    width: 100%;
+    transition: border 0.1s linear, background-color 0.1s linear;
+    display: inline-block;
+    padding: 0 16px;
+
+    &:focus {
+      outline: 0;
+      border-color: #1589ee !important;
+      background-color: #fff;
+      box-shadow: 0 0 3px #0070d2;
+    }
+  }
+
+  .rdg-selected {
+    border: none;
+  }
+}

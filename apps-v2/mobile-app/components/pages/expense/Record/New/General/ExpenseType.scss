@@ -1,0 +1,68 @@
+@import 'mobile-global-imports.scss';
+
+$headerHeight: 48px;
+$footerHeight: 80px;
+
+.mobile-app-pages-expense-type {
+  .main-content {
+    padding: 0 $small-size;
+    height: calc(100vh - #{($headerHeight + $footerHeight)}) !important;
+    margin-top: $headerHeight;
+
+    .mobile-app-atoms-link-list-item__item {
+      justify-content: space-between;
+      path {
+        fill: $color-primary;
+      }
+    }
+  }
+
+  &__apply.mobile-app-atoms-button__container {
+    height: $footerHeight;
+    box-shadow: 0 0 16px $color-box-shadow;
+    border-radius: 0;
+    button {
+      background-color: $color-primary;
+      border-color: $color-primary;
+    }
+
+    button,
+    button:disabled,
+    button::after {
+      border-radius: 4px;
+      width: 300px;
+      height: 44px;
+    }
+  }
+
+  &__result {
+    width: 100%;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &__item {
+    width: 100%;
+    min-height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 12px;
+    &-name {
+      color: $color-text-base;
+    }
+    &-code {
+      color: $color-text-info;
+      font-size: 12px;
+    }
+    &-check {
+      min-width: 16px;
+    }
+  }
+
+  &__has-more,
+  &__has-zero {
+    color: $color-red-800;
+    text-align: center;
+  }
+}

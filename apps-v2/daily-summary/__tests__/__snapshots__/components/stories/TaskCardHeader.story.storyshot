@@ -1,0 +1,1802 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots daily-summary/TaskCard/Header 00:00 1`] = `
+<div
+  className="TaskCard__Wrapper-sc-ef271z-0 jisfWS"
+>
+  <div
+    className="Card__Wrapper-sc-1xgkzj7-0 imIqed"
+  >
+    <div
+      className="Header-sc-yduymy-0 OxBkW"
+    >
+      <div
+        className="Header__HeaderLeft-sc-yduymy-1 llLmnl"
+      >
+        <span
+          className="Text-sc-11kuzx6-0 drbwaL"
+          size="xl"
+        >
+          Time Tracking
+        </span>
+        <div
+          className="Header__ModeSwitcher-sc-yduymy-2 dCMEsD"
+        >
+          <button
+            className="Button-sc-w4yovf-0 ccvjrW"
+            color="primary"
+            onClick={[Function]}
+          >
+            Work Duration
+          </button>
+          <button
+            className="Button-sc-w4yovf-0 ePsLmL"
+            color="default"
+            onClick={[Function]}
+          >
+            Work Report
+          </button>
+        </div>
+      </div>
+      <div
+        className="Header__ToggleButtonWrapper-sc-yduymy-3 kzoEfp"
+      >
+        <button
+          className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+          onClick={[Function]}
+          type="button"
+        >
+          <div
+            className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+            size="large"
+          >
+            Close
+          </div>
+        </button>
+      </div>
+      <div
+        className="Header__HeaderRight-sc-yduymy-4 iHqrPg"
+      >
+        <div
+          className="Header__Times-sc-yduymy-5 eTmIcc"
+        >
+          <div
+            className="Header__TimeLabel-sc-yduymy-6 iYJnOf"
+          >
+            <span
+              className="Header__Label-sc-yduymy-7 gwenXQ"
+            >
+              Total Working Hours
+            </span>
+            <span
+              className="Header__Colon-sc-yduymy-8 cRnhiq"
+            >
+              :
+            </span>
+            <span
+              className="Text-sc-11kuzx6-0 Header__Time-sc-yduymy-9 LKHHM kzoGt"
+              color="disable"
+              size="large"
+            >
+              00:00
+            </span>
+          </div>
+        </div>
+        <div
+          className="Header__AutoHoursAllocate-sc-yduymy-10 IKkNv"
+        >
+          <button
+            className="Button-sc-w4yovf-0 ccvjrW"
+            color="primary"
+            onClick={[Function]}
+          >
+            Allocate Working Hours Automatically
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-hidden={false}
+      className="rah-static rah-static--height-auto"
+      style={
+        Object {
+          "height": "auto",
+          "overflow": "visible",
+        }
+      }
+    >
+      <div
+        style={Object {}}
+      >
+        <div
+          className="TaskCard__Columns-sc-ef271z-1 fJOExE"
+        >
+          <div
+            className="TaskCard__Job-sc-ef271z-2 gWoSuv"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Job
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+          <div
+            className="TaskCard__WorkCategory-sc-ef271z-3 lkSUqX"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Work Category
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+          <div
+            className="TaskCard__TimeTracking-sc-ef271z-5 kuUuMZ"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Time Tracking
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+        </div>
+        <div
+          className="TaskCard__NoTaskMessage-sc-ef271z-7 blvjAj"
+        >
+          <span
+            className="Text-sc-11kuzx6-0 bqmfRR"
+            color="primary"
+            size="medium"
+          >
+            No Tracked Job.
+          </span>
+        </div>
+        <div
+          className="TaskCard__AddJobButtonWrapper-sc-ef271z-8 fAOljC"
+        >
+          <button
+            className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            <test-file-stub
+              aria-hidden={true}
+              className="Icons__Icon-sc-cal846-0 kTRlpK LinkButton__Icon-sc-1fk5ge7-2 kEGlhx"
+            />
+            <div
+              className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+              size="large"
+            >
+              Add a Job
+            </div>
+          </button>
+          <div
+            className="TaskCard__TooltipWrapper-sc-ef271z-9 cpfnex"
+          >
+            <div
+              className="TaskCard__TotalMessageWrapper-sc-ef271z-10 cCgCYp"
+            >
+              <div
+                className="TaskCard__MarginRight-sc-ef271z-12 cCeqaC"
+                value="4"
+              >
+                <span
+                  className="Text-sc-11kuzx6-0 NTmDY"
+                  size="large"
+                >
+                  Total:
+                </span>
+              </div>
+              <span
+                className="Text-sc-11kuzx6-0 TaskCard__Percentage-sc-ef271z-11 gUmiia fCWmOd"
+                color="primary"
+                size="large"
+              >
+                100%
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots daily-summary/TaskCard/Header No AutoWorkingHourAllocation Used 1`] = `
+<div
+  className="TaskCard__Wrapper-sc-ef271z-0 jisfWS"
+>
+  <div
+    className="Card__Wrapper-sc-1xgkzj7-0 imIqed"
+  >
+    <div
+      className="Header-sc-yduymy-0 OxBkW"
+    >
+      <div
+        className="Header__HeaderLeft-sc-yduymy-1 llLmnl"
+      >
+        <span
+          className="Text-sc-11kuzx6-0 drbwaL"
+          size="xl"
+        >
+          Time Tracking
+        </span>
+        <div
+          className="Header__ModeSwitcher-sc-yduymy-2 dCMEsD"
+        >
+          <button
+            className="Button-sc-w4yovf-0 ccvjrW"
+            color="primary"
+            onClick={[Function]}
+          >
+            Work Duration
+          </button>
+          <button
+            className="Button-sc-w4yovf-0 ePsLmL"
+            color="default"
+            onClick={[Function]}
+          >
+            Work Report
+          </button>
+        </div>
+      </div>
+      <div
+        className="Header__ToggleButtonWrapper-sc-yduymy-3 kzoEfp"
+      >
+        <button
+          className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+          onClick={[Function]}
+          type="button"
+        >
+          <div
+            className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+            size="large"
+          >
+            Close
+          </div>
+        </button>
+      </div>
+      <div
+        className="Header__HeaderRight-sc-yduymy-4 iHqrPg"
+      >
+        <div
+          className="Header__Times-sc-yduymy-5 eTmIcc"
+        >
+          <div
+            className="Header__TimeLabel-sc-yduymy-6 iYJnOf"
+          >
+            <span
+              className="Header__Label-sc-yduymy-7 gwenXQ"
+            >
+              Total Working Hours
+            </span>
+            <span
+              className="Header__Colon-sc-yduymy-8 cRnhiq"
+            >
+              :
+            </span>
+            <span
+              className="Text-sc-11kuzx6-0 Header__Time-sc-yduymy-9 gUmiia kzoGt"
+              color="primary"
+              size="large"
+            >
+              01:40
+            </span>
+          </div>
+          <div
+            className="Header__TimeLabel-sc-yduymy-6 iYJnOf"
+          >
+            <span
+              className="Header__Label-sc-yduymy-7 gwenXQ"
+            >
+              Hours since Clock-In
+            </span>
+            <span
+              className="Header__Colon-sc-yduymy-8 cRnhiq"
+            >
+              :
+            </span>
+            <span
+              className="Text-sc-11kuzx6-0 Header__Time-sc-yduymy-9 gUmiia kzoGt"
+              color="primary"
+              size="large"
+            >
+              04:10
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-hidden={false}
+      className="rah-static rah-static--height-auto"
+      style={
+        Object {
+          "height": "auto",
+          "overflow": "visible",
+        }
+      }
+    >
+      <div
+        style={Object {}}
+      >
+        <div
+          className="TaskCard__Columns-sc-ef271z-1 fJOExE"
+        >
+          <div
+            className="TaskCard__Job-sc-ef271z-2 gWoSuv"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Job
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+          <div
+            className="TaskCard__WorkCategory-sc-ef271z-3 lkSUqX"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Work Category
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+          <div
+            className="TaskCard__TimeTracking-sc-ef271z-5 kuUuMZ"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Time Tracking
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+        </div>
+        <div
+          className="TaskCard__NoTaskMessage-sc-ef271z-7 blvjAj"
+        >
+          <span
+            className="Text-sc-11kuzx6-0 bqmfRR"
+            color="primary"
+            size="medium"
+          >
+            No Tracked Job.
+          </span>
+        </div>
+        <div
+          className="TaskCard__AddJobButtonWrapper-sc-ef271z-8 fAOljC"
+        >
+          <button
+            className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            <test-file-stub
+              aria-hidden={true}
+              className="Icons__Icon-sc-cal846-0 kTRlpK LinkButton__Icon-sc-1fk5ge7-2 kEGlhx"
+            />
+            <div
+              className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+              size="large"
+            >
+              Add a Job
+            </div>
+          </button>
+          <div
+            className="TaskCard__TooltipWrapper-sc-ef271z-9 cpfnex"
+          >
+            <div
+              className="TaskCard__TotalMessageWrapper-sc-ef271z-10 cCgCYp"
+            >
+              <div
+                className="TaskCard__MarginRight-sc-ef271z-12 cCeqaC"
+                value="4"
+              >
+                <span
+                  className="Text-sc-11kuzx6-0 NTmDY"
+                  size="large"
+                >
+                  Total:
+                </span>
+              </div>
+              <span
+                className="Text-sc-11kuzx6-0 TaskCard__Percentage-sc-ef271z-11 gUmiia fCWmOd"
+                color="primary"
+                size="large"
+              >
+                100%
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots daily-summary/TaskCard/Header No TimeTracking 1`] = `
+<div
+  className="TaskCard__Wrapper-sc-ef271z-0 jisfWS"
+>
+  <div
+    className="Card__Wrapper-sc-1xgkzj7-0 imIqed"
+  >
+    <div
+      className="Header-sc-yduymy-0 OxBkW"
+    >
+      <div
+        className="Header__HeaderLeft-sc-yduymy-1 llLmnl"
+      >
+        <span
+          className="Text-sc-11kuzx6-0 drbwaL"
+          size="xl"
+        >
+          Time Tracking
+        </span>
+        <div
+          className="Header__ModeSwitcher-sc-yduymy-2 dCMEsD"
+        >
+          <button
+            className="Button-sc-w4yovf-0 ccvjrW"
+            color="primary"
+            onClick={[Function]}
+          >
+            Work Duration
+          </button>
+          <button
+            className="Button-sc-w4yovf-0 ePsLmL"
+            color="default"
+            onClick={[Function]}
+          >
+            Work Report
+          </button>
+        </div>
+      </div>
+      <div
+        className="Header__ToggleButtonWrapper-sc-yduymy-3 kzoEfp"
+      >
+        <button
+          className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+          onClick={[Function]}
+          type="button"
+        >
+          <div
+            className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+            size="large"
+          >
+            Close
+          </div>
+        </button>
+      </div>
+      <div
+        className="Header__HeaderRight-sc-yduymy-4 iHqrPg"
+      >
+        <div
+          className="Header__Times-sc-yduymy-5 eTmIcc"
+        >
+          <div
+            className="Header__TimeLabel-sc-yduymy-6 iYJnOf"
+          >
+            <span
+              className="Header__Label-sc-yduymy-7 gwenXQ"
+            >
+              Total Working Hours
+            </span>
+            <span
+              className="Header__Colon-sc-yduymy-8 cRnhiq"
+            >
+              :
+            </span>
+            <span
+              className="Text-sc-11kuzx6-0 Header__Time-sc-yduymy-9 gUmiia kzoGt"
+              color="primary"
+              size="large"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="Header__TimeLabel-sc-yduymy-6 iYJnOf"
+          >
+            <span
+              className="Header__Label-sc-yduymy-7 gwenXQ"
+            >
+              Hours since Clock-In
+            </span>
+            <span
+              className="Header__Colon-sc-yduymy-8 cRnhiq"
+            >
+              :
+            </span>
+            <span
+              className="Text-sc-11kuzx6-0 Header__Time-sc-yduymy-9 gUmiia kzoGt"
+              color="primary"
+              size="large"
+            >
+              04:10
+            </span>
+          </div>
+        </div>
+        <div
+          className="Header__AutoHoursAllocate-sc-yduymy-10 IKkNv"
+        >
+          <button
+            className="Button-sc-w4yovf-0 ccvjrW"
+            color="primary"
+            onClick={[Function]}
+          >
+            Allocate Working Hours Automatically
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-hidden={false}
+      className="rah-static rah-static--height-auto"
+      style={
+        Object {
+          "height": "auto",
+          "overflow": "visible",
+        }
+      }
+    >
+      <div
+        style={Object {}}
+      >
+        <div
+          className="TaskCard__Columns-sc-ef271z-1 fJOExE"
+        >
+          <div
+            className="TaskCard__Job-sc-ef271z-2 gWoSuv"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Job
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+          <div
+            className="TaskCard__WorkCategory-sc-ef271z-3 lkSUqX"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Work Category
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+          <div
+            className="TaskCard__TimeTracking-sc-ef271z-5 kuUuMZ"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Time Tracking
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+        </div>
+        <div
+          className="TaskCard__NoTaskMessage-sc-ef271z-7 blvjAj"
+        >
+          <span
+            className="Text-sc-11kuzx6-0 bqmfRR"
+            color="primary"
+            size="medium"
+          >
+            No Tracked Job.
+          </span>
+        </div>
+        <div
+          className="TaskCard__AddJobButtonWrapper-sc-ef271z-8 fAOljC"
+        >
+          <button
+            className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            <test-file-stub
+              aria-hidden={true}
+              className="Icons__Icon-sc-cal846-0 kTRlpK LinkButton__Icon-sc-1fk5ge7-2 kEGlhx"
+            />
+            <div
+              className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+              size="large"
+            >
+              Add a Job
+            </div>
+          </button>
+          <div
+            className="TaskCard__TooltipWrapper-sc-ef271z-9 cpfnex"
+          >
+            <div
+              className="TaskCard__TotalMessageWrapper-sc-ef271z-10 cCgCYp"
+            >
+              <div
+                className="TaskCard__MarginRight-sc-ef271z-12 cCeqaC"
+                value="4"
+              >
+                <span
+                  className="Text-sc-11kuzx6-0 NTmDY"
+                  size="large"
+                >
+                  Total:
+                </span>
+              </div>
+              <span
+                className="Text-sc-11kuzx6-0 TaskCard__Percentage-sc-ef271z-11 gUmiia fCWmOd"
+                color="primary"
+                size="large"
+              >
+                100%
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots daily-summary/TaskCard/Header No WorkReportByJob Used 1`] = `
+<div
+  className="TaskCard__Wrapper-sc-ef271z-0 jisfWS"
+>
+  <div
+    className="Card__Wrapper-sc-1xgkzj7-0 imIqed"
+  >
+    <div
+      className="Header-sc-yduymy-0 OxBkW"
+    >
+      <div
+        className="Header__HeaderLeft-sc-yduymy-1 llLmnl"
+      >
+        <span
+          className="Text-sc-11kuzx6-0 drbwaL"
+          size="xl"
+        >
+          Time Tracking
+        </span>
+      </div>
+      <div
+        className="Header__ToggleButtonWrapper-sc-yduymy-3 kzoEfp"
+      >
+        <button
+          className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+          onClick={[Function]}
+          type="button"
+        >
+          <div
+            className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+            size="large"
+          >
+            Close
+          </div>
+        </button>
+      </div>
+      <div
+        className="Header__HeaderRight-sc-yduymy-4 iHqrPg"
+      >
+        <div
+          className="Header__Times-sc-yduymy-5 eTmIcc"
+        >
+          <div
+            className="Header__TimeLabel-sc-yduymy-6 iYJnOf"
+          >
+            <span
+              className="Header__Label-sc-yduymy-7 gwenXQ"
+            >
+              Total Working Hours
+            </span>
+            <span
+              className="Header__Colon-sc-yduymy-8 cRnhiq"
+            >
+              :
+            </span>
+            <span
+              className="Text-sc-11kuzx6-0 Header__Time-sc-yduymy-9 gUmiia kzoGt"
+              color="primary"
+              size="large"
+            >
+              01:40
+            </span>
+          </div>
+          <div
+            className="Header__TimeLabel-sc-yduymy-6 iYJnOf"
+          >
+            <span
+              className="Header__Label-sc-yduymy-7 gwenXQ"
+            >
+              Hours since Clock-In
+            </span>
+            <span
+              className="Header__Colon-sc-yduymy-8 cRnhiq"
+            >
+              :
+            </span>
+            <span
+              className="Text-sc-11kuzx6-0 Header__Time-sc-yduymy-9 gUmiia kzoGt"
+              color="primary"
+              size="large"
+            >
+              04:10
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-hidden={false}
+      className="rah-static rah-static--height-auto"
+      style={
+        Object {
+          "height": "auto",
+          "overflow": "visible",
+        }
+      }
+    >
+      <div
+        style={Object {}}
+      >
+        <div
+          className="TaskCard__Columns-sc-ef271z-1 fJOExE"
+        >
+          <div
+            className="TaskCard__Job-sc-ef271z-2 gWoSuv"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Job
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+          <div
+            className="TaskCard__WorkCategory-sc-ef271z-3 lkSUqX"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Work Category
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+          <div
+            className="TaskCard__TimeTracking-sc-ef271z-5 kuUuMZ"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Time Tracking
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+        </div>
+        <div
+          className="TaskCard__NoTaskMessage-sc-ef271z-7 blvjAj"
+        >
+          <span
+            className="Text-sc-11kuzx6-0 bqmfRR"
+            color="primary"
+            size="medium"
+          >
+            No Tracked Job.
+          </span>
+        </div>
+        <div
+          className="TaskCard__AddJobButtonWrapper-sc-ef271z-8 fAOljC"
+        >
+          <button
+            className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            <test-file-stub
+              aria-hidden={true}
+              className="Icons__Icon-sc-cal846-0 kTRlpK LinkButton__Icon-sc-1fk5ge7-2 kEGlhx"
+            />
+            <div
+              className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+              size="large"
+            >
+              Add a Job
+            </div>
+          </button>
+          <div
+            className="TaskCard__TooltipWrapper-sc-ef271z-9 cpfnex"
+          >
+            <div
+              className="TaskCard__TotalMessageWrapper-sc-ef271z-10 cCgCYp"
+            >
+              <div
+                className="TaskCard__MarginRight-sc-ef271z-12 cCeqaC"
+                value="4"
+              >
+                <span
+                  className="Text-sc-11kuzx6-0 NTmDY"
+                  size="large"
+                >
+                  Total:
+                </span>
+              </div>
+              <span
+                className="Text-sc-11kuzx6-0 TaskCard__Percentage-sc-ef271z-11 gUmiia fCWmOd"
+                color="primary"
+                size="large"
+              >
+                100%
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots daily-summary/TaskCard/Header Only TimeTracking 1`] = `
+<div
+  className="TaskCard__Wrapper-sc-ef271z-0 jisfWS"
+>
+  <div
+    className="Card__Wrapper-sc-1xgkzj7-0 imIqed"
+  >
+    <div
+      className="Header-sc-yduymy-0 OxBkW"
+    >
+      <div
+        className="Header__HeaderLeft-sc-yduymy-1 llLmnl"
+      >
+        <span
+          className="Text-sc-11kuzx6-0 drbwaL"
+          size="xl"
+        >
+          Time Tracking
+        </span>
+        <div
+          className="Header__ModeSwitcher-sc-yduymy-2 dCMEsD"
+        >
+          <button
+            className="Button-sc-w4yovf-0 ccvjrW"
+            color="primary"
+            onClick={[Function]}
+          >
+            Work Duration
+          </button>
+          <button
+            className="Button-sc-w4yovf-0 ePsLmL"
+            color="default"
+            onClick={[Function]}
+          >
+            Work Report
+          </button>
+        </div>
+      </div>
+      <div
+        className="Header__ToggleButtonWrapper-sc-yduymy-3 kzoEfp"
+      >
+        <button
+          className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+          onClick={[Function]}
+          type="button"
+        >
+          <div
+            className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+            size="large"
+          >
+            Close
+          </div>
+        </button>
+      </div>
+      <div
+        className="Header__HeaderRight-sc-yduymy-4 iHqrPg"
+      >
+        <div
+          className="Header__Times-sc-yduymy-5 eTmIcc"
+        >
+          <div
+            className="Header__TimeLabel-sc-yduymy-6 iYJnOf"
+          >
+            <span
+              className="Header__Label-sc-yduymy-7 gwenXQ"
+            >
+              Total Working Hours
+            </span>
+            <span
+              className="Header__Colon-sc-yduymy-8 cRnhiq"
+            >
+              :
+            </span>
+            <span
+              className="Text-sc-11kuzx6-0 Header__Time-sc-yduymy-9 gUmiia kzoGt"
+              color="primary"
+              size="large"
+            >
+              04:10
+            </span>
+          </div>
+        </div>
+        <div
+          className="Header__AutoHoursAllocate-sc-yduymy-10 IKkNv"
+        >
+          <button
+            className="Button-sc-w4yovf-0 ccvjrW"
+            color="primary"
+            onClick={[Function]}
+          >
+            Allocate Working Hours Automatically
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-hidden={false}
+      className="rah-static rah-static--height-auto"
+      style={
+        Object {
+          "height": "auto",
+          "overflow": "visible",
+        }
+      }
+    >
+      <div
+        style={Object {}}
+      >
+        <div
+          className="TaskCard__Columns-sc-ef271z-1 fJOExE"
+        >
+          <div
+            className="TaskCard__Job-sc-ef271z-2 gWoSuv"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Job
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+          <div
+            className="TaskCard__WorkCategory-sc-ef271z-3 lkSUqX"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Work Category
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+          <div
+            className="TaskCard__TimeTracking-sc-ef271z-5 kuUuMZ"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Time Tracking
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+        </div>
+        <div
+          className="TaskCard__NoTaskMessage-sc-ef271z-7 blvjAj"
+        >
+          <span
+            className="Text-sc-11kuzx6-0 bqmfRR"
+            color="primary"
+            size="medium"
+          >
+            No Tracked Job.
+          </span>
+        </div>
+        <div
+          className="TaskCard__AddJobButtonWrapper-sc-ef271z-8 fAOljC"
+        >
+          <button
+            className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            <test-file-stub
+              aria-hidden={true}
+              className="Icons__Icon-sc-cal846-0 kTRlpK LinkButton__Icon-sc-1fk5ge7-2 kEGlhx"
+            />
+            <div
+              className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+              size="large"
+            >
+              Add a Job
+            </div>
+          </button>
+          <div
+            className="TaskCard__TooltipWrapper-sc-ef271z-9 cpfnex"
+          >
+            <div
+              className="TaskCard__TotalMessageWrapper-sc-ef271z-10 cCgCYp"
+            >
+              <div
+                className="TaskCard__MarginRight-sc-ef271z-12 cCeqaC"
+                value="4"
+              >
+                <span
+                  className="Text-sc-11kuzx6-0 NTmDY"
+                  size="large"
+                >
+                  Total:
+                </span>
+              </div>
+              <span
+                className="Text-sc-11kuzx6-0 TaskCard__Percentage-sc-ef271z-11 gUmiia fCWmOd"
+                color="primary"
+                size="large"
+              >
+                100%
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots daily-summary/TaskCard/Header hasAttendance 1`] = `
+<div
+  className="TaskCard__Wrapper-sc-ef271z-0 jisfWS"
+>
+  <div
+    className="Card__Wrapper-sc-1xgkzj7-0 imIqed"
+  >
+    <div
+      className="Header-sc-yduymy-0 OxBkW"
+    >
+      <div
+        className="Header__HeaderLeft-sc-yduymy-1 llLmnl"
+      >
+        <span
+          className="Text-sc-11kuzx6-0 drbwaL"
+          size="xl"
+        >
+          Time Tracking
+        </span>
+        <div
+          className="Header__ModeSwitcher-sc-yduymy-2 dCMEsD"
+        >
+          <button
+            className="Button-sc-w4yovf-0 ccvjrW"
+            color="primary"
+            onClick={[Function]}
+          >
+            Work Duration
+          </button>
+          <button
+            className="Button-sc-w4yovf-0 ePsLmL"
+            color="default"
+            onClick={[Function]}
+          >
+            Work Report
+          </button>
+        </div>
+      </div>
+      <div
+        className="Header__ToggleButtonWrapper-sc-yduymy-3 kzoEfp"
+      >
+        <button
+          className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+          onClick={[Function]}
+          type="button"
+        >
+          <div
+            className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+            size="large"
+          >
+            Close
+          </div>
+        </button>
+      </div>
+      <div
+        className="Header__HeaderRight-sc-yduymy-4 iHqrPg"
+      >
+        <div
+          className="Header__Times-sc-yduymy-5 eTmIcc"
+        >
+          <div
+            className="Header__TimeLabel-sc-yduymy-6 iYJnOf"
+          >
+            <span
+              className="Header__Label-sc-yduymy-7 gwenXQ"
+            >
+              Total Working Hours
+            </span>
+            <span
+              className="Header__Colon-sc-yduymy-8 cRnhiq"
+            >
+              :
+            </span>
+            <span
+              className="Text-sc-11kuzx6-0 Header__Time-sc-yduymy-9 gUmiia kzoGt"
+              color="primary"
+              size="large"
+            >
+              07:00
+            </span>
+          </div>
+          <div
+            className="Header__TimeLabel-sc-yduymy-6 iYJnOf"
+          >
+            <span
+              className="Header__Label-sc-yduymy-7 gwenXQ"
+            >
+              Clocked Hours
+            </span>
+            <span
+              className="Header__Colon-sc-yduymy-8 cRnhiq"
+            >
+              :
+            </span>
+            <span
+              className="Text-sc-11kuzx6-0 Header__Time-sc-yduymy-9 gUmiia kzoGt"
+              color="primary"
+              size="large"
+            >
+              04:10
+            </span>
+          </div>
+        </div>
+        <div
+          className="Header__AutoHoursAllocate-sc-yduymy-10 IKkNv"
+        >
+          <button
+            className="Button-sc-w4yovf-0 ccvjrW"
+            color="primary"
+            onClick={[Function]}
+          >
+            Allocate Working Hours Automatically
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-hidden={false}
+      className="rah-static rah-static--height-auto"
+      style={
+        Object {
+          "height": "auto",
+          "overflow": "visible",
+        }
+      }
+    >
+      <div
+        style={Object {}}
+      >
+        <div
+          className="TaskCard__Columns-sc-ef271z-1 fJOExE"
+        >
+          <div
+            className="TaskCard__Job-sc-ef271z-2 gWoSuv"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Job
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+          <div
+            className="TaskCard__WorkCategory-sc-ef271z-3 lkSUqX"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Work Category
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+          <div
+            className="TaskCard__TimeTracking-sc-ef271z-5 kuUuMZ"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Time Tracking
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+        </div>
+        <div
+          className="TaskCard__NoTaskMessage-sc-ef271z-7 blvjAj"
+        >
+          <span
+            className="Text-sc-11kuzx6-0 bqmfRR"
+            color="primary"
+            size="medium"
+          >
+            No Tracked Job.
+          </span>
+        </div>
+        <div
+          className="TaskCard__AddJobButtonWrapper-sc-ef271z-8 fAOljC"
+        >
+          <button
+            className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            <test-file-stub
+              aria-hidden={true}
+              className="Icons__Icon-sc-cal846-0 kTRlpK LinkButton__Icon-sc-1fk5ge7-2 kEGlhx"
+            />
+            <div
+              className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+              size="large"
+            >
+              Add a Job
+            </div>
+          </button>
+          <div
+            className="TaskCard__TooltipWrapper-sc-ef271z-9 cpfnex"
+          >
+            <div
+              className="TaskCard__TotalMessageWrapper-sc-ef271z-10 cCgCYp"
+            >
+              <div
+                className="TaskCard__MarginRight-sc-ef271z-12 cCeqaC"
+                value="4"
+              >
+                <span
+                  className="Text-sc-11kuzx6-0 NTmDY"
+                  size="large"
+                >
+                  Total:
+                </span>
+              </div>
+              <span
+                className="Text-sc-11kuzx6-0 TaskCard__Percentage-sc-ef271z-11 gUmiia fCWmOd"
+                color="primary"
+                size="large"
+              >
+                100%
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots daily-summary/TaskCard/Header on Duty 1`] = `
+<div
+  className="TaskCard__Wrapper-sc-ef271z-0 jisfWS"
+>
+  <div
+    className="Card__Wrapper-sc-1xgkzj7-0 imIqed"
+  >
+    <div
+      className="Header-sc-yduymy-0 OxBkW"
+    >
+      <div
+        className="Header__HeaderLeft-sc-yduymy-1 llLmnl"
+      >
+        <span
+          className="Text-sc-11kuzx6-0 drbwaL"
+          size="xl"
+        >
+          Time Tracking
+        </span>
+        <div
+          className="Header__ModeSwitcher-sc-yduymy-2 dCMEsD"
+        >
+          <button
+            className="Button-sc-w4yovf-0 ccvjrW"
+            color="primary"
+            onClick={[Function]}
+          >
+            Work Duration
+          </button>
+          <button
+            className="Button-sc-w4yovf-0 ePsLmL"
+            color="default"
+            onClick={[Function]}
+          >
+            Work Report
+          </button>
+        </div>
+      </div>
+      <div
+        className="Header__ToggleButtonWrapper-sc-yduymy-3 kzoEfp"
+      >
+        <button
+          className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+          onClick={[Function]}
+          type="button"
+        >
+          <div
+            className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+            size="large"
+          >
+            Close
+          </div>
+        </button>
+      </div>
+      <div
+        className="Header__HeaderRight-sc-yduymy-4 iHqrPg"
+      >
+        <div
+          className="Header__Times-sc-yduymy-5 eTmIcc"
+        >
+          <div
+            className="Header__TimeLabel-sc-yduymy-6 iYJnOf"
+          >
+            <span
+              className="Header__Label-sc-yduymy-7 gwenXQ"
+            >
+              Total Working Hours
+            </span>
+            <span
+              className="Header__Colon-sc-yduymy-8 cRnhiq"
+            >
+              :
+            </span>
+            <span
+              className="Text-sc-11kuzx6-0 Header__Time-sc-yduymy-9 gUmiia kzoGt"
+              color="primary"
+              size="large"
+            >
+              08:20
+            </span>
+          </div>
+          <div
+            className="Header__TimeLabel-sc-yduymy-6 iYJnOf"
+          >
+            <span
+              className="Header__Label-sc-yduymy-7 gwenXQ"
+            >
+              Hours since Clock-In
+            </span>
+            <span
+              className="Header__Colon-sc-yduymy-8 cRnhiq"
+            >
+              :
+            </span>
+            <span
+              className="Text-sc-11kuzx6-0 Header__Time-sc-yduymy-9 gUmiia kzoGt"
+              color="primary"
+              size="large"
+            >
+              04:10
+            </span>
+          </div>
+        </div>
+        <div
+          className="Header__AutoHoursAllocate-sc-yduymy-10 IKkNv"
+        >
+          <button
+            className="Button-sc-w4yovf-0 ccvjrW"
+            color="primary"
+            onClick={[Function]}
+          >
+            Allocate Working Hours Automatically
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-hidden={false}
+      className="rah-static rah-static--height-auto"
+      style={
+        Object {
+          "height": "auto",
+          "overflow": "visible",
+        }
+      }
+    >
+      <div
+        style={Object {}}
+      >
+        <div
+          className="TaskCard__Columns-sc-ef271z-1 fJOExE"
+        >
+          <div
+            className="TaskCard__Job-sc-ef271z-2 gWoSuv"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Job
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+          <div
+            className="TaskCard__WorkCategory-sc-ef271z-3 lkSUqX"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Work Category
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+          <div
+            className="TaskCard__TimeTracking-sc-ef271z-5 kuUuMZ"
+          >
+            <label
+              className="TaskCard__SortLabel-sc-ef271z-14 lpaTMv"
+            >
+              <span
+                className="Text-sc-11kuzx6-0 bJVYTM"
+                color="action"
+                size="medium"
+              >
+                Time Tracking
+              </span>
+              <button
+                className="TaskCard__SortButton-sc-ef271z-15 fdTpAE"
+                onClick={[Function]}
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK TaskCard__SortArrow-sc-ef271z-16 borCka"
+                />
+              </button>
+            </label>
+          </div>
+        </div>
+        <div
+          className="TaskCard__NoTaskMessage-sc-ef271z-7 blvjAj"
+        >
+          <span
+            className="Text-sc-11kuzx6-0 bqmfRR"
+            color="primary"
+            size="medium"
+          >
+            No Tracked Job.
+          </span>
+        </div>
+        <div
+          className="TaskCard__AddJobButtonWrapper-sc-ef271z-8 fAOljC"
+        >
+          <button
+            className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            <test-file-stub
+              aria-hidden={true}
+              className="Icons__Icon-sc-cal846-0 kTRlpK LinkButton__Icon-sc-1fk5ge7-2 kEGlhx"
+            />
+            <div
+              className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+              size="large"
+            >
+              Add a Job
+            </div>
+          </button>
+          <div
+            className="TaskCard__TooltipWrapper-sc-ef271z-9 cpfnex"
+          >
+            <div
+              className="TaskCard__TotalMessageWrapper-sc-ef271z-10 cCgCYp"
+            >
+              <div
+                className="TaskCard__MarginRight-sc-ef271z-12 cCeqaC"
+                value="4"
+              >
+                <span
+                  className="Text-sc-11kuzx6-0 NTmDY"
+                  size="large"
+                >
+                  Total:
+                </span>
+              </div>
+              <span
+                className="Text-sc-11kuzx6-0 TaskCard__Percentage-sc-ef271z-11 gUmiia fCWmOd"
+                color="primary"
+                size="large"
+              >
+                100%
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

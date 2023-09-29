@@ -1,0 +1,61 @@
+.ts-route-map {
+  margin-bottom: 8px;
+
+  &__station {
+    padding: 4px 0;
+    margin-left: 6px;
+    border: 1px solid #d8dde6;
+    background: white;
+    border-radius: 12px;
+
+    img {
+      margin-left: 6px;
+    }
+
+    &__name {
+      padding-left: 4px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    &__icon {
+      z-index: 2;
+      margin-left: 3px;
+    }
+
+    &.from {
+      background: #a5d3ff;
+    }
+  }
+
+  &__attention-icon {
+    padding: 6px 0;
+    text-align: right;
+
+    img {
+      margin-left: 1%;
+    }
+  }
+
+  &__route-info {
+    position: relative;
+    padding: 6px 0;
+
+    &__line {
+      position: absolute;
+      z-index: 1;
+      top: -20px;
+      bottom: 0;
+      left: 24px;
+      display: block;
+      overflow: hidden;
+      width: 5px;
+      height: calc(100% + 30px);
+      border-width: 5px;
+      border-color: #1c5bac;
+      border-left-style: solid;
+      text-indent: 100%;
+      white-space: nowrap;
+    }
+  }
+}

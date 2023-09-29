@@ -1,0 +1,37 @@
+@import '@commons/styles/exp/variables/colors';
+
+.ts-expenses__form-record-item-invoice {
+  margin-bottom: 20px;
+  &__radio-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 6px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    label.highlight-bg {
+      background-color: $color-text-highlight;
+    }
+  }
+
+  &__radio {
+    display: inline-block;
+    height: auto !important;
+    margin-right: 5px;
+  }
+
+  &__jct-registration-number {
+    margin-bottom: 10px;
+    position: relative;
+
+    .slds-dot-loader {
+      top: 125%;
+      left: 5%;
+      margin-left: 5px;
+    }
+  }
+}

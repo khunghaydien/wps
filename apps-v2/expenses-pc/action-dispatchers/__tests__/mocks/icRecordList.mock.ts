@@ -1,0 +1,71 @@
+const icRecordList = {
+  transitCards: [
+    {
+      records: [
+        {
+          recordId: '1276',
+          paymentDate: '2019-09-27',
+          exitStationOperator: '東京メトロ',
+          exitStationName: '末広町',
+          entryStationOperator: '東京メトロ',
+          entryStationName: '京橋',
+          category: '1',
+          amount: 165,
+        },
+        {
+          recordId: '1280',
+          paymentDate: '2019-09-28',
+          exitStationOperator: '',
+          exitStationName: '',
+          entryStationOperator: '芸陽バス',
+          entryStationName: '',
+          category: '2',
+          amount: 390,
+        },
+        {
+          recordId: '1286',
+          paymentDate: '2019-09-29',
+          exitStationOperator: '京成',
+          exitStationName: '京成上野',
+          entryStationOperator: '京成',
+          entryStationName: '空港第2ビル',
+          category: '1',
+          amount: 1235,
+        },
+        {
+          recordId: '1288',
+          paymentDate: '2019-09-29',
+          exitStationOperator: 'ＪＲ東日本',
+          exitStationName: '秋葉原',
+          entryStationOperator: 'ＪＲ東日本',
+          entryStationName: '上野',
+          category: '1',
+          amount: 133,
+        },
+        {
+          recordId: '1290',
+          paymentDate: '2019-09-29',
+          exitStationOperator: 'ＪＲ東日本',
+          exitStationName: '浜松町',
+          entryStationOperator: 'ＪＲ東日本',
+          entryStationName: '秋葉原',
+          category: '1',
+          amount: 154,
+        },
+        {
+          recordId: '1292',
+          paymentDate: '2019-09-29',
+          exitStationOperator: '東京モノレール',
+          exitStationName: '羽田空港国際線ビル',
+          entryStationOperator: '東京モノレール',
+          entryStationName: '浜松町',
+          category: '1',
+          amount: 483,
+        },
+      ],
+      cardNumber: '4',
+    },
+  ],
+};
+
+export default icRecordList;

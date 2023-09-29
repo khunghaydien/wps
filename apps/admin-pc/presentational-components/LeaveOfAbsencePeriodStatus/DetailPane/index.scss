@@ -1,0 +1,13 @@
+.admin-pc-leave-of-absence-period-status-detail-pane {
+  &__employee-name {
+    color: $color-text-pane-header-label;
+  }
+
+  &__entry-form-footer {
+    padding: 8px 0 0 25%;
+  }
+
+  &__entry-button {
+    min-width: 64px;
+  }
+}

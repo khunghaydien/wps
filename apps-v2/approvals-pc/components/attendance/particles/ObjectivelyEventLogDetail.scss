@@ -1,0 +1,120 @@
+.approvals-pc-objective-detail-list-pane-detail-table-row {
+  display: flex;
+  min-height: 30px;
+  border-bottom: 1px solid $color-border-default;
+  background-color: #fff;
+
+  &__item {
+    &:last-child {
+      border-right: none;
+    }
+
+    border-right: 1px solid $color-border-default;
+  }
+
+  &__item-date-inner {
+    display: flex;
+    min-height: 29px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 8px;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__content {
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+
+  &__empty-content {
+    display: flex;
+  }
+}
+
+.approvals-pc-objective-detail-list-pane-detail-table-row-item {
+  display: flex;
+  min-height: 30px;
+
+  &__item {
+    display: flex;
+    min-height: 30px;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  &__item-comment {
+    min-width: 0;
+  }
+
+  &__item--date,
+  &__item--attendance,
+  &__item--timeOut,
+  &__item--enteringReason,
+  &__item--leavingReason,
+  &__item--leavingLog,
+  &__item--enterLog {
+    padding-left: 0;
+    border-right: 1px solid $color-border-default;
+  }
+
+  &__item:last-child {
+    border-right: none;
+  }
+
+  &__item--date,
+  &__item--attendance,
+  &__item--timeOut {
+    justify-content: center;
+  }
+
+  &__objective-date,
+  &__objective-enteringReason,
+  &__objective-leavingReason,
+  &__objective-leavingLog,
+  &__objective-enterLog {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+  }
+
+  &__objective-attendance,
+  &__objective-timeOut {
+    position: relative;
+    display: block;
+  }
+
+  &__objective--error {
+    color: red;
+  }
+
+  &__tracking-graph {
+    height: 13px;
+  }
+
+  &--is-ellipsis {
+    display: flex;
+    border-bottom: 1px dashed $color-border-default;
+  }
+
+  &--is-ellipsis &__item,
+  &--is-ellipsis &__objective-date,
+  &--is-ellipsis &__objective-attendance,
+  &--is-ellipsis &__objective-enteringReason,
+  &--is-ellipsis &__objective-leavingReason,
+  &--is-ellipsis &__objective-leavingLog,
+  &--is-ellipsis &__objective-enterLog {
+    word-break: break-all;
+  }
+
+  &--is-ellipsis br {
+    display: none;
+  }
+
+  &--is-ellipsis:last-child{
+    border-bottom: none;
+  }
+}

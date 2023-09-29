@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() /MOBILE-APP/MODULES/TRACKING/ENTITY/WORK_CATEGORIES/CLEAR 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() /MOBILE-APP/MODULES/TRACKING/ENTITY/WORK_CATEGORIES/FETCH_SUCCESS 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"code\\": \\"7\\",
++     \\"id\\": \\"a1G2v000003z0jkEAA\\",
++     \\"name\\": \\"イベント\\",
++   },
++   Object {
++     \\"code\\": \\"4\\",
++     \\"id\\": \\"a1G2v000003yt73EAA\\",
++     \\"name\\": \\"研修\\",
++   },
++   Object {
++     \\"code\\": \\"1\\",
++     \\"id\\": \\"a1G2v000003yt6oEAA\\",
++     \\"name\\": \\"コーディング\\",
++   },
++   Object {
++     \\"code\\": \\"2\\",
++     \\"id\\": \\"a1G2v000003yt6tEAA\\",
++     \\"name\\": \\"ミーティング\\",
++   },
++   Object {
++     \\"code\\": \\"3\\",
++     \\"id\\": \\"a1G2v000003yt6yEAA\\",
++     \\"name\\": \\"レビュー\\",
++   },
++   Object {
++     \\"code\\": \\"5\\",
++     \\"id\\": \\"a1G2v000003yt78EAA\\",
++     \\"name\\": \\"リクルーティング\\",
++   },
++   Object {
++     \\"code\\": \\"6\\",
++     \\"id\\": \\"a1G2v000003z0C2EAI\\",
++     \\"name\\": \\"検討\\",
++   },
++   Object {
++     \\"code\\": \\"8\\",
++     \\"id\\": \\"a1G2v000004cm8PEAQ\\",
++     \\"name\\": \\"長いジョブ長いジョブ長いジョブ長いジョブ長いジョブ長いジョブ長いジョブ長いジョブ長いジョブ長いジョブ長いジョブ長いジョブ\\",
++   },
++ ]"
+`;
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected object but received array."
+`;

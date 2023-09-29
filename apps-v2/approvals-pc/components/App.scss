@@ -1,0 +1,54 @@
+.ts-container {
+  min-width: 1024px;
+}
+
+.ts-approval {
+  &__contents {
+    overflow: hidden;
+    height: 100%;
+    background-color: #fff;
+
+    & .commons-global-header {
+      height: 45px;
+      padding-top: 3px;
+
+      &__icon {
+        svg {
+          width: 44px;
+          height: 44px;
+        }
+      }
+    }
+  }
+  &__header {
+    &__tab {
+      display: flex;
+      .tab {
+        > a > span:nth-of-type(1) {
+          max-width: 12.5vw;
+          display: -webkit-box;
+          overflow: hidden;
+          height: auto;
+          word-break: break-word;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          line-height: 22px;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+}
+.ts-approval-legal-agreement-tab {
+  > div > a > span:nth-of-type(1) {
+    max-width: 12.5vw;
+    display: -webkit-box;
+    overflow: hidden;
+    height: auto;
+    word-break: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 22px;
+    text-overflow: ellipsis;
+  }
+}

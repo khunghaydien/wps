@@ -1,0 +1,80 @@
+.db-tool-record-table {
+  .rt-table {
+    overflow: initial;
+  }
+  .rt-thead.-header {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+  }
+
+  .rt-tbody {
+    background-color: white;
+
+    .rt-td {
+      text-align: center;
+    }
+
+    .isSelected-highlight {
+      background-color: #dbecfa;
+    }
+
+    .isDeleted-highlight {
+      background-color: grey;
+
+      .rt-td {
+        pointer-events: none;
+      }
+
+      input {
+        pointer-events: auto;
+      }
+    }
+
+    .isEditable-highlight,
+    .addedRow-isEditable-highlight {
+      background-color: lightBlue;
+
+      &.isModified-highlight {
+        background-color: lightyellow;
+      }
+    }
+
+    .navigatable-highlight {
+      text-decoration: underline;
+
+      &:hover {
+        color: blue;
+        cursor: pointer;
+      }
+    }
+  }
+
+  section {
+    display: flex;
+    margin-bottom: 10px;
+
+    & > button {
+      margin-right: 2px;
+    }
+
+    .db-tool-record-table__pager {
+      align-items: flex-end;
+      margin-left: auto;
+    }
+  }
+
+  .noRecord {
+    .rt-tr-group,
+    .rt-td {
+      border: none !important;
+    }
+  }
+
+  .db-tool-record-table__pager {
+    .ts-pager-page-info {
+      margin-right: 20px;
+    }
+  }
+}

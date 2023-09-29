@@ -1,0 +1,74 @@
+@import './variables';
+
+.timesheet-pc-main-content-timesheet-heading-row {
+  $this: &;
+
+  // 全セル共通の標準スタイル設定
+  > th {
+    overflow: hidden;
+    height: 34px;
+    background-color: #f4f6f9;
+    color: $color-text-modest;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+
+    tfoot & {
+      text-indent: -99999px;
+    }
+  }
+
+  // thead, tbody, tfootに共通する設定の適用
+  @import './shared-timesheet-rows';
+
+  $this: &;
+
+  // チャートの目盛り部分
+  &__chart-scale {
+    $chartScaleUnitWidth: 40px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: $WIDTH_PX_OF_ONE_HOUR * (1 + (24 * 2) + 1);
+    cursor: ew-resize;
+    user-select: none;
+
+    tfoot & {
+      text-indent: 0;
+    }
+
+    > div {
+      flex-basis: $WIDTH_PX_OF_ONE_HOUR * 2;
+      flex-grow: 0;
+      line-height: 34px;
+    }
+  }
+
+  // 工数開閉のトグルボタン
+  &__man-hours-toggle {
+    display: inline-block;
+    width: 49px;
+    height: 25px;
+    padding: 0;
+    border: none;
+    background-color: #e7e8f1;
+    border-radius: 25px;
+    color: #54698d;
+    line-height: 25px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out;
+
+    &:hover,
+    &:active {
+      background-color: darken(#e7e8f1, 5%);
+      color: #54698d;
+    }
+
+    > img {
+      margin-left: 2px;
+      transform: rotate(-90deg);
+    }
+  }
+}

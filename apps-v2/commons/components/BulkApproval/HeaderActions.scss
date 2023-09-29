@@ -1,0 +1,60 @@
+@import '@commons/styles/wsp';
+
+.ts-bulk-approval-header-actions {
+  display: flex;
+  align-items: center;
+  margin-left: 48px;
+
+  &-actions {
+    margin-left: 16px;
+
+    button {
+      border-color: #dddbda;
+      background-color: $color-bg-lighter;
+      color: color('primary');
+      line-height: 1;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $color-bg-hover;
+      }
+    }
+  }
+
+  &-reject {
+    height: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 5px 0 0 5px;
+  }
+
+  &-approval {
+    height: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-left: 5px;
+    border-radius: 0 5px 5px 0;
+  }
+
+  @media screen and (max-width: 1440px) {
+    margin-left: 12px;
+
+    &-actions {
+      margin-left: 8px;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+    margin-left: 10px;
+
+    &-actions {
+      margin-left: 6px;
+    }
+
+    &-reject,
+    &-approval {
+      padding-right: 6px;
+      padding-left: 6px;
+    }
+  }
+}

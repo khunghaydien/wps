@@ -1,0 +1,50 @@
+.timesheet-pc-main-content-timesheet-display-field-layout-item-header {
+  $this: &;
+
+  &__header {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+
+  &__date, &__dateTime, &__time, &__number, &__decimal, &__string {
+    width: 180px;
+    min-width: 180px;
+  }
+
+  &__date--editable {
+    width: 100px;
+    min-width: 100px;
+  }
+
+  &__number--editable {
+    width: 150px;
+    min-width: 150px;
+  }
+
+  &__number--attTime {
+    width: 75px;
+    min-width: 75px;
+  }
+
+  &__string--editable {
+    width: 280px;
+    min-width: 280px;
+  }
+
+  &__string--dropdown {
+    width: 140px;
+    min-width: 140px;
+  }
+
+  &__boolean {
+    min-width: 100px;
+    width: 100px;
+  }
+
+  &__action {
+    width: 90px;
+    min-width: 90px;
+  }
+}

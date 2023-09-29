@@ -1,0 +1,14 @@
+@import '../../../admin-pc/presentational-components/Employee/Detail.scss';
+
+.admin-pc-department-detail {
+  @extend .admin-pc-employee-detail;
+
+  .admin-pc-contents-detail-pane {
+    &__base-delete {
+      margin-right: 0 !important;
+    }
+    &__base-edit {
+      display: none;
+    }
+  }
+}

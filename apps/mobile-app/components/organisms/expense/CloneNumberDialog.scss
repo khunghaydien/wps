@@ -1,0 +1,14 @@
+@import 'mobile-global-imports.scss';
+.mobile-app-organisms-expense-clone-number-dialog {
+  .mobile-app-molecules-commons-dialog__title {
+    margin: 25px 0 15px;
+    font-size: 16px;
+    font-size: $medium-size;
+    font-weight: $font-emphasis;
+    color: $color-blue-600;
+  }
+
+  .mobile-app-molecules-commons-dialog__content {
+    padding: 0 15px 30px;
+  }
+}

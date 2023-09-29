@@ -1,0 +1,178 @@
+@import "compass";
+
+$fontFamily             : "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif;
+//$fontFamily             : Helvetica, Arial, sans-serif;
+$fontSize               : 11px;
+$imgDir                 : '../img/';
+$borderColor            : #AAA;
+
+body {
+    margin          : 0px;
+    font-size       : 100%;
+}
+
+#tsfArea {
+    font-family     : $fontFamily;
+    font-size       : $fontSize;
+    color           : #000;
+    line-height     : 140%;
+}
+
+div.error-area {
+    color           : red;
+}
+
+div.verify-tabs {
+    background-color    : gray;
+    width               : 100%;
+    margin              : 0px;
+    @include clearfix;
+    > div {
+        float               : left;
+        padding             : 1px 8px;
+        margin              : 2px 0px 0px 4px;
+        background-color    : white;
+        cursor              : pointer;
+    }
+    > div.blur {
+        border-bottom       : 1px solid gray;
+    }
+    > div.focus {
+        border-bottom       : 1px solid white;
+    }
+}
+div.main-area {
+    margin              : 8px 12px;
+}
+div.verify-description {
+    margin              : 8px;
+    font-size           : 98%;
+}
+div.verify-bold {
+    font-weight         : bold;
+}
+table.verify-table {
+    border-collapse     : collapse;
+//    width               : 100%;
+    thead > tr {
+        background-color: #E7F1FF;
+    }
+    th {
+        border          : 1px solid $borderColor;
+        padding         : 0px 4px;
+    }
+    td {
+        border          : 1px solid $borderColor;
+        padding         : 0px 4px;
+        span {
+            margin-left     : 4px;
+        }
+        span.check-result {
+            margin-right    : -2px;
+        }
+    }
+    td.field-label {
+        width           : 160px;
+        white-space     : nowrap;
+    }
+    td.field-value {
+        width           : 140px;
+        word-break      : break-all;
+        padding         : 0px 4px;
+    }
+    td.day-value {
+        white-space     : nowrap;
+        word-break      : normal;
+        padding         : 0px 4px;
+    }
+    td.span-ng > span {
+        color           : red;
+        &.check-result {
+            font-weight     : bold;
+        }
+    }
+    td.span-ok > span, td.span-wa > span {
+        color           : gray;
+    }
+    td.field-check {
+        width           : 16px;
+        text-align      : center;
+        font-family     : sans-serif;
+    }
+    td.align-left {
+        text-align      : left;
+    }
+    td.align-right {
+        text-align      : right;
+    }
+    td.align-center {
+        text-align      : center;
+    }
+    tr.verify-even {
+        background-color    : #ffffff;
+    }
+    tr.verify-odd {
+        background-color    : #f3f3f3;
+    }
+    tr.empty-row {
+        height          : 8px;
+        td {
+            border-left     : none;
+            border-right    : none;
+        }
+    }
+}
+div.verify-option {
+    padding         : 8px;
+    input[type="button"] {
+        padding     : 2px 12px;
+    }
+}
+table.verify-stock {
+    border-collapse     : collapse;
+    margin-bottom       : 10px;
+    thead > tr {
+        background-color: #E7F1FF;
+    }
+    th {
+        border          : 1px solid $borderColor;
+        padding         : 0px 4px;
+        white-space     : nowrap;
+    }
+    td {
+        border          : 1px solid $borderColor;
+        padding         : 0px 4px;
+        white-space     : nowrap;
+    }
+    td.align-tag {
+        text-align      : center;
+        padding         : 0px 1px;
+        font-size       : 90%;
+        color           : #0000cd;
+    }
+    td.align-tag-ng {
+        text-align      : center;
+        padding         : 0px 1px;
+        font-size       : 90%;
+        color           : red;
+    }
+    td.tag-folk {
+        font-weight     : bold;
+    }
+    td.align-left {
+        text-align      : left;
+    }
+    td.align-right {
+        text-align      : right;
+    }
+    td.align-center {
+        text-align      : center;
+    }
+    tr.stock-even {
+        background-color    : #ffffff;
+    }
+    tr.stock-odd {
+        background-color    : #f3f3f3;
+    }
+}
+

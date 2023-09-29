@@ -1,0 +1,32 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-atoms-icon {
+  min-width: $extra-small-size;
+  min-height: $extra-small-size;
+  fill: currentColor;
+
+  @mixin size($s) {
+    width: $s;
+    height: $s;
+  }
+
+  &.x-small {
+    @include size($extra-small-size);
+  }
+
+  &.small {
+    @include size($small-size);
+  }
+
+  &.medium {
+    @include size($medium-size);
+  }
+
+  &.large {
+    @include size($large-size);
+  }
+
+  &.x-large {
+    @include size($extra-large-size);
+  }
+}

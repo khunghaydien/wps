@@ -1,0 +1,57 @@
+$sumHeight: 50px;
+
+.ts-expenses__form-records__list-items-detail {
+  border: 1px solid $color-border-default;
+
+  &__sum {
+    display: flex;
+    height: $sumHeight;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 34px;
+    color: #333;
+    line-height: $sumHeight;
+
+    &-text {
+      font-weight: bold;
+    }
+
+    &-number {
+      padding-left: 70px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+
+  & .commons-grid__head {
+    border-top: none;
+    overflow-y: visible;
+    text-align: left;
+  }
+
+  & .commons-grid__body {
+    overflow-y: auto;
+  }
+
+  & .commons-grid-body-row__cell {
+    border-bottom: none;
+  }
+
+  & .commons-grid-body-row__selection {
+    border-bottom: 1px solid $color-border-default;
+  }
+
+  & .commons-grid-formatters-currency {
+    width: 100%;
+    text-align: right;
+  }
+
+  & .commons-grid-body-row__cell-inner {
+    text-align: left;
+  }
+
+  & .commons-grid__cell-head--checkbox,
+  & .commons-grid-body-row__cell--select {
+    max-width: 25px;
+  }
+}

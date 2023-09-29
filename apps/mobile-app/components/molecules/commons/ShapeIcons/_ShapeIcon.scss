@@ -1,0 +1,41 @@
+@import 'mobile-global-imports';
+
+@mixin shape-icon() {
+  display: inline-block;
+  line-height: 1;
+}
+
+@mixin size($s) {
+  width: $s;
+  height: $s;
+}
+
+@mixin size-set {
+  &.x-small {
+    @include size($extra-small-size + unit(1));
+  }
+
+  &.small {
+    @include size($small-size + unit(2));
+  }
+
+  &.medium {
+    @include size($medium-size + unit(4));
+  }
+
+  &.large {
+    @include size($large-size + unit(8));
+  }
+
+  &.x-large {
+    @include size($extra-large-size + unit(12));
+  }
+}
+
+@mixin container-centering {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}

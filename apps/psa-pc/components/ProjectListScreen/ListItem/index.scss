@@ -1,0 +1,97 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-psa__list-item {
+  padding: $size-m;
+  margin-bottom: $size-xs;
+  background-color: $color-bg-white;
+  border-radius: $size-xs;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+
+  &:hover {
+    background-color: $color-btn-hover;
+  }
+
+  &:active {
+    background-color: $color-btn-active;
+  }
+
+  // Add space to accomodate the fixed header height (51px) + normal padding for mouse (8px)
+  &:first-child {
+    margin-top: 59px;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+    border-bottom-left-radius: $size-xs;
+    border-bottom-right-radius: $size-xs;
+  }
+
+  &__cost,
+  &__revenue {
+    display: inline-block;
+    width: 80%;
+    text-align: right;
+  }
+
+  &__status {
+    display: inline-block;
+    width: 90px;
+    padding: $size-xxs;
+    border-radius: $size-xxs;
+    text-align: center;
+  }
+
+  &__code,
+  &__title,
+  &__manager,
+  &__dept {
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    transition: all 0.3s ease-in;
+    display: inline-block;
+    max-width: calc(15vw);
+
+    &:hover {
+      white-space: break-spaces;
+      width: auto;
+    }
+  }
+
+  &__manager {
+    max-width: 130px;
+  }
+
+  &__start-date,
+  &__end-date {
+    display: inline-block !important;
+    text-align: right;
+    width: 100%;
+  }
+
+  .is-completed {
+    background: $color-status-completed;
+    color: $color-bg-white;
+  }
+
+  .is-in-progress {
+    background: $color-status-progress;
+    color: $color-bg-white;
+  }
+
+  .is-cancelled {
+    background: $color-status-cancelled;
+  }
+
+  .is-in-planning {
+    background: $color-status-planning;
+    color: $color-bg-white;
+  }
+
+  .is-in-edit {
+    border: 1px solid $color-status-cancelled;
+    background: $color-bg-white;
+  }
+}

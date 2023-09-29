@@ -1,0 +1,10 @@
+.approvals-pc-tracking-process-list-pane-detail-table {
+  position: relative;
+
+  &__scrollable {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    overflow-x: auto;
+  }
+}

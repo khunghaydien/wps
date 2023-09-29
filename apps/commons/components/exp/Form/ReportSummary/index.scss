@@ -1,0 +1,263 @@
+@import '../../../../styles/exp/variables/colors';
+@import '../../../../styles/wsp';
+
+.ts-expenses__form-report-summary {
+  min-height: 86px;
+  padding: 20px;
+
+  &__status-header {
+    min-height: 20px;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-bottom: 20px;
+  }
+
+  &__status-and-buttons {
+    margin-bottom: 20px;
+    display: flex;
+  }
+
+  &__parent-header {
+    background-color: color('background-1');
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  &__header {
+    min-height: 56px;
+    margin: 13px 20px 0 20px;
+    border-bottom: 1px solid color('border-1');
+
+    &.close-form {
+      display: flex;
+      min-height: 56px;
+      align-items: center;
+      justify-content: space-between;
+      margin: 13px 20px 0;
+      border-bottom: 0;
+    }
+
+    &-right {
+      display: flex;
+      justify-content: flex-end;
+      margin-left: auto;
+    }
+
+    &-amount-active {
+      .slds-popover_tooltip {
+        z-index: 1 !important;
+      }
+    }
+
+    &__toogle {
+      justify-content: flex-end;
+    }
+
+    & .ts-textarea-field {
+      border: 1px solid color('background-1') !important;
+      color: color('text-1');
+      font-weight: bold;
+    }
+
+    .ts-textarea-field:focus {
+      border: 1px solid $color-bg-primary !important; // #2782ed is not defined in wsp.scss
+      background-color: color('background-1') !important;
+      box-shadow: 0 0 3px color('hover-outline') !important;
+    }
+  }
+
+  // adding important to override textarea styles in SF env
+  &__header-input {
+    max-width: calc(100% - 460px);
+    padding: 0 !important;
+    //margin-right: 20px;
+    border: none;
+    background: none;
+    line-height: 1.2 !important;
+
+    &:disabled {
+      background-color: transparent !important;
+    }
+
+    &:focus {
+      border: none;
+      border-bottom: 1px solid color('border-1');
+      background: none;
+      box-shadow: none !important;
+      outline: none;
+    }
+
+    &:hover {
+      background: color('hover');
+    }
+
+    &::placeholder,
+    &::-webkit-input-placeholder {
+      color: color('text-3');
+      font-size: 24px;
+    }
+  }
+
+  &__header-amount {
+    color: color('text-3');
+
+    &-active {
+      color: color('text-1');
+      font-size: 20px;
+      line-height: 30px;
+      text-align: right;
+    }
+  }
+
+  &__toggle {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+
+    button {
+      display: inline-flex;
+      justify-content: center;
+      margin-left: 20px;
+      background-color: color('background-1');
+
+      svg.ts-exp-icon path {
+        fill: $ts-button-default-color !important;
+      }
+
+      &:disabled {
+        cursor: not-allowed;
+      }
+
+      @at-root {
+        .planner-day-main-plan-tracking-table-row__btn-draggable#{&} {
+          cursor: move;
+        }
+      }
+    }
+
+    span {
+      margin-top: 2px;
+      margin-left: 5px;
+    }
+
+    .input-feedback {
+      flex-basis: 100%;
+      font-size: 13px;
+    }
+
+    &--open {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__reportNo_actionButton {
+    align-items: center;
+
+    &.without-report-no {
+      margin-left: auto;
+    }
+  }
+
+  &__report-no {
+    display: inline-block;
+    margin-right: 16px;
+    margin-top: 6px;
+    margin-left: auto;
+  }
+
+  &__actions {
+    display: inline-block;
+    flex-direction: row-reverse;
+  }
+
+  .slds-col:last-child {
+    padding-right: 0;
+  }
+  .slds-col:nth-child(-n + 2) {
+    padding-right: 10px !important;
+  }
+
+  &__form {
+    &--open {
+      padding: 0 20px 20px;
+    }
+
+    &--close {
+      overflow: hidden;
+      max-height: 0;
+    }
+  }
+
+  &__estimated-amount-non-editable {
+    padding: 0 1rem 0 0.75rem;
+    border: 1px solid $color-bg-lighter;
+    text-align: right;
+    background-color: transparent;
+    width: 100%;
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  &__estimated-amount-editable {
+    text-align: right;
+  }
+
+  &__total-base-amount,
+  &__total-foriegn-amount {
+    padding-right: 16px;
+    margin-top: 5px;
+    color: #666;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+  }
+
+  .slds-tooltip-trigger {
+    div:focus {
+      outline: none !important;
+    }
+
+    span {
+      display: none;
+    }
+  }
+
+  &__subtotal-amount.commons-tooltip {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__cloned_report_link {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.edit-image {
+  button {
+    z-index: 1;
+    width: 28px;
+    height: 28px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+
+    &:hover {
+      background-color: $ts-button-default-focus;
+    }
+
+    &:active {
+      background-color: $color-bg-gray;
+    }
+
+    & svg {
+      margin: 0 auto;
+    }
+  }
+}

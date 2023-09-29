@@ -1,0 +1,12 @@
+.admin-pc {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: calc(100% - 42px);
+  background-color: $color-bg-pane-first;
+  font-size: $font-size-default;
+
+  .slds-input {
+    padding: 0 1rem 0 8px;
+  }
+}

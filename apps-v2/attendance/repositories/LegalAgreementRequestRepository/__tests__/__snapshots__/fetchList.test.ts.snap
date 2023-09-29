@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return legalAgreement request list. 1`] = `
+Object {
+  "availableRequestTypes": Array [
+    "Monthly",
+  ],
+  "requests": Array [],
+}
+`;

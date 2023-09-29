@@ -1,0 +1,56 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-approval-page-list {
+  .main-content-appr {
+    padding-top: 48px - 8px;
+  }
+
+  &__tools {
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    border: 0;
+    height: 64px;
+    width: 100%;
+    background-color: #fff;
+
+    &__checked-all-container {
+      margin-left: 16px;
+    }
+
+    &__select-container {
+      width: 100%;
+      margin: 16px;
+    }
+  }
+
+  &__num {
+    overflow: hidden;
+    margin-top: $base-size;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__refresh {
+    margin-right: $base-size;
+
+    &.mobile-app-atoms-icon-button {
+      align-items: center;
+    }
+  }
+
+  &__empty {
+    margin-top: 150px;
+  }
+
+  &__list {
+    height: calc(100vh - 48px);
+    padding-top: 64px;
+    padding-bottom: 144px;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+  }
+}

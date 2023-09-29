@@ -1,0 +1,58 @@
+.admin-pc-contents-detail-pane__header {
+  position: relative;
+  height: 34px;
+  background-color: $color-bg-pane-header-third;
+  color: $color-text-pane-header-third;
+  font-size: $font-size-x-large;
+
+  &-content {
+    padding-left: 18px;
+  }
+
+  &-content__button-area {
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 10px;
+  }
+
+  // TODO:ボタンの種類毎に名前をつけるか検討
+  &-content__button-area button {
+    min-width: 80px;
+    height: 28px;
+    line-height: 28px;
+
+    &:not(:last-child) {
+      margin-right: 12px;
+    }
+  }
+
+  &-content__title {
+    display: table-cell;
+    height: 36px;
+    color: #005fb2;
+    text-align: left;
+    vertical-align: middle;
+  }
+}
+
+.admin-pc-contents-detail-pane__header.admin-pc-contents-detail-pane__header-sub {
+  /* background-color: $color-bg-pane-header-sub; */
+  background-color: #c7dae2;
+  &-with-role {
+    height: 95px;
+
+    .admin-pc-contents-detail-pane__sub-role {
+      padding-bottom: 16px;
+      padding-top: 6px;
+
+      select {
+        margin-right: 5px;
+        height: 28px;
+        width: 377px;
+      }
+    }
+  }
+}

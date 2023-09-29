@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@INIT 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected object but received array."
+`;
+
+exports[`reducer() ADD_JOB_LIST_EVENT_EDIT_POPUP 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -27,6 +27,12 @@
+      \\"hasJobType\\": true,
+      \\"jobCode\\": \\"7\\",
+      \\"jobId\\": \\"a1F2v00000CwZRHEA3\\",
+      \\"jobName\\": \\"7\\",
+    },
++   Object {
++     \\"hasJobType\\": true,
++     \\"jobCode\\": \\"2\\",
++     \\"jobId\\": \\"a1F2v00000CwPQ4EAN\\",
++     \\"jobName\\": \\"▲刺身の上にタンポポを乗せる\\",
++   },
+  ]"
+`;
+
+exports[`reducer() CLEAR_EVENT_EDIT_POPUP 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() FETCH_SUCCESS_ACTIVE_JOB_LIST_EVENT_EDIT_POPUP 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"hasJobType\\": true,
++     \\"jobCode\\": \\"1\\",
++     \\"jobId\\": \\"a1F2v00000CwPPzEAN\\",
++     \\"jobName\\": \\"ピザの上にペパロニを載せる\\",
++   },
++   Object {
++     \\"hasJobType\\": true,
++     \\"jobCode\\": \\"2\\",
++     \\"jobId\\": \\"a1F2v00000CwPQ4EAN\\",
++     \\"jobName\\": \\"▲刺身の上にタンポポを乗せる\\",
++   },
++   Object {
++     \\"hasJobType\\": true,
++     \\"jobCode\\": \\"3\\",
++     \\"jobId\\": \\"a1F2v00000CwPQEEA3\\",
++     \\"jobName\\": \\"親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れ\\",
++   },
++   Object {
++     \\"hasJobType\\": true,
++     \\"jobCode\\": \\"4\\",
++     \\"jobId\\": \\"a1F2v00000CwPQJEA3\\",
++     \\"jobName\\": \\"吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。 何でも薄暗いじめじめした所でニャ\\",
++   },
++   Object {
++     \\"hasJobType\\": true,
++     \\"jobCode\\": \\"7\\",
++     \\"jobId\\": \\"a1F2v00000CwZRHEA3\\",
++     \\"jobName\\": \\"7\\",
++   },
++ ]"
+`;

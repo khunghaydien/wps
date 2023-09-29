@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected object but received null."
+`;
+
+exports[`reducer() MODULES/ENTITIES/APPROVAL/ENTITIES/ATTENDANCE/DAILY_REQUEST/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"historyList\\": Array [
++     Object {
++       \\"actorId\\": \\"actorId\\",
++       \\"actorName\\": \\"Actor Name\\",
++       \\"actorPhotoUrl\\": \\"actor-photo-url\\",
++       \\"approveTime\\": \\"2020-01-03 07:30\\",
++       \\"approverName\\": \\"Approver Name\\",
++       \\"comment\\": \\"History Comment\\",
++       \\"id\\": \\"historyId\\",
++       \\"isDelegated\\": false,
++       \\"isPending\\": false,
++       \\"status\\": \\"Approved\\",
++       \\"statusLabel\\": \\"Status Label\\",
++       \\"stepName\\": \\"Step Name\\",
++     },
++   ],
++   \\"originalRequest\\": Object {
++     \\"comment\\": \\"Comment\\",
++     \\"delegatedEmployeeName\\": \\"Delegated Employee Name Original \\",
++     \\"employeeName\\": \\"Employee Name Original \\",
++     \\"employeePhotoUrl\\": \\"employee-photo-url-original\\",
++     \\"id\\": \\"0002\\",
++     \\"remarks\\": \\"Remarks \\",
++     \\"status\\": \\"Approved\\",
++     \\"type\\": \\"\\",
++     \\"typeLabel\\": \\"typeLabel\\",
++   },
++   \\"request\\": Object {
++     \\"comment\\": \\"Comment\\",
++     \\"delegatedEmployeeName\\": \\"Delegated Employee Name\\",
++     \\"employeeName\\": \\"Employee Name\\",
++     \\"employeePhotoUrl\\": \\"employee-photo-url\\",
++     \\"id\\": \\"0001\\",
++     \\"remarks\\": \\"Remarks \\",
++     \\"status\\": \\"Approved\\",
++     \\"type\\": \\"\\",
++     \\"typeLabel\\": \\"typeLabel\\",
++   },
++ }"
+`;

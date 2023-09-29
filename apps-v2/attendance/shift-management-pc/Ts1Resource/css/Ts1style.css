@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.area * {
+    font-family         : "lucida grande",tahoma,verdana,arial,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+}
+.area {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+    width               : 100%;
+}
+.area tbody tr td {
+    padding             : 4px;
+}
+#ts1TimeArea {
+    text-align      : left;
+    vertical-align  : middle;
+    border          : 1px solid gray;
+    padding         : 4px 10px;
+    font-size       : 20px;
+    color           : #1679dd;
+}
+.pushb {
+    width           : 100%;
+    height          : 40px;
+    display         : table;
+    text-align      : center;
+    vertical-align  : middle;
+    border          : 1px solid gray;
+    cursor          : pointer;
+    position        : relative;
+}
+.pushInImg {
+    background-image    : url(../image/pushIn-s2.png);
+    background-repeat   : no-repeat;
+    background-position : center center;
+    width               : 32px;
+    height              : 32px;
+    float               : left;
+}
+.pushOutImg {
+    background-image    : url(../image/pushOut-s2.png);
+    background-repeat   : no-repeat;
+    background-position : center center;
+    width               : 32px;
+    height              : 32px;
+    float               : left;
+}
+.pushIn {
+    font-size           : 18px;
+    color               : #1679dd;
+    float               : left;
+    white-space         : nowrap;
+    margin-left         : 10px !important;
+}
+.pushOut {
+    font-size           : 18px;
+    color               : #1679dd;
+    float               : left;
+    white-space         : nowrap;
+    margin-left         : 10px !important;
+}
+.btntbl {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+    width               : 100%;
+}
+.btntbl tr td {
+    text-align          : center;
+    vertical-align      : middle;
+    position            : relative;
+    border              : 1px solid gray;
+    cursor              : pointer;
+}
+.btntbl tr td div {
+    padding             : 0px;
+    margin              : auto;
+    display             : table;
+}
+#ts1Uiblock {
+    margin              : 0;
+    padding             : 0;
+    background-color    : black;
+    left                : 0px;
+    top                 : 0px;
+    width               : 100%;
+    height              : 500px;
+    border              : 0px none;
+    position            : absolute;
+/*    display             : none; */
+    opacity             : .25; /* Standard: FF gt 1.5, Opera, Safari */
+    filter              : alpha(opacity=25); /* IE lt 8 */
+    -ms-filter          : "alpha(opacity=25)"; /* IE 8 */
+    -khtml-opacity      : .25; /* Safari 1.x */
+    -moz-opacity        : .25; /* FF lt 1.5, Netscape */
+    z-index             : 48;
+}

@@ -1,0 +1,15 @@
+.story-common-fixed-header-table {
+  &__scrollabale {
+    height: 300px;
+  }
+
+  &__column1 {
+    flex: 0 0 200px;
+    text-align: center;
+  }
+
+  &__column2 {
+    flex: 0 0 auto;
+    text-align: center;
+  }
+}

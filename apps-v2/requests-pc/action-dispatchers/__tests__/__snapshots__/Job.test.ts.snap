@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Job getJobList() get next level of job list success 1`] = `
+Array [
+  Object {
+    "payload": true,
+    "type": "MODULES/EXPENSES/DIALOG/IS_LOADING/TOGGLE",
+  },
+  Object {
+    "payload": Array [
+      Object {
+        "code": "EXPENSE_JOB",
+        "hasChildren": false,
+        "id": "a0i2v00000SSzkmAAD",
+        "name": "Expense Job",
+        "parentId": "a0i2v00000SSzknAAD",
+      },
+    ],
+    "type": "MODULES/ENTITIES/EXP/JOB/LIST_SUCCESS",
+  },
+  Object {
+    "payload": Array [
+      Array [
+        Object {
+          "code": "EXPENSE_JOB",
+          "hasChildren": false,
+          "id": "a0i2v00000SSzkmAAD",
+          "name": "Expense Job",
+          "parentId": "a0i2v00000SSzknAAD",
+        },
+      ],
+    ],
+    "type": "MODULES/REQUESTS/DIALOG/JOB_SELECT/LIST/SET",
+  },
+  Object {
+    "payload": false,
+    "type": "MODULES/EXPENSES/DIALOG/IS_LOADING/TOGGLE",
+  },
+]
+`;
+
+exports[`Job getJobSearchResult() search job success 1`] = `
+Array [
+  Object {
+    "payload": true,
+    "type": "MODULES/EXPENSES/DIALOG/IS_LOADING/TOGGLE",
+  },
+  Object {
+    "payload": Array [
+      Object {
+        "code": "GENERAL_JOB",
+        "companyId": "a0N2v00000VuxjtEAB",
+        "department": Object {
+          "code": null,
+          "name": null,
+        },
+        "departmentId": null,
+        "hasChildren": true,
+        "hierarchyParentNameList": Array [],
+        "id": "a0i2v00000SSzknAAD",
+        "isDirectCharged": true,
+        "isScopedAssignment": false,
+        "isSelectableExpense": true,
+        "isSelectableTimeTrack": true,
+        "jobOwner": Object {
+          "code": null,
+          "name": null,
+        },
+        "jobOwnerId": null,
+        "jobType": Object {
+          "code": "DEF_JOB_TYPE",
+          "name": "Default Job type",
+        },
+        "jobTypeId": "a0h2v00000W4JtpAAF",
+        "name": "General Job",
+        "name_L0": "General Job",
+        "name_L1": null,
+        "name_L2": null,
+        "parent": Object {
+          "code": null,
+          "name": null,
+        },
+        "parentId": null,
+        "validDateFrom": "2018-06-19",
+        "validDateTo": "2100-01-01",
+      },
+    ],
+    "type": "MODULES/ENTITIES/EXP/JOB/LIST_SUCCESS",
+  },
+  Object {
+    "payload": Array [
+      Object {
+        "code": "GENERAL_JOB",
+        "companyId": "a0N2v00000VuxjtEAB",
+        "department": Object {
+          "code": null,
+          "name": null,
+        },
+        "departmentId": null,
+        "hasChildren": true,
+        "hierarchyParentNameList": Array [],
+        "id": "a0i2v00000SSzknAAD",
+        "isDirectCharged": true,
+        "isScopedAssignment": false,
+        "isSelectableExpense": true,
+        "isSelectableTimeTrack": true,
+        "jobOwner": Object {
+          "code": null,
+          "name": null,
+        },
+        "jobOwnerId": null,
+        "jobType": Object {
+          "code": "DEF_JOB_TYPE",
+          "name": "Default Job type",
+        },
+        "jobTypeId": "a0h2v00000W4JtpAAF",
+        "name": "General Job",
+        "name_L0": "General Job",
+        "name_L1": null,
+        "name_L2": null,
+        "parent": Object {
+          "code": null,
+          "name": null,
+        },
+        "parentId": null,
+        "validDateFrom": "2018-06-19",
+        "validDateTo": "2100-01-01",
+      },
+    ],
+    "type": "MODULES/REQUESTS/DIALOG/JOB_SELECT/LIST/SET_SEARCH",
+  },
+  Object {
+    "payload": false,
+    "type": "MODULES/EXPENSES/DIALOG/IS_LOADING/TOGGLE",
+  },
+]
+`;
+
+exports[`Job getNextJobList() get next level of job list success 1`] = `
+Array [
+  Object {
+    "payload": true,
+    "type": "MODULES/EXPENSES/DIALOG/IS_LOADING/TOGGLE",
+  },
+  Object {
+    "payload": Array [
+      Object {
+        "code": "EXPENSE_JOB",
+        "hasChildren": false,
+        "id": "a0i2v00000SSzkmAAD",
+        "name": "Expense Job",
+        "parentId": "a0i2v00000SSzknAAD",
+      },
+    ],
+    "type": "MODULES/ENTITIES/EXP/JOB/LIST_SUCCESS",
+  },
+  Object {
+    "payload": Array [
+      Array [
+        Object {
+          "code": "EXPENSE_JOB",
+          "hasChildren": false,
+          "id": "a0i2v00000SSzkmAAD",
+          "name": "Expense Job",
+          "parentId": "a0i2v00000SSzknAAD",
+        },
+      ],
+    ],
+    "type": "MODULES/REQUESTS/DIALOG/JOB_SELECT/LIST/SET",
+  },
+  Object {
+    "payload": false,
+    "type": "MODULES/EXPENSES/DIALOG/IS_LOADING/TOGGLE",
+  },
+]
+`;

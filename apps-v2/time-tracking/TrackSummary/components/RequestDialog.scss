@@ -1,0 +1,39 @@
+.tracking-pc-request-dialog {
+  &__dialog-frame {
+    width: 580px;
+  }
+
+  &__inner {
+    padding: 40px;
+  }
+
+  &__target-wrapper {
+    display: flex;
+  }
+
+  &__target-label {
+    flex: 0 0 70px;
+    margin-bottom: 20px;
+  }
+
+  &__target-label-separator {
+    display: inline-block;
+    margin-left: 6px;
+  }
+
+  &__approver-employee {
+    display: flex;
+    align-items: center;
+  }
+
+  &__approver-employee-name {
+    font-weight: bold;
+    word-wrap: break-word;
+  }
+
+  // Override width to avoid wrapping text
+  .slds-size--3-of-12,
+  .slds-size_3-of-12 {
+    width: unset;
+  }
+}

@@ -1,0 +1,157 @@
+@import 'mobile-global-imports.scss';
+@import '../../../../../../styles/exp/variables/colors';
+@import '../../../../../../styles/wsp';
+
+.ts-expenses-modal-record-items__confirm {
+  &__dialog-frame {
+    width: 952px;
+    height: 600px;
+
+    &.commons-dialog-frame .commons-dialog-frame__contents {
+      padding: 0;
+    }
+
+    & .ts-button--default {
+      color: color('exp-primary');
+    }
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px 16px 44px;
+    border-bottom: 1px solid $color-border-default;
+
+    &-name {
+      color: $color-text-header-dark;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    &-amount {
+      color: $color-text-modest;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  &__list {
+    & .commons-grid::after {
+      background-color: #f8f8f8;
+    }
+
+    & .commons-grid__head {
+      border-top: none;
+      border-bottom: 1px solid color('border-2');
+      background-color: #f8f8f8;
+      font-size: 13px;
+
+      & .commons-grid__cell-head {
+        color: color('text-2');
+      }
+    }
+
+    & .commons-grid__body {
+      max-height: 266px;
+      color: #333;
+      overflow-y: auto;
+
+      & .commons-grid-body-row--is-browsing {
+        background-color: $ts-record-form-header-background-gray;
+      }
+    }
+
+    & .commons-grid-body-row {
+      border-bottom: 1px solid color('border-2');
+      cursor: pointer;
+
+      &__cell {
+        border-bottom: none;
+      }
+    }
+
+    & .commons-grid-body-row__cell--select,
+    & .commons-grid__cell-head--checkbox {
+      flex: 0 0 14px;
+    }
+  }
+
+  &__action {
+    padding: 8px 40px 0;
+  }
+
+  &__btn-add-row {
+    padding: 5px;
+    background-color: $color-bg-lighter;
+    color: $color-bg-primary;
+    font-weight: bold;
+    vertical-align: middle;
+
+    & .ts-icon-button__image {
+      width: 12px;
+      height: 12px;
+      margin: 0 6px 4px 0;
+    }
+  }
+
+  &__sum {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    &-amount {
+      padding: 3px 30px;
+      border-bottom: 1px solid #d8dde6;
+      color: #333;
+    }
+
+    &-text {
+      font-weight: bold;
+    }
+
+    &-number {
+      padding-left: 70px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    &-feedback {
+      padding-right: 13px;
+      color: $color-red-600;
+      line-height: 30px;
+
+      &-img {
+        margin-top: -2px;
+        margin-right: 8px;
+      }
+    }
+  }
+
+  &__warning {
+    path {
+      fill: color('error');
+    }
+  }
+
+  &__inner {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+
+    & .ts-expenses-gst-vat-area__tax-area,
+    & .ts-expenses-requests__contents__amount__exchange-rate-area {
+      min-width: 85%;
+    }
+  }
+
+  &__left {
+    width: 50%;
+  }
+
+  &__right {
+    position: relative;
+    width: 50%;
+    background-color: #f0f1f4;
+    box-shadow: -3px 0 5px rgba(0, 0, 0, 0.1);
+  }
+}

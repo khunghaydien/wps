@@ -1,0 +1,118 @@
+@import '../../../../../commons/components/psa/variables.scss';
+
+.ts-psa__project-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__drop-zone-container {
+    width: 50%;
+  }
+
+  &__dropped-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+  }
+
+  &__file-name {
+    border: 1px solid #eee;
+    background: #eee;
+    padding: 5px 10px;
+    margin: 10px;
+    color: #666;
+    max-width: 500px;
+
+    > svg {
+      margin-right: 10px;
+    }
+  }
+
+  &__file-remove-btn {
+    margin: 10px;
+    > svg {
+      margin-right: 10px;
+
+      path {
+        fill: #2782ed;
+      }
+    }
+    > span {
+      color: #2782ed;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__file-upload-btn {
+    margin: 2rem;
+
+    > button {
+      padding: 5px 32px;
+      color: white;
+      background-color: #2782ed;
+      border: 1px solid #2782ed;
+      border-radius: 5px;
+      position: relative;
+      overflow: hidden;
+    }
+  }
+
+  &__drop-zone-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    font-size: $font-size-xl;
+    padding: $size-m;
+  }
+
+  &__drop-zone-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: $size-l;
+    font-size: $font-size-default;
+    justify-content: center;
+    > a {
+      margin-left: 5px;
+    }
+  }
+
+  &__label-text-container {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+  }
+
+  &__label-text {
+    font-weight: 700;
+    font-size: $font-size-xl;
+  }
+
+  &__label-logo {
+    margin-bottom: 10px;
+  }
+}
+
+.ts-psa__project-upload__dropped-content,
+.commons-fields-dropzone.ts-psa__project-upload__drop-zone {
+  border: 2px dashed $color-border-light-grey;
+  border-radius: 15px;
+  background: $color-bg-drop-zone;
+  min-height: 300px;
+}
+
+.commons-fields-dropzone__button--file.ts-button {
+  padding: 8px 32px 24px;
+  color: $color-text-blue;
+  border-color: $color-border-blue;
+  background-color: $color-bg-drop-zone;
+
+  &:hover {
+    background-color: $color-bg-hover;
+  }
+}

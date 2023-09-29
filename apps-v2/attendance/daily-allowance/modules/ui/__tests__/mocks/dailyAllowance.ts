@@ -1,0 +1,77 @@
+import { User } from '@apps/domain/models/User';
+
+export const allowances = [
+  {
+    allowanceCode: 'wjm3',
+    allowanceId: 'a2a1y000000A8OZAA3',
+    allowanceName: 'wjm3',
+    endTime: null,
+    managementType: 'Hours',
+    order: null,
+    quantity: null,
+    startTime: null,
+    totalTime: 360,
+    isSelected: true,
+  },
+  {
+    allowanceCode: 'wjm1',
+    allowanceId: 'a2a1y000000A8OZAA1',
+    allowanceName: 'wjm1',
+    endTime: null,
+    managementType: 'Quantity',
+    order: null,
+    quantity: null,
+    startTime: null,
+    totalTime: null,
+    isSelected: false,
+  },
+  {
+    allowanceCode: 'wjm2',
+    allowanceId: 'a2a1y000000A8OZAA2',
+    allowanceName: 'wjm2',
+    endTime: null,
+    managementType: 'None',
+    order: null,
+    quantity: null,
+    startTime: null,
+    totalTime: null,
+    isSelected: false,
+  },
+  {
+    allowanceCode: 'wjm4',
+    allowanceId: 'a2a1y000000A8OZAA4',
+    allowanceName: 'wjm4',
+    endTime: null,
+    managementType: 'StartEndTime',
+    order: null,
+    quantity: null,
+    startTime: null,
+    totalTime: null,
+    isSelected: false,
+  },
+];
+
+export const selectedTarget = {
+  allowanceCode: 'wjm1',
+  allowanceId: 'a2a1y000000A8OZAA0',
+  allowanceName: 'wjm1',
+  endTime: null,
+  managementType: 'Quantity',
+  order: null,
+  quantity: null,
+  startTime: null,
+  totalTime: null,
+  isSelected: false,
+};
+
+export const user: User = {
+  id: '',
+  employeeCode: '',
+  employeeName: '',
+  employeePhotoUrl: null,
+  departmentCode: '',
+  departmentName: '',
+  title: '',
+  managerName: '',
+  isDelegated: false,
+};

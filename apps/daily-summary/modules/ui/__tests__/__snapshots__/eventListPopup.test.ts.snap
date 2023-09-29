@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() /DAILY-SUMMARY/MODULES/UI/EVENT_LIST_POPUP/CLOSE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"date\\": 2019-02-04T15:00:00.000Z,
+-   \\"isOpen\\": true,
+-   \\"left\\": 133,
+-   \\"top\\": 117,
++   \\"date\\": null,
++   \\"isOpen\\": false,
++   \\"left\\": 0,
++   \\"top\\": 0,
+  }"
+`;
+
+exports[`reducer() /DAILY-SUMMARY/MODULES/UI/EVENT_LIST_POPUP/MOVE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"date\\": 2019-02-04T15:00:00.000Z,
+-   \\"isOpen\\": true,
+-   \\"left\\": 133,
+-   \\"top\\": 117,
++   \\"date\\": null,
++   \\"isOpen\\": false,
++   \\"left\\": 400,
++   \\"top\\": 200,
+  }"
+`;
+
+exports[`reducer() /DAILY-SUMMARY/MODULES/UI/EVENT_LIST_POPUP/OPEN 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"date\\": null,
+-   \\"isOpen\\": false,
+-   \\"left\\": 0,
+-   \\"top\\": 0,
++   \\"date\\": 2019-02-04T15:00:00.000Z,
++   \\"isOpen\\": true,
++   \\"left\\": 133,
++   \\"top\\": 117,
+  }"
+`;
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"date\\": null,
++   \\"isOpen\\": false,
++   \\"left\\": 0,
++   \\"top\\": 0,
++ }"
+`;

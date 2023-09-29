@@ -1,0 +1,25 @@
+.admin-pc-managed-leave-management-list-pane {
+  overflow: auto;
+  height: 100%;
+  background: $color-bg-pane-second;
+
+  &__header {
+    height: 34px;
+    padding: 0 20px;
+    background: $color-bg-pane-header-second;
+    color: $color-text-pane-header-second;
+  }
+
+  &__header-title {
+    font-size: $font-size-x-large;
+    line-height: 34px;
+  }
+
+  &__content {
+    padding: 12px 20px;
+  }
+
+  &__search-summary-conditions {
+    margin: 0 0 0 16px;
+  }
+}

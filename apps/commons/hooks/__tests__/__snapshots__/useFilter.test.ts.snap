@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useFilter() should filter by AND-search 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Array [
+    Object {
+-     \\"code\\": \\"1\\",
+-     \\"id\\": \\"1\\",
+-     \\"name\\": \\"Development\\",
+-   },
+-   Object {
+-     \\"code\\": \\"3\\",
+-     \\"id\\": \\"3\\",
+-     \\"name\\": \\"Planner Development\\",
+-   },
+-   Object {
+      \\"code\\": \\"4\\",
+      \\"id\\": \\"4\\",
+      \\"name\\": \\"External Activities\\",
+-   },
+-   Object {
+-     \\"code\\": \\"5\\",
+-     \\"id\\": \\"5\\",
+-     \\"name\\": \\"Meeting\\",
+-   },
+-   Object {
+-     \\"code\\": \\"6\\",
+-     \\"id\\": \\"6\\",
+-     \\"name\\": \\"Expense Development\\",
+-   },
+-   Object {
+-     \\"code\\": \\"7\\",
+-     \\"id\\": \\"7\\",
+-     \\"name\\": \\"recruiting\\",
+-   },
+-   Object {
+-     \\"code\\": \\"8\\",
+-     \\"id\\": \\"8\\",
+-     \\"name\\": \\"Recruiting\\",
+-   },
+-   Object {
+-     \\"code\\": \\"9\\",
+-     \\"id\\": \\"9\\",
+-     \\"name\\": \\"Office work\\",
+-   },
+-   Object {
+-     \\"code\\": \\"10\\",
+-     \\"id\\": \\"10\\",
+-     \\"name\\": \\"External Change Management\\",
+    },
+  ]"
+`;
+
+exports[`useFilter() should filter by given terms from event handler 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -8,40 +8,10 @@
+      \\"code\\": \\"3\\",
+      \\"id\\": \\"3\\",
+      \\"name\\": \\"Planner Development\\",
+    },
+    Object {
+-     \\"code\\": \\"4\\",
+-     \\"id\\": \\"4\\",
+-     \\"name\\": \\"External Activities\\",
+-   },
+-   Object {
+-     \\"code\\": \\"5\\",
+-     \\"id\\": \\"5\\",
+-     \\"name\\": \\"Meeting\\",
+-   },
+-   Object {
+      \\"code\\": \\"6\\",
+      \\"id\\": \\"6\\",
+      \\"name\\": \\"Expense Development\\",
+-   },
+-   Object {
+-     \\"code\\": \\"7\\",
+-     \\"id\\": \\"7\\",
+-     \\"name\\": \\"recruiting\\",
+-   },
+-   Object {
+-     \\"code\\": \\"8\\",
+-     \\"id\\": \\"8\\",
+-     \\"name\\": \\"Recruiting\\",
+-   },
+-   Object {
+-     \\"code\\": \\"9\\",
+-     \\"id\\": \\"9\\",
+-     \\"name\\": \\"Office work\\",
+-   },
+-   Object {
+-     \\"code\\": \\"10\\",
+-     \\"id\\": \\"10\\",
+-     \\"name\\": \\"External Change Management\\",
+    },
+  ]"
+`;
+
+exports[`useFilter() should filter case-insensitive 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Array [
+    Object {
+-     \\"code\\": \\"1\\",
+-     \\"id\\": \\"1\\",
+-     \\"name\\": \\"Development\\",
+-   },
+-   Object {
+-     \\"code\\": \\"3\\",
+-     \\"id\\": \\"3\\",
+-     \\"name\\": \\"Planner Development\\",
+-   },
+-   Object {
+-     \\"code\\": \\"4\\",
+-     \\"id\\": \\"4\\",
+-     \\"name\\": \\"External Activities\\",
+-   },
+-   Object {
+-     \\"code\\": \\"5\\",
+-     \\"id\\": \\"5\\",
+-     \\"name\\": \\"Meeting\\",
+-   },
+-   Object {
+-     \\"code\\": \\"6\\",
+-     \\"id\\": \\"6\\",
+-     \\"name\\": \\"Expense Development\\",
+-   },
+-   Object {
+      \\"code\\": \\"7\\",
+      \\"id\\": \\"7\\",
+      \\"name\\": \\"recruiting\\",
+    },
+    Object {
+      \\"code\\": \\"8\\",
+      \\"id\\": \\"8\\",
+      \\"name\\": \\"Recruiting\\",
+-   },
+-   Object {
+-     \\"code\\": \\"9\\",
+-     \\"id\\": \\"9\\",
+-     \\"name\\": \\"Office work\\",
+-   },
+-   Object {
+-     \\"code\\": \\"10\\",
+-     \\"id\\": \\"10\\",
+-     \\"name\\": \\"External Change Management\\",
+    },
+  ]"
+`;

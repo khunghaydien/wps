@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"dailyRecordAllList\\": Array [],
++   \\"user\\": null,
++ }"
+`;
+
+exports[`reducer() TIMESHEET-PC/ENTITIES/DAILYDAILOGALLOWANCR/CLEAR 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() TIMESHEET-PC/ENTITIES/DAILYDAILOGALLOWANCR/FETCH_SUCCESS 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"dailyRecordAllList\\": Array [],
++   \\"dailyRecordAllList\\": Array [
++     Object {
++       \\"allowanceCode\\": \\"wjm3\\",
++       \\"allowanceId\\": \\"a2a1y000000A8OZAA3\\",
++       \\"allowanceName\\": \\"wjm3\\",
++       \\"endTime\\": null,
++       \\"isSelected\\": true,
++       \\"managementType\\": \\"Hours\\",
++       \\"order\\": null,
++       \\"quantity\\": null,
++       \\"startTime\\": null,
++       \\"totalTime\\": 360,
++     },
++     Object {
++       \\"allowanceCode\\": \\"wjm1\\",
++       \\"allowanceId\\": \\"a2a1y000000A8OZAA1\\",
++       \\"allowanceName\\": \\"wjm1\\",
++       \\"endTime\\": null,
++       \\"isSelected\\": false,
++       \\"managementType\\": \\"Quantity\\",
++       \\"order\\": null,
++       \\"quantity\\": null,
++       \\"startTime\\": null,
++       \\"totalTime\\": null,
++     },
++     Object {
++       \\"allowanceCode\\": \\"wjm2\\",
++       \\"allowanceId\\": \\"a2a1y000000A8OZAA2\\",
++       \\"allowanceName\\": \\"wjm2\\",
++       \\"endTime\\": null,
++       \\"isSelected\\": false,
++       \\"managementType\\": \\"None\\",
++       \\"order\\": null,
++       \\"quantity\\": null,
++       \\"startTime\\": null,
++       \\"totalTime\\": null,
++     },
++     Object {
++       \\"allowanceCode\\": \\"wjm4\\",
++       \\"allowanceId\\": \\"a2a1y000000A8OZAA4\\",
++       \\"allowanceName\\": \\"wjm4\\",
++       \\"endTime\\": null,
++       \\"isSelected\\": false,
++       \\"managementType\\": \\"StartEndTime\\",
++       \\"order\\": null,
++       \\"quantity\\": null,
++       \\"startTime\\": null,
++       \\"totalTime\\": null,
++     },
++   ],
+    \\"user\\": null,
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/ENTITIES/DAILYDAILOGALLOWANCR/SET_END_TIME 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() TIMESHEET-PC/ENTITIES/DAILYDAILOGALLOWANCR/SET_HOURS 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() TIMESHEET-PC/ENTITIES/DAILYDAILOGALLOWANCR/SET_QUANTITY 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() TIMESHEET-PC/ENTITIES/DAILYDAILOGALLOWANCR/SET_START_TIME 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() TIMESHEET-PC/ENTITIES/DAILYDAILOGALLOWANCR/SET_USER 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"dailyRecordAllList\\": Array [],
+-   \\"user\\": null,
++   \\"user\\": Object {
++     \\"departmentCode\\": \\"\\",
++     \\"departmentName\\": \\"\\",
++     \\"employeeCode\\": \\"\\",
++     \\"employeeName\\": \\"\\",
++     \\"employeePhotoUrl\\": null,
++     \\"id\\": \\"\\",
++     \\"isDelegated\\": false,
++     \\"managerName\\": \\"\\",
++     \\"title\\": \\"\\",
++   },
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/ENTITIES/DAILYDAILOGALLOWANCR/TOGGLE_SELECTION 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;

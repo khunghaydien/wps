@@ -1,0 +1,514 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetch() with resultItem / with empId 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "MOCK/AutoHoursAllocateDictRepository.fetchAll",
+  },
+  Object {
+    "payload": Object {
+      "allocateJobList": Array [
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_004",
+          "jobId": "JOB_ID_004",
+          "jobName": "JOB_NAME_004",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_007",
+          "jobId": "JOB_ID_007",
+          "jobName": "JOB_NAME_007",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_016",
+          "jobId": "JOB_ID_016",
+          "jobName": "JOB_NAME_016",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_001",
+          "jobId": "JOB_ID_001",
+          "jobName": "JOB_NAME_001",
+        },
+      ],
+      "jobList": Array [],
+    },
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-DIC-DIALOG/ENTITIES/JOB_LIST/FETCH_SUCCESS_ACTIVE_JOB_LIST",
+  },
+  Object {
+    "payload": Object {
+      "dictItems": Array [
+        Object {
+          "fieldType": "Title",
+          "internalUniqKey": "DICT_ITEM_INTERNAL_UNIQ_KEY_003",
+          "job": Object {
+            "code": "JOB_CODE_004",
+            "hasJobType": true,
+            "id": "JOB_ID_004",
+            "name": "JOB_NAME_004",
+          },
+          "key": "DICT_ITEM_ID_003",
+          "operatorType": "StartWith",
+          "priority": 1,
+          "referenceScopeType": "Individual",
+          "valueText": "MTG",
+          "workCategory": Object {
+            "workCategoryCode": "WORK_CATEGORY_CODE_005",
+            "workCategoryId": "WORK_CATEGORY_ID_005",
+            "workCategoryName": "WORK_CATEGORY_NAME_005",
+          },
+        },
+        Object {
+          "fieldType": "Title",
+          "internalUniqKey": "DICT_ITEM_INTERNAL_UNIQ_KEY_006",
+          "job": Object {
+            "code": "JOB_CODE_007",
+            "hasJobType": true,
+            "id": "JOB_ID_007",
+            "name": "JOB_NAME_007",
+          },
+          "key": "DICT_ITEM_ID_006",
+          "operatorType": "StartWith",
+          "priority": 2,
+          "referenceScopeType": "Individual",
+          "valueText": "MTG",
+          "workCategory": Object {
+            "workCategoryCode": "WORK_CATEGORY_CODE_008",
+            "workCategoryId": "WORK_CATEGORY_ID_008",
+            "workCategoryName": "WORK_CATEGORY_NAME_008",
+          },
+        },
+        Object {
+          "fieldType": "Title",
+          "internalUniqKey": "DICT_ITEM_INTERNAL_UNIQ_KEY_009",
+          "job": null,
+          "key": "DICT_ITEM_ID_009",
+          "operatorType": "StartWith",
+          "priority": 3,
+          "referenceScopeType": "Individual",
+          "valueText": "MTG",
+          "workCategory": Object {
+            "workCategoryCode": "WORK_CATEGORY_CODE_011",
+            "workCategoryId": "WORK_CATEGORY_ID_011",
+            "workCategoryName": "WORK_CATEGORY_NAME_011",
+          },
+        },
+        Object {
+          "fieldType": "Title",
+          "internalUniqKey": null,
+          "isFromResult": true,
+          "job": Object {
+            "code": "JOB_CODE_016",
+            "hasJobType": true,
+            "id": "JOB_ID_016",
+            "name": "JOB_NAME_016",
+          },
+          "key": "nanoid#002",
+          "operatorType": "Equals",
+          "priority": 4,
+          "referenceScopeType": "Individual",
+          "valueText": "EVENT_TITLE_015",
+          "workCategory": Object {
+            "workCategoryCode": "WORK_CATEGORY_CODE_017",
+            "workCategoryId": "WORK_CATEGORY_ID_017",
+            "workCategoryName": "WORK_CATEGORY_NAME_017",
+          },
+        },
+      ],
+    },
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-DIC-DIALOG/UI/ALLOCATE_DIC_LIST/INIT",
+  },
+  Object {
+    "payload": Object {
+      "allocateMethodForExceedActWorkHour": "None",
+      "allocateMethodForOverlappingEvent": "ToAll",
+      "surplusTimeRegistrationJob": Object {
+        "code": "JOB_CODE_001",
+        "hasJobType": true,
+        "id": "JOB_ID_001",
+        "name": "JOB_NAME_001",
+      },
+      "surplusTimeRegistrationWorkCategory": Object {
+        "workCategoryCode": "WORK_CATEGORY_CODE_002",
+        "workCategoryId": "WORK_CATEGORY_ID_002",
+        "workCategoryName": "WORK_CATEGORY_NAME_002",
+      },
+    },
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-DIC-DIALOG/UI/ALLOCATE_DIC_BASIC_SETTING/INIT",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`fetch() with resultItem 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "MOCK/AutoHoursAllocateDictRepository.fetchAll",
+  },
+  Object {
+    "type": "MOCK/JobPickListRepository.getJobPickList",
+  },
+  Object {
+    "payload": Object {
+      "allocateJobList": Array [
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_004",
+          "jobId": "JOB_ID_004",
+          "jobName": "JOB_NAME_004",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_007",
+          "jobId": "JOB_ID_007",
+          "jobName": "JOB_NAME_007",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_016",
+          "jobId": "JOB_ID_016",
+          "jobName": "JOB_NAME_016",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_001",
+          "jobId": "JOB_ID_001",
+          "jobName": "JOB_NAME_001",
+        },
+      ],
+      "jobList": Array [
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_012",
+          "jobId": "JOB_ID_012",
+          "jobName": "JOB_NAME_012",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_013",
+          "jobId": "JOB_ID_013",
+          "jobName": "JOB_NAME_013",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_014",
+          "jobId": "JOB_ID_014",
+          "jobName": "JOB_NAME_014",
+        },
+      ],
+    },
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-DIC-DIALOG/ENTITIES/JOB_LIST/FETCH_SUCCESS_ACTIVE_JOB_LIST",
+  },
+  Object {
+    "payload": Object {
+      "dictItems": Array [
+        Object {
+          "fieldType": "Title",
+          "internalUniqKey": "DICT_ITEM_INTERNAL_UNIQ_KEY_003",
+          "job": Object {
+            "code": "JOB_CODE_004",
+            "hasJobType": true,
+            "id": "JOB_ID_004",
+            "name": "JOB_NAME_004",
+          },
+          "key": "DICT_ITEM_ID_003",
+          "operatorType": "StartWith",
+          "priority": 1,
+          "referenceScopeType": "Individual",
+          "valueText": "MTG",
+          "workCategory": Object {
+            "workCategoryCode": "WORK_CATEGORY_CODE_005",
+            "workCategoryId": "WORK_CATEGORY_ID_005",
+            "workCategoryName": "WORK_CATEGORY_NAME_005",
+          },
+        },
+        Object {
+          "fieldType": "Title",
+          "internalUniqKey": "DICT_ITEM_INTERNAL_UNIQ_KEY_006",
+          "job": Object {
+            "code": "JOB_CODE_007",
+            "hasJobType": true,
+            "id": "JOB_ID_007",
+            "name": "JOB_NAME_007",
+          },
+          "key": "DICT_ITEM_ID_006",
+          "operatorType": "StartWith",
+          "priority": 2,
+          "referenceScopeType": "Individual",
+          "valueText": "MTG",
+          "workCategory": Object {
+            "workCategoryCode": "WORK_CATEGORY_CODE_008",
+            "workCategoryId": "WORK_CATEGORY_ID_008",
+            "workCategoryName": "WORK_CATEGORY_NAME_008",
+          },
+        },
+        Object {
+          "fieldType": "Title",
+          "internalUniqKey": "DICT_ITEM_INTERNAL_UNIQ_KEY_009",
+          "job": null,
+          "key": "DICT_ITEM_ID_009",
+          "operatorType": "StartWith",
+          "priority": 3,
+          "referenceScopeType": "Individual",
+          "valueText": "MTG",
+          "workCategory": Object {
+            "workCategoryCode": "WORK_CATEGORY_CODE_011",
+            "workCategoryId": "WORK_CATEGORY_ID_011",
+            "workCategoryName": "WORK_CATEGORY_NAME_011",
+          },
+        },
+        Object {
+          "fieldType": "Title",
+          "internalUniqKey": null,
+          "isFromResult": true,
+          "job": Object {
+            "code": "JOB_CODE_016",
+            "hasJobType": true,
+            "id": "JOB_ID_016",
+            "name": "JOB_NAME_016",
+          },
+          "key": "nanoid#001",
+          "operatorType": "Equals",
+          "priority": 4,
+          "referenceScopeType": "Individual",
+          "valueText": "EVENT_TITLE_015",
+          "workCategory": Object {
+            "workCategoryCode": "WORK_CATEGORY_CODE_017",
+            "workCategoryId": "WORK_CATEGORY_ID_017",
+            "workCategoryName": "WORK_CATEGORY_NAME_017",
+          },
+        },
+      ],
+    },
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-DIC-DIALOG/UI/ALLOCATE_DIC_LIST/INIT",
+  },
+  Object {
+    "payload": Object {
+      "allocateMethodForExceedActWorkHour": "None",
+      "allocateMethodForOverlappingEvent": "ToAll",
+      "surplusTimeRegistrationJob": Object {
+        "code": "JOB_CODE_001",
+        "hasJobType": true,
+        "id": "JOB_ID_001",
+        "name": "JOB_NAME_001",
+      },
+      "surplusTimeRegistrationWorkCategory": Object {
+        "workCategoryCode": "WORK_CATEGORY_CODE_002",
+        "workCategoryId": "WORK_CATEGORY_ID_002",
+        "workCategoryName": "WORK_CATEGORY_NAME_002",
+      },
+    },
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-DIC-DIALOG/UI/ALLOCATE_DIC_BASIC_SETTING/INIT",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`fetch() without resultItem 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "MOCK/AutoHoursAllocateDictRepository.fetchAll",
+  },
+  Object {
+    "type": "MOCK/JobPickListRepository.getJobPickList",
+  },
+  Object {
+    "payload": Object {
+      "allocateJobList": Array [
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_004",
+          "jobId": "JOB_ID_004",
+          "jobName": "JOB_NAME_004",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_007",
+          "jobId": "JOB_ID_007",
+          "jobName": "JOB_NAME_007",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_001",
+          "jobId": "JOB_ID_001",
+          "jobName": "JOB_NAME_001",
+        },
+      ],
+      "jobList": Array [
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_012",
+          "jobId": "JOB_ID_012",
+          "jobName": "JOB_NAME_012",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_013",
+          "jobId": "JOB_ID_013",
+          "jobName": "JOB_NAME_013",
+        },
+        Object {
+          "hasJobType": true,
+          "jobCode": "JOB_CODE_014",
+          "jobId": "JOB_ID_014",
+          "jobName": "JOB_NAME_014",
+        },
+      ],
+    },
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-DIC-DIALOG/ENTITIES/JOB_LIST/FETCH_SUCCESS_ACTIVE_JOB_LIST",
+  },
+  Object {
+    "payload": Object {
+      "dictItems": Array [
+        Object {
+          "fieldType": "Title",
+          "internalUniqKey": "DICT_ITEM_INTERNAL_UNIQ_KEY_003",
+          "job": Object {
+            "code": "JOB_CODE_004",
+            "hasJobType": true,
+            "id": "JOB_ID_004",
+            "name": "JOB_NAME_004",
+          },
+          "key": "DICT_ITEM_ID_003",
+          "operatorType": "StartWith",
+          "priority": 1,
+          "referenceScopeType": "Individual",
+          "valueText": "MTG",
+          "workCategory": Object {
+            "workCategoryCode": "WORK_CATEGORY_CODE_005",
+            "workCategoryId": "WORK_CATEGORY_ID_005",
+            "workCategoryName": "WORK_CATEGORY_NAME_005",
+          },
+        },
+        Object {
+          "fieldType": "Title",
+          "internalUniqKey": "DICT_ITEM_INTERNAL_UNIQ_KEY_006",
+          "job": Object {
+            "code": "JOB_CODE_007",
+            "hasJobType": true,
+            "id": "JOB_ID_007",
+            "name": "JOB_NAME_007",
+          },
+          "key": "DICT_ITEM_ID_006",
+          "operatorType": "StartWith",
+          "priority": 2,
+          "referenceScopeType": "Individual",
+          "valueText": "MTG",
+          "workCategory": Object {
+            "workCategoryCode": "WORK_CATEGORY_CODE_008",
+            "workCategoryId": "WORK_CATEGORY_ID_008",
+            "workCategoryName": "WORK_CATEGORY_NAME_008",
+          },
+        },
+        Object {
+          "fieldType": "Title",
+          "internalUniqKey": "DICT_ITEM_INTERNAL_UNIQ_KEY_009",
+          "job": null,
+          "key": "DICT_ITEM_ID_009",
+          "operatorType": "StartWith",
+          "priority": 3,
+          "referenceScopeType": "Individual",
+          "valueText": "MTG",
+          "workCategory": Object {
+            "workCategoryCode": "WORK_CATEGORY_CODE_011",
+            "workCategoryId": "WORK_CATEGORY_ID_011",
+            "workCategoryName": "WORK_CATEGORY_NAME_011",
+          },
+        },
+      ],
+    },
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-DIC-DIALOG/UI/ALLOCATE_DIC_LIST/INIT",
+  },
+  Object {
+    "payload": Object {
+      "allocateMethodForExceedActWorkHour": "None",
+      "allocateMethodForOverlappingEvent": "ToAll",
+      "surplusTimeRegistrationJob": Object {
+        "code": "JOB_CODE_001",
+        "hasJobType": true,
+        "id": "JOB_ID_001",
+        "name": "JOB_NAME_001",
+      },
+      "surplusTimeRegistrationWorkCategory": Object {
+        "workCategoryCode": "WORK_CATEGORY_CODE_002",
+        "workCategoryId": "WORK_CATEGORY_ID_002",
+        "workCategoryName": "WORK_CATEGORY_NAME_002",
+      },
+    },
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-DIC-DIALOG/UI/ALLOCATE_DIC_BASIC_SETTING/INIT",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`saveDict() error 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "errors": Array [
+        [JobIsNull: Job is not set],
+      ],
+    },
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-DIC-DIALOG/UI/ALLOCATE_DIC_LIST/ADD_VALIDATION_ERRORS",
+  },
+  Object {
+    "type": "/TIME-TRACKING/AUTO-TRACK-RESULT-DIALOG/UI/BLOCKING/ENABLE",
+  },
+  Object {
+    "payload": Object {
+      "message": "Priority 1: Job is not set",
+      "options": undefined,
+      "variant": "error",
+    },
+    "type": "COMMONS/MODULES/TOAST/SHOW",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`saveDict() success 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "/TIME-TRACKING/AUTO-HOURS-ALLOCATE-DIC-DIALOG/UI/ALLOCATE_DIC_LIST/CLEAR_VALIDATION_ERRORS",
+  },
+  Object {
+    "type": "MOCK/AutoHoursAllocateDictRepository.save",
+  },
+  Object {
+    "payload": Object {
+      "message": "Saved",
+      "options": undefined,
+      "variant": "success",
+    },
+    "type": "COMMONS/MODULES/TOAST/SHOW",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;

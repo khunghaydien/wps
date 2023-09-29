@@ -1,0 +1,28 @@
+@import 'mobile-global-imports.scss';
+
+$headerHeight: 48px;
+
+.mobile-app-pages-card-list {
+  .main-content {
+    height: calc(100vh - #{$headerHeight});
+    margin-top: $headerHeight;
+  }
+
+  &__item {
+    width: 100%;
+    min-height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &__label {
+    padding: $medium-size $small-size;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &__has-zero {
+    color: $color-red-800;
+    text-align: center;
+  }
+}

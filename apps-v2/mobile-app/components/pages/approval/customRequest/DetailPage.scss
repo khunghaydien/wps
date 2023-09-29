@@ -1,0 +1,67 @@
+@import 'mobile-global-imports.scss';
+@import '../../../../../commons/styles/exp/variables/colors';
+
+.mobile-app-pages-approval-page-custom-request-detail {
+  .main-content {
+    padding: 48px 12px 134px;
+    height: 100%;
+  }
+
+  section {
+    padding-top: 12px;
+  }
+
+  &__nav {
+    .heading-3 {
+      overflow: visible;
+    }
+  }
+
+  &__title {
+    margin-bottom: $small-size;
+    color: $color-blue-800;
+    font-size: unit(5);
+    font-weight: $font-emphasis;
+    line-height: 1;
+  }
+
+  &__history {
+    & .mobile-app-molecules-approval-history-list-item {
+      &__comment {
+        word-break: break-word;
+      }
+    }
+  }
+
+  &__blank-space {
+    height: 30px;
+  }
+
+  &__field {
+    .slds-input {
+      border: none;
+
+      .rdw-editor-toolbar {
+        display: none;
+      }
+
+      .rdw-editor-main {
+        padding: 0;
+
+        .public-DraftStyleDefault-block {
+          margin: 0;
+        }
+      }
+    }
+
+    & .mobile-app-molecules-commons-view-item {
+      &__body {
+        word-break: break-word;
+      }
+    }
+  }
+
+  &__no-file-attach {
+    font-size: 14px;
+  }
+}

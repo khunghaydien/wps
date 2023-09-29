@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Currency getRateFromId() getRateFromId success 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+  Object {
+    "payload": Object {
+      "a0S2v000016C9VgEAK": Object {
+        "2020-03-13": Object {
+          "baseCurrencyCode": null,
+          "baseCurrencyName": null,
+          "calculationRate": 0.333333,
+          "code": "324324",
+          "companyId": "a0N2v00000VuxjtEAB",
+          "currencyCode": "CNY",
+          "currencyId": "a0S2v000016C9VgEAK",
+          "currencyName": "CNY",
+          "currencyPair": "SGD_CNY",
+          "currencyPairLabel": "SGD/CNY",
+          "id": "a0s2v00000MJ5FjAAL",
+          "rate": 3,
+          "reverseRate": 0.333333,
+          "validDateFrom": "2019-06-07",
+          "validDateTo": "2022-06-30",
+        },
+      },
+    },
+    "type": "MODULES/EXPENSES/RECORD_ITEM_PANE/FOREIGN_CURRENCY/EXCHANGE_RATE/SEARCH_SUCCESS",
+  },
+]
+`;
+
+exports[`Currency searchCurrencyList() searchCurrencyList success 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Array [
+      Object {
+        "decimalPlaces": 3,
+        "id": "a0S2v000016C9VgEAK",
+        "isoCurrencyCode": "CNY",
+        "name": "CNY",
+        "name_L0": "CNY",
+        "name_L1": null,
+        "name_L2": null,
+        "symbol": "@",
+      },
+      Object {
+        "decimalPlaces": 0,
+        "id": "a0S2v000016BoRiEAK",
+        "isoCurrencyCode": "SGD",
+        "name": "Singapore Dollar",
+        "name_L0": "Singapore Dollar",
+        "name_L1": null,
+        "name_L2": null,
+        "symbol": "$S",
+      },
+    ],
+    "type": "MODULES/EXPENSES/RECORD_ITEM_PANE/FOREIGN_CURRENCY/CURRENCY/SEARCH_SUCCESS",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`Currency searchTaxTypeList() get tax type list success 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "expTypeId1": Object {
+        "2020-02-21": Array [],
+      },
+    },
+    "type": "MODULES/EXPENSES/RECORD_ITEM_PANE/TAX/SET",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "expTypeId1": Object {
+        "2020-02-21": Array [
+          Object {
+            "baseId": "a162v000007zjfgAAA",
+            "historyId": "a172v00000dML3hAAG",
+            "name": "Normal GST",
+            "rate": 77,
+          },
+          Object {
+            "baseId": "a162v000007zjfhAAA",
+            "historyId": "a172v00000a4GlvAAE",
+            "name": "Restricted GST",
+            "rate": 12,
+          },
+        ],
+      },
+    },
+    "type": "MODULES/EXPENSES/RECORD_ITEM_PANE/TAX/SEARCH_SUCCESS",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;

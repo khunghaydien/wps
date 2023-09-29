@@ -1,0 +1,1 @@
+export default 'APPROVALS-PC/ENTITIES/ATT-LEGAL-AGREEMENT' as const;

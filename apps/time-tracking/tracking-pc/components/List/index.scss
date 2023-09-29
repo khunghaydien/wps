@@ -1,0 +1,15 @@
+.tracking-pc-list {
+  height: calc(100% - 77px);
+
+  &__item-container {
+    height: calc(100% - 40px);
+    background-color: $color-bg-daytype-workday;
+    overflow-x: hidden;
+  }
+
+  &__summary-wrapper {
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 75px;
+  }
+}

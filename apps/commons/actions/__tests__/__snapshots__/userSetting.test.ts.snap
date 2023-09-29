@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getUserSetting() should handle error 1`] = `
+Array [
+  Object {
+    "type": "GET_USER_SETTING_ERROR",
+  },
+]
+`;
+
+exports[`getUserSetting() should store user setting into state 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "allowApproveExpInDiffCompany": false,
+      "allowTaxAmountChange": false,
+      "allowTaxExcludedAmount": false,
+      "allowToChangeApproverSelf": false,
+      "approver01Name": "",
+      "belongsToResourceGroup": false,
+      "companyId": "",
+      "companyName": "",
+      "costCenterCode": "",
+      "costCenterHistoryId": "",
+      "costCenterName": "",
+      "currencyCode": "",
+      "currencyDecimalPlaces": 0,
+      "currencyId": "",
+      "currencySymbol": "",
+      "departmentCode": "",
+      "departmentId": "",
+      "departmentName": "",
+      "empGroupId": "",
+      "empHistoryValidFrom": "",
+      "empHistoryValidTo": "",
+      "employeeCode": "",
+      "employeeId": "",
+      "employeeName": "",
+      "expRoundingSetting": "",
+      "expTaxRoundingSetting": undefined,
+      "id": "",
+      "jctInvoiceManagement": false,
+      "language": "en-GB",
+      "locale": "",
+      "managerName": "",
+      "name": "",
+      "organization": Object {
+        "enableErrorTracking": false,
+        "id": "",
+        "isSandbox": false,
+      },
+      "organizationSetting": undefined,
+      "photoUrl": "",
+      "useAttendance": false,
+      "useCompanyVendor": false,
+      "useExpense": false,
+      "useExpenseRequest": false,
+      "useImageQualityCheck": false,
+      "useJobSearchAndSelect": false,
+      "useMasterCardImport": false,
+      "usePersonalVendor": false,
+      "usePlanner": false,
+      "usePsa": false,
+      "useReceiptScan": false,
+      "useTimeTrackingChargeTransfer": false,
+      "useTransitManager": false,
+      "useWorkTime": false,
+      "userName": "",
+    },
+    "type": "GET_USER_SETTING",
+  },
+]
+`;

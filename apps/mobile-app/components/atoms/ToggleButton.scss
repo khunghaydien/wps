@@ -1,0 +1,135 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-atoms-toggle-button {
+  $label-width: 48px;
+  $button-width: 48px;
+  $toggle-part-size: 32px;
+  $height: 32px;
+  $min-width: $label-width + $button-width;
+
+  @mixin border-radius() {
+    border-radius: 20px;
+  }
+
+  @mixin flex-row($justiy-content) {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: $justiy-content;
+  }
+
+  @include flex-row(space-between);
+
+  position: relative;
+  width: 100%;
+  min-width: $min-width;
+  height: $height;
+
+  /**
+   * ラベル部分のスタイル
+   */
+
+  &__label {
+    @include flex-row(start-flex);
+
+    min-width: $label-width;
+    height: $height;
+    font-size: $medium-size;
+  }
+
+  &--disabled &__label {
+    color: $color-gray-300;
+  }
+
+  &--disabled &__label:hover {
+    cursor: default;
+  }
+
+  /**
+   * toggleボタンの背景のスタイル
+   */
+
+  @mixin control-variant($color) {
+    background-color: $color;
+  }
+
+  &__control--neutral {
+    @include control-variant($color-brand);
+  }
+
+  &__control {
+    @include border-radius();
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: $button-width;
+    height: $height;
+    outline: none;
+  }
+
+  &__control:hover {
+    cursor: pointer;
+  }
+
+  &--disabled &__control:hover {
+    cursor: default;
+  }
+
+  &--disabled &__control::after,
+  &--off &__control::after {
+    @include border-radius();
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.7);
+    content: ' ';
+  }
+
+  /**
+   * ブラウザ標準のチェックボックスを隠す
+   */
+
+  &__control-input {
+    display: none;
+  }
+
+  /**
+   * ◯の部分のSytle
+   */
+
+  @mixin toggle-variant($color) {
+    border: 1px solid $color;
+    color: $color;
+  }
+
+  &__control--neutral &__control-toggle {
+    @include toggle-variant($color-brand);
+  }
+
+  &__control-toggle {
+    @include border-radius();
+    @include flex-row(center);
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: $toggle-part-size;
+    height: $toggle-part-size;
+    background: #fff;
+    transition: all 150ms ease-in-out;
+  }
+
+  &--on &__control-toggle {
+    transform: translateX($toggle-part-size * 0.5);
+  }
+
+  &--off &__control-toggle {
+    transform: translateX(0);
+  }
+}

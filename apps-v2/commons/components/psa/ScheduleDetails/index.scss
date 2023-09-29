@@ -1,0 +1,79 @@
+@import '../variables';
+
+.ts-psa__schedule-details {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  &__schedule-container {
+    padding: 0 $container-padding 0 $container-padding;
+    width: 100%;
+  }
+
+  &__schedule-header {
+    display: flex;
+    position: relative;
+    width: 100%;
+
+    &__first-column {
+      color: $color-text-grey;
+      height: 48px;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    &__values {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    &__total-hours {
+      color: $color-text-grey;
+    }
+
+    &__value {
+      color: $color-text-grey;
+      padding: $container-padding;
+      text-align: center;
+      width: 100%;
+      text-transform: uppercase;
+      flex-direction: column;
+
+      &.js-is-today {
+        background-color: #fff;
+      }
+
+      &.js-is-sat {
+        color: #0090b9;
+      }
+
+      &.js-is-sun {
+        color: #ff2c35;
+      }
+    }
+  }
+
+  &__schedule-body {
+    width: 100%;
+    padding-bottom: $container-padding;
+  }
+}
+.ts-psa__resource-planner__resource-list-item__resources,
+.ts-psa__schedule-details__schedule-header__first-column {
+  width: 25%;
+}
+
+.ts-psa__resource-planner__resource-list-item__values,
+.ts-psa__schedule-details__schedule-header__values {
+  width: 85%;
+}
+
+.ts-psa__resource-planner__resource-list-item__total-hours,
+.ts-psa__schedule-details__schedule-header__total-hours,
+.ts-psa__schedule-details__schedule-header__value {
+  width: 100%;
+  padding: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}

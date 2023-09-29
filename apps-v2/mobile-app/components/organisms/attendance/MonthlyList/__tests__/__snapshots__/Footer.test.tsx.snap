@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`default() should be CancelApproval button. 1`] = `
+.c0 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid;
+  background: #fff;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2.c2.c2 {
+  margin: auto;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class=""
+  >
+    <div
+      class="mobile-app-atoms-textarea"
+    >
+      <textarea
+        class="mobile-app-atoms-textarea__textarea"
+        data-testid="mobile-app-components-organisms-attendance-monthly-list-footer_comment"
+        placeholder="Comments"
+        rows="1"
+      >
+        Comment
+      </textarea>
+    </div>
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="mobile-app-atoms-button mobile-app-atoms-button-floatable c2 mobile-app-atoms-button__container"
+    >
+      <button
+        class="mobile-app-atoms-button mobile-app-atoms-button__alert--secondary"
+        data-test-id="mobile-app-components-organisms-attendance-monthly-list-footer_send_attendance_request"
+        type="button"
+      >
+        Cancel Approval
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`default() should be CancelRequest button. 1`] = `
+.c0 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid;
+  background: #fff;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2.c2.c2 {
+  margin: auto;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class=""
+  >
+    <div
+      class="mobile-app-atoms-textarea"
+    >
+      <textarea
+        class="mobile-app-atoms-textarea__textarea"
+        data-testid="mobile-app-components-organisms-attendance-monthly-list-footer_comment"
+        placeholder="Comments"
+        rows="1"
+      >
+        Comment
+      </textarea>
+    </div>
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="mobile-app-atoms-button mobile-app-atoms-button-floatable c2 mobile-app-atoms-button__container"
+    >
+      <button
+        class="mobile-app-atoms-button mobile-app-atoms-button__alert--secondary"
+        data-test-id="mobile-app-components-organisms-attendance-monthly-list-footer_send_attendance_request"
+        type="button"
+      >
+        Cancel Request
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`default() should be Submit button. 1`] = `
+.c0 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid;
+  background: #fff;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2.c2.c2 {
+  margin: auto;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class=""
+  >
+    <div
+      class="mobile-app-atoms-textarea"
+    >
+      <textarea
+        class="mobile-app-atoms-textarea__textarea"
+        data-testid="mobile-app-components-organisms-attendance-monthly-list-footer_comment"
+        placeholder="Comments"
+        rows="1"
+      >
+        Comment
+      </textarea>
+    </div>
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="mobile-app-atoms-button mobile-app-atoms-button-floatable c2 mobile-app-atoms-button__container"
+    >
+      <button
+        class="mobile-app-atoms-button mobile-app-atoms-button__add--primary"
+        data-test-id="mobile-app-components-organisms-attendance-monthly-list-footer_send_attendance_request"
+        type="button"
+      >
+        Fix monthly work
+      </button>
+    </div>
+  </div>
+</div>
+`;

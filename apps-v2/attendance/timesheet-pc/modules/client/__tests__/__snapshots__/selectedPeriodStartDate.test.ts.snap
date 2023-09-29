@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@INIT 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected undefined but received null."
+`;
+
+exports[`reducer() TIMESHEET-PC/CLIENT/SELECTED_PERIOD_START_DATE/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- 
++ 2020-04-15"
+`;

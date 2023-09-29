@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`default() should open Dialog if messages have length. 1`] = `
+.c0 {
+  position: fixed;
+}
+
+.c1 {
+  margin: 6px 0 0;
+}
+
+.c2 {
+  padding-left: 2em;
+  list-style-type: disc;
+}
+
+<div
+  class="c0"
+>
+  <div>
+    <div
+      data-testid="content"
+    >
+      <div
+        class="c1"
+      >
+        <p>
+          There are the following notes. Are you sure to submit Attendance Request?
+        </p>
+        <ul
+          class="c2"
+        >
+          <li>
+            Message 1
+          </li>
+          <li>
+            Message 2
+          </li>
+          <li>
+            Message 3
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button
+      data-testid="left-button"
+      type="button"
+    >
+      Cancel
+    </button>
+    <button
+      data-testid="right-button"
+      type="button"
+    >
+      OK
+    </button>
+    <button
+      data-testid="close-button"
+      type="button"
+    />
+  </div>
+</div>
+`;

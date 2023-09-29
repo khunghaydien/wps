@@ -1,0 +1,32 @@
+/*
+* Definitions of z-index
+*/
+
+$zindex-floating-button: 5;
+
+// header or navigation area being sticky on the top of page
+$zindex-header: 10;
+
+// background of modal
+$zindex-modal-bg: 100;
+
+// content of modal
+$zindex-modal: 150;
+
+// error page
+$zindex-error-page: 999;
+
+// loading animation. This z-index should be used to prevent user operation.
+$zindex-loading: 1000;
+
+// common toast animation
+$zindex-common-toast: 2000;
+
+// system message
+$zindex-system-message: 3000;
+
+/* Share color variables with JavaScript */
+/* stylelint-disable */
+:export {
+  systemMessage: $zindex-system-message;
+}

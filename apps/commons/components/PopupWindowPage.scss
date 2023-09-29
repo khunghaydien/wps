@@ -1,0 +1,8 @@
+.commons-popup-window-page {
+  padding: 15px;
+  background: $color-bg-popup-window-page;
+
+  @media print {
+    padding: 15px 0;
+  }
+}

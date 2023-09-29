@@ -1,0 +1,31 @@
+.admin-pc-contents-list-pane-header {
+  &__header {
+    position: relative;
+    height: 34px;
+    background-color: $color-bg-pane-header-second;
+    color: $color-text-pane-header-second;
+    font-size: $font-size-x-large;
+  }
+
+  &__header-content {
+    padding-left: 18px;
+  }
+
+  &__header-content__title {
+    display: table-cell;
+    height: 36px;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  &__header-area {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+  }
+
+  &__new-button {
+    width: 86px;
+    font-size: 13px;
+  }
+}

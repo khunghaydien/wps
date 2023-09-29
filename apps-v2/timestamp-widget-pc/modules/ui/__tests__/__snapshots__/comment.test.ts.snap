@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @init @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"comment\\": \\"\\",
++ }"
+`;
+
+exports[`reducer() TIMESTAMP_WIDGET_COMMENT_CLEAR COMMENT_CLEAR 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"message\\": \\"test前。このメッセージが空になっていたらテスト成功\\",
++   \\"comment\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() TIMESTAMP_WIDGET_COMMENT_EDIT COMMENT_EDIT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"comment\\": \\"\\",
++   \\"comment\\": \\"testを行いました\\",
+  }"
+`;

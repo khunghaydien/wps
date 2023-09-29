@@ -1,0 +1,20 @@
+.center-column {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.playground {
+  padding: 5rem;
+  text-align: center;
+}
+
+.space-around-row {
+  display: flex;
+  width: 50em;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}

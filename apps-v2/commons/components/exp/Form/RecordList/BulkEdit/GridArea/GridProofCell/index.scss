@@ -1,0 +1,119 @@
+@import '@commons/styles/exp/variables/_colors.scss';
+
+%uploaded {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: transparent;
+
+  svg {
+    transform: scale(1.2);
+  }
+}
+
+.ts-expense__bulk-edit__proof-cell {
+  &__upload-input {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  &__uploaded-disabled {
+    @extend %uploaded;
+
+    cursor: default;
+
+    path {
+      fill: #000;
+    }
+  }
+
+  &__upload-btn svg {
+    height: 20px;
+    width: 40px;
+
+    path {
+      fill: #fff;
+      transform: translate(12px, 2px) scale(0.42);
+    }
+  }
+
+  &__receipt-modal {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+
+    &-right {
+      width: 250px;
+      right: -8%;
+      left: auto;
+      padding: 0;
+    }
+
+    &__content {
+      display: flex;
+    }
+
+    &__add-btn {
+      height: 38px;
+      width: 100%;
+      padding: 0 10px;
+      border: none;
+      text-align: left;
+      background-color: transparent;
+      color: #0070d2;
+      border-bottom: 1px solid #e3e3e3;
+
+      &:disabled {
+        color: $ts-input-field-border-gray;
+      }
+
+      &:hover:enabled {
+        background-color: $color-list-view-bg-hover;
+      }
+    }
+
+    &__uploaded-btn {
+      @extend %uploaded;
+
+      position: relative;
+
+      path {
+        fill: $ts-button-primary;
+      }
+    }
+
+    &__file {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      border-bottom: 1px solid #e3e3e3;
+
+      &-name {
+        text-align: left;
+        color: #0070d2;
+        padding-left: 0;
+        padding-right: 8px;
+        background-color: transparent;
+        border: none;
+      }
+    }
+
+    &__delete-btn {
+      width: 30px;
+      background-color: transparent;
+      border: none;
+
+      svg {
+        transform: scale(0.9);
+      }
+    }
+  }
+}

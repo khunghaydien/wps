@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App initialize should dispatch actions to display error 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "currencySymbol": "",
+      "useTimeTrackingChargeTransfer": false,
+      "useWorkTime": true,
+    },
+    "type": "GET_USER_SETTING",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": "TIME_TRACKING_CHARGE_TRANSFER_CANNOT_USE",
+      "isContinuable": false,
+      "isFunctionCantUseError": true,
+      "message": "APIエラー - No permission to use Time Tracking Charge Transfer",
+      "problem": "No permission to use Time Tracking Charge Transfer",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`App initialize should dispatch actions to initialize 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "currencySymbol": "",
+      "useTimeTrackingChargeTransfer": true,
+      "useWorkTime": true,
+    },
+    "type": "GET_USER_SETTING",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`App selectDelegatedEmployee should dispatch actions in the correct order 1`] = `
+Array [
+  Object {
+    "payload": "id",
+    "type": "COMMONS/MODULES/PROXY_EMP_INFO/SET",
+  },
+]
+`;
+
+exports[`App unselectDelegatedEmployee should dispatch actions in the correct order 1`] = `
+Array [
+  Object {
+    "type": "COMMONS/MODULES/PROXY_EMP_INFO/UNSET",
+  },
+]
+`;

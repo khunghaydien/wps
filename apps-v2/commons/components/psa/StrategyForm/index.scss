@@ -1,0 +1,152 @@
+@import '../variables.scss';
+
+.ts-psa__resource-planner {
+  &__schedule-strategy-form {
+    display: flex;
+    flex-direction: column;
+    padding: $container-padding;
+  }
+  &__schedule-strategy-form-header {
+    width: 100%;
+    padding: $container-padding;
+    background-color: $color-bg-lighter-blue;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    font-size: $font-size-l;
+    font-weight: bold;
+    color: $color-font-dark-blue;
+    border: 1px solid $color-border-light-grey;
+    border-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    &__title {
+      width: 40%;
+    }
+    &__button-area {
+      display: flex;
+      width: 60%;
+      justify-content: flex-end;
+    }
+  }
+  &__schedule-strategy-form-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: $container-padding;
+    background-color: $color-bg-white;
+    border: 1px solid $color-border-light-grey;
+    &__row {
+      width: 100%;
+    }
+    &__field {
+      display: inline-flex;
+      width: 25%;
+      flex-direction: column;
+      margin-bottom: 20px;
+      padding: 10px;
+      &.changed > .value {
+        color: $color-font-blue;
+      }
+      & > .label {
+        font-size: 12px;
+        line-height: 13px;
+        margin-bottom: 4px;
+        color: #666;
+      }
+
+      & > .value {
+        font-size: 13px;
+        color: #666;
+        line-height: 17px;
+        padding: $size-xs;
+        border-radius: 4px;
+        background-color: $color-container;
+        border: 1px solid $color-border-light-grey;
+      }
+    }
+    &__dropdown {
+      display: inline-flex;
+      width: 50%;
+      flex-direction: column;
+      margin-bottom: 20px;
+      padding: 10px;
+
+      & > .label {
+        font-size: 12px;
+        line-height: 13px;
+        margin-bottom: 4px;
+        color: #666;
+      }
+
+      & > .value {
+        font-size: 13px;
+        color: #666;
+        line-height: 17px;
+        padding: $size-xs;
+        border-radius: 4px;
+        background-color: $color-container;
+        border: 1px solid $color-border-light-grey;
+      }
+    }
+  }
+  &__work-hours-per-day {
+    display: flex;
+    &__input {
+      border-radius: 5px 0 0 5px !important;
+    }
+
+    &__dropdown {
+      width: 25%;
+      border-radius: 0 5px 5px 0;
+      border-left: 0;
+      >div>button {
+        border-radius: 0 5px 5px 0 !important;
+        border-left: 0;
+      }
+    }
+    &__dropdown__disabled {
+      width: 25%;
+      >div>button {
+        background-color: #ecebea !important;
+        border-radius: 0 5px 5px 0 !important;
+        border: 1px solid #c9c7c5;
+        border-left: 0;
+        color:black;
+      }
+    }
+  }
+
+  &__schedule-strategy-form-footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: $container-padding;
+    background-color: $color-bg-lighter-blue;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid $color-border-light-grey;
+    border-top: 0;
+  }
+
+  &__schedule-strategy-edit-schedule-button,
+  &__schedule-strategy-reset-button,
+  &__schedule-strategy-cancel-button {
+    min-width: 100px;
+    padding: 7px 20px;
+    margin-left: 15px;
+    color: $color-text-blue;
+  }
+  &__schedule-strategy-preview-button,
+  &__schedule-strategy-book-button {
+    min-width: 100px;
+    padding: 7px 20px;
+    margin-left: 15px;
+  }
+
+  &__strategy-dropdown {
+    min-height: 140px;
+  }
+  &__settings-dropdown {
+    min-height: 32px;
+  }
+}

@@ -1,0 +1,35 @@
+.commons-expandable-section {
+  &__summary-action {
+    display: block;
+    width: 100%;
+    padding: 4px 0;
+    margin: 0;
+    border: 0;
+    background: transparent;
+    text-align: left;
+  }
+
+  &__summary-action-icon {
+    transform: rotate(-90deg);
+  }
+
+  // TODO replace these with slds-is-open
+  &__content {
+    overflow: hidden;
+    height: 0;
+    padding: 8px 0 0 (0.875rem + 0.5rem);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  &--expanded &__content {
+    overflow: visible;
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &--expanded &__summary-action-icon {
+    transform: rotate(0);
+  }
+}

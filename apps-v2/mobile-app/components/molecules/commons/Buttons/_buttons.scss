@@ -1,0 +1,9 @@
+@import 'mobile-global-imports';
+
+@mixin centering() {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}

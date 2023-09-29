@@ -1,0 +1,50 @@
+@import 'mobile-global-imports.scss';
+
+.mobail-app-molecules-attendance-rest-time-item {
+  width: 100%;
+
+  &__separator-text {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 0 8px;
+  }
+
+  &__rest-reason {
+    display: flex;
+  }
+
+  &__rest-reason-list {
+    flex-grow: 1;
+  }
+
+  &__icon {
+    display: flex;
+    width: 36px;
+    min-width: 36px;
+    height: 40px;
+    align-items: center;
+    padding-left: 4px;
+    color: $color-gray-600;
+  }
+
+  &--enabled-rest-reason {
+    .mobile-app-components-molecules-attendance-att-time-select-range-field {
+      &__from-time,
+      &__to-time {
+        min-width: 80px;
+        max-width: 80px;
+        width: 80px;
+        flex-grow: 0;
+      }
+
+      &__actions {
+        flex-grow: 1;
+      }
+
+      &__actions-item:first-child {
+        flex-grow: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.mobile-app-components-organisms-attendance-att-time-list {
+  &__item {
+    display: flex;
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  &__times {
+    width: 100%;
+  }
+
+  &__other-rest-time {
+    width: 100%;
+  }
+  &__other-rest-reason {
+    width: 50%;
+    height: 40px;
+    font-size: 16px;
+    padding-top: 30px;
+    margin-left: 16px;
+    margin-right: 36px;
+    .DropdownButton__Button-sc-8ghard-2{
+      height: 40px;
+    }
+  }
+}

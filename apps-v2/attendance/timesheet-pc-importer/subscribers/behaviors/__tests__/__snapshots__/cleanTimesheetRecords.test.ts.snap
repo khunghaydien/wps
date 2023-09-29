@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should do 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "endDate": "endDate",
+      "startDate": "startDate",
+    },
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/CREATE",
+  },
+]
+`;

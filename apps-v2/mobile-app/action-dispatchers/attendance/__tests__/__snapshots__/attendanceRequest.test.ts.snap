@@ -1,0 +1,628 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`interact() cancelApproval Reject request if server return fails. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to cancel approved this request? This operation can not be undone.",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - undefined",
+      "problem": undefined,
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`interact() cancelApproval Reject request if server return fails. 2`] = `
+Array [
+  Array [
+    Object {
+      "param": Object {
+        "comment": "comment",
+        "requestId": "00002",
+      },
+      "path": "/att/request/fix-monthly/cancel-approval",
+    },
+  ],
+]
+`;
+
+exports[`interact() cancelApproval Reject request if you answer no about confirm request. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to cancel approved this request? This operation can not be undone.",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+]
+`;
+
+exports[`interact() cancelApproval Resolve request but initializing is fails. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to cancel approved this request? This operation can not be undone.",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": FatalError {
+      "errorCode": undefined,
+      "message": "initializing is fails.",
+      "name": "Error",
+      "stacktrace": "",
+      "type": "FatalError",
+    },
+    "type": "CATCH_UNEXPECTED_ERROR",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`interact() cancelApproval Resolve request but initializing is fails. 2`] = `
+Array [
+  Array [
+    Object {
+      "param": Object {
+        "comment": "comment",
+        "requestId": "00002",
+      },
+      "path": "/att/request/fix-monthly/cancel-approval",
+    },
+  ],
+]
+`;
+
+exports[`interact() cancelApproval Resolve request. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to cancel approved this request? This operation can not be undone.",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [
+      "2020-01-01",
+    ],
+    "type": "MOCK/ATTENDANCE/MODULES/INITIALIZE_MONTH_RECORDS",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`interact() cancelApproval Resolve request. 2`] = `
+Array [
+  Array [
+    Object {
+      "param": Object {
+        "comment": "comment",
+        "requestId": "00002",
+      },
+      "path": "/att/request/fix-monthly/cancel-approval",
+    },
+  ],
+]
+`;
+
+exports[`interact() cancelRequest Reject request if server return fails. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to cancel this request? This operation can not be undone.",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - undefined",
+      "problem": undefined,
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`interact() cancelRequest Reject request if server return fails. 2`] = `
+Array [
+  Array [
+    Object {
+      "param": Object {
+        "comment": "comment",
+        "requestId": "00002",
+      },
+      "path": "/att/request/fix-monthly/cancel-request",
+    },
+  ],
+]
+`;
+
+exports[`interact() cancelRequest Reject request if you answer no about confirm request. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to cancel this request? This operation can not be undone.",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+]
+`;
+
+exports[`interact() cancelRequest Resolve request but initializing is fails. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to cancel this request? This operation can not be undone.",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": FatalError {
+      "errorCode": undefined,
+      "message": "initializing is fails.",
+      "name": "Error",
+      "stacktrace": "",
+      "type": "FatalError",
+    },
+    "type": "CATCH_UNEXPECTED_ERROR",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`interact() cancelRequest Resolve request but initializing is fails. 2`] = `
+Array [
+  Array [
+    Object {
+      "param": Object {
+        "comment": "comment",
+        "requestId": "00002",
+      },
+      "path": "/att/request/fix-monthly/cancel-request",
+    },
+  ],
+]
+`;
+
+exports[`interact() cancelRequest Resolve request. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to cancel this request? This operation can not be undone.",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [
+      "2020-01-01",
+    ],
+    "type": "MOCK/ATTENDANCE/MODULES/INITIALIZE_MONTH_RECORDS",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`interact() cancelRequest Resolve request. 2`] = `
+Array [
+  Array [
+    Object {
+      "param": Object {
+        "comment": "comment",
+        "requestId": "00002",
+      },
+      "path": "/att/request/fix-monthly/cancel-request",
+    },
+  ],
+]
+`;
+
+exports[`interact() submit Reject request if records have ApprovalIn request. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to submit Attendance Request?",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": [Error: Error - There is a request waiting for approval during the period.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+]
+`;
+
+exports[`interact() submit Reject request if records have Recalled request. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to submit Attendance Request?",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": [Error: Error - There are requests that were rejected or canceled during the period.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+]
+`;
+
+exports[`interact() submit Reject request if records have canceled request. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to submit Attendance Request?",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": [Error: Error - There are requests that were rejected or canceled during the period.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+]
+`;
+
+exports[`interact() submit Reject request if records have rejected request. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to submit Attendance Request?",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": [Error: Error - There are requests that were rejected or canceled during the period.],
+    "type": "CATCH_BUSINESS_ERROR",
+  },
+]
+`;
+
+exports[`interact() submit Reject request if server return fails. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to submit Attendance Request?",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - undefined",
+      "problem": undefined,
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`interact() submit Reject request if server return fails. 2`] = `
+Array [
+  Array [
+    Object {
+      "param": Object {
+        "summaryId": "00001",
+      },
+      "path": "/att/request/fix-monthly/check",
+    },
+  ],
+  Array [
+    Object {
+      "param": Object {
+        "comment": "comment",
+        "summaryId": "00001",
+      },
+      "path": "/att/request/fix-monthly/submit",
+    },
+  ],
+]
+`;
+
+exports[`interact() submit Reject request if you answer no about confirm request. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to submit Attendance Request?",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+]
+`;
+
+exports[`interact() submit Reject request if you answer no about question from server. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to submit Attendance Request?",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [
+      Array [
+        "Error 1",
+        "Error 2",
+      ],
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`interact() submit Reject request if you answer no about question from server. 2`] = `
+Array [
+  Array [
+    Object {
+      "param": Object {
+        "summaryId": "00001",
+      },
+      "path": "/att/request/fix-monthly/check",
+    },
+  ],
+]
+`;
+
+exports[`interact() submit Resolve request but initializing is fails. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to submit Attendance Request?",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": FatalError {
+      "errorCode": undefined,
+      "message": "initializing is fails.",
+      "name": "Error",
+      "stacktrace": "",
+      "type": "FatalError",
+    },
+    "type": "CATCH_UNEXPECTED_ERROR",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`interact() submit Resolve request but initializing is fails. 2`] = `
+Array [
+  Array [
+    Object {
+      "param": Object {
+        "summaryId": "00001",
+      },
+      "path": "/att/request/fix-monthly/check",
+    },
+  ],
+  Array [
+    Object {
+      "param": Object {
+        "comment": "comment",
+        "summaryId": "00001",
+      },
+      "path": "/att/request/fix-monthly/submit",
+    },
+  ],
+]
+`;
+
+exports[`interact() submit Resolve request if you answer yes about question from server. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to submit Attendance Request?",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [
+      Array [
+        "Error 1",
+        "Error 2",
+      ],
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [
+      "2020-01-01",
+    ],
+    "type": "MOCK/ATTENDANCE/MODULES/INITIALIZE_MONTH_RECORDS",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`interact() submit Resolve request if you answer yes about question from server. 2`] = `
+Array [
+  Array [
+    Object {
+      "param": Object {
+        "summaryId": "00001",
+      },
+      "path": "/att/request/fix-monthly/check",
+    },
+  ],
+  Array [
+    Object {
+      "param": Object {
+        "comment": "comment",
+        "summaryId": "00001",
+      },
+      "path": "/att/request/fix-monthly/submit",
+    },
+  ],
+]
+`;
+
+exports[`interact() submit Resolve request. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "Are you sure to submit Attendance Request?",
+    ],
+    "type": "MOCK/COMMONS/MODULES/SHOW_CONFIRM",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [
+      "2020-01-01",
+    ],
+    "type": "MOCK/ATTENDANCE/MODULES/INITIALIZE_MONTH_RECORDS",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`interact() submit Resolve request. 2`] = `
+Array [
+  Array [
+    Object {
+      "param": Object {
+        "summaryId": "00001",
+      },
+      "path": "/att/request/fix-monthly/check",
+    },
+  ],
+  Array [
+    Object {
+      "param": Object {
+        "comment": "comment",
+        "summaryId": "00001",
+      },
+      "path": "/att/request/fix-monthly/submit",
+    },
+  ],
+]
+`;

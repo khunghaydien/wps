@@ -1,0 +1,61 @@
+@import '../../commons/components/psa/variables.scss';
+
+.ts-psa__capacity-editor-single__app  {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &__header {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  &__form {
+    overflow-y: scroll;
+    padding-top: 100px;
+  }
+
+  &__reset-btn {
+    width: 80px;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0 4px;
+    color: $color-text-blue;
+  }
+  &__save-btn {
+    width: 80px;
+    height: 32px;
+    background: $color-btn-primary;
+    border-radius: 4px;
+    margin: 0 16px 0 4px;
+    color: #fff;
+    &:hover {
+      background-color: $color-action-btn-primary-hover;
+      box-shadow: none;
+    }
+    &:focus {
+      background-color: $color-btn-primary;
+      box-shadow: none;
+    }
+  }
+  &::after {
+    position: absolute;
+    top: 29px;
+    left: 9px;
+    width: 2px;
+    height: 40px;
+    background-color: $color-icon-light-grey;
+    content: '';
+  }
+
+  &:last-child {
+    &::after {
+      content: none;
+    }
+  }
+}

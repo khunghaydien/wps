@@ -1,0 +1,86 @@
+@import '../../../commons/styles/exp/variables/colors';
+.ts-custom-request-detail {
+  &__header {
+    padding: 12px 24px 8px 20px;
+    display: flex;
+  }
+
+  &__navigation {
+    font-size: 13px;
+    line-height: 17px;
+
+    &-back {
+      color: #2782ed;
+      cursor: pointer;
+    }
+
+    &-detail::before {
+      content: '>';
+      margin: 0 10px;
+    }
+  }
+
+  &_title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  &__buttons {
+    margin-left: auto;
+    button {
+      color: #2782ed;
+      width: 72px;
+      border-radius: 0;
+    }
+    button:first-child {
+      border-radius: 4px 0 0 4px;
+    }
+    button:last-child {
+      border-radius: 0 4px 4px 0;
+    }
+  }
+
+  &__delete,
+  &__recall {
+    color: #c23934 !important;
+
+    &.disabled {
+      color: #aaa !important;
+    }
+  }
+
+  hr {
+    margin: 0;
+  }
+
+  &__label {
+    min-width: 120px;
+    border-radius: 2px;
+    padding: 2px 4px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  &__recalled {
+    background: $ts-status-background-removed;
+  }
+
+  &__pending {
+    background: $ts-status-background-pending-clamined;
+  }
+
+  &__approved {
+    background: $ts-status-background-approved;
+  }
+
+  &__rejected {
+    background: $ts-status-background-rejected;
+  }
+
+  &__notsubmitted {
+    background: $ts-status-background-not-requested;
+  }
+}

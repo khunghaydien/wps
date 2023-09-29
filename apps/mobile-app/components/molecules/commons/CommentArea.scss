@@ -1,0 +1,16 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-commons-comment-area {
+  display: flex;
+  width: 100%;
+  flex: column nowrap;
+  align-items: flex-start;
+
+  &__person {
+    width: 50px;
+  }
+
+  &__comment {
+    width: calc(100% - 50px);
+  }
+}

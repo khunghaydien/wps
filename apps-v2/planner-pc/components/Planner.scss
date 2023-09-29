@@ -1,0 +1,110 @@
+.ts-container {
+  min-width: 1024px;
+  background: #eee !important;
+}
+
+.ts-calendar__header {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: space-between;
+
+  &__personal-setting-button {
+    margin-right: 20px;
+  }
+}
+
+.slds-col {
+  align-self: center;
+  vertical-align: middle;
+}
+
+.ts-calendar-symbols.slds {
+  height: 20px;
+  padding: 0 5px;
+  border-top: solid 1px #eee;
+  border-bottom: solid 1px #eee;
+  background-color: #f4f6f9;
+
+  .slds-grid {
+    height: 14px;
+  }
+
+  .ts-calendar-symbols {
+    &__label {
+      margin-left: 5px;
+      font-size: 8px;
+    }
+
+    &__icon {
+      height: 8px;
+      widows: 8px;
+    }
+  }
+}
+
+.ts-calendar-footer.slds {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-width: 980px;
+  padding: 18px;
+  border-top: solid 1px #d6d6d6;
+  background-color: #ebeef3;
+
+  .ts-calendar-footer {
+    &__title {
+      width: 100px;
+      color: #0059a7;
+    }
+
+    &__value {
+      margin-right: 40px;
+      margin-left: 8px;
+    }
+  }
+}
+
+.planner-pc-planner {
+  position: absolute;
+  top: 56px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+
+  &__calendar {
+    $this: &;
+
+    flex: 1 1 0;
+
+    &#{$this}--week {
+      min-height: calc(100vh - 56px);
+    }
+
+    &__header {
+      margin: 0 0 12px 20px;
+    }
+
+    &__header.is-narrow {
+      margin-top: 12px;
+    }
+
+    &__month {
+      height: 100%;
+    }
+
+    &__week {
+      height: 100%;
+    }
+  }
+}
+
+.commons-popover-frame {
+  top: 50px !important; // Override the top of PersonalMenuPopover
+}
+.commons-personal-menu-popover__popover-container {
+  right: 19px !important; // Align PersonalMenuPopover with the center of icon
+}

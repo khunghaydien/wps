@@ -1,0 +1,16 @@
+.mobile-app-pages-expense-page-record-new-general__merchant {
+  &__input {
+    position: relative;
+    & .mobile-app-atoms-input__input {
+      padding-right: 25px;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    top: 48%;
+    right: 5px;
+    background: transparent;
+    border: none;
+  }
+}

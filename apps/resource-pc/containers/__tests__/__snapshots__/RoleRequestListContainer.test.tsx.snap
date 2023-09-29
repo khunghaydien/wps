@@ -1,0 +1,1155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoleRequestListContainer Test it renders without crashing 1`] = `
+<div
+  className="ts-resource__list"
+>
+  <div
+    className="ts-resource__list__container"
+  >
+    <div
+      className="slds-grid ts-resource__list-header"
+    >
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-resource__list-header__request-code"
+        >
+          Request No.
+           
+          <test-file-stub
+            className="ts-resource__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-resource__list-header__project-code"
+        >
+          {$Psa_Clbl_ProjectCode}
+           
+          <test-file-stub
+            className="ts-resource__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-resource__list-header__title"
+        >
+          Project Title
+           
+          <test-file-stub
+            className="ts-resource__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-resource__list-header__client"
+        >
+          Client
+           
+          <test-file-stub
+            className="ts-resource__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--2-of-12 slds-align-top"
+      >
+        <span
+          className="ts-resource__list-header__project-manager"
+        >
+          Project Manager
+           
+          <test-file-stub
+            className="ts-resource__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-resource__list-header__status"
+        >
+          Status
+           
+          <test-file-stub
+            className="ts-resource__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--2-of-12 slds-align-top"
+      >
+        <span
+          className="ts-resource__list-header__role-title"
+        >
+          {$Psa_Clbl_ProjectRole} Title
+           
+          <test-file-stub
+            className="ts-resource__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-resource__list-header__resource-group"
+        >
+          Resource Group
+           
+          <test-file-stub
+            className="ts-resource__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-resource__list-header__received-date"
+        >
+          Received Date
+           
+          <test-file-stub
+            className="ts-resource__list-header__sort-icon"
+          />
+        </span>
+      </div>
+      <div
+        className="slds-col slds-size--1-of-12 slds-align-top"
+      >
+        <span
+          className="ts-resource__list-header__assignment-due-date"
+        >
+          Due Date
+           
+          <test-file-stub
+            className="ts-resource__list-header__sort-icon"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      className="ts-resource__list-body"
+    >
+      <div
+        className="ts-resource__list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__request-code"
+            >
+              0000000002
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-code"
+            >
+              TDC
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-title"
+            >
+              TD QA Project
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__manager"
+            >
+              Sista Aadmi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <div
+              className="ts-resource__list-item__status"
+            >
+              <span
+                className="ts-resource__list-item__status-item is-requested"
+              />
+                
+              Requested
+            </div>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__title"
+            >
+              Copy of Copy of role 1
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__resource-group"
+            >
+              TD Resource Group 01
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__received-date"
+            >
+              01/25/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__assignment-due-date"
+            >
+              01/25/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-resource__list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__request-code"
+            >
+              0000000020
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-code"
+            >
+              TDJOB001
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-title"
+            >
+              PM- View - EMPTalentProfile1644213126
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__manager"
+            >
+              Produ Managi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <div
+              className="ts-resource__list-item__status"
+            >
+              <span
+                className="ts-resource__list-item__status-item is-requested"
+              />
+                
+              Requested
+            </div>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__title"
+            >
+              Requested role
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__resource-group"
+            >
+              TD Resource Group 01
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__received-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__assignment-due-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-resource__list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__request-code"
+            >
+              0000000027
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-code"
+            >
+              TDJOB001
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-title"
+            >
+              Scheduling 1644215292
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__manager"
+            >
+              Sista Aadmi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <div
+              className="ts-resource__list-item__status"
+            >
+              <span
+                className="ts-resource__list-item__status-item is-requested"
+              />
+                
+              Requested
+            </div>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__title"
+            >
+              AUT 07/02/2022_1644215292
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__resource-group"
+            >
+              TD Resource Group 01
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__received-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__assignment-due-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-resource__list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__request-code"
+            >
+              0000000030
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-code"
+            >
+              TDJOB001
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-title"
+            >
+              Scheduling-2 1644215425
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__manager"
+            >
+              Produ Managi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <div
+              className="ts-resource__list-item__status"
+            >
+              <span
+                className="ts-resource__list-item__status-item is-requested"
+              />
+                
+              Requested
+            </div>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__title"
+            >
+              AUT 07/02/2022_1644215292-1
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__resource-group"
+            >
+              TD Resource Group 01
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__received-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__assignment-due-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-resource__list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__request-code"
+            >
+              0000000032
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-code"
+            >
+              TDJOB001
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-title"
+            >
+              scheduling-3 1644215561
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__manager"
+            >
+              Produ Managi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <div
+              className="ts-resource__list-item__status"
+            >
+              <span
+                className="ts-resource__list-item__status-item is-requested"
+              />
+                
+              Requested
+            </div>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__title"
+            >
+              AUT 07/02/2022_1644215292-2
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__resource-group"
+            >
+              TD Resource Group 01
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__received-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__assignment-due-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-resource__list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__request-code"
+            >
+              0000000038
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-code"
+            >
+              TDJOB001
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-title"
+            >
+              Edit Schedule-2 1644216018
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__manager"
+            >
+              Produ Managi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <div
+              className="ts-resource__list-item__status"
+            >
+              <span
+                className="ts-resource__list-item__status-item is-requested"
+              />
+                
+              Requested
+            </div>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__title"
+            >
+              AUT 08/24/2021-1629772886
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__resource-group"
+            >
+              TD Resource Group 01
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__received-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__assignment-due-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-resource__list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__request-code"
+            >
+              0000000039
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-code"
+            >
+              TDJOB001
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-title"
+            >
+              COMMENT 1644216043
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__manager"
+            >
+              Sista Aadmi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <div
+              className="ts-resource__list-item__status"
+            >
+              <span
+                className="ts-resource__list-item__status-item is-requested"
+              />
+                
+              Requested
+            </div>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__title"
+            >
+              AUT 07/02/2022-1644216043
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__resource-group"
+            >
+              TD Resource Group 01
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__received-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__assignment-due-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-resource__list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__request-code"
+            >
+              0000000044
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-code"
+            >
+              TDJOB001
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-title"
+            >
+              COMMENT 1644216043
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__manager"
+            >
+              Produ Managi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <div
+              className="ts-resource__list-item__status"
+            >
+              <span
+                className="ts-resource__list-item__status-item is-requested"
+              />
+                
+              Requested
+            </div>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__title"
+            >
+              AUT 07/02/2022-1644216043
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__resource-group"
+            >
+              TD Resource Group 01
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__received-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__assignment-due-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-resource__list-item"
+        onClick={[Function]}
+      >
+        <div
+          className="slds-grid "
+        >
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__request-code"
+            >
+              0000000041
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-code"
+            >
+              TDJOB001
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__project-title"
+            >
+              Nominate Multipl Res 1644216138
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__client"
+            >
+              -
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__manager"
+            >
+              Produ Managi
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <div
+              className="ts-resource__list-item__status"
+            >
+              <span
+                className="ts-resource__list-item__status-item is-scheduling"
+              />
+                
+              Scheduling
+            </div>
+          </div>
+          <div
+            className="slds-col slds-size--2-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__title"
+            >
+              AUT 07/02/2022-1644216138
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__resource-group"
+            >
+              TD Resource Group 01
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__received-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size--1-of-12 slds-align-top"
+          >
+            <span
+              className="ts-resource__list-item__assignment-due-date"
+            >
+              02/07/2022
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ts-pager ts-resource__list__list-pager"
+    >
+      <div
+        className="ts-pager-cutom-page-size"
+      >
+        <select
+          onChange={[Function]}
+        >
+          <option
+            disabled={false}
+            value={10}
+          >
+            10
+          </option>
+          <option
+            disabled={false}
+            value={20}
+          >
+            20
+          </option>
+          <option
+            disabled={false}
+            value={30}
+          >
+            30
+          </option>
+          <option
+            disabled={false}
+            value={40}
+          >
+            40
+          </option>
+          <option
+            disabled={false}
+            value={50}
+          >
+            50
+          </option>
+        </select>
+      </div>
+      <div
+        className="ts-pager-info ts-pager-page-info"
+      >
+        Displaying 1 to 9 of 9 results
+      </div>
+      <div
+        className="ts-pager__page"
+      >
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item-arrow-prev"
+          >
+            <test-file-stub />
+          </div>
+        </div>
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item-active"
+          >
+            1
+          </div>
+        </div>
+        <div
+          className="ts-pager__page__item-placeholder"
+        >
+          <div
+            className="ts-pager__page__item-arrow"
+          >
+            <test-file-stub />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

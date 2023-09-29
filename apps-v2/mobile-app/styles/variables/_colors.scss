@@ -1,0 +1,127 @@
+// Color Pallet
+
+$color-gray-800: #4a4a4a;
+$color-gray-700: #636363;
+$color-gray-600: #7d7d7d;
+$color-gray-500: #969696;
+$color-gray-400: #b0b0b0;
+$color-gray-300: #c9c9c9;
+$color-gray-200: #e3e3e3;
+$color-gray-100: #f2f2f2;
+$color-gray-000: #fcfcfc;
+
+$color-blue-800: #074b69;
+$color-blue-700: #07628a;
+$color-blue-600: #0e7aa7;
+$color-blue-500: #3590b7;
+$color-blue-400: #7ebcd6;
+$color-blue-300: #b9dfef;
+$color-blue-200: #dceef5;
+$color-blue-100: #f0f7fa;
+$color-blue-000: #fafdff;
+
+$color-red-800: #6a231e;
+$color-red-700: #86302a;
+$color-red-600: #b7423a;
+$color-red-500: #c15b4f;
+$color-red-400: #cc6961;
+$color-red-300: #e8afab;
+$color-red-200: #f2cecb;
+$color-red-100: #f8edec;
+$color-red-000: #fffafa;
+
+$color-green-800: #0b4120;
+$color-green-700: #155a30;
+$color-green-600: #14763b;
+$color-green-500: #2b8e52;
+$color-green-400: #48a36b;
+$color-green-300: #6db588;
+$color-green-200: #b6dec6;
+$color-green-100: #dcf2e6;
+$color-green-000: #f2faf5;
+
+// Context Color
+
+/* WSPにおいてメインとなる色。リンクやメインとなるアクションを導くボタン、一番目立たせるべきコンテンツの装飾に使われます。 */
+$color-brand: $color-blue-600;
+
+/* 追加を表すアクションで用いられる色 */
+$color-add: $color-green-600;
+
+/* 警告を表す色 */
+$color-alert: $color-red-600;
+
+/* 注意を表す色 */
+$color-attention: #ffa845;
+
+/* ボーダー色として用いられる色 */
+$color-border: $color-gray-300;
+
+/* テキスト基本色 */
+$color-text-base: #333;
+
+/* テキスト反転 */
+$color-text-reverse: #fff;
+
+// color for hints
+$color-text-info: #666;
+
+$color-primary: #0070d2;
+
+$color-box-shadow: #d8d8d8;
+
+// jorudan icons background color
+$fast-icon-bg: #d46103;
+$easy-icon-bg: #02813c;
+$cheap-icon-bg: #00a3d9;
+$ex-icon-bg: #216cae;
+$round-trip-icon-bg: #ff0008;
+
+/* Share color variables with JavaScript */
+/* stylelint-disable */
+:export {
+  border: $color-gray-300;
+  add: $color-green-600;
+  alert: $color-red-600;
+  attention: $color-attention;
+  blue000: $color-blue-000;
+  blue100: $color-blue-100;
+  blue200: $color-blue-200;
+  blue300: $color-blue-300;
+  blue400: $color-blue-400;
+  blue500: $color-blue-500;
+  blue600: $color-blue-600;
+  blue700: $color-blue-700;
+  blue800: $color-blue-800;
+  brand: $color-blue-600;
+  gray000: $color-gray-000;
+  gray100: $color-gray-100;
+  gray200: $color-gray-200;
+  gray300: $color-gray-300;
+  gray400: $color-gray-400;
+  gray500: $color-gray-500;
+  gray600: $color-gray-600;
+  gray700: $color-gray-700;
+  gray800: $color-gray-800;
+  green000: $color-green-000;
+  green100: $color-green-100;
+  green200: $color-green-200;
+  green300: $color-green-300;
+  green400: $color-green-400;
+  green500: $color-green-500;
+  green600: $color-green-600;
+  green700: $color-green-700;
+  green800: $color-green-800;
+  red000: $color-red-000;
+  red100: $color-red-100;
+  red200: $color-red-200;
+  red300: $color-red-300;
+  red400: $color-red-400;
+  red500: $color-red-500;
+  red600: $color-red-600;
+  red700: $color-red-700;
+  red800: $color-red-800;
+  textbase: $color-text-base;
+  textreverse: $color-text-reverse;
+}
+/* stylelint-enable */

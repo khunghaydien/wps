@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`complete() should do. 1`] = `Array []`;
+
+exports[`confirmToComplementInsufficientingRestTime() should do when answer is no. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_END",
+  },
+  Object {
+    "payload": Array [
+      Object {
+        "Component": [Function],
+        "params": Object {
+          "insufficientRestTime": 60,
+        },
+      },
+    ],
+    "type": "TEST/ASK",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+]
+`;
+
+exports[`confirmToComplementInsufficientingRestTime() should do when answer is yes. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_END",
+  },
+  Object {
+    "payload": Array [
+      Object {
+        "Component": [Function],
+        "params": Object {
+          "insufficientRestTime": 60,
+        },
+      },
+    ],
+    "type": "TEST/ASK",
+  },
+  Object {
+    "type": "LOADING_START",
+  },
+]
+`;
+
+exports[`error() should do 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test 2",
+      "problem": "Error Test 2",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test 1",
+      "problem": "Error Test 1",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`error() should do if Error is Array 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`finally() should do. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`start() should do. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+]
+`;

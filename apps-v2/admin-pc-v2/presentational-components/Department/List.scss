@@ -1,0 +1,15 @@
+@import '../../../admin-pc/presentational-components/Employee/List.scss';
+
+.admin-pc-department-list {
+  @extend .admin-pc-employee-list;
+
+  .admin-pc-department-list__header-area__history,
+  .admin-pc-department-list__header-area__history-label,
+  .admin-pc-department-list__header-area__history-date_field {
+    display: inline-block;
+  }
+
+  .admin-pc-department-list__header-area__history {
+    margin-left: 20px;
+  }
+}

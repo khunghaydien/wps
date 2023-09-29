@@ -1,0 +1,12 @@
+.mobile-app-molecules-expense-jorudan-route-info-summary {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+
+  &__from-to {
+    word-break: break-word;
+    text-align: left;
+    flex-basis: 45%;
+  }
+}

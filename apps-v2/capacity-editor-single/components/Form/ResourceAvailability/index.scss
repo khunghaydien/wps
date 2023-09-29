@@ -1,0 +1,26 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-psa__capacity-editor-single__resource {
+  .ts-psa__form-field {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .ts-psa__form-field__label {
+    width: 25%;
+  }
+
+  .slds-select.ts-select,
+  .ts-textarea-field.slds-input,
+  .ts-text-field.slds-input {
+    width: 75%;
+  }
+  .ts-psa__date-field__container {
+    width: 36%;
+  }
+
+  &__errText{
+    width: 75%;
+    margin-left: 25%;
+  }
+}

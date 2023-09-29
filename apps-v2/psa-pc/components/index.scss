@@ -1,0 +1,36 @@
+@import '../../commons/components/psa/variables.scss';
+
+#container {
+  position: relative;
+}
+
+.ts-container {
+  min-height: 100vh;
+  position: relative;
+  min-width: 1280px;
+  background-color: $color-container;
+  overflow: unset;
+}
+
+// Temporarily hide components that are not in MVP scope
+.ts-psa__project__link,
+.ts-psa__sidebar__list-items,
+// .ts-psa__project-form__finance,
+.ts-psa__second-screen .amount-field-input-feedback {
+  display: none !important;
+}
+
+.ts-psa__project__link:first-child {
+  display: flex !important;
+}
+
+.ts-psa__sidebar__list-items:first-child,
+.ts-psa__sidebar__list-items:nth-child(2),
+.ts-psa__sidebar__list-items:nth-child(3),
+.ts-psa__sidebar__list-items:nth-child(4) {
+  display: flex !important;
+}
+
+.ts-psa__project__link::after {
+  content: none !important;
+}

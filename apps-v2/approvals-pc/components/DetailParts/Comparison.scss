@@ -1,0 +1,42 @@
+.approvals-pc-detail-parts-comparison {
+  color: $color-text-modest;
+
+  &__user-input {
+    color: $color-text-default;
+  }
+
+  &__changed {
+    background-color: #7fbfeb;
+  }
+
+  &__info {
+    margin-left: 1em;
+  }
+
+  &__new &__info,
+  &__longtext-info {
+    color: #7fbfeb;
+  }
+
+  &__new &__user-input,
+  &__longtext-old &__user-input {
+    margin-left: 0.3em;
+  }
+
+  &__longtext-new {
+    padding-right: 1.4rem;
+  }
+
+  &__longtext-old {
+    margin-top: 0.5rem;
+  }
+
+  &__longtext-old &__user-input {
+    border-left: 1px solid #ddd;
+  }
+
+  &__longtext-new &__user-input,
+  &__longtext-old &__user-input {
+    padding-left: 0.2em;
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.067 14.768">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #074b69;
+      }
+    </style>
+  </defs>
+  <g id="icons_utility_fallback-copy" data-name="icons/utility/fallback-copy" transform="translate(-0.462 -0.615)">
+    <path id="Mask" class="cls-1" d="M6.925,1.07,6,5.562a.258.258,0,0,0,.277.277h4.8a.488.488,0,0,1,.4.708L6.248,15.131a.455.455,0,0,1-.862-.215l.923-5.292c0-.185-.154-.123-.338-.123H.925a.554.554,0,0,1-.4-.8L6.063.854a.458.458,0,0,1,.862.215Z"/>
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+.mobile-app-molecules-search-area-filter {
+  &__search-area {
+    height: 48px;
+    margin: 0 8px;
+    display: flex;
+    overflow-y: hidden;
+    white-space: nowrap;
+    align-items: center;
+    -webkit-overflow-scrolling: touch;
+
+    &-reset {
+      button {
+        color: #0070d2;
+        font-size: 14px;
+        font-weight: normal;
+      }
+    }
+  }
+
+  &__filter-tag {
+    border: 1px solid #666;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0 8px;
+    padding: 8px;
+    align-items: center;
+    display: flex;
+
+    &-label {
+      padding-right: 8px;
+      color: #666;
+      white-space: nowrap;
+    }
+
+    svg {
+      margin: 0 auto;
+      display: block;
+      width: 12px;
+      height: 8px;
+    }
+
+    &.highlight {
+      background-color: #0070d2;
+      border-color: #0070d2;
+
+      span {
+        color: #fff;
+      }
+
+      svg {
+        margin: 0 auto;
+        path {
+          fill: #fff !important;
+        }
+      }
+    }
+
+    .count-icon {
+      background-color: #fff;
+      border-radius: 9px;
+      color: #0070d2 !important;
+      min-width: 18px;
+      height: 18px;
+      line-height: 18px;
+      text-align: center;
+      font-weight: normal;
+      margin-right: 8px;
+    }
+  }
+}

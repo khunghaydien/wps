@@ -1,0 +1,31 @@
+@import '../../../styles/wsp';
+
+.ts-expenses__form {
+  overflow: scroll;
+  width: 100%;
+  height: calc(
+    100% - 56px
+  ); // -moz-avaliable is not working in mozilla and fill-avaliable is not working in Edge so the height is calculated like this
+
+  margin-top: 56px;
+  background-color: color('clicked');
+  z-index: 1;
+
+  &-records__list__record-header {
+    padding: 10px 0 10px 60px;
+    background-color: color('background-2');
+    font-size: 16px;
+  }
+
+  .slds-input:active:not([disabled]),
+  .slds-input:focus:not([disabled]) {
+    outline: 0;
+    border-color: #1589ee !important;
+    background-color: #fff;
+    box-shadow: 0 0 3px #0070d2;
+  }
+}
+
+.ts-expenses-unreported-records__contents__recordslist {
+  background-color: color('background-1');
+}

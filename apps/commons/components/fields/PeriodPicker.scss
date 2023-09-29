@@ -1,0 +1,51 @@
+.commons-fields-period-picker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  &__month-select {
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    border: solid 1px #ddd;
+    border-right: none;
+    background-color: #fff;
+    border-radius: 4.5px 0 0 4.5px;
+  }
+
+  &__select.slds-select {
+    width: 140px;
+    height: 100%;
+    border: none;
+  }
+
+  &__button {
+    height: 30px;
+  }
+
+  &__button:focus {
+    // ボタンにフォーカスが当たった時にアウトラインが隣の要素に隠されないようにする
+    z-index: 10;
+  }
+
+  &__button--prev.ts-button {
+    height: 30px;
+    border-radius: 0;
+  }
+
+  &__button--next.ts-button {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  &__button--current.ts-button {
+    height: 30px;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+  }
+
+  &__button-icon--next {
+    transform: scale(-1, 1);
+  }
+}

@@ -1,0 +1,32 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-expense-page-record-new-general-items-area {
+  padding-top: 16px;
+
+  &__add {
+    text-align: center;
+
+    & .mobile-app-atoms-text-button__button {
+      width: 160px;
+      height: 40px;
+      border-style: solid;
+      border-color: $color-green-500;
+      border-radius: unit(5);
+      color: $color-green-500;
+      font-size: unit(4);
+      font-weight: normal;
+    }
+  }
+
+  &__feedback {
+    color: $color-red-600;
+    padding: 0 0 8px 2px;
+  }
+
+  .mobile-app-pages-approval-page-expense-record-child-items {
+    margin-top: 16px;
+    &__date.sticky {
+      padding-left: 12px;
+    }
+  }
+}

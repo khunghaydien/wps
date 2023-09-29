@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewAllResourcesContainer Test it renders without crashing 1`] = `
+<div
+  className="ts-psa__view-all-resources"
+>
+  <div
+    className="ts-psa-fixed-header"
+  >
+    <div
+      className="ts-psa__common-header"
+    >
+      <div
+        className="ts-psa__common-header-left"
+      >
+        <span
+          className="ts-psa__common-header-breadcrumb"
+        />
+        <span
+          className="ts-psa__common-header-title"
+        >
+          August 1, 2022
+  - August 1, 2022
+        </span>
+      </div>
+      <div
+        className="ts-psa__common-header__btn-area"
+      >
+        <button
+          className="ts-psa__view-all-resources__refresh-btn ts-button ts-button--default"
+          data-testid="ts-psa__view-all-resources__refresh-btn"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+          value=""
+        >
+          <div
+            className="ts-button__contents"
+          >
+            <span
+              className="ts-button__text"
+            >
+              <test-file-stub />
+            </span>
+          </div>
+        </button>
+        <div
+          className="ts-psa__resource-planner__view-selector"
+        >
+          <div
+            className="ts-psa__resource-planner__view-selector__select-view-mode"
+          >
+            <button
+              className="ts-button ts-button--default"
+              data-testid="ts-psa__resource-planner__view-selector__btn--day"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  Day
+                </span>
+              </div>
+            </button>
+            <button
+              className="ts-button ts-button--default"
+              data-testid="ts-psa__resource-planner__view-selector__btn--week"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  Week
+                </span>
+              </div>
+            </button>
+            <button
+              className="ts-button ts-button--default"
+              data-testid="ts-psa__resource-planner__view-selector__btn--month"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  Month
+                </span>
+              </div>
+            </button>
+          </div>
+          <div
+            className="ts-psa__resource-planner__view-selector__extra-btn"
+          >
+            <button
+              className="ts-psa__resource-planner__view-selector__today-btn ts-button ts-button--default"
+              data-testid="ts-psa__resource-planner__view-selector__btn--today"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  Today
+                </span>
+              </div>
+            </button>
+          </div>
+          <div
+            className="ts-psa__resource-planner__view-selector__view-window"
+          >
+            <button
+              className="ts-button ts-button--default"
+              data-testid="ts-psa__resource-planner__view-selector__btn--prev"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  <test-file-stub />
+                </span>
+              </div>
+            </button>
+            <div
+              className="commons-fields-date-field"
+              data-testid=""
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <button
+                      className="ts-psa__resource-planner__view-selector__btn--calendar ts-button ts-button--default"
+                      data-testid="ts-psa__resource-planner__view-selector__btn--calendar"
+                      disabled={true}
+                      onClick={[Function]}
+                      type="button"
+                      value=""
+                    >
+                      <div
+                        className="ts-button__contents"
+                      >
+                        <span
+                          className="ts-button__text"
+                        >
+                          <test-file-stub
+                            className="ts-psa__resource-planner__view-selector__calendar-icon"
+                            onClick={[Function]}
+                          />
+                        </span>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              className="ts-button ts-button--default"
+              data-testid="ts-psa__resource-planner__view-selector__btn--next"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  <test-file-stub />
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ts-psa__resource-planner__filter-info"
+    >
+      <div
+        className="ts-psa__resource-planner__filter-info__second-row"
+      >
+        <div
+          className="ts-psa__common-filter"
+        >
+          <div
+            className="ts-psa__common-filter__outside"
+          >
+            <button
+              className="ts-psa__common-filter__trigger ts-icon-button"
+              data-testid="ts-psa__common-filter__trigger"
+              onClick={[Function]}
+              type="button"
+            >
+              <test-file-stub
+                aria-hidden="true"
+                style={
+                  Object {
+                    "fill": "#2782ED",
+                  }
+                }
+              />
+            </button>
+            <div
+              className="ts-psa__common-filter__results"
+              data-testid="ts-psa__common-filter__results"
+            >
+              <div
+                className="ts-psa__common-filter__result filter-result--startDate"
+              >
+                <span
+                  className="ts-psa__common-filter__result-label"
+                >
+                  Start Date: 
+                </span>
+                2022-08-01
+              </div>
+              <div
+                className="ts-psa__common-filter__result filter-result--endDate"
+              >
+                <span
+                  className="ts-psa__common-filter__result-label"
+                >
+                  End Date: 
+                </span>
+                2023-08-31
+              </div>
+              0
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ts-psa__view-all-resources__resource-list-header"
+    />
+  </div>
+  <div
+    className="ts-psa__view-all-resources__content-container"
+  >
+    <div
+      className="ts-psa__view-all-resources__resource-container"
+    >
+      <div
+        className="ts-psa__view-all-resources__resource-list-content"
+      >
+        <div
+          className="ts-psa__empty-screen"
+        >
+          <div
+            className="ts-psa__empty-screen__header"
+          >
+            <span>
+              Looks like there are no matching resources here.
+            </span>
+          </div>
+          <div
+            className="ts-psa__empty-screen__body"
+          >
+            <span>
+              Please change the filter conditions. Alternatively, request to change the requirements for this resource.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

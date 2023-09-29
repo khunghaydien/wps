@@ -1,0 +1,61 @@
+@import 'mobile-global-imports.scss';
+
+.ts-expenses-modal-receipt-library-drop-zone {
+  height: 100%;
+
+  .ts-button {
+    border: none;
+    background-color: transparent;
+  }
+
+  svg {
+    padding: 0;
+  }
+
+  .commons-fields-dropzone__dropzone {
+    justify-content: flex-start;
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+
+  &__area {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 110px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed $color-border-default;
+    border-radius: 3px;
+    text-align: center;
+
+    &-label {
+      padding: 0 20px;
+      color: $color-text-base;
+      font-size: 12px;
+    }
+  }
+
+  &__error {
+    font-size: 10px;
+  }
+
+  &__fullDropZone {
+    height: 100%;
+
+    &-label {
+      z-index: 100;
+      height: 100%;
+      color: #333;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+    }
+
+    svg {
+      margin-top: 100px;
+      margin-bottom: 16px;
+    }
+  }
+}

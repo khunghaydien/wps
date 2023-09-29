@@ -1,0 +1,36 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-components-molecules-commons-advsearch-selection-filter {
+  &__option-list {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  &__option-item {
+    padding: 0 16px;
+    height: 48px;
+
+    &-select {
+      margin-left: auto;
+
+      &-checkbox {
+        zoom: 1.5;
+      }
+    }
+  }
+
+  &__has-more {
+    color: $color-red-800;
+    text-align: center;
+    margin: 16px 0;
+  }
+
+  &__has-zero {
+    text-align: center;
+    margin: 16px 0;
+  }
+}

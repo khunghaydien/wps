@@ -1,0 +1,79 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-expense-page-report-edit {
+  .main-content {
+    padding: 48px $small-size;
+  }
+
+  &__amount-text {
+    color: $color-blue-800;
+    font-size: $medium-size;
+    font-weight: bold;
+    text-align: right;
+  }
+
+  &__input {
+    // needed to hide the first select option for accounting period.
+    .option-hidden option:first-child {
+      display: none;
+    }
+  }
+
+  &__custom-request {
+    &-not-linked {
+      font-style: italic;
+      color: $color-gray-700;
+    }
+    &-hint {
+      color: $color-gray-500;
+      font-size: $small-size;
+    }
+  }
+
+  &__edit-btn {
+    margin: 32px 4px 0 16px;
+  }
+
+  &__sub-foreign-amount,
+  &__sub-base-amount {
+    color: $color-gray-500;
+    font-size: 13px;
+    font-weight: normal;
+  }
+
+  &__subtotal-area {
+    margin: $extra-small-size 0;
+  }
+
+  &__sub-amount {
+    justify-content: flex-start;
+  }
+
+  &__total-amount-area {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    &-input {
+      width: 100%;
+    }
+  }
+
+  .hint_message {
+    color: #666;
+    font-size: 12px;
+    line-height: 1em;
+    margin-top: 4px;
+  }
+
+  .content {
+    max-height: 500px;
+  }
+
+  &__vendor-jct {
+    font-size: 16px;
+    @media screen and (max-width: 375px) {
+      font-size: 14px;
+    }
+  }
+}

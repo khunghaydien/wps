@@ -1,0 +1,8 @@
+.approvals-pc-att-monthly-process-list-pane-detail-record-summary-group {
+  border: 1px solid $color-border-default;
+  background: #fff;
+
+  &:not(:last-of-type) {
+    border-bottom: 0;
+  }
+}

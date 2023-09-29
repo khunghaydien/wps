@@ -1,0 +1,607 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoleDetailsContainer Test it renders without crashing 1`] = `
+<div
+  className="ts-psa__role-details"
+>
+  <div
+    className="ts-psa__common-header"
+  >
+    <div
+      className="ts-psa__common-header-left"
+    >
+      <span
+        className="ts-psa__common-header-breadcrumb"
+      >
+        <span
+          className="ts-psa__common-header-breadcrumb-link"
+          data-testid="ts-psa__common-header-breadcrumb--0"
+          onClick={[Function]}
+        >
+          Projects
+        </span>
+        <span
+          className="ts-psa__common-header-breadcrumb-separator"
+        >
+          &gt;
+        </span>
+        <span
+          className="ts-psa__common-header-breadcrumb-link"
+          data-testid="ts-psa__common-header-breadcrumb--1"
+          onClick={[Function]}
+        >
+          TD QA Project
+        </span>
+        <span
+          className="ts-psa__common-header-breadcrumb-separator"
+        >
+          &gt;
+        </span>
+        <span
+          className="value"
+          data-testid="ts-psa__common-header-breadcrumb--2"
+          onClick={null}
+        >
+          Copy of role 1
+        </span>
+      </span>
+      <span
+        className="ts-psa__common-header-title"
+      >
+        {$Psa_Clbl_ProjectRole} Details
+      </span>
+    </div>
+    <div
+      className="ts-psa__common-header__btn-area"
+    >
+      <div
+        className="ts-psa__role-details__btn-area "
+      >
+        <div
+          className="ts-psa__role-details__btn-area__main"
+        >
+          <button
+            className="ts-psa__role-details__btn-area__memo ts-button ts-button--default"
+            data-testid="ts-psa__role-details__btn-area__btn--memo"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                Notes
+              </span>
+            </div>
+          </button>
+          <button
+            className="ts-psa__role-details__btn-area__history ts-button ts-button--default"
+            data-testid="ts-psa__role-details__btn-area__btn--history"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                History
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          className="ts-psa__role-details__btn-area__main"
+        >
+          <div>
+            <button
+              className="ts-psa__role-details__btn-area__edit ts-button ts-button--default"
+              data-testid="ts-psa__role-details__btn-area__btn--edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  Edit
+                </span>
+              </div>
+            </button>
+            <button
+              className="ts-psa__role-details__btn-area__submit ts-button ts-button--default"
+              data-testid="ts-psa__role-details__btn-area__btn--submit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value=""
+            >
+              <div
+                className="ts-button__contents"
+              >
+                <span
+                  className="ts-button__text"
+                >
+                  Submit
+                </span>
+              </div>
+            </button>
+          </div>
+          <button
+            className="ts-psa__role-details__btn-area__toggle ts-icon-button"
+            onClick={[Function]}
+            type="button"
+          >
+            <img
+              alt=""
+              className="ts-icon-button__image"
+              src="test-file-stub"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ts-psa__role-details__content"
+  >
+    <div
+      className="ts-psa__role-details__header--assignment"
+    >
+      {$Psa_Clbl_ProjectRole} Information
+       
+    </div>
+    <div
+      className="ts-psa__role-details__assignment"
+    >
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__status"
+      >
+        <span
+          className="label"
+        >
+          Status
+        </span>
+        <span
+          className="value"
+        >
+          <span
+            className="ts-psa__role-details__status-item is-in-planning"
+          />
+          Planning
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__assignment-due-date"
+      >
+        <span
+          className="label"
+        >
+          Assignment Due Date
+        </span>
+        <p>
+          02/04/2022
+        </p>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__code"
+      >
+        <span
+          className="label"
+        >
+          {$Psa_Clbl_ProjectRole} Code
+        </span>
+        <span
+          className="value"
+        >
+          TDC_TDAC001
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__job-grade"
+      >
+        <span
+          className="label"
+        >
+          {$Psa_Clbl_JobGrade}
+        </span>
+        <span
+          className="value"
+        >
+          TD Job Grade Level 1/ JPY 1000
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__title"
+      >
+        <span
+          className="label"
+        >
+          {$Psa_Clbl_ProjectRole} Title
+        </span>
+        <span
+          className="value"
+        >
+          Copy of role 1
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__skillset"
+      >
+        <span
+          className="label"
+        >
+          Skill
+        </span>
+        <span
+          className="value"
+        >
+          <span>
+            <span
+              className="skill-is-required"
+            >
+              * 
+            </span>
+            <span
+              className="false"
+            >
+              Physical Exam
+            </span>
+             (8 - 9)
+          </span>
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__duration"
+      >
+        <span
+          className="label"
+        >
+          {$Psa_Clbl_ProjectRole} Duration (Planned)
+        </span>
+        <span
+          className="value"
+        >
+          02/04/2022 - 02/24/2022
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__resourceGroup"
+      >
+        <span
+          className="label"
+        >
+          Resource Group
+        </span>
+        <span
+          className="value"
+        >
+          TD Resource Group 01
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__max-working-hours"
+      >
+        <span
+          className="label"
+        >
+          Maximum Working Hours
+        </span>
+        <span
+          className="value"
+        >
+          184 Hours
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__remarks"
+      >
+        <span
+          className="label"
+        >
+          {$Psa_Clbl_ProjectRole} Description
+        </span>
+        <p>
+          -
+        </p>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__effort"
+      >
+        <span
+          className="label"
+        >
+          Required Effort Hours (%)
+        </span>
+        <span
+          className="value"
+        >
+          18 Hours (10%)
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__request-code"
+      >
+        <span
+          className="label"
+        >
+          Request No.
+        </span>
+        <span
+          className="value"
+        >
+          0000000003
+        </span>
+      </div>
+    </div>
+    <div
+      className="ts-psa__role-details__header--project"
+    >
+      Project Information
+    </div>
+    <div
+      className="ts-psa__role-details__project"
+    >
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__project-code"
+      >
+        <span
+          className="label"
+        >
+          {$Psa_Clbl_ProjectCode}
+        </span>
+        <span
+          className="value"
+        >
+          TDC
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__project-department"
+      >
+        <span
+          className="label"
+        >
+          Project Department
+        </span>
+        <span
+          className="value"
+        >
+          -
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__project-title"
+      >
+        <span
+          className="label"
+        >
+          Project Title
+        </span>
+        <span
+          className="value"
+        >
+          TD QA Project
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__project-client-name"
+      >
+        <span
+          className="label"
+        >
+          Client Name
+        </span>
+        <span
+          className="value"
+        >
+          -
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__project-duration"
+      >
+        <span
+          className="label"
+        >
+          Project Duration
+        </span>
+        <span
+          className="value"
+        >
+          01/25/2022 - 01/25/2023
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__project-manager"
+      >
+        <span
+          className="label"
+        >
+          Project Manager
+        </span>
+        <span
+          className="value"
+        >
+          Sista Aadmi - TDEMP000
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__activity-code"
+      >
+        <span
+          className="label"
+        >
+          {$Psa_Clbl_Activity} Code
+        </span>
+        <span
+          className="value"
+        >
+          TDC_TDAC001
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__activity-title"
+      >
+        <span
+          className="label"
+        >
+          {$Psa_Clbl_Activity} Title
+        </span>
+        <span
+          className="value"
+        >
+          TD QA Activity
+        </span>
+      </div>
+      <div
+        className="ts-psa__role-details__field"
+        data-testid="ts-psa__role-details__activity-duration"
+      >
+        <span
+          className="label"
+        >
+          {$Psa_Clbl_Activity} Duration
+        </span>
+        <span
+          className="value"
+        >
+          01/25/2022 - 07/24/2022
+        </span>
+      </div>
+    </div>
+    <div
+      className="ts-psa__role-details__header--memo"
+    >
+      Notes
+    </div>
+    <div
+      className="ts-psa__role-details__memo"
+    >
+      <div
+        className="ts-psa__role-details__memo-field--all"
+        data-testid="ts-psa__role-details__memo-field--all"
+      >
+        <p
+          className="ts-psa__role-details__memo-label"
+        >
+          General Notes
+        </p>
+        <p
+          className="ts-psa__role-details__memo-content"
+        >
+          <span
+            className="ts-psa__role-details__memo--no-remarks"
+          >
+            No remarks
+          </span>
+        </p>
+        <span
+          className="ts-psa__role-details__memo-icon"
+        >
+          <test-file-stub />
+        </span>
+        <a
+          onClick={[Function]}
+        >
+          Edit
+        </a>
+      </div>
+      <div
+        className="ts-psa__role-details__memo-field--managers"
+        data-testid="ts-psa__role-details__memo-field--managers"
+      >
+        <p
+          className="ts-psa__role-details__memo-label"
+        >
+          PM/RM Notes
+        </p>
+        <p
+          className="ts-psa__role-details__memo-content"
+        >
+          <span
+            className="ts-psa__role-details__memo--no-remarks"
+          >
+            No remarks
+          </span>
+        </p>
+        <span
+          className="ts-psa__role-details__memo-icon"
+        >
+          <test-file-stub />
+        </span>
+        <a
+          onClick={[Function]}
+        >
+          Edit
+        </a>
+      </div>
+      <div
+        className="ts-psa__role-details__memo-field--rm"
+        data-testid="ts-psa__role-details__memo-field--rm"
+      >
+        <p
+          className="ts-psa__role-details__memo-label"
+        >
+          RM Notes
+        </p>
+        <p
+          className="ts-psa__role-details__memo-content"
+        >
+          <span
+            className="ts-psa__role-details__memo--no-remarks"
+          >
+            No remarks
+          </span>
+        </p>
+        <span
+          className="ts-psa__role-details__memo-icon"
+        >
+          <test-file-stub />
+        </span>
+        <a
+          onClick={[Function]}
+        >
+          Edit
+        </a>
+      </div>
+    </div>
+    <a
+      onClick={[Function]}
+    >
+      Back to top
+    </a>
+  </div>
+</div>
+`;

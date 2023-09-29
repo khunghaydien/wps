@@ -1,0 +1,11 @@
+.admin-pc-calendar-event-dialog {
+  width: 444px;
+
+  &__body {
+    padding: 20px 10px;
+  }
+
+  .admin-pc-contents-detail-pane__body__item-list__textarea {
+    max-width: 100%;
+  }
+}

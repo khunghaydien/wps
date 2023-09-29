@@ -1,0 +1,46 @@
+<div>
+	<ul class="tsext-pankz">
+		<li><a href="#!menu">メニュー</a></li>
+		<li class="tsext-pankz-div">＞</li>
+		<li>勤怠設定データエクスポート</li>
+	</ul>
+	<div class="tsext-error" style="display:none;">
+	</div>
+	<div class="tsext-form">
+		<div class="tsext-know">
+			勤怠設定データ（勤務体系、勤務パターン、休暇）を1つのZIPにまとめてダウンロードします。
+		</div>
+		<table>
+			<tr>
+				<td>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div>1.</div>
+							<div>コメント（ZIPファイル内に保存します。省略してもかまいません）</div>
+						</div>
+						<div>
+							<textarea class="tsext-comment"></textarea>
+						</div>
+					</div>
+					<div class="tsext-section">
+						<div class="tsext-description">
+							<div>2.</div>
+							<div>
+								<input type="button" value="エクスポート" id="tsextExport" />
+							</div>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<div class="tsext-section tsext-form-log">
+			<div>
+				ログ
+			</div>
+			<textarea wrap="off" readOnly="readOnly"></textarea>
+		</div>
+		<div class="tsext-form-download" style="display:none;">
+			<a></a>
+		</div>
+	</div>
+</div>

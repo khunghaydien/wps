@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should do. 1`] = `
+Array [
+  Object {
+    "param": Object {
+      "empId": "employeeId",
+      "grantId": "grantId",
+    },
+    "path": "/att/managed-leave/fraction-adjustment/get",
+  },
+]
+`;

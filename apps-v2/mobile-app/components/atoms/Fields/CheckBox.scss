@@ -1,0 +1,87 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-atoms-checkbox {
+  display: inline-block;
+  vertical-align: middle;
+
+  &__container {
+    display: flex;
+  }
+
+  &__input {
+    display: none;
+  }
+
+  @mixin focus($color) {
+    border: 1px solid $color;
+    box-shadow: 0 0 3px $color;
+  }
+
+  &__label {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 32px;
+    max-height: 32px;
+    padding-left: 8px;
+    font-size: $medium-size;
+  }
+
+  &__input-checkbox {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid $color-border;
+    border-radius: 16px;
+    color: $color-gray-200;
+
+    &--checked {
+      border-color: $color-brand;
+      background-color: $color-brand;
+      color: $color-text-reverse;
+    }
+
+    &:focus-within {
+      @include focus($color-blue-400);
+    }
+
+    &--error {
+      border: 1px solid $color-alert !important;
+    }
+
+    /* stylelint-disable-next-line selector-pseudo-class-no-unknown */
+    &--error:is(&--checked) {
+      background-color: $color-alert;
+    }
+
+    &--error:focus-within {
+      @include focus($color-alert);
+    }
+
+    &--disabled {
+      background-color: $color-gray-200 !important;
+      border: 1px solid $color-border;
+      color: $color-gray-100;
+    }
+
+    /* stylelint-disable-next-line selector-pseudo-class-no-unknown */
+    &--disabled:is(&--checked) {
+      color: $color-gray-800;
+    }
+
+    &--read-only {
+      background-color: $color-blue-100 !important;
+      border: 1px solid $color-blue-100;
+      color: $color-text-reverse;
+    }
+
+    /* stylelint-disable-next-line selector-pseudo-class-no-unknown */
+    &--read-only:is(&--checked) {
+      color: $color-brand;
+    }
+  }
+}

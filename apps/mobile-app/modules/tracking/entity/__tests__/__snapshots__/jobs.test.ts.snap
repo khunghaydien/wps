@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() /MOBILE-APP/MODULES/TRACKING/ENTITY/JOBS/ABORT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,8 +1,8 @@
+  Object {
+    \\"DEV-001\\": Object {
+-     \\"isAborted\\": false,
++     \\"isAborted\\": true,
+      \\"isDone\\": false,
+      \\"items\\": Array [
+        Object {
+          \\"code\\": \\"012345678901234567890123456789\\",
+          \\"hasJobType\\": true,"
+`;
+
+exports[`reducer() /MOBILE-APP/MODULES/TRACKING/ENTITY/JOBS/CLEAR 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() /MOBILE-APP/MODULES/TRACKING/ENTITY/JOBS/DONE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,9 +1,9 @@
+  Object {
+    \\"DEV-001\\": Object {
+      \\"isAborted\\": false,
+-     \\"isDone\\": false,
++     \\"isDone\\": true,
+      \\"items\\": Array [
+        Object {
+          \\"code\\": \\"012345678901234567890123456789\\",
+          \\"hasJobType\\": true,
+          \\"id\\": \\"a0h2v00000bvdPfAAI\\","
+`;
+
+exports[`reducer() /MOBILE-APP/MODULES/TRACKING/ENTITY/JOBS/EVAL_STREAM 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"DEV-001\\": Object {
++     \\"isAborted\\": false,
++     \\"isDone\\": false,
++     \\"items\\": Array [
++       Object {
++         \\"code\\": \\"012345678901234567890123456789\\",
++         \\"hasJobType\\": true,
++         \\"id\\": \\"a0h2v00000bvdPfAAI\\",
++         \\"name\\": \\"This is so long name. This is so long name. This is so long name.\\",
++         \\"parentId\\": null,
++       },
++       Object {
++         \\"code\\": \\"1\\",
++         \\"hasJobType\\": true,
++         \\"id\\": \\"a0h2v00000XB8o2AAD\\",
++         \\"name\\": \\"刺身の上にタンポポのせる仕事\\",
++         \\"parentId\\": \\"a0h2v00000XB8o7AAD\\",
++       },
++       Object {
++         \\"code\\": \\"2\\",
++         \\"hasJobType\\": true,
++         \\"id\\": \\"a0h2v00000XB8o7AAD\\",
++         \\"name\\": \\"そうめんに2～3本だけ黄色や赤色や緑色の麺を混ぜる仕事\\",
++         \\"parentId\\": null,
++       },
++       Object {
++         \\"code\\": \\"3\\",
++         \\"hasJobType\\": false,
++         \\"id\\": \\"a0h2v00000XB8oCAAT\\",
++         \\"name\\": \\"自宅の警備の仕事\\",
++         \\"parentId\\": null,
++         \\"workCategories\\": Array [],
++       },
++       Object {
++         \\"code\\": \\"4\\",
++         \\"hasJobType\\": true,
++         \\"id\\": \\"a0h2v00000XB8oMAAT\\",
++         \\"name\\": \\"肉まんの先っちょをネジる仕事\\",
++         \\"parentId\\": null,
++       },
++       Object {
++         \\"code\\": \\"5\\",
++         \\"hasJobType\\": true,
++         \\"id\\": \\"a0h2v00000XB8oRAAT\\",
++         \\"name\\": \\"ASIMOの中で踊る仕事\\",
++         \\"parentId\\": null,
++       },
++       Object {
++         \\"code\\": \\"6\\",
++         \\"hasJobType\\": true,
++         \\"id\\": \\"a0h2v00000XB8oWAAT\\",
++         \\"name\\": \\"とっくりセーターを半分だけかぶるモデルの仕事\\",
++         \\"parentId\\": null,
++       },
++       Object {
++         \\"code\\": \\"7\\",
++         \\"hasJobType\\": true,
++         \\"id\\": \\"a0h2v00000Xa3gRAAR\\",
++         \\"name\\": \\"7\\",
++         \\"parentId\\": \\"a0h2v00000XB8oMAAT\\",
++       },
++       Object {
++         \\"code\\": \\"777\\",
++         \\"hasJobType\\": false,
++         \\"id\\": \\"a0h2v00000bwRYRAA2\\",
++         \\"name\\": \\"777\\",
++         \\"parentId\\": null,
++       },
++       Object {
++         \\"code\\": \\"7777\\",
++         \\"hasJobType\\": false,
++         \\"id\\": \\"a0h2v00000bwRcoAAE\\",
++         \\"name\\": \\"7777\\",
++         \\"parentId\\": null,
++       },
++       Object {
++         \\"code\\": \\"9\\",
++         \\"hasJobType\\": true,
++         \\"id\\": \\"a0h2v00000Xa3gtAAB\\",
++         \\"name\\": \\"9\\",
++         \\"parentId\\": null,
++       },
++       Object {
++         \\"code\\": \\"TEST\\",
++         \\"hasJobType\\": false,
++         \\"id\\": \\"a0h2v00000c8mVQAAY\\",
++         \\"name\\": \\"TEST ttt\\",
++         \\"parentId\\": null,
++       },
++     ],
++     \\"stream\\": _AsyncGenerator {
++       \\"_invoke\\": [Function send],
++     },
++   },
++ }"
+`;
+
+exports[`reducer() /MOBILE-APP/MODULES/TRACKING/ENTITY/JOBS/FETCH_SUCCESS 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"DEV-001\\": Object {
++     \\"isAborted\\": false,
++     \\"isDone\\": false,
++     \\"items\\": Array [],
++     \\"stream\\": _AsyncGenerator {
++       \\"_invoke\\": [Function send],
++     },
++   },
++ }"
+`;
+
+exports[`reducer() /MOBILE-APP/MODULES/TRACKING/ENTITY/JOBS/RESUME 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,8 +1,8 @@
+  Object {
+    \\"DEV-001\\": Object {
+-     \\"isAborted\\": true,
++     \\"isAborted\\": false,
+      \\"isDone\\": false,
+      \\"items\\": Array [
+        Object {
+          \\"code\\": \\"012345678901234567890123456789\\",
+          \\"hasJobType\\": true,"
+`;
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;

@@ -1,0 +1,32 @@
+@import 'mobile-global-imports', 'headers';
+
+.mobile-app-components-molecules-commons-headers-monthly-header {
+  &__paging {
+    @include header();
+  }
+
+  &__select-field {
+    @include centering();
+    @include select-field();
+
+    // HACK
+    // Override internal styles.
+    select {
+      width: fit-content;
+      padding-right: 0;
+      margin-right: 8px;
+      color: $color-blue-600;
+      font-weight: bold;
+    }
+
+    .mobile-app-atoms-select__icon {
+      position: static;
+      margin-left: 0;
+      color: $color-blue-600;
+    }
+  }
+
+  &__refresh {
+    padding: 0 8px;
+  }
+}

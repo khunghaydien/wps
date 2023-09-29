@@ -1,0 +1,516 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`admin-pc/action-dispatchers/Edit.js appendHistory() do't execute 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": [Error: validation check - ],
++     \\"type\\": \\"CATCH_BUSINESS_ERROR\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js appendHistory() execute with insteadMethod 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": Object {
++       \\"baseId\\": \\"baseId\\",
++       \\"key\\": \\"key\\",
++       \\"validDateFrom\\": \\"2020-01-01\\",
++     },
++     \\"type\\": \\"SET_EDIT_RECORD_HISTORY\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js appendHistory() execute with servise 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": Object {
++       \\"baseId\\": \\"baseId\\",
++       \\"key\\": \\"key\\",
++       \\"validDateFrom\\": \\"2020-01-01\\",
++     },
++     \\"type\\": \\"SET_EDIT_RECORD_HISTORY\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js checkIsRequiredFieldFilled() return false 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": [Error: validation check - ],
++     \\"type\\": \\"CATCH_BUSINESS_ERROR\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js create() do't execute 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": [Error: validation check - ],
++     \\"type\\": \\"CATCH_BUSINESS_ERROR\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js create() execute with insteadMethod 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": false,
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SHOW_DETAIL_PANE\\",
++   },
++   Object {
++     \\"payload\\": Object {},
++     \\"type\\": \\"SET_EDIT_RECORD\\",
++   },
++   Object {
++     \\"payload\\": Object {},
++     \\"type\\": \\"SET_EDIT_RECORD_HISTORY\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js create() execute with servise 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": false,
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SHOW_DETAIL_PANE\\",
++   },
++   Object {
++     \\"payload\\": Object {},
++     \\"type\\": \\"SET_EDIT_RECORD\\",
++   },
++   Object {
++     \\"payload\\": Object {},
++     \\"type\\": \\"SET_EDIT_RECORD_HISTORY\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js hideDetail() 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": false,
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SHOW_DETAIL_PANE\\",
++   },
++   Object {
++     \\"payload\\": Object {},
++     \\"type\\": \\"SET_EDIT_RECORD\\",
++   },
++   Object {
++     \\"payload\\": Object {},
++     \\"type\\": \\"SET_EDIT_RECORD_HISTORY\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js showDetail() do't have history 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": Object {
++       \\"id\\": \\"abc\\",
++     },
++     \\"type\\": \\"SET_EDIT_RECORD\\",
++   },
++   Object {
++     \\"payload\\": true,
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SHOW_DETAIL_PANE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js showDetail() execute with insteadMethod 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": Object {
++       \\"historyId\\": \\"def\\",
++       \\"id\\": \\"abc\\",
++     },
++     \\"type\\": \\"SET_EDIT_RECORD\\",
++   },
++   Object {
++     \\"payload\\": true,
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SHOW_DETAIL_PANE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js showDetail() have history 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": Object {
++       \\"historyId\\": \\"def\\",
++       \\"id\\": \\"abc\\",
++     },
++     \\"type\\": \\"SET_EDIT_RECORD\\",
++   },
++   Object {
++     \\"payload\\": Object {
++       \\"id\\": \\"def\\",
++       \\"validDateFrom\\": \\"2020-01-01\\",
++     },
++     \\"type\\": \\"SET_EDIT_RECORD_HISTORY\\",
++   },
++   Object {
++     \\"payload\\": true,
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SHOW_DETAIL_PANE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js startEditingBase() 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": \\"edit\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js startEditingHistory() 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": Object {
++       \\"comment\\": \\"new comment\\",
++       \\"validDateFrom\\": \\"2020/01/01\\",
++     },
++     \\"type\\": \\"SET_TMP_EDIT_RECORD_HISTORY\\",
++   },
++   Object {
++     \\"payload\\": false,
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SHOW_REVISION_DIALOG_PANE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"revision\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js startEditingNewRecord() do't have history 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": Object {},
++     \\"type\\": \\"SET_EDIT_RECORD\\",
++   },
++   Object {
++     \\"payload\\": Object {},
++     \\"type\\": \\"SET_EDIT_RECORD_HISTORY\\",
++   },
++   Object {
++     \\"payload\\": true,
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SHOW_DETAIL_PANE\\",
++   },
++   Object {
++     \\"payload\\": \\"new\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"new\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js startEditingNewRecord() have history 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": Object {},
++     \\"type\\": \\"SET_EDIT_RECORD\\",
++   },
++   Object {
++     \\"payload\\": Object {},
++     \\"type\\": \\"SET_EDIT_RECORD_HISTORY\\",
++   },
++   Object {
++     \\"type\\": \\"INITIALIZE_HISTORY\\",
++   },
++   Object {
++     \\"payload\\": true,
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SHOW_DETAIL_PANE\\",
++   },
++   Object {
++     \\"payload\\": \\"new\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"new\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js updateBase() do't execute 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": [Error: validation check - ],
++     \\"type\\": \\"CATCH_BUSINESS_ERROR\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js updateBase() execute with insteadMethod 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": Object {},
++     \\"type\\": \\"SET_TMP_EDIT_RECORD\\",
++   },
++   Object {
++     \\"payload\\": false,
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SHOW_DETAIL_PANE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js updateBase() execute with servise 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": Object {},
++     \\"type\\": \\"SET_TMP_EDIT_RECORD\\",
++   },
++   Object {
++     \\"payload\\": false,
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SHOW_DETAIL_PANE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js updateHistory() do't execute 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": [Error: validation check - ],
++     \\"type\\": \\"CATCH_BUSINESS_ERROR\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js updateHistory() execute with insteadMethod 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": Object {
++       \\"key\\": \\"abc\\",
++     },
++     \\"type\\": \\"SET_EDIT_RECORD_HISTORY\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;
+
+exports[`admin-pc/action-dispatchers/Edit.js updateHistory() execute with servise 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"payload\\": Object {
++       \\"key\\": \\"abc\\",
++     },
++     \\"type\\": \\"SET_EDIT_RECORD_HISTORY\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/BASE/DETAIL_PANE/UI/SET_MODE_BASE\\",
++   },
++   Object {
++     \\"payload\\": \\"\\",
++     \\"type\\": \\"MODULES/HISTORY/DETAIL_PANE/UI/SET_MODE_HISTORY\\",
++   },
++ ]"
+`;

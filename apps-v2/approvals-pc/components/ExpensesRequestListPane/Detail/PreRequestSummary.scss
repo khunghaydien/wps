@@ -1,0 +1,51 @@
+@import '../../../../commons/styles/wsp';
+
+.approvals-pc-expenses-request-pane-detail_pre_request_summary {
+  height: 100%;
+
+  &__list-detail {
+    overflow: hidden;
+    max-height: 56px;
+    padding: 16px 20px;
+    margin: 0 20px 20px;
+    background-color: color('background-1');
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+    &.is-open {
+      max-height: 300px;
+      transition: all 0.3s ease;
+    }
+
+    &-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      &-title {
+        color: color('text-1');
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      &-btn {
+        color: color('exp-primary');
+        cursor: pointer;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    &-content {
+      padding-bottom: 10px;
+      margin-top: 10px;
+      border-top: 1px solid color('border-2');
+    }
+  }
+
+  &__list-detail-item {
+    padding-top: 20px;
+  }
+}

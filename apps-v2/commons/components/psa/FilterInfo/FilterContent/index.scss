@@ -1,0 +1,88 @@
+@import '../../variables.scss';
+
+.ts-psa__common-filter__content {
+  display: flex;
+
+  &__filter-column {
+    width: 30%;
+    margin-right: 20px;
+
+    &__resource-group-filter,
+    &__skill-selection-filter {
+      margin-top: $container-padding;
+    }
+  }
+
+  .slds-listbox {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+
+  &__error {
+    color: red;
+  }
+
+  &__job-grade {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__job-grade-checkbox {
+    margin-right: 8px;
+  }
+
+  &__job-grade-label {
+    margin-bottom: 14px;
+  }
+
+  &__combobox-wrapper #combobox-base-skill,
+  &__combobox-wrapper #combobox-base-job {
+    cursor: not-allowed;
+    user-select: none;
+    pointer-events: none;
+    background-color: #ecebea;
+    color: transparent;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+  }
+
+  .slds-combobox__form-element > svg {
+    display: none;
+  }
+
+  &__effort-input-container {
+    max-height: 32px;
+    .ts-text-field {
+      min-height: 32px;
+    }
+    .ts-psa__common-filter__content__effort-dropdown {
+      position: relative;
+      right: -100%;
+      top: -26px;
+      max-width: 100px;
+      margin-top: -31px;
+      transform: translateX(-100%);
+      border-right: 1px solid $color-border-light-grey;
+      border-radius: 0.25rem;
+      border-radius: 0 0.25rem 0.25rem 0;
+      .slds-button.slds-button_neutral {
+        right: 1px;
+        min-height: 30px;
+        border: 0;
+        border-radius: 0 0.25rem 0.25rem 0;
+        border-width: 0 0 0 1px;
+        border-left: 1px solid $color-border-light-grey;
+      }
+    }
+  }
+  // allow user to scroll through the combobox options
+  #combobox-base-listbox ul.slds-dropdown_fluid {
+    max-height: 12.5rem;
+    overflow-y: auto;
+  }
+
+  .ts-psa__form-field + .ts-psa__form-field {
+    margin-top: $container-padding;
+  }
+}

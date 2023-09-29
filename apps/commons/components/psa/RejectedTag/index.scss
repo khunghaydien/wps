@@ -1,0 +1,14 @@
+@import '../variables.scss';
+.ts-psa__resource__Rejected-Tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 4px;
+    gap: 8px;
+    width: fit-content;
+    color: #FFF;
+    height: 17px;
+    background: #706E6B;
+    border-radius: 4px;
+}

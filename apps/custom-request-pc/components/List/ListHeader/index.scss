@@ -1,0 +1,69 @@
+@import '../../../../commons/styles/wsp';
+
+.ts-custom-request-list-header {
+  padding: 12px 24px 8px 20px;
+  border-bottom: 1px solid color('border-2');
+  background-color: color('background-1');
+  color: color('text-2');
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  justify-content: space-between;
+
+  &__right {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__record-type-select {
+    width: 200px !important;
+    height: 28px !important;
+  }
+
+  &__submenu {
+    position: absolute;
+    right: 24px;
+    width: 160px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 6px 10px;
+    margin-top: 4px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  &__delete,
+  &__clone {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: unset !important;
+    text-align: left;
+    color: #c23934 !important;
+
+    &:disabled {
+      color: color('disabled') !important;
+    }
+    .ts-button__contents {
+      display: block;
+    }
+  }
+  &__clone {
+    color: color('exp-primary') !important;
+    &:disabled {
+      color: color('disabled') !important;
+    }
+  }
+
+  &__extra-button {
+    .ts-button__contents {
+      width: 16px;
+      svg {
+        zoom: 2;
+      }
+    }
+  }
+}

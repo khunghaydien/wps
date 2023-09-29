@@ -1,0 +1,91 @@
+.admin-pc-links-detail {
+  > .slds-grid {
+    align-items: flex-start;
+  }
+
+  .slds-size--5-of-12.ts-horizontal-layout__body {
+    position: relative;
+    flex: 1;
+  }
+}
+
+.admin-pc-details__link {
+  &__add-links {
+    font-weight: bold;
+  }
+
+  .link-container + .link-container {
+    margin-top: 12px;
+  }
+
+  .admin-pc-details__link__dialog {
+    min-width: 720px;
+  }
+
+  .commons-dialog-frame__contents {
+    padding: 20px;
+  }
+
+  .link-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .link-container > div {
+    width: 48%;
+  }
+
+  .link-input.has-error {
+    border: 1px solid #f00;
+  }
+
+  .error-msg {
+    color: #f00;
+  }
+
+  .link-container > div + div {
+    margin-left: 20px;
+  }
+
+  .commons-dialog-frame__contents {
+    padding: 30px;
+  }
+
+  &__btn-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .link-delete-btn {
+    align-self: flex-end;
+    background-color: transparent;
+    color: red;
+    border: none;
+  }
+
+  &__read-only-links .link-container {
+    flex-wrap: nowrap;
+  }
+
+  &__read-only-links .link-container > div {
+    width: 50%;
+  }
+
+  &__add-links--dialog {
+    background: none;
+    border: 0;
+  }
+
+  &__dialog {
+    .commons-dialog-frame-footer__inner {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__add-links-text {
+    margin-left: 8px;
+  }
+}

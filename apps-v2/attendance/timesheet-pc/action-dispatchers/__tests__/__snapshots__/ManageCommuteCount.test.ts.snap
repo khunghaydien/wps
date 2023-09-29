@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`update() should be called catchApiError() if API returns a error. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "errorCode": "test",
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - error test",
+      "problem": "error test",
+      "stackTrace": "stackTrace",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`update() should be update if employeeId is null. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "commuteCount": Object {
+        "backwardCount": 1,
+        "forwardCount": 0,
+      },
+      "targetDate": "2020-01-01",
+    },
+    "type": "TIMESHEET-PC/ENTITIES/TIMESHEET/UPDATE_COMMUTE_COUNT",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`update() should be update. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "payload": Object {
+      "commuteCount": Object {
+        "backwardCount": 1,
+        "forwardCount": 0,
+      },
+      "targetDate": "2020-01-01",
+    },
+    "type": "TIMESHEET-PC/ENTITIES/TIMESHEET/UPDATE_COMMUTE_COUNT",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;

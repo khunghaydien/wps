@@ -1,0 +1,22 @@
+@import '../../../../../../../../commons/styles/exp/variables/colors';
+
+.grid-amount-mileage-summary-modal-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+
+  &__field-row {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  &-error-message {
+    color: $ts-warning;
+  }
+
+  &__input-error {
+    border-color: $ts-warning !important;
+  }
+}

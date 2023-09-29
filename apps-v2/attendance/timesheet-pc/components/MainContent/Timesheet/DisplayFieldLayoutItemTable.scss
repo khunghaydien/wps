@@ -1,0 +1,10 @@
+.timesheet-pc-main-content-timesheet-display-field-layout-item-table {
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  tbody {
+    .timesheet-pc-main-content-timesheet-display-field-layout-item-row:not(:last-child) {
+      border-bottom: 1px solid #d8dde6;
+    }
+  }
+}

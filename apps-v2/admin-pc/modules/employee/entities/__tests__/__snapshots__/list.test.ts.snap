@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected object but received array."
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/EMPLOYEE/ENTITIES/LIST/FETCH 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Array []
++ Array [
++   Object {
++     \\"code\\": \\"Code\\",
++     \\"departmentName\\": \\"Department Name\\",
++     \\"historyId\\": \\"History ID\\",
++     \\"id\\": \\"ID\\",
++     \\"managerName\\": \\"Manager Name\\",
++     \\"name\\": \\"Name\\",
++     \\"photoUrl\\": \\"Photo URL\\",
++     \\"title\\": \\"Title\\",
++     \\"workingTypeName\\": \\"WorkingTypeName\\",
++   },
++ ]"
+`;

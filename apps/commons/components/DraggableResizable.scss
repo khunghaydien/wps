@@ -1,0 +1,11 @@
+.react-draggable {
+  z-index: 99;
+  background: $color-bg-lighter;
+  border-radius: 8px;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.2);
+}
+
+.react-draggable-transparent-selection {
+  // to prevent unexpected selection in the background when drag
+  user-select: none;
+}

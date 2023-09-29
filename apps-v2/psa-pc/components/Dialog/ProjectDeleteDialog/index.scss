@@ -1,0 +1,57 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-psa__delete-project-dialog-componenet{
+    display: flex;
+    max-width: 720px;
+    min-height: 25vh;
+    max-height: 50vh;
+    flex-wrap: wrap;
+    padding: 0 $container-padding;
+    overflow: auto;
+
+      &__dialog-frame {
+        min-width: 400px;
+      }
+      &__btn-cancel {
+        color: $color-btn-save;
+      }
+      &__message {
+        display: flex;
+        flex-flow: row nowrap;
+        align-content: center;
+        align-items: baseline;
+        justify-content: flex-start;
+        margin: 10px 0;
+      }
+    
+      &__icon {
+        align-self: center;
+        padding: 0 10px;
+      }
+    
+      &__icon > img {
+        width: 35px;
+        max-width: 35px;
+        height: 35px;
+      }
+    
+      &__content {
+        align-self: center;
+        padding-left: 10px;
+        white-space: pre-wrap;
+      }
+      &__delete_confirmation_message{
+        align-self: center;
+        padding-left: 10px;
+        white-space: pre-wrap;
+        margin-left:55px;
+      }
+      &__projectName_Delete{
+        font-weight: bold;
+      }
+      &__Input{
+        margin-left:10px;
+        margin-right:10px;
+        margin-bottom: 10px;
+      }
+}

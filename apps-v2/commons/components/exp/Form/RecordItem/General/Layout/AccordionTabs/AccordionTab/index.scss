@@ -1,0 +1,56 @@
+.accordion-tab {
+  margin-bottom: 20px;
+  position: relative;
+
+  input[type='checkbox'] {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  &-label {
+    display: flex;
+    justify-content: space-between;
+    background: #ebf3f7;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 50px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+    &-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+  }
+
+  &-content {
+    max-height: 0;
+    padding: 0 20px;
+    transition: all 0.35s;
+    border-bottom: 1px solid #ddd;
+  }
+
+  &-visible-content {
+    padding: 20px;
+  }
+}
+
+input:checked {
+  + .accordion-tab-label {
+    &::after {
+      transform: scaleY(1);
+      filter: FlipV;
+    }
+  }
+
+  ~ .accordion-tab-content {
+    max-height: 100vh;
+    padding: 20px 20px 0 20px;
+    display: table;
+    width: 100%;
+  }
+}

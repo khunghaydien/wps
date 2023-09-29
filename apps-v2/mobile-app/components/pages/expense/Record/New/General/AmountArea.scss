@@ -1,0 +1,39 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-expense-page-record-new-general-amount-area {
+  &__amount-area {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  &_edit {
+    margin: 32px 4px 0 16px;
+  }
+  &_input {
+    width: 100%;
+  }
+
+  &__negative-warning {
+    border: 1px solid #df8e2f;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    margin-bottom: 18px;
+
+    &-svg {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      overflow: visible !important;
+    }
+
+    &-msg {
+      color: $color-text-base;
+      margin-left: 10px;
+    }
+  }
+
+  &__warning {
+    margin-bottom: 18px;
+  }
+}

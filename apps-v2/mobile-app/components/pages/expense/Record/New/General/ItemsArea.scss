@@ -1,0 +1,55 @@
+@import 'mobile-global-imports.scss';
+@import '../../../commons/theme/theme.scss';
+
+.mobile-app-pages-expense-page-record-new-general-items-area {
+  padding-top: 16px;
+  margin-bottom: 12px;
+
+  &__add {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    & .mobile-app-atoms-text-button__button {
+      width: 160px;
+      height: 40px;
+      border-style: solid;
+      border-color: $color-green-500;
+      border-radius: unit(5);
+      color: $color-green-500;
+      font-size: unit(4);
+      font-weight: normal;
+    }
+  }
+
+  &__label {
+    background-color: #ebf3f7;
+    padding: 0 12px;
+    min-height: 30px;
+    margin: 0 -12px;
+    display: flex;
+    align-items: center;
+
+    .mobile-app-atoms-label__text {
+      margin: 0;
+      color: #333;
+      font-weight: bold;
+      font-size: 15px;
+    }
+  }
+
+  &__feedback {
+    color: $color-red-600;
+    padding: 0 0 8px 2px;
+  }
+
+  & .mobile-app-molecules-expense-record-summary-list-item {
+    & .mobile-app-atoms-link-list-item__item {
+      word-break: break-word;
+    }
+  }
+
+  & .mobile-app-atoms-link-list-item {
+    padding: 5px 0;
+  }
+}

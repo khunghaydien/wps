@@ -1,0 +1,47 @@
+.admin-pc-contents-detail-pane__body__item-list {
+  &__sub-item label {
+    margin-left: 24px;
+  }
+
+  &__item {
+    padding: 3px 5px;
+  }
+
+  &__item--title {
+    display: inline-block;
+    width: 20%;
+    color: #333;
+    vertical-align: middle;
+  }
+
+  &__item--has-title select {
+    width: 80%;
+  }
+
+  &__item-date.slds-input {
+    width: 110px;
+  }
+
+  &__item-name.slds-input {
+    display: inline-block;
+    width: 30%;
+    margin-right: 1%;
+  }
+
+  &__item__checkbox-message {
+    margin-left: 6px;
+    color: $color-text-default;
+  }
+
+  .ts-time-field {
+    width: 80px;
+  }
+
+  .commons-fields-radio-group-fields {
+    color: $color-text-default;
+  }
+
+  select.slds-select.ts-select {
+    color: $color-text-default;
+  }
+}

@@ -1,0 +1,14 @@
+@import '../../../../../styles/wsp';
+
+.ts-expenses__form-records__list__receipt__record__icon {
+  &__hidden,
+  &__appear {
+    path {
+      fill: color('error');
+    }
+  }
+
+  &__tooltipMsg {
+    white-space: pre-wrap;
+  }
+}

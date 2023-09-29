@@ -1,0 +1,1104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots time-tracking/time-tracking-charge-transfer-pc/Transfer Dialog Has destination task 1`] = `
+<div
+  className="TransferDialog__Wrapper-sc-1ph5ue7-0 dQqurE"
+>
+  <div
+    className="ModalDialog__Container-sc-11lvnuk-0 bobGcN"
+    data-testid="transfer-dialog"
+  >
+    <div
+      className="ModalDialog__ButtonContainer-sc-11lvnuk-1 jqEpwu"
+    >
+      <button
+        className="ModalDialog__Button-sc-11lvnuk-2 lnytTs"
+        data-testid="transfer-dialog__close-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <test-file-stub
+          className="ModalDialog__CloseIcon-sc-11lvnuk-3 gSjkQL"
+        />
+      </button>
+    </div>
+    <div
+      className="ModalDialog__Dialog-sc-11lvnuk-4 cjRSGu"
+    >
+      <div
+        className="ModalDialog__Header-sc-11lvnuk-5 eNvpfX"
+      >
+        <h2
+          className="ModalDialog__Title-sc-11lvnuk-6 gAHfHK"
+        >
+          {$Trac_Lbl_TimeTrackingChargeTransfer}
+        </h2>
+      </div>
+      <div
+        className="ModalDialog__Content-sc-11lvnuk-7"
+      >
+        <div
+          className="Content__Wrapper-sc-10bwdb8-0 gXmYSS"
+        >
+          <div
+            className="Content__ColumnHeader-sc-10bwdb8-1 CmhPq"
+          >
+            <span
+              className="Text-sc-11kuzx6-0 Content__Text-sc-10bwdb8-7 hlQlOc jZQPMc"
+              color="secondary"
+              width="160"
+            >
+              Start Date
+            </span>
+            <div
+              className="Content__Spacer-sc-10bwdb8-6 yrqoE"
+              width="76"
+            />
+            <span
+              className="Text-sc-11kuzx6-0 hlQlOc"
+              color="secondary"
+            >
+              End Date
+            </span>
+          </div>
+          <div
+            className="Content__DateColumn-sc-10bwdb8-2 feKpnu"
+          >
+            <div
+              className="Period__DatePickerWrapper-sc-1su4ki5-0 cDbYtK"
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <div
+                      className="DatePicker__InputWrapper-sc-1m5gls3-1 krKEcb"
+                    >
+                      <input
+                        className="DatePicker__StyledDatePicker-sc-1m5gls3-0 cAuFqS"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        value="Tue, 12/01/2020"
+                      />
+                      <div
+                        className="DatePicker__IconWrapper-sc-1m5gls3-2 gcZFqG"
+                      >
+                        <test-file-stub
+                          aria-hidden={true}
+                          className="Icons__Icon-sc-cal846-0 dtSGBU"
+                          color="disable"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="Period__Spacer-sc-1su4ki5-1 IccVu"
+            />
+            <div
+              className="Period__DatePickerWrapper-sc-1su4ki5-0 cDbYtK"
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <div
+                      className="DatePicker__InputWrapper-sc-1m5gls3-1 krKEcb"
+                    >
+                      <input
+                        className="DatePicker__StyledDatePicker-sc-1m5gls3-0 cAuFqS"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        value="Thu, 12/31/2020"
+                      />
+                      <div
+                        className="DatePicker__IconWrapper-sc-1m5gls3-2 gcZFqG"
+                      >
+                        <test-file-stub
+                          aria-hidden={true}
+                          className="Icons__Icon-sc-cal846-0 dtSGBU"
+                          color="disable"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="Content__ColumnHeader-sc-10bwdb8-1 CmhPq"
+          >
+            <span
+              className="Text-sc-11kuzx6-0 Content__Text-sc-10bwdb8-7 hlQlOc kpvxtC"
+              color="secondary"
+              width="270"
+            >
+              Source Job
+            </span>
+            <div
+              className="Content__Spacer-sc-10bwdb8-6 bcsjRN"
+              width="40"
+            />
+            <span
+              className="Text-sc-11kuzx6-0 hlQlOc"
+              color="secondary"
+            >
+              Work Category
+            </span>
+          </div>
+          <div
+            className="Content__TaskColumn-sc-10bwdb8-3 blesZd"
+          >
+            <div
+              className="Content__TaskRow-sc-10bwdb8-4 cRzrqk"
+            >
+              <div
+                className="TaskStyle__Task-sc-1vjysbk-0 eKXVRs"
+              >
+                <div
+                  className="TaskStyle__Job-sc-1vjysbk-1 hkskqN"
+                >
+                  <span
+                    className="TaskStyle__JobCode-sc-1vjysbk-2 fZGryN"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 huIJOL"
+                      size="small"
+                    >
+                      EPIC-WPB-1000
+                    </span>
+                  </span>
+                  <span
+                    className="TaskStyle__JobName-sc-1vjysbk-3 iXSOda"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 NTmDY"
+                      size="large"
+                    >
+                      Develop Time Tracking Charge Transfer
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="TaskStyle__WorkCategory-sc-1vjysbk-4 iDWVRL"
+                >
+                  <div
+                    className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                  >
+                    <button
+                      aria-expanded={false}
+                      aria-haspopup="listbox"
+                      aria-readonly={true}
+                      className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                      onClick={[Function]}
+                      placeholder="Select"
+                      readOnly={true}
+                      type="button"
+                      value="1"
+                    >
+                      <div
+                        className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                      >
+                        <div
+                          className="WorkCategoryDropdown__OptionLabel-sc-1llgl0i-0 emAMBK"
+                        >
+                          <span
+                            className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-1llgl0i-1 hlQlOc buazGX"
+                            color="secondary"
+                            size="medium"
+                          >
+                            DEV-003
+                          </span>
+                          <span
+                            className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-1llgl0i-2 NTmDY jMpiVO"
+                            color="primary"
+                            size="large"
+                          >
+                            Testing
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="Content__ColumnHeader-sc-10bwdb8-1 CmhPq"
+          >
+            <span
+              className="Text-sc-11kuzx6-0 Content__Text-sc-10bwdb8-7 hlQlOc kpvxtC"
+              color="secondary"
+              width="270"
+            >
+              Destination Job
+            </span>
+            <div
+              className="Content__Spacer-sc-10bwdb8-6 bcsjRN"
+              width="40"
+            />
+            <span
+              className="Text-sc-11kuzx6-0 hlQlOc"
+              color="secondary"
+            >
+              Work Category
+            </span>
+          </div>
+          <div
+            className="Content__TaskColumn-sc-10bwdb8-3 blesZd"
+          >
+            <div
+              className="Content__TaskRow-sc-10bwdb8-4 cRzrqk"
+            >
+              <div
+                className="DestinationTask__Wrapper-sc-k35h42-0 eYoJlg"
+              >
+                <div
+                  className="TaskStyle__Task-sc-1vjysbk-0 eKXVRs"
+                >
+                  <div
+                    className="TaskStyle__Job-sc-1vjysbk-1 hkskqN"
+                  >
+                    <span
+                      className="TaskStyle__JobCode-sc-1vjysbk-2 fZGryN"
+                    >
+                      <span
+                        className="Text-sc-11kuzx6-0 huIJOL"
+                        size="small"
+                      >
+                        EPIC-WPB-1000
+                      </span>
+                    </span>
+                    <span
+                      className="TaskStyle__JobName-sc-1vjysbk-3 iXSOda"
+                    >
+                      <span
+                        className="Text-sc-11kuzx6-0 NTmDY"
+                        size="large"
+                      >
+                        Develop Time Tracking Charge Transfer
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    className="TaskStyle__WorkCategory-sc-1vjysbk-4 iDWVRL"
+                  >
+                    <div
+                      className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                    >
+                      <button
+                        aria-expanded={false}
+                        aria-haspopup="listbox"
+                        aria-readonly={false}
+                        className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                        onClick={[Function]}
+                        placeholder="Select"
+                        readOnly={false}
+                        type="button"
+                        value="1"
+                      >
+                        <div
+                          className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                        >
+                          <div
+                            className="WorkCategoryDropdown__OptionLabel-sc-1llgl0i-0 emAMBK"
+                          >
+                            <span
+                              className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-1llgl0i-1 hlQlOc buazGX"
+                              color="secondary"
+                              size="medium"
+                            >
+                              DEV-003
+                            </span>
+                            <span
+                              className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-1llgl0i-2 NTmDY jMpiVO"
+                              color="primary"
+                              size="large"
+                            >
+                              Testing
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="DestinationTask__IconBlock-sc-k35h42-1 jlSGph"
+                >
+                  <button
+                    className="IconButton__Button-sc-10k5axt-1 giXGgm"
+                    color="#666"
+                    onClick={[Function]}
+                  >
+                    <test-file-stub
+                      aria-hidden={true}
+                      className="Icons__Icon-sc-cal846-0 hgAhyG IconButton__Icon-sc-10k5axt-0 cZxIEP"
+                      color="#666"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ModalDialog__Footer-sc-11lvnuk-8 jkMpIE"
+      >
+        <div
+          className="Footer-sc-1k6e5m4-0 cQhZzb"
+        >
+          <button
+            className="Button-sc-w4yovf-0 Footer__Button-sc-1k6e5m4-1 ePsLmL semNQ"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+          <button
+            className="Button-sc-w4yovf-0 Footer__Button-sc-1k6e5m4-1 ccvjrW semNQ"
+            color="primary"
+            onClick={[Function]}
+          >
+            Save
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots time-tracking/time-tracking-charge-transfer-pc/Transfer Dialog Long Task 1`] = `
+<div
+  className="TransferDialog__Wrapper-sc-1ph5ue7-0 dQqurE"
+>
+  <div
+    className="ModalDialog__Container-sc-11lvnuk-0 bobGcN"
+    data-testid="transfer-dialog"
+  >
+    <div
+      className="ModalDialog__ButtonContainer-sc-11lvnuk-1 jqEpwu"
+    >
+      <button
+        className="ModalDialog__Button-sc-11lvnuk-2 lnytTs"
+        data-testid="transfer-dialog__close-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <test-file-stub
+          className="ModalDialog__CloseIcon-sc-11lvnuk-3 gSjkQL"
+        />
+      </button>
+    </div>
+    <div
+      className="ModalDialog__Dialog-sc-11lvnuk-4 cjRSGu"
+    >
+      <div
+        className="ModalDialog__Header-sc-11lvnuk-5 eNvpfX"
+      >
+        <h2
+          className="ModalDialog__Title-sc-11lvnuk-6 gAHfHK"
+        >
+          {$Trac_Lbl_TimeTrackingChargeTransfer}
+        </h2>
+      </div>
+      <div
+        className="ModalDialog__Content-sc-11lvnuk-7"
+      >
+        <div
+          className="Content__Wrapper-sc-10bwdb8-0 gXmYSS"
+        >
+          <div
+            className="Content__ColumnHeader-sc-10bwdb8-1 CmhPq"
+          >
+            <span
+              className="Text-sc-11kuzx6-0 Content__Text-sc-10bwdb8-7 hlQlOc jZQPMc"
+              color="secondary"
+              width="160"
+            >
+              Start Date
+            </span>
+            <div
+              className="Content__Spacer-sc-10bwdb8-6 yrqoE"
+              width="76"
+            />
+            <span
+              className="Text-sc-11kuzx6-0 hlQlOc"
+              color="secondary"
+            >
+              End Date
+            </span>
+          </div>
+          <div
+            className="Content__DateColumn-sc-10bwdb8-2 feKpnu"
+          >
+            <div
+              className="Period__DatePickerWrapper-sc-1su4ki5-0 cDbYtK"
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <div
+                      className="DatePicker__InputWrapper-sc-1m5gls3-1 krKEcb"
+                    >
+                      <input
+                        className="DatePicker__StyledDatePicker-sc-1m5gls3-0 cAuFqS"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        value="Tue, 12/01/2020"
+                      />
+                      <div
+                        className="DatePicker__IconWrapper-sc-1m5gls3-2 gcZFqG"
+                      >
+                        <test-file-stub
+                          aria-hidden={true}
+                          className="Icons__Icon-sc-cal846-0 dtSGBU"
+                          color="disable"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="Period__Spacer-sc-1su4ki5-1 IccVu"
+            />
+            <div
+              className="Period__DatePickerWrapper-sc-1su4ki5-0 cDbYtK"
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <div
+                      className="DatePicker__InputWrapper-sc-1m5gls3-1 krKEcb"
+                    >
+                      <input
+                        className="DatePicker__StyledDatePicker-sc-1m5gls3-0 cAuFqS"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        value="Thu, 12/31/2020"
+                      />
+                      <div
+                        className="DatePicker__IconWrapper-sc-1m5gls3-2 gcZFqG"
+                      >
+                        <test-file-stub
+                          aria-hidden={true}
+                          className="Icons__Icon-sc-cal846-0 dtSGBU"
+                          color="disable"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="Content__ColumnHeader-sc-10bwdb8-1 CmhPq"
+          >
+            <span
+              className="Text-sc-11kuzx6-0 Content__Text-sc-10bwdb8-7 hlQlOc kpvxtC"
+              color="secondary"
+              width="270"
+            >
+              Source Job
+            </span>
+            <div
+              className="Content__Spacer-sc-10bwdb8-6 bcsjRN"
+              width="40"
+            />
+            <span
+              className="Text-sc-11kuzx6-0 hlQlOc"
+              color="secondary"
+            >
+              Work Category
+            </span>
+          </div>
+          <div
+            className="Content__TaskColumn-sc-10bwdb8-3 blesZd"
+          >
+            <div
+              className="Content__TaskRow-sc-10bwdb8-4 cRzrqk"
+            >
+              <div
+                className="TaskStyle__Task-sc-1vjysbk-0 eKXVRs"
+              >
+                <div
+                  className="TaskStyle__Job-sc-1vjysbk-1 hkskqN"
+                >
+                  <span
+                    className="TaskStyle__JobCode-sc-1vjysbk-2 fZGryN"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 huIJOL"
+                      size="small"
+                    >
+                      EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000 
+                    </span>
+                  </span>
+                  <span
+                    className="TaskStyle__JobName-sc-1vjysbk-3 iXSOda"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 NTmDY"
+                      size="large"
+                    >
+                      Develop Time Tracking Charge Transfer Long Develop Time Tracking Charge Transfer Long Develop Time Tracking Charge Transfer Long
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="TaskStyle__WorkCategory-sc-1vjysbk-4 iDWVRL"
+                >
+                  <div
+                    className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                  >
+                    <button
+                      aria-expanded={false}
+                      aria-haspopup="listbox"
+                      aria-readonly={true}
+                      className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                      onClick={[Function]}
+                      placeholder="Select"
+                      readOnly={true}
+                      type="button"
+                      value="1"
+                    >
+                      <div
+                        className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                      >
+                        <div
+                          className="WorkCategoryDropdown__OptionLabel-sc-1llgl0i-0 emAMBK"
+                        >
+                          <span
+                            className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-1llgl0i-1 hlQlOc buazGX"
+                            color="secondary"
+                            size="medium"
+                          >
+                            DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003
+                          </span>
+                          <span
+                            className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-1llgl0i-2 NTmDY jMpiVO"
+                            color="primary"
+                            size="large"
+                          >
+                            Testing TestingTestingTestingTestingTestingTestingTestingTestingTestingTestingTestingTestingTestingTesting
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="Content__ColumnHeader-sc-10bwdb8-1 CmhPq"
+          >
+            <span
+              className="Text-sc-11kuzx6-0 Content__Text-sc-10bwdb8-7 hlQlOc kpvxtC"
+              color="secondary"
+              width="270"
+            >
+              Destination Job
+            </span>
+            <div
+              className="Content__Spacer-sc-10bwdb8-6 bcsjRN"
+              width="40"
+            />
+            <span
+              className="Text-sc-11kuzx6-0 hlQlOc"
+              color="secondary"
+            >
+              Work Category
+            </span>
+          </div>
+          <div
+            className="Content__TaskColumn-sc-10bwdb8-3 blesZd"
+          >
+            <div
+              className="Content__TaskRow-sc-10bwdb8-4 cRzrqk"
+            >
+              <div
+                className="DestinationTask__Wrapper-sc-k35h42-0 eYoJlg"
+              >
+                <div
+                  className="TaskStyle__Task-sc-1vjysbk-0 eKXVRs"
+                >
+                  <div
+                    className="TaskStyle__Job-sc-1vjysbk-1 hkskqN"
+                  >
+                    <span
+                      className="TaskStyle__JobCode-sc-1vjysbk-2 fZGryN"
+                    >
+                      <span
+                        className="Text-sc-11kuzx6-0 huIJOL"
+                        size="small"
+                      >
+                        EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000 EPIC-WPB-1000
+                      </span>
+                    </span>
+                    <span
+                      className="TaskStyle__JobName-sc-1vjysbk-3 iXSOda"
+                    >
+                      <span
+                        className="Text-sc-11kuzx6-0 NTmDY"
+                        size="large"
+                      >
+                        Develop Time Tracking Charge Transfer Long Develop Time Tracking Charge Transfer Long Develop Time Tracking Charge Transfer Long
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    className="TaskStyle__WorkCategory-sc-1vjysbk-4 iDWVRL"
+                  >
+                    <div
+                      className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                    >
+                      <button
+                        aria-expanded={false}
+                        aria-haspopup="listbox"
+                        aria-readonly={false}
+                        className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                        onClick={[Function]}
+                        placeholder="Select"
+                        readOnly={false}
+                        type="button"
+                        value="1"
+                      >
+                        <div
+                          className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                        >
+                          <div
+                            className="WorkCategoryDropdown__OptionLabel-sc-1llgl0i-0 emAMBK"
+                          >
+                            <span
+                              className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-1llgl0i-1 hlQlOc buazGX"
+                              color="secondary"
+                              size="medium"
+                            >
+                              DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003 DEV-003
+                            </span>
+                            <span
+                              className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-1llgl0i-2 NTmDY jMpiVO"
+                              color="primary"
+                              size="large"
+                            >
+                              Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="DestinationTask__IconBlock-sc-k35h42-1 jlSGph"
+                >
+                  <button
+                    className="IconButton__Button-sc-10k5axt-1 giXGgm"
+                    color="#666"
+                    onClick={[Function]}
+                  >
+                    <test-file-stub
+                      aria-hidden={true}
+                      className="Icons__Icon-sc-cal846-0 hgAhyG IconButton__Icon-sc-10k5axt-0 cZxIEP"
+                      color="#666"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ModalDialog__Footer-sc-11lvnuk-8 jkMpIE"
+      >
+        <div
+          className="Footer-sc-1k6e5m4-0 cQhZzb"
+        >
+          <button
+            className="Button-sc-w4yovf-0 Footer__Button-sc-1k6e5m4-1 ePsLmL semNQ"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+          <button
+            className="Button-sc-w4yovf-0 Footer__Button-sc-1k6e5m4-1 ccvjrW semNQ"
+            color="primary"
+            onClick={[Function]}
+          >
+            Save
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots time-tracking/time-tracking-charge-transfer-pc/Transfer Dialog No destination task 1`] = `
+<div
+  className="TransferDialog__Wrapper-sc-1ph5ue7-0 dQqurE"
+>
+  <div
+    className="ModalDialog__Container-sc-11lvnuk-0 bobGcN"
+    data-testid="transfer-dialog"
+  >
+    <div
+      className="ModalDialog__ButtonContainer-sc-11lvnuk-1 jqEpwu"
+    >
+      <button
+        className="ModalDialog__Button-sc-11lvnuk-2 lnytTs"
+        data-testid="transfer-dialog__close-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <test-file-stub
+          className="ModalDialog__CloseIcon-sc-11lvnuk-3 gSjkQL"
+        />
+      </button>
+    </div>
+    <div
+      className="ModalDialog__Dialog-sc-11lvnuk-4 cjRSGu"
+    >
+      <div
+        className="ModalDialog__Header-sc-11lvnuk-5 eNvpfX"
+      >
+        <h2
+          className="ModalDialog__Title-sc-11lvnuk-6 gAHfHK"
+        >
+          {$Trac_Lbl_TimeTrackingChargeTransfer}
+        </h2>
+      </div>
+      <div
+        className="ModalDialog__Content-sc-11lvnuk-7"
+      >
+        <div
+          className="Content__Wrapper-sc-10bwdb8-0 gXmYSS"
+        >
+          <div
+            className="Content__ColumnHeader-sc-10bwdb8-1 CmhPq"
+          >
+            <span
+              className="Text-sc-11kuzx6-0 Content__Text-sc-10bwdb8-7 hlQlOc jZQPMc"
+              color="secondary"
+              width="160"
+            >
+              Start Date
+            </span>
+            <div
+              className="Content__Spacer-sc-10bwdb8-6 yrqoE"
+              width="76"
+            />
+            <span
+              className="Text-sc-11kuzx6-0 hlQlOc"
+              color="secondary"
+            >
+              End Date
+            </span>
+          </div>
+          <div
+            className="Content__DateColumn-sc-10bwdb8-2 feKpnu"
+          >
+            <div
+              className="Period__DatePickerWrapper-sc-1su4ki5-0 cDbYtK"
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <div
+                      className="DatePicker__InputWrapper-sc-1m5gls3-1 krKEcb"
+                    >
+                      <input
+                        className="DatePicker__StyledDatePicker-sc-1m5gls3-0 cAuFqS"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        value="Tue, 12/01/2020"
+                      />
+                      <div
+                        className="DatePicker__IconWrapper-sc-1m5gls3-2 gcZFqG"
+                      >
+                        <test-file-stub
+                          aria-hidden={true}
+                          className="Icons__Icon-sc-cal846-0 dtSGBU"
+                          color="disable"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="Period__Spacer-sc-1su4ki5-1 IccVu"
+            />
+            <div
+              className="Period__DatePickerWrapper-sc-1su4ki5-0 cDbYtK"
+            >
+              <div>
+                <div
+                  className="react-datepicker-wrapper"
+                >
+                  <div
+                    className="react-datepicker__input-container"
+                  >
+                    <div
+                      className="DatePicker__InputWrapper-sc-1m5gls3-1 krKEcb"
+                    >
+                      <input
+                        className="DatePicker__StyledDatePicker-sc-1m5gls3-0 cAuFqS"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        value="Thu, 12/31/2020"
+                      />
+                      <div
+                        className="DatePicker__IconWrapper-sc-1m5gls3-2 gcZFqG"
+                      >
+                        <test-file-stub
+                          aria-hidden={true}
+                          className="Icons__Icon-sc-cal846-0 dtSGBU"
+                          color="disable"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="Content__ColumnHeader-sc-10bwdb8-1 CmhPq"
+          >
+            <span
+              className="Text-sc-11kuzx6-0 Content__Text-sc-10bwdb8-7 hlQlOc kpvxtC"
+              color="secondary"
+              width="270"
+            >
+              Source Job
+            </span>
+            <div
+              className="Content__Spacer-sc-10bwdb8-6 bcsjRN"
+              width="40"
+            />
+            <span
+              className="Text-sc-11kuzx6-0 hlQlOc"
+              color="secondary"
+            >
+              Work Category
+            </span>
+          </div>
+          <div
+            className="Content__TaskColumn-sc-10bwdb8-3 blesZd"
+          >
+            <div
+              className="Content__TaskRow-sc-10bwdb8-4 cRzrqk"
+            >
+              <div
+                className="TaskStyle__Task-sc-1vjysbk-0 eKXVRs"
+              >
+                <div
+                  className="TaskStyle__Job-sc-1vjysbk-1 hkskqN"
+                >
+                  <span
+                    className="TaskStyle__JobCode-sc-1vjysbk-2 fZGryN"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 huIJOL"
+                      size="small"
+                    >
+                      EPIC-WPB-1000
+                    </span>
+                  </span>
+                  <span
+                    className="TaskStyle__JobName-sc-1vjysbk-3 iXSOda"
+                  >
+                    <span
+                      className="Text-sc-11kuzx6-0 NTmDY"
+                      size="large"
+                    >
+                      Develop Time Tracking Charge Transfer
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="TaskStyle__WorkCategory-sc-1vjysbk-4 iDWVRL"
+                >
+                  <div
+                    className="DropdownButton__Wrapper-sc-8ghard-0 eAgKEh"
+                  >
+                    <button
+                      aria-expanded={false}
+                      aria-haspopup="listbox"
+                      aria-readonly={true}
+                      className="DropdownButton__Button-sc-8ghard-2 fQhkab"
+                      onClick={[Function]}
+                      placeholder="Select"
+                      readOnly={true}
+                      type="button"
+                      value="1"
+                    >
+                      <div
+                        className="DropdownButton__Label-sc-8ghard-3 hMBNwT"
+                      >
+                        <div
+                          className="WorkCategoryDropdown__OptionLabel-sc-1llgl0i-0 emAMBK"
+                        >
+                          <span
+                            className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Code-sc-1llgl0i-1 hlQlOc buazGX"
+                            color="secondary"
+                            size="medium"
+                          >
+                            DEV-003
+                          </span>
+                          <span
+                            className="Text-sc-11kuzx6-0 WorkCategoryDropdown__Name-sc-1llgl0i-2 NTmDY jMpiVO"
+                            color="primary"
+                            size="large"
+                          >
+                            Testing
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        className="DropdownButton__Mark-sc-8ghard-1 ioXsrM"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="Content__ColumnHeader-sc-10bwdb8-1 CmhPq"
+          >
+            <span
+              className="Text-sc-11kuzx6-0 Content__Text-sc-10bwdb8-7 hlQlOc kpvxtC"
+              color="secondary"
+              width="270"
+            >
+              Destination Job
+            </span>
+            <div
+              className="Content__Spacer-sc-10bwdb8-6 bcsjRN"
+              width="40"
+            />
+            <span
+              className="Text-sc-11kuzx6-0 hlQlOc"
+              color="secondary"
+            >
+              Work Category
+            </span>
+          </div>
+          <div
+            className="Content__TaskColumn-sc-10bwdb8-3 blesZd"
+          >
+            <div
+              className="Content__EmptyTaskColumn-sc-10bwdb8-5 cBzWYt"
+            >
+              <button
+                className="LinkButton__Wrapper-sc-1fk5ge7-0 jrgasb"
+                onClick={[Function]}
+                type="button"
+              >
+                <test-file-stub
+                  aria-hidden={true}
+                  className="Icons__Icon-sc-cal846-0 kTRlpK LinkButton__Icon-sc-1fk5ge7-2 kEGlhx"
+                />
+                <div
+                  className="LinkButton__TextLink-sc-1fk5ge7-1 dWvzyk"
+                  size="large"
+                >
+                  Select Job
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ModalDialog__Footer-sc-11lvnuk-8 jkMpIE"
+      >
+        <div
+          className="Footer-sc-1k6e5m4-0 cQhZzb"
+        >
+          <button
+            className="Button-sc-w4yovf-0 Footer__Button-sc-1k6e5m4-1 ePsLmL semNQ"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+          <button
+            className="Button-sc-w4yovf-0 Footer__Button-sc-1k6e5m4-1 ccvjrW semNQ"
+            color="primary"
+            onClick={[Function]}
+          >
+            Save
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,34 @@
+@import '../../../../../commons/styles/exp/variables/colors';
+
+.mobile-app-molecules-commons-file-card {
+  background: $color-list-view-bg-hover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+
+  &__name {
+    flex: 1;
+    margin: 0 8px;
+    font-size: 14px;
+    color: #0070d2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__type-icon {
+    border-radius: 2px;
+  }
+
+  &__remove {
+    width: 16px;
+    height: 16px;
+
+    path {
+      fill: $color-text-secondary-gray;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`openProxyEmployeeSelector should call with delegatedEmployee 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "leggedInCompanyId",
+      "leggedInDepartmentId",
+      "delegatedEmployeeId",
+    ],
+    "type": "TEST:SHOW_PROXY_EMPLOYEE_SELECT_DIALOG",
+  },
+]
+`;
+
+exports[`openProxyEmployeeSelector should call with leggedInEmployee 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "leggedInCompanyId",
+      "leggedInDepartmentId",
+      "leggedInEmployeeId",
+    ],
+    "type": "TEST:SHOW_PROXY_EMPLOYEE_SELECT_DIALOG",
+  },
+]
+`;

@@ -1,0 +1,67 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-atoms-label {
+  $font-base-size: 13px;
+
+  color: $color-blue-800;
+  // 4の倍数じゃないけど、ラベルは特別に13pxを使う.
+  font-size: $font-base-size;
+
+  &__main {
+    display: inline-flex;
+    width: 100%;
+
+    .mobile-app-atoms-icon {
+      width: $font-base-size;
+      height: $font-base-size;
+    }
+
+    .mobile-app-atoms-icon-button {
+      height: 100%;
+      padding-left: $extra-small-size;
+      background: none !important;
+    }
+
+    svg {
+      vertical-align: middle;
+    }
+  }
+
+  &--emphasis &__text {
+    width: fit-content;
+    padding: 4px 8px;
+    margin: 0 0 8px;
+    background: $color-gray-200;
+    color: $color-text-base;
+  }
+
+  &__text {
+    overflow: hidden;
+    margin: 0 0 4px;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    word-break: break-word;
+  }
+
+  &__hint-area {
+    margin-bottom: $base-size;
+    color: $color-text-info;
+    font-size: $small-size;
+    line-height: 1em;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+
+  &__text &__marker {
+    display: inline-block;
+    color: $color-alert;
+  }
+
+  &__hint {
+    margin: 0 4px 4px 8px;
+  }
+
+  &__hint svg {
+    margin: 0 0 4px 0;
+  }
+}

@@ -1,0 +1,44 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-expense-level-link-list-item {
+  display: flex;
+  width: 100%;
+  min-height: 40px;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 $extra-small-size;
+  margin: 0;
+  border-bottom: 1px solid $color-border;
+  font-size: $medium-size;
+
+  @mixin reset-button-style() {
+    padding: 0;
+    border: none;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+  }
+
+  @mixin center() {
+    display: flex;
+    align-items: center;
+  }
+
+  &__body {
+    @include reset-button-style();
+    @include center();
+
+    width: 100%;
+    min-height: 40px;
+    word-break: break-all;
+  }
+
+  &__icon {
+    @include reset-button-style();
+    @include center();
+
+    word-break: break-all;
+  }
+}

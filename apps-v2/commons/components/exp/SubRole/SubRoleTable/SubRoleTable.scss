@@ -1,0 +1,52 @@
+@import '../../../../../commons/styles/exp/variables/colors';
+
+.ts-expenses-switch-subrole-table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: auto;
+  &__scrollable {
+    display: flex;
+    width: 100%;
+    background-color: red;
+  }
+
+  &-row-container {
+    display: flex;
+    width: 100%;
+    padding: 16px;
+    height: 48px;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    align-items: center;
+    cursor: pointer;
+
+    &-selected-container {
+      display: flex;
+      flex: 1;
+      & svg {
+        > path {
+          fill: $color-bg-primary;
+          font-size: 20px;
+        }
+      }
+    }
+
+    &-label-container {
+      display: flex;
+      flex: 49;
+      font-size: 13px;
+      color: $color-text-header-dark;
+
+      &-selected {
+        font-weight: bold;
+        color: $color-bg-primary;
+      }
+    }
+  }
+
+  &-row-container-disabled {
+    background-color: #eee;
+    cursor: not-allowed;
+  }
+}

@@ -1,0 +1,21 @@
+.approvals-pc-att-monthly-process-list-pane-detail {
+  height: 100%;
+
+  &__list-detail {
+    padding-left: 25px;
+    margin-bottom: 35px;
+  }
+
+  &__list-detail-item + &__list-detail-item {
+    padding-top: 1.5em;
+  }
+
+  &__history-list {
+    margin-bottom: 20px;
+  }
+
+  &__scrollable {
+    height: calc(100% - 35px);
+    overflow-y: auto;
+  }
+}

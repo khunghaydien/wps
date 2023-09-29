@@ -1,0 +1,51 @@
+@import 'mobile-global-imports';
+
+.mobile-app-atoms-radio-button-group-default {
+  legend,
+  .slds-button {
+    color: $color-text-base;
+    font-size: 13px;
+    font-weight: normal !important;
+  }
+
+  legend {
+    color: $color-blue-800 !important;
+  }
+
+  .slds-radio_button-group {
+    display: flex;
+    height: 40px;
+    flex-flow: row;
+    justify-content: space-between;
+    border: solid 1px $color-border;
+    border-radius: 4px;
+  }
+
+  .slds-radio_button {
+    width: 100%;
+  }
+
+  .slds-radio_button .slds-radio_button__label {
+    display: inline-flex;
+    width: 100%;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+  }
+
+  .slds-radio_button:nth-child(2n + 1) {
+    border-right: solid 1px $color-border;
+  }
+
+  .slds-radio_button:first-child,
+  .slds-radio_button:last-child {
+    border-right: none;
+  }
+
+  // important to override default SLDS color
+  .slds-radio_button [type='radio']:checked + .slds-radio_button__label,
+  .slds-radio_button [type='radio']:checked + .slds-radio_button__label:hover {
+    background-color: $color-brand !important;
+  }
+}

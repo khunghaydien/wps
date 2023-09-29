@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected undefined but received object."
+`;
+
+exports[`reducer() APPROVALS-PC/UI/ATT-DAILY-FIX/RECORDS/INITIALIZE with 1 record. 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"order\\": Object {
+      \\"direction\\": \\"asc\\",
+      \\"key\\": \\"submitter.employee.code\\",
+    },
+-   \\"originalRecords\\": Array [],
++   \\"originalRecords\\": Array [
++     Object {
++       \\"submitter\\": Object {
++         \\"employee\\": Object {
++           \\"code\\": \\"E-0001\\",
++           \\"department\\": Object {
++             \\"name\\": \\"D-0001\\",
++           },
++           \\"name\\": \\"EmployeeA\\",
++         },
++       },
++       \\"targetDate\\": \\"2022-02-01\\",
++       \\"targetRecord\\": Object {
++         \\"event\\": \\"eventName1\\",
++         \\"recordDate\\": \\"2022-02-01\\",
++       },
++     },
++   ],
+    \\"overLimit\\": false,
+-   \\"records\\": Array [],
++   \\"records\\": Array [
++     Object {
++       \\"submitter\\": Object {
++         \\"employee\\": Object {
++           \\"code\\": \\"E-0001\\",
++           \\"department\\": Object {
++             \\"name\\": \\"D-0001\\",
++           },
++           \\"name\\": \\"EmployeeA\\",
++         },
++       },
++       \\"targetDate\\": \\"2022-02-01\\",
++       \\"targetRecord\\": Object {
++         \\"event\\": \\"eventName1\\",
++         \\"recordDate\\": \\"2022-02-01\\",
++       },
++     },
++   ],
+    \\"searchQuery\\": Object {
+      \\"department\\": Array [],
+      \\"employee\\": Array [],
+      \\"requestAndEvent\\": Array [],
+      \\"targetDate\\": \\"\\",
+    },
+-   \\"sortedRecords\\": Array [],
++   \\"sortedRecords\\": Array [
++     Object {
++       \\"submitter\\": Object {
++         \\"employee\\": Object {
++           \\"code\\": \\"E-0001\\",
++           \\"department\\": Object {
++             \\"name\\": \\"D-0001\\",
++           },
++           \\"name\\": \\"EmployeeA\\",
++         },
++       },
++       \\"targetDate\\": \\"2022-02-01\\",
++       \\"targetRecord\\": Object {
++         \\"event\\": \\"eventName1\\",
++         \\"recordDate\\": \\"2022-02-01\\",
++       },
++     },
++   ],
+  }"
+`;
+
+exports[`reducer() APPROVALS-PC/UI/ATT-DAILY-FIX/RECORDS/SET_RECORDS 1 record 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -5,40 +5,40 @@
+    },
+    \\"originalRecords\\": Array [
+      Object {
+        \\"submitter\\": Object {
+          \\"employee\\": Object {
+-           \\"code\\": \\"E-0001\\",
++           \\"code\\": \\"E-0002\\",
+            \\"department\\": Object {
+-             \\"name\\": \\"D-0001\\",
++             \\"name\\": \\"D-0002\\",
+            },
+-           \\"name\\": \\"EmployeeA\\",
++           \\"name\\": \\"EmployeeB\\",
+          },
+        },
+-       \\"targetDate\\": \\"2022-02-01\\",
++       \\"targetDate\\": \\"2022-02-02\\",
+        \\"targetRecord\\": Object {
+-         \\"event\\": \\"eventName1\\",
+-         \\"recordDate\\": \\"2022-02-01\\",
++         \\"event\\": \\"eventName2\\",
++         \\"recordDate\\": \\"2022-02-02\\",
+        },
+      },
+    ],
+    \\"overLimit\\": false,
+    \\"records\\": Array [
+      Object {
+        \\"submitter\\": Object {
+          \\"employee\\": Object {
+-           \\"code\\": \\"E-0001\\",
++           \\"code\\": \\"E-0002\\",
+            \\"department\\": Object {
+-             \\"name\\": \\"D-0001\\",
++             \\"name\\": \\"D-0002\\",
+            },
+-           \\"name\\": \\"EmployeeA\\",
++           \\"name\\": \\"EmployeeB\\",
+          },
+        },
+-       \\"targetDate\\": \\"2022-02-01\\",
++       \\"targetDate\\": \\"2022-02-02\\",
+        \\"targetRecord\\": Object {
+-         \\"event\\": \\"eventName1\\",
+-         \\"recordDate\\": \\"2022-02-01\\",
++         \\"event\\": \\"eventName2\\",
++         \\"recordDate\\": \\"2022-02-02\\",
+        },
+      },
+    ],
+    \\"searchQuery\\": Object {
+      \\"department\\": Array [],
+@@ -48,20 +48,20 @@
+    },
+    \\"sortedRecords\\": Array [
+      Object {
+        \\"submitter\\": Object {
+          \\"employee\\": Object {
+-           \\"code\\": \\"E-0001\\",
++           \\"code\\": \\"E-0002\\",
+            \\"department\\": Object {
+-             \\"name\\": \\"D-0001\\",
++             \\"name\\": \\"D-0002\\",
+            },
+-           \\"name\\": \\"EmployeeA\\",
++           \\"name\\": \\"EmployeeB\\",
+          },
+        },
+-       \\"targetDate\\": \\"2022-02-01\\",
++       \\"targetDate\\": \\"2022-02-02\\",
+        \\"targetRecord\\": Object {
+-         \\"event\\": \\"eventName1\\",
+-         \\"recordDate\\": \\"2022-02-01\\",
++         \\"event\\": \\"eventName2\\",
++         \\"recordDate\\": \\"2022-02-02\\",
+        },
+      },
+    ],
+  }"
+`;

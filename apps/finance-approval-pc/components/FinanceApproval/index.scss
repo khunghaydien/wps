@@ -1,0 +1,271 @@
+@import '../../../commons/styles/variables/colors';
+@import '../../../commons/styles/wsp';
+
+.ts-expenses__form {
+  margin-top: 20px !important;
+}
+
+.ts-finance-approval {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-color: color('background-1');
+  display: flex;
+  flex-direction: column;
+
+  &__request-header {
+    display: flex;
+    align-items: center;
+    margin: 12px;
+  }
+
+  &__page-info {
+    padding-left: 4px;
+  }
+
+  &__refresh-btn {
+    display: flex;
+    padding: 4px;
+    margin-left: 12px;
+    background: none;
+    border-radius: 4px;
+  }
+
+  &__back-btn {
+    border: 0;
+    background: none;
+    outline: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__tab-area {
+    height: 100%;
+    padding-top: 36px;
+  }
+
+  .ts-expenses__form {
+    height: calc(
+      100% - 20px
+    ); // -moz-avaliable is not working in mozilla and fill-avaliable is not working in Edge so the height is calculated like this if -56px it will have extra white space
+  }
+
+  .ts-expenses__form-records-button-area__btn-new,
+  .ts-expenses__form-records-button-area__btn-edit {
+    display: none;
+  }
+
+  // css for common expenses + requests
+  .input-feedback {
+    color: color('required');
+  }
+
+  .slds-input,
+  .ts-select-input {
+    height: 32px;
+    border-color: color('border-1');
+    color: color('text-1');
+  }
+
+  // key is too generic, but because it is already widely used in our system, we cannot change it now. To change during the next refactor
+  .key {
+    display: block;
+    color: color('text-2');
+    font-size: 13px;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+
+  // fix for vfp css
+  [class*='slds-size_'],
+  [class*='slds-size--'] {
+    flex: none;
+  }
+
+  // custom styles for form inputs inside exp
+  .ts-textarea-field[disabled] {
+    border-color: color('border-1');
+    background-color: color('disabled-1');
+  }
+
+  &-condition-save-button {
+    height: 32px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  &-condition-delete-button {
+    height: 32px;
+    margin-left: 10px;
+  }
+
+  &__backToList {
+    padding: 0 20px;
+    align-self: flex-end;
+
+    & .ts-finance-approval-sub-header-pager {
+      padding: 10px 0 0 0;
+    }
+  }
+
+  // /////////////////////////////////////////////////////////////////////
+  //
+  // Dialog
+  //
+  // /////////////////////////////////////////////////////////////////////
+
+  .ts-modal {
+    & .ts-multi-column-finder__header,
+    & .ts-multi-column-finder__footer {
+      border-color: color('border-2');
+      background-color: $color-bg-heading;
+    }
+  }
+
+  .commons-dialog-frame {
+    &__contents {
+      padding: 20px;
+    }
+  }
+
+  // /////////////////////////////////////////////////////////////////////
+  //
+  // Multicolumn Finder
+  //
+  // /////////////////////////////////////////////////////////////////////
+
+  & .ts-multi-column-finder {
+    &__search {
+      &-field-label,
+      &-result-label {
+        color: color('text-2');
+      }
+    }
+
+    &__contents {
+      border-radius: 4px;
+    }
+
+    & .slds-grid .ts-multi-column-finder__column,
+    & .ts-multi-column-finder__scrollable {
+      border-radius: 4px;
+      overflow-y: auto;
+    }
+
+    &__text {
+      & > .ts-multi-column-finder__text-main,
+      & > .ts-multi-column-finder__text-code {
+        color: color('text-2');
+        font-size: 10px;
+      }
+    }
+
+    &__show-child-btn.slds-col {
+      padding-right: 12px;
+
+      svg {
+        width: 20px;
+        height: 20px;
+        padding: 4px;
+      }
+    }
+
+    > .ts-multi-column-finder__btn-grp {
+      padding: 20px;
+    }
+
+    & .ts-multi-column-finder {
+      &__item,
+      &__contents,
+      &__column,
+      &__scrollable {
+        border-color: color('border-2');
+      }
+    }
+  }
+}
+
+// custom styles for form inputs inside exp
+
+.ts-text-field-container {
+  width: 100%;
+  margin-bottom: 8px;
+
+  .slds-input,
+  .ts-select-input {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid color('border-1');
+    background-color: color('background-1');
+    border-radius: 5px;
+  }
+
+  .slds-input[disabled],
+  .ts-select-input[disabled],
+  .ts-textarea-field[disabled] {
+    border-color: color('border-1');
+    background-color: color('disabled-1');
+  }
+
+  .react-datepicker-wrapper {
+    width: 100%;
+
+    & input {
+      position: relative;
+      padding: 5px 10px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background: url('../../../commons/images/iconCalendar.png') no-repeat
+        color('background-1');
+      background-position: right 10px center;
+      color: color('text-1');
+    }
+  }
+
+  .commons-fields-date-field {
+    width: 100%;
+  }
+}
+
+.ts-expenses__form-record-item-summary textarea {
+  min-height: 78px !important;
+}
+
+.record_item__contents__amount_selection {
+  select {
+    width: 220px;
+    height: 32px;
+    background-color: color('background-1');
+  }
+
+  select:disabled {
+    background-color: color('disabled-1');
+    cursor: default;
+  }
+}
+
+.ts-finance-approval-search-area {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 56px;
+
+  .slds-select {
+    width: 180px;
+    margin-right: 10px;
+  }
+
+  &__search-cond {
+    width: 100%;
+    align-self: flex-start;
+    background-color: color('disabled-1');
+    padding: 20px;
+  }
+
+  & .ts-expenses__search-area {
+    padding-left: 12px;
+  }
+}

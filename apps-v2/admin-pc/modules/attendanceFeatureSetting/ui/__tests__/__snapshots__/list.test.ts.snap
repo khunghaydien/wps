@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@INIT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"selectedCode\\": \\"\\",
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/FEATURE-SETTING/UI/LIST/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"selectedCode\\": \\"code-0\\",
++   \\"selectedCode\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/FEATURE-SETTING/UI/LIST/RESET_SELECTED_CODE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"selectedCode\\": \\"code-0\\",
++   \\"selectedCode\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/FEATURE-SETTING/UI/LIST/SET_SELECTED_CODE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"selectedCode\\": \\"\\",
++   \\"selectedCode\\": \\"code-1\\",
+  }"
+`;

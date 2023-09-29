@@ -1,0 +1,67 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-expense-page-report-list {
+  &.mobile-app-atoms-wrapper {
+    padding-top: 0;
+  }
+
+  .main-content {
+    padding: 48px 0;
+  }
+
+  &__button-new-report {
+    position: fixed;
+    bottom: 60px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+
+  &__info {
+    display: none; // hide info icon as it is not needed for now
+  }
+
+  &__title {
+    color: $color-gray-800;
+    font-size: 16px;
+  }
+
+  &__status {
+    display: flex;
+    align-items: center;
+    color: $color-gray-600;
+    font-size: 12px;
+  }
+
+  &__date {
+    display: flex;
+    align-items: center;
+    color: $color-blue-800;
+    font-size: 12px;
+  }
+
+  &__icon {
+    margin-right: 6px;
+  }
+
+  &__empty {
+    margin-top: 150px;
+  }
+
+  &__info {
+    padding: 8px;
+  }
+
+  &__approved {
+    padding: 6px;
+    svg {
+      overflow: visible !important;
+    }
+  }
+
+  .mobile-app-molecules-commons-dialog__buttons {
+    display: none;
+  }
+}

@@ -1,0 +1,48 @@
+.common-fields-comment-field-narrow {
+  display: flex;
+
+  &__icon {
+    flex-basis: 50px;
+  }
+
+  &__icon-img {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  &__bubble {
+    position: relative;
+    flex-basis: calc(100% - 50px);
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+
+  &__bubble::before {
+    position: absolute;
+    top: 28px;
+    left: 12px;
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-right-color: $color-border-default;
+    content: '';
+  }
+
+  &__bubble::after {
+    position: absolute;
+    top: 28px;
+    left: 14px;
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-right-color: #fff;
+    content: '';
+  }
+
+  &__textarea {
+    height: 40px;
+    vertical-align: bottom;
+  }
+}

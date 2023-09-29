@@ -1,0 +1,387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectFinanceContainer Test it renders without crashing 1`] = `
+<div
+  className="ts-psa__finance "
+>
+  <textarea
+    className="ts-psa__finance__memo"
+    onBlur={[Function]}
+    onChange={[Function]}
+    style={
+      Object {
+        "left": "0px",
+        "maxWidth": "200px",
+        "minHeight": "100px",
+        "position": "absolute",
+        "top": "0px",
+        "visibility": "hidden",
+        "zIndex": "999",
+      }
+    }
+  />
+  <div
+    className="ts-psa__common-header"
+  >
+    <div
+      className="ts-psa__common-header-left"
+    >
+      <span
+        className="ts-psa__common-header-breadcrumb"
+      />
+      <span
+        className="ts-psa__common-header-title"
+      >
+        Financials
+      </span>
+    </div>
+    <div
+      className="ts-psa__common-header__btn-area"
+    >
+      <button
+        className="ts-psa__finance__execute-btn ts-button ts-button--secondary"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+        value=""
+      >
+        <div
+          className="ts-button__contents"
+        >
+          <span
+            className="ts-button__text"
+          >
+            Calculate
+             
+            <br />
+             
+            <span
+              className="ts-psa__finance__execute-time"
+            >
+              Last Time
+              : 
+            </span>
+          </span>
+        </div>
+      </button>
+      <button
+        className="ts-psa__finance__download-btn ts-button ts-button--default"
+        data-testid="ts-psa__finance__download-btn"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+        value=""
+      >
+        <div
+          className="ts-button__contents"
+        >
+          <span
+            className="ts-button__text"
+          >
+            <test-file-stub
+              className="ts-psa__finance__download-icon"
+            />
+          </span>
+        </div>
+      </button>
+      <div
+        className="ts-psa__toggle-view"
+      >
+        <button
+          className="ts-psa__toggle-view__refresh-btn ts-button ts-button--default"
+          data-testid="ts-psa__toggle-view__refresh-btn"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+          value=""
+        >
+          <div
+            className="ts-button__contents"
+          >
+            <span
+              className="ts-button__text"
+            >
+              <test-file-stub />
+            </span>
+          </div>
+        </button>
+        <div
+          className="ts-psa__toggle-view__select-view-mode"
+        >
+          <button
+            className="ts-button ts-button--default"
+            data-testid="ts-psa__toggle-view__btn--week"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                Week
+              </span>
+            </div>
+          </button>
+          <button
+            className="is-active ts-button ts-button--default"
+            data-testid="ts-psa__toggle-view__btn--month"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+            value=""
+          >
+            <div
+              className="ts-button__contents"
+            >
+              <span
+                className="ts-button__text"
+              >
+                Month
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ts-psa__project-information-header__header-info js-is-expanded"
+  >
+    <button
+      className="ts-psa__project-information-header__header-info--buttons"
+      onClick={[Function]}
+    >
+      <span
+        className="ts-psa__project-information-header__header-info__toggle-icon-bg"
+      >
+        <test-file-stub
+          className="ts-psa__project-information-header__header-info__toggle-icon"
+        />
+      </span>
+      <span>
+        Close Project Information
+      </span>
+    </button>
+    <div
+      className="ts-psa__project-information-header__header-info__column"
+    >
+      <div>
+        <span
+          className="ts-psa__project-information-header__header-info-item"
+        >
+          <label
+            className="ts-psa__project-information-header__header-info-label"
+          >
+            {$Psa_Clbl_ProjectCode}
+            :
+          </label>
+        </span>
+      </div>
+      <div>
+        <span
+          className="ts-psa__project-information-header__header-info-item"
+        >
+          <label
+            className="ts-psa__project-information-header__header-info-label"
+          >
+            Project Title
+            :
+          </label>
+        </span>
+      </div>
+      <div>
+        <span
+          className="ts-psa__project-information-header__header-info-item"
+        >
+          <label
+            className="ts-psa__project-information-header__header-info-label"
+          >
+            Project Duration
+            :
+          </label>
+          06/28/2022 - 06/28/2022
+        </span>
+      </div>
+      <div>
+        <span
+          className="ts-psa__project-information-header__header-info-item"
+        >
+          <label
+            className="ts-psa__project-information-header__header-info-label"
+          >
+            Contract Amount
+            :
+          </label>
+           0.00
+        </span>
+      </div>
+    </div>
+    <div
+      className="ts-psa__project-information-header__header-info__column"
+    >
+      <div>
+        <span
+          className="ts-psa__project-information-header__header-info-item"
+        >
+          <label
+            className="ts-psa__project-information-header__header-info-label"
+          >
+            Project Manager
+            :
+          </label>
+        </span>
+      </div>
+      <div>
+        <span
+          className="ts-psa__project-information-header__header-info-item"
+        >
+          <label
+            className="ts-psa__project-information-header__header-info-label"
+          >
+            Client
+            :
+          </label>
+          -
+        </span>
+      </div>
+      <div>
+        <span
+          className="ts-psa__project-information-header__header-info-item"
+        >
+          <label
+            className="ts-psa__project-information-header__header-info-label"
+          >
+            Status
+            :
+          </label>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ts-psa__finance__revenue-overview"
+  >
+    <div
+      className="ts-psa__finance__revenue-overview__column"
+    >
+      <div
+        className="ts-psa__finance__revenue-overview__column-item"
+      >
+        <div
+          className="ts-psa__finance__revenue-amt"
+        >
+          <div
+            className="ts-psa__finance__revenue-amt-label"
+          >
+            Actual Revenue
+          </div>
+          <div
+            className="ts-psa__finance__revenue-amt-amount"
+            title={0}
+          >
+            0
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__finance__revenue-overview__column-item"
+      >
+        <div
+          className="ts-psa__finance__revenue-amt"
+        >
+          <div
+            className="ts-psa__finance__revenue-amt-label"
+          >
+            Target Revenue
+          </div>
+          <div
+            className="ts-psa__finance__revenue-amt-amount"
+            title={0}
+          >
+            0
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__finance__revenue-overview__column-item"
+      >
+        <div
+          className="ts-psa__finance__revenue-amt"
+        >
+          <div
+            className="ts-psa__finance__revenue-amt-label"
+          >
+            Target Achievement
+          </div>
+          <div
+            className="ts-psa__finance__revenue-amt-amount"
+            title="0%"
+          >
+            0%
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ts-psa__finance__revenue-overview__column"
+    >
+      <div
+        className="ts-psa__finance__revenue-overview__column-item"
+      >
+        <div
+          className="ts-psa__finance__revenue-amt"
+        >
+          <div
+            className="ts-psa__finance__revenue-amt-label"
+          >
+            Actual Margin
+          </div>
+          <div
+            className="ts-psa__finance__revenue-amt-amount"
+            title="0%"
+          >
+            0%
+          </div>
+        </div>
+      </div>
+      <div
+        className="ts-psa__finance__revenue-overview__column-item"
+      >
+        <div
+          className="ts-psa__finance__revenue-amt"
+        >
+          <div
+            className="ts-psa__finance__revenue-amt-label"
+          >
+            Target Margin
+          </div>
+          <div
+            className="ts-psa__finance__revenue-amt-amount"
+            title="0%"
+          >
+            0%
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ts-psa__empty-screen"
+  >
+    <div
+      className="ts-psa__empty-screen__header"
+    >
+      <span>
+        Looks like there is no data here.
+      </span>
+    </div>
+    <div
+      className="ts-psa__empty-screen__body"
+    />
+  </div>
+</div>
+`;

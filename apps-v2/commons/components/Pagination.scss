@@ -1,0 +1,78 @@
+@import '../styles/wsp';
+
+.ts-pager {
+  display: flex;
+  justify-content: flex-end;
+
+  &__page {
+    display: flex;
+
+    &__item-placeholder {
+      margin: 0 1px;
+    }
+
+    &__item {
+      width: 20px;
+      height: 20px;
+      padding: 0 5px;
+      background-size: 20px;
+      color: color('background-1');
+
+      &-active {
+        width: 20px;
+        height: 20px;
+        padding: 0 5px;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      a {
+        background-color: transparent;
+        color: color('primary');
+      }
+    }
+
+    &__item-arrow {
+      margin-left: 14px;
+
+      &-prev {
+        margin-right: 14px;
+      }
+    }
+
+    &__item-arrow,
+    &__item-arrow-prev {
+      & a {
+        &:hover {
+          text-decoration: none;
+        }
+
+        & path {
+          fill: color('primary');
+        }
+      }
+    }
+
+    &-background {
+      width: 20px;
+      height: 20px;
+
+      path {
+        position: absolute;
+        display: inline;
+      }
+    }
+  }
+
+  &__count {
+    margin-left: 12px;
+  }
+
+  &-info {
+    margin-right: 44px;
+  }
+
+  &-size {
+    margin-right: 20px;
+  }
+}

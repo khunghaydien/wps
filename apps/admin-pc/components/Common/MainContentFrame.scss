@@ -1,0 +1,29 @@
+.admin-pc-common-main-content-frame {
+  position: relative;
+  left: 250px;
+  overflow: hidden;
+  width: calc(100% - 250px);
+  height: 100%;
+  box-shadow: -3px 10px 15px rgba(0, 0, 0, 0.25);
+
+  &__list-pane {
+    position: relative;
+    z-index: 0;
+    height: 100%;
+  }
+
+  &__detail-pane {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 35%;
+    width: 65%;
+    height: 100%;
+    box-shadow: -3px 10px 15px rgba(0, 0, 0, 0.5);
+
+    @media screen and (max-width: 1200px) {
+      left: 30%;
+      width: 70%;
+    }
+  }
+}

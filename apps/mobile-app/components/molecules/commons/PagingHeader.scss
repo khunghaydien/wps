@@ -1,0 +1,27 @@
+.mobile-app-molecules-commons-paging-header {
+  &__container {
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__prev,
+  &__next {
+    width: fit-content;
+    flex-basis: fit-content;
+  }
+
+  &__center {
+    display: flex;
+    overflow: hidden;
+    flex-basis: max-content;
+    flex-grow: 3;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

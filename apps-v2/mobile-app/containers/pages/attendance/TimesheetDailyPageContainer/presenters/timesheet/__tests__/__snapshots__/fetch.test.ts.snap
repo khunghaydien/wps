@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`complete() should do with isMigratedSummary. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "targetDate": undefined,
+      "timesheet": Object {
+        "isMigratedSummary": true,
+      },
+    },
+    "type": "MOBILE-APP/ATTENDANCE/TIMESHEET/UI/DAILY/EDITING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": undefined,
+      "timesheet": Object {
+        "isMigratedSummary": true,
+      },
+    },
+    "type": "MOBILE-APP/ATTENDANCE/TIMESHEET/UI/DAILY/PAGING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "isMigratedSummary": true,
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/FETCH_SUCCESS",
+  },
+]
+`;
+
+exports[`complete() should do. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "targetDate": undefined,
+      "timesheet": Object {
+        "workingType": Object {
+          "useObjectivelyEventLog": true,
+        },
+      },
+    },
+    "type": "MOBILE-APP/ATTENDANCE/TIMESHEET/UI/DAILY/EDITING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "targetDate": undefined,
+      "timesheet": Object {
+        "workingType": Object {
+          "useObjectivelyEventLog": true,
+        },
+      },
+    },
+    "type": "MOBILE-APP/ATTENDANCE/TIMESHEET/UI/DAILY/PAGING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "workingType": Object {
+        "useObjectivelyEventLog": true,
+      },
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/FETCH_SUCCESS",
+  },
+]
+`;
+
+exports[`error() should do catchApiError if error is not occurred 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+  Object {
+    "type": "MOBILE-APP/ATTENDANCE/TIMESHEET/UI/DAILY/PAGING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE-APP/ATTENDANCE/TIMESHEET/UI/DAILY/EDITING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE-APP/ATTENDANCE/TIMESHEET/UI/DAILY/REST_REASONS/CLEAR",
+  },
+  Object {
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/CLEAR",
+  },
+]
+`;
+
+exports[`error() should not do catchApiError if error is occurred 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+  Object {
+    "type": "MOBILE-APP/ATTENDANCE/TIMESHEET/UI/DAILY/PAGING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE-APP/ATTENDANCE/TIMESHEET/UI/DAILY/EDITING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE-APP/ATTENDANCE/TIMESHEET/UI/DAILY/REST_REASONS/CLEAR",
+  },
+  Object {
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/CLEAR",
+  },
+]
+`;
+
+exports[`finally() should do. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`start() should do. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "START_LOADING",
+  },
+]
+`;

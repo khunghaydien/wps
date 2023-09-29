@@ -1,0 +1,19 @@
+.mobile-app-components-molecules-commons-advsearch-date-range-filter {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  overflow: scroll;
+  flex-direction: column;
+  flex-grow: 1;
+  -webkit-overflow-scrolling: touch;
+
+  &__field {
+    width: 80%;
+    margin: 15px auto 0;
+
+    .mobile-app-molecules-date-range-field__fieldset {
+      display: block;
+      text-align: center;
+    }
+  }
+}

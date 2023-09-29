@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"new\\": Object {
++     \\"code\\": null,
++     \\"name\\": null,
++     \\"targetDate\\": null,
++     \\"withoutCore\\": null,
++     \\"workSystem\\": null,
++   },
++   \\"origin\\": Object {
++     \\"code\\": null,
++     \\"name\\": null,
++     \\"targetDate\\": null,
++     \\"withoutCore\\": null,
++     \\"workSystem\\": null,
++   },
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/SEARCH_CONDITION/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"new\\": Object {
+-     \\"code\\": \\"002\\",
+-     \\"name\\": \\"pattern\\",
+-     \\"targetDate\\": \\"2019-10-01\\",
++     \\"code\\": null,
++     \\"name\\": null,
++     \\"targetDate\\": null,
+      \\"withoutCore\\": null,
+      \\"workSystem\\": null,
+    },
+    \\"origin\\": Object {
+-     \\"code\\": \\"001\\",
+-     \\"name\\": \\"pattern\\",
+-     \\"targetDate\\": \\"2019-10-01\\",
+-     \\"withoutCore\\": false,
+-     \\"workSystem\\": \\"fix\\",
++     \\"code\\": null,
++     \\"name\\": null,
++     \\"targetDate\\": null,
++     \\"withoutCore\\": null,
++     \\"workSystem\\": null,
+    },
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/SEARCH_CONDITION/SET_NEW 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,9 +1,9 @@
+  Object {
+    \\"new\\": Object {
+      \\"code\\": null,
+-     \\"name\\": null,
++     \\"name\\": \\"pattern003\\",
+      \\"targetDate\\": null,
+      \\"withoutCore\\": null,
+      \\"workSystem\\": null,
+    },
+    \\"origin\\": Object {"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/WORKING_TYPE/UI/SEARCH_CONDITION/SET_ORIGIN 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -5,12 +5,12 @@
+      \\"targetDate\\": null,
+      \\"withoutCore\\": null,
+      \\"workSystem\\": null,
+    },
+    \\"origin\\": Object {
+-     \\"code\\": null,
+-     \\"name\\": null,
+-     \\"targetDate\\": null,
+-     \\"withoutCore\\": null,
+-     \\"workSystem\\": null,
++     \\"code\\": \\"001\\",
++     \\"name\\": \\"pattern\\",
++     \\"targetDate\\": \\"2023-03-10\\",
++     \\"withoutCore\\": false,
++     \\"workSystem\\": \\"fix\\",
+    },
+  }"
+`;

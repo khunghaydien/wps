@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`complete() should do. 1`] = `Array []`;
+
+exports[`error() should do. 1`] = `Array []`;
+
+exports[`finally() should do. 1`] = `Array []`;
+
+exports[`start() should do. 1`] = `Array []`;

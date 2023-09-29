@@ -1,0 +1,10 @@
+@import 'mobile-global-imports';
+
+.mobile-app-pages-commons-mileage {
+  &__map-container {
+    display: flex;
+    flex: 1;
+    height: calc(100vh - 48px);
+    margin-top: 48px;
+  }
+}

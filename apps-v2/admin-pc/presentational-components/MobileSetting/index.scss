@@ -1,0 +1,12 @@
+.admin-pc-mobile-setting {
+  position: relative;
+  left: 250px;
+  overflow: hidden;
+  width: calc(100% - 250px);
+  height: 100%;
+  box-shadow: -3px 10px 15px rgba(0, 0, 0, 0.25);
+
+  &__detail-pane {
+    height: 100%;
+  }
+}

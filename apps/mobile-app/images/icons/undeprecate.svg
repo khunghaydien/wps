@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.77 12.309">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #074b69;
+      }
+    </style>
+  </defs>
+  <g id="icons_utility_undeprecate" data-name="icons/utility/undeprecate" transform="translate(-0.615 -0.846)">
+    <path id="Mask" class="cls-1" d="M14.769.846H1.231a.617.617,0,0,0-.615.615v8a.617.617,0,0,0,.615.615H6.215a3.681,3.681,0,0,0,7.262,0h1.292a.617.617,0,0,0,.615-.615v-8A.617.617,0,0,0,14.769.846ZM9.385,11.4,7.569,9.585l.862-.862.954.954,2.185-2.185.862.862L9.385,11.4Zm4.769-2.554h-.677a3.681,3.681,0,0,0-7.262,0H1.846V2.077H14.154Z"/>
+  </g>
+</svg>

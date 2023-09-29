@@ -1,0 +1,9 @@
+@import '../Employee/Detail.scss';
+
+.admin-pc-expense-type-detail {
+  @extend .admin-pc-employee-detail;
+
+  .expense-tax-type-config.single-selection {
+    width: 55.5%;
+  }
+}

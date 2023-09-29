@@ -1,0 +1,23 @@
+.approvals-pc-tracking-detail-parts-approve-form {
+  display: flex;
+  margin: 0 10px 15px;
+
+  &__field {
+    flex: 1 1 auto;
+    padding-right: 10px;
+  }
+
+  &__buttons {
+    display: flex;
+    flex: 0 0 160px;
+    align-items: flex-end;
+  }
+
+  &__button {
+    width: 75px;
+  }
+
+  &__button + &__button {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,19 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-atoms-button-floatable {
+  &__floating {
+    position: fixed !important;
+    z-index: $zindex-floating-button;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__floating--top {
+    top: 44px;
+  }
+
+  &__floating--bottom {
+    bottom: 44px;
+  }
+}

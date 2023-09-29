@@ -1,0 +1,22 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-expense-custom-request-list-item {
+  min-height: 72px;
+  padding: $small-size;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+    &-employee-name,
+    &-status,
+    &-request-date {
+      font-size: $small-size;
+    }
+
+    &-request-date {
+      color: $color-blue-400;
+    }
+  }
+}

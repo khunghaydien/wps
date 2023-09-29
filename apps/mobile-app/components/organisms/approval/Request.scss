@@ -1,0 +1,10 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-organisms-approval-request {
+  &__title {
+    margin-bottom: $small-size;
+    color: $color-blue-800;
+    font-size: unit(5);
+    line-height: 1;
+  }
+}

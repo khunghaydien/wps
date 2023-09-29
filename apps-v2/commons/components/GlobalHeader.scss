@@ -1,0 +1,26 @@
+.commons-global-header {
+  overflow: hidden;
+  width: 100%;
+  min-width: 980px;
+  height: 42px;
+  border-bottom: 1px solid $color-border-default;
+  background: $color-bg-lighter;
+
+  &--show-proxy-indicators {
+    background: #eee5e0;
+  }
+
+  // Icon
+  // ----
+  &__icon-container {
+    flex: 82px 0 0;
+  }
+
+  &__icon {
+    position: absolute;
+    z-index: 1;
+    top: 18px;
+    left: 18px;
+    height: 44px;
+  }
+}

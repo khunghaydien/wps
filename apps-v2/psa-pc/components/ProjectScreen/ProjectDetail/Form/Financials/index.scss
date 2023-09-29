@@ -1,0 +1,39 @@
+@import '../../../../../../commons/components/psa/variables.scss';
+
+.ts-psa__project-form__financials {
+  .ts-psa__form-field {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .ts-psa__form-field__label {
+    width: 25%;
+  }
+
+  .slds-select.ts-select,
+  .ts-textarea-field.slds-input,
+  .ts-text-field.slds-input {
+    width: 75%;
+  }
+  .ts-psa__date-field__container {
+    width: 36%;
+  }
+
+  &__extended-item-container {
+    width: 100%;
+  }
+
+  &__subtitle {
+    width: 100%;
+    padding-bottom: $size-xs;
+    margin-bottom: $container-padding;
+    border-bottom: 1px solid $color-border-light-grey;
+    color: $color-text-grey;
+    font-weight: bold;
+  }
+  &__errText{
+    width: 75%;
+    margin-left: 25%;
+  }
+
+}

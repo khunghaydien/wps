@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`return error when data is ''. 1`] = `
+Object {
+  "endTime": Array [
+    "endTime must be a \`number\` type, but the final value was: \`NaN\` (cast from the value \`\\"\\"\`).",
+  ],
+  "startDate": Array [
+    " Required",
+  ],
+  "startTime": Array [
+    "startTime must be a \`number\` type, but the final value was: \`NaN\` (cast from the value \`\\"\\"\`).",
+  ],
+}
+`;
+
+exports[`return error when data is empty. 1`] = `
+Object {
+  "endTime": Array [
+    " Required",
+  ],
+  "startDate": Array [
+    " Required",
+  ],
+  "startTime": Array [
+    " Required",
+  ],
+}
+`;
+
+exports[`return error when data is not type. 1`] = `
+Object {
+  "endTime": Array [
+    "endTime must be a \`number\` type, but the final value was: \`NaN\` (cast from the value \`\\"abc\\"\`).",
+  ],
+  "startTime": Array [
+    "startTime must be a \`number\` type, but the final value was: \`NaN\` (cast from the value \`\\"abc\\"\`).",
+  ],
+}
+`;
+
+exports[`return error when data is null. 1`] = `
+Object {
+  "endTime": Array [
+    " Required",
+  ],
+  "startDate": Array [
+    " Required",
+  ],
+  "startTime": Array [
+    " Required",
+  ],
+}
+`;

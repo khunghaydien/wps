@@ -1,0 +1,60 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-approval-history-list-item {
+  &__content {
+    display: flex;
+  }
+
+  &__person {
+    min-width: 40px;
+    margin-right: $extra-small-size;
+  }
+
+  &__group {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  &__info-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: $base-size;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__comment {
+    word-break: break-all;
+  }
+
+  &__status {
+    margin-right: $extra-small-size;
+  }
+
+  &__status-chip {
+    border-color: $color-blue-800;
+    background-color: $color-blue-800;
+    color: #fff;
+  }
+
+  &__step {
+    color: $color-blue-800;
+  }
+
+  &__actor-label {
+    margin-right: $base-size;
+    color: $color-gray-500;
+  }
+
+  &__approve-time-icon {
+    margin-right: $base-size;
+    color: $color-blue-800;
+  }
+
+  &__approve-time-text {
+    color: $color-blue-800;
+  }
+}

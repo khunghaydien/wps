@@ -1,0 +1,42 @@
+@import '../../../../../commons/components/psa/variables.scss';
+
+.ts-psa__project-form {
+  width: 90%;
+  margin-left: 5%;
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: $container-padding;
+    margin-bottom: $container-padding;
+    background-color: $color-bg-white;
+    border-radius: 0 0 $size-xs $size-xs;
+    border: 1px solid $color-border-light-grey;
+  }
+  
+  &__error-box {
+    margin: 20px 0 $container-padding 0;
+  }
+
+  &__title {
+    width: 100%;
+    color: $color-text-grey;
+    font-size: 15px;
+    font-weight: bold;
+    background: $color-bg-light-blue;
+    padding: $size-s-padding $container-padding;
+    margin-bottom: -1px;
+    border-radius: $size-xs $size-xs 0 0;
+    border: 1px solid $color-border-light-grey;
+  }
+
+  .ts-psa__form-field {
+    margin-bottom: $container-padding;
+  }
+
+  .react-datepicker-wrapper,
+  .react-datepicker__input-container,
+  .commons-fields-date-field {
+    width: 100%;
+  }
+}

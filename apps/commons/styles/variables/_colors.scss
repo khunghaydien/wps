@@ -1,0 +1,164 @@
+//
+// Color Definitions
+//
+$color-gray-68: #687785;
+$color-gray-42: #424e56;
+$color-gray-600: #7d7d7d;
+$color-blue-e7: #e7ebf2;
+
+//
+// Basic Color
+//
+
+$color-bg-lighter: #fff;
+
+// primary
+$color-bg-primary: #2782ed;
+
+$color-bg-primary-dark: darken($color-bg-primary, 15%);
+
+$color-bg-primary-disabled: #a4cbed;
+
+// secondary
+$color-bg-secondary: #05ae06;
+
+$color-bg-secondary-dark: darken($color-bg-secondary, 15%);
+
+$color-bg-secondary-disabled: #8ca18a;
+
+// destructive
+$color-destructive: #c23934;
+
+$color-bg-destructive: $color-destructive;
+
+$color-bg-destructive-dark: darken($color-bg-destructive, 15%);
+
+$color-bg-destructive-disabled: #c2a9a9;
+
+// Warning
+$ts-warning: #f00;
+
+// Exclusive 排他ボタン(トグルボタンやradioボタン挙動のボタングループなど)
+$button-bg-button-exclusive-active: #2a94d6;
+
+//
+// For Modules
+//
+
+// button default
+$ts-button-default: #fff;
+
+$ts-button-default-focus: #f3f2f2;
+
+$ts-button-default-color: #53688c;
+
+$ts-button-default-dark: darken($ts-button-default, 15%);
+
+$ts-button-default-disabled: #fff;
+
+$ts-button-default-disabled-color: #aaa;
+
+//
+// Design Guideline - Color
+// 詳しい解説はStorybook参照
+//
+
+//
+// Text Color
+//
+
+$color-text-default: #000;
+
+$color-text-modest: #53688c;
+
+$color-text-weak: #a8a8b1;
+
+$color-text-emphasis: #00f;
+
+$color-text-anchor: #00f;
+
+$color-text-inverse: #fff;
+
+// header
+$color-text-header-heading: $color-gray-42;
+
+// panel haeder
+$color-text-pane-header-first: $color-gray-42;
+
+$color-text-pane-header-second: #53688c;
+
+$color-text-pane-header-label: #005fa5;
+
+$color-text-pane-header-third: $color-text-pane-header-second;
+
+//
+// Border Color
+//
+
+$color-border-default: #d8dde6;
+
+//
+// Shadow
+//
+
+$shadow-button-focus: 0 0 3px #0070d2;
+
+//
+// Background Color
+//
+
+// panel
+$color-bg-pane-first: #fff;
+
+$color-bg-pane-second: #f5f5f5;
+
+$color-bg-pane-third: #f2f4f5;
+
+// heading
+$color-bg-heading: #f4f6f9;
+
+$color-bg-heading-sub: #f2f2f2;
+
+// panel header
+$color-bg-pane-header-first: #b1c9db;
+
+$color-bg-pane-header-second: #b2e8ff;
+
+$color-bg-pane-header-third: #d0f1ff;
+
+$color-bg-pane-header-sub: #f8fdff;
+
+// List and List Items
+$color-bg-list-item: #fff;
+$color-bg-list-stripe-odd: $color-bg-list-item;
+$color-bg-list-stripe-even: #f6f8fa;
+
+// Table
+$color-bg-tbody-row: $color-bg-list-item;
+$color-bg-tbody-row-stripe-odd: $color-bg-list-stripe-odd;
+$color-bg-tbody-row-stripe-even: $color-bg-list-stripe-even;
+
+// Popup Windows (navbar and page)
+$color-bg-popup-window-navbar: $color-bg-lighter;
+$color-bg-popup-window-page: $color-bg-lighter;
+
+// other
+$color-bg-active: #58cdff;
+
+$color-bg-hover: #f7f7f7;
+
+$color-bg-notice: #d93600;
+
+$color-bg-daytype-workday: #fff;
+
+$color-bg-daytype-holiday: #f2f7fb;
+
+$color-bg-daytype-holiday-dark: #ecf1f6;
+
+$color-bg-daytype-legal-holiday: #fcefeb;
+
+$color-bg-daytype-legal-holiday-dark: #f6eae7;
+
+$color-bg-selected-row: #e9f3f8;
+
+$color-bg-list-item-nested: $color-blue-e7;

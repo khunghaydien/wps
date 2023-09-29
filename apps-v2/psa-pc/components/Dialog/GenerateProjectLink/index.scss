@@ -1,0 +1,48 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-psa__generate-link {
+    display: flex;
+    max-width: 720px;
+    max-height: 50vh;
+    flex-wrap: wrap;
+    padding: 0 $container-padding;
+    overflow: auto;
+    &__dialog-frame {
+        min-width: 400px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      &__btn-cancel {
+        color: $color-btn-save;
+      }
+  
+      
+    .ts-psa__form-field {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+        margin-top: 20px !important;
+        margin-bottom:20px;
+        align-self: center;
+      }
+      .ts-psa__form-field__label {
+        width: 25%;
+        margin-bottom: 0;
+      }
+      
+      &__GeneratedLinkField{
+        margin-top: 0 !important;
+        }
+    &__copyText{
+        word-break:break-all
+    }
+    
+      .slds-select.ts-select,
+      .ts-textarea-field.slds-input,
+      .ts-text-field.slds-input {
+        width: 75%;
+      }
+
+    
+}

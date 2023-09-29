@@ -1,0 +1,89 @@
+@import '@apps/commons/components/psa/variables.scss';
+.ts-psa__project-information-header {
+  &__header-info {
+    background: $color-bg-white;
+    border-bottom: 1px solid $color-border-lightest-grey;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 0 $container-padding $size-xs $container-padding;
+    position: sticky;
+    top: 76px;
+    z-index: 999;
+
+    &.js-is-expanded {
+      svg {
+        transform: rotate(180deg);
+        border-radius: 4px 4px 0 0;
+      }
+
+      > div[class*='column'] {
+        height: auto;
+        visibility: visible;
+        opacity: 1;
+      }
+
+      > button[class*='buttons'] {
+        margin-bottom: 12px;
+      }
+    }
+
+    &__column {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      visibility: hidden;
+      opacity: 0;
+      height: 0;
+      transition: visibility 0s, opacity 0.5s ease-in;
+    }
+
+    &--buttons {
+      background: none;
+      border: none;
+      padding: 0;
+      outline: none;
+      width: 100%;
+      text-align: left;
+      display: flex;
+
+      > span {
+        color: $color-text-blue;
+      }
+    }
+
+    &__toggle-icon-bg {
+      background-color: $color-text-blue;
+      width: 24px;
+      display: inline-flex;
+      height: 20px;
+      border-radius: 0 0 4px 4px;
+      margin-right: $size-xs;
+      justify-content: center;
+    }
+
+    &__toggle-icon {
+      width: 13.5px;
+      transition: transform 0.3s linear;
+
+      path {
+        fill: #fff;
+      }
+    }
+
+    &-label {
+      color: $color-text-label-dark-blue;
+      font-weight: bold;
+      padding-right: 5px;
+    }
+
+    &-item {
+      padding-right: 20px;
+    }
+
+    &-skills,
+    &-remarks {
+      display: flex;
+    }
+  }
+}

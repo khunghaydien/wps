@@ -1,0 +1,18 @@
+@import '../../../../dialogs/ConfirmDialog.scss';
+
+.ts-expenses-modal-clone-confirmation {
+  @extend .commons-dialogs-confirm-dialog;
+  &__message {
+    display: flex;
+  }
+
+  &__icon {
+    margin-right: 10px;
+  }
+
+  &__content {
+    p span {
+      display: block;
+    }
+  }
+}

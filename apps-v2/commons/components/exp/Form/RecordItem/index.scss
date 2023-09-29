@@ -1,0 +1,340 @@
+@import '../../../../styles/exp/variables/colors';
+@import '../../../../styles/wsp';
+
+$color_input_value: #000;
+$color_input_separate: #000;
+$color_btn_text: #4e6493;
+$color_text_main: #000;
+$color_text_error: #8c0000;
+$color_text_info: #7e8bac;
+$color_text_sub: #868695;
+$color_text_blue: #007fff;
+$color_header_skyblue: #d0f1ff;
+$color_header_font: #216cae;
+
+.ts-expenses-requests {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  top: 56px;
+  width: 50%;
+  height: calc(
+    100% - 56px
+  ); // -moz-avaliable is not working in mozilla and fill-avaliable is not working in Edge so the height is calculated like this
+
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.33);
+  float: right;
+
+  &__calendar {
+    position: absolute;
+    left: 27%;
+    top: 56px;
+    width: 23%;
+    height: calc(100% - 56px);
+    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.33);
+  }
+
+  &__ic {
+    &-detail {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid color('border-2');
+
+      & .ts-text-field--readonly {
+        padding-left: 0;
+      }
+    }
+  }
+
+  &__contents {
+    overflow: auto;
+    height: calc(
+      100% - 56px
+    ); // -moz-avaliable is not working in mozilla and fill-avaliable is not working in Edge so the height is calculated like this
+
+    padding: 20px;
+    padding-bottom: 70px;
+    background-color: color('background-1');
+
+    &__amount {
+      padding-bottom: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid color('border-2');
+
+      &.is-ic-record {
+        border-bottom: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+
+      input[readonly] {
+        border-color: color('disabled-1');
+        background-color: transparent;
+      }
+
+      input[readonly]:hover,
+      input[readonly]:focus,
+      input[readonly]:active {
+        border-color: color('disabled-1');
+        box-shadow: none;
+      }
+    }
+
+    &__withholding-tax {
+      padding-top: 20px;
+      .ts-text-field-container {
+        padding-left: 10px;
+      }
+    }
+
+    &__expense-type.ts-text-field.slds-input {
+      height: 32px;
+    }
+
+    &__expense-type-description {
+      margin-right: -20px;
+      margin-bottom: 20px;
+      color: #666;
+      font-size: 12px;
+      line-height: 18px;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+    }
+
+    &__payment-method {
+      margin: 20px 0;
+
+      & .input-feedback {
+        height: 19px;
+      }
+    }
+
+    &__back-btn {
+      display: block;
+      margin-bottom: 13px;
+      color: #444;
+
+      img {
+        transform: rotate(180deg);
+      }
+
+      span {
+        margin-left: 4px;
+        vertical-align: middle;
+      }
+    }
+
+    & .search {
+      & > button {
+        width: 32px;
+        height: 28px;
+        margin-left: 4px;
+        border: solid 1px #d0d0d0;
+        background-color: color('background-1');
+        border-radius: 4px;
+        cursor: pointer;
+
+        &.disable {
+          background-color: color('disabled-1');
+          cursor: default;
+        }
+      }
+
+      & img {
+        width: 22px;
+      }
+
+      &__caution {
+        padding-right: 4px;
+        padding-left: 4px;
+        margin-bottom: 12px;
+
+        &-img {
+          display: inline-block;
+          width: 24px;
+        }
+
+        &-text {
+          display: inline-block;
+          padding-left: 4px;
+          color: #601b24;
+          font-size: 13px;
+          vertical-align: middle;
+        }
+      }
+    }
+
+    &__contents.disabled {
+      opacity: 0.3;
+    }
+
+    &__contents.hidden {
+      visibility: hidden;
+    }
+
+    .record_item__contents__amount_selection {
+      .ts-select-input {
+        width: 100%;
+        padding: 0 10px;
+        border-color: color('border-1');
+
+        &:disabled {
+          background-color: color('disabled-1');
+        }
+
+        &.highlight-bg {
+          background-color: $color-text-highlight;
+        }
+      }
+    }
+
+    &__form__transit {
+      margin-top: 20px;
+      > .highlight-container {
+        width: 100% !important;
+      }
+    }
+  }
+
+  &__record_cost-center,
+  &__record_job {
+    input {
+      height: unset;
+      padding: unset;
+      border: unset;
+    }
+  }
+
+  &__record-date {
+    margin-right: 10px;
+    .react-datepicker__input-container {
+      width: 100%;
+    }
+
+    .react-datepicker-popper {
+      z-index: 2;
+    }
+  }
+
+  &__payment-method {
+    margin-right: 10px;
+  }
+
+  &__exp-type,
+  &__ic-cc-link {
+    margin-left: 10px;
+  }
+
+  &__ic-cc {
+    &-link {
+      &-error {
+        height: 76px;
+        justify-content: flex-end;
+        display: flex;
+        flex-direction: column;
+      }
+      &-btn {
+        height: 32px;
+        width: 100%;
+      }
+    }
+
+    &-linked {
+      border: 1px solid #d9d9d9;
+      width: 100%;
+      height: 32px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      padding: 0 8px;
+
+      &-disabled {
+        background: #ecebea;
+      }
+
+      &-svg {
+        width: 19px;
+        height: 18px;
+
+        path {
+          fill: #afadab;
+          transform: scale(0.35);
+        }
+      }
+
+      &-text {
+        width: 95%;
+        padding: 0 8px;
+      }
+
+      &-clear {
+        align-items: center;
+        background-color: #afadab;
+        width: 15px;
+        height: 15px;
+        padding: 10px;
+
+        svg {
+          width: 8px;
+          height: 8px;
+        }
+      }
+    }
+  }
+
+  &__summary {
+    height: calc(100% - 2px) !important;
+  }
+
+  &__amount-selection {
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  &--spacing-border {
+    min-height: 1px;
+    border-bottom: 1px solid color('border-2');
+  }
+
+  .slds-select {
+    position: relative;
+    height: 32px;
+    padding: 5px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('../../../../images/iconArrowDown.png') no-repeat
+      color('background-1');
+    background-position: right 10px center;
+  }
+
+  input {
+    &.slds-input {
+      color: color('text-1');
+    }
+  }
+
+  & .ts-text-field-container {
+    margin-bottom: 20px;
+  }
+
+  .input-feedback {
+    &.ok {
+      border: 1px $color-bg-green-05 solid;
+      border-radius: 4px;
+      padding: 4px 8px;
+      color: $color-text-header-dark;
+      font-size: 11px;
+      margin-top: 8px;
+    }
+
+    &-icon-ok {
+      width: 18px;
+      padding-top: 3px;
+      path {
+        fill: #037b04;
+        transform: scale(0.6);
+      }
+    }
+  }
+}

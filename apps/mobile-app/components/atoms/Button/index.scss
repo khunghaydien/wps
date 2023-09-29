@@ -1,0 +1,98 @@
+@import 'mobile-global-imports.scss';
+
+$button-border-width: 2px;
+
+.mobile-app-atoms-button {
+  @mixin shape() {
+    min-width: 136px;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+  @mixin priority($color, $background, $active-color, $active-background) {
+    background: $background;
+    box-shadow: none;
+    color: $color;
+    outline: none;
+
+    &:active {
+      background: $active-background;
+      color: $active-color;
+    }
+  }
+
+  /* Common Style */
+
+  @include shape();
+
+  position: relative;
+  padding: 0 16px;
+  font-size: 16px;
+
+  &__container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Primary Style */
+
+  @mixin primary($background, $active-background) {
+    @include priority(#fff, $background, #fff, $active-background);
+
+    border: $button-border-width solid $background;
+
+    &:active {
+      border-color: $active-background;
+    }
+  }
+
+  &__neutral--primary {
+    @include primary($color-brand, $color-blue-700);
+  }
+
+  &__add--primary {
+    @include primary($color-add, $color-green-700);
+  }
+
+  &__alert--primary {
+    @include primary($color-alert, $color-red-700);
+  }
+
+  @mixin secondary($color) {
+    @include priority($color, #fff, #fff, $color);
+
+    border: $button-border-width solid $color;
+  }
+
+  /* Secondary Style */
+
+  &__neutral--secondary {
+    @include secondary($color-brand);
+  }
+
+  &__add--secondary {
+    @include secondary($color-add);
+  }
+
+  &__alert--secondary {
+    @include secondary($color-alert);
+  }
+
+  /* Disabled Style */
+
+  &--disabled::after {
+    @include shape();
+
+    position: absolute;
+    top: -1 * $button-border-width;
+    right: -1 * $button-border-width;
+    bottom: -1 * $button-border-width;
+    left: -1 * $button-border-width;
+    background: rgba(255, 255, 255, 0.7);
+    content: ' ';
+  }
+}

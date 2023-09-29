@@ -1,0 +1,97 @@
+@import '../../../../../styles/exp/variables/colors';
+@import '../../../../../styles/wsp';
+
+$headerHeight: 34px;
+
+.ts-expenses-child-record-item {
+  height: 100%;
+
+  &-header {
+    display: flex;
+    height: $headerHeight;
+    justify-content: space-between;
+    padding: 5px 16px;
+    background-color: $ts-record-form-header-background-gray;
+
+    & .ts-button {
+      width: 66px;
+      min-height: 26px;
+    }
+  }
+
+  &-nav-title {
+    color: color('text-2');
+    font-size: 16px;
+  }
+
+  &-content {
+    height: calc(100% - #{$headerHeight});
+    padding: 16px;
+    background-color: $color-bg-pane-first;
+    overflow-y: auto;
+
+    > :first-child {
+      margin-bottom: 12px;
+    }
+
+    & .ts-text-field-container {
+      margin-top: 10px;
+    }
+
+    & .ts-expenses-child-record-item-expense-type {
+      width: 268px !important;
+
+      & .ts-select-input {
+        padding-left: 8px;
+      }
+    }
+
+    & .ts-expenses-child-record-item-contents__expense-type-description,
+    & .ts-expenses-requests__contents__expense-type-description {
+      margin-top: 10px;
+      color: #666;
+      font-size: 12px;
+      line-height: 18px;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+    }
+
+    & .ts-expenses-requests__contents__amount {
+      padding: 15px 0 20px 0;
+      border-top: 1px solid color('border-2');
+      border-bottom: 1px solid color('border-2');
+
+      &__currency-selector {
+        margin-top: 10px;
+
+        & .ts-text-field-container {
+          margin-top: 0;
+        }
+      }
+
+      > :first-child {
+        margin-bottom: 12px;
+      }
+
+      & .slds-size--2-of-12 {
+        width: 10%;
+      }
+
+      & .slds-size--4-of-12 {
+        width: 40%;
+      }
+
+      & .ts-select {
+        padding-right: 22px;
+      }
+    }
+
+    & .key-dark {
+      color: $color-text-modest;
+    }
+  }
+
+  &-amount-title {
+    margin-top: 12px;
+  }
+}

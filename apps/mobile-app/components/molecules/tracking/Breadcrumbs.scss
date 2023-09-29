@@ -1,0 +1,30 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-tracking-breadcrumbs {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 21px;
+  overflow: auto;
+
+  &__block {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  &__item {
+    font-size: 14px;
+    color: #0e7aa7;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 166px;
+  }
+
+  &__item--last {
+    color: #333;
+  }
+
+  &__mark {
+    margin: 0 8px;
+  }
+}

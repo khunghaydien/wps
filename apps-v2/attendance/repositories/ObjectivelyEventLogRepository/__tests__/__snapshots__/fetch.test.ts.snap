@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return DailyObjectivelyEventLog 1`] = `
+Array [
+  Object {
+    "eventType": "Entering",
+    "id": "XXXXXXXXXXXXXXX",
+    "isApplied": false,
+    "linked": "2022-01-10T09:30:00Z",
+    "setting": Object {
+      "code": "CODE001",
+      "id": "",
+      "name": "",
+    },
+    "time": 570,
+  },
+  Object {
+    "eventType": "Leaving",
+    "id": "XXXXXXXXXXXXXXX",
+    "isApplied": false,
+    "linked": "2022-01-10T18:30:00Z",
+    "setting": Object {
+      "code": "CODE001",
+      "id": "",
+      "name": "",
+    },
+    "time": 1110,
+  },
+  Object {
+    "eventType": "Entering",
+    "id": "XXXXXXXXXXXXXXX",
+    "isApplied": false,
+    "linked": "2022-01-10T10:00:00Z",
+    "setting": Object {
+      "code": "CODE002",
+      "id": "",
+      "name": "",
+    },
+    "time": 600,
+  },
+]
+`;

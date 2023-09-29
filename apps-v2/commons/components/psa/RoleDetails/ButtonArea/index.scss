@@ -1,0 +1,181 @@
+@import '../../variables';
+
+.ts-psa__role-details__btn-area {
+  position: relative;
+  white-space: nowrap;
+
+  &.hidden {
+    display: none;
+  }
+  &.show {
+    display: flex;
+  }
+
+  &__memo,
+  &__history,
+  &__edit,
+  &__submit,
+  &__toggle,
+  &__cancel,
+  &__recall,
+  &__clone,
+  &__hardBook,
+  &__select-resource,
+  &__reschedule,
+  &__delete {
+    border-color: #dddbda;
+    background-color: $color-bg-white;
+    color: #0070d2;
+    line-height: 1;
+    text-decoration: none;
+    min-height: 32px;
+
+    &:hover {
+      background-color: $color-bg-hover;
+    }
+  }
+
+  &__request-confirmation {
+    min-height: 32px;
+    margin-right: 10px;
+  }
+
+  &__select-resource-candidates {
+    margin-right: 10px;
+    border-color: #dddbda;
+    background-color: $color-bg-lighter;
+    color: #0070d2;
+    line-height: 1;
+    text-decoration: none;
+    min-height: 32px;
+
+    &:hover {
+      background-color: $color-bg-hover;
+    }
+  }
+
+  &__main {
+    display: flex;
+    height: 32px;
+    float: right;
+  }
+
+  &__main:first-child {
+    float: left;
+    margin-right: 16px;
+  }
+
+  &__edit {
+    height: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 5px 0 0 5px;
+  }
+
+  &__cancel,
+  &__recall,
+  &__delete {
+    color: $color-btn-remove;
+  }
+
+  &__rescheduleEndDate,
+  &__reschedule {
+    color: $color-btn-primary;
+  }
+
+  &__history,
+  &__submit {
+    height: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-left: 5px;
+    border-radius: 0;
+  }
+
+  &__memo {
+    border-radius: 5px 0 0 5px;
+  }
+
+  &__history {
+    border-radius: 0 5px 5px 0;
+  }
+
+  &__toggle {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #dddbda;
+    border-radius: 0 5px 5px 0;
+
+    .ts-icon-button__image {
+      height: 12px;
+      transform: rotate(90deg);
+      transition: 0.3s ease-in-out;
+    }
+  }
+
+  button.ts-psa__role-details__btn-area__submenu-item-button.ts-psa__role-details__btn-area__notFound {
+    color: $color-destructive;
+    &[disabled],
+    &[disabled]:hover,
+    &[disabled]:active,
+    &[disabled]:focus {
+      background-color: $color-bg-lighter;
+      color: $color-border-light-grey;
+      cursor: not-allowed;
+    }
+  }
+
+  &__submenu {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: 140px;
+    margin-top: 32px;
+    border: 1px solid #dddbda;
+    border-top: solid 5px transparent;
+    border-bottom: solid 5px transparent;
+    background-color: $color-bg-lighter;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    &.align-left {
+      right: auto;
+    }
+  }
+
+  &__submenu-item-button {
+    width: 100%;
+    min-height: 28px;
+    padding: 0 6px;
+    border: 0;
+    font-size: 12px;
+    text-align: left;
+
+    &:active {
+      background-color: $color-border-light-grey;
+    }
+
+    &:focus:not(:hover, :active) {
+      background-color: $color-btn-focus;
+      box-shadow: $shadow-button-focus;
+      outline: none;
+    }
+
+    &:hover {
+      background-color: $color-btn-focus;
+      outline: none;
+    }
+
+    &[disabled],
+    &[disabled]:hover,
+    &[disabled]:active,
+    &[disabled]:focus {
+      background-color: $color-bg-lighter;
+      color: $color-border-light-grey;
+      cursor: not-allowed;
+    }
+  }
+}

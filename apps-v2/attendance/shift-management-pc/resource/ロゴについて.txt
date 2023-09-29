@@ -1,0 +1,8 @@
+■ ロゴに関する注意
+
+	Lightning アプリケーションのロゴを差し替えた時は下記ををインクリメントすること。by Furukawa
+		アプリケーションの logoVersion 
+		アセットファイルの version 
+
+	https://developer.salesforce.com/docs/atlas.ja-jp.api_meta.meta/api_meta/meta_customapplication.htm
+

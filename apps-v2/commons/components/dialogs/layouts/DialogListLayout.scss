@@ -1,0 +1,17 @@
+.ts-dialog-list-layout {
+  &__item {
+    display: flex;
+    min-height: 40px;
+    align-content: center;
+    padding: 7px 42px;
+    border-bottom: 1px solid #d8dde6;
+  }
+
+  &__item:last-child {
+    border-bottom: none;
+  }
+
+  &__item > * {
+    width: 100%;
+  }
+}

@@ -1,0 +1,55 @@
+.tracking-pc-list-summary {
+  width: 635px;
+  border: 1px solid $color-border-default;
+
+  &__header {
+    display: flex;
+    height: 30px;
+    border-bottom: 1px solid $color-border-default;
+    background-color: $color-bg-heading;
+    color: $color-text-modest;
+  }
+
+  &__header-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid $color-border-default;
+  }
+
+  &__header-item:last-child {
+    border-right: none;
+  }
+
+  &__footer {
+    display: flex;
+    height: 30px;
+    border-top: 1px solid $color-border-default;
+    background-color: #f4f6f9;
+  }
+
+  &__footer-item {
+    border-right: 1px solid $color-border-default;
+  }
+
+  &__footer-item:last-child {
+    border-right: none;
+  }
+
+  &__sum-label,
+  &__sum-value {
+    display: flex;
+    align-items: center;
+  }
+
+  &__sum-label {
+    justify-content: flex-end;
+    padding-right: 5px;
+    color: $color-text-modest;
+  }
+
+  &__sum-value {
+    justify-content: center;
+    font-weight: bold;
+  }
+}

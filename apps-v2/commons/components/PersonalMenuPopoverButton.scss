@@ -1,0 +1,13 @@
+.commons-personal-menu-popover-button {
+  &__count {
+    position: absolute;
+    top: -4px;
+    min-width: 15px;
+    margin-left: 12px;
+    background-color: #d93600;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 10px;
+    line-height: 15px;
+  }
+}

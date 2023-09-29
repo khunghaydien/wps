@@ -1,0 +1,33 @@
+.admin-pc-calendar-detail-pane-event-list {
+  margin-top: 20px;
+
+  &__heading {
+    margin-bottom: 5px;
+    font-size: $font-size-large;
+  }
+
+  &__action-buttons {
+    position: relative;
+    margin-bottom: 12px;
+
+    button {
+      padding: 0 16px;
+      margin: 0 12px 0 0;
+    }
+  }
+
+  &__modify-buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    button {
+      padding: 0 16px;
+      margin: 0 0 0 12px;
+    }
+  }
+
+  &__edit-button {
+    padding: 0 16px;
+  }
+}

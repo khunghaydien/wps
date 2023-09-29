@@ -1,0 +1,27 @@
+.ts-expenses-modal-approval {
+  &__dialog-frame {
+    width: 580px;
+
+    .ts-expenses__form-message-area {
+      padding: 0;
+    }
+
+    .ts-expenses__form-message-area__main {
+      border: 1px solid #ff9e2c;
+      max-height: 50vh;
+      overflow: auto;
+    }
+
+    .ts-expenses__form-message-area__header {
+      color: #ff9e2c;
+    }
+
+    .ts-expenses__form-message-area__header {
+      background-color: #fcecd5;
+    }
+  }
+
+  &__inner {
+    padding: 40px;
+  }
+}

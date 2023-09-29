@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() /PLANNER-PC/MODULES/UI/EVENT_EDIT_POPUP/CLOSE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"isOpen\\": true,
+-   \\"left\\": 20,
+-   \\"top\\": 215,
++   \\"isOpen\\": false,
++   \\"left\\": 0,
++   \\"top\\": 0,
+  }"
+`;
+
+exports[`reducer() /PLANNER-PC/MODULES/UI/EVENT_EDIT_POPUP/OPEN 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"isOpen\\": false,
+-   \\"left\\": 0,
+-   \\"top\\": 0,
++   \\"isOpen\\": true,
++   \\"left\\": 20,
++   \\"top\\": 215,
+  }"
+`;
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"isOpen\\": false,
++   \\"left\\": 0,
++   \\"top\\": 0,
++ }"
+`;

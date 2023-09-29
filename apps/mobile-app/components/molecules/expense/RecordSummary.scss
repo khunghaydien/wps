@@ -1,0 +1,90 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-expense-record-summary {
+  width: 100%;
+  padding-top: $base-size;
+  padding-bottom: $base-size;
+  font-size: $medium-size;
+
+  &__subject {
+    width: 100%;
+    text-align: left;
+
+    &.foreign-currency {
+      max-width: 64%;
+    }
+
+    &__transit-proof {
+      display: inline-flex;
+      width: $small-size;
+      height: $small-size;
+      margin-left: 8px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    color: $color-gray-600;
+    font-size: $small-size;
+    text-align: center;
+  }
+
+  &__route-from-to {
+    margin-right: 8px;
+  }
+
+  &__bottom {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &-right {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    &-right.foreign-currency {
+      display: flex;
+      flex-direction: column;
+      max-width: 36%;
+      margin-top: -20px;
+    }
+
+    &__date {
+      display: flex;
+      align-items: center;
+      align-self: flex-end;
+      color: $color-blue-800;
+      font-size: $small-size;
+      line-height: 0;
+    }
+
+    &__date-icon {
+      margin-right: 4px;
+    }
+
+    &__amount {
+      text-align: right;
+    }
+
+    &__alert__appear {
+      margin-left: 4px;
+      path {
+        fill: $color-alert;
+      }
+    }
+
+    &__alert__container {
+      display: flex;
+    }
+
+    &__local-amount {
+      color: $color-gray-500;
+      font-size: 14px;
+      font-weight: $font-normal;
+      text-align: right;
+    }
+  }
+}

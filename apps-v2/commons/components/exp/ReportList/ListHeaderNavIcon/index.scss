@@ -1,0 +1,24 @@
+.list-header-nav-icon {
+  &__info {
+    overflow: visible !important;
+    height: 13px;
+    outline: 0;
+    vertical-align: baseline;
+
+    & path {
+      fill: color('exp-primary');
+    }
+  }
+
+  &__left-info {
+    padding-left: 10px;
+  }
+
+  &__right-info {
+    padding-right: 10px;
+  }
+
+  &__hintMsg {
+    white-space: pre-wrap;
+  }
+}

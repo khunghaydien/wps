@@ -1,0 +1,116 @@
+@import '../../../../../commons/styles/wsp';
+
+.ts-finance-approval__requests-item {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  color: color('text-1');
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: left;
+
+  &-icon {
+    text-align: center;
+  }
+
+  &-amount {
+    margin-right: 12px;
+    text-align: right;
+  }
+
+  &-vendor {
+    white-space: normal !important;
+  }
+
+  &-report-type {
+    white-space: normal !important;
+  }
+
+  &-emp {
+    & > div {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+
+  &-cell {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &-emp-code {
+    font-size: 11px;
+  }
+
+  &-reportId {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid color('border-2');
+    background-color: color('background-1');
+
+    &:hover {
+      background-color: color('hover');
+    }
+
+    &:hover,
+    &:active {
+      text-decoration: none;
+    }
+
+    &--active {
+      background-color: color('selected-2');
+      color: #000;
+    }
+  }
+
+  &__checkbox {
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+
+  &__input-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    input {
+      height: 16px;
+      width: 16px;
+    }
+  }
+
+  &-item-wrapbox-icon {
+    margin-left: 5px;
+
+    &-hidden {
+      opacity: 0;
+    }
+
+    &-hidden,
+    &-appear {
+      path {
+        fill: color('error');
+      }
+    }
+
+    &-tooltip-msg {
+      white-space: pre-wrap;
+    }
+
+    &-tooltip {
+      display: inline-block;
+    }
+  }
+}

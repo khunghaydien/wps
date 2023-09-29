@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should do catchApiError if error is not occurred 1`] = `
+Array [
+  Object {
+    "payload": FatalError {
+      "errorCode": undefined,
+      "message": "ERROR: loadTimeTrackAlerts",
+      "name": "Error",
+      "stacktrace": null,
+      "type": "FatalError",
+    },
+    "type": "CATCH_UNEXPECTED_ERROR",
+  },
+]
+`;
+
+exports[`should do. 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "timesheet",
+      undefined,
+    ],
+    "type": "LOAD_TIME_TRACK_ALERTS",
+  },
+  Object {
+    "payload": Array [
+      "timesheet",
+      undefined,
+    ],
+    "type": "LOAD_DAILY_TIME_TRACK_RECORDS",
+  },
+]
+`;
+
+exports[`should not do catchApiError if error is occurred 1`] = `Array []`;
+
+exports[`should not do if timesheet is migrated 1`] = `Array []`;
+
+exports[`should not do if timesheet is null 1`] = `Array []`;
+
+exports[`should not do when has not permission 1`] = `Array []`;

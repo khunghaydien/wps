@@ -1,0 +1,27 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-components-molecules-attendance-time-stamp-stamp-clock {
+  color: $color-blue-600;
+  text-align: center;
+  margin-top: 12px;
+
+  &__date {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  &__time {
+    font-size: 60px;
+    line-height: 72px;
+
+    @keyframes blink {
+      50% {
+        opacity: 0;
+      }
+    }
+
+    > span {
+      animation: blink 1s step-end infinite;
+    }
+  }
+}

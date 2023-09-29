@@ -1,0 +1,5 @@
+@import '../Employee/List.scss';
+
+.admin-pc-job-type-list {
+  @extend .admin-pc-employee-list;
+}

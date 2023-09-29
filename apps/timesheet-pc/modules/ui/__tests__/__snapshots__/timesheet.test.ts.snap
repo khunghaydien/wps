@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"isManHoursGraphOpened\\": false,
++ }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/TIMESHEET/TOGGLE_MAN_HOURS_GRAPH 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"isManHoursGraphOpened\\": false,
++   \\"isManHoursGraphOpened\\": true,
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/UI/TIMESHEET/TOGGLE_MAN_HOURS_GRAPH from true to false 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"isManHoursGraphOpened\\": true,
++   \\"isManHoursGraphOpened\\": false,
+  }"
+`;

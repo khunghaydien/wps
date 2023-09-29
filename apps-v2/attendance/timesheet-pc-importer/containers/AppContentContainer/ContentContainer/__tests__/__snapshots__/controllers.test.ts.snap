@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`toggleCheckedAll should call actions 1`] = `
+Array [
+  Object {
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/TOGGLE_CHECKED_ALL",
+  },
+]
+`;
+
+exports[`updateDailyRecord should update records 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "records",
+    ],
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/SET_RECORDS",
+  },
+]
+`;

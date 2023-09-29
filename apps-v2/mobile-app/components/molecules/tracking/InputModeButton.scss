@@ -1,0 +1,35 @@
+@import 'mobile-global-imports.scss';
+
+$button-border-width: 2px;
+
+.mobile-app-molecules-tracking-input-mode-button {
+  position: relative;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $color-border;
+  border-radius: 50%;
+  text-align: center;
+
+  &--on {
+    background: $color-brand;
+    color: #fff;
+  }
+
+  &--off {
+    background: #fff;
+    color: $color-brand;
+  }
+
+  &--disabled::after {
+    position: absolute;
+    top: -1 * $button-border-width;
+    right: -1 * $button-border-width;
+    bottom: -1 * $button-border-width;
+    left: -1 * $button-border-width;
+    background: rgba(255, 255, 255, 0.7);
+    content: ' ';
+  }
+}

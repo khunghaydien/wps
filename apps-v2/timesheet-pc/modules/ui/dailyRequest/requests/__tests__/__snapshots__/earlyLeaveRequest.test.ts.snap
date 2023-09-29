@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @init @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"request\\": null,
++ }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/EARLY_LEAVE_REQUEST/INITIALIZE INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"request\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"Approver\\",
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"2018-06-18\\",
++     \\"endTime\\": 1140,
++     \\"id\\": \\"\\",
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": null,
++     \\"patternName\\": null,
++     \\"patternRestTimes\\": Array [],
++     \\"reason\\": \\"reason\\",
++     \\"remarks\\": \\"\\",
++     \\"requestTypeCode\\": \\"EarlyLeave\\",
++     \\"requestTypeName\\": \\"\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2018-06-18\\",
++     \\"startTime\\": null,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"EarlyLeave\\",
++   },
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/EARLY_LEAVE_REQUEST/UPDATE UPDATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"request\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"Approver\\",
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"2018-06-18\\",
++     \\"endTime\\": 1140,
++     \\"id\\": \\"\\",
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": null,
++     \\"patternName\\": null,
++     \\"patternRestTimes\\": Array [],
++     \\"reason\\": \\"testですtestです。\\",
++     \\"remarks\\": \\"\\",
++     \\"requestTypeCode\\": \\"EarlyLeave\\",
++     \\"requestTypeName\\": \\"\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2018-06-18\\",
++     \\"startTime\\": null,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"EarlyLeave\\",
++   },
+  }"
+`;

@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"dailyRecord\\": null,
++   \\"earlyLeaveReasonList\\": Array [],
++   \\"request\\": null,
++   \\"selectedEarlyLeaveReason\\": null,
++   \\"useEarlyLeaveReason\\": false,
++ }"
+`;
+
+exports[`reducer() MOBILE_APP/MODULES/ATTENDANCE/DAILY_REQUEST/UI/REQUESTS/EARLY_LEAVE_REQUEST/INITIALIZE should be executed with AttDailyRecord 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"dailyRecord\\": null,
+-   \\"earlyLeaveReasonList\\": Array [],
+-   \\"request\\": null,
+-   \\"selectedEarlyLeaveReason\\": null,
++   \\"dailyRecord\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"ciliTimePeriods\\": Array [],
++     \\"ciloTimePeriods\\": Array [],
++     \\"coliTimePeriods\\": Array [],
++     \\"coloTimePeriods\\": Array [],
++     \\"contractedDetail\\": Object {
++       \\"endTime\\": 1080,
++     },
++     \\"dayType\\": \\"Workday\\",
++     \\"endStampTime\\": null,
++     \\"endTime\\": null,
++     \\"id\\": \\"abc\\",
++     \\"insufficientRestTime\\": null,
++     \\"isLeaveOfAbsence\\": false,
++     \\"outEndTime\\": null,
++     \\"outStartTime\\": null,
++     \\"realWorkTime\\": 0,
++     \\"recordDate\\": \\"2020-01-01\\",
++     \\"remarks\\": \\"\\",
++     \\"requestIds\\": Array [],
++     \\"requestTypeCodes\\": Array [],
++     \\"restHours\\": null,
++     \\"restTimes\\": Array [],
++     \\"startStampTime\\": null,
++     \\"startTime\\": null,
++   },
++   \\"earlyLeaveReasonList\\": Array [
++     Object {
++       \\"code\\": null,
++       \\"earlyLeaveEndTime\\": null,
++       \\"id\\": null,
++       \\"name\\": null,
++     },
++   ],
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"canDirectInputTimeRequest\\": false,
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"\\",
++     \\"endTime\\": null,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isDirectInputTimeRequest\\": false,
++     \\"isFlexWithoutCore\\": false,
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveDetailCode\\": null,
++     \\"leaveDetailName\\": null,
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": null,
++     \\"patternName\\": null,
++     \\"patternRestTimes\\": Array [],
++     \\"personalReason\\": false,
++     \\"reason\\": \\"\\",
++     \\"reasonCode\\": null,
++     \\"reasonId\\": null,
++     \\"reasonName\\": null,
++     \\"remarks\\": null,
++     \\"requestDayType\\": null,
++     \\"requestTypeCode\\": \\"None\\",
++     \\"requestTypeName\\": \\"\\",
++     \\"requestableDayType\\": null,
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"\\",
++     \\"startTime\\": null,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"EarlyLeave\\",
++     \\"useEarlyLeaveReason\\": false,
++     \\"useLateArrivalReason\\": false,
++     \\"useManagePersonalReason\\": false,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"\\",
++   },
++   \\"selectedEarlyLeaveReason\\": Object {
++     \\"code\\": null,
++     \\"earlyLeaveEndTime\\": null,
++     \\"id\\": null,
++     \\"name\\": null,
++   },
+    \\"useEarlyLeaveReason\\": false,
+  }"
+`;
+
+exports[`reducer() MOBILE_APP/MODULES/ATTENDANCE/DAILY_REQUEST/UI/REQUESTS/EARLY_LEAVE_REQUEST/INITIALIZE should be executed without AttDailyRecord 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"dailyRecord\\": null,
+-   \\"earlyLeaveReasonList\\": Array [],
+-   \\"request\\": null,
+-   \\"selectedEarlyLeaveReason\\": null,
++   \\"earlyLeaveReasonList\\": Array [
++     Object {
++       \\"code\\": null,
++       \\"earlyLeaveEndTime\\": null,
++       \\"id\\": null,
++       \\"name\\": null,
++     },
++   ],
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"canDirectInputTimeRequest\\": false,
++     \\"directApplyRestTimes\\": Array [],
++     \\"endDate\\": \\"\\",
++     \\"endTime\\": null,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isDirectInputTimeRequest\\": false,
++     \\"isFlexWithoutCore\\": false,
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveDetailCode\\": null,
++     \\"leaveDetailName\\": null,
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": null,
++     \\"patternName\\": null,
++     \\"patternRestTimes\\": Array [],
++     \\"personalReason\\": false,
++     \\"reason\\": \\"\\",
++     \\"reasonCode\\": null,
++     \\"reasonId\\": null,
++     \\"reasonName\\": null,
++     \\"remarks\\": null,
++     \\"requestDayType\\": null,
++     \\"requestTypeCode\\": \\"None\\",
++     \\"requestTypeName\\": \\"\\",
++     \\"requestableDayType\\": null,
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"\\",
++     \\"startTime\\": null,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"EarlyLeave\\",
++     \\"useEarlyLeaveReason\\": false,
++     \\"useLateArrivalReason\\": false,
++     \\"useManagePersonalReason\\": false,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": \\"\\",
++   },
++   \\"selectedEarlyLeaveReason\\": Object {
++     \\"code\\": null,
++     \\"earlyLeaveEndTime\\": null,
++     \\"id\\": null,
++     \\"name\\": null,
++   },
+    \\"useEarlyLeaveReason\\": false,
+  }"
+`;
+
+exports[`reducer() MOBILE_APP/MODULES/ATTENDANCE/DAILY_REQUEST/UI/REQUESTS/EARLY_LEAVE_REQUEST/UPDATE should be executed  1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -6,11 +6,14 @@
+        \\"earlyLeaveEndTime\\": undefined,
+        \\"id\\": undefined,
+        \\"name\\": undefined,
+      },
+    ],
+-   \\"request\\": undefined,
++   \\"request\\": Object {
++     \\"endTime\\": undefined,
++     \\"startTime\\": 540,
++   },
+    \\"selectedEarlyLeaveReason\\": Object {
+      \\"code\\": undefined,
+      \\"earlyLeaveEndTime\\": undefined,
+      \\"id\\": undefined,
+      \\"name\\": undefined,"
+`;
+
+exports[`reducer() MOBILE_APP/MODULES/ATTENDANCE/DAILY_REQUEST/UI/REQUESTS/EARLY_LEAVE_REQUEST/UPDATE should not be executed if state is not initializing 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;

@@ -1,0 +1,19 @@
+.approvals-pc-tracking-process-list-pane-detail-table-column {
+  &--date {
+    flex: 0 0 90px;
+  }
+
+  &--name,
+  &--label-summary {
+    flex: 1 1 auto;
+  }
+
+  &--work-time {
+    flex: 0 0 60px;
+    text-align: center;
+  }
+
+  &--comment {
+    flex: 0 0 570px;
+  }
+}

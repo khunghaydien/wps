@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reload complete() should do. 1`] = `
+Array [
+  Object {
+    "payload": undefined,
+    "type": "TIMESHEET-PC/ENTITIES/TIMESHEET/SET_DAILY_OBJECTIVELY_EVENT_LOGS",
+  },
+]
+`;
+
+exports[`reload error() initialize should do catchApiError 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": false,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`reload error() initialize should not do catchApiError if error is occurred 1`] = `Array []`;
+
+exports[`reload error() reload should do catchApiError if error was not occurred already 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`reload error() reload should not do catchApiError if error was occurred yet 1`] = `Array []`;
+
+exports[`reload finally() should do. 1`] = `
+Array [
+  Object {
+    "type": "TIMESHEET-PC/UI/LOADING_DAILY_OBJECTIVELY_EVENT_LOG_DIALOG/FINISH",
+  },
+]
+`;
+
+exports[`reload loading should use globalLoading 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+  Object {
+    "type": "TIMESHEET-PC/UI/LOADING_DAILY_OBJECTIVELY_EVENT_LOG_DIALOG/START",
+  },
+  Object {
+    "type": "LOADING_END",
+  },
+  Object {
+    "type": "TIMESHEET-PC/UI/LOADING_DAILY_OBJECTIVELY_EVENT_LOG_DIALOG/FINISH",
+  },
+]
+`;
+
+exports[`reload loading should use only pageLoading 1`] = `
+Array [
+  Object {
+    "type": "TIMESHEET-PC/UI/LOADING_DAILY_OBJECTIVELY_EVENT_LOG_DIALOG/START",
+  },
+  Object {
+    "type": "TIMESHEET-PC/UI/LOADING_DAILY_OBJECTIVELY_EVENT_LOG_DIALOG/FINISH",
+  },
+]
+`;
+
+exports[`reload start() should do. 1`] = `
+Array [
+  Object {
+    "type": "TIMESHEET-PC/UI/LOADING_DAILY_OBJECTIVELY_EVENT_LOG_DIALOG/START",
+  },
+]
+`;
+
+exports[`reloadOneRecord complete() should do. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "dailyObjectivelyEventLog": null,
+      "targetDate": undefined,
+    },
+    "type": "TIMESHEET-PC/ENTITIES/TIMESHEET/UPDATE_DAILY_OBJECTIVELY_EVENT_LOG",
+  },
+  Object {
+    "payload": null,
+    "type": "TIMESHEET-PC/UI/EDITING_DAILY_ATT_TIME/UPDATE_DAILY_OBJECTIVELY_EVENT_LOG",
+  },
+]
+`;
+
+exports[`reloadOneRecord error() should do catchApiError if error is not occurred 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`reloadOneRecord error() should not do catchApiError if error is occurred 1`] = `Array []`;
+
+exports[`reloadOneRecord finally() should do. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_END",
+  },
+]
+`;
+
+exports[`reloadOneRecord start() should do. 1`] = `
+Array [
+  Object {
+    "type": "LOADING_START",
+  },
+]
+`;

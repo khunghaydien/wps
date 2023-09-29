@@ -1,0 +1,37 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-commons-alert-icon {
+  display: inline-block;
+  line-height: 1;
+
+  @mixin size($s) {
+    width: $s;
+    height: $s;
+  }
+
+  &.x-small {
+    @include size($extra-small-size);
+  }
+
+  &.small {
+    @include size($small-size);
+  }
+
+  &.medium {
+    @include size($medium-size);
+  }
+
+  &.large {
+    @include size($large-size);
+  }
+
+  &.x-large {
+    @include size($extra-large-size);
+  }
+
+  &__container {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+}

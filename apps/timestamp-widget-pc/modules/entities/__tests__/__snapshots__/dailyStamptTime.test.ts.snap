@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @init @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"commuteBackwardCount\\": null,
++   \\"commuteForwardCount\\": null,
++   \\"isEnableEndStamp\\": true,
++   \\"isEnableRestartStamp\\": false,
++   \\"isEnableStartStamp\\": true,
++ }"
+`;
+
+exports[`reducer() TIMESTAMP_WIDGET/ENTITIES/DAILY_STAMP_TIME/SET Status where In and Out is possible 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"commuteBackwardCount\\": null,
+    \\"commuteForwardCount\\": null,
+-   \\"isEnableEndStamp\\": false,
+-   \\"isEnableRestartStamp\\": true,
+-   \\"isEnableStartStamp\\": false,
++   \\"isEnableEndStamp\\": true,
++   \\"isEnableRestartStamp\\": false,
++   \\"isEnableStartStamp\\": true,
+  }"
+`;
+
+exports[`reducer() TIMESTAMP_WIDGET/ENTITIES/DAILY_STAMP_TIME/SET Status where In is possible 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"commuteBackwardCount\\": null,
+    \\"commuteForwardCount\\": null,
+-   \\"isEnableEndStamp\\": true,
++   \\"isEnableEndStamp\\": false,
+    \\"isEnableRestartStamp\\": false,
+    \\"isEnableStartStamp\\": true,
+  }"
+`;
+
+exports[`reducer() TIMESTAMP_WIDGET/ENTITIES/DAILY_STAMP_TIME/SET Status where Out is possible 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"commuteBackwardCount\\": null,
+    \\"commuteForwardCount\\": null,
+    \\"isEnableEndStamp\\": true,
+    \\"isEnableRestartStamp\\": false,
+-   \\"isEnableStartStamp\\": true,
++   \\"isEnableStartStamp\\": false,
+  }"
+`;
+
+exports[`reducer() TIMESTAMP_WIDGET/ENTITIES/DAILY_STAMP_TIME/SET Status where Re-In is possible 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"commuteBackwardCount\\": null,
+    \\"commuteForwardCount\\": null,
+-   \\"isEnableEndStamp\\": true,
+-   \\"isEnableRestartStamp\\": false,
+-   \\"isEnableStartStamp\\": true,
++   \\"isEnableEndStamp\\": false,
++   \\"isEnableRestartStamp\\": true,
++   \\"isEnableStartStamp\\": false,
+  }"
+`;
+
+exports[`reducer() TIMESTAMP_WIDGET/ENTITIES/DAILY_STAMP_TIME/UNSET UNSET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"commuteBackwardCount\\": null,
+    \\"commuteForwardCount\\": null,
+-   \\"isEnableEndStamp\\": false,
+-   \\"isEnableRestartStamp\\": true,
+-   \\"isEnableStartStamp\\": false,
++   \\"isEnableEndStamp\\": true,
++   \\"isEnableRestartStamp\\": false,
++   \\"isEnableStartStamp\\": true,
+  }"
+`;

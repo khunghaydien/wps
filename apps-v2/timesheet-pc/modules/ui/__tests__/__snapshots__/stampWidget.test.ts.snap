@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"isOpened\\": true,
++ }"
+`;
+
+exports[`reducer() TIMESHEET-PC/STAMP_WIDGET/TOGGLE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"isOpened\\": true,
++   \\"isOpened\\": false,
+  }"
+`;
+
+exports[`reducer() TIMESHEET-PC/STAMP_WIDGET/TOGGLE from false to true 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"isOpened\\": false,
++   \\"isOpened\\": true,
+  }"
+`;

@@ -1,0 +1,45 @@
+@import '../variables';
+@import '../ParentResourceItem/index';
+
+.ts-psa__view-all-resources {
+  &__resource-container {
+    padding: 0 $container-padding $container-padding $container-padding;
+  }
+
+  &__list-pager {
+    margin: 12px 0;
+    &.hidden {
+      visibility: hidden;
+    }
+  }
+  &-too-many-results {
+    margin-top: 12px;
+    color: #006dcc;
+    text-align: center;
+  }
+}
+
+// Group the width calculation styles here for easier update
+.ts-psa__view-all-resources__resource-list-item__resources,
+.ts-psa__view-all-resources__resource-list-header__resources {
+  width: 25%;
+}
+
+.ts-psa__view-all-resources__resource-list-header__values,
+.ts-psa__view-all-resources__resource-list-item__values {
+  width: 85%;
+}
+
+.ts-psa__view-all-resources__resource-list-header__total-hours,
+.ts-psa__view-all-resources__resource-list-header__value {
+  display: inline-flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.ts-psa__view-all-resources__resource-list-header__total-hours,
+.ts-psa__view-all-resources__resource-list-item__total-hours,
+.ts-psa__view-all-resources__resource-list-item__value {
+  width: 100%;
+}

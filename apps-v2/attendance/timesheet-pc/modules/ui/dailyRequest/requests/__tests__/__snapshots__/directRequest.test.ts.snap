@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"hasRange\\": false,
++   \\"request\\": null,
++ }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/DIRECT_REQUEST/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"hasRange\\": false,
+-   \\"request\\": null,
++   \\"request\\": Object {
++     \\"approver01Name\\": \\"\\",
++     \\"canDirectInputTimeRequest\\": false,
++     \\"directApplyRestTimes\\": Array [
++       Object {
++         \\"endTime\\": null,
++         \\"restReason\\": null,
++         \\"startTime\\": null,
++       },
++       Object {
++         \\"endTime\\": null,
++         \\"restReason\\": null,
++         \\"startTime\\": null,
++       },
++       Object {
++         \\"endTime\\": null,
++         \\"restReason\\": null,
++         \\"startTime\\": null,
++       },
++     ],
++     \\"endDate\\": \\"2020-04-06\\",
++     \\"endTime\\": null,
++     \\"flexEndTime\\": null,
++     \\"flexStartTime\\": null,
++     \\"id\\": \\"\\",
++     \\"isDirectInputTimeRequest\\": false,
++     \\"isForReapply\\": false,
++     \\"leaveCode\\": \\"\\",
++     \\"leaveDetailCode\\": null,
++     \\"leaveDetailName\\": null,
++     \\"leaveName\\": \\"\\",
++     \\"leaveRange\\": null,
++     \\"leaveType\\": null,
++     \\"originalRequestId\\": \\"\\",
++     \\"patternCode\\": null,
++     \\"patternName\\": null,
++     \\"patternRestTimes\\": Array [],
++     \\"personalReason\\": false,
++     \\"reason\\": \\"\\",
++     \\"reasonCode\\": \\"\\",
++     \\"reasonId\\": \\"\\",
++     \\"reasonName\\": \\"\\",
++     \\"remarks\\": \\"\\",
++     \\"requestDayType\\": null,
++     \\"requestTypeCode\\": \\"Direct\\",
++     \\"requestTypeName\\": \\"直行直帰\\",
++     \\"requestableDayType\\": \\"Holiday\\",
++     \\"requireReason\\": false,
++     \\"startDate\\": \\"2020-04-06\\",
++     \\"startTime\\": null,
++     \\"status\\": \\"NotRequested\\",
++     \\"substituteDate\\": \\"\\",
++     \\"substituteLeaveType\\": null,
++     \\"type\\": \\"Direct\\",
++     \\"useEarlyLeaveReason\\": false,
++     \\"useLateArrivalReason\\": false,
++     \\"useManagePersonalReason\\": false,
++     \\"withoutCoreTime\\": false,
++     \\"workSystem\\": null,
++   },
+  }"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/DIRECT_REQUEST/UPDATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -36,11 +36,11 @@
+      \\"originalRequestId\\": \\"\\",
+      \\"patternCode\\": null,
+      \\"patternName\\": null,
+      \\"patternRestTimes\\": Array [],
+      \\"personalReason\\": false,
+-     \\"reason\\": \\"\\",
++     \\"reason\\": \\"testですtestです。\\",
+      \\"reasonCode\\": \\"\\",
+      \\"reasonId\\": \\"\\",
+      \\"reasonName\\": \\"\\",
+      \\"remarks\\": \\"\\",
+      \\"requestDayType\\": null,"
+`;
+
+exports[`reducer() TIMESHEET_PC/UI/DAILY_REQUEST/REQUESTS/DIRECT_REQUEST/UPDATE_HAS_RANGE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,7 +1,7 @@
+  Object {
+-   \\"hasRange\\": false,
++   \\"hasRange\\": true,
+    \\"request\\": Object {
+      \\"approver01Name\\": \\"\\",
+      \\"canDirectInputTimeRequest\\": false,
+      \\"directApplyRestTimes\\": Array [
+        Object {
+@@ -18,11 +18,11 @@
+          \\"endTime\\": null,
+          \\"restReason\\": null,
+          \\"startTime\\": null,
+        },
+      ],
+-     \\"endDate\\": \\"2020-04-06\\",
++     \\"endDate\\": \\"2020-04-07\\",
+      \\"endTime\\": null,
+      \\"flexEndTime\\": null,
+      \\"flexStartTime\\": null,
+      \\"id\\": \\"\\",
+      \\"isDirectInputTimeRequest\\": false,"
+`;

@@ -1,0 +1,13 @@
+.admin-pc-employee-list {
+  &__search-display-inactive {
+    margin-top: 8px;
+
+    &-msg {
+      margin-left: 8px;
+    }
+
+    input {
+      cursor: pointer;
+    }
+  }
+}

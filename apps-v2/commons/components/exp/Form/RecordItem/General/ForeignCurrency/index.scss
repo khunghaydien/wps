@@ -1,0 +1,115 @@
+@import '../../../../../../styles/wsp';
+@import '../../../../../../../commons/styles/exp/variables/colors';
+
+.ts-expenses-requests__contents__amount {
+  &__foreign-currency-input {
+    &.slds-input {
+      line-height: 1em;
+    }
+  }
+
+  &__foreign-currency-input[disabled] {
+    line-height: 1em;
+    pointer-events: none;
+  }
+
+  /** Foreign Currency */
+  select {
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('../../../../../../images/iconArrowDown.png') no-repeat
+      color('background-1');
+    background-position: right 10px center;
+
+    &.slds-input {
+      color: color('text-1');
+    }
+  }
+
+  &__amount {
+    margin-right: 10px;
+    .title {
+      display: flex;
+      justify-content: space-between;
+      .ts-button {
+        margin-bottom: 4px;
+        min-height: auto;
+      }
+    }
+    .key {
+      margin-bottom: 4px;
+    }
+  }
+
+  &__negative-warning {
+    margin-top: 8px;
+    border: 1px solid $ts-attention;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+
+    &-svg {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      overflow: visible !important;
+    }
+
+    &-msg {
+      color: $color-text-header-dark;
+      margin-left: 10px;
+    }
+  }
+
+  &__exchange-rate {
+    display: flex;
+    margin-left: 10px;
+
+    &-area {
+      min-width: 90%;
+      flex: 1;
+    }
+  }
+
+  &__currency-selector {
+    margin-left: 10px;
+  }
+
+  input {
+    &.slds-input {
+      color: color('text-1');
+    }
+
+    &.input_disabled {
+      &_right-aligned:disabled {
+        border-color: color('border-1');
+        background-color: color('disabled-1');
+        text-align: right;
+      }
+    }
+
+    &.input {
+      &_right-aligned {
+        border-color: color('border-1');
+        text-align: right;
+      }
+    }
+
+    &.highlight-bg:disabled {
+      background-color: $color-text-highlight;
+    }
+  }
+
+  .key {
+    margin-bottom: 4px;
+  }
+
+  .slds-col {
+    position: relative;
+  }
+
+  &__exchange-rate-field {
+    height: 32px;
+  }
+}

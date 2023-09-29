@@ -1,0 +1,42 @@
+.timesheet-pc-main-content-timesheet {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  padding: 35px 0;
+
+  table {
+    display: block;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    thead,
+    tbody,
+    tfoot {
+      display: block;
+      width: 100%;
+    }
+
+    thead,
+    tfoot {
+      position: absolute;
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+
+    thead {
+      top: 0;
+      border-bottom: 1px solid #d8dde6;
+    }
+
+    tfoot {
+      bottom: 0;
+      border-top: 1px solid #d8dde6;
+    }
+
+    tr {
+      display: table;
+      width: 100%;
+    }
+  }
+}

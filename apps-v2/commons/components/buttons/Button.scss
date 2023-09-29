@@ -1,0 +1,202 @@
+.ts-button {
+  $this: &;
+
+  min-height: 28px;
+  padding: 0 6px;
+  border: 1px solid $ts-button-default-dark;
+  background-color: $ts-button-default;
+  border-radius: 4px;
+  color: $ts-button-default-color;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:active {
+    background-color: $ts-button-default-dark;
+  }
+
+  &:focus:not(:hover, :active) {
+    background-color: $ts-button-default-focus;
+    box-shadow: $shadow-button-focus;
+    outline: none;
+  }
+
+  &:hover {
+    // hoverはfocusと同じ表現を使う(枠線はなし)
+    background-color: $ts-button-default-focus;
+    outline: none;
+  }
+
+  &[disabled],
+  &[disabled]:hover,
+  &[disabled]:active,
+  &[disabled]:focus {
+    background-color: $ts-button-default-disabled;
+    color: $ts-button-default-disabled-color;
+    cursor: not-allowed;
+  }
+
+  &__contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__text {
+    vertical-align: middle;
+  }
+
+  &__icon {
+    height: auto;
+    margin-right: 4px;
+
+    &#{$this}--right {
+      margin-right: 0;
+      margin-left: 4px;
+    }
+  }
+
+  &#{$this}--outline-default {
+    border-color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  &#{$this}--outline-default:hover,
+  &#{$this}--outline-default:active,
+  &#{$this}--outline-default:focus {
+    background-color: #fff;
+  }
+
+  &#{$this}--outline-default[disabled],
+  &#{$this}--outline-default[disabled]:hover,
+  &#{$this}--outline-default[disabled]:active,
+  &#{$this}--outline-default[disabled]:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: not-allowed;
+  }
+
+  &#{$this}--primary {
+    border-color: $color-bg-primary;
+    background-color: $color-bg-primary;
+    color: #fff;
+  }
+
+  &#{$this}--primary:hover,
+  &#{$this}--primary:active,
+  &#{$this}--primary:focus {
+    border-color: $color-bg-primary-dark;
+    background-color: $color-bg-primary-dark;
+  }
+
+  &#{$this}--primary[disabled],
+  &#{$this}--primary[disabled]:hover,
+  &#{$this}--primary[disabled]:active,
+  &#{$this}--primary[disabled]:focus {
+    border-color: $color-bg-primary-disabled;
+    background-color: $color-bg-primary-disabled;
+    color: #fff;
+    cursor: not-allowed;
+  }
+
+  &#{$this}--secondary {
+    border-color: $color-bg-secondary;
+    background-color: $color-bg-secondary;
+    color: #fff;
+  }
+
+  &#{$this}--secondary:hover,
+  &#{$this}--secondary:active,
+  &#{$this}--secondary:focus {
+    border-color: $color-bg-secondary-dark;
+    background-color: $color-bg-secondary-dark;
+  }
+
+  &#{$this}--secondary[disabled],
+  &#{$this}--secondary[disabled]:hover,
+  &#{$this}--secondary[disabled]:active,
+  &#{$this}--secondary[disabled]:focus {
+    border-color: $color-bg-secondary-disabled;
+    background-color: $color-bg-secondary-disabled;
+    color: #fff;
+    cursor: not-allowed;
+  }
+
+  &#{$this}--destructive {
+    border-color: $color-bg-destructive;
+    background-color: $color-bg-destructive;
+    color: #fff;
+  }
+
+  &#{$this}--destructive:hover,
+  &#{$this}--destructive:active,
+  &#{$this}--destructive:focus {
+    border-color: $color-bg-destructive-dark;
+    background-color: $color-bg-destructive-dark;
+  }
+
+  &#{$this}--destructive[disabled],
+  &#{$this}--destructive[disabled]:hover,
+  &#{$this}--destructive[disabled]:active,
+  &#{$this}--destructive[disabled]:focus {
+    border-color: $color-bg-destructive-disabled;
+    background-color: $color-bg-destructive-disabled;
+    color: #fff;
+    cursor: not-allowed;
+  }
+
+  &#{$this}--text {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: $color-text-anchor;
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  &#{$this}--text:hover,
+  &#{$this}--text:active,
+  &#{$this}--text:focus {
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  &#{$this}--text[disabled],
+  &#{$this}--text[disabled]:hover,
+  &#{$this}--text[disabled]:active,
+  &#{$this}--text[disabled]:focus {
+    color: darken($color-text-anchor, 15%);
+    text-decoration: none;
+  }
+
+  @at-root {
+    .ts-button-group {
+      display: flex;
+    }
+
+    .ts-button-group &:nth-child(1n + 2) {
+      border-left: none;
+    }
+
+    .ts-button-group &:first-child {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    .ts-button-group &:last-child {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+    }
+
+    .dialog__footer-container & {
+      min-width: 95px;
+    }
+
+    .dialog__footer-container & + & {
+      margin-left: 10px;
+    }
+
+    .ts-lookup-field & {
+      line-height: 26px;
+    }
+  }
+}

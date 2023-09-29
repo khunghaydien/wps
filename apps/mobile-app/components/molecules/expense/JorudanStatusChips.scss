@@ -1,0 +1,48 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-molecules-expense-jorudan-chips {
+  display: flex;
+  color: $color-text-reverse;
+
+  &--vertical-row {
+    flex-direction: column;
+  }
+
+  &__cheap,
+  &__easy,
+  &__fast,
+  &__ex,
+  &__round {
+    margin-left: $base-size;
+    text-align: center;
+  }
+
+  &__chip--vertical-row {
+    margin-left: 0;
+  }
+
+  &__chip:first-child {
+    margin-left: 0;
+  }
+
+  &__cheap {
+    background-color: $cheap-icon-bg;
+  }
+
+  &__easy {
+    background-color: $easy-icon-bg;
+  }
+
+  &__fast {
+    background-color: $fast-icon-bg;
+  }
+
+  &__ex {
+    background-color: $ex-icon-bg;
+  }
+
+  &__round {
+    background-color: $round-trip-icon-bg;
+    word-break: break-word;
+  }
+}

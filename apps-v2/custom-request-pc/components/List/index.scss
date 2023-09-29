@@ -1,0 +1,89 @@
+.ts-custom-request-list {
+  .react-grid-Main {
+    outline: none;
+  }
+
+  .react-grid-Grid {
+    border-bottom: none;
+  }
+
+  .react-grid-checkbox-label {
+    display: none;
+  }
+
+  .react-grid-checkbox {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+  }
+
+  .react-grid-HeaderCell {
+    background-color: #eee !important;
+    box-shadow: unset;
+    overflow: hidden;
+
+    .form-group input {
+      border: 1px solid #ddd;
+      margin: 0;
+
+      :active {
+        outline: 0;
+        border-color: #1589ee;
+        background-color: #fff;
+        box-shadow: 0 0 3px #0070d2;
+      }
+    }
+
+    input {
+      height: 28px;
+    }
+  }
+
+  .react-grid-Row {
+    &:hover {
+      background-color: unset;
+    }
+  }
+
+  .react-grid-Cell {
+    border-right: unset !important;
+    box-shadow: unset !important;
+    .rdg-cell-action {
+      width: auto;
+    }
+
+    .rdg-cell-action-button {
+      display: flex;
+      width: 100%;
+      align-items: center;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:last-child:hover {
+      cursor: default;
+    }
+  }
+
+  .commons-grid-formatters-currency {
+    text-align: right;
+  }
+
+  &__spinner {
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    position: absolute;
+  }
+}
+
+.ts-container {
+  background: #fff;
+}

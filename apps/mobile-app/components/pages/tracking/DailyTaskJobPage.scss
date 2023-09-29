@@ -1,0 +1,27 @@
+@import 'mobile-global-imports';
+
+.mobile-app-tracking-daily-task-job-page {
+  &__container {
+    height: 100vh;
+    padding: 48px 0 0;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+  }
+
+  &__content {
+    height: 100%;
+    border: none;
+  }
+
+  &__control:not(:first-child) {
+    margin: 12px 0 0;
+  }
+
+  &__action {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0 0;
+  }
+}

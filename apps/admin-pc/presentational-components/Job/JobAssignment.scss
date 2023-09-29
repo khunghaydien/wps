@@ -1,0 +1,41 @@
+.admin-pc-job-job-assignment {
+  &__heading {
+    margin: 0 0 5px;
+    color: $color-text-modest;
+    font-size: 1rem;
+  }
+
+  &__action-buttons {
+    position: relative;
+    margin-bottom: 12px;
+
+    button {
+      padding: 0 16px;
+      margin-right: 12px;
+    }
+  }
+
+  &__modify-buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    button {
+      padding: 0 16px;
+      margin: 0 0 0 12px;
+    }
+  }
+
+  .react-grid-Canvas .react-grid-Row {
+    cursor: pointer;
+  }
+
+  .rdg-selected {
+    border: none;
+  }
+
+  .react-grid-HeaderCell--frozen,
+  .rdg-last--frozen {
+    box-shadow: none !important;
+  }
+}

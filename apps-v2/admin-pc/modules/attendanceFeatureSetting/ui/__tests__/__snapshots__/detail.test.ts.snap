@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@INIT 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"OpsRecordAggregate\\": Array [],
++   \\"TempOpsRecordAggregate\\": Array [],
++   \\"selectedHistoryId\\": \\"\\",
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/FEATURE-SETTING/UI/DETAIL/INITIALIZE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"OpsRecordAggregate\\": Array [
+-     Object {
+-       \\"aggregateType\\": \\"xxx\\",
+-       \\"fieldName\\": \\"xxx\\",
+-       \\"label\\": \\"xxx\\",
+-     },
+-   ],
+-   \\"TempOpsRecordAggregate\\": Array [
+-     Object {
+-       \\"aggregateType\\": \\"xxx\\",
+-       \\"fieldName\\": \\"xxx\\",
+-       \\"label\\": \\"xxx\\",
+-     },
+-   ],
+-   \\"selectedHistoryId\\": \\"xxx\\",
+-   \\"selectedIndex\\": 0,
++   \\"OpsRecordAggregate\\": Array [],
++   \\"TempOpsRecordAggregate\\": Array [],
++   \\"selectedHistoryId\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/FEATURE-SETTING/UI/DETAIL/SET_SELECTED_HISTORY_ID 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"OpsRecordAggregate\\": Array [],
+    \\"TempOpsRecordAggregate\\": Array [],
+-   \\"selectedHistoryId\\": \\"\\",
++   \\"selectedHistoryId\\": \\"xxxxx\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/FEATURE-SETTING/UI/DETAIL/SET_TEMP_OPS_RECORD_AGGREGATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"OpsRecordAggregate\\": Array [],
+-   \\"TempOpsRecordAggregate\\": Array [],
++   \\"TempOpsRecordAggregate\\": Array [
++     Object {
++       \\"aggregateType\\": \\"xxx\\",
++       \\"fieldName\\": \\"xxx\\",
++       \\"label\\": \\"xxx\\",
++     },
++   ],
+    \\"selectedHistoryId\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/FEATURE-SETTING/UI/DETAIL/UPDATE_OPS_RECORD_AGGREGATE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"OpsRecordAggregate\\": Array [],
+-   \\"TempOpsRecordAggregate\\": Array [],
++   \\"TempOpsRecordAggregate\\": Array [
++     Object {
++       \\"aggregateType\\": null,
++       \\"fieldName\\": null,
++       \\"label\\": null,
++       \\"label,fieldName,aggregateType\\": \\"xxx\\",
++     },
++   ],
+    \\"selectedHistoryId\\": \\"\\",
+  }"
+`;

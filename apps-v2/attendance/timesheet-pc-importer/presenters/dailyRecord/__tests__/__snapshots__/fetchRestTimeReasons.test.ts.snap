@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`complete() should do. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "key": "restTimeReasons",
+      "targetDate": "2022-02-22",
+      "value": Array [
+        "restReason1",
+        "restReason2",
+        "restReason3",
+      ],
+    },
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/SET_RECORD_VALUE_BY_RECORD_DATE",
+  },
+]
+`;
+
+exports[`error() should do. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "errorCode": undefined,
+      "isContinuable": true,
+      "isFunctionCantUseError": false,
+      "message": "APIエラー - Error Test",
+      "problem": "Error Test",
+      "stackTrace": "",
+      "type": "APIエラー",
+    },
+    "type": "CATCH_API_ERROR",
+  },
+]
+`;
+
+exports[`finally() should do. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "key": "loadingRestTimeReasons",
+      "targetDate": "2023-01-01",
+      "value": false,
+    },
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/SET_RECORD_VALUE_BY_RECORD_DATE",
+  },
+]
+`;
+
+exports[`start() should do. 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "key": "loadingRestTimeReasons",
+      "targetDate": "2023-01-01",
+      "value": true,
+    },
+    "type": "TIMESHEET-PC-IMPORTER/DAILY_RECORDS/SET_RECORD_VALUE_BY_RECORD_DATE",
+  },
+]
+`;

@@ -1,0 +1,13 @@
+.ts-expenses__form-records__bulk-edit__grid-area-cell-detail-modal {
+  position: absolute;
+  top: 106%;
+  left: 0;
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  padding: 16px;
+  box-shadow: 0 22px 40px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  flex-direction: column;
+  text-align: left;
+}

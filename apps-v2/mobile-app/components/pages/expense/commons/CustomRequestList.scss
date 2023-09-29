@@ -1,0 +1,27 @@
+@import 'mobile-global-imports.scss';
+
+.mobile-app-pages-expense-custom-request-list {
+  &__content {
+    padding-top: 48px;
+  }
+
+  &__count {
+    background-color: $color-gray-100;
+    padding-left: $small-size;
+  }
+
+  &__empty {
+    margin-top: 150px;
+  }
+
+  &__hasMore {
+    font-size: 13px;
+    color: $color-red-800;
+    text-align: center;
+    padding: $small-size;
+  }
+
+  .mobile-app-molecules-commons-navigation__title {
+    flex: 2;
+  }
+}

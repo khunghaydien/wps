@@ -1,0 +1,1666 @@
+@charset "UTF-8";
+/*----------------------------------------------------------------------------*/
+/* 勤務表  */
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------*/
+.graph_over { overflow-x:hidden; }
+.overx_scr  { overflow-x:scroll; }
+/*----------------------------------------------------*/
+table.graphTable {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    empty-cells         : show;
+    border              : none;
+}
+table.graphTable td.meter {
+    padding             : 0px;
+/*    background-color    : #4F8AB6;
+    color               : white; */
+    text-align          : center;
+    vertical-align      : middle;
+    font-weight         : normal;
+    font-size           : 12px;
+    width               : 20px;
+    height              : 42px;
+    white-space         : nowrap;
+}
+table.graphTable td.meter div {
+    width               : 20px;
+    padding             : 0px;
+    margin              : 0px;
+}
+
+table.graphTable td.dayLine {
+    background-image: url(../image/bg-graph480.png);
+    background-repeat: repeat;
+    background-position: left top;
+}
+/*----------------------------------------------------*/
+.dayLine {
+    vertical-align: middle;
+    height: 23px;
+}
+.dl_even{
+    background-color: #FFFFFF;
+}
+.dl_odd {
+    background-color: #FFFFFF;
+}
+/*----------------------------------------------------*/
+.marker_div {}
+.marker_work { position: absolute; background-color: #4B9EE4; }
+.marker_lzan { position: absolute; background-color: #B0B000; }
+.marker_lout { position: absolute; background-color: #E28E1C; }
+.marker_holy { position: absolute; background-color: #DE9EDD; }
+.marker_away { position: absolute; background-color: #83BDED; }
+.marker_lext { position: absolute; background-color: #C9AFFD; }
+.marker_night{ position: absolute; background-color: #FF0101; }
+.marker_rest { position: absolute; background-color: #1A69AB; }
+.marker_line { position: absolute; background-color: #FFFFFF; }
+.abs_div     { position: absolute; }
+.rel_div     { position: relative; }
+
+.shadow_fix  { position: absolute; background-color: #CCCCCC; } /* 所定時間帯（コア時間帯） */
+.shadow_rest { position: absolute; background-color: #BBBBBB; } /* 休憩時間 */
+/*----------------------------------------------------*/
+tr.rowcl1 { background-color: #DEEFFF; }
+tr.rowcl2 { background-color: #EFCFBD; }
+tr.rowcl3 { background-color: #DEEFFF; }
+tr.rowcl4 { background-color: #FFCFA5; }
+/*----------------------------------------------------*/
+.tip_sfix  { width:8px;height:8px;background-color:#DDDDDD; }
+.tip_rfix  { width:8px;height:8px;background-color:#BBBBBB; }
+.tip_fixt  { width:8px;height:8px;background-color:#4B9EE4; }
+.tip_lzan  { width:8px;height:8px;background-color:#B0B000; }
+.tip_lout  { width:8px;height:8px;background-color:#E28E1C; }
+.tip_lext  { width:8px;height:8px;background-color:#C9AFFD; }
+.tip_holy  { width:8px;height:8px;background-color:#DE9EDD; }
+.tip_rest  { width:8px;height:8px;background-color:#1A69AB; }
+.tip_away  { width:8px;height:8px;background-color:#83BDED; }
+.tip_night { width:8px;height:8px;background-color:#FF0101; }
+/*----------------------------------------------------------------------------*/
+/* 勤怠情報入力ダイアログ */
+/*----------------------------------------------------------------------------*/
+table.tt_input_table {
+    width               : 370px;
+    height              : 120px;
+    background-color    : #EFEFEF;
+}
+table.tt_input_table tr td {
+    vertical-align      : middle;
+    font-size           : 12px;
+    padding             : 0px 0px 0px 4px;
+}
+table.tt_input_table select {
+    font-size           : 12px;
+}
+table.tt_input_table .tt_gyokan {
+    height              : 5px;
+}
+table.tt_input_table .tt_out_end {
+}
+table.tt_input_table .tt_rest_end {
+}
+table.tt_input_table .tt_span {
+    text-align          : center;
+    width               : 18px;
+}
+table.tt_input_table .tt_col {
+    width               : 116px;
+/*    height              : 16px; */
+    color               : white;
+    font-weight         : bold;
+    text-align          : center;
+    vertical-align      : middle;
+/*    padding             : 2px; */
+    padding             : 3px 2px;
+/*    white-space         : nowrap; */
+}
+table.tt_input_table input[type="text"] {
+    border           : 1px solid #a5a5a5;
+    padding          : 1px;
+}
+table.tt_input_table .start-end   { background-color: #4B9EE4; }
+table.tt_input_table .tt_rest     { background-color: #1A69AB; }
+table.tt_input_table .tt_outdoor  { background-color: #83BDED; }
+table.tt_input_table .tt_legalzan { background-color: #B0B000; }
+table.tt_input_table .tt_legalout { background-color: #E28E1C; }
+table.tt_input_table .tt_night    { background-color: #FF0101; }
+table.tt_input_table .tt_workLocation { background-color: #4B9EE4; }
+/*----------------------------------------------------*/
+/* 休憩・公用外出入力ダイアログ */
+/*----------------------------------------------------*/
+.editTable {
+    border-collapse     : collapse;
+    margin              : 0px;
+    padding             : 0px;
+    -moz-user-select    : none;
+    -khtml-user-select  : none;
+    user-select         : none;
+}
+.editTable th {
+    margin              : 0px;
+    padding             : 0px;
+    width               : 40px;
+    height              : 16px;
+    color               : #FFFFFF;
+    font-weight         : normal;
+    font-size           : 12px;
+    background-color    : #74A3C5;
+    text-align          : center;
+    vertical-align      : middle;
+}
+.movearea {
+    border-collapse     : collapse;
+}
+.movearea tr td {
+    padding             : 2px;
+    vertical-align      : middle;
+    white-space         : nowrap;
+    color               : white;
+}
+.marker_focus {
+    border              : 1px solid yellow
+}
+#editTimeView {
+    border              : none;
+    margin              : 0px;
+    padding             : 0px;
+    width               : 600px;
+    height              : 143px;
+}
+/*----------------------------------------------------------------------------*/
+/* 申請ダイアログ */
+/*----------------------------------------------------------------------------*/
+table.empApplyTable tr td {
+    text-align          : left;
+    padding             : 1px 6px;
+}
+table.empApplyTable .empApplyCL {
+    font-weight         : bold;
+    padding-right       : 10px;
+    width               : 90px;
+}
+table.dialogApplyTable {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    font-size           : 12px;
+}
+.holiday-descript {
+    font-size           : 12px;
+    padding             : 8px;
+    margin              : 4px;
+    border              : none;
+}
+#dialogApplyTable > tbody > tr:first-child > td {
+	padding-bottom: 4px;
+}
+#dialogApplyTable > tbody > tr:first-child > td > table {
+	border-collapse: collapse;
+	width: 100%;
+}
+#dialogApplyTable > tbody > tr:first-child > td > table > tbody > tr > td {
+	padding-left: 10px;
+}
+#dialogApplyTable > tbody > tr:first-child > td > table > tbody > tr > td:first-child {
+	white-space: nowrap;
+}
+#dialogApplyInputRow > td {
+	text-align:center;
+	padding:0px;
+}
+#dialogApplyCloseRow > td {
+	text-align:center;
+	padding-top:10px;
+}
+/*----------------------------------------------------------------------------*/
+/* 勤務表・タイムレポート・経費精算・工数実績共通 */
+/*----------------------------------------------------------------------------*/
+/* 大枠 */
+table.atk_large_frame {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.atk_large_frame tr td {
+    padding             : 0px;
+}
+/* 最上部エリア */
+table.atk_large_frame table.top {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.atk_large_frame table.top  td {
+    padding             : 0px;
+    vertical-align      : bottom;
+}
+table.atk_large_frame table.top table {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+/* 最上部右側 */
+table.atk_large_frame table.top table.name_area {
+    width               : 100%;
+    margin-bottom       : 2px;
+}
+table.atk_large_frame table.top table.name_area td.column {
+    padding             : 0px 2px 4px 2px;
+    white-space         : nowrap;
+    vertical-align      : bottom;
+    color               : #6B99C5;
+    text-align          : left !important;
+}
+table.atk_large_frame table.top table.name_area td.value {
+    padding             : 0px 2px 4px 2px;
+    text-align          : center !important;
+}
+/*----------------------------------------------------------------------------*/
+/* 勤務表・交通費精算・月次工数実績共通 */
+/*----------------------------------------------------------------------------*/
+/* 表上部・ボタン配置エリア */
+table.atk_large_frame table.month_frame {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.atk_large_frame table.month_frame td {
+    padding             : 0px;
+}
+table.atk_large_frame table.month_frame table {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.atk_large_frame table.month_frame table.head_area td {
+    vertical-align      : middle;
+    padding             : 0px 2px;
+}
+table.atk_large_frame table.month_frame table.head_area td table.right {
+    margin-left         : auto;
+    margin-right        : 0px;
+}
+/*----------------------------------------------------------------------------*/
+/* 勤務表 */
+/*----------------------------------------------------------------------------*/
+/* 表下部・集計・ボタン配置エリア */
+#bottomSummaryTable {
+  overflow: hidden;
+  *zoom: 1;
+}
+#bottomSummaryTable > div {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+table.atk_large_frame table.month_frame table.foot_area td {
+    vertical-align      : middle;
+    padding             : 0px 2px;
+}
+table.atk_large_frame table.month_frame table.foot_area table {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.atk_large_frame table.month_frame table.foot_area table.param {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+    background-color    : #D5E4E9;
+    width               : 100%;
+}
+table.atk_large_frame table.month_frame table.foot_area table.param td {
+/*    white-space         : nowrap; */
+    padding             : 0px;
+}
+table.atk_large_frame table.month_frame table.foot_area table.param td.left {
+    border-right        : 1px dashed #FFFFFF;
+    text-align          : left;
+    color               : #8091B7;
+    min-width           : 160px;
+}
+table.atk_large_frame table.month_frame table.foot_area table.param td.right {
+    text-align          : right;
+    color               : #000000;
+    min-width           : 90px;
+}
+table.atk_large_frame table.month_frame table.foot_area table.param td div {
+    margin-left         : 10px;
+    margin-right        : 10px;
+}
+table.atk_large_frame table.month_frame table.foot_area table.param tr td div {
+    margin-top          : 1px;
+    margin-bottom       : 1px;
+}
+table.atk_large_frame table.month_frame table.foot_area table.param tr:first-child td div {
+    margin-top          : 4px;
+    margin-bottom       : 1px;
+}
+table.atk_large_frame table.month_frame table.foot_area table.param tr:last-child td div {
+    margin-top          : 1px;
+    margin-bottom       : 4px;
+}
+td.tb_detail_area {
+    padding: 0px 10px !important;
+    background-color: #deedf3;
+}
+table.tb_holy_item_table {
+    width: 100%;
+}
+table.tb_holy_item_table td.holy_item_col1 {
+    color: #8091B7;
+    text-align: left;
+    white-space: nowrap;
+    padding-right: 2px !important;
+    vertical-align: top !important;
+    width: 10px;
+}
+table.tb_holy_item_table td.holy_item_col2 {
+    color: #8091B7 !important;
+    text-align: left;
+}
+table.tb_holy_item_table td.holy_item_col3 {
+    text-align: right;
+    min-width: 36px;
+}
+table.tb_holy_item_table td.holy_item_col4 {
+    width          : 18px;
+    text-align     : right;
+    padding-right  : 3px;
+}
+
+/*----------------------------------------------------------------------------*/
+/* タイムレポート用 */
+/*----------------------------------------------------------------------------*/
+table.contents_area {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.contents_area tr td {
+    padding             : 0px;
+    vertical-align      : top;
+}
+table.time_repo_date {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+/*    background-color    : #447281; */
+    background-color    : #FFFFFF;
+}
+table.time_repo_date tr td {
+    padding             : 0px;
+    vertical-align      : middle;
+}
+/*----------------------------------------------------------------------------*/
+td.caption {
+    font-size           : 13px;
+    font-weight         : bold;
+}
+/*----------------------------------------------------------------------------*/
+/* スケジュール部 */
+div.scroll_sche {
+    overflow-y          : scroll;
+    margin              : 0px;
+    position            : relative;
+    border-left         : 1px solid #728EA5;
+    border-right        : 1px solid #728EA5;
+    border-bottom       : 1px solid #728EA5;
+    -webkit-overflow-scrolling: auto;
+}
+table.time_repo_sche {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    border-bottom       : 1px solid #728EA5;
+    margin              : 0px;
+    padding             : 0px;
+    -moz-user-select    : none;
+    -khtml-user-select  : none;
+    user-select         : none;
+}
+table.time_repo_sche  td {
+    padding             : 0px;
+    vertical-align      : middle;
+    height              : 35px;
+}
+table.time_repo_sche  td.time {
+    width               : 43px;
+    border-bottom       : 1px solid #eff0e0;
+    color               : #2E5E7E;
+    background-color    : #CDDBE8;
+    text-align          : center;
+    font-size           : 12px;
+    font-weight         : bold;
+}
+table.time_repo_sche  td.event {
+    width               : auto;
+    color               : #444444;
+    background-color    : white;
+    border-bottom       : 1px solid #DEE7E7;
+    border-right        : 1px solid #DEE7E7;
+    text-align          : left;
+    vertical-align      : top;
+}
+table.time_repo_sche  div.event {
+    overflow            : hidden;
+    width               : 273px;
+    height              : 33px;
+    font-size           : 10px;
+    padding             : 0px;
+    margin              : 1px;
+}
+td.sche_title {
+    vertical-align      : middle !important;
+    font-size           : 12px;
+}
+.txslog_marker {
+    position            : absolute;
+    background-color    : #C3FFE5;
+    cursor              : pointer;
+    word-break          : break-all;
+    font-size           : 10px;
+    overflow            : hidden;
+    zoom                : 1;
+}
+.txslog_focus {
+    border              : 1px solid #00CE8D;
+}
+.event_marker {
+    position            : absolute;
+    background-color    : #f2f2f2;
+    border              : 1px solid #bbb;
+    font-size           : 11px !important;
+    font-family         : Arial,Meiryo,sans-serif !important;
+    overflow            : hidden;
+    zoom                : 1;
+}
+.event_marker > div {
+    word-break          : break-all;
+    margin              : 1px 2px;
+    font-size           : 11px !important;
+    font-family         : Arial,Meiryo,sans-serif !important;
+    overflow            : hidden;
+    position            : absolute;
+}
+.event_marker > div > a {
+    word-break          : break-all;
+    font-size           : 11px !important;
+    font-family         : Arial,Meiryo,sans-serif !important;
+    text-decoration     : none;
+}
+.event_marker span {
+    font-size           : 10px !important;
+    font-family         : Arial,Meiryo,sans-serif !important;
+    font-weight         : normal;
+}
+/*----------------------------------------------------------------------------*/
+/* タイムレポート経費精算部、経費精算 */
+/*----------------------------------------------------------------------------*/
+/* 経費精算・表ヘッダ部 */
+table.emp_exp_head {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.emp_exp_head tr td {
+    text-align       : center;
+    vertical-align   : middle;
+    background-color : #74A3C5;
+    color            : #ffffff;
+    padding          : 2px 0px !important;
+    font-size        : 12px !important;
+    font-weight      : bold;
+}
+table.emp_exp_head tr td div {
+    margin           : 2px;
+}
+table.emp_exp_head td.sharp {
+    text-align       : center;
+}
+/* 経費精算・表データ部 */
+table.emp_exp_data {
+    border-collapse  : collapse;
+    border-spacing   : 0px;
+    margin           : 0px;
+    border           : 1px solid #74A3C5;
+}
+table.emp_exp_data tr td {
+/*    height           : 24px; */
+    padding          : 0px;
+    vertical-align   : middle;
+    color            : #222222;
+    font-size        : 12px !important;
+}
+table.emp_exp_data tr.even {
+    background-color : #FAFAFA;
+}
+table.emp_exp_data tr.odd {
+    background-color : #EDEDED;
+}
+table.emp_exp_data td.small_border {
+/*    border-top       : 1px solid #C6C6C6; */
+}
+table.emp_exp_data td.day_border {
+/*    border-top       : 1px solid #A8A8A8; */
+}
+table.emp_exp_data div.date_label {
+    margin-left      : auto;
+    margin-right     : auto;
+}
+/*
+table.emp_exp_data td.date    { text-align : center; border-right : 1px solid #C6C6C6; }
+table.emp_exp_data td.yobi    { text-align : center; border-right : 1px solid #C6C6C6; }
+table.emp_exp_data td.sharp   { text-align : center; border-right : 1px solid #C6C6C6; }
+table.emp_exp_data td.type    { text-align : left;   border-right : 1px solid #C6C6C6; }
+table.emp_exp_data td.route   { text-align : left;   border-right : 1px solid #C6C6C6; }
+table.emp_exp_data td.cost    { text-align : right;  border-right : 1px solid #C6C6C6; }
+table.emp_exp_data td.detail  { text-align : left; }
+table.emp_exp_data td.sum     { text-align : right;  border-right : 1px solid #C6C6C6; }
+table.emp_exp_data td.job     { text-align : left;   background-color : #CBDCE8;}
+*/
+table.emp_exp_data td.date    { text-align : center; }
+table.emp_exp_data td.yobi    { text-align : center; }
+table.emp_exp_data td.sharp   { text-align : center; }
+table.emp_exp_data td.type    { text-align : left;   }
+table.emp_exp_data td.route   { text-align : left;   }
+table.emp_exp_data td.cost    { text-align : right; font-family: arial,"lucida grande",tahoma,verdana,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif; }
+table.emp_exp_data td.detail  { text-align : left;   }
+table.emp_exp_data td.sum     { text-align : right;  }
+table.emp_exp_data td.job     { text-align : left;   background-color : #CBDCE8; color: #222222; }
+
+table.emp_exp_data div.type   { margin     : 4px;  }
+
+/* 経費精算・表フッタ部 */
+table.emp_exp_foot {
+    border-collapse  : collapse;
+    border-spacing   : 0px;
+    margin           : 0px;
+    border           : 1px solid #555;
+}
+table.emp_exp_foot tr td {
+    height           : 22px;
+    padding          : 2px 0px;
+    vertical-align   : middle;
+    color            : #343434;
+    font-size        : 12px !important;
+}
+table.emp_exp_foot td.left    { text-align : left;  }
+table.emp_exp_foot td.route   { text-align : right; }
+table.emp_exp_foot td.cost    {
+    text-align      : right;
+    color           : #222222;
+    font-family     : arial,"lucida grande",tahoma,verdana,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+}
+table.emp_exp_foot td.detail  { text-align : left;  }
+/* 経路表示エリア */
+table.route_area {
+    width           : 100%;
+    border-collapse : collapse;
+    border-spacing  : 0px;
+    margin          : 1px;
+}
+table.route_area td {
+    padding         : 0px;
+}
+table.route_area td.ekitan {
+    width           : 26px;
+    text-align      : right;
+}
+/*----------------------------------------------------------------------------*/
+/* 経費精算 */
+/*----------------------------------------------------------------------------*/
+/* コメント表示部 */
+table.exp_comment {
+    border-collapse  :collapse;
+    width            : 100%;
+}
+table.exp_comment td.title {
+    width            : 50px;
+    color            : #ffffff;
+    background-color : #74A3C5;
+    border           : 1px solid #74A3C5;
+    text-align       : left;
+    vertical-align   : middle;
+    padding          : 1px 8px;
+    font-size        : 12px !important;
+    font-weight      : bold;
+}
+table.exp_comment td.comment {
+    height           : 42px;
+    padding          : 2px 4px !important;
+    color            : #343434;
+    font-size        : 12px !important;
+    text-align       : left;
+    vertical-align   : top;
+    border           : 1px solid #555 !important;
+}
+/* 印刷用：申請番号・ステータス・部署・氏名表示欄 */
+table.attrib {
+    border-collapse  : collapse;
+    empty-cells      : show;
+    font-size        : 12px !important;
+    margin           : 0px;
+}
+table.attrib tr td {
+    border           : 1px solid #555555;
+}
+table.attrib tr td div {
+    margin           : 2px 6px;
+}
+/* 印刷用：捺印欄 */
+table.seals {
+    border-collapse  : collapse;
+    width            : 240px;
+    empty-cells      : show;
+    padding          : 0px;
+    margin           : 0px;
+}
+table.seals tr td {
+    width            : 60px;
+    height           : 60px;
+    border           : 1px solid #555555;
+}
+/* 印刷用：領収書貼付欄 */
+table.exp_receipt {
+    border-collapse  :collapse;
+    width            : 100%;
+    border           : 2px dotted #CCCCCC;
+}
+table.exp_receipt td.comment {
+    text-align       : center;
+    vertical-align   : middle;
+    empty-cells      : show;
+    color            : #CCCCCC;
+    padding          : 10px 0px;
+    font-size        : 15px !important;
+    font-weight      : bold;
+}
+/*----------------------------------------------------------------------------*/
+/* 工数実績 */
+/*----------------------------------------------------------------------------*/
+/* 工数実績・表ヘッダ部 */
+table.month_frame td table.emp_work_head {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.month_frame td table.emp_work_head tr td {
+    text-align       : center;
+    vertical-align   : middle;
+/*    background-color : #74A3C5;
+    color            : #ffffff; */
+    padding          : 2px 0px !important;
+    font-size        : 12px !important;
+    font-weight      : bold;
+}
+table.month_frame td table.emp_work_head tr td div {
+    margin           : 2px;
+    color            : #2E5E7E;
+}
+table.month_frame td table.emp_work_head td.date     { width :  76px; }
+table.month_frame td table.emp_work_head td.edit     { width :  38px; }
+table.month_frame td table.emp_work_head td.sharp    { width :  21px; }
+/*table.month_frame td table.emp_work_head td.name     { width : 289px; } */
+/*
+table.month_frame td table.emp_work_head td.name     { width : auto; }
+table.month_frame td table.emp_work_head td.volume   { width : 101px; }
+table.month_frame td table.emp_work_head td.time     { width :  60px; }
+table.month_frame td table.emp_work_head td.worknote { width : 193px; }
+*/
+table.month_frame td table.emp_work_head td.name     { width : 55%; }
+table.month_frame td table.emp_work_head td.volume   { width : 15%; }
+table.month_frame td table.emp_work_head td.time     { width : 15%; }
+table.month_frame td table.emp_work_head td.worknote { width : 15%; }
+
+table.month_frame td table.emp_work_head td.content  { width : 655px; }
+/* 工数実績・表データ部 */
+table.month_frame td table.emp_work_data {
+    border-collapse  : collapse;
+    border-spacing   : 0px;
+    margin           : 0px;
+    border-left      : 1px solid #728EA5;
+    border-right     : 1px solid #728EA5;
+    border-top       : 1px solid #ACC2E9;
+    border-bottom    : 1px solid #ACC2E9;
+}
+table.month_frame td table.emp_work_data tr td {
+    padding          : 0px;
+    vertical-align   : middle;
+    color            : #222222;
+}
+table.month_frame td table.emp_work_data tr.even {
+    background-color : #FEFEFE;
+}
+table.month_frame td table.emp_work_data tr.odd {
+    background-color : #F4F7F9;
+}
+table.month_frame td table.emp_work_data tr.day_border {
+/*    border-top       : 1px solid #efefe0; */
+}
+table.month_frame td table.emp_work_data td.small_border {
+/*    border-top       : 1px solid #C6C6C6; */
+}
+table.month_frame td table.emp_work_data div.date_label {
+    margin-left      : auto;
+    margin-right     : auto;
+}
+/*
+table.month_frame td table.emp_work_data td.date     { text-align : center; border-right : 1px solid #C6C6C6; }
+table.month_frame td table.emp_work_data td.yobi     { text-align : center; border-right : 1px solid #C6C6C6; }
+table.month_frame td table.emp_work_data td.name     { text-align : left;   border-right : 1px solid #C6C6C6; word-break: break-all; }
+table.month_frame td table.emp_work_data td.volume   { text-align : left;   border-right : 1px solid #C6C6C6; }
+table.month_frame td table.emp_work_data td.time     { text-align : right;  border-right : 1px solid #C6C6C6; }
+table.month_frame td table.emp_work_data td.worknote { text-align : left; }
+*/
+table.month_frame td table.emp_work_data td.date         { vertical-align: middle; text-align : right; font-size: 12px; }
+table.month_frame td table.emp_work_data td.yobi         { vertical-align: middle; text-align : center; font-size: 12px; }
+table.month_frame td table.emp_work_data td.sharp        { vertical-align: top;    text-align : right;  }
+table.month_frame td table.emp_work_data td.name         { vertical-align: top;    text-align : left;   word-break: break-all; }
+table.month_frame td table.emp_work_data td.volume       { vertical-align: top;    text-align : left;   }
+table.month_frame td table.emp_work_data td.time         { vertical-align: top;    text-align : center; }
+table.month_frame td table.emp_work_data td.progress     { vertical-align: top;    text-align : center; }
+table.month_frame td table.emp_work_data td.tasknote     { vertical-align: top;    text-align : left;   }
+table.month_frame td table.emp_work_data td.worknote     { vertical-align: top;    text-align : left;   }
+
+table.month_frame td table.emp_work_data td div.sharp      { margin: 2px 4px 0px 0px;  font-size: 12px; line-height: 120%; }
+table.month_frame td table.emp_work_data td div.name       { margin: 2px 2px 0px 2px;  font-size: 12px; line-height: 120%; word-break: break-all; }
+table.month_frame td table.emp_work_data td div.div_volume { margin: 2px 0px 0px 0px; }
+table.month_frame td table.emp_work_data td div.time       { margin: 2px 2px 0px 2px;  font-size: 12px; color: #222; }
+table.month_frame td table.emp_work_data td div.percent    { margin: 2px 2px 0px 2px;  font-size: 12px; color: #222; }
+table.month_frame td table.emp_work_data td div.progress   { margin: 2px 2px 0px 2px;  font-size: 12px; line-height: 120%; word-break: break-all; }
+table.month_frame td table.emp_work_data td div.tasknote   { margin: 2px 2px 0px 2px;  font-size: 12px; line-height: 120%; word-break: break-word; word-wrap: break-word; overflow-wrap: break-word; }
+table.month_frame td table.emp_work_data td div.worknote   { margin: 2px 2px 4px 10px; font-size: 12px; line-height: 120%; word-break: break-word; word-wrap: break-word; overflow-wrap: break-word; }
+
+/* 工数実績・表フッタ部 */
+table.month_frame td table.emp_work_foot {
+    border-collapse  : collapse;
+    border-spacing   : 0px;
+    margin           : 0px;
+    border           : 1px solid #74A3C5;
+}
+table.month_frame td table.emp_work_foot tr td {
+    height           : 22px;
+    padding          : 2px 0px;
+    vertical-align   : middle;
+/*    color            : #343434; */
+    color            : #222222;
+    font-size        : 12px !important;
+}
+table.month_frame td table.emp_work_foot td.name    { width : 446px; text-align : left;  }
+table.month_frame td table.emp_work_foot td.time    { width :  80px; text-align : right; }
+/* 工数実績・集計表ヘッダ部 */
+table.emp_work_sum_head {
+    width               : 700px;
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.emp_work_sum_head tr td {
+    text-align          : center;
+    vertical-align      : middle;
+/*
+    background-color    : #74A3C5;
+    color               : #ffffff;
+*/
+    padding             : 2px 0px !important;
+    font-size           : 12px !important;
+    font-weight         : bold;
+}
+table.emp_work_sum_head tr td div {
+    margin              : 2px;
+    color               : #2E5E7E;
+}
+table.emp_work_sum_head td.name     { width : 400px; }
+table.emp_work_sum_head td.volume   { width : 220px; }
+table.emp_work_sum_head td.time     { width :  80px; }
+/* 工数実績・集計表データ部 */
+table.emp_work_sum_data {
+    width               : 700px;
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : 1px solid #728EA5;
+}
+table.emp_work_sum_data tr td {
+    vertical-align      : middle;
+/*    color               : #343434; */
+    color               : #222222;
+}
+table.emp_work_sum_data tr.even {
+    background-color    : #FEFEFE;
+}
+table.emp_work_sum_data tr.odd {
+    background-color    : #F4F7F9;
+}
+table.emp_work_sum_data td.name     { font-size: 12px !important; width : 400px; text-align: left;  }
+table.emp_work_sum_data td.volume   { font-size: 12px !important; width : 219px; text-align: left;  }
+table.emp_work_sum_data td.time     { font-size: 12px !important; width :  80px; text-align: right; }
+/* 工数実績・集計表フッタ部 */
+table.emp_work_sum_foot {
+    width               : 700px;
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : 1px solid #728EA5;
+}
+table.emp_work_sum_foot tr td {
+    vertical-align      : middle;
+    color               : #222222;
+    background-color    : #FFFFFF;
+}
+table.emp_work_sum_foot td.name     { font-size: 12px !important; width : 619px; text-align: left;  }
+table.emp_work_sum_foot td.time     { font-size: 12px !important; width :  80px; text-align: right; }
+/* 印刷用：ステータス、部門、社員名表示欄 */
+table.head_table{
+    width               : 100%;
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+}
+table.head_table td.left {
+    width               : 180px;
+    padding             : 0px;
+    border              : 1px solid #222222;
+}
+table.head_table td.right {
+    width               : 460px;
+    padding             : 0px;
+    border              : 1px solid #222222;
+}
+table.head_table td table {
+    width               : 100%;
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+}
+table.head_table td table.left td {
+    white-space         : nowrap;
+    text-align          : left;
+    vertical-align      : middle;
+}
+table.head_table td table.right td {
+    padding             : 0px;
+    white-space         : nowrap;
+    text-align          : left;
+    vertical-align      : middle;
+}
+table.head_table td table.right td.top {
+    width               : 55%;
+    padding             : 1px;
+    white-space         : nowrap;
+    text-align          : center;
+    border-bottom       : 1px solid #222222;
+    font-size           : 0.9em !important;
+}
+table.head_table td table.right td.top_dept {
+    width               : 40%;
+    padding             : 1px;
+    white-space         : nowrap;
+    text-align          : center;
+    border-bottom       : 1px solid #222222;
+    font-size           : 0.9em !important;
+}
+table.head_table td table.right td.top_code {
+    width               : 25%;
+    padding             : 1px;
+    white-space         : nowrap;
+    text-align          : center;
+    border-bottom       : 1px solid #222222;
+    font-size           : 0.9em !important;
+}
+table.head_table td table.right td.top_name {
+    width               : 35%;
+    padding             : 1px;
+    white-space         : nowrap;
+    text-align          : center;
+    border-bottom       : 1px solid #222222;
+    font-size           : 0.9em !important;
+}
+table.head_table td table.right td.bottom {
+    text-align          : left;
+    vertical-align      : middle;
+}
+/*----------------------------------------------------------------------------*/
+/* タイムレポート内の工数実績 */
+/*----------------------------------------------------------------------------*/
+/* 工数実績・表ヘッダ部 */
+table.emp_work_area {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.emp_work_area td {
+    padding             : 0px;
+}
+table.emp_work_area td table.emp_work_head {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.emp_work_area td table.emp_work_head tr td {
+    text-align       : center;
+    vertical-align   : middle;
+/*    background-color : #74A3C5;
+    color            : #ffffff; */
+    padding          : 0px;
+    font-size        : 12px !important;
+    font-weight      : bold;
+}
+table.emp_work_area td table.emp_work_head td.sharp    { width:  22px; }
+table.emp_work_area td table.emp_work_head td.name     { width: 222px; }
+table.emp_work_area td table.emp_work_head td.namew    { width: 318px; }
+table.emp_work_area td table.emp_work_head td.time     { width:  42px; }
+table.emp_work_area td table.emp_work_head td.progress { width:  96px; }
+table.emp_work_area td table.emp_work_head td.spcr     { width:  20px; }
+table.emp_work_area td table.emp_work_head td.spcrw    { width:  20px; }
+
+/* 工数実績・表データ部 */
+table.emp_work_area td div.emp_work_div {
+    overflow-y       : scroll;
+    border-left      : 1px solid #728EA5;
+    border-right     : 1px solid #728EA5;
+    border-top       : 1px solid #ACC2E9;
+    border-bottom    : 1px solid #ACC2E9;
+    padding          : 0px;
+    margin           : 0px;
+    -webkit-overflow-scrolling: auto;
+}
+table.emp_work_area td table.emp_work_data {
+    border-collapse  : collapse;
+    border-spacing   : 0px;
+    margin           : 0px;
+}
+table.emp_work_area td table.emp_work_data tr td {
+    padding          : 0px;
+    color            : #343434;
+}
+table.emp_work_area td table.emp_work_data tr.even {
+    background-color : #FEFEFE;
+}
+table.emp_work_area td table.emp_work_data tr.odd {
+    background-color : #F4F7F9;
+}
+table.emp_work_area td table.emp_work_data td.sharp    { font-size: 12px !important; vertical-align: middle; text-align: center; width:  22px; }
+table.emp_work_area td table.emp_work_data td.name     { font-size: 12px !important; vertical-align: top;    text-align: left;   width: 210px; word-break: break-all; }
+table.emp_work_area td table.emp_work_data td.namew    { font-size: 12px !important; vertical-align: top;    text-align: left;   width: 306px; word-break: break-all; }
+table.emp_work_area td table.emp_work_data td.time     { font-size: 12px !important; vertical-align: top;    text-align: center; width:  42px; }
+table.emp_work_area td table.emp_work_data td.progress { font-size: 12px !important; vertical-align: top;    text-align: center; width:  96px; }
+table.emp_work_area td table.emp_work_data td.spcr     { font-size: 12px !important; text-align: center; width:   3px; }
+table.emp_work_area td table.emp_work_data td.spcrw    { font-size: 12px !important; text-align: center; width:   3px; }
+table.emp_work_area td table.emp_work_data td.tasknote { font-size: 11px !important; vertical-align: top;    text-align: left; }
+
+table.emp_work_area td table.emp_work_data td div.sharp    { margin: 2px;     line-height: 120%; }
+table.emp_work_area td table.emp_work_data td div.name     { margin: 4px 2px; line-height: 120%; color: #222222; }
+table.emp_work_area td table.emp_work_data td div.time     { margin: 4px 2px; color: #222222; }
+table.emp_work_area td table.emp_work_data td div.percent  { margin: 4px 2px; color: #222222; }
+table.emp_work_area td table.emp_work_data td div.progress { margin: 4px 2px; line-height: 120%; color: #222222; }
+table.emp_work_area td table.emp_work_data td div.tasknote { margin: 2px 2px 4px 2px; line-height: 120%; }
+
+/* 工数実績・表フッタ部 */
+table.emp_work_area td table.emp_work_foot {
+    border-collapse  : collapse;
+    border-spacing   : 0px;
+    margin           : 0px;
+    border-left      : 1px solid #728EA5;
+    border-right     : 1px solid #728EA5;
+    border-bottom    : 1px solid #728EA5;
+}
+table.emp_work_area td table.emp_work_foot tr td {
+    padding          : 0px;
+    vertical-align   : middle;
+    color            : #343434;
+    font-size        : 12px !important;
+}
+
+/*----------------------------------------------------------------------------*/
+/* ワークバランス入力ダイアログ */
+/*----------------------------------------------------------------------------*/
+table.emp_work_frame {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.emp_work_frame tr td {
+    vertical-align      : middle;
+    text-align          : center;
+    padding             : 0px;
+    font-size           : 12px !important;
+}
+table.emp_work_frame table.horiz {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+/* ヘッダ部 */
+table.emp_work_frame table.head {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.emp_work_frame table.head th {
+    padding             : 0px;
+    text-align          : center;
+    vertical-align      : middle;
+    background-color    : #74A3C5;
+    color               : #ffffff;
+    padding             : 4px 0px 1px 0px;
+    font-size           : 12px !important;
+}
+/*
+table.emp_work_frame table.head th.num        { width : 27px; border-right : 1px dashed #FFFFFF; }
+table.emp_work_frame table.head th.name       { width :267px; border-right : 1px dashed #FFFFFF; }
+table.emp_work_frame table.head th.volume     { width :244px; border-right : 1px dashed #FFFFFF; }
+table.emp_work_frame table.head th.time       { width : 95px; border-right : 1px dashed #FFFFFF; }
+table.emp_work_frame table.head th.time_edge  { width :113px; }
+table.emp_work_frame table.head th.timex      { width :127px; border-right : 1px dashed #FFFFFF; }
+table.emp_work_frame table.head th.timex_edge { width :145px; }
+table.emp_work_frame table.head th.prog       { width :118px; }
+*/
+table.emp_work_frame table.head th.num        { width : 20px; }
+table.emp_work_frame table.head th.name       { width : auto; }
+table.emp_work_frame table.head th.volume     { width :246px; }
+table.emp_work_frame table.head th.time       { width : 95px; }
+table.emp_work_frame table.head th.time_edge  { width :113px; }
+table.emp_work_frame table.head th.timex      { width :121px; }
+table.emp_work_frame table.head th.timex_edge { width :154px; }
+table.emp_work_frame table.head th.prog       { width :134px; }
+
+table.emp_work_frame table.head table.meter {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.emp_work_frame table.head table.meter td {
+    padding             : 0px;
+    text-align          : center;
+    background-color    : #74A3C5;
+    color               : #ffffff;
+    white-space         : nowrap;
+}
+table.emp_work_frame table.head table.meter td.mid   { width : 19px; }
+table.emp_work_frame table.head table.meter td.edge  { width : 13px; }
+table.emp_work_frame table.head table.meter td.title { padding-bottom : 3px; }
+#empWorkTableBody > div.no-match {
+    margin: 2px;
+    color: #333;
+    text-align: left;
+}
+/* データ部 */
+table.emp_work_frame div.scroll_area {
+    overflow-y          : scroll;
+    border-top          : 1px solid #74A3C5;
+    border-left         : 1px solid #74A3C5;
+    border-right        : 1px solid #74A3C5;
+    margin              : 0px;
+    -webkit-overflow-scrolling: auto;
+}
+table.emp_work_frame table.data {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.emp_work_frame table.data tr.even {
+    background-color: #FEFEFE;
+/*    height: 36px; */
+}
+table.emp_work_frame table.data tr.odd {
+    background-color: #F4F7F9;
+/*    height: 36px; */
+}
+table.emp_work_frame table.data td {
+    padding             : 0px;
+}
+table.emp_work_frame div.volume-label {
+    color: #343434;
+}
+table.emp_work_frame div.time-label {
+    color: #343434;
+}
+table.emp_work_frame div.percent-label {
+    color: #343434;
+}
+/*
+table.emp_work_frame table.data td.num    { width : 27px; text-align : right; border-right : 1px dashed #ADA6AD; }
+table.emp_work_frame table.data td.name   { width :266px; text-align : left;  border-right : 1px dashed #ADA6AD; word-break: break-all; }
+table.emp_work_frame table.data td.volume { width :244px; text-align : center; }
+table.emp_work_frame table.data td.time   { width : 58px; text-align : center; border-left : 1px dashed #ADA6AD; }
+table.emp_work_frame table.data td.lock   { width : 37px; }
+table.emp_work_frame table.data td.note   { width : 32px; }
+table.emp_work_frame table.data td.prog   { width :100px; text-align : center; border-left : 1px dashed #ADA6AD; }  /* 除：スクロールバー幅(17px) */
+*/
+table.emp_work_frame table.data td.num      { width : 23px; text-align : right;  }
+table.emp_work_frame table.data td.sharp    { width : 23px; text-align : right;  }
+table.emp_work_frame table.data td.name     { width :266px; text-align : left;   word-break: break-all; }
+table.emp_work_frame table.data td.volume   { width :244px; text-align : center; }
+table.emp_work_frame table.data td.time     { width : 58px; text-align : center; }
+table.emp_work_frame table.data td.lock     { width : 37px; }
+table.emp_work_frame table.data td.note     { width : 32px; }
+table.emp_work_frame table.data td.prog     { width :100px; text-align : center; }  /* 除：スクロールバー幅(17px) */
+table.emp_work_frame table.data td.tasknote { text-align : left;   word-break: break-all; }
+
+table.emp_work_frame table.data td.name div     { margin: 4px;     line-height: 120%; }
+table.emp_work_frame table.data td.tasknote div { margin: 4px;     line-height: 120%; vertical-align: top; }
+table.emp_work_frame table.data td.prog div     { margin: 4px 2px; }
+
+/* フッタ部 */
+table.emp_work_frame table.foot {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border-top          : 1px solid #C1C1C1;
+    border-left         : 1px solid #74A3C5;
+    border-right        : 1px solid #74A3C5;
+    border-bottom       : 1px solid #74A3C5;
+}
+table.emp_work_frame table.foot td {
+    vertical-align      : middle;
+    padding             : 0px;
+    height              : 23px;
+    font-size           : 12px !important;
+}
+table.emp_work_frame table.foot td.blank1   { width :522px; }
+table.emp_work_frame table.foot td.time     { width : 54px; text-align : center; }
+table.emp_work_frame table.foot td.blankr1  { width :202px; }
+table.emp_work_frame table.foot td.blankr2  { width :155px; }
+table.emp_work_frame table.foot td.blankr3  { width :102px; }
+table.emp_work_frame table.foot td.blankr4  { width : 55px; }
+/*----------------------------------------------------------------------------*/
+/* JOB割当てダイアログ */
+/*----------------------------------------------------------------------------*/
+table.eja_frame {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+}
+table.eja_table {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+}
+table.eja_table tr td {
+    text-align          : left;
+    padding             : 0px;
+    font-size           : 12px !important;
+    vertical-align      : middle;
+}
+/*----------------------------------------------------------------------------*/
+/* 経費入力ダイアログ */
+/*----------------------------------------------------------------------------*/
+table.emp_exp_frame {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.emp_exp_frame td {
+    vertical-align      : middle;
+    text-align          : center;
+    padding             : 0px;
+}
+table.emp_exp_frame table.horiz {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+/* ジョブ部 */
+table.emp_exp_frame table.job {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 8px 0px;
+    border              : none;
+    background-color    : #CBDCE8;
+}
+table.emp_exp_frame table.job td {
+    text-align          : left;
+}
+/* ヘッダ部 */
+table.emp_exp_frame table.head {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.emp_exp_frame table.head th {
+    text-align          : center;
+    vertical-align      : middle;
+    background-color    : #74A3C5;
+    color               : white;
+    padding             : 4px 0px 1px 0px;
+    font-size           : 12px !important;
+    font-weight         : bold;
+}
+table.emp_exp_frame table.head th.chk    { width : 22px; }
+table.emp_exp_frame table.head th.num    { width : 22px; }
+table.emp_exp_frame table.head th.item   { width :126px; }
+table.emp_exp_frame table.head th.list   { width : 32px; }
+table.emp_exp_frame table.head th.info   { width :429px; }
+table.emp_exp_frame table.head th.cost   { width : 92px; }
+table.emp_exp_frame table.head th.note   { width :134px; }
+table.emp_exp_frame table.head th.note_s { width :186px; }
+table.emp_exp_frame div.scroll_area {
+    overflow-y          : scroll;
+    border-top          : 1px solid #74A3C5;
+    border-left         : 1px solid #74A3C5;
+    border-right        : 1px solid #74A3C5;
+    margin              : 0px;
+    -webkit-overflow-scrolling: auto;
+}
+/* データ部 */
+table.emp_exp_frame table.data {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.emp_exp_frame table.data tr.row {
+    height: 26px;
+}
+table.emp_exp_frame table.data tr.even {
+    background-color    : #FEFEFE;
+}
+table.emp_exp_frame table.data tr.odd {
+    background-color    : #F4F7F9;
+}
+table.emp_exp_frame table.data td {
+    vertical-align      : top;
+    font-size           : 12px !important;
+    padding             : 2px 0px 0px 0px;
+    margin              : 0px;
+}
+table.emp_exp_frame table.data td input {
+    margin              : 0px;
+}
+table.emp_exp_frame table.data td.chk      { width : 22px; text-align : center; padding:5px 0px 0px 0px; }
+table.emp_exp_frame table.data td.num      { width : 22px; text-align : center; padding:5px 0px 0px 0px; }
+table.emp_exp_frame table.data td.item     { width :126px; text-align : center; }
+table.emp_exp_frame table.data td.list     { width : 32px; text-align : center; padding:4px 0px 0px 0px; }
+table.emp_exp_frame table.data td.info     { width :376px; text-align : left;   }
+table.emp_exp_frame table.data td.receipt  { width : 27px; text-align : left;   }
+table.emp_exp_frame table.data td.exchange { width : 27px; text-align : left;   }
+table.emp_exp_frame table.data td.tax      { width : 27px; text-align : left;   }
+table.emp_exp_frame table.data td.cost     { width : 92px; text-align : left;   }
+table.emp_exp_frame table.data td.cost_s   { width : 92px; text-align : right;  }
+table.emp_exp_frame table.data td.note     { width :115px; text-align : left;   } /* 除：スクロールバー幅(17px) */
+table.emp_exp_frame table.data td.note_s   { width :169px; text-align : left;   } /* 除：スクロールバー幅(17px) */
+table.emp_exp_frame table.data table.info {
+    width               : 376px;
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.emp_exp_frame table.data table.info td {
+    vertical-align      : middle;
+    padding             : 0px;
+}
+table.emp_exp_frame table.data td.curr_label  { height:26px; vertical-align: center; }
+table.emp_exp_frame table.data td.rate_label  { height:26px; vertical-align: center; }
+table.emp_exp_frame table.data td.fore_label  { height:26px; vertical-align: center; }
+
+table.emp_exp_frame table.data div.curr_label { font-size: 11px !important; margin-left:2px; margin-right:2px; } /* 通貨名 */
+table.emp_exp_frame table.data div.rate_label { font-size: 11px !important; margin-left:2px; margin-right:2px; } /* 換算レート */
+table.emp_exp_frame table.data div.fore_label { font-size: 11px !important; margin-left:2px; margin-right:2px; } /* 現地金額 */
+
+table.emp_exp_frame table.data td.taxtyp_label { height:26px; vertical-align: center; }
+table.emp_exp_frame table.data td.notax_label  { height:26px; vertical-align: center; }
+table.emp_exp_frame table.data td.tax_label    { height:26px; vertical-align: center; }
+
+table.emp_exp_frame table.data div.notax_label     { font-size: 11px !important; margin-left:2px; margin-right:2px; } /* 税抜金額 */
+table.emp_exp_frame table.data div.tax_label       { font-size: 11px !important; margin-left:2px; margin-right:2px; } /* 消費税 */
+table.emp_exp_frame table.data select.taxtyp_label { font-size: 12px !important; margin-left:2px; margin-right:2px; } /* 税タイプ */
+/* フッタ部 */
+table.emp_exp_frame table.foot {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border-top          : 1px solid #C1C1C1;
+    border-left         : 1px solid #74A3C5;
+    border-right        : 1px solid #74A3C5;
+    border-bottom       : 1px solid #74A3C5;
+}
+table.emp_exp_frame table.foot td {
+    vertical-align      : middle;
+    padding             : 0px;
+    height              : 24px;
+}
+table.emp_exp_frame table.foot td.plus     { width : 34px; text-align : left; }
+table.emp_exp_frame table.foot td.blank1   { width :454px; }
+table.emp_exp_frame table.foot td.blank1_s { width :449px; }
+table.emp_exp_frame table.foot td.gokei    { width : 52px; text-align : left; }
+table.emp_exp_frame table.foot td.sum      { width :116px; text-align : right; font-family : Verdana; }
+table.emp_exp_frame table.foot td.blank2   { width : 132px; }
+table.emp_exp_frame table.foot td.blank2_s { width : 186px; }
+
+/* ch税金計算ボタン*/
+td.tax a.enableBut{
+	display:block;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+    background-image: url(../image/TaxBut.gif);
+	background-position:0 0;
+}
+
+td.tax a.enableBut:hover{
+	display:block;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+    background-image: url(../image/TaxBut.gif);
+	background-position:0 -20px;
+}
+
+td.tax a.taxOn{
+	background-position:0 -40px;
+}
+td.tax a.disableBut{
+	visibility:hidden;
+}
+
+/* ch税金手動入力インジケータ */
+div.enableButHand{
+	width:20px;
+	height:20px;
+	cursor:pointer;
+    background-image: url(../image/HandIn.gif);
+	background-position:0 -40px;
+}
+
+div.normalButHand{
+	width:20px;
+	height:20px;
+	cursor:pointer;
+    background-image: url(../image/HandIn.gif);
+	background-position:0 0;
+}
+
+div.disableButHand{
+	width:20px;
+	height:20px;
+    background-image: url(../image/HandIn.gif);
+	background-position:0 -20px;
+}
+
+div.updateRate{
+	display:block;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+    background-image: url(../image/update.gif);
+}
+/*----------------------------------------------------------------------------*/
+/* 駅探検索ダイアログ */
+/*----------------------------------------------------------------------------*/
+table.ekitan_search_frame {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.ekitan_search_frame td {
+    vertical-align      : middle;
+    text-align          : center;
+    padding             : 0px;
+}
+table.ekitan_search_frame table.horiz {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+/* 検索条件入力部 */
+table.ekitan_search_frame table.cond {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px 54px;
+    border              : none;
+}
+table.ekitan_search_frame table.cond td {
+    text-align          : center;
+    vertical-align      : middle;
+    font-size           : 12px !important;
+}
+/* ヘッダ部 */
+table.ekitan_search_frame table.head {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.ekitan_search_frame table.head th {
+    text-align          : center;
+    vertical-align      : middle;
+    background-color    : #74A3C5;
+    color               : white;
+    padding             : 4px 0px 1px 0px;
+    font-size           : 12px !important;
+    font-weight         : bold;
+}
+table.ekitan_search_frame table.head th.chk {
+    width               : 26px;
+}
+table.ekitan_search_frame table.head th.cost {
+    width               : 110px;
+}
+table.ekitan_search_frame table.head th.route{
+    width               : 576px;
+}
+/* データ部 */
+table.ekitan_search_frame div.scroll_area {
+    height              : 250px;
+    overflow            : scroll;
+    border              : 1px solid #74A3C5;
+    margin              : 0px;
+    -webkit-overflow-scrolling: auto;
+}
+table.ekitan_search_frame table.data {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.ekitan_search_frame table.data tr.row {
+    height              : 40px;
+}
+table.ekitan_search_frame table.data tr.even {
+    background-color    : #FEFEFE;
+}
+table.ekitan_search_frame table.data tr.odd {
+    background-color    : #F4F7F9;
+}
+table.ekitan_search_frame table.data tr:hover {
+    background-color    : #d0ffd0;
+}
+table.ekitan_search_frame table.data td.cell {
+    text-align          : center;
+    vertical-align      : middle;
+    font-size           : 12px !important;
+    padding             : 0px;
+    cursor              : poitner;
+}
+table.ekitan_search_frame table.data td.chk {
+    width               : 26px;
+}
+table.ekitan_search_frame table.data td.cost {
+    width               : 110px;
+    border-left         : 1px dashed #ADA6AD;
+}
+table.ekitan_search_frame table.data td.route {
+    width               : 612px;
+    text-align          : left;
+    border-left         : 1px dashed #ADA6AD;
+}
+/* データ部の経路エリア */
+table.ekitan_route {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.ekitan_route td {
+    text-align          : center;
+    vertical-align      : middle;
+    padding             : 0px 4px !important;
+    font-size           : 11px !important;
+    white-space         : nowrap;
+}
+table.ekitan_route td.station {
+    color               : #000000;
+}
+table.ekitan_route td.way {
+    color               : #5A92C6;
+}
+table.ekitan_route td.under {
+}
+/*----------------------------------------------------------------------------*/
+/* 駅探検索履歴ダイアログ */
+/*----------------------------------------------------------------------------*/
+table.ekitan_his_frame {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.ekitan_his_frame td {
+    vertical-align      : middle;
+    text-align          : center;
+    padding             : 0px;
+}
+table.ekitan_his_frame table.horiz {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+/* ヘッダ部 */
+table.ekitan_his_frame table.head {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.ekitan_his_frame table.head th {
+    text-align          : center;
+    vertical-align      : middle;
+    background-color    : #74A3C5;
+    color               : white;
+    padding             : 4px 0px 1px 0px;
+    font-size           : 12px !important;
+    font-weight         : bold;
+}
+/* データ部 */
+table.ekitan_his_frame div.scroll_area {
+    overflow            : scroll;
+    border              : 1px solid #74A3C5;
+    margin              : 0px;
+    -webkit-overflow-scrolling: auto;
+}
+table.ekitan_his_frame div.scroll_horiz {
+    overflow-x          : scroll;
+    overflow-y          : hidden;
+    border              : 1px solid #74A3C5;
+    margin              : 0px;
+}
+table.ekitan_his_frame table.data {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+    margin              : 0px;
+    border              : none;
+}
+table.ekitan_his_frame table.data tr.row {
+    height              : 40px;
+}
+table.ekitan_his_frame table.data tr.even {
+    background-color    : #FEFEFE;
+}
+table.ekitan_his_frame table.data tr.odd {
+    background-color    : #F4F7F9;
+}
+table.ekitan_his_frame table.data tr:hover {
+    background-color    : #d0ffd0;
+}
+table.ekitan_his_frame table.data td.cell {
+    text-align          : center;
+    vertical-align      : middle;
+    font-size           : 12px !important;
+    padding             : 0px;
+    cursor              : poitner;
+}
+/*----------------------------------------------------------------------------*/
+/* AtkTimeReportView.page  */
+/*----------------------------------------------------------------------------*/
+.time_graph_top {
+    background-image    : url(../image/time-graph.png);
+    background-repeat   : no-repeat;
+    background-position : left top;
+    width               : 402px;
+    height              : 28px;
+}
+
+.time_graph_area {
+    background-image    : url(../image/time-graph-area2.png);
+    background-repeat   : no-repeat;
+    background-position : -173px -3px;
+    width               : 400px;
+    height              : 48px;
+    border              : 1px solid #728EA5;
+    position            : relative;
+    background-color    : #EFF7F7;
+}
+/*----------------------------------------------------------------------------*/
+table.d_job_table {
+    border-collapse     :collapse;
+    padding             : 0p;
+    margin              : 0p;
+}
+table.d_job_table tr td {
+    background-color    : #CBDCE8;
+}
+/*----------------------------------------------------------------------------*/
+.ekitan_option_tbl {
+    border-collapse     : collapse;
+    border-spacing      : 0px;
+}
+.ekitan_option_tbl td {
+    padding             : 0px 8px;
+    white-space         : nowrap;
+    vertical-align      : middle;
+}
+/*----------------------------------------------------------------------------*/
+.pp_ico_st {
+    z-index             : 210;
+    background-color    : transparent;
+    position            : absolute;
+}
+.pp_v_dashbar {
+    z-index             : 211;
+    background-color    : transparent;
+    position            : absolute;
+}
+/*----------------------------------------------------------------------------*/
+.messageArea:focus {
+    outline: none;
+}

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+  Comparing two different types of values. Expected undefined but received object."
+`;
+
+exports[`reducer() APPROVALS-PC/UI/ATT-DAILY-FIX/CHECKED_IDS/CLEAR 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"ids\\": Array [
+-     \\"0001\\",
+-     \\"0002\\",
+-   ],
+-   \\"max\\": 10,
++   \\"ids\\": Array [],
++   \\"max\\": 100,
+  }"
+`;
+
+exports[`reducer() APPROVALS-PC/UI/ATT-DAILY-FIX/CHECKED_IDS/SET 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"ids\\": Array [],
++   \\"ids\\": Array [
++     \\"0001\\",
++     \\"0002\\",
++   ],
+    \\"max\\": 100,
+  }"
+`;
+
+exports[`reducer() APPROVALS-PC/UI/ATT-DAILY-FIX/CHECKED_IDS/SET_MAX 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"ids\\": Array [],
+-   \\"max\\": 100,
++   \\"max\\": 15,
+  }"
+`;

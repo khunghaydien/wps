@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`initialize() should fetch timesheet when nothing arguments. 1`] = `
+Array [
+  Object {
+    "type": "MOBILE_APP/MODELES/ATTENDANCE/TIMESHEET/UI/PAGING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/CLEAR",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [],
+    "type": "MOCK/COMMONS/ACTIONS/GET_USER_SETTING",
+  },
+  Object {
+    "payload": "Mock timesheet()",
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/PAGING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "Mock timesheet()",
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`initialize() should fetch timesheet when nothing cache. 1`] = `
+Array [
+  Object {
+    "type": "MOBILE_APP/MODELES/ATTENDANCE/TIMESHEET/UI/PAGING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/CLEAR",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [],
+    "type": "MOCK/COMMONS/ACTIONS/GET_USER_SETTING",
+  },
+  Object {
+    "payload": "Mock timesheet(2010-01-01)",
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/PAGING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "Mock timesheet(2010-01-01)",
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`initialize() should fetch timesheet when outside period cache. 1`] = `
+Array [
+  Object {
+    "type": "MOBILE_APP/MODELES/ATTENDANCE/TIMESHEET/UI/PAGING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/CLEAR",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [],
+    "type": "MOCK/COMMONS/ACTIONS/GET_USER_SETTING",
+  },
+  Object {
+    "payload": "Mock timesheet(2020-03-01)",
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/PAGING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "Mock timesheet(2020-03-01)",
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;
+
+exports[`initialize() should not fetch timesheet when having cache. 1`] = `
+Array [
+  Object {
+    "type": "MOBILE_APP/MODELES/ATTENDANCE/TIMESHEET/UI/PAGING/CLEAR",
+  },
+  Object {
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/CLEAR",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "START_LOADING",
+  },
+  Object {
+    "payload": Array [],
+    "type": "MOCK/COMMONS/ACTIONS/GET_USER_SETTING",
+  },
+  Object {
+    "payload": Object {
+      "endDate": "2010-01-31",
+      "startDate": "2010-01-01",
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/UI/PAGING/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "endDate": "2010-01-31",
+      "startDate": "2010-01-01",
+    },
+    "type": "MOBILE_APP/MODULES/ATTENDANCE/TIMESHEET/ENTITIES/FETCH_SUCCESS",
+  },
+  Object {
+    "payload": "TEST UUID V4",
+    "type": "END_LOADING",
+  },
+]
+`;

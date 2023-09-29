@@ -1,0 +1,65 @@
+.ts-modal {
+  position: fixed;
+  z-index: 5100000;
+  top: 120px;
+  right: 0;
+  bottom: 120px;
+  left: 0;
+  font-family: 'Salesforce Sans', Arial, sans-serif;
+}
+
+.ts-modal__overlay {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: default;
+}
+
+.ts-modal__wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+}
+
+.ts-modal__contents {
+  max-height: 576px;
+  background-color: #fff;
+  border-radius: 4px 4px 4px 4px;
+}
+$v: ts-modal-pc;
+
+.#{$v} {
+  &-enter {
+    opacity: 0.01;
+    transition: opacity 0.3s ease-in;
+
+    &.#{$v}-enter-active {
+      opacity: 1;
+    }
+  }
+
+  &-appear {
+    opacity: 0.01;
+    transition: opacity 0.3s ease-in;
+
+    &.#{$v}-appear-active {
+      opacity: 1;
+    }
+  }
+
+  &-leave {
+    opacity: 0.9;
+    transition: opacity 0.3s ease-out;
+
+    &.#{$v}-leave-active {
+      opacity: 0;
+    }
+  }
+}

@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"baseRecord\\": Object {
++     \\"code\\": \\"\\",
++     \\"displayName_L0\\": \\"\\",
++     \\"displayName_L1\\": \\"\\",
++     \\"displayName_L2\\": \\"\\",
++     \\"firstName_L0\\": \\"\\",
++     \\"firstName_L1\\": \\"\\",
++     \\"firstName_L2\\": \\"\\",
++     \\"hiredDate\\": \\"\\",
++     \\"id\\": \\"\\",
++     \\"lastName_L0\\": \\"\\",
++     \\"lastName_L1\\": \\"\\",
++     \\"lastName_L2\\": \\"\\",
++     \\"middleName_L0\\": \\"\\",
++     \\"middleName_L1\\": \\"\\",
++     \\"middleName_L2\\": \\"\\",
++     \\"name\\": \\"\\",
++     \\"resignationDate\\": \\"\\",
++     \\"userId\\": \\"\\",
++     \\"userName\\": \\"\\",
++     \\"validFrom\\": \\"\\",
++     \\"validTo\\": \\"\\",
++   },
++   \\"historyRecord\\": Object {
++     \\"additionalDepartmentId\\": \\"\\",
++     \\"additionalTitle_L0\\": \\"\\",
++     \\"additionalTitle_L1\\": \\"\\",
++     \\"additionalTitle_L2\\": \\"\\",
++     \\"agreementAlertSetting\\": Object {
++       \\"name\\": \\"\\",
++     },
++     \\"agreementAlertSettingId\\": \\"\\",
++     \\"approvalAuthority01\\": \\"\\",
++     \\"approver01\\": Object {
++       \\"code\\": \\"\\",
++       \\"name\\": \\"\\",
++     },
++     \\"approver01Id\\": \\"\\",
++     \\"approver02\\": Object {
++       \\"code\\": \\"\\",
++       \\"name\\": \\"\\",
++     },
++     \\"approver02Id\\": \\"\\",
++     \\"approver03\\": Object {
++       \\"code\\": \\"\\",
++       \\"name\\": \\"\\",
++     },
++     \\"approver03Id\\": \\"\\",
++     \\"approver04\\": Object {
++       \\"code\\": \\"\\",
++       \\"name\\": \\"\\",
++     },
++     \\"approver04Id\\": \\"\\",
++     \\"approver05\\": Object {
++       \\"code\\": \\"\\",
++       \\"name\\": \\"\\",
++     },
++     \\"approver05Id\\": \\"\\",
++     \\"approver06\\": Object {
++       \\"code\\": \\"\\",
++       \\"name\\": \\"\\",
++     },
++     \\"approver06Id\\": \\"\\",
++     \\"approver07\\": Object {
++       \\"code\\": \\"\\",
++       \\"name\\": \\"\\",
++     },
++     \\"approver07Id\\": \\"\\",
++     \\"approver08\\": Object {
++       \\"code\\": \\"\\",
++       \\"name\\": \\"\\",
++     },
++     \\"approver08Id\\": \\"\\",
++     \\"approver09\\": Object {
++       \\"code\\": \\"\\",
++       \\"name\\": \\"\\",
++     },
++     \\"approver09Id\\": \\"\\",
++     \\"approver10\\": Object {
++       \\"code\\": \\"\\",
++       \\"name\\": \\"\\",
++     },
++     \\"approver10Id\\": \\"\\",
++     \\"baseId\\": \\"\\",
++     \\"calendarId\\": \\"\\",
++     \\"comment\\": \\"\\",
++     \\"commuterPassAvailable\\": \\"\\",
++     \\"costCenterId\\": \\"\\",
++     \\"department\\": Object {
++       \\"name\\": \\"\\",
++     },
++     \\"departmentId\\": \\"\\",
++     \\"expEmployeeGroupId\\": \\"\\",
++     \\"id\\": \\"\\",
++     \\"jobGradeId\\": \\"\\",
++     \\"jorudanRoute\\": null,
++     \\"manager\\": Object {
++       \\"code\\": \\"\\",
++       \\"name\\": \\"\\",
++     },
++     \\"managerId\\": \\"\\",
++     \\"permissionId\\": \\"\\",
++     \\"primary\\": false,
++     \\"revisionType\\": \\"\\",
++     \\"subRoleKey\\": \\"\\",
++     \\"timeSetting\\": Object {
++       \\"name\\": \\"\\",
++     },
++     \\"timeSettingId\\": \\"\\",
++     \\"title\\": \\"\\",
++     \\"title_L0\\": \\"\\",
++     \\"title_L1\\": \\"\\",
++     \\"title_L2\\": \\"\\",
++     \\"userData01\\": \\"\\",
++     \\"userData02\\": \\"\\",
++     \\"userData03\\": \\"\\",
++     \\"userData04\\": \\"\\",
++     \\"userData05\\": \\"\\",
++     \\"userData06\\": \\"\\",
++     \\"userData07\\": \\"\\",
++     \\"userData08\\": \\"\\",
++     \\"userData09\\": \\"\\",
++     \\"userData10\\": \\"\\",
++     \\"validDateFrom\\": \\"\\",
++     \\"validDateTo\\": \\"\\",
++     \\"workingType\\": Object {
++       \\"name\\": \\"\\",
++     },
++     \\"workingTypeId\\": \\"\\",
++   },
++   \\"selectedHistoryId\\": \\"\\",
++   \\"selectedSubRoleKey\\": \\"\\",
++ }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/EMPLOYEE/UI/DETAIL/INITIALIZE 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/EMPLOYEE/UI/DETAIL/SET_BASE_RECORD 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,28 +1,24 @@
+  Object {
+    \\"baseRecord\\": Object {
+-     \\"code\\": \\"\\",
+-     \\"displayName_L0\\": \\"\\",
+-     \\"displayName_L1\\": \\"\\",
+-     \\"displayName_L2\\": \\"\\",
+-     \\"firstName_L0\\": \\"\\",
+-     \\"firstName_L1\\": \\"\\",
+-     \\"firstName_L2\\": \\"\\",
+-     \\"hiredDate\\": \\"\\",
+-     \\"id\\": \\"\\",
+-     \\"lastName_L0\\": \\"\\",
+-     \\"lastName_L1\\": \\"\\",
+-     \\"lastName_L2\\": \\"\\",
+-     \\"middleName_L0\\": \\"\\",
+-     \\"middleName_L1\\": \\"\\",
+-     \\"middleName_L2\\": \\"\\",
+-     \\"name\\": \\"\\",
+-     \\"resignationDate\\": \\"\\",
+-     \\"userId\\": \\"\\",
+-     \\"userName\\": \\"\\",
+-     \\"validFrom\\": \\"\\",
+-     \\"validTo\\": \\"\\",
++     \\"code\\": \\"code\\",
++     \\"displayName_L0\\": \\"displayName_L0\\",
++     \\"displayName_L1\\": \\"displayName_L1\\",
++     \\"displayName_L2\\": \\"displayName_L2\\",
++     \\"firstName_L0\\": \\"firstName_L0\\",
++     \\"firstName_L1\\": \\"firstName_L1\\",
++     \\"firstName_L2\\": \\"firstName_L2\\",
++     \\"id\\": \\"id\\",
++     \\"lastName_L0\\": \\"lastName_L0\\",
++     \\"lastName_L1\\": \\"lastName_L1\\",
++     \\"lastName_L2\\": \\"lastName_L2\\",
++     \\"middleName_L0\\": \\"middleName_L0\\",
++     \\"middleName_L1\\": \\"middleName_L1\\",
++     \\"middleName_L2\\": \\"middleName_L2\\",
++     \\"name\\": \\"name\\",
++     \\"userId\\": \\"userId\\",
++     \\"userName\\": \\"userName\\",
+    },
+    \\"historyRecord\\": Object {
+      \\"additionalDepartmentId\\": \\"\\",
+      \\"additionalTitle_L0\\": \\"\\",
+      \\"additionalTitle_L1\\": \\"\\","
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/EMPLOYEE/UI/DETAIL/SET_BASE_RECORD_BY_KEY_VALUE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -13,11 +13,11 @@
+      \\"lastName_L1\\": \\"\\",
+      \\"lastName_L2\\": \\"\\",
+      \\"middleName_L0\\": \\"\\",
+      \\"middleName_L1\\": \\"\\",
+      \\"middleName_L2\\": \\"\\",
+-     \\"name\\": \\"\\",
++     \\"name\\": \\"Name\\",
+      \\"resignationDate\\": \\"\\",
+      \\"userId\\": \\"\\",
+      \\"userName\\": \\"\\",
+      \\"validFrom\\": \\"\\",
+      \\"validTo\\": \\"\\","
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/EMPLOYEE/UI/DETAIL/SET_HISTORY_RECORD 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -21,114 +21,63 @@
+      \\"userName\\": \\"\\",
+      \\"validFrom\\": \\"\\",
+      \\"validTo\\": \\"\\",
+    },
+    \\"historyRecord\\": Object {
+-     \\"additionalDepartmentId\\": \\"\\",
+-     \\"additionalTitle_L0\\": \\"\\",
+-     \\"additionalTitle_L1\\": \\"\\",
+-     \\"additionalTitle_L2\\": \\"\\",
+      \\"agreementAlertSetting\\": Object {
+-       \\"name\\": \\"\\",
++       \\"name\\": \\"agreementAlertSettingName\\",
+      },
+-     \\"agreementAlertSettingId\\": \\"\\",
+-     \\"approvalAuthority01\\": \\"\\",
++     \\"agreementAlertSettingId\\": \\"agreementAlertSettingId\\",
++     \\"approvalAuthority01\\": \\"approverAuthority01\\",
+      \\"approver01\\": Object {
+-       \\"code\\": \\"\\",
+-       \\"name\\": \\"\\",
+-     },
+-     \\"approver01Id\\": \\"\\",
+-     \\"approver02\\": Object {
+-       \\"code\\": \\"\\",
+-       \\"name\\": \\"\\",
++       \\"code\\": \\"approver01Code\\",
++       \\"name\\": \\"approver01Name\\",
+      },
+-     \\"approver02Id\\": \\"\\",
+-     \\"approver03\\": Object {
+-       \\"code\\": \\"\\",
+-       \\"name\\": \\"\\",
++     \\"approver01Id\\": \\"approver01Id\\",
++     \\"baseId\\": \\"baseId\\",
++     \\"calendarId\\": \\"calenderId\\",
++     \\"comment\\": \\"comment\\",
++     \\"commuterPassAvailable\\": \\"commuterPassAvailable\\",
++     \\"department\\": Object {
++       \\"name\\": \\"departmentName\\",
+      },
+-     \\"approver03Id\\": \\"\\",
+-     \\"approver04\\": Object {
+-       \\"code\\": \\"\\",
+-       \\"name\\": \\"\\",
+-     },
+-     \\"approver04Id\\": \\"\\",
+-     \\"approver05\\": Object {
+-       \\"code\\": \\"\\",
+-       \\"name\\": \\"\\",
+-     },
+-     \\"approver05Id\\": \\"\\",
+-     \\"approver06\\": Object {
+-       \\"code\\": \\"\\",
+-       \\"name\\": \\"\\",
+-     },
+-     \\"approver06Id\\": \\"\\",
+-     \\"approver07\\": Object {
+-       \\"code\\": \\"\\",
+-       \\"name\\": \\"\\",
+-     },
+-     \\"approver07Id\\": \\"\\",
+-     \\"approver08\\": Object {
+-       \\"code\\": \\"\\",
+-       \\"name\\": \\"\\",
+-     },
+-     \\"approver08Id\\": \\"\\",
+-     \\"approver09\\": Object {
+-       \\"code\\": \\"\\",
+-       \\"name\\": \\"\\",
+-     },
+-     \\"approver09Id\\": \\"\\",
+-     \\"approver10\\": Object {
+-       \\"code\\": \\"\\",
+-       \\"name\\": \\"\\",
++     \\"departmentId\\": \\"departmentId\\",
++     \\"id\\": \\"id\\",
++     \\"jorudanRoute\\": Array [
++       Object {
++         \\"fare1\\": 0,
++         \\"fare3\\": 0,
++         \\"fare6\\": 0,
++         \\"pashList\\": Array [
++           Object {
++             \\"fromName\\": \\"fromName\\",
++             \\"lineName\\": \\"lineName\\",
++             \\"lineType\\": \\"limeType\\",
++             \\"toName\\": \\"toName\\",
+            },
+-     \\"approver10Id\\": \\"\\",
+-     \\"baseId\\": \\"\\",
+-     \\"calendarId\\": \\"\\",
+-     \\"comment\\": \\"\\",
+-     \\"commuterPassAvailable\\": \\"\\",
+-     \\"costCenterId\\": \\"\\",
+-     \\"department\\": Object {
+-       \\"name\\": \\"\\",
++         ],
+        },
+-     \\"departmentId\\": \\"\\",
+-     \\"expEmployeeGroupId\\": \\"\\",
+-     \\"id\\": \\"\\",
+-     \\"jobGradeId\\": \\"\\",
+-     \\"jorudanRoute\\": null,
++     ],
+      \\"manager\\": Object {
+-       \\"code\\": \\"\\",
+-       \\"name\\": \\"\\",
++       \\"code\\": \\"managerCode\\",
++       \\"name\\": \\"managerName\\",
+      },
+-     \\"managerId\\": \\"\\",
+-     \\"permissionId\\": \\"\\",
+-     \\"primary\\": false,
+-     \\"revisionType\\": \\"\\",
+-     \\"subRoleKey\\": \\"\\",
++     \\"managerId\\": \\"managerId\\",
++     \\"permissionId\\": \\"permissionId\\",
+      \\"timeSetting\\": Object {
+-       \\"name\\": \\"\\",
++       \\"name\\": \\"timeSettingName\\",
+      },
+-     \\"timeSettingId\\": \\"\\",
+-     \\"title\\": \\"\\",
+-     \\"title_L0\\": \\"\\",
+-     \\"title_L1\\": \\"\\",
+-     \\"title_L2\\": \\"\\",
+-     \\"userData01\\": \\"\\",
+-     \\"userData02\\": \\"\\",
+-     \\"userData03\\": \\"\\",
+-     \\"userData04\\": \\"\\",
+-     \\"userData05\\": \\"\\",
+-     \\"userData06\\": \\"\\",
+-     \\"userData07\\": \\"\\",
+-     \\"userData08\\": \\"\\",
+-     \\"userData09\\": \\"\\",
+-     \\"userData10\\": \\"\\",
+-     \\"validDateFrom\\": \\"\\",
+-     \\"validDateTo\\": \\"\\",
++     \\"timeSettingId\\": \\"timeSettingId\\",
++     \\"title\\": \\"title\\",
++     \\"title_L0\\": \\"title_L0\\",
++     \\"title_L1\\": \\"title_L1\\",
++     \\"title_L2\\": \\"title_L2\\",
++     \\"validDateFrom\\": \\"validDateFrom\\",
++     \\"validDateTo\\": \\"validDateTo\\",
+      \\"workingType\\": Object {
+-       \\"name\\": \\"\\",
++       \\"name\\": \\"workingTypeName\\",
+      },
+-     \\"workingTypeId\\": \\"\\",
++     \\"workingTypeId\\": \\"workingTypeId\\",
+    },
+    \\"selectedHistoryId\\": \\"\\",
+    \\"selectedSubRoleKey\\": \\"\\",
+  }"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/EMPLOYEE/UI/DETAIL/SET_HISTORY_RECORD_BY_KEY_VALUE 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -82,11 +82,11 @@
+        \\"name\\": \\"\\",
+      },
+      \\"approver10Id\\": \\"\\",
+      \\"baseId\\": \\"\\",
+      \\"calendarId\\": \\"\\",
+-     \\"comment\\": \\"\\",
++     \\"comment\\": \\"Comment\\",
+      \\"commuterPassAvailable\\": \\"\\",
+      \\"costCenterId\\": \\"\\",
+      \\"department\\": Object {
+        \\"name\\": \\"\\",
+      },"
+`;
+
+exports[`reducer() ADMIN-PC/MODULES/EMPLOYEE/UI/DETAIL/SET_SELECTED_HISTORY_ID 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -127,8 +127,8 @@
+      \\"workingType\\": Object {
+        \\"name\\": \\"\\",
+      },
+      \\"workingTypeId\\": \\"\\",
+    },
+-   \\"selectedHistoryId\\": \\"\\",
++   \\"selectedHistoryId\\": \\"1234abc\\",
+    \\"selectedSubRoleKey\\": \\"\\",
+  }"
+`;

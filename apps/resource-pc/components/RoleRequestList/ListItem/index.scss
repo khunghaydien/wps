@@ -1,0 +1,125 @@
+@import '../../../../commons/components/psa/variables.scss';
+
+.ts-resource__list-item {
+  padding: $size-m;
+  margin-bottom: $size-xs;
+  background-color: $color-bg-white;
+  border-radius: $size-xs;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+  word-break: break-all;
+
+  &:hover {
+    background-color: $color-btn-hover;
+  }
+
+  &:active {
+    background-color: $color-btn-active;
+  }
+
+  // Add space to accomodate the fixed header height (51px) + normal padding for mouse (8px)
+  &:first-child {
+    margin-top: 69px;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+    border-bottom-left-radius: $size-xs;
+    border-bottom-right-radius: $size-xs;
+  }
+  &__resource-group{
+    word-break: break-word;
+  }
+
+  &__title,
+  &__resource-group,
+  &__manager {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    transition: all 0.3s ease-in;
+    display: inline-block;
+
+    &:hover {
+      white-space: break-spaces;
+      width: auto;
+    }
+  }
+
+  &__cost,
+  &__revenue {
+    display: inline-block;
+    width: 80%;
+    text-align: right;
+  }
+
+  &__received-date,
+  &__assignment-due-date {
+    float: right;
+  }
+
+  &__status-item {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    padding: $size-xxs;
+    text-align: center;
+
+    &.is-requested,
+    &.is-scheduling {
+      background: $color-status-requested;
+      color: $color-bg-white;
+    }
+
+    &.is-soft-booked {
+      background: $color-status-soft-booked;
+      color: $color-bg-white;
+    }
+
+    &.is-completed {
+      background: $color-status-completed;
+      color: $color-bg-white;
+    }
+
+    &.is-in-progress {
+      background: $color-status-progress;
+      color: $color-bg-white;
+    }
+
+    &.is-cancelled {
+      background: $color-status-cancelled;
+    }
+
+    &.is-not-found {
+      background: $color-status-not-found;
+    }
+
+    &.is-in-planning {
+      background: $color-status-planning;
+      color: $color-bg-white;
+    }
+
+    &.is-confirmed {
+      background: $color-status-confirmed;
+      color: $color-bg-white;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .ts-resource__list-item__title {
+    max-width: 200px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .ts-resource__list-item__title,
+  .ts-resource__list-item__manager {
+    max-width: 250px;
+  }
+}
+
+.slds-col {
+  padding: 0 5px 0 0;
+}

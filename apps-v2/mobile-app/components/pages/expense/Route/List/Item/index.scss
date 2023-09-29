@@ -1,0 +1,77 @@
+@import 'mobile-global-imports.scss';
+@import '../../../../../../../commons/styles/exp/variables/colors';
+@import '../../../commons/theme/theme.scss';
+
+.mobile-app-pages-expense-page-route-list-item {
+  .mobile-app-atoms-input--disabled {
+    background-color: $color-gray-200;
+  }
+
+  .main-content {
+    padding: 48px $small-size;
+  }
+
+  &__actions-btn {
+    display: flex;
+    align-items: center;
+    width: 10px;
+    margin-right: 15px;
+  }
+
+  &__route {
+    display: flex;
+    align-items: center;
+  }
+
+  &__route-map-change {
+    margin-top: $medium-size;
+  }
+
+  &__route-fare-type {
+    color: $color-blue-800;
+    font-weight: bold;
+  }
+
+  &__amount-text {
+    border-bottom: 1px solid $color-border;
+    color: $color-blue-800;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+  }
+
+  &__route-amount-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: $extra-small-size;
+  }
+
+  &__route-amount,
+  &__route-return-amount {
+    font-size: $medium-size;
+  }
+
+  &__route-amount {
+    margin-right: $small-size;
+    color: $color-blue-800;
+    font-weight: bold;
+  }
+
+  &__route-return-amount {
+    margin-right: $small-size;
+    color: $color-gray-600;
+  }
+
+  input:disabled,
+  select:disabled,
+  .mobile-app-atoms-input--disabled,
+  .mobile-app-molecules-common-like-input-button__button--disabled {
+    background: $ts-input-field-border-gray-mobile !important;
+    color: $color-text-header-dark !important;
+    opacity: 1; /* required on iOS */
+    -webkit-text-fill-color: $color-text-header-dark;
+    &::placeholder {
+      color: $color-text-header-dark;
+    }
+  }
+}

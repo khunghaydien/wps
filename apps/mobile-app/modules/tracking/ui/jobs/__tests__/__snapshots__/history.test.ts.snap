@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer() /MOBILE-APP/MODULES/TRACKING/UI/JOBS/HISTORY/CLEAR 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`reducer() /MOBILE-APP/MODULES/TRACKING/UI/JOBS/HISTORY/GO 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"current\\": Object {
+-     \\"id\\": \\"5\\",
+-     \\"name\\": \\"5\\",
++     \\"id\\": \\"2\\",
++     \\"name\\": \\"2\\",
+    },
+    \\"parents\\": Array [
+-     Object {
+-       \\"id\\": \\"5\\",
+-       \\"name\\": \\"5\\",
+-     },
+-     Object {
+-       \\"id\\": \\"4\\",
+-       \\"name\\": \\"4\\",
+-     },
+      Object {
+-       \\"id\\": \\"3\\",
+-       \\"name\\": \\"3\\",
+-     },
+-     Object {
+        \\"id\\": \\"2\\",
+        \\"name\\": \\"2\\",
+      },
+      Object {
+        \\"id\\": \\"1\\",
+        \\"name\\": \\"1\\",
+      },
+    ],
+    \\"prev\\": Object {
+-     \\"id\\": \\"4\\",
+-     \\"name\\": \\"4\\",
++     \\"id\\": \\"1\\",
++     \\"name\\": \\"1\\",
+    },
+  }"
+`;
+
+exports[`reducer() /MOBILE-APP/MODULES/TRACKING/UI/JOBS/HISTORY/GO_BACK 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,15 +1,11 @@
+  Object {
+    \\"current\\": Object {
+-     \\"id\\": \\"4\\",
+-     \\"name\\": \\"4\\",
++     \\"id\\": \\"3\\",
++     \\"name\\": \\"3\\",
+    },
+    \\"parents\\": Array [
+-     Object {
+-       \\"id\\": \\"4\\",
+-       \\"name\\": \\"4\\",
+-     },
+      Object {
+        \\"id\\": \\"3\\",
+        \\"name\\": \\"3\\",
+      },
+      Object {
+@@ -20,9 +16,9 @@
+        \\"id\\": \\"1\\",
+        \\"name\\": \\"1\\",
+      },
+    ],
+    \\"prev\\": Object {
+-     \\"id\\": \\"3\\",
+-     \\"name\\": \\"3\\",
++     \\"id\\": \\"2\\",
++     \\"name\\": \\"2\\",
+    },
+  }"
+`;
+
+exports[`reducer() /MOBILE-APP/MODULES/TRACKING/UI/JOBS/HISTORY/PUSH 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+-   \\"current\\": null,
+-   \\"parents\\": Array [],
++   \\"current\\": Object {
++     \\"code\\": \\"012345678901234567890123456789\\",
++     \\"hasJobType\\": true,
++     \\"id\\": \\"a0h2v00000bvdPfAAI\\",
++     \\"name\\": \\"This is so long name. This is so long name. This is so long name.\\",
++     \\"parentId\\": null,
++   },
++   \\"parents\\": Array [
++     Object {
++       \\"code\\": \\"012345678901234567890123456789\\",
++       \\"hasJobType\\": true,
++       \\"id\\": \\"a0h2v00000bvdPfAAI\\",
++       \\"name\\": \\"This is so long name. This is so long name. This is so long name.\\",
++       \\"parentId\\": null,
++     },
++   ],
+    \\"prev\\": null,
+  }"
+`;
+
+exports[`reducer() @@init 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+- Object {}
++ Object {
++   \\"current\\": null,
++   \\"parents\\": Array [],
++   \\"prev\\": null,
++ }"
+`;

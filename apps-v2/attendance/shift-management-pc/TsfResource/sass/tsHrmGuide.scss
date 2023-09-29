@@ -1,0 +1,545 @@
+/*
+	諸届ナビ
+*/
+
+@import "compass";
+
+$fontFamily: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS UI Gothic", Helvetica, Arial, sans-serif;
+$imgDir: '../img/';
+//$blueFontColor: #2a6ba1;
+//$blueBorderColor: #2a6ba1;
+$blueFontColor: #004cff;
+$blueBorderColor: #004cff;
+
+@mixin gray-button {
+	@include border-radius(3px);
+	padding: 5px 10px;
+	background: #9897a5;
+	color: #fff;
+	cursor: pointer;
+	display: table;
+	white-space: nowrap;
+	border: none;
+	font-size: 13px;
+	font-weight: normal;
+	&:hover {
+		background-color: lighten(#9897a5, 10%);
+	}
+}
+@mixin blue-button {
+	@include gray-button;
+	background: #0c8cc8;
+	&:hover {
+		background-color: lighten(#0c8cc8, 10%);
+	}
+}
+@mixin white-button {
+	@include gray-button;
+    background: #ffffff;
+    text-decoration: underline;
+    color: #4A4AFF;
+	&:hover {
+        background: #DCE0F7;
+        color: #0000FF;
+	}
+}
+input[type="button"].gray-button {
+	@include gray-button;
+}
+input[type="button"].blue-button {
+	@include blue-button;
+}
+input[type="button"].white-button {
+	@include white-button;
+}
+button.gray-button {
+	@include gray-button;
+}
+button.blue-button {
+	@include blue-button;
+}
+button.white-button {
+	@include white-button;
+}
+
+#hrmGuideGroups {
+	margin: 0px 50px;
+	> p {
+		font-size: 14px;
+		margin: 10px;
+		text-align: left;
+	}
+	> ol {
+		padding: 0;
+		list-style: none;
+		text-align: left;
+		max-width: 980px;
+		> li {
+			display: inline-block;
+			margin: 4px 0;
+			&:nth-child(2n+1){
+				margin-right: 20px
+			}
+			> button {
+				cursor: pointer;
+				background: url('#{$imgDir}hrm_group_arrow.png') 14px 24px/15px no-repeat #346494;
+				color: #FFF;
+				font-weight: normal;
+				display: inline-block;
+				font-size: 18px;
+				width: 450px;
+				text-align: left;
+				padding: 18px 6px 18px 36px;
+				border: 6px double;
+				border-radius: 0;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				&:hover {
+					background-color:#44a2d4;
+				}
+			}
+		}
+	}
+}
+
+#hrmGuideEvents {
+	margin: 0px 50px;
+	> h2 {
+		border-left: 5px solid #346494;
+		color: #246498;
+		font-size: 17px;
+		display: block;
+		padding: 3px 10px;
+		font-weight: normal;
+		margin: 18px 12px;
+	}
+	> p {
+		font-size: 14px;
+		margin: 10px;
+		text-align: left;
+	}
+	> button {
+		@include white-button;
+		font-size: 12px;
+		margin: 0;
+		display: inline-block;
+		text-align: left;
+		white-space: normal;
+	}
+	> ol {
+		padding: 0;
+		margin: 16px 0;
+		list-style: none;
+		text-align: left;
+		> li {
+			margin: 0;
+			> button {
+				@include white-button;
+				display: inline-block;
+				font-size: 14px;
+				max-width: 100%;
+				text-align: left;
+				white-space: normal;
+			}
+		}
+	}
+}
+div.hrm-guide-submission {
+	margin: 0px 50px;
+	> div {
+		display: table;
+	}
+	> div.hrm-guide-instruction {
+		margin-top: 8px;
+		> div {
+			font-size: 14px !important;
+		}
+	}
+	> div.hrm-guide-preview {
+		margin-top: 8px;
+	}
+	.hrm-guide-submission-table {
+		margin-top: 8px;
+		width: 100%;
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			input[type="checkbox"] {
+				display: none;
+			}
+			span {
+				display: inline-block;
+				width: 15px;
+				height: 15px;
+				border: 1px solid black;
+				background-color: white;
+			}
+			input[type="checkbox"]:checked + span::after {
+				content: "";
+				display: block;
+				position: relative;
+				top: -3px;
+				left: 5px;
+				width: 7px;
+				height: 14px;
+				transform: rotate(40deg);
+				border-bottom: 3px solid black;
+				border-right: 3px solid black;
+			}
+			label {
+				.hrm-guide-noborder span {
+					border: none;
+				}
+				.hrm-guide-whiteCheck input[type="checkbox"]:checked + span::after {
+					border-color: white;
+				}
+			}
+			th {
+				background-color: #9ac7df;
+				color: white;
+				border: 1px solid #dedee4;
+				text-align: center;
+				padding: 3px 8px;
+			}
+			tr:nth-child(even) {
+				background-color: #f4f5f4;
+			}
+			td {
+				border: 1px solid #dedee4;
+				text-align: left;
+				vertical-align: top;
+				padding: 3px 8px;
+				ul, ol {
+					margin: 0 !important;
+					> li {
+						float: none !important;
+						margin: 0 !important;
+					}
+				}
+				ul {
+					list-style-type: disc !important;
+				}
+				ol {
+					list-style-type: decimal !important;
+					-webkit-padding-start: 11px;
+				}
+				a {
+					cursor: pointer;
+					color: $blueFontColor;
+					text-decoration: underline;
+				}
+			}
+			td.hrm-guide-category {
+				color: #222;
+			}
+			td.hrm-guide-item {
+				> a {
+					cursor: pointer;
+					color: $blueFontColor;
+					text-decoration: underline;
+				}
+			}
+			td.hrm-guide-remarks {
+				color: #222;
+			}
+		}
+	}
+}
+#dialogHRMGuide{
+	max-width: 750px;
+}
+table#dlgHrmGuideTable {
+	width: 100%;
+	border-collapse: collapse;
+	min-width: 450px;
+	td.hrm-guide-dlg-cancel {
+		text-align: right;
+		> input[type="button"] {
+			margin-left: auto;
+			margin-right: 0px;
+		}
+	}
+	td.hrm-guide-dlg-body {
+		padding-top: 10px;
+		> div {
+			margin: auto;
+			width: 100%;
+			background-color: #fff;
+			div.hrm-guide-dlg-content {
+				margin: auto;
+				> p {
+					max-width: 88%;
+					margin: auto;
+					padding: 10px 0;
+					color: $blueFontColor;
+					text-align: left;
+				}
+			}
+			div.hrm-guide-dlg-spc {
+				margin: auto;
+				> p {
+					font-size: 0.9em;
+					max-width: 88%;
+					margin: 8px auto;
+					text-align: left;
+					color: #555;
+				}
+			}
+			div.hrm-guide-dlg-select {
+				padding: 2px 0 10px;
+				> ul {
+					list-style: none;
+					width: 100%;
+					padding: 0;
+					> li {
+						margin: 11px auto;
+						text-align: center;
+						width: 275px;
+						> button {
+							@include blue-button;
+							white-space: normal;
+							width: 100%;
+							display: block;
+							text-align: left;
+
+							&.gray{
+								@include gray-button;
+								white-space: normal;
+								width: 100%;
+								display: block;
+								text-align: left;
+							}
+						}
+					}
+				}
+			}
+			div.hrm-guide-dlg-backlink{
+				padding: 6px 10px;
+				> a {
+					font-size: 0.9em;
+				}
+			}
+			div.hrm-guide-dlg-yesno {
+				> div {
+					margin-left: auto;
+					margin-right: auto;
+					display: table;
+					@include clearfix;
+					> div {
+						float: left;
+						margin: 0px 20px;
+					}
+				}
+			}
+		}
+	}
+	#dlgHrmGuideResult {
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			th {
+				background-color: #9ac7df;
+				color: white;
+				border: 1px solid #dedee4;
+				text-align: center;
+			}
+			td {
+				border: 1px solid #dedee4;
+				padding: 1px 4px;
+				width: 50%;
+				> a {
+					color: $blueFontColor;
+				}
+			}
+		}
+	}
+	#dlgHrmGuideDone {
+		> td {
+			text-align: center;
+			> div {
+				margin: 10px auto 0px auto;
+				display: table;
+			}
+		}
+	}
+}
+div#hrmGuidePrint {
+	padding-left: 10px;
+	div.hrm-guide-instruction {
+		margin-top: 8px;
+		> div {
+			font-size: 14px !important;
+			text-align: left;
+		}
+	}
+	table {
+		border-collapse: collapse;
+		th {
+			text-align: center ;
+			border: 1px solid black;
+			color: black ;
+			background-color: #E3EBF1;
+		}
+		td {
+			padding: 3px 8px;
+			text-align: left;
+			border: 1px solid black;
+			background-color: white;
+		}
+	}
+	div.hrm-guide-submission {
+		margin: 0px;
+		.hrm-guide-check {
+			text-align: center;
+			width: 30px;
+		}
+	}
+	div.hrm-guide-empinfo {
+		padding-top:  10px;
+		th {
+			min-width: 100px;
+		}
+	}
+	div.hrm-guide-selected {
+		.hrm-guide-selected-table {
+			margin-top: 8px;
+			width: 100%;
+			th {
+				min-width: 150px;
+			}
+		}
+	}
+}
+
+/*
+	社員情報変更申請ダイアログのCSS(移植)
+*/
+#bodyCell {
+	padding: 0px !important;
+}
+#areaBody {
+	margin: 10px 0px;
+}
+div.areaBody
+,div.dijitDialog #requestEditForm_tbody .empInfo_table div
+,div.dijitDialog #requestEditForm_tbody .empInfo_table td
+,div.dijitDialog #requestEditForm_tbody .empInfo_table input
+,div.dijitDialog #requestEditForm_tbody .empInfo_table select {
+	font-family  : "lucida grande",tahoma,verdana,arial,'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+	font-size	: 12px;
+	margin	   : 2px 4px;
+}
+div.dijitDialog div
+{
+	margin	   : 0px;
+}
+.pane_table div {
+	text-align: left;
+}
+table.pane_table td.employeeNavigation {
+	width: 150px;
+	vertical-align: top;
+	padding: 10px 30px 0px 0px;
+}
+table.pane_table td.employeeNavigation #navigationCursor {
+	font-size: 15pt;
+	position: relative;
+	color: #386497;
+}
+table.pane_table td.employeeNavigation .CategoryNavi {
+	color: #386497;
+	text-align: right;
+	margin: 15px 0px;
+	cursor: pointer;
+}
+table.pane_table td.employeeNavigation .CategoryNavi:hover {
+	text-decoration: underline;
+}
+table.pane_table td.employeeContents {
+	vertical-align: top;
+}
+.requestTemplateName {
+	text-align		: left;
+	font-weight	   : bold;
+	font-size		 : 16px;
+}
+div.dijitDialog .std-button1 div {
+	margin: 5px 10px;
+}
+div.dijitDialog td.SelectEvent {
+	text-align: left;
+	border-bottom: #B8B8CB 1px solid;
+	padding: 5px;
+}
+div.dijitDialog .SelectEvent span,
+div.dijitDialog .RequestReturnEvent span {
+	margin: 3px 5px 3px 3px;
+	color: #667CAD;
+	cursor: pointer;
+}
+div.dijitDialog .RequestReturnEvent span {
+	text-decoration: underline;
+}
+div.dijitDialog .SelectEvent span:hover {
+	text-decoration: underline;
+}
+div.dijitDialog .RequestEventTitle {
+	margin: 3px 5px 3px 3px;
+	background: #256499;
+	color: white;
+	padding: 5px 20px;
+	border-radius: 15px;
+}
+div.dijitDialog .RequestFlowCheck {
+	width: 20px;
+	height: 20px;
+	background-position: -2px -218px;
+	border: 1px #78A1C1 solid;
+	background-color: white;
+}
+div.dijitDialog .RequestFlowRequired,
+div.dijitDialog .RequestFlowRequiredAnnotation {
+	color: red;
+}
+div.dijitDialog .RequestFieldRequired {
+	width: 8px;
+}
+div.dijitDialog .RequestFieldRequired div {
+	color: red;
+}
+div.dijitDialog .RequestSelectFlow {
+	position: relative;
+	left: -4px;
+	color: #667CAD;
+	text-decoration: underline;
+}
+div.dijitDialog .RequestSelectFlow div {
+	cursor: pointer;
+}
+div.dijitDialog .request_Form tr {
+	height: 28px;
+}
+div.dijitDialog .RequestFlowList {
+	height: 100%;
+	overflow-y: auto;
+	vertical-align	: top;
+}
+button.red-button1 {
+	background: #CA5A5A;
+	color: FDFDFD;
+}
+#requestEditForm_tbody .left {
+	width: 160px;
+	text-align: right;
+	color: #667CAD;
+	padding-right: 10px;
+}
+#requestEditForm_tbody .right {
+	max-width: 400px;
+}
+#ChangeRequest {
+	background: white;
+	border: solid lightgray 1px;
+	padding: 5px;
+}
